@@ -1,0 +1,2677 @@
+[
+  {
+    "id": "char_b5c59174",
+    "display_name": {
+      "zh_CN": "Castle-3",
+      "en_US": "Castle-3"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_b5c59174",
+    "is_npc": false
+  },
+  {
+    "id": "char_9cdd81f0",
+    "display_name": {
+      "zh_CN": "Lancet-2",
+      "en_US": "Lancet-2"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_9cdd81f0",
+    "is_npc": false
+  },
+  {
+    "id": "char_7af25d5c",
+    "display_name": {
+      "zh_CN": "Miss.Christine",
+      "en_US": "Miss.Christine"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_7af25d5c",
+    "is_npc": false
+  },
+  {
+    "id": "char_5472b188",
+    "display_name": {
+      "zh_CN": "Mon3tr",
+      "en_US": "Mon3tr"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_5472b188",
+    "is_npc": false
+  },
+  {
+    "id": "char_a8c4568d",
+    "display_name": {
+      "zh_CN": "Pith",
+      "en_US": "Pith"
+    },
+    "faction": "babel",
+    "avatar_key": "char_a8c4568d",
+    "is_npc": false
+  },
+  {
+    "id": "char_60c17eb9",
+    "display_name": {
+      "zh_CN": "Sharp",
+      "en_US": "Sharp"
+    },
+    "faction": "babel",
+    "avatar_key": "char_60c17eb9",
+    "is_npc": false
+  },
+  {
+    "id": "char_1487946d",
+    "display_name": {
+      "zh_CN": "Stormeye",
+      "en_US": "Stormeye"
+    },
+    "faction": "babel",
+    "avatar_key": "char_1487946d",
+    "is_npc": false
+  },
+  {
+    "id": "char_f0f31c97",
+    "display_name": {
+      "zh_CN": "Touch",
+      "en_US": "Touch"
+    },
+    "faction": "babel",
+    "avatar_key": "char_f0f31c97",
+    "is_npc": false
+  },
+  {
+    "id": "char_011_w",
+    "display_name": {
+      "zh_CN": "W",
+      "en_US": "W"
+    },
+    "faction": "babel",
+    "avatar_key": "char_011_w",
+    "is_npc": false
+  },
+  {
+    "id": "char_f01f68e7",
+    "display_name": {
+      "zh_CN": "三角初华",
+      "en_US": "三角初华"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_f01f68e7",
+    "is_npc": false
+  },
+  {
+    "id": "char_52c33639",
+    "display_name": {
+      "zh_CN": "丰川祥子",
+      "en_US": "丰川祥子"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_52c33639",
+    "is_npc": false
+  },
+  {
+    "id": "char_1778bbd4",
+    "display_name": {
+      "zh_CN": "临光",
+      "en_US": "临光"
+    },
+    "faction": "kazimierz",
+    "avatar_key": "char_1778bbd4",
+    "is_npc": false
+  },
+  {
+    "id": "char_5f82f34b",
+    "display_name": {
+      "zh_CN": "乌尔比安",
+      "en_US": "乌尔比安"
+    },
+    "faction": "abyss",
+    "avatar_key": "char_5f82f34b",
+    "is_npc": false
+  },
+  {
+    "id": "char_4786323c",
+    "display_name": {
+      "zh_CN": "乌有",
+      "en_US": "乌有"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_4786323c",
+    "is_npc": false
+  },
+  {
+    "id": "char_3f840778",
+    "display_name": {
+      "zh_CN": "亚叶",
+      "en_US": "亚叶"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_3f840778",
+    "is_npc": false
+  },
+  {
+    "id": "char_4fd08a5e",
+    "display_name": {
+      "zh_CN": "仇白",
+      "en_US": "仇白"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_4fd08a5e",
+    "is_npc": false
+  },
+  {
+    "id": "char_4019_ling",
+    "display_name": {
+      "zh_CN": "令",
+      "en_US": "令"
+    },
+    "faction": "yan",
+    "avatar_key": "char_4019_ling",
+    "is_npc": false
+  },
+  {
+    "id": "char_a2026b00",
+    "display_name": {
+      "zh_CN": "伊内丝",
+      "en_US": "伊内丝"
+    },
+    "faction": "babel",
+    "avatar_key": "char_a2026b00",
+    "is_npc": false
+  },
+  {
+    "id": "char_8bdc21d9",
+    "display_name": {
+      "zh_CN": "伊桑",
+      "en_US": "伊桑"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_8bdc21d9",
+    "is_npc": false
+  },
+  {
+    "id": "char_121_ifrit",
+    "display_name": {
+      "zh_CN": "伊芙利特",
+      "en_US": "伊芙利特"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_121_ifrit",
+    "is_npc": false
+  },
+  {
+    "id": "char_d1a999f1",
+    "display_name": {
+      "zh_CN": "伯塔尼",
+      "en_US": "伯塔尼"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_d1a999f1",
+    "is_npc": false
+  },
+  {
+    "id": "char_82b32841",
+    "display_name": {
+      "zh_CN": "余",
+      "en_US": "余"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_82b32841",
+    "is_npc": false
+  },
+  {
+    "id": "char_014ad081",
+    "display_name": {
+      "zh_CN": "佩佩",
+      "en_US": "佩佩"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_014ad081",
+    "is_npc": false
+  },
+  {
+    "id": "char_af162254",
+    "display_name": {
+      "zh_CN": "傀影",
+      "en_US": "傀影"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_af162254",
+    "is_npc": false
+  },
+  {
+    "id": "char_da0bb5dc",
+    "display_name": {
+      "zh_CN": "克洛丝",
+      "en_US": "克洛丝"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_da0bb5dc",
+    "is_npc": false
+  },
+  {
+    "id": "char_580aa4b2",
+    "display_name": {
+      "zh_CN": "八幡海铃",
+      "en_US": "八幡海铃"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_580aa4b2",
+    "is_npc": false
+  },
+  {
+    "id": "char_f8c04caf",
+    "display_name": {
+      "zh_CN": "凛冬",
+      "en_US": "凛冬"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_f8c04caf",
+    "is_npc": false
+  },
+  {
+    "id": "char_003_kalts",
+    "display_name": {
+      "zh_CN": "凯尔希",
+      "en_US": "凯尔希"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_003_kalts",
+    "is_npc": false
+  },
+  {
+    "id": "char_84fdce1b",
+    "display_name": {
+      "zh_CN": "凯瑟琳",
+      "en_US": "凯瑟琳"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_84fdce1b",
+    "is_npc": false
+  },
+  {
+    "id": "char_291_pepol",
+    "display_name": {
+      "zh_CN": "初雪",
+      "en_US": "初雪"
+    },
+    "faction": "kjerag",
+    "avatar_key": "char_291_pepol",
+    "is_npc": false
+  },
+  {
+    "id": "char_511e2b8a",
+    "display_name": {
+      "zh_CN": "刻俄柏",
+      "en_US": "刻俄柏"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_511e2b8a",
+    "is_npc": false
+  },
+  {
+    "id": "char_125079fb",
+    "display_name": {
+      "zh_CN": "刻刀",
+      "en_US": "刻刀"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_125079fb",
+    "is_npc": false
+  },
+  {
+    "id": "char_6d7c1afb",
+    "display_name": {
+      "zh_CN": "博士",
+      "en_US": "Doctor"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_6d7c1afb",
+    "is_npc": false
+  },
+  {
+    "id": "char_7f560885",
+    "display_name": {
+      "zh_CN": "华法琳",
+      "en_US": "华法琳"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_7f560885",
+    "is_npc": false
+  },
+  {
+    "id": "char_913b04b8",
+    "display_name": {
+      "zh_CN": "卡夫卡",
+      "en_US": "卡夫卡"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_913b04b8",
+    "is_npc": false
+  },
+  {
+    "id": "char_aece7838",
+    "display_name": {
+      "zh_CN": "卡涅利安",
+      "en_US": "卡涅利安"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_aece7838",
+    "is_npc": false
+  },
+  {
+    "id": "char_d6c2daa7",
+    "display_name": {
+      "zh_CN": "卡达",
+      "en_US": "卡达"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_d6c2daa7",
+    "is_npc": false
+  },
+  {
+    "id": "char_27a8a580",
+    "display_name": {
+      "zh_CN": "双月",
+      "en_US": "双月"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_27a8a580",
+    "is_npc": false
+  },
+  {
+    "id": "char_2d2040aa",
+    "display_name": {
+      "zh_CN": "古米",
+      "en_US": "古米"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_2d2040aa",
+    "is_npc": false
+  },
+  {
+    "id": "char_88d8605e",
+    "display_name": {
+      "zh_CN": "可露希尔",
+      "en_US": "可露希尔"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_88d8605e",
+    "is_npc": false
+  },
+  {
+    "id": "char_182_petra",
+    "display_name": {
+      "zh_CN": "可颂",
+      "en_US": "可颂"
+    },
+    "faction": "penguin_logistics",
+    "avatar_key": "char_182_petra",
+    "is_npc": false
+  },
+  {
+    "id": "char_4489b55b",
+    "display_name": {
+      "zh_CN": "史尔特尔",
+      "en_US": "史尔特尔"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_4489b55b",
+    "is_npc": false
+  },
+  {
+    "id": "char_3545e4d1",
+    "display_name": {
+      "zh_CN": "史都华德",
+      "en_US": "史都华德"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_3545e4d1",
+    "is_npc": false
+  },
+  {
+    "id": "char_1159084b",
+    "display_name": {
+      "zh_CN": "号角",
+      "en_US": "号角"
+    },
+    "faction": "victoria",
+    "avatar_key": "char_1159084b",
+    "is_npc": false
+  },
+  {
+    "id": "char_dde64bbe",
+    "display_name": {
+      "zh_CN": "吉星",
+      "en_US": "吉星"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_dde64bbe",
+    "is_npc": false
+  },
+  {
+    "id": "char_14aa5984",
+    "display_name": {
+      "zh_CN": "哈洛德",
+      "en_US": "哈洛德"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_14aa5984",
+    "is_npc": false
+  },
+  {
+    "id": "char_201_gavial",
+    "display_name": {
+      "zh_CN": "嘉维尔",
+      "en_US": "嘉维尔"
+    },
+    "faction": "acahualla",
+    "avatar_key": "char_201_gavial",
+    "is_npc": false
+  },
+  {
+    "id": "char_5178fda8",
+    "display_name": {
+      "zh_CN": "四月",
+      "en_US": "四月"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_5178fda8",
+    "is_npc": false
+  },
+  {
+    "id": "char_5e011deb",
+    "display_name": {
+      "zh_CN": "因陀罗",
+      "en_US": "因陀罗"
+    },
+    "faction": "victoria",
+    "avatar_key": "char_5e011deb",
+    "is_npc": false
+  },
+  {
+    "id": "char_fe4b9fa0",
+    "display_name": {
+      "zh_CN": "地灵",
+      "en_US": "地灵"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_fe4b9fa0",
+    "is_npc": false
+  },
+  {
+    "id": "char_86c6217f",
+    "display_name": {
+      "zh_CN": "坚雷",
+      "en_US": "坚雷"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_86c6217f",
+    "is_npc": false
+  },
+  {
+    "id": "char_167_celya",
+    "display_name": {
+      "zh_CN": "塞雷娅",
+      "en_US": "塞雷娅"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_167_celya",
+    "is_npc": false
+  },
+  {
+    "id": "char_d8f0ccb1",
+    "display_name": {
+      "zh_CN": "夏栎",
+      "en_US": "夏栎"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_d8f0ccb1",
+    "is_npc": false
+  },
+  {
+    "id": "char_193_xi",
+    "display_name": {
+      "zh_CN": "夕",
+      "en_US": "夕"
+    },
+    "faction": "yan",
+    "avatar_key": "char_193_xi",
+    "is_npc": false
+  },
+  {
+    "id": "char_da9f461a",
+    "display_name": {
+      "zh_CN": "多萝西",
+      "en_US": "多萝西"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_da9f461a",
+    "is_npc": false
+  },
+  {
+    "id": "char_e56afc23",
+    "display_name": {
+      "zh_CN": "夜刀",
+      "en_US": "夜刀"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_e56afc23",
+    "is_npc": false
+  },
+  {
+    "id": "char_34aa2bc0",
+    "display_name": {
+      "zh_CN": "夜半",
+      "en_US": "夜半"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_34aa2bc0",
+    "is_npc": false
+  },
+  {
+    "id": "char_14900bbf",
+    "display_name": {
+      "zh_CN": "夜烟",
+      "en_US": "夜烟"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_14900bbf",
+    "is_npc": false
+  },
+  {
+    "id": "char_265_flk",
+    "display_name": {
+      "zh_CN": "夜莺",
+      "en_US": "夜莺"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_265_flk",
+    "is_npc": false
+  },
+  {
+    "id": "char_785b3ab2",
+    "display_name": {
+      "zh_CN": "天火",
+      "en_US": "天火"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_785b3ab2",
+    "is_npc": false
+  },
+  {
+    "id": "char_fe6f4b02",
+    "display_name": {
+      "zh_CN": "奥斯塔",
+      "en_US": "奥斯塔"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_fe6f4b02",
+    "is_npc": false
+  },
+  {
+    "id": "char_5bb39aed",
+    "display_name": {
+      "zh_CN": "奥达",
+      "en_US": "奥达"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_5bb39aed",
+    "is_npc": false
+  },
+  {
+    "id": "char_52811e3f",
+    "display_name": {
+      "zh_CN": "妮芙",
+      "en_US": "妮芙"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_52811e3f",
+    "is_npc": false
+  },
+  {
+    "id": "char_66a39930",
+    "display_name": {
+      "zh_CN": "娜仁图亚",
+      "en_US": "娜仁图亚"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_66a39930",
+    "is_npc": false
+  },
+  {
+    "id": "char_74839a1b",
+    "display_name": {
+      "zh_CN": "娜斯提",
+      "en_US": "娜斯提"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_74839a1b",
+    "is_npc": false
+  },
+  {
+    "id": "char_a67c8fa9",
+    "display_name": {
+      "zh_CN": "子月",
+      "en_US": "子月"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_a67c8fa9",
+    "is_npc": false
+  },
+  {
+    "id": "char_f305dc6f",
+    "display_name": {
+      "zh_CN": "孑",
+      "en_US": "孑"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_f305dc6f",
+    "is_npc": false
+  },
+  {
+    "id": "char_2a6219aa",
+    "display_name": {
+      "zh_CN": "守林人",
+      "en_US": "守林人"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_2a6219aa",
+    "is_npc": false
+  },
+  {
+    "id": "char_e99d2b11",
+    "display_name": {
+      "zh_CN": "安德切尔",
+      "en_US": "安德切尔"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_e99d2b11",
+    "is_npc": false
+  },
+  {
+    "id": "char_0f4ea0b5",
+    "display_name": {
+      "zh_CN": "安比尔",
+      "en_US": "安比尔"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_0f4ea0b5",
+    "is_npc": false
+  },
+  {
+    "id": "char_2a783f40",
+    "display_name": {
+      "zh_CN": "安赛尔",
+      "en_US": "安赛尔"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_2a783f40",
+    "is_npc": false
+  },
+  {
+    "id": "char_a19a8aa6",
+    "display_name": {
+      "zh_CN": "宴",
+      "en_US": "宴"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_a19a8aa6",
+    "is_npc": false
+  },
+  {
+    "id": "char_cd44647a",
+    "display_name": {
+      "zh_CN": "寒檀",
+      "en_US": "寒檀"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_cd44647a",
+    "is_npc": false
+  },
+  {
+    "id": "char_3598d8b5",
+    "display_name": {
+      "zh_CN": "导火索",
+      "en_US": "导火索"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_3598d8b5",
+    "is_npc": false
+  },
+  {
+    "id": "char_2cb8e740",
+    "display_name": {
+      "zh_CN": "小满",
+      "en_US": "小满"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_2cb8e740",
+    "is_npc": false
+  },
+  {
+    "id": "char_86fa9c82",
+    "display_name": {
+      "zh_CN": "山",
+      "en_US": "山"
+    },
+    "faction": "sargon",
+    "avatar_key": "char_86fa9c82",
+    "is_npc": false
+  },
+  {
+    "id": "char_199_mesa",
+    "display_name": {
+      "zh_CN": "崖心",
+      "en_US": "崖心"
+    },
+    "faction": "kjerag",
+    "avatar_key": "char_199_mesa",
+    "is_npc": false
+  },
+  {
+    "id": "char_8f911a0e",
+    "display_name": {
+      "zh_CN": "嵯峨",
+      "en_US": "嵯峨"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_8f911a0e",
+    "is_npc": false
+  },
+  {
+    "id": "char_d9e1912d",
+    "display_name": {
+      "zh_CN": "巡林者",
+      "en_US": "巡林者"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_d9e1912d",
+    "is_npc": false
+  },
+  {
+    "id": "char_f24e7d9f",
+    "display_name": {
+      "zh_CN": "左乐",
+      "en_US": "左乐"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_f24e7d9f",
+    "is_npc": false
+  },
+  {
+    "id": "char_891ba357",
+    "display_name": {
+      "zh_CN": "巫恋",
+      "en_US": "巫恋"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_891ba357",
+    "is_npc": false
+  },
+  {
+    "id": "char_19917308",
+    "display_name": {
+      "zh_CN": "布洛卡",
+      "en_US": "布洛卡"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_19917308",
+    "is_npc": false
+  },
+  {
+    "id": "char_b93cff67",
+    "display_name": {
+      "zh_CN": "帕拉斯",
+      "en_US": "帕拉斯"
+    },
+    "faction": "sargon",
+    "avatar_key": "char_b93cff67",
+    "is_npc": false
+  },
+  {
+    "id": "char_191_chiyue",
+    "display_name": {
+      "zh_CN": "年",
+      "en_US": "年"
+    },
+    "faction": "yan",
+    "avatar_key": "char_191_chiyue",
+    "is_npc": false
+  },
+  {
+    "id": "char_1012_skadi2",
+    "display_name": {
+      "zh_CN": "幽灵鲨",
+      "en_US": "幽灵鲨"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_1012_skadi2",
+    "is_npc": false
+  },
+  {
+    "id": "char_83c0a162",
+    "display_name": {
+      "zh_CN": "异客",
+      "en_US": "异客"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_83c0a162",
+    "is_npc": false
+  },
+  {
+    "id": "char_edfebc83",
+    "display_name": {
+      "zh_CN": "弑君者",
+      "en_US": "弑君者"
+    },
+    "faction": "reunion",
+    "avatar_key": "char_edfebc83",
+    "is_npc": false
+  },
+  {
+    "id": "char_8143c2d2",
+    "display_name": {
+      "zh_CN": "录武官",
+      "en_US": "录武官"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_8143c2d2",
+    "is_npc": false
+  },
+  {
+    "id": "char_102_texas",
+    "display_name": {
+      "zh_CN": "德克萨斯",
+      "en_US": "德克萨斯"
+    },
+    "faction": "penguin_logistics",
+    "avatar_key": "char_102_texas",
+    "is_npc": false
+  },
+  {
+    "id": "char_82f6295e",
+    "display_name": {
+      "zh_CN": "惊蛰",
+      "en_US": "惊蛰"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_82f6295e",
+    "is_npc": false
+  },
+  {
+    "id": "char_fa9aec3b",
+    "display_name": {
+      "zh_CN": "慑砂",
+      "en_US": "慑砂"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_fa9aec3b",
+    "is_npc": false
+  },
+  {
+    "id": "char_9efedb7a",
+    "display_name": {
+      "zh_CN": "慕斯",
+      "en_US": "慕斯"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_9efedb7a",
+    "is_npc": false
+  },
+  {
+    "id": "char_42205e25",
+    "display_name": {
+      "zh_CN": "战车",
+      "en_US": "战车"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_42205e25",
+    "is_npc": false
+  },
+  {
+    "id": "char_e60db099",
+    "display_name": {
+      "zh_CN": "截云",
+      "en_US": "截云"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_e60db099",
+    "is_npc": false
+  },
+  {
+    "id": "char_f9f3ca5f",
+    "display_name": {
+      "zh_CN": "戴菲恩",
+      "en_US": "戴菲恩"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_f9f3ca5f",
+    "is_npc": false
+  },
+  {
+    "id": "char_6107a800",
+    "display_name": {
+      "zh_CN": "拉普兰德",
+      "en_US": "拉普兰德"
+    },
+    "faction": "siracusa",
+    "avatar_key": "char_6107a800",
+    "is_npc": false
+  },
+  {
+    "id": "char_decc944a",
+    "display_name": {
+      "zh_CN": "拜松",
+      "en_US": "拜松"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_decc944a",
+    "is_npc": false
+  },
+  {
+    "id": "char_7465f109",
+    "display_name": {
+      "zh_CN": "提丰",
+      "en_US": "提丰"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_7465f109",
+    "is_npc": false
+  },
+  {
+    "id": "char_7513aee1",
+    "display_name": {
+      "zh_CN": "摆渡人",
+      "en_US": "摆渡人"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_7513aee1",
+    "is_npc": false
+  },
+  {
+    "id": "char_aa6c82c1",
+    "display_name": {
+      "zh_CN": "摩根",
+      "en_US": "摩根"
+    },
+    "faction": "victoria",
+    "avatar_key": "char_aa6c82c1",
+    "is_npc": false
+  },
+  {
+    "id": "char_9675f97e",
+    "display_name": {
+      "zh_CN": "斑点",
+      "en_US": "斑点"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_9675f97e",
+    "is_npc": false
+  },
+  {
+    "id": "char_d204ff7d",
+    "display_name": {
+      "zh_CN": "断崖",
+      "en_US": "断崖"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_d204ff7d",
+    "is_npc": false
+  },
+  {
+    "id": "char_c44f4510",
+    "display_name": {
+      "zh_CN": "断罪者",
+      "en_US": "断罪者"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_c44f4510",
+    "is_npc": false
+  },
+  {
+    "id": "char_263_skadi",
+    "display_name": {
+      "zh_CN": "斯卡蒂",
+      "en_US": "斯卡蒂"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_263_skadi",
+    "is_npc": false
+  },
+  {
+    "id": "char_fddccbc3",
+    "display_name": {
+      "zh_CN": "早露",
+      "en_US": "早露"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_fddccbc3",
+    "is_npc": false
+  },
+  {
+    "id": "char_f5d563aa",
+    "display_name": {
+      "zh_CN": "明椒",
+      "en_US": "明椒"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_f5d563aa",
+    "is_npc": false
+  },
+  {
+    "id": "char_381cca24",
+    "display_name": {
+      "zh_CN": "星极",
+      "en_US": "星极"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_381cca24",
+    "is_npc": false
+  },
+  {
+    "id": "char_137_brownb",
+    "display_name": {
+      "zh_CN": "星熊",
+      "en_US": "星熊"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_137_brownb",
+    "is_npc": false
+  },
+  {
+    "id": "char_caf59647",
+    "display_name": {
+      "zh_CN": "普罗旺斯",
+      "en_US": "普罗旺斯"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_caf59647",
+    "is_npc": false
+  },
+  {
+    "id": "char_7914a511",
+    "display_name": {
+      "zh_CN": "暮落",
+      "en_US": "暮落"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_7914a511",
+    "is_npc": false
+  },
+  {
+    "id": "char_6e915319",
+    "display_name": {
+      "zh_CN": "暴行",
+      "en_US": "暴行"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_6e915319",
+    "is_npc": false
+  },
+  {
+    "id": "char_569d866e",
+    "display_name": {
+      "zh_CN": "暴雨",
+      "en_US": "暴雨"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_569d866e",
+    "is_npc": false
+  },
+  {
+    "id": "char_caf47b3e",
+    "display_name": {
+      "zh_CN": "月见夜",
+      "en_US": "月见夜"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_caf47b3e",
+    "is_npc": false
+  },
+  {
+    "id": "char_0b3b0d0e",
+    "display_name": {
+      "zh_CN": "望",
+      "en_US": "望"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_0b3b0d0e",
+    "is_npc": false
+  },
+  {
+    "id": "char_fe612949",
+    "display_name": {
+      "zh_CN": "末药",
+      "en_US": "末药"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_fe612949",
+    "is_npc": false
+  },
+  {
+    "id": "char_8375f0bb",
+    "display_name": {
+      "zh_CN": "杜宾",
+      "en_US": "杜宾"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_8375f0bb",
+    "is_npc": false
+  },
+  {
+    "id": "char_31c537a1",
+    "display_name": {
+      "zh_CN": "杰西卡",
+      "en_US": "杰西卡"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_31c537a1",
+    "is_npc": false
+  },
+  {
+    "id": "char_4053729a",
+    "display_name": {
+      "zh_CN": "极光",
+      "en_US": "极光"
+    },
+    "faction": "kjerag",
+    "avatar_key": "char_4053729a",
+    "is_npc": false
+  },
+  {
+    "id": "char_141_elyzi",
+    "display_name": {
+      "zh_CN": "极境",
+      "en_US": "极境"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_141_elyzi",
+    "is_npc": false
+  },
+  {
+    "id": "char_70c4b42a",
+    "display_name": {
+      "zh_CN": "林",
+      "en_US": "林"
+    },
+    "faction": "yan",
+    "avatar_key": "char_70c4b42a",
+    "is_npc": false
+  },
+  {
+    "id": "char_3e300804",
+    "display_name": {
+      "zh_CN": "格劳克斯",
+      "en_US": "格劳克斯"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_3e300804",
+    "is_npc": false
+  },
+  {
+    "id": "char_7ed3be70",
+    "display_name": {
+      "zh_CN": "格拉尼",
+      "en_US": "格拉尼"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_7ed3be70",
+    "is_npc": false
+  },
+  {
+    "id": "char_eb700ad1",
+    "display_name": {
+      "zh_CN": "格雷伊",
+      "en_US": "格雷伊"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_eb700ad1",
+    "is_npc": false
+  },
+  {
+    "id": "char_8bc2d96e",
+    "display_name": {
+      "zh_CN": "桑葚",
+      "en_US": "桑葚"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_8bc2d96e",
+    "is_npc": false
+  },
+  {
+    "id": "char_4edc8d49",
+    "display_name": {
+      "zh_CN": "梅",
+      "en_US": "梅"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_4edc8d49",
+    "is_npc": false
+  },
+  {
+    "id": "char_ef0ecb77",
+    "display_name": {
+      "zh_CN": "梅尔",
+      "en_US": "梅尔"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_ef0ecb77",
+    "is_npc": false
+  },
+  {
+    "id": "char_705bda3b",
+    "display_name": {
+      "zh_CN": "梓兰",
+      "en_US": "梓兰"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_705bda3b",
+    "is_npc": false
+  },
+  {
+    "id": "char_213_elite",
+    "display_name": {
+      "zh_CN": "棘刺",
+      "en_US": "棘刺"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_213_elite",
+    "is_npc": false
+  },
+  {
+    "id": "char_1017_skadi2",
+    "display_name": {
+      "zh_CN": "森蚺",
+      "en_US": "森蚺"
+    },
+    "faction": "acahualla",
+    "avatar_key": "char_1017_skadi2",
+    "is_npc": false
+  },
+  {
+    "id": "char_cf5178aa",
+    "display_name": {
+      "zh_CN": "森西",
+      "en_US": "森西"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_cf5178aa",
+    "is_npc": false
+  },
+  {
+    "id": "char_1fcdbc43",
+    "display_name": {
+      "zh_CN": "槐琥",
+      "en_US": "槐琥"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_1fcdbc43",
+    "is_npc": false
+  },
+  {
+    "id": "char_a651dc93",
+    "display_name": {
+      "zh_CN": "歌蕾蒂娅",
+      "en_US": "歌蕾蒂娅"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_a651dc93",
+    "is_npc": false
+  },
+  {
+    "id": "char_e639faa1",
+    "display_name": {
+      "zh_CN": "正义骑士号",
+      "en_US": "正义骑士号"
+    },
+    "faction": "kazimierz",
+    "avatar_key": "char_e639faa1",
+    "is_npc": false
+  },
+  {
+    "id": "char_c982e1a2",
+    "display_name": {
+      "zh_CN": "死芒",
+      "en_US": "死芒"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_c982e1a2",
+    "is_npc": false
+  },
+  {
+    "id": "char_1034_mizuki",
+    "display_name": {
+      "zh_CN": "水月",
+      "en_US": "水月"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_1034_mizuki",
+    "is_npc": false
+  },
+  {
+    "id": "char_9479565f",
+    "display_name": {
+      "zh_CN": "泡普卡",
+      "en_US": "泡普卡"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_9479565f",
+    "is_npc": false
+  },
+  {
+    "id": "char_8f333c1a",
+    "display_name": {
+      "zh_CN": "泥岩",
+      "en_US": "泥岩"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_8f333c1a",
+    "is_npc": false
+  },
+  {
+    "id": "char_99da5df6",
+    "display_name": {
+      "zh_CN": "洛洛",
+      "en_US": "洛洛"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_99da5df6",
+    "is_npc": false
+  },
+  {
+    "id": "char_f37cba01",
+    "display_name": {
+      "zh_CN": "海蒂",
+      "en_US": "海蒂"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_f37cba01",
+    "is_npc": false
+  },
+  {
+    "id": "char_aec92010",
+    "display_name": {
+      "zh_CN": "清流",
+      "en_US": "清流"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_aec92010",
+    "is_npc": false
+  },
+  {
+    "id": "char_27bf42cd",
+    "display_name": {
+      "zh_CN": "温米",
+      "en_US": "温米"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_27bf42cd",
+    "is_npc": false
+  },
+  {
+    "id": "char_74d570ab",
+    "display_name": {
+      "zh_CN": "温蒂",
+      "en_US": "温蒂"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_74d570ab",
+    "is_npc": false
+  },
+  {
+    "id": "char_785038ac",
+    "display_name": {
+      "zh_CN": "火神",
+      "en_US": "火神"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_785038ac",
+    "is_npc": false
+  },
+  {
+    "id": "char_cde3d01f",
+    "display_name": {
+      "zh_CN": "灰喉",
+      "en_US": "灰喉"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_cde3d01f",
+    "is_npc": false
+  },
+  {
+    "id": "char_ffc4ca66",
+    "display_name": {
+      "zh_CN": "灰毫",
+      "en_US": "灰毫"
+    },
+    "faction": "kazimierz",
+    "avatar_key": "char_ffc4ca66",
+    "is_npc": false
+  },
+  {
+    "id": "char_afe86247",
+    "display_name": {
+      "zh_CN": "灰烬",
+      "en_US": "灰烬"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_afe86247",
+    "is_npc": false
+  },
+  {
+    "id": "char_19d718da",
+    "display_name": {
+      "zh_CN": "炎客",
+      "en_US": "炎客"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_19d718da",
+    "is_npc": false
+  },
+  {
+    "id": "char_20eeab7c",
+    "display_name": {
+      "zh_CN": "炎熔",
+      "en_US": "炎熔"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_20eeab7c",
+    "is_npc": false
+  },
+  {
+    "id": "char_8c04a24d",
+    "display_name": {
+      "zh_CN": "烈夏",
+      "en_US": "烈夏"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_8c04a24d",
+    "is_npc": false
+  },
+  {
+    "id": "char_0e96015e",
+    "display_name": {
+      "zh_CN": "焰尾",
+      "en_US": "焰尾"
+    },
+    "faction": "kazimierz",
+    "avatar_key": "char_0e96015e",
+    "is_npc": false
+  },
+  {
+    "id": "char_134_aglina",
+    "display_name": {
+      "zh_CN": "煌",
+      "en_US": "煌"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_134_aglina",
+    "is_npc": false
+  },
+  {
+    "id": "char_2013_cerber",
+    "display_name": {
+      "zh_CN": "燧石",
+      "en_US": "燧石"
+    },
+    "faction": "acahualla",
+    "avatar_key": "char_2013_cerber",
+    "is_npc": false
+  },
+  {
+    "id": "char_9467c671",
+    "display_name": {
+      "zh_CN": "爱丽丝",
+      "en_US": "爱丽丝"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_9467c671",
+    "is_npc": false
+  },
+  {
+    "id": "char_198aa6f4",
+    "display_name": {
+      "zh_CN": "特克诺",
+      "en_US": "特克诺"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_198aa6f4",
+    "is_npc": false
+  },
+  {
+    "id": "char_4087_dowarne",
+    "display_name": {
+      "zh_CN": "特米米",
+      "en_US": "特米米"
+    },
+    "faction": "acahualla",
+    "avatar_key": "char_4087_dowarne",
+    "is_npc": false
+  },
+  {
+    "id": "char_b179f0a3",
+    "display_name": {
+      "zh_CN": "猎蜂",
+      "en_US": "猎蜂"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_b179f0a3",
+    "is_npc": false
+  },
+  {
+    "id": "char_36bb28ec",
+    "display_name": {
+      "zh_CN": "玛恩纳",
+      "en_US": "玛恩纳"
+    },
+    "faction": "kazimierz",
+    "avatar_key": "char_36bb28ec",
+    "is_npc": false
+  },
+  {
+    "id": "char_5f4f4ee1",
+    "display_name": {
+      "zh_CN": "玛露西尔",
+      "en_US": "玛露西尔"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_5f4f4ee1",
+    "is_npc": false
+  },
+  {
+    "id": "char_990543bc",
+    "display_name": {
+      "zh_CN": "玫兰莎",
+      "en_US": "玫兰莎"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_990543bc",
+    "is_npc": false
+  },
+  {
+    "id": "char_94ea01ca",
+    "display_name": {
+      "zh_CN": "白金",
+      "en_US": "白金"
+    },
+    "faction": "kazimierz",
+    "avatar_key": "char_94ea01ca",
+    "is_npc": false
+  },
+  {
+    "id": "char_34f7291d",
+    "display_name": {
+      "zh_CN": "白雪",
+      "en_US": "白雪"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_34f7291d",
+    "is_npc": false
+  },
+  {
+    "id": "char_1fa7bc2c",
+    "display_name": {
+      "zh_CN": "白面鸮",
+      "en_US": "白面鸮"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_1fa7bc2c",
+    "is_npc": false
+  },
+  {
+    "id": "char_fec369bd",
+    "display_name": {
+      "zh_CN": "真理",
+      "en_US": "真理"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_fec369bd",
+    "is_npc": false
+  },
+  {
+    "id": "char_2d38cbab",
+    "display_name": {
+      "zh_CN": "矩",
+      "en_US": "矩"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_2d38cbab",
+    "is_npc": false
+  },
+  {
+    "id": "char_0e93c164",
+    "display_name": {
+      "zh_CN": "石棉",
+      "en_US": "石棉"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_0e93c164",
+    "is_npc": false
+  },
+  {
+    "id": "char_76a7078a",
+    "display_name": {
+      "zh_CN": "砾",
+      "en_US": "砾"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_76a7078a",
+    "is_npc": false
+  },
+  {
+    "id": "char_5894968e",
+    "display_name": {
+      "zh_CN": "祐天寺若麦",
+      "en_US": "祐天寺若麦"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_5894968e",
+    "is_npc": false
+  },
+  {
+    "id": "char_b7612b71",
+    "display_name": {
+      "zh_CN": "空",
+      "en_US": "空"
+    },
+    "faction": "penguin_logistics",
+    "avatar_key": "char_b7612b71",
+    "is_npc": false
+  },
+  {
+    "id": "char_92c7073f",
+    "display_name": {
+      "zh_CN": "空爆",
+      "en_US": "空爆"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_92c7073f",
+    "is_npc": false
+  },
+  {
+    "id": "char_490e8f54",
+    "display_name": {
+      "zh_CN": "米格鲁",
+      "en_US": "米格鲁"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_490e8f54",
+    "is_npc": false
+  },
+  {
+    "id": "char_d088e652",
+    "display_name": {
+      "zh_CN": "红",
+      "en_US": "红"
+    },
+    "faction": "siracusa",
+    "avatar_key": "char_d088e652",
+    "is_npc": false
+  },
+  {
+    "id": "char_ac6a4375",
+    "display_name": {
+      "zh_CN": "红云",
+      "en_US": "红云"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_ac6a4375",
+    "is_npc": false
+  },
+  {
+    "id": "char_21367c43",
+    "display_name": {
+      "zh_CN": "红豆",
+      "en_US": "红豆"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_21367c43",
+    "is_npc": false
+  },
+  {
+    "id": "char_8c23e177",
+    "display_name": {
+      "zh_CN": "绮良",
+      "en_US": "绮良"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_8c23e177",
+    "is_npc": false
+  },
+  {
+    "id": "char_8d11ef81",
+    "display_name": {
+      "zh_CN": "维什戴尔",
+      "en_US": "维什戴尔"
+    },
+    "faction": "babel",
+    "avatar_key": "char_8d11ef81",
+    "is_npc": false
+  },
+  {
+    "id": "char_70349ec8",
+    "display_name": {
+      "zh_CN": "缇缇",
+      "en_US": "缇缇"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_70349ec8",
+    "is_npc": false
+  },
+  {
+    "id": "char_164_mlys",
+    "display_name": {
+      "zh_CN": "缪尔赛思",
+      "en_US": "缪尔赛思"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_164_mlys",
+    "is_npc": false
+  },
+  {
+    "id": "char_b2dcfeed",
+    "display_name": {
+      "zh_CN": "罗宾",
+      "en_US": "罗宾"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_b2dcfeed",
+    "is_npc": false
+  },
+  {
+    "id": "char_0e316ec5",
+    "display_name": {
+      "zh_CN": "老鲤",
+      "en_US": "老鲤"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_0e316ec5",
+    "is_npc": false
+  },
+  {
+    "id": "char_40a6210a",
+    "display_name": {
+      "zh_CN": "耶拉",
+      "en_US": "耶拉"
+    },
+    "faction": "kjerag",
+    "avatar_key": "char_40a6210a",
+    "is_npc": false
+  },
+  {
+    "id": "char_103_angel",
+    "display_name": {
+      "zh_CN": "能天使",
+      "en_US": "能天使"
+    },
+    "faction": "penguin_logistics",
+    "avatar_key": "char_103_angel",
+    "is_npc": false
+  },
+  {
+    "id": "char_d7b7fd4d",
+    "display_name": {
+      "zh_CN": "艾丽妮",
+      "en_US": "艾丽妮"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_d7b7fd4d",
+    "is_npc": false
+  },
+  {
+    "id": "char_b55e79f5",
+    "display_name": {
+      "zh_CN": "艾拉",
+      "en_US": "艾拉"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_b55e79f5",
+    "is_npc": false
+  },
+  {
+    "id": "char_fa7d6c49",
+    "display_name": {
+      "zh_CN": "艾雅法拉",
+      "en_US": "艾雅法拉"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_fa7d6c49",
+    "is_npc": false
+  },
+  {
+    "id": "char_b09c7d04",
+    "display_name": {
+      "zh_CN": "芙兰卡",
+      "en_US": "芙兰卡"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_b09c7d04",
+    "is_npc": false
+  },
+  {
+    "id": "char_6c1fa3d9",
+    "display_name": {
+      "zh_CN": "芙蓉",
+      "en_US": "芙蓉"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_6c1fa3d9",
+    "is_npc": false
+  },
+  {
+    "id": "char_ac098486",
+    "display_name": {
+      "zh_CN": "芬",
+      "en_US": "芬"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_ac098486",
+    "is_npc": false
+  },
+  {
+    "id": "char_fab82588",
+    "display_name": {
+      "zh_CN": "芳汀",
+      "en_US": "芳汀"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_fab82588",
+    "is_npc": false
+  },
+  {
+    "id": "char_f6869f88",
+    "display_name": {
+      "zh_CN": "苇草",
+      "en_US": "苇草"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_f6869f88",
+    "is_npc": false
+  },
+  {
+    "id": "char_49a6c086",
+    "display_name": {
+      "zh_CN": "苏苏洛",
+      "en_US": "苏苏洛"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_49a6c086",
+    "is_npc": false
+  },
+  {
+    "id": "char_b2ab921c",
+    "display_name": {
+      "zh_CN": "若叶睦",
+      "en_US": "若叶睦"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_b2ab921c",
+    "is_npc": false
+  },
+  {
+    "id": "char_58bd76f1",
+    "display_name": {
+      "zh_CN": "苦艾",
+      "en_US": "苦艾"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_58bd76f1",
+    "is_npc": false
+  },
+  {
+    "id": "char_206_mstm",
+    "display_name": {
+      "zh_CN": "莫斯提马",
+      "en_US": "莫斯提马"
+    },
+    "faction": "laterano",
+    "avatar_key": "char_206_mstm",
+    "is_npc": false
+  },
+  {
+    "id": "char_d0d79f43",
+    "display_name": {
+      "zh_CN": "莱伊",
+      "en_US": "莱伊"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_d0d79f43",
+    "is_npc": false
+  },
+  {
+    "id": "char_e0711500",
+    "display_name": {
+      "zh_CN": "莱恩哈特",
+      "en_US": "莱恩哈特"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_e0711500",
+    "is_npc": false
+  },
+  {
+    "id": "char_0758c06a",
+    "display_name": {
+      "zh_CN": "莱欧斯",
+      "en_US": "莱欧斯"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_0758c06a",
+    "is_npc": false
+  },
+  {
+    "id": "char_a8d845da",
+    "display_name": {
+      "zh_CN": "菲亚梅塔",
+      "en_US": "菲亚梅塔"
+    },
+    "faction": "laterano",
+    "avatar_key": "char_a8d845da",
+    "is_npc": false
+  },
+  {
+    "id": "char_0be37750",
+    "display_name": {
+      "zh_CN": "蒂比",
+      "en_US": "蒂比"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_0be37750",
+    "is_npc": false
+  },
+  {
+    "id": "char_235bfa18",
+    "display_name": {
+      "zh_CN": "蓝毒",
+      "en_US": "蓝毒"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_235bfa18",
+    "is_npc": false
+  },
+  {
+    "id": "char_c45dd8d7",
+    "display_name": {
+      "zh_CN": "蕾缪安",
+      "en_US": "蕾缪安"
+    },
+    "faction": "laterano",
+    "avatar_key": "char_c45dd8d7",
+    "is_npc": false
+  },
+  {
+    "id": "char_525cafa8",
+    "display_name": {
+      "zh_CN": "薄绿",
+      "en_US": "薄绿"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_525cafa8",
+    "is_npc": false
+  },
+  {
+    "id": "char_5cdf4e3d",
+    "display_name": {
+      "zh_CN": "薇薇安娜",
+      "en_US": "薇薇安娜"
+    },
+    "faction": "leithanien",
+    "avatar_key": "char_5cdf4e3d",
+    "is_npc": false
+  },
+  {
+    "id": "char_fd4b9793",
+    "display_name": {
+      "zh_CN": "蜜蜡",
+      "en_US": "蜜蜡"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_fd4b9793",
+    "is_npc": false
+  },
+  {
+    "id": "char_5becb380",
+    "display_name": {
+      "zh_CN": "行箸",
+      "en_US": "行箸"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_5becb380",
+    "is_npc": false
+  },
+  {
+    "id": "char_124_kroos",
+    "display_name": {
+      "zh_CN": "角峰",
+      "en_US": "角峰"
+    },
+    "faction": "kjerag",
+    "avatar_key": "char_124_kroos",
+    "is_npc": false
+  },
+  {
+    "id": "char_158_hasyu",
+    "display_name": {
+      "zh_CN": "讯使",
+      "en_US": "讯使"
+    },
+    "faction": "kjerag",
+    "avatar_key": "char_158_hasyu",
+    "is_npc": false
+  },
+  {
+    "id": "char_b18703d0",
+    "display_name": {
+      "zh_CN": "诗怀雅",
+      "en_US": "诗怀雅"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_b18703d0",
+    "is_npc": false
+  },
+  {
+    "id": "char_792caf79",
+    "display_name": {
+      "zh_CN": "诺威尔",
+      "en_US": "诺威尔"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_792caf79",
+    "is_npc": false
+  },
+  {
+    "id": "char_93645523",
+    "display_name": {
+      "zh_CN": "调香师",
+      "en_US": "调香师"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_93645523",
+    "is_npc": false
+  },
+  {
+    "id": "char_701c2643",
+    "display_name": {
+      "zh_CN": "豆苗",
+      "en_US": "豆苗"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_701c2643",
+    "is_npc": false
+  },
+  {
+    "id": "char_f9cbcc16",
+    "display_name": {
+      "zh_CN": "贝娜",
+      "en_US": "贝娜"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_f9cbcc16",
+    "is_npc": false
+  },
+  {
+    "id": "char_804fa319",
+    "display_name": {
+      "zh_CN": "贾维",
+      "en_US": "贾维"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_804fa319",
+    "is_npc": false
+  },
+  {
+    "id": "char_4a5b4cb2",
+    "display_name": {
+      "zh_CN": "赫德雷",
+      "en_US": "赫德雷"
+    },
+    "faction": "babel",
+    "avatar_key": "char_4a5b4cb2",
+    "is_npc": false
+  },
+  {
+    "id": "char_a73ff524",
+    "display_name": {
+      "zh_CN": "赫拉格",
+      "en_US": "赫拉格"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_a73ff524",
+    "is_npc": false
+  },
+  {
+    "id": "char_122_silence",
+    "display_name": {
+      "zh_CN": "赫默",
+      "en_US": "赫默"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_122_silence",
+    "is_npc": false
+  },
+  {
+    "id": "char_f339017d",
+    "display_name": {
+      "zh_CN": "车尔尼",
+      "en_US": "车尔尼"
+    },
+    "faction": "leithanien",
+    "avatar_key": "char_f339017d",
+    "is_npc": false
+  },
+  {
+    "id": "char_29fe53d2",
+    "display_name": {
+      "zh_CN": "达格达",
+      "en_US": "达格达"
+    },
+    "faction": "victoria",
+    "avatar_key": "char_29fe53d2",
+    "is_npc": false
+  },
+  {
+    "id": "char_54c8e7e1",
+    "display_name": {
+      "zh_CN": "远山",
+      "en_US": "远山"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_54c8e7e1",
+    "is_npc": false
+  },
+  {
+    "id": "char_562b3bbc",
+    "display_name": {
+      "zh_CN": "迷迭香",
+      "en_US": "迷迭香"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_562b3bbc",
+    "is_npc": false
+  },
+  {
+    "id": "char_92c4f87a",
+    "display_name": {
+      "zh_CN": "送葬人",
+      "en_US": "送葬人"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_92c4f87a",
+    "is_npc": false
+  },
+  {
+    "id": "char_fae2b7e6",
+    "display_name": {
+      "zh_CN": "酒神",
+      "en_US": "酒神"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_fae2b7e6",
+    "is_npc": false
+  },
+  {
+    "id": "char_1038_yue",
+    "display_name": {
+      "zh_CN": "重岳",
+      "en_US": "重岳"
+    },
+    "faction": "yan",
+    "avatar_key": "char_1038_yue",
+    "is_npc": false
+  },
+  {
+    "id": "char_8acce336",
+    "display_name": {
+      "zh_CN": "铃兰",
+      "en_US": "铃兰"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_8acce336",
+    "is_npc": false
+  },
+  {
+    "id": "char_7b4925db",
+    "display_name": {
+      "zh_CN": "铎铃",
+      "en_US": "铎铃"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_7b4925db",
+    "is_npc": false
+  },
+  {
+    "id": "char_221_silver",
+    "display_name": {
+      "zh_CN": "银灰",
+      "en_US": "银灰"
+    },
+    "faction": "kjerag",
+    "avatar_key": "char_221_silver",
+    "is_npc": false
+  },
+  {
+    "id": "char_c607a8f3",
+    "display_name": {
+      "zh_CN": "铸铁",
+      "en_US": "铸铁"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_c607a8f3",
+    "is_npc": false
+  },
+  {
+    "id": "char_62ef7b2a",
+    "display_name": {
+      "zh_CN": "锏",
+      "en_US": "锏"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_62ef7b2a",
+    "is_npc": false
+  },
+  {
+    "id": "char_ff920ec9",
+    "display_name": {
+      "zh_CN": "锡人",
+      "en_US": "锡人"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_ff920ec9",
+    "is_npc": false
+  },
+  {
+    "id": "char_108_silent",
+    "display_name": {
+      "zh_CN": "锡兰",
+      "en_US": "锡兰"
+    },
+    "faction": "siesta",
+    "avatar_key": "char_108_silent",
+    "is_npc": false
+  },
+  {
+    "id": "char_2ae17462",
+    "display_name": {
+      "zh_CN": "闪击",
+      "en_US": "闪击"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_2ae17462",
+    "is_npc": false
+  },
+  {
+    "id": "char_266_flash",
+    "display_name": {
+      "zh_CN": "闪灵",
+      "en_US": "闪灵"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_266_flash",
+    "is_npc": false
+  },
+  {
+    "id": "char_17ad63cd",
+    "display_name": {
+      "zh_CN": "阿",
+      "en_US": "阿"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_17ad63cd",
+    "is_npc": false
+  },
+  {
+    "id": "char_59eb83e7",
+    "display_name": {
+      "zh_CN": "阿兰娜",
+      "en_US": "阿兰娜"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_59eb83e7",
+    "is_npc": false
+  },
+  {
+    "id": "char_ce834e1a",
+    "display_name": {
+      "zh_CN": "阿斯卡纶",
+      "en_US": "阿斯卡纶"
+    },
+    "faction": "babel",
+    "avatar_key": "char_ce834e1a",
+    "is_npc": false
+  },
+  {
+    "id": "char_002_amiya",
+    "display_name": {
+      "zh_CN": "阿米娅",
+      "en_US": "阿米娅"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_002_amiya",
+    "is_npc": false
+  },
+  {
+    "id": "char_010_chen",
+    "display_name": {
+      "zh_CN": "陈",
+      "en_US": "陈"
+    },
+    "faction": "lungmen",
+    "avatar_key": "char_010_chen",
+    "is_npc": false
+  },
+  {
+    "id": "char_040fdfb9",
+    "display_name": {
+      "zh_CN": "陨星",
+      "en_US": "陨星"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_040fdfb9",
+    "is_npc": false
+  },
+  {
+    "id": "char_0d14174c",
+    "display_name": {
+      "zh_CN": "隐德来希",
+      "en_US": "隐德来希"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_0d14174c",
+    "is_npc": false
+  },
+  {
+    "id": "char_f8298cda",
+    "display_name": {
+      "zh_CN": "雪雉",
+      "en_US": "雪雉"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_f8298cda",
+    "is_npc": false
+  },
+  {
+    "id": "char_564b67e2",
+    "display_name": {
+      "zh_CN": "雷蛇",
+      "en_US": "雷蛇"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_564b67e2",
+    "is_npc": false
+  },
+  {
+    "id": "char_4daf615f",
+    "display_name": {
+      "zh_CN": "霍尔海雅",
+      "en_US": "霍尔海雅"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_4daf615f",
+    "is_npc": false
+  },
+  {
+    "id": "char_af611c6f",
+    "display_name": {
+      "zh_CN": "霜华",
+      "en_US": "霜华"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_af611c6f",
+    "is_npc": false
+  },
+  {
+    "id": "char_f2b9a339",
+    "display_name": {
+      "zh_CN": "霜叶",
+      "en_US": "霜叶"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_f2b9a339",
+    "is_npc": false
+  },
+  {
+    "id": "char_305_fd",
+    "display_name": {
+      "zh_CN": "风笛",
+      "en_US": "风笛"
+    },
+    "faction": "victoria",
+    "avatar_key": "char_305_fd",
+    "is_npc": false
+  },
+  {
+    "id": "char_f79523f3",
+    "display_name": {
+      "zh_CN": "风絮",
+      "en_US": "风絮"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_f79523f3",
+    "is_npc": false
+  },
+  {
+    "id": "char_f2c1f068",
+    "display_name": {
+      "zh_CN": "香草",
+      "en_US": "香草"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_f2c1f068",
+    "is_npc": false
+  },
+  {
+    "id": "char_5568c74e",
+    "display_name": {
+      "zh_CN": "麦哲伦",
+      "en_US": "麦哲伦"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_5568c74e",
+    "is_npc": false
+  },
+  {
+    "id": "char_1052_kalts2",
+    "display_name": {
+      "zh_CN": "黍",
+      "en_US": "黍"
+    },
+    "faction": "yan",
+    "avatar_key": "char_1052_kalts2",
+    "is_npc": false
+  },
+  {
+    "id": "char_140_whitew",
+    "display_name": {
+      "zh_CN": "黑",
+      "en_US": "黑"
+    },
+    "faction": "siesta",
+    "avatar_key": "char_140_whitew",
+    "is_npc": false
+  },
+  {
+    "id": "char_6644e0da",
+    "display_name": {
+      "zh_CN": "黑角",
+      "en_US": "黑角"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_6644e0da",
+    "is_npc": false
+  },
+  {
+    "id": "char_99cee6b4",
+    "display_name": {
+      "zh_CN": "黑键",
+      "en_US": "黑键"
+    },
+    "faction": "leithanien",
+    "avatar_key": "char_99cee6b4",
+    "is_npc": false
+  },
+  {
+    "id": "char_c3365d8d",
+    "display_name": {
+      "zh_CN": "齐尔查克",
+      "en_US": "齐尔查克"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_c3365d8d",
+    "is_npc": false
+  },
+  {
+    "id": "char_be2039bc",
+    "display_name": {
+      "zh_CN": "龙舌兰",
+      "en_US": "龙舌兰"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_be2039bc",
+    "is_npc": false
+  },
+  {
+    "id": "npc_theresa",
+    "display_name": {
+      "zh_CN": "特蕾西娅",
+      "en_US": "Theresa"
+    },
+    "faction": "芭芭拉",
+    "avatar_key": "avg_npc_n_1",
+    "is_npc": true
+  },
+  {
+    "id": "npc_vigil",
+    "display_name": {
+      "zh_CN": "特雷西斯",
+      "en_US": "Theresis"
+    },
+    "faction": "卡兹戴尔",
+    "avatar_key": "avg_npc_1",
+    "is_npc": true
+  },
+  {
+    "id": "npc_mephisto",
+    "display_name": {
+      "zh_CN": "梅菲斯特",
+      "en_US": "Mephisto"
+    },
+    "faction": "整合运动",
+    "avatar_key": "avg_npc_2",
+    "is_npc": true
+  },
+  {
+    "id": "npc_faust",
+    "display_name": {
+      "zh_CN": "浮士德",
+      "en_US": "Faust"
+    },
+    "faction": "整合运动",
+    "avatar_key": "avg_npc_3",
+    "is_npc": true
+  },
+  {
+    "id": "npc_patriot",
+    "display_name": {
+      "zh_CN": "爱国者",
+      "en_US": "Patriot"
+    },
+    "faction": "整合运动",
+    "avatar_key": "avg_npc_4",
+    "is_npc": true
+  },
+  {
+    "id": "npc_talula",
+    "display_name": {
+      "zh_CN": "塔露拉",
+      "en_US": "Talulah"
+    },
+    "faction": "整合运动",
+    "avatar_key": "avg_npc_5",
+    "is_npc": true
+  },
+  {
+    "id": "npc_wei",
+    "display_name": {
+      "zh_CN": "魏彦吾",
+      "en_US": "Wei Yenwu"
+    },
+    "faction": "龙门",
+    "avatar_key": "avg_npc_6",
+    "is_npc": true
+  },
+  {
+    "id": "npc_eleven",
+    "display_name": {
+      "zh_CN": "伊万杰利斯塔十一世",
+      "en_US": "Ivan/Iren"
+    },
+    "faction": "维多利亚",
+    "avatar_key": "avg_npc_7",
+    "is_npc": true
+  },
+  {
+    "id": "npc_pris",
+    "display_name": {
+      "zh_CN": "普瑞赛斯",
+      "en_US": "Pris"
+    },
+    "faction": "巴别塔",
+    "avatar_key": "avg_npc_8",
+    "is_npc": true
+  },
+  {
+    "id": "npc_mige",
+    "display_name": {
+      "zh_CN": "米格",
+      "en_US": "Mige"
+    },
+    "faction": "整合运动",
+    "avatar_key": "avg_npc_9",
+    "is_npc": true
+  },
+  {
+    "id": "npc_ace",
+    "display_name": {
+      "zh_CN": "ACE",
+      "en_US": "ACE"
+    },
+    "faction": "rhodes_island",
+    "is_npc": true,
+    "rarity": 5,
+    "class": "guard",
+    "description": {
+      "zh_CN": "罗德岛精英干员，序章至第一章中牺牲的核心角色",
+      "en_US": "Elite operator of Rhodes Island, sacrificed in Chapter 1"
+    }
+  },
+  {
+    "id": "npc_碎骨",
+    "display_name": {
+      "zh_CN": "碎骨",
+      "en_US": "碎骨"
+    },
+    "faction": "整合运动",
+    "avatar_key": "npc_碎骨",
+    "is_npc": true
+  },
+  {
+    "id": "npc_米莎",
+    "display_name": {
+      "zh_CN": "米莎",
+      "en_US": "米莎"
+    },
+    "faction": "整合运动",
+    "avatar_key": "npc_米莎",
+    "is_npc": true
+  },
+  {
+    "id": "npc_霜星",
+    "display_name": {
+      "zh_CN": "霜星",
+      "en_US": "霜星"
+    },
+    "faction": "整合运动",
+    "avatar_key": "npc_霜星",
+    "is_npc": true
+  }
+]

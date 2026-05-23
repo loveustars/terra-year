@@ -1,0 +1,6 @@
+<svg width="180" height="180" viewBox="0 0 180 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="180" height="180" rx="8" fill="#121212"/>
+  <rect x="1" y="1" width="178" height="178" rx="7" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+  <text x="50%" y="48%" dominant-baseline="central" text-anchor="middle" font-family="monospace" font-size="36" fill="rgba(242,161,4,0.4)">?</text>
+  <text x="50%" y="62%" dominant-baseline="central" text-anchor="middle" font-family="monospace" font-size="9" fill="rgba(255,255,255,0.2)" letter-spacing="3">DOCTOR</text>
+</svg>

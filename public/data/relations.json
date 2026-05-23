@@ -1,0 +1,1589 @@
+[
+  {
+    "id": "rel_ep05_001",
+    "source": "char_6d7c1afb",
+    "target": "char_002_amiya",
+    "relation_type": "ally",
+    "relation_label": {
+      "zh_CN": "信任与依赖",
+      "en_US": "Trust & Reliance"
+    },
+    "description": {
+      "zh_CN": "阿米娅无条件信任失忆的博士",
+      "en_US": "Amiya trusts amnesiac Doctor unconditionally"
+    },
+    "associated_event_id": "main_ch00",
+    "evidences": [
+      {
+        "source_story": "level_main_00-01_beg",
+        "quote": {
+          "zh_CN": "如果争端能够避免，那我们应当沉默——如果战斗是必要的，那就战斗到最后！罗德岛的信条从来没有改变过！",
+          "en_US": "If conflict can be avoided, we should remain silent — if battle is necessary, fight to the end!"
+        },
+        "context_analysis": {
+          "zh_CN": "阿米娅对博士表达信任",
+          "en_US": "Amiya expresses trust in Doctor"
+        }
+      }
+    ],
+    "confidence_level": "official_fact",
+    "first_appear_event_id": "main_ch00"
+  },
+  {
+    "id": "rel_ep05_006",
+    "source": "char_1778bbd4",
+    "target": "char_002_amiya",
+    "relation_type": "ally",
+    "relation_label": {
+      "zh_CN": "战友与鼓励",
+      "en_US": "Comrade & Encouragement"
+    },
+    "description": {
+      "zh_CN": "临光与阿米娅并肩作战",
+      "en_US": "Nearl fights alongside Amiya"
+    },
+    "associated_event_id": "main_ch00",
+    "evidences": [
+      {
+        "source_story": "level_main_00-10_beg",
+        "quote": {
+          "zh_CN": "耀骑士临光，前来迎接你们了。",
+          "en_US": "The Radiant Knight Nearl has come to meet you."
+        },
+        "context_analysis": {
+          "zh_CN": "临光加入战斗",
+          "en_US": "Nearl joins battle"
+        }
+      }
+    ],
+    "confidence_level": "official_fact",
+    "first_appear_event_id": "main_ch00"
+  },
+  {
+    "id": "rel_ep05_007",
+    "source": "char_8375f0bb",
+    "target": "char_002_amiya",
+    "relation_type": "ally",
+    "relation_label": {
+      "zh_CN": "上下级与信任",
+      "en_US": "Subordinate & Trust"
+    },
+    "description": {
+      "zh_CN": "杜宾服从阿米娅指挥",
+      "en_US": "Dobermann obeys Amiya's command"
+    },
+    "associated_event_id": "main_ch00",
+    "evidences": [
+      {
+        "source_story": "level_main_00-07_beg",
+        "quote": {
+          "zh_CN": "无论敌人是谁，我们都会完成任务。",
+          "en_US": "Whatever enemy we're facing, we will complete the mission."
+        },
+        "context_analysis": {
+          "zh_CN": "杜宾服从指挥",
+          "en_US": "Dobermann obeys command"
+        }
+      }
+    ],
+    "confidence_level": "official_fact",
+    "first_appear_event_id": "main_ch00"
+  },
+  {
+    "id": "rel_ep05_012",
+    "source": "npc_mephisto",
+    "target": "npc_faust",
+    "relation_type": "ally",
+    "relation_label": {
+      "zh_CN": "指挥与服从",
+      "en_US": "Command & Obedience"
+    },
+    "description": {
+      "zh_CN": "梅菲斯特指挥浮士德",
+      "en_US": "Mephisto commands Faust"
+    },
+    "associated_event_id": "main_ch00",
+    "evidences": [
+      {
+        "source_story": "level_main_00-08_beg",
+        "quote": {
+          "zh_CN": "我想和各位，来一场祭祀式的竞赛。你们只要活下来，就是胜利！",
+          "en_US": "I want to hold a sacrificial competition. You just need to survive — that's victory!"
+        },
+        "context_analysis": {
+          "zh_CN": "梅菲斯特以游戏心态指挥",
+          "en_US": "Mephisto treats battle as game"
+        }
+      }
+    ],
+    "confidence_level": "official_fact",
+    "first_appear_event_id": "main_ch00"
+  },
+  {
+    "id": "rel_ep05_015",
+    "source": "char_edfebc83",
+    "target": "npc_mephisto",
+    "relation_type": "neutral",
+    "relation_label": {
+      "zh_CN": "竞争与不满",
+      "en_US": "Rivalry & Dissatisfaction"
+    },
+    "description": {
+      "zh_CN": "弑君者对梅菲斯特不满",
+      "en_US": "Assassin is dissatisfied with Mephisto"
+    },
+    "associated_event_id": "main_ch00",
+    "evidences": [
+      {
+        "source_story": "level_main_00-08_beg",
+        "quote": {
+          "zh_CN": "弑君者对梅菲斯特态度冷淡",
+          "en_US": "Assassin is cold toward Mephisto"
+        },
+        "context_analysis": {
+          "zh_CN": "整合运动内部矛盾",
+          "en_US": "Internal conflict in Reunion"
+        }
+      }
+    ],
+    "confidence_level": "implied_plot",
+    "first_appear_event_id": "main_ch00"
+  },
+  {
+    "id": "rel_ep05_016",
+    "source": "char_8375f0bb",
+    "target": "npc_talula",
+    "relation_type": "rival",
+    "relation_label": {
+      "zh_CN": "敌对与判断",
+      "en_US": "Hostile & Judgment"
+    },
+    "description": {
+      "zh_CN": "杜宾称塔露拉为暴君",
+      "en_US": "Dobermann calls Talulah a tyrant"
+    },
+    "associated_event_id": "main_ch00",
+    "evidences": [
+      {
+        "source_story": "level_main_00-07_beg",
+        "quote": {
+          "zh_CN": "这样的人，是暴君。",
+          "en_US": "Such a person is a tyrant."
+        },
+        "context_analysis": {
+          "zh_CN": "杜宾敌视塔露拉",
+          "en_US": "Dobermann hostile to Talulah"
+        }
+      }
+    ],
+    "confidence_level": "official_fact",
+    "first_appear_event_id": "main_ch00"
+  },
+  {
+    "id": "rel_ep05_017",
+    "source": "char_003_kalts",
+    "target": "char_002_amiya",
+    "relation_type": "ally",
+    "relation_label": {
+      "zh_CN": "跨种族信任与同伴",
+      "en_US": "Cross-species Trust & Companion"
+    },
+    "description": {
+      "zh_CN": "凯尔希与阿米娅跨种族信任",
+      "en_US": "Kal'tsit and Amiya share cross-species trust"
+    },
+    "associated_event_id": "main_ch00",
+    "evidences": [
+      {
+        "source_story": "level_main_00-06_end",
+        "quote": {
+          "zh_CN": "我不是你的同类，但我一直是你的同伴。",
+          "en_US": "I am not of your kind, but I have always been your companion."
+        },
+        "context_analysis": {
+          "zh_CN": "凯尔希表达同伴情谊",
+          "en_US": "Kal'tsit expresses companionship"
+        }
+      }
+    ],
+    "confidence_level": "official_fact",
+    "first_appear_event_id": "main_ch00"
+  },
+  {
+    "id": "rel_ep05_001_v2",
+    "source": "char_6d7c1afb",
+    "target": "char_002_amiya",
+    "relation_type": "ally",
+    "relation_label": {
+      "zh_CN": "无条件信任与守护",
+      "en_US": "Unconditional Trust & Devotion"
+    },
+    "description": {
+      "zh_CN": "阿米娅在博士失忆后依然无条件信任他，并用\"以前也问过\"暗示博士失忆前对她也问过类似问题，展现了两人过往的亲密信任关系。",
+      "en_US": "Despite the Doctor's amnesia, Amiya trusts him unconditionally. Her remark \"you asked this before\" hints at their intimate past relationship before his memory loss."
+    },
+    "associated_event_id": "main_ch00",
+    "first_appear_event_id": "main_ch00",
+    "evidences": [
+      {
+        "source_story": "level_main_00-01_end",
+        "quote": {
+          "zh_CN": "类似的问题，你以前也问过呢。因为我，得了病。我们得了很重的病，让人害怕的病......\"矿石病\"。",
+          "en_US": "You asked this before. Because I got sick. We got a serious disease that makes people afraid... \"Oripathy\"."
+        },
+        "context_analysis": {
+          "zh_CN": "阿米娅用\"以前也问过\"暗示博士失忆前的过往关系，揭示了两人早于本故事的信任基础",
+          "en_US": "Amiya's \"you asked this before\" reveals their pre-existing trust relationship before the Doctor's amnesia"
+        }
+      },
+      {
+        "source_story": "level_main_00-04_beg",
+        "quote": {
+          "zh_CN": "博士的决策依旧十分可靠，我保证。",
+          "en_US": "The Doctor's decisions are still very reliable, I guarantee."
+        },
+        "context_analysis": {
+          "zh_CN": "阿米娅向Ace保证博士失忆后依然可靠，展现了她对博士指挥能力的信任",
+          "en_US": "Amiya guarantees the Doctor is still reliable after amnesia, showing her trust in his command ability"
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_nearl_ace_supplementary",
+    "source": "char_1778bbd4",
+    "target": "npc_ace",
+    "relation_type": "ally",
+    "relation_label": {
+      "zh_CN": "战友与默契搭档",
+      "en_US": "Comrade & Trusted Partner"
+    },
+    "description": {
+      "zh_CN": "临光与Ace是配合默契的战友。临光称呼Ace为\"你\"并主动感谢他的援助，而Ace则谦逊地推辞说自己\"没资格让耀骑士还我人情\"。两人在战场上互相掩护，临光更是在被浮士德狙击时感受到Ace的火力支援。",
+      "en_US": "Nearl and Ace are trusted combat partners. Nearl addresses Ace directly, thanking him for his support while Ace humbly deflects credit, saying he isn't worthy of the Radiant Knight owing him favors."
+    },
+    "associated_event_id": "main_ch00",
+    "first_appear_event_id": "main_ch00",
+    "evidences": [
+      {
+        "source_story": "level_main_00-11_end",
+        "quote": {
+          "zh_CN": "谢谢你刚才的援助，临光不会忘记这份恩情。请别这么说。我可没资格让耀骑士还我人情。",
+          "en_US": "Thank you for your assistance just now, Nearl won't forget this kindness. Please don't say that. I'm not worthy of the Radiant Knight owing me favors."
+        },
+        "context_analysis": {
+          "zh_CN": "临光真诚感谢Ace的援助并表达铭记恩情，Ace谦逊地回应，体现了两人作为战友的默契与相互尊重",
+          "en_US": "Nearl sincerely thanks Ace and expresses gratitude; Ace humbly responds, showing战友 trust and mutual respect"
+        }
+      },
+      {
+        "source_story": "level_main_00-10_beg",
+        "quote": {
+          "zh_CN": "浮士德！把她那张嘴给我打穿。——不会让你得逞！",
+          "en_US": "Faust! Shoot that mouth shut. ——You won't get away with it!"
+        },
+        "context_analysis": {
+          "zh_CN": "Ace在浮士德狙击临光时挺身而出保护她，展现了战友间互相掩护的战斗默契",
+          "en_US": "Ace shields Nearl when Faust狙击 her, demonstrating their battlefield trust and cooperation"
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_mephisto_nearl",
+    "source": "npc_mephisto",
+    "target": "char_1778bbd4",
+    "relation_type": "rival",
+    "relation_label": {
+      "zh_CN": "仇恨与毁灭欲",
+      "en_US": "Hatred & Desire to Destroy"
+    },
+    "description": {
+      "zh_CN": "梅菲斯特对临光怀有强烈的毁灭欲。临光出现时梅菲斯特震惊其战斗力，随即命令浮士德\"把她那张嘴给我打穿\"并\"再来！！把她......打成碎渣\"，展现出病态的攻击性。临光则冷静地分析并蔑视梅菲斯特的指挥风格。",
+      "en_US": "Mephisto harbors intense destructive urges toward Nearl. When Nearl appears, Mephisto is shocked by her combat prowess and immediately orders Faust to shoot her down, screaming \"do it again! Turn her to pieces!\" — revealing pathological aggression. Nearl calmly analyzes and despises Mephisto's command style."
+    },
+    "associated_event_id": "main_ch00",
+    "first_appear_event_id": "main_ch00",
+    "evidences": [
+      {
+        "source_story": "level_main_00-08_beg",
+        "quote": {
+          "zh_CN": "我想和各位，来一场祭祀式的竞赛。",
+          "en_US": "I'd like to have a ritual competition with all of you."
+        },
+        "context_analysis": {
+          "zh_CN": "梅菲斯特将战斗比作\"祭祀式的竞赛\"，展现了对生命的漠视和病态的价值观",
+          "en_US": "Mephisto compares battle to a \"ritual competition\", revealing his pathological disregard for life"
+        }
+      },
+      {
+        "source_story": "level_main_00-10_beg",
+        "quote": {
+          "zh_CN": "把她那张嘴给我打穿。——再来！！把她......打成碎渣！",
+          "en_US": "Shoot that mouth shut. ——Do it again! Turn her... into pieces!"
+        },
+        "context_analysis": {
+          "zh_CN": "梅菲斯特命令浮士德狙击临光，并狂躁地要求将她\"打成碎渣\"，揭示了对临光的强烈仇恨",
+          "en_US": "Mephisto orders Faust to shoot Nearl and furiously demands to \"turn her to pieces\", revealing intense hatred"
+        }
+      },
+      {
+        "source_story": "level_main_00-10_beg",
+        "quote": {
+          "zh_CN": "屠杀，纵火，围猎......只不过是为了满足你自己残忍的趣味而已吧？会在这时煽动如此不堪之事的人，没可能策划出足以击溃整座城市的方案。",
+          "en_US": "Massacre, arson, hunting... merely to satisfy your own cruel whims, right? Someone who incites such atrocities at this moment couldn't have planned to collapse an entire city."
+        },
+        "context_analysis": {
+          "zh_CN": "临光当面斥责梅菲斯特的暴行，分析其行为只是满足残忍趣味而非真正的战略家",
+          "en_US": "Nearl directly condemns Mephisto's atrocities, analyzing his actions as mere cruel whims rather than true strategy"
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_dobermann_ace",
+    "source": "char_8375f0bb",
+    "target": "npc_ace",
+    "relation_type": "ally",
+    "relation_label": {
+      "zh_CN": "战友与战术配合",
+      "en_US": "Comrade & Tactical Partnership"
+    },
+    "description": {
+      "zh_CN": "杜宾与Ace是罗德岛的两位资深战士，在战场上配合默契。杜宾称呼Ace为\"Ace！\"并在危急时刻依赖他的判断，两人互相认可对方的能力。",
+      "en_US": "Dobermann and Ace are Rhodes Island's two veteran warriors who cooperate seamlessly in battle. Dobermann calls out \"Ace!\" and relies on his judgment in critical moments, each recognizing the other's competence."
+    },
+    "associated_event_id": "main_ch00",
+    "first_appear_event_id": "main_ch00",
+    "evidences": [
+      {
+        "source_story": "level_main_00-04_beg",
+        "quote": {
+          "zh_CN": "Ace！这里还没到汇合点......怎么只有你一个人？",
+          "en_US": "Ace! We haven't reached the rendezvous point yet... why are you alone?"
+        },
+        "context_analysis": {
+          "zh_CN": "杜宾见到Ace时急切呼唤并询问情况，展现了战友间的关切",
+          "en_US": "Dobermann urgently calls out to Ace and asks about the situation, showing战友 concern"
+        }
+      },
+      {
+        "source_story": "level_main_00-06_end",
+        "quote": {
+          "zh_CN": "Ace......稍等一下。",
+          "en_US": "Ace... wait a moment."
+        },
+        "context_analysis": {
+          "zh_CN": "杜宾主动让Ace稍等，说明她需要与Ace商量战术",
+          "en_US": "Dobermann tells Ace to wait, indicating she needs to consult with him tactically"
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_dobermann_doctor_supplementary",
+    "source": "char_8375f0bb",
+    "target": "char_6d7c1afb",
+    "relation_type": "ally",
+    "relation_label": {
+      "zh_CN": "从质疑到信任的战场搭档",
+      "en_US": "From Skepticism to Trusted Battlefield Partner"
+    },
+    "description": {
+      "zh_CN": "杜宾对博士的信任经历了从质疑到认可再到托付的过程。在第0章中，杜宾在战斗中向Ace解释\"博士的指挥能力有没有因为失忆受到影响\"，并最终表示\"做得不错，Dr.{@nickname}，是该客观评价你的能力了\"，完成了信任的建立。",
+      "en_US": "Dobermann's trust in the Doctor evolved from skepticism to recognition to entrustment. In Ch00, she asks Ace \"has the Doctor's command ability been affected by the amnesia?\" and ultimately says \"Well done, Dr.{@nickname}, it's time to objectively evaluate your abilities\", completing the trust-building process."
+    },
+    "associated_event_id": "main_ch00",
+    "first_appear_event_id": "main_ch00",
+    "evidences": [
+      {
+        "source_story": "level_main_00-01_end",
+        "quote": {
+          "zh_CN": "做得不错，Dr.{@nickname}。是该客观评价你的能力了。",
+          "en_US": "Well done, Dr.{@nickname}. It's time to objectively evaluate your abilities."
+        },
+        "context_analysis": {
+          "zh_CN": "杜宾第一次在战斗后称赞博士能力，并表示要客观评价，说明她开始从质疑转向认可",
+          "en_US": "Dobermann praises the Doctor's abilities for the first time after battle, indicating a shift from skepticism to recognition"
+        }
+      },
+      {
+        "source_story": "level_main_00-04_beg",
+        "quote": {
+          "zh_CN": "博士的指挥能力，有没有因为失忆受到影响？",
+          "en_US": "Has the Doctor's command ability been affected by the amnesia?"
+        },
+        "context_analysis": {
+          "zh_CN": "杜宾向Ace确认博士的能力，说明她仍在评估阶段，但已经主动为博士说话",
+          "en_US": "Dobermann confirms the Doctor's abilities with Ace, showing she is still evaluating but already speaking up for him"
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_amiya_dobermann",
+    "source": "char_002_amiya",
+    "target": "char_8375f0bb",
+    "relation_type": "ally",
+    "relation_label": {
+      "zh_CN": "上下级与战友深情",
+      "en_US": "Commander & Subordinate with Deep Bond"
+    },
+    "description": {
+      "zh_CN": "阿米娅与杜宾是上下级关系，但杜宾对阿米娅展现出超越命令的关心。当阿米娅决定信任博士时，杜宾提醒她\"做好准备\"。阿米娅也经常在危机时呼唤杜宾配合，两人建立了超越职位的战友信任。",
+      "en_US": "Amiya and Dobermann have a commander-subordinate relationship, but Dobermann shows concern for Amiya beyond mere duty. When Amiya decides to trust the Doctor, Dobermann warns her to \"be prepared\". Amiya frequently calls on Dobermann in crisis, showing their bond transcends rank."
+    },
+    "associated_event_id": "main_ch00",
+    "first_appear_event_id": "main_ch00",
+    "evidences": [
+      {
+        "source_story": "level_main_00-04_beg",
+        "quote": {
+          "zh_CN": "Ace......事情和以前相比，有不小的区别。博士......意外失去了记忆。",
+          "en_US": "Ace... things are quite different from before. The Doctor... unexpectedly lost his memory."
+        },
+        "context_analysis": {
+          "zh_CN": "阿米娅向Ace解释博士失忆的情况，展现了她作为指挥官的决策角色和对团队的信任",
+          "en_US": "Amiya explains the Doctor's amnesia to Ace, showing her role as commander and trust in the team"
+        }
+      },
+      {
+        "source_story": "level_main_00-06_end",
+        "quote": {
+          "zh_CN": "（阿米娅，准备好，我们可能要强行突围了。）",
+          "en_US": "(Amiya, be prepared, we may need to break through by force.)"
+        },
+        "context_analysis": {
+          "zh_CN": "杜宾在战斗中对阿米娅耳语提醒要做好准备，展现了她对阿米娅的关照",
+          "en_US": "Dobermann whispers to Amiya to be prepared for possible forced breakthrough, showing her care for Amiya"
+        }
+      }
+    ],
+    "confidence_level": "implied_plot"
+  },
+  {
+    "id": "rel_ep05_002",
+    "source": "char_8375f0bb",
+    "target": "char_6d7c1afb",
+    "relation_type": "ally",
+    "relation_label": {
+      "zh_CN": "战友与信任",
+      "en_US": "Comrade & Trust"
+    },
+    "description": {
+      "zh_CN": "杜宾从质疑到信任博士",
+      "en_US": "Dobermann trusts Doctor from skepticism to full entrustment"
+    },
+    "associated_event_id": "main_ch01",
+    "evidences": [
+      {
+        "source_story": "level_main_01-03_beg",
+        "quote": {
+          "zh_CN": "至少在战场，我的生命，已经交给你了。",
+          "en_US": "At least on the battlefield, my life is already in your hands."
+        },
+        "context_analysis": {
+          "zh_CN": "杜宾明确表示战场生命托付",
+          "en_US": "Dobermann explicitly entrusts his life to Doctor"
+        }
+      }
+    ],
+    "confidence_level": "official_fact",
+    "first_appear_event_id": "main_ch01"
+  },
+  {
+    "id": "rel_ep05_003",
+    "source": "char_6d7c1afb",
+    "target": "npc_ace",
+    "relation_type": "ally",
+    "relation_label": {
+      "zh_CN": "深厚信任与战友",
+      "en_US": "Deep Trust & Comradeship"
+    },
+    "description": {
+      "zh_CN": "ACE对失忆博士保持信任，断后牺牲时将阿米娅托付给博士",
+      "en_US": "ACE maintains trust in amnesiac Doctor; sacrifices himself, entrusting Amiya to Doctor"
+    },
+    "associated_event_id": "main_ch01",
+    "evidences": [
+      {
+        "source_story": "level_main_01-08_beg",
+        "quote": {
+          "zh_CN": "总有一天，你要和阿米娅一起共同面对这片残酷的大地。所以，保护好她，博士。",
+          "en_US": "Someday, you and Amiya will face this cruel land together. So protect her, Doctor."
+        },
+        "context_analysis": {
+          "zh_CN": "ACE临别托付",
+          "en_US": "ACE's farewell entrustment"
+        }
+      }
+    ],
+    "confidence_level": "official_fact",
+    "first_appear_event_id": "main_ch01"
+  },
+  {
+    "id": "rel_ep05_004",
+    "source": "npc_ace",
+    "target": "char_002_amiya",
+    "relation_type": "ally",
+    "relation_label": {
+      "zh_CN": "战友与保护者",
+      "en_US": "Comrade & Protector"
+    },
+    "description": {
+      "zh_CN": "ACE是阿米娅的保护者，最终断后牺牲",
+      "en_US": "ACE is Amiya's protector, sacrificed holding the rear"
+    },
+    "associated_event_id": "main_ch01",
+    "evidences": [
+      {
+        "source_story": "level_main_01-10_end",
+        "quote": {
+          "zh_CN": "你可以了，阿米娅。你已经很了不起了。把你的重担，也分给我们一些吧。",
+          "en_US": "You're good enough, Amiya. You're already remarkable."
+        },
+        "context_analysis": {
+          "zh_CN": "ACE牺牲前的鼓励",
+          "en_US": "ACE's encouragement before sacrifice"
+        }
+      }
+    ],
+    "confidence_level": "official_fact",
+    "first_appear_event_id": "main_ch01"
+  },
+  {
+    "id": "rel_ep05_005",
+    "source": "char_1778bbd4",
+    "target": "char_6d7c1afb",
+    "relation_type": "ally",
+    "relation_label": {
+      "zh_CN": "骑士保护誓言",
+      "en_US": "Knight's Protection Vow"
+    },
+    "description": {
+      "zh_CN": "临光誓言保护博士",
+      "en_US": "Nearl vows to protect Doctor"
+    },
+    "associated_event_id": "main_ch01",
+    "evidences": [
+      {
+        "source_story": "level_main_01-07_beg",
+        "quote": {
+          "zh_CN": "至少拉上我一起，让我保护博士你！",
+          "en_US": "At least take me with you, let me protect you, Doctor!"
+        },
+        "context_analysis": {
+          "zh_CN": "临光主动请求保护博士",
+          "en_US": "Nearl proactively requests to protect Doctor"
+        }
+      }
+    ],
+    "confidence_level": "official_fact",
+    "first_appear_event_id": "main_ch01"
+  },
+  {
+    "id": "rel_ep05_011",
+    "source": "npc_talula",
+    "target": "char_002_amiya",
+    "relation_type": "rival",
+    "relation_label": {
+      "zh_CN": "强烈敌对",
+      "en_US": "Intense Hostility"
+    },
+    "description": {
+      "zh_CN": "塔露拉宣告毁灭罗德岛",
+      "en_US": "Talulah declares destruction of Rhodes Island"
+    },
+    "associated_event_id": "main_ch01",
+    "evidences": [
+      {
+        "source_story": "level_main_01-08_beg",
+        "quote": {
+          "zh_CN": "我将赐予你们一个我十分喜爱的结局。——毁灭。",
+          "en_US": "I will grant you an ending I find most pleasing. — Destruction."
+        },
+        "context_analysis": {
+          "zh_CN": "塔露拉宣告毁灭",
+          "en_US": "Talulah declares destruction"
+        }
+      }
+    ],
+    "confidence_level": "official_fact",
+    "first_appear_event_id": "main_ch01"
+  },
+  {
+    "id": "rel_ep05_013",
+    "source": "char_011_w",
+    "target": "npc_talula",
+    "relation_type": "neutral",
+    "relation_label": {
+      "zh_CN": "不满与独立",
+      "en_US": "Dissatisfaction & Independence"
+    },
+    "description": {
+      "zh_CN": "W对塔露拉不满",
+      "en_US": "W is dissatisfied with Talulah"
+    },
+    "associated_event_id": "main_ch01",
+    "evidences": [
+      {
+        "source_story": "level_main_01-12_beg",
+        "quote": {
+          "zh_CN": "你和那个塔露拉龙女可合不来。",
+          "en_US": "You don't get along with that Talulah dragon girl."
+        },
+        "context_analysis": {
+          "zh_CN": "W表达对塔露拉的不满",
+          "en_US": "W expresses dissatisfaction with Talulah"
+        }
+      }
+    ],
+    "confidence_level": "official_fact",
+    "first_appear_event_id": "main_ch01"
+  },
+  {
+    "id": "rel_ep05_014",
+    "source": "char_011_w",
+    "target": "char_002_amiya",
+    "relation_type": "rival",
+    "relation_label": {
+      "zh_CN": "敌对与好奇",
+      "en_US": "Hostile & Curious"
+    },
+    "description": {
+      "zh_CN": "W与阿米娅敌对，对博士好奇",
+      "en_US": "W is hostile to Amiya but curious about Doctor"
+    },
+    "associated_event_id": "main_ch01",
+    "evidences": [
+      {
+        "source_story": "level_main_01-12_beg",
+        "quote": {
+          "zh_CN": "我很想知道，你究竟有什么魔力......能让他们都心甘情愿，毫无价值地为你送命？",
+          "en_US": "I really want to know what kind of magic you have... that makes them willing to die for you so worthlessy?"
+        },
+        "context_analysis": {
+          "zh_CN": "W对博士好奇",
+          "en_US": "W is curious about Doctor"
+        }
+      }
+    ],
+    "confidence_level": "official_fact",
+    "display_description": {
+      "zh_CN": "试探与敌对（好奇博士为何能让人甘愿为之赴死）",
+      "en_US": "Curious and hostile (wondering why the Doctor commands such devotion)"
+    },
+    "first_appear_event_id": "main_ch01"
+  },
+  {
+    "id": "rel_ep05_018",
+    "source": "char_221_silver",
+    "target": "char_6d7c1afb",
+    "relation_type": "ally",
+    "relation_label": {
+      "zh_CN": "合作与盟友",
+      "en_US": "Cooperation & Alliance"
+    },
+    "description": {
+      "zh_CN": "银灰与罗德岛合作",
+      "en_US": "SilverAsh cooperates with Rhodes Island"
+    },
+    "associated_event_id": "main_ch01",
+    "evidences": [
+      {
+        "source_story": "level_main_01-06_beg",
+        "quote": {
+          "zh_CN": "银灰作为盟友加入战斗",
+          "en_US": "SilverAsh joins as an ally"
+        },
+        "context_analysis": {
+          "zh_CN": "银灰提供支援",
+          "en_US": "SilverAsh provides support"
+        }
+      }
+    ],
+    "confidence_level": "implied_plot",
+    "first_appear_event_id": "main_ch01"
+  },
+  {
+    "id": "rel_w_doctor_curious",
+    "source": "char_011_w",
+    "target": "char_6d7c1afb",
+    "relation_type": "neutral",
+    "relation_label": {
+      "zh_CN": "试探与好奇（想了解博士的指挥与魅力）",
+      "en_US": "Curious and probing (wanting to understand the Doctor's command)"
+    },
+    "description": {
+      "zh_CN": "试探与好奇（想了解博士的指挥与魅力）",
+      "en_US": "Curious and probing (wanting to understand the Doctor's command)"
+    },
+    "associated_event_id": "main_ch01",
+    "evidences": [
+      {
+        "source_story": "level_main_01-01_beg",
+        "quote": {
+          "zh_CN": "我很想知道，你究竟有什么魔力......能让他们都心甘情愿，毫无价值地为你送命？",
+          "en_US": "I really want to know what kind of magic you have... that makes them willing to die for you so worthlessly?"
+        },
+        "context_analysis": {
+          "zh_CN": "W对阿米娅发问，实际是在探究博士为何能让人甘愿赴死",
+          "en_US": "W questions Amiya, but is actually probing why the Doctor commands such devotion"
+        }
+      }
+    ],
+    "confidence_level": "implied_plot",
+    "first_appear_event_id": "main_ch01"
+  },
+  {
+    "id": "rel_nearl_team_protection",
+    "source": "char_1778bbd4",
+    "target": "char_6d7c1afb",
+    "relation_type": "ally",
+    "relation_label": {
+      "zh_CN": "骑士誓言与战场守护",
+      "en_US": "Knight's Vow & Battlefield Devotion"
+    },
+    "description": {
+      "zh_CN": "临光在危急时刻挺身而出保护博士和团队。第1章中，面对巨大坠岩，临光喊出\"重装干员！保护我方术师！！\"并号召大家卧倒。当博士为救医疗干员而暴露在危险中时，临光焦急呼喊\"Dr.{@nickname}！！\"，展现了她将博士视为必须守护之人的骑士精神。",
+      "en_US": "Nearl stands protectively in critical moments. In Ch01, facing massive falling rocks, she shouts \"Heavy operators! Protect our casters!!\" When the Doctor exposes himself to save the medic, Nearl anxiously cries \"Dr.{@nickname}!!\" — showing her knightly devotion to the Doctor."
+    },
+    "associated_event_id": "main_ch01",
+    "first_appear_event_id": "main_ch01",
+    "evidences": [
+      {
+        "source_story": "level_main_01-07_beg",
+        "quote": {
+          "zh_CN": "重装干员！保护我方术师！！——！！那是什么声音？！",
+          "en_US": "Heavy operators! Protect our casters!! ——!! What's that sound?!"
+        },
+        "context_analysis": {
+          "zh_CN": "临光在危机时刻首先想到的是保护团队中的术师，展现了骑士精神",
+          "en_US": "Nearl's first instinct in crisis is protecting the casters, demonstrating knightly spirit"
+        }
+      },
+      {
+        "source_story": "level_main_01-07_beg",
+        "quote": {
+          "zh_CN": "博士把医生推进了掩体？可这样......这样的话，博士——！不，博士！！",
+          "en_US": "The Doctor pushed the doctor into cover? But that means... Doctor ——! No, Doctor!!"
+        },
+        "context_analysis": {
+          "zh_CN": "临光在博士受伤时发出撕心裂肺的呼喊，展现了她对博士的深厚关切",
+          "en_US": "Nearl's heart-wrenching cry when the Doctor is hurt shows her deep concern for him"
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_nearl_amiya_ch01",
+    "source": "char_1778bbd4",
+    "target": "char_002_amiya",
+    "relation_type": "ally",
+    "relation_label": {
+      "zh_CN": "战友与并肩信任",
+      "en_US": "Comrade & Trusted Partnership"
+    },
+    "description": {
+      "zh_CN": "临光与阿米娅在罗德岛的行动中建立了战友关系。临光称呼阿米娅为\"你\"并谦逊地说\"让我和Ace根据局势采取不同计划的，是你\"。阿米娅也感谢临光的及时支援。两人在危机中互相扶持，建立了超越上下级的信任。",
+      "en_US": "Nearl and Amiya develop comrade trust through Rhodes Island operations. Nearl humbly tells Amiya \"it was you who allowed Ace and me to take different plans according to the situation.\" Amiya thanks Nearl for her timely support. The two support each other in crisis."
+    },
+    "associated_event_id": "main_ch01",
+    "first_appear_event_id": "main_ch01",
+    "evidences": [
+      {
+        "source_story": "level_main_00-11_end",
+        "quote": {
+          "zh_CN": "让我和Ace他根据局势采取不同计划的，是你。是你解决了自己的问题。我不擅长预见，不断战斗是我达到目的的方式。",
+          "en_US": "It was you who allowed Ace and me to take different plans according to the situation. You solved your own problem. I'm not good at foresight — constantly fighting is how I achieve my goals."
+        },
+        "context_analysis": {
+          "zh_CN": "临光感谢阿米娅的指挥决策，谦逊地表示自己只是执行者，展现了两人良好的上下级信任关系",
+          "en_US": "Nearl thanks Amiya for her command decisions, humbly saying she was merely the executor, showing good trust between commander and subordinate"
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_ep05_008",
+    "source": "char_010_chen",
+    "target": "char_002_amiya",
+    "relation_type": "neutral",
+    "relation_label": {
+      "zh_CN": "公事公办与冷淡",
+      "en_US": "Business-like & Cold"
+    },
+    "description": {
+      "zh_CN": "陈对罗德岛态度冷淡",
+      "en_US": "Ch'en is cold toward Rhodes Island"
+    },
+    "associated_event_id": "main_ch02",
+    "evidences": [
+      {
+        "source_story": "level_main_02-01_beg",
+        "quote": {
+          "zh_CN": "你们迟到了十四分钟，无谓地浪费了我十四分钟时间。感染者就该清楚，来龙门会有什么下场。",
+          "en_US": "You're fourteen minutes late, pointlessly wasting my fourteen minutes."
+        },
+        "context_analysis": {
+          "zh_CN": "陈表现冷淡",
+          "en_US": "Ch'en is cold"
+        }
+      }
+    ],
+    "confidence_level": "official_fact",
+    "first_appear_event_id": "main_ch02"
+  },
+  {
+    "id": "rel_ep05_009",
+    "source": "char_010_chen",
+    "target": "char_137_brownb",
+    "relation_type": "ally",
+    "relation_label": {
+      "zh_CN": "同僚战友",
+      "en_US": "Colleague & Comrade"
+    },
+    "description": {
+      "zh_CN": "陈与星熊是近卫局同僚",
+      "en_US": "Ch'en and Hoshiguma are colleagues"
+    },
+    "associated_event_id": "main_ch02",
+    "evidences": [
+      {
+        "source_story": "level_main_02-01_beg",
+        "quote": {
+          "zh_CN": "（星熊在场配合执法）",
+          "en_US": "(Hoshiguma present, enforcing together)"
+        },
+        "context_analysis": {
+          "zh_CN": "两人共同执法",
+          "en_US": "Both enforce together"
+        }
+      }
+    ],
+    "confidence_level": "implied_plot",
+    "first_appear_event_id": "main_ch02"
+  },
+  {
+    "id": "rel_ep05_010",
+    "source": "npc_wei",
+    "target": "char_010_chen",
+    "relation_type": "ally",
+    "relation_label": {
+      "zh_CN": "上级与下属",
+      "en_US": "Superior & Subordinate"
+    },
+    "description": {
+      "zh_CN": "魏彦吾是陈的上级",
+      "en_US": "Wei Yenwu is Ch'en's superior"
+    },
+    "associated_event_id": "main_ch02",
+    "evidences": [
+      {
+        "source_story": "level_main_02-01_end",
+        "quote": {
+          "zh_CN": "陈受魏彦吾指派与罗德岛合作",
+          "en_US": "Ch'en assigned by Wei to cooperate with Rhodes Island"
+        },
+        "context_analysis": {
+          "zh_CN": "陈服从上级指令",
+          "en_US": "Ch'en follows superior's orders"
+        }
+      }
+    ],
+    "confidence_level": "implied_plot",
+    "first_appear_event_id": "main_ch02"
+  },
+  {
+    "id": "rel_npc_碎骨_npc_米莎",
+    "source": "npc_碎骨",
+    "target": "npc_米莎",
+    "relation_type": "ally",
+    "relation_label": {
+      "zh_CN": "姐弟/誓死保护",
+      "en_US": "Siblings / Sworn to protect"
+    },
+    "description": {
+      "zh_CN": "姐弟/誓死保护",
+      "en_US": "Siblings / Sworn to protect"
+    },
+    "associated_event_id": "main_ch02",
+    "evidences": [
+      {
+        "source_story": "level_main_02-03_end",
+        "quote": {
+          "zh_CN": "你一定要回来...... / 帮我照顾好米莎。",
+          "en_US": "You must come back... / Take care of Misha for me."
+        },
+        "context_analysis": {
+          "zh_CN": "碎骨与米莎是姐弟，碎骨誓死保护米莎，米莎在碎骨临终时哀求他回来",
+          "en_US": "Sokai and Misha are siblings; Sokai swore to protect Misha; Misha begged him to return as he lay dying"
+        }
+      }
+    ],
+    "confidence_level": "implied_plot",
+    "first_appear_event_id": "main_ch02"
+  },
+  {
+    "id": "rel_npc_碎骨_char_002_amiya",
+    "source": "npc_碎骨",
+    "target": "char_002_amiya",
+    "relation_type": "rival",
+    "relation_label": {
+      "zh_CN": "立场对立/最终之战",
+      "en_US": "Opposing sides / Final battle"
+    },
+    "description": {
+      "zh_CN": "立场对立/最终之战",
+      "en_US": "Opposing sides / Final battle"
+    },
+    "associated_event_id": "main_ch02",
+    "evidences": [
+      {
+        "source_story": "level_main_02-08_end",
+        "quote": {
+          "zh_CN": "阿米娅......大概这就是命运吧。",
+          "en_US": "Amiya... this is probably fate."
+        },
+        "context_analysis": {
+          "zh_CN": "碎骨与罗德岛最终一战，碎骨战死",
+          "en_US": "Sokai fights Rhodes Island to the death; Sokai falls"
+        }
+      }
+    ],
+    "confidence_level": "official_fact",
+    "first_appear_event_id": "main_ch02"
+  },
+  {
+    "id": "rel_char_011_w_npc_碎骨",
+    "source": "char_011_w",
+    "target": "npc_碎骨",
+    "relation_type": "neutral",
+    "relation_label": {
+      "zh_CN": "利用关系",
+      "en_US": "Utilitarian / Exploiting"
+    },
+    "description": {
+      "zh_CN": "利用关系",
+      "en_US": "Utilitarian / Exploiting"
+    },
+    "associated_event_id": "main_ch02",
+    "evidences": [
+      {
+        "source_story": "level_main_02-03_end",
+        "quote": {
+          "zh_CN": "碎骨，我和你说过吧？只要干掉那个目标，战局就能瞬间逆转。",
+          "en_US": "Sokai, didn't I tell you? As long as we take out that target, the battle will turn instantly."
+        },
+        "context_analysis": {
+          "zh_CN": "W建议碎骨去杀博士，以扭转战局",
+          "en_US": "W suggests Sokai kill the Doctor to reverse the battle"
+        }
+      }
+    ],
+    "confidence_level": "implied_plot",
+    "first_appear_event_id": "main_ch02"
+  },
+  {
+    "id": "rel_npc_米莎_char_002_amiya",
+    "source": "npc_米莎",
+    "target": "char_002_amiya",
+    "relation_type": "neutral",
+    "relation_label": {
+      "zh_CN": "理念分歧/选择对立",
+      "en_US": "Ideological divide / Chose Reunion"
+    },
+    "description": {
+      "zh_CN": "理念分歧/选择对立",
+      "en_US": "Ideological divide / Chose Reunion"
+    },
+    "associated_event_id": "main_ch02",
+    "evidences": [
+      {
+        "source_story": "level_main_02-05_end",
+        "quote": {
+          "zh_CN": "对不起，阿米娅，对不起......整合运动是感染者......他们，也是感染者啊......",
+          "en_US": "I'm sorry, Amiya, I'm sorry... the Reunion Movement are the infected... they are infected too..."
+        },
+        "context_analysis": {
+          "zh_CN": "米莎在最后关头选择留在整合运动一边，向阿米娅道歉",
+          "en_US": "Misha chooses to stay with Reunion and apologizes to Amiya"
+        }
+      }
+    ],
+    "confidence_level": "implied_plot",
+    "first_appear_event_id": "main_ch02"
+  },
+  {
+    "id": "rel_char_173_texas_char_166_exia",
+    "source": "char_173_texas",
+    "target": "char_166_exia",
+    "relation_type": "ally",
+    "relation_label": {
+      "zh_CN": "企鹅物流同僚/默契搭档",
+      "en_US": "Penguin Logistics colleagues / Tight partners"
+    },
+    "description": {
+      "zh_CN": "企鹅物流同僚/默契搭档",
+      "en_US": "Penguin Logistics colleagues / Tight partners"
+    },
+    "associated_event_id": "main_ch02",
+    "evidences": [
+      {
+        "source_story": "level_main_02-01_beg",
+        "quote": {
+          "zh_CN": "她可是我们的雇主，稍微礼貌一些。",
+          "en_US": "She's our employer, be a little more polite."
+        },
+        "context_analysis": {
+          "zh_CN": "德克萨斯与能天使是企鹅物流同僚，德克萨斯吐槽能天使对阿米娅说话随便",
+          "en_US": "Texas and Exusiai are Penguin Logistics colleagues; Texas chides Exusiai for being too casual with Amiya"
+        }
+      }
+    ],
+    "confidence_level": "implied_plot",
+    "first_appear_event_id": "main_ch02"
+  },
+  {
+    "id": "rel_char_172_franka_char_171_lisk",
+    "source": "char_172_franka",
+    "target": "char_171_lisk",
+    "relation_type": "ally",
+    "relation_label": {
+      "zh_CN": "黑钢国际战友/默契配合",
+      "en_US": "Blacksteel International comrades / Flawless coordination"
+    },
+    "description": {
+      "zh_CN": "黑钢国际战友/默契配合",
+      "en_US": "Blacksteel International comrades / Flawless coordination"
+    },
+    "associated_event_id": "main_ch02",
+    "evidences": [
+      {
+        "source_story": "level_main_02-07_beg",
+        "quote": {
+          "zh_CN": "雷蛇，你该出场了！麻烦帮我抵挡一下敌人的远程攻击，谢谢！",
+          "en_US": "Liskarm, it's your turn! Please cover my back against ranged attacks, thanks!"
+        },
+        "context_analysis": {
+          "zh_CN": "芙兰卡与雷蛇配合默契，相互掩护",
+          "en_US": "Franka and Liskarm coordinate seamlessly, covering each other"
+        }
+      }
+    ],
+    "confidence_level": "implied_plot",
+    "first_appear_event_id": "main_ch02"
+  },
+  {
+    "id": "rel_npc_mephisto_npc_霜星",
+    "source": "npc_mephisto",
+    "target": "npc_霜星",
+    "relation_type": "rival",
+    "relation_label": {
+      "zh_CN": "互相厌恶",
+      "en_US": "Mutual contempt"
+    },
+    "description": {
+      "zh_CN": "互相厌恶",
+      "en_US": "Mutual contempt"
+    },
+    "associated_event_id": "main_ch04",
+    "evidences": [
+      {
+        "source_story": "level_main_04-10_end",
+        "quote": {
+          "zh_CN": "我该先把你这个连野兽都不如的杀人狂，丢在雪原里等死。",
+          "en_US": "I should first throw you, this beast-like murderer, to die in the snow."
+        },
+        "context_analysis": {
+          "zh_CN": "霜星对梅菲斯特的残暴嗤之以鼻",
+          "en_US": "Frostnova despises Mephisto's cruelty"
+        }
+      }
+    ],
+    "confidence_level": "official_fact",
+    "first_appear_event_id": "main_ch04"
+  },
+  {
+    "id": "rel_char_294_meteo_char_292_frost",
+    "source": "char_294_meteo",
+    "target": "char_292_frost",
+    "relation_type": "ally",
+    "relation_label": {
+      "zh_CN": "罗德岛战友/生死与共",
+      "en_US": "Rhodes Island comrades / Through fire and ice"
+    },
+    "description": {
+      "zh_CN": "罗德岛战友/生死与共",
+      "en_US": "Rhodes Island comrades / Through fire and ice"
+    },
+    "associated_event_id": "main_ch04",
+    "evidences": [
+      {
+        "source_story": "level_main_04-09_end",
+        "quote": {
+          "zh_CN": "（在我眼里，你也是孩子啊。）",
+          "en_US": "(In my eyes, you're a child too.)"
+        },
+        "context_analysis": {
+          "zh_CN": "陨星与霜叶在绝境中互相扶持，霜叶为掩护她们不惜断后",
+          "en_US": "Meteo and Frostleaf support each other through desperate odds; Frostleaf stays behind to cover their escape"
+        }
+      }
+    ],
+    "confidence_level": "implied_plot",
+    "first_appear_event_id": "main_ch04"
+  },
+  {
+    "id": "rel_char_183_jessica_char_294_meteo",
+    "source": "char_183_jessica",
+    "target": "char_294_meteo",
+    "relation_type": "ally",
+    "relation_label": {
+      "zh_CN": "战友关怀",
+      "en_US": "Comrades / Concern for each other"
+    },
+    "description": {
+      "zh_CN": "战友关怀",
+      "en_US": "Comrades / Concern for each other"
+    },
+    "associated_event_id": "main_ch04",
+    "evidences": [
+      {
+        "source_story": "level_main_04-08_end",
+        "quote": {
+          "zh_CN": "阿米娅！你......你居然来了！见到你，真是，真是太好了......",
+          "en_US": "Amiya! You... you actually came! Seeing you is really, really great..."
+        },
+        "context_analysis": {
+          "zh_CN": "杰西卡与陨星共同被困废城广场，陨星安慰杰西卡",
+          "en_US": "Jessica and Meteo trapped in plaza; Meteo comforts Jessica"
+        }
+      }
+    ],
+    "confidence_level": "implied_plot",
+    "first_appear_event_id": "main_ch04"
+  },
+  {
+    "id": "rel_char_183_jessica_char_292_frost",
+    "source": "char_183_jessica",
+    "target": "char_292_frost",
+    "relation_type": "ally",
+    "relation_label": {
+      "zh_CN": "战友/被保护者",
+      "en_US": "Comrades / Protected by"
+    },
+    "description": {
+      "zh_CN": "战友/被保护者",
+      "en_US": "Comrades / Protected by"
+    },
+    "associated_event_id": "main_ch04",
+    "evidences": [
+      {
+        "source_story": "level_main_04-08_end",
+        "quote": {
+          "zh_CN": "站起来吧，杰西卡。你不用再害怕了——因为你现在，和我们在一起。",
+          "en_US": "Stand up, Jessica. You don't have to be afraid anymore — because you're with us now."
+        },
+        "context_analysis": {
+          "zh_CN": "霜叶与陨星营救杰西卡，阿米娅鼓励她站起来",
+          "en_US": "Frostleaf and Meteo rescue Jessica; Amiya encourages her to stand"
+        }
+      }
+    ],
+    "confidence_level": "implied_plot",
+    "first_appear_event_id": "main_ch04"
+  },
+  {
+    "id": "rel_npc_霜星_npc_talula",
+    "source": "npc_霜星",
+    "target": "npc_talula",
+    "relation_type": "ally",
+    "relation_label": {
+      "zh_CN": "整合运动领袖与队员",
+      "en_US": "Reunion leader and soldier"
+    },
+    "description": {
+      "zh_CN": "整合运动领袖与队员",
+      "en_US": "Reunion leader and soldier"
+    },
+    "associated_event_id": "main_ch04",
+    "evidences": [
+      {
+        "source_story": "level_main_04-10_end",
+        "quote": {
+          "zh_CN": "我该先把你这个连野兽都不如的杀人狂，丢在雪原里等死。/哼。我要去追击罗德岛了。",
+          "en_US": "I should throw you away first... / Hmph. I'm going to pursue Rhodes Island."
+        },
+        "context_analysis": {
+          "zh_CN": "霜星是雪怪小队领袖，听命于塔露拉",
+          "en_US": "Frostnova leads the Snow雪怪 squad, under Talulah's command"
+        }
+      }
+    ],
+    "confidence_level": "implied_plot",
+    "first_appear_event_id": "main_ch04"
+  },
+  {
+    "id": "rel_npc_talula_npc_mephisto",
+    "source": "npc_talula",
+    "target": "npc_mephisto",
+    "relation_type": "ally",
+    "relation_label": {
+      "zh_CN": "上下级/指挥关系",
+      "en_US": "Superior and subordinate / Command relation"
+    },
+    "description": {
+      "zh_CN": "上下级/指挥关系",
+      "en_US": "Superior and subordinate / Command relation"
+    },
+    "associated_event_id": "main_ch04",
+    "evidences": [
+      {
+        "source_story": "level_main_04-10_end",
+        "quote": {
+          "zh_CN": "是时候了————让这腐败的城市，化为灰烬。",
+          "en_US": "The time has come — let this corrupt city turn to ashes."
+        },
+        "context_analysis": {
+          "zh_CN": "塔露拉作为整合运动最高领袖，指挥梅菲斯特行动",
+          "en_US": "Talulah as Reunion's supreme leader commands Mephisto's operations"
+        }
+      }
+    ],
+    "confidence_level": "implied_plot",
+    "first_appear_event_id": "main_ch04"
+  },
+  {
+    "id": "rel_npc_talula_npc_faust",
+    "source": "npc_talula",
+    "target": "npc_faust",
+    "relation_type": "ally",
+    "relation_label": {
+      "zh_CN": "上下级/特殊信任",
+      "en_US": "Superior and subordinate / Special trust"
+    },
+    "description": {
+      "zh_CN": "上下级/特殊信任",
+      "en_US": "Superior and subordinate / Special trust"
+    },
+    "associated_event_id": "main_ch04",
+    "evidences": [
+      {
+        "source_story": "level_main_04-10_end",
+        "quote": {
+          "zh_CN": "浮士德和弑君者已经破坏了一处防御——这样就万无一失了。",
+          "en_US": "Faust and Patriot have destroyed a defense — this makes everything foolproof."
+        },
+        "context_analysis": {
+          "zh_CN": "塔露拉信任浮士德执行破坏防御任务",
+          "en_US": "Talulah trusts Faust to execute the defense sabotage mission"
+        }
+      }
+    ],
+    "confidence_level": "implied_plot",
+    "first_appear_event_id": "main_ch04"
+  },
+  {
+    "id": "rel_char_002_amiya_char_183_jessica",
+    "source": "char_002_amiya",
+    "target": "char_183_jessica",
+    "relation_type": "ally",
+    "relation_label": {
+      "zh_CN": "领袖对干员的关怀/鼓励",
+      "en_US": "Leader's care for operators / Encouragement"
+    },
+    "description": {
+      "zh_CN": "领袖对干员的关怀/鼓励",
+      "en_US": "Leader's care for operators / Encouragement"
+    },
+    "associated_event_id": "main_ch04",
+    "evidences": [
+      {
+        "source_story": "level_main_04-08_end",
+        "quote": {
+          "zh_CN": "站起来吧，杰西卡。你不用再害怕了——因为你现在，和我们在一起。你不孤单，你身边永远有我们。",
+          "en_US": "Stand up, Jessica. You don't have to be afraid anymore — because you're with us now. You're not alone, we're always here for you."
+        },
+        "context_analysis": {
+          "zh_CN": "阿米娅鼓励害怕中的杰西卡站起来",
+          "en_US": "Amiya encourages the frightened Jessica to stand up"
+        }
+      }
+    ],
+    "confidence_level": "implied_plot",
+    "first_appear_event_id": "main_ch04"
+  },
+  {
+    "id": "rel_chen_hoshiguma",
+    "source": "char_010_chen",
+    "target": "char_137_brownb",
+    "relation_type": "ally",
+    "relation_label": {
+      "zh_CN": "过命战友与搭档",
+      "en_US": "Sworn Partner & Comrade"
+    },
+    "description": {
+      "zh_CN": "陈与星熊是多年战友与搭档，星熊多次在危急时刻保护陈，甚至不惜受伤。",
+      "en_US": "Ch'en and Hoshiguma are veteran partners; Hoshiguma has repeatedly protected Ch'en at critical moments, even at the cost of injury."
+    },
+    "associated_event_id": "main_ch05",
+    "evidences": [
+      {
+        "source_story": "level_main_05-07_beg",
+        "quote": {
+          "zh_CN": "你又救了我一次。……你的盾，你替我撑了这么久；偶尔也要允许我做一回你的盾牌，星熊。",
+          "en_US": "You saved me again... Your shield has held for me all this time — let me be your shield for once, Hoshiguma."
+        },
+        "context_analysis": {
+          "zh_CN": "星熊撑起坍塌的楼板保护陈，胳膊受伤，陈表达深深的感激和搭档誓言",
+          "en_US": "Hoshiguma props up collapsed debris to protect Ch'en, injuring her arm; Ch'en expresses deep gratitude and sworn partnership"
+        }
+      },
+      {
+        "source_story": "level_main_05-02_beg",
+        "quote": {
+          "zh_CN": "星熊，我需要一次很长很长的休假……我想去你的家乡看看。",
+          "en_US": "Hoshiguma, I need a very long vacation... I want to visit your hometown."
+        },
+        "context_analysis": {
+          "zh_CN": "陈向星熊表达休假愿望和想去星熊家乡的信任",
+          "en_US": "Ch'en expresses desire for vacation and trust in visiting Hoshiguma's hometown"
+        }
+      }
+    ],
+    "confidence_level": "official_fact",
+    "first_appear_event_id": "main_ch05"
+  },
+  {
+    "id": "rel_chen_swire",
+    "source": "char_010_chen",
+    "target": "char_b18703d0",
+    "relation_type": "rival",
+    "relation_label": {
+      "zh_CN": "职场竞争与私人恩怨",
+      "en_US": "Rivalry & Personal Grudge"
+    },
+    "description": {
+      "zh_CN": "陈与诗怀雅在近卫局内有激烈的职场竞争，两人互相看不顺眼，诗怀雅多次当众指责陈的决策，陈也反唇相讥。",
+      "en_US": "Ch'en and Swire have intense workplace rivalry within the Guard Bureau; Swire publicly criticizes Ch'en's decisions while Ch'en fires back."
+    },
+    "associated_event_id": "main_ch05",
+    "evidences": [
+      {
+        "source_story": "level_main_05-01_beg",
+        "quote": {
+          "zh_CN": "龙门失守了，整个近卫局都被整合运动控制着，这是你的错。当龙门需要你的时候，你为什么不在龙门？我替你感到羞耻，陈警司。",
+          "en_US": "The Guard Bureau has fallen — this is your fault. Why weren't you in Lungmen when it needed you? I'm ashamed of you, Inspector Ch'en."
+        },
+        "context_analysis": {
+          "zh_CN": "诗怀雅当众严厉指责陈的离职导致龙门失守，言辞激烈带有私人恩怨",
+          "en_US": "Swire publicly and harshly accuses Ch'en of abandoning Lungmen, with intense personal animosity"
+        }
+      },
+      {
+        "source_story": "level_main_05-02_beg",
+        "quote": {
+          "zh_CN": "即使放下我们之间的私怨，我也不觉得你有这个能力来获得这份任命。",
+          "en_US": "Setting aside our personal grudge, I don't think you have what it takes to get this appointment."
+        },
+        "context_analysis": {
+          "zh_CN": "陈直接承认与诗怀雅之间存在私怨，并质疑其能力",
+          "en_US": "Ch'en explicitly acknowledges personal grudge with Swire and questions her competence"
+        }
+      }
+    ],
+    "confidence_level": "official_fact",
+    "first_appear_event_id": "main_ch05"
+  },
+  {
+    "id": "rel_chen_mephisto",
+    "source": "char_010_chen",
+    "target": "npc_mephisto",
+    "relation_type": "rival",
+    "relation_label": {
+      "zh_CN": "死敌对抗",
+      "en_US": "Archenemy Confrontation"
+    },
+    "description": {
+      "zh_CN": "陈与梅菲斯特在近卫局天台展开生死对决，陈以赤霄斩击梅菲斯特及其护卫，最终梅菲斯特在浮士德帮助下逃离。",
+      "en_US": "Ch'en and Mephisto battle on the Guard Bureau rooftop; Ch'en slashes Mephisto and his guards with Chi Xiao, but Mephisto escapes with Faust's help."
+    },
+    "associated_event_id": "main_ch05",
+    "evidences": [
+      {
+        "source_story": "level_main_05-10_beg",
+        "quote": {
+          "zh_CN": "多说无益，齐上吧。这里不是整合运动该来的地方！",
+          "en_US": "Enough talk — come at me together. This is no place for Reunion!"
+        },
+        "context_analysis": {
+          "zh_CN": "陈拒绝梅菲斯特的对话提议，宣示死战",
+          "en_US": "Ch'en rejects Mephisto's dialogue offer, declaring total war"
+        }
+      },
+      {
+        "source_story": "level_main_05-10_beg",
+        "quote": {
+          "zh_CN": "你也逃不掉。",
+          "en_US": "You won't escape either."
+        },
+        "context_analysis": {
+          "zh_CN": "陈用赤霄斩击浮士德，阻止梅菲斯特逃走",
+          "en_US": "Ch'en uses Chi Xiao to slash Faust, preventing Mephisto's escape"
+        }
+      }
+    ],
+    "confidence_level": "official_fact",
+    "first_appear_event_id": "main_ch05"
+  },
+  {
+    "id": "rel_hoshiguma_swire",
+    "source": "char_137_brownb",
+    "target": "char_b18703d0",
+    "relation_type": "neutral",
+    "relation_label": {
+      "zh_CN": "同事情谊与调解",
+      "en_US": "Colleague & Mediator"
+    },
+    "description": {
+      "zh_CN": "星熊在陈与诗怀雅的冲突中扮演调解者角色，试图缓和两人的矛盾，并对诗怀雅保持礼貌。",
+      "en_US": "Hoshiguma serves as mediator in Ch'en and Swire's conflicts, trying to defuse tension while remaining courteous to Swire."
+    },
+    "associated_event_id": "main_ch05",
+    "evidences": [
+      {
+        "source_story": "level_main_05-01_beg",
+        "quote": {
+          "zh_CN": "嗨，抱歉，小姐。你们脾气其实都真够差的。不管她怎么说，刚才的援助还是谢谢你了。",
+          "en_US": "Hey, sorry about that, 'miss'. You two have quite the temper. Thanks for the assist though, whatever she says."
+        },
+        "context_analysis": {
+          "zh_CN": "星熊在陈和诗怀雅争吵后向诗怀雅致歉并感谢援助，扮演调解角色",
+          "en_US": "Hoshiguma apologizes to Swire after the Ch'en/Swire argument and thanks her for help, acting as mediator"
+        }
+      }
+    ],
+    "confidence_level": "official_fact",
+    "first_appear_event_id": "main_ch05"
+  },
+  {
+    "id": "rel_chen_amiya",
+    "source": "char_010_chen",
+    "target": "char_002_amiya",
+    "relation_type": "ally",
+    "relation_label": {
+      "zh_CN": "并肩作战的战友",
+      "en_US": "Battlefield Comrades"
+    },
+    "description": {
+      "zh_CN": "陈与阿米娅在夺回近卫局的战斗中并肩作战，虽然最初近卫局对罗德岛有误解，但最终共同取得胜利。",
+      "en_US": "Ch'en and Amiya fight side by side to recapture the Guard Bureau; despite initial misunderstanding, they achieve victory together."
+    },
+    "associated_event_id": "main_ch05",
+    "evidences": [
+      {
+        "source_story": "level_main_05-10_end",
+        "quote": {
+          "zh_CN": "至少我们成功地夺回了近卫局。哪怕是暂时的，这也是我们的胜利。",
+          "en_US": "At least we successfully recaptured the Guard Bureau. Even if temporary, this is our victory."
+        },
+        "context_analysis": {
+          "zh_CN": "阿米娅与陈共同确认战斗胜利，陈询问罗德岛如何撤出切城",
+          "en_US": "Amiya and Ch'en jointly confirm the battle victory; Ch'en asks how Rhodes Island evacuated Chernobog"
+        }
+      }
+    ],
+    "confidence_level": "official_fact",
+    "first_appear_event_id": "main_ch05"
+  },
+  {
+    "id": "rel_chen_homura",
+    "source": "char_010_chen",
+    "target": "char_134_aglina",
+    "relation_type": "ally",
+    "relation_label": {
+      "zh_CN": "临时战友与相互认可",
+      "en_US": "Temporary Comrades & Mutual Respect"
+    },
+    "description": {
+      "zh_CN": "陈与煌在近卫局天台配合作战，共同击败梅菲斯特的护卫。煌亲眼目睹陈以赤霄一剑斩杀十余人，对陈的实力深感震惊。",
+      "en_US": "Ch'en and Blaze fight together on the Guard Bureau rooftop against Mephisto's guards. Blaze witnesses Ch'en cut down over a dozen enemies with one Chi Xiao slash, deeply impressed."
+    },
+    "associated_event_id": "main_ch05",
+    "evidences": [
+      {
+        "source_story": "level_main_05-10_beg",
+        "quote": {
+          "zh_CN": "他们要上了，姓陈的！",
+          "en_US": "They're coming, you Chen!"
+        },
+        "context_analysis": {
+          "zh_CN": "煌与陈联手面对梅菲斯特的护卫",
+          "en_US": "Blaze teams up with Ch'en against Mephisto's guards"
+        }
+      },
+      {
+        "source_story": "level_main_05-10_end",
+        "quote": {
+          "zh_CN": "你刚才是不是拔剑了？一剑？十几个这种东西？全灭？",
+          "en_US": "Did you just draw your sword? One slash? A dozen of them? All dead?"
+        },
+        "context_analysis": {
+          "zh_CN": "煌对陈用赤霄一剑斩杀十余人护卫表示震惊",
+          "en_US": "Blaze is shocked by Ch'en slaying a dozen guards with one Chi Xiao slash"
+        }
+      }
+    ],
+    "confidence_level": "official_fact",
+    "first_appear_event_id": "main_ch05"
+  },
+  {
+    "id": "rel_mephisto_faust",
+    "source": "npc_mephisto",
+    "target": "npc_faust",
+    "relation_type": "ally",
+    "relation_label": {
+      "zh_CN": "战友与指挥/护卫",
+      "en_US": "Commander & Right Hand"
+    },
+    "description": {
+      "zh_CN": "梅菲斯特与浮士德是整合运动的战友，浮士德作为梅菲斯特的护卫和狙击手，在战斗中掩护梅菲斯特，最终在失败时背负梅菲斯特逃离。",
+      "en_US": "Mephisto and Faust are Reunion Movement comrades; Faust serves as Mephisto's guard and sniper, covering his retreat, and carries injured Mephisto to escape after the battle fails."
+    },
+    "associated_event_id": "main_ch05",
+    "evidences": [
+      {
+        "source_story": "level_main_05-10_beg",
+        "quote": {
+          "zh_CN": "浮士德。/我知道。",
+          "en_US": "Faust. / I know."
+        },
+        "context_analysis": {
+          "zh_CN": "浮士德响应梅菲斯特的指令，配合弩箭攻击陈",
+          "en_US": "Faust responds to Mephisto's call and coordinates crossbow attacks against Ch'en"
+        }
+      },
+      {
+        "source_story": "level_main_05-10_end",
+        "quote": {
+          "zh_CN": "浮士德，浮士德！你受伤了……跳！我会拉住你！",
+          "en_US": "Faust, Faust! You're hurt… Jump! I'll catch you!"
+        },
+        "context_analysis": {
+          "zh_CN": "浮士德受伤后梅菲斯特惊恐，浮士德拉住梅菲斯特一起跳下逃离",
+          "en_US": "Mephisto panics when Faust is injured; Faust pulls Mephisto down to escape"
+        }
+      }
+    ],
+    "confidence_level": "official_fact",
+    "first_appear_event_id": "main_ch05"
+  }
+]

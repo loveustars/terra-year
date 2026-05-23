@@ -1,0 +1,326 @@
+[
+  {
+    "id": "main_ch00",
+    "terran_year_start": 1096,
+    "terran_year_end": 1096,
+    "title": {
+      "zh_CN": "第0章",
+      "en_US": "Chapter 0"
+    },
+    "subtitle": {
+      "zh_CN": "泰拉大陆",
+      "en_US": "Terra Continent"
+    },
+    "brief": {
+      "zh_CN": "第0章主线剧情",
+      "en_US": "Chapter 0 main story"
+    },
+    "bg_preset": "starry"
+  },
+  {
+    "id": "main_ch01",
+    "terran_year_start": 1096,
+    "terran_year_end": 1096,
+    "title": {
+      "zh_CN": "第1章",
+      "en_US": "Chapter 1"
+    },
+    "subtitle": {
+      "zh_CN": "泰拉大陆",
+      "en_US": "Terra Continent"
+    },
+    "brief": {
+      "zh_CN": "第1章主线剧情",
+      "en_US": "Chapter 1 main story"
+    },
+    "bg_preset": "starry"
+  },
+  {
+    "id": "main_ch02",
+    "terran_year_start": 1096,
+    "terran_year_end": 1096,
+    "title": {
+      "zh_CN": "第2章",
+      "en_US": "Chapter 2"
+    },
+    "subtitle": {
+      "zh_CN": "泰拉大陆",
+      "en_US": "Terra Continent"
+    },
+    "brief": {
+      "zh_CN": "第2章主线剧情",
+      "en_US": "Chapter 2 main story"
+    },
+    "bg_preset": "starry"
+  },
+  {
+    "id": "main_ch03",
+    "terran_year_start": 1096,
+    "terran_year_end": 1096,
+    "title": {
+      "zh_CN": "第3章",
+      "en_US": "Chapter 3"
+    },
+    "subtitle": {
+      "zh_CN": "泰拉大陆",
+      "en_US": "Terra Continent"
+    },
+    "brief": {
+      "zh_CN": "第3章主线剧情",
+      "en_US": "Chapter 3 main story"
+    },
+    "bg_preset": "starry"
+  },
+  {
+    "id": "main_ch04",
+    "terran_year_start": 1096,
+    "terran_year_end": 1096,
+    "title": {
+      "zh_CN": "第4章",
+      "en_US": "Chapter 4"
+    },
+    "subtitle": {
+      "zh_CN": "泰拉大陆",
+      "en_US": "Terra Continent"
+    },
+    "brief": {
+      "zh_CN": "第4章主线剧情",
+      "en_US": "Chapter 4 main story"
+    },
+    "bg_preset": "starry"
+  },
+  {
+    "id": "main_ch05",
+    "terran_year_start": 1096,
+    "terran_year_end": 1096,
+    "title": {
+      "zh_CN": "第5章",
+      "en_US": "Chapter 5"
+    },
+    "subtitle": {
+      "zh_CN": "泰拉大陆",
+      "en_US": "Terra Continent"
+    },
+    "brief": {
+      "zh_CN": "第5章主线剧情",
+      "en_US": "Chapter 5 main story"
+    },
+    "bg_preset": "starry"
+  },
+  {
+    "id": "main_ch06",
+    "terran_year_start": 1096,
+    "terran_year_end": 1096,
+    "title": {
+      "zh_CN": "第6章",
+      "en_US": "Chapter 6"
+    },
+    "subtitle": {
+      "zh_CN": "泰拉大陆",
+      "en_US": "Terra Continent"
+    },
+    "brief": {
+      "zh_CN": "第6章主线剧情",
+      "en_US": "Chapter 6 main story"
+    },
+    "bg_preset": "starry"
+  },
+  {
+    "id": "main_ch07",
+    "terran_year_start": 1096,
+    "terran_year_end": 1096,
+    "title": {
+      "zh_CN": "第7章",
+      "en_US": "Chapter 7"
+    },
+    "subtitle": {
+      "zh_CN": "泰拉大陆",
+      "en_US": "Terra Continent"
+    },
+    "brief": {
+      "zh_CN": "第7章主线剧情",
+      "en_US": "Chapter 7 main story"
+    },
+    "bg_preset": "starry"
+  },
+  {
+    "id": "main_ch08",
+    "terran_year_start": 1096,
+    "terran_year_end": 1096,
+    "title": {
+      "zh_CN": "第8章",
+      "en_US": "Chapter 8"
+    },
+    "subtitle": {
+      "zh_CN": "泰拉大陆",
+      "en_US": "Terra Continent"
+    },
+    "brief": {
+      "zh_CN": "第8章主线剧情",
+      "en_US": "Chapter 8 main story"
+    },
+    "bg_preset": "starry"
+  },
+  {
+    "id": "main_ch09",
+    "terran_year_start": 1097,
+    "terran_year_end": 1097,
+    "title": {
+      "zh_CN": "第9章",
+      "en_US": "Chapter 9"
+    },
+    "subtitle": {
+      "zh_CN": "龙门近卫局之战",
+      "en_US": "Longmen Guard Bureau"
+    },
+    "brief": {
+      "zh_CN": "第9章主线剧情",
+      "en_US": "Chapter 9 main story"
+    },
+    "bg_preset": "starry"
+  },
+  {
+    "id": "main_ch10",
+    "terran_year_start": 1098,
+    "terran_year_end": 1098,
+    "title": {
+      "zh_CN": "第10章",
+      "en_US": "Chapter 10"
+    },
+    "subtitle": {
+      "zh_CN": "维多利亚篇",
+      "en_US": "Victoria Arc"
+    },
+    "brief": {
+      "zh_CN": "第10章主线剧情",
+      "en_US": "Chapter 10 main story"
+    },
+    "bg_preset": "snow"
+  },
+  {
+    "id": "main_ch11",
+    "terran_year_start": 1098,
+    "terran_year_end": 1098,
+    "title": {
+      "zh_CN": "第11章",
+      "en_US": "Chapter 11"
+    },
+    "subtitle": {
+      "zh_CN": "维多利亚篇",
+      "en_US": "Victoria Arc"
+    },
+    "brief": {
+      "zh_CN": "第11章主线剧情",
+      "en_US": "Chapter 11 main story"
+    },
+    "bg_preset": "snow"
+  },
+  {
+    "id": "main_ch12",
+    "terran_year_start": 1098,
+    "terran_year_end": 1098,
+    "title": {
+      "zh_CN": "第12章",
+      "en_US": "Chapter 12"
+    },
+    "subtitle": {
+      "zh_CN": "维多利亚篇",
+      "en_US": "Victoria Arc"
+    },
+    "brief": {
+      "zh_CN": "第12章主线剧情",
+      "en_US": "Chapter 12 main story"
+    },
+    "bg_preset": "snow"
+  },
+  {
+    "id": "main_ch13",
+    "terran_year_start": 1098,
+    "terran_year_end": 1098,
+    "title": {
+      "zh_CN": "第13章",
+      "en_US": "Chapter 13"
+    },
+    "subtitle": {
+      "zh_CN": "维多利亚篇",
+      "en_US": "Victoria Arc"
+    },
+    "brief": {
+      "zh_CN": "第13章主线剧情",
+      "en_US": "Chapter 13 main story"
+    },
+    "bg_preset": "snow"
+  },
+  {
+    "id": "main_ch14",
+    "terran_year_start": 1098,
+    "terran_year_end": 1098,
+    "title": {
+      "zh_CN": "第14章",
+      "en_US": "Chapter 14"
+    },
+    "subtitle": {
+      "zh_CN": "维多利亚篇",
+      "en_US": "Victoria Arc"
+    },
+    "brief": {
+      "zh_CN": "第14章主线剧情",
+      "en_US": "Chapter 14 main story"
+    },
+    "bg_preset": "snow"
+  },
+  {
+    "id": "main_ch15",
+    "terran_year_start": 1100,
+    "terran_year_end": 1100,
+    "title": {
+      "zh_CN": "第15章",
+      "en_US": "Chapter 15"
+    },
+    "subtitle": {
+      "zh_CN": "后续篇章",
+      "en_US": "Future Chapters"
+    },
+    "brief": {
+      "zh_CN": "第15章主线剧情（待补充）",
+      "en_US": "Chapter 15 main story (pending)"
+    },
+    "bg_preset": "starry"
+  },
+  {
+    "id": "main_ch16",
+    "terran_year_start": 1100,
+    "terran_year_end": 1100,
+    "title": {
+      "zh_CN": "第16章",
+      "en_US": "Chapter 16"
+    },
+    "subtitle": {
+      "zh_CN": "后续篇章",
+      "en_US": "Future Chapters"
+    },
+    "brief": {
+      "zh_CN": "第16章主线剧情（待补充）",
+      "en_US": "Chapter 16 main story (pending)"
+    },
+    "bg_preset": "starry"
+  },
+  {
+    "id": "main_ch17",
+    "terran_year_start": 1100,
+    "terran_year_end": 1100,
+    "title": {
+      "zh_CN": "第17章",
+      "en_US": "Chapter 17"
+    },
+    "subtitle": {
+      "zh_CN": "后续篇章",
+      "en_US": "Future Chapters"
+    },
+    "brief": {
+      "zh_CN": "第17章主线剧情（待补充）",
+      "en_US": "Chapter 17 main story (pending)"
+    },
+    "bg_preset": "starry"
+  }
+]

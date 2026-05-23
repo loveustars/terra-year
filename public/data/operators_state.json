@@ -1,0 +1,623 @@
+[
+  {
+    "operator_id": "npc_theresa",
+    "terran_year": 1090,
+    "status": "alive",
+    "reason": {
+      "zh_CN": "在巴别塔与博士共事",
+      "en_US": "Working with Doctor at Babel"
+    }
+  },
+  {
+    "operator_id": "npc_vigil",
+    "terran_year": 1090,
+    "status": "alive",
+    "reason": {
+      "zh_CN": "巴别塔时期与特蕾西娅争夺王位",
+      "en_US": "Rivaling Theresa for Kazdel crown at Babel"
+    }
+  },
+  {
+    "operator_id": "char_6d7c1afb",
+    "terran_year": 1090,
+    "status": "alive",
+    "reason": {
+      "zh_CN": "石棺苏醒后加入巴别塔",
+      "en_US": "Joined Babel after waking from sarcophagus"
+    }
+  },
+  {
+    "operator_id": "char_002_amiya",
+    "terran_year": 1090,
+    "status": "alive",
+    "reason": {
+      "zh_CN": "巴别塔成员",
+      "en_US": "Member of Babel"
+    }
+  },
+  {
+    "operator_id": "char_003_kalts",
+    "terran_year": 1090,
+    "status": "alive",
+    "reason": {
+      "zh_CN": "巴别塔核心成员",
+      "en_US": "Core Babel member"
+    }
+  },
+  {
+    "operator_id": "char_011_w",
+    "terran_year": 1090,
+    "status": "alive",
+    "reason": {
+      "zh_CN": "巴别塔成员",
+      "en_US": "Babel member"
+    }
+  },
+  {
+    "operator_id": "char_ce834e1a",
+    "terran_year": 1090,
+    "status": "alive",
+    "reason": {
+      "zh_CN": "巴别塔精英战士",
+      "en_US": "Elite Babel warrior"
+    }
+  },
+  {
+    "operator_id": "char_a2026b00",
+    "terran_year": 1090,
+    "status": "alive",
+    "reason": {
+      "zh_CN": "巴别塔成员",
+      "en_US": "Babel member"
+    }
+  },
+  {
+    "operator_id": "char_134_aglina",
+    "terran_year": 1090,
+    "status": "alive",
+    "reason": {
+      "zh_CN": "罗德岛精英干员",
+      "en_US": "Rhodes Island Elite operator"
+    }
+  },
+  {
+    "operator_id": "char_4489b55b",
+    "terran_year": 1090,
+    "status": "alive",
+    "reason": {
+      "zh_CN": "巴别塔成员",
+      "en_US": "Babel member"
+    }
+  },
+  {
+    "operator_id": "char_263_skadi",
+    "terran_year": 1090,
+    "status": "alive",
+    "reason": {
+      "zh_CN": "深海猎人成员",
+      "en_US": "Abyssal Hunter member"
+    }
+  },
+  {
+    "operator_id": "char_1012_skadi2",
+    "terran_year": 1090,
+    "status": "alive",
+    "reason": {
+      "zh_CN": "深海猎人成员",
+      "en_US": "Abyssal Hunter member"
+    }
+  },
+  {
+    "operator_id": "char_a651dc93",
+    "terran_year": 1090,
+    "status": "alive",
+    "reason": {
+      "zh_CN": "深海猎人首领",
+      "en_US": "Abyssal Hunter leader"
+    }
+  },
+  {
+    "operator_id": "char_167_celya",
+    "terran_year": 1090,
+    "status": "alive",
+    "reason": {
+      "zh_CN": "莱茵生命研究员",
+      "en_US": "Rhine Lab researcher"
+    }
+  },
+  {
+    "operator_id": "char_121_ifrit",
+    "terran_year": 1090,
+    "status": "alive",
+    "reason": {
+      "zh_CN": "莱茵生命研究员",
+      "en_US": "Rhine Lab researcher"
+    }
+  },
+  {
+    "operator_id": "char_122_silence",
+    "terran_year": 1090,
+    "status": "alive",
+    "reason": {
+      "zh_CN": "莱茵生命研究员",
+      "en_US": "Rhine Lab researcher"
+    }
+  },
+  {
+    "operator_id": "char_88d8605e",
+    "terran_year": 1090,
+    "status": "alive",
+    "reason": {
+      "zh_CN": "罗德岛后勤核心",
+      "en_US": "Rhodes Island logistics core"
+    }
+  },
+  {
+    "operator_id": "char_5472b188",
+    "terran_year": 1090,
+    "status": "alive",
+    "reason": {
+      "zh_CN": "凯尔希的创造物",
+      "en_US": "Kal'tsit's creation"
+    }
+  },
+  {
+    "operator_id": "npc_theresa",
+    "terran_year": 1094,
+    "status": "deceased",
+    "reason": {
+      "zh_CN": "被萨卡兹佣兵刺杀",
+      "en_US": "Assassinated by Sarkaz mercenaries (W)"
+    }
+  },
+  {
+    "operator_id": "char_6d7c1afb",
+    "terran_year": 1094,
+    "status": "amnesiac",
+    "reason": {
+      "zh_CN": "特蕾西娅之死导致记忆混乱",
+      "en_US": "Memory disrupted after Theresa death"
+    }
+  },
+  {
+    "operator_id": "char_002_amiya",
+    "terran_year": 1094,
+    "status": "alive",
+    "reason": {
+      "zh_CN": "特蕾西娅传承后继续活动",
+      "en_US": "Continues after Theresa legacy transfer"
+    }
+  },
+  {
+    "operator_id": "char_003_kalts",
+    "terran_year": 1094,
+    "status": "alive",
+    "reason": {
+      "zh_CN": "特蕾西娅之死后坚持运营罗德岛",
+      "en_US": "Continues operating Rhodes Island after Theresa death"
+    }
+  },
+  {
+    "operator_id": "char_011_w",
+    "terran_year": 1094,
+    "status": "alive",
+    "reason": {
+      "zh_CN": "刺杀特蕾西娅后投靠特雷西斯",
+      "en_US": "Joined Theresis after Theresa assassination"
+    }
+  },
+  {
+    "operator_id": "char_ce834e1a",
+    "terran_year": 1094,
+    "status": "missing",
+    "reason": {
+      "zh_CN": "巴别塔事件后失踪",
+      "en_US": "Disappeared after Babel incident"
+    }
+  },
+  {
+    "operator_id": "char_a2026b00",
+    "terran_year": 1094,
+    "status": "alive",
+    "reason": {
+      "zh_CN": "巴别塔事件后行踪不明",
+      "en_US": "Whereabouts unknown after Babel"
+    }
+  },
+  {
+    "operator_id": "char_4489b55b",
+    "terran_year": 1094,
+    "status": "amnesiac",
+    "reason": {
+      "zh_CN": "巴别塔事件后记忆受损",
+      "en_US": "Memory damaged after Babel"
+    }
+  },
+  {
+    "operator_id": "char_167_celya",
+    "terran_year": 1095,
+    "status": "alive",
+    "reason": {
+      "zh_CN": "离开莱茵生命",
+      "en_US": "Left Rhine Lab"
+    }
+  },
+  {
+    "operator_id": "char_121_ifrit",
+    "terran_year": 1095,
+    "status": "missing",
+    "reason": {
+      "zh_CN": "逃离莱茵生命",
+      "en_US": "Escaped from Rhine Lab"
+    }
+  },
+  {
+    "operator_id": "char_122_silence",
+    "terran_year": 1095,
+    "status": "alive",
+    "reason": {
+      "zh_CN": "离开莱茵生命加入罗德岛",
+      "en_US": "Left Rhine Lab, joined Rhodes Island"
+    }
+  },
+  {
+    "operator_id": "char_6d7c1afb",
+    "terran_year": 1096,
+    "status": "alive",
+    "reason": {
+      "zh_CN": "重新苏醒",
+      "en_US": "Re-awakened"
+    }
+  },
+  {
+    "operator_id": "npc_patriot",
+    "terran_year": 1096,
+    "status": "alive",
+    "reason": {
+      "zh_CN": "整合运动领袖",
+      "en_US": "Reunion Movement leader"
+    }
+  },
+  {
+    "operator_id": "npc_talula",
+    "terran_year": 1096,
+    "status": "alive",
+    "reason": {
+      "zh_CN": "整合运动真正的领袖",
+      "en_US": "True leader of Reunion Movement"
+    }
+  },
+  {
+    "operator_id": "npc_vigil",
+    "terran_year": 1097,
+    "status": "alive",
+    "reason": {
+      "zh_CN": "维多利亚篇与罗德岛全面对抗",
+      "en_US": "Full confrontation with Rhodes Island in Victoria"
+    }
+  },
+  {
+    "operator_id": "char_002_amiya",
+    "terran_year": 1097,
+    "status": "alive",
+    "reason": {
+      "zh_CN": "切尔诺伯格事变领导罗德岛",
+      "en_US": "Led Rhodes Island in Chernobog Incident"
+    }
+  },
+  {
+    "operator_id": "char_003_kalts",
+    "terran_year": 1097,
+    "status": "alive",
+    "reason": {
+      "zh_CN": "切尔诺伯格事变指挥撤退",
+      "en_US": "Directed evacuation in Chernobog Incident"
+    }
+  },
+  {
+    "operator_id": "char_011_w",
+    "terran_year": 1097,
+    "status": "alive",
+    "reason": {
+      "zh_CN": "加入整合运动与罗德岛为敌",
+      "en_US": "Joined Reunion Movement as enemy of Rhodes Island"
+    }
+  },
+  {
+    "operator_id": "char_a2026b00",
+    "terran_year": 1097,
+    "status": "alive",
+    "reason": {
+      "zh_CN": "成为叙拉古的情报员",
+      "en_US": "Became Siracusan intelligence agent"
+    }
+  },
+  {
+    "operator_id": "char_134_aglina",
+    "terran_year": 1097,
+    "status": "alive",
+    "reason": {
+      "zh_CN": "维多利亚篇核心战力",
+      "en_US": "Core fighter in Victoria arc"
+    }
+  },
+  {
+    "operator_id": "char_4489b55b",
+    "terran_year": 1097,
+    "status": "alive",
+    "reason": {
+      "zh_CN": "重新加入罗德岛",
+      "en_US": "Rejoined Rhodes Island"
+    }
+  },
+  {
+    "operator_id": "npc_mephisto",
+    "terran_year": 1097,
+    "status": "alive",
+    "reason": {
+      "zh_CN": "整合运动干部",
+      "en_US": "Reunion Movement leader"
+    }
+  },
+  {
+    "operator_id": "npc_mephisto",
+    "terran_year": 1097,
+    "status": "deceased",
+    "reason": {
+      "zh_CN": "在切尔诺伯格被击毙",
+      "en_US": "Killed in Chernobog"
+    }
+  },
+  {
+    "operator_id": "npc_faust",
+    "terran_year": 1097,
+    "status": "alive",
+    "reason": {
+      "zh_CN": "整合运动干部",
+      "en_US": "Reunion Movement leader"
+    }
+  },
+  {
+    "operator_id": "npc_faust",
+    "terran_year": 1097,
+    "status": "deceased",
+    "reason": {
+      "zh_CN": "在切尔诺伯格被击毙",
+      "en_US": "Killed in Chernobog"
+    }
+  },
+  {
+    "operator_id": "npc_patriot",
+    "terran_year": 1097,
+    "status": "deceased",
+    "reason": {
+      "zh_CN": "在沃伦姆德被击杀",
+      "en_US": "Killed in Wolumunde"
+    }
+  },
+  {
+    "operator_id": "npc_talula",
+    "terran_year": 1097,
+    "status": "deceased",
+    "reason": {
+      "zh_CN": "在龙门事变中死亡",
+      "en_US": "Died in Lungmen uprising"
+    }
+  },
+  {
+    "operator_id": "char_263_skadi",
+    "terran_year": 1097,
+    "status": "alive",
+    "reason": {
+      "zh_CN": "愚人号事件后继续活动",
+      "en_US": "Active after Stultifera Navis"
+    }
+  },
+  {
+    "operator_id": "char_1012_skadi2",
+    "terran_year": 1097,
+    "status": "awakened",
+    "reason": {
+      "zh_CN": "愚人号事件中被控制后觉醒",
+      "en_US": "Awakened after being controlled in Stultifera Navis"
+    }
+  },
+  {
+    "operator_id": "char_a651dc93",
+    "terran_year": 1097,
+    "status": "alive",
+    "reason": {
+      "zh_CN": "愚人号事件指挥",
+      "en_US": "Led Stultifera Navis operation"
+    }
+  },
+  {
+    "operator_id": "char_d7b7fd4d",
+    "terran_year": 1097,
+    "status": "alive",
+    "reason": {
+      "zh_CN": "愚人号事件",
+      "en_US": "Stultifera Navis event"
+    }
+  },
+  {
+    "operator_id": "char_167_celya",
+    "terran_year": 1097,
+    "status": "alive",
+    "reason": {
+      "zh_CN": "孤星行动",
+      "en_US": "Lone Trail operation"
+    }
+  },
+  {
+    "operator_id": "char_121_ifrit",
+    "terran_year": 1097,
+    "status": "alive",
+    "reason": {
+      "zh_CN": "汐斯塔事件",
+      "en_US": "Sidaros event"
+    }
+  },
+  {
+    "operator_id": "char_108_silent",
+    "terran_year": 1097,
+    "status": "alive",
+    "reason": {
+      "zh_CN": "汐斯塔领主",
+      "en_US": "Sidaros Lord"
+    }
+  },
+  {
+    "operator_id": "char_140_whitew",
+    "terran_year": 1097,
+    "status": "alive",
+    "reason": {
+      "zh_CN": "锡兰的保镖",
+      "en_US": "Ceylon's bodyguard"
+    }
+  },
+  {
+    "operator_id": "char_201_gavial",
+    "terran_year": 1097,
+    "status": "alive",
+    "reason": {
+      "zh_CN": "阿卡胡拉领主",
+      "en_US": "Acuahlla Lord"
+    }
+  },
+  {
+    "operator_id": "char_1017_skadi2",
+    "terran_year": 1097,
+    "status": "alive",
+    "reason": {
+      "zh_CN": "阿卡胡拉战士",
+      "en_US": "Acuahlla warrior"
+    }
+  },
+  {
+    "operator_id": "char_4087_dowarne",
+    "terran_year": 1097,
+    "status": "alive",
+    "reason": {
+      "zh_CN": "阿卡胡拉祭司",
+      "en_US": "Acuahlla priestess"
+    }
+  },
+  {
+    "operator_id": "char_2013_cerber",
+    "terran_year": 1097,
+    "status": "alive",
+    "reason": {
+      "zh_CN": "阿卡胡拉战士",
+      "en_US": "Acuahlla warrior"
+    }
+  },
+  {
+    "operator_id": "char_010_chen",
+    "terran_year": 1097,
+    "status": "alive",
+    "reason": {
+      "zh_CN": "龙门近卫局",
+      "en_US": "Lungmen Guard Department"
+    }
+  },
+  {
+    "operator_id": "char_102_texas",
+    "terran_year": 1097,
+    "status": "alive",
+    "reason": {
+      "zh_CN": "企鹅物流成员",
+      "en_US": "Penguin Logistics member"
+    }
+  },
+  {
+    "operator_id": "char_103_angel",
+    "terran_year": 1097,
+    "status": "alive",
+    "reason": {
+      "zh_CN": "企鹅物流成员",
+      "en_US": "Penguin Logistics member"
+    }
+  },
+  {
+    "operator_id": "char_182_petra",
+    "terran_year": 1097,
+    "status": "alive",
+    "reason": {
+      "zh_CN": "企鹅物流成员",
+      "en_US": "Penguin Logistics member"
+    }
+  },
+  {
+    "operator_id": "char_137_brownb",
+    "terran_year": 1097,
+    "status": "alive",
+    "reason": {
+      "zh_CN": "龙门近卫局",
+      "en_US": "Lungmen Guard Department"
+    }
+  },
+  {
+    "operator_id": "char_1034_mizuki",
+    "terran_year": 1097,
+    "status": "alive",
+    "reason": {
+      "zh_CN": "多索雷斯假日事件",
+      "en_US": "Dossoles Holiday event"
+    }
+  },
+  {
+    "operator_id": "char_0e316ec5",
+    "terran_year": 1097,
+    "status": "alive",
+    "reason": {
+      "zh_CN": "多索雷斯大帝",
+      "en_US": "Dossoles Emperor"
+    }
+  },
+  {
+    "operator_id": "char_562b3bbc",
+    "terran_year": 1097,
+    "status": "alive",
+    "reason": {
+      "zh_CN": "罗德岛精英干员",
+      "en_US": "Rhodes Island Elite operator"
+    }
+  },
+  {
+    "operator_id": "char_265_flk",
+    "terran_year": 1097,
+    "status": "alive",
+    "reason": {
+      "zh_CN": "罗德岛精英干员",
+      "en_US": "Rhodes Island Elite operator"
+    }
+  },
+  {
+    "operator_id": "char_266_flash",
+    "terran_year": 1097,
+    "status": "alive",
+    "reason": {
+      "zh_CN": "罗德岛精英干员",
+      "en_US": "Rhodes Island Elite operator"
+    }
+  },
+  {
+    "operator_id": "char_88d8605e",
+    "terran_year": 1097,
+    "status": "alive",
+    "reason": {
+      "zh_CN": "切尔诺伯格事变",
+      "en_US": "Chernobog Incident"
+    }
+  },
+  {
+    "operator_id": "char_5472b188",
+    "terran_year": 1097,
+    "status": "alive",
+    "reason": {
+      "zh_CN": "切尔诺伯格事变",
+      "en_US": "Chernobog Incident"
+    }
+  }
+]

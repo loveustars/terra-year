@@ -1,0 +1,351 @@
+import { useState, useMemo, useCallback } from 'react';
+import { AnimatePresence, motion } from 'framer-motion';
+import { useTerraData } from './hooks/useTerraData';
+import Timeline from './components/Timeline';
+import EventBackground from './components/EventBackground';
+import GraphCanvas from './components/GraphCanvas';
+import OperatorSelector from './components/OperatorSelector';
+import RelationPanel from './components/RelationPanel';
+import AvatarRelationPopup from './components/AvatarRelationPopup';
+import type { LangKey, TerraEvent, OperatorRelation } from './hooks/useTerraData';
+
+type SingleRelationDetail = {
+  relation: OperatorRelation;
+  sourceOp: import('./hooks/useTerraData').Operator;
+  targetOp: import('./hooks/useTerraData').Operator;
+  event: TerraEvent;
+};
+
+function App() {
+  const {
+    operators, events, operatorStates,
+    loading, error, yearRange,
+    getRelationsByEvent, getOperatorById,
+    getOperatorState, relations,
+  } = useTerraData();
+
+  const [lang, setLang] = useState<LangKey>('zh_CN');
+  const [currentEvent, setCurrentEvent] = useState<TerraEvent | null>(null);
+  const [hasInteracted, setHasInteracted] = useState(false);
+
+  /** 已在左侧面板勾选的干员 */
+  const [selectedOpIds, setSelectedOpIds] = useState<Set<string>>(new Set());
+
+  const toggleOperator = useCallback((id: string) => {
+    setSelectedOpIds(prev => {
+      const next = new Set(prev);
+      if (next.has(id)) next.delete(id);
+      else next.add(id);
+      return next;
+    });
+  }, []);
+
+  const selectAll = useCallback(() => {
+    // 选取当前事件中有关联的所有干员
+    if (!currentEvent) return;
+    const evRels = getRelationsByEvent(currentEvent.id);
+    const ids = new Set<string>();
+    evRels.forEach(r => { ids.add(r.source); ids.add(r.target); });
+    setSelectedOpIds(ids);
+  }, [currentEvent, getRelationsByEvent]);
+
+  const deselectAll = useCallback(() => setSelectedOpIds(new Set()), []);
+
+  /** 当前事件在关系网中展示的干员 + 当前事件前（包括当前）所有章节的关系（树形生长） */
+  const graphData = useMemo(() => {
+    if (!currentEvent) return { operators: [] as typeof operators, relations: [] as OperatorRelation[] };
+
+    // 找出当前事件在 events 列表中的顺序索引
+    const eventIndex = events.findIndex(e => e.id === currentEvent.id);
+    if (eventIndex < 0) return { operators: [] as typeof operators, relations: [] as OperatorRelation[] };
+
+    // 收集当前事件及之前所有章节的关系（树形生长）
+    const earlierEventIds = events.slice(0, eventIndex + 1).map(e => e.id);
+    const cumulativeRels = relations.filter(r => earlierEventIds.includes(r.first_appear_event_id));
+
+    const filtered = selectedOpIds.size > 0
+      ? cumulativeRels.filter(r => selectedOpIds.has(r.source) && selectedOpIds.has(r.target))
+      : cumulativeRels;
+    const opIds = new Set<string>();
+    filtered.forEach(r => { opIds.add(r.source); opIds.add(r.target); });
+    const graphOps = Array.from(opIds)
+      .map(id => getOperatorById(id))
+      .filter((op): op is NonNullable<typeof op> => op !== undefined);
+    return { operators: graphOps, relations: filtered };
+  }, [currentEvent, selectedOpIds, getRelationsByEvent, getOperatorById, relations, events]);
+
+  /** 当前年份（用于取干员状态） */
+  const currentYear = useMemo(() => {
+    if (!currentEvent) return 1096;
+    const s = currentEvent.terran_year_start;
+    const e = currentEvent.terran_year_end;
+    if (s === 'unknown' || e === 'unknown') return 1096;
+    return Math.floor((s + e) / 2);
+  }, [currentEvent]);
+
+  /** 干员状态 Map（按当前年份） */
+  const operatorStatuses = useMemo(() => {
+    const map = new Map<string, { status: string; reason?: string }>();
+    for (const op of graphData.operators) {
+      const state = getOperatorState(op.id, currentYear);
+      if (state) {
+        map.set(op.id, {
+          status: state.status,
+          reason: state.reason?.[lang] ?? state.reason?.zh_CN,
+        });
+      }
+    }
+    return map;
+  }, [graphData.operators, currentYear, getOperatorState, lang]);
+
+  /* ---- 事件切换 ---- */
+  const handleSelectEvent = useCallback((event: TerraEvent) => {
+    setCurrentEvent(event);
+    setSelectedOpIds(new Set());
+    if (!hasInteracted) setHasInteracted(true);
+  }, [hasInteracted]);
+
+  /* ---- 点击头像：显示迷你弹出面板（头像下方跟随出现） ---- */
+  const [selectedRelations, setSelectedRelations] = useState<OperatorRelation[]>([]);
+  const [showDetail, setShowDetail] = useState(false);
+  const [avatarPopup, setAvatarPopup] = useState<{
+    relations: SingleRelationDetail[];
+    position: { x: number; y: number };
+  } | null>(null);
+  const handleToggleDetail = useCallback((show: boolean) => { setShowDetail(show); }, []);
+
+  const handleSelectOperator = useCallback((
+    operatorId: string | null,
+    event?: { pageX: number; pageY: number },
+  ) => {
+    if (!operatorId) {
+      setSelectedRelations([]);
+      setAvatarPopup(null);
+      return;
+    }
+    // 显示该干员在当前事件及之前所有章节中的关系（树形生长）
+    const eventIndex = currentEvent ? events.findIndex(e => e.id === currentEvent.id) : -1;
+    const earlierEventIds = eventIndex >= 0 ? events.slice(0, eventIndex + 1).map(e => e.id) : [];
+    const cumulativeRels = relations.filter(r =>
+      earlierEventIds.includes(r.first_appear_event_id) &&
+      (r.source === operatorId || r.target === operatorId)
+    );
+    const details = cumulativeRels.map(r => {
+      const src = getOperatorById(r.source);
+      const tgt = getOperatorById(r.target);
+      if (!src || !tgt) return null;
+      return { relation: r, sourceOp: src, targetOp: tgt, event: currentEvent! };
+    }).filter(Boolean) as SingleRelationDetail[];
+
+    setSelectedRelations(cumulativeRels);
+    // 如果有鼠标位置信息（来自头像点击），弹出面板
+    if (event) {
+      setAvatarPopup({ relations: details, position: { x: event.pageX, y: event.pageY } });
+    } else {
+      setAvatarPopup(null);
+    }
+  }, [currentEvent, events, relations, getOperatorById]);
+
+  const handleCloseRelations = useCallback(() => {
+    setSelectedRelations([]);
+    setAvatarPopup(null);
+  }, []);
+
+  /* ---- 关系详情数据 ---- */
+  const relationDetails = useMemo(() => {
+    if (!currentEvent) return [];
+    return selectedRelations.map(r => {
+      const src = getOperatorById(r.source);
+      const tgt = getOperatorById(r.target);
+      if (!src || !tgt) return null;
+      return { relation: r, sourceOp: src, targetOp: tgt, event: currentEvent };
+    }).filter(Boolean) as Array<{
+      relation: OperatorRelation;
+      sourceOp: NonNullable<ReturnType<typeof getOperatorById>>;
+      targetOp: NonNullable<ReturnType<typeof getOperatorById>>;
+      event: TerraEvent;
+    }>;
+  }, [selectedRelations, currentEvent, getOperatorById]);
+
+  const showWelcome = !currentEvent && !hasInteracted && !loading && !error;
+
+  /** 当前事件及之前所有章节的干员（用于左侧面板，树形生长） */
+  const allEventOperators = useMemo(() => {
+    if (!currentEvent) return [];
+    const eventIndex = events.findIndex(e => e.id === currentEvent.id);
+    if (eventIndex < 0) return [];
+    const earlierEventIds = events.slice(0, eventIndex + 1).map(e => e.id);
+    const cumulativeRels = relations.filter(r => earlierEventIds.includes(r.first_appear_event_id));
+    const opIds = new Set<string>();
+    cumulativeRels.forEach(r => { opIds.add(r.source); opIds.add(r.target); });
+    return Array.from(opIds)
+      .map(id => getOperatorById(id))
+      .filter((op): op is NonNullable<typeof op> => op !== undefined);
+  }, [currentEvent, getRelationsByEvent, getOperatorById, relations, events]);
+
+  return (
+    <div className="relative w-full h-screen overflow-hidden arknights-grid" style={{ backgroundColor: '#0a0a0a' }}>
+
+      {/* 第1层：背景 */}
+      <div className="absolute inset-0 z-0">
+        <AnimatePresence mode="wait">
+          {currentEvent
+            ? <EventBackground key={currentEvent.id} event={currentEvent} lang={lang} />
+            : <EventBackground key="none" event={null} lang={lang} />}
+        </AnimatePresence>
+      </div>
+
+      {/* 第2层：干员选择面板（使用 allEventOperators 而非 graphData.operators） */}
+      {currentEvent && (
+        <OperatorSelector
+          allEventOperators={allEventOperators}
+          selectedIds={selectedOpIds}
+          onToggle={toggleOperator}
+          onSelectAll={selectAll}
+          onDeselectAll={deselectAll}
+          lang={lang}
+        />
+      )}
+
+      {/* 第3层：语言切换 */}
+      <div className="absolute top-4 right-6 z-30 flex items-center space-x-3 font-mono">
+        <AnimatePresence>
+          {currentEvent && (
+            <motion.div className="text-[9px] tracking-[0.15em]"
+              style={{ color: 'rgba(255,255,255,0.2)' }}
+              initial={{ opacity: 0, x: 10 }} animate={{ opacity: 1, x: 0 }} exit={{ opacity: 0, x: 10 }}>
+              {typeof currentEvent.terran_year_start === 'number'
+                ? `${currentEvent.terran_year_start} TY` : '? TY'}
+            </motion.div>
+          )}
+        </AnimatePresence>
+        <span className="text-[9px]" style={{ color: 'rgba(255,255,255,0.08)' }}>|</span>
+        <button onClick={() => setLang('zh_CN')} className="text-[10px] tracking-[0.1em] transition-colors"
+          style={{ color: lang === 'zh_CN' ? '#f2a104' : 'rgba(255,255,255,0.25)' }}>[ ZH ]</button>
+        <span className="text-[9px]" style={{ color: 'rgba(255,255,255,0.08)' }}>|</span>
+        <button onClick={() => setLang('en_US')} className="text-[10px] tracking-[0.1em] transition-colors"
+          style={{ color: lang === 'en_US' ? '#f2a104' : 'rgba(255,255,255,0.25)' }}>[ EN ]</button>
+      </div>
+
+      {/* 第4层：主内容 */}
+      <div className="absolute inset-0 z-10 flex items-center justify-center">
+        {loading && (
+          <div className="font-mono text-xs tracking-widest animate-pulse" style={{ color: 'rgba(255,255,255,0.3)' }}>
+            &gt; LOADING_DATA...
+          </div>
+        )}
+        {error && (
+          <div className="max-w-md p-4 text-sm font-mono border"
+            style={{ backgroundColor: 'rgba(255,50,50,0.05)', borderColor: 'rgba(255,50,50,0.2)', color: '#ff6b6b',
+              clipPath: 'polygon(0 0, 92% 0, 100% 12%, 100% 100%, 8% 100%, 0 88%)' }}>
+            <div className="text-[10px] tracking-[0.2em] mb-1" style={{ color: 'rgba(255,50,50,0.5)' }}>&gt; ERROR</div>
+            {error}
+          </div>
+        )}
+
+        <AnimatePresence mode="wait">
+          {showWelcome && (
+            <motion.div key="welcome" className="relative max-w-lg w-full text-center px-6 py-8"
+              style={{
+                backgroundColor: 'rgba(18,18,18,0.85)', backdropFilter: 'blur(12px)',
+                border: '1px solid rgba(255,255,255,0.06)',
+                clipPath: 'polygon(0 0, 92% 0, 100% 8%, 100% 100%, 8% 100%, 0 92%)',
+              }}
+              initial={{ opacity: 0, scale: 0.95, y: 10 }} animate={{ opacity: 1, scale: 1, y: 0 }}
+              exit={{ opacity: 0, scale: 0.95, y: -10 }} transition={{ duration: 0.4 }}>
+              <h1 className="text-3xl sm:text-4xl font-black tracking-[0.15em] font-mono" style={{ color: '#f2a104' }}>
+                TERRA-YEAR
+              </h1>
+              <h2 className="text-[10px] tracking-[0.25em] font-mono mt-1 mb-5" style={{ color: 'rgba(255,255,255,0.3)' }}>
+                CHRONO-RELATIONS CHART
+              </h2>
+              <div className="w-16 h-px mx-auto mb-5" style={{ backgroundColor: 'rgba(242,161,4,0.3)' }} />
+              <div className="grid grid-cols-3 gap-4 max-w-xs mx-auto mb-5">
+                {[{v: operators.length, l:'Operators'},{v: events.length, l:'Events'},{v: operatorStates.length, l:'State Changes'}].map((s,i)=>(
+                  <div key={i}>
+                    <div className="text-lg font-mono font-bold" style={{color:'#f5f5f5'}}>{s.v}</div>
+                    <div className="text-[8px] font-mono tracking-[0.15em] uppercase" style={{color:'rgba(255,255,255,0.25)'}}>{s.l}</div>
+                  </div>
+                ))}
+              </div>
+              <div className="text-left text-[10px] font-mono leading-relaxed p-3 space-y-1"
+                style={{backgroundColor:'rgba(0,0,0,0.3)',border:'1px dashed rgba(255,255,255,0.06)'}}>
+                <div style={{color:'rgba(255,255,255,0.2)'}}>&gt; STACK: React 18 / Vite 4 / Tailwind v3</div>
+                <div style={{color:'rgba(255,255,255,0.2)'}}>&gt; TIMELINE: {events.length} events spanning {yearRange[0]}–{yearRange[1]} TY</div>
+                <div style={{color:'rgba(255,255,255,0.2)'}}>&gt; SELECT OPERATORS via the left panel, then explore relations</div>
+                <div className="animate-pulse" style={{color:'rgba(242,161,4,0.6)'}}>&gt; STATUS: SYSTEM_READY</div>
+              </div>
+              <p className="mt-6 text-[9px] font-mono tracking-[0.15em]" style={{color:'rgba(255,255,255,0.12)'}}>
+                ↓ SELECT AN EVENT ON THE TIMELINE BELOW
+              </p>
+            </motion.div>
+          )}
+
+          {currentEvent && (
+            <motion.div key="graph" className="w-full h-full flex items-center justify-center"
+              initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} transition={{ duration: 0.5 }}>
+              {graphData.operators.length > 0 ? (
+                <GraphCanvas
+                  operators={graphData.operators}
+                  relations={graphData.relations}
+                  operatorStatuses={operatorStatuses}
+                  currentEvent={currentEvent}
+                  lang={lang}
+                  onSelectOperator={handleSelectOperator}
+                />
+              ) : (
+                <div className="text-center font-mono" style={{color:'rgba(255,255,255,0.15)'}}>
+                  <div className="text-[10px] tracking-[0.2em]">&gt; NO_OPERATORS_SELECTED</div>
+                  <div className="text-[9px] mt-2 tracking-[0.15em]" style={{color:'rgba(255,255,255,0.08)'}}>
+                    SELECT OPERATORS FROM THE LEFT PANEL
+                  </div>
+                </div>
+              )}
+            </motion.div>
+          )}
+        </AnimatePresence>
+      </div>
+
+      {/* 第5层：头像弹出面板（头像下方跟随出现，与 OperatorSelector 等大） */}
+      <AnimatePresence>
+        {avatarPopup && (
+          <AvatarRelationPopup
+            relations={avatarPopup.relations}
+            lang={lang}
+            position={avatarPopup.position}
+            onClose={() => {
+              setAvatarPopup(null);
+              setSelectedRelations([]);
+            }}
+          />
+        )}
+      </AnimatePresence>
+
+      {/* 第6层：关系详情面板（仅在没有头像弹出面板时显示） */}
+      <AnimatePresence>
+        {relationDetails.length > 0 && !avatarPopup && (
+          <RelationPanel
+            key="relation-panel"
+            relations={relationDetails}
+            lang={lang}
+            onClose={handleCloseRelations}
+          />
+        )}
+      </AnimatePresence>
+
+      {/* 第6层：底部时间轴 */}
+      <div className="absolute bottom-0 left-0 right-0 z-20">
+        <Timeline
+          events={events}
+          lang={lang}
+          selectedEvent={currentEvent}
+          onSelectEvent={handleSelectEvent}
+          showDetail={showDetail}
+          onToggleDetail={handleToggleDetail}
+        />
+      </div>
+    </div>
+  );
+}
+
+export default App;
