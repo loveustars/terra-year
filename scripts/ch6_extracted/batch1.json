@@ -1,0 +1,497 @@
+[
+  {
+    "id": "ch06_rel_001",
+    "source": "char_134_aglina",
+    "target": "integration_member",
+    "relation_type": "hostile",
+    "relation_label": {
+      "zh_CN": "对抗",
+      "en_US": "Opposing"
+    },
+    "description": {
+      "zh_CN": "煌作为罗德岛精英干员，在龙门行动中与整合运动成员作战，将其击败并劝降",
+      "en_US": "Blaze, as an elite operator of Rhodes Island, fights against Integration Movement members in the Longmen operation, defeating them and urging surrender"
+    },
+    "associated_event_id": "main_ch06",
+    "evidences": [
+      {
+        "source_story": "level_main_06-01_beg.clean.txt",
+        "quote": "我是来自罗德岛的精英干员，煌。我的作战目标是让各位失去战斗能力。",
+        "context_analysis": "煌向整合运动成员表明作战目标，强制解除其武装"
+      },
+      {
+        "source_story": "level_main_06-01_end.clean.txt",
+        "quote": "我是来自罗德岛的精英干员，煌。我的作战目标是让各位失去战斗能力。",
+        "context_analysis": "煌以高温气流压制整合运动成员，展示压倒性战斗力"
+      }
+    ],
+    "confidence_level": "high"
+  },
+  {
+    "id": "ch06_rel_002",
+    "source": "char_134_aglina",
+    "target": "char_002_amiya",
+    "relation_type": "allied",
+    "relation_label": {
+      "zh_CN": "同事/信赖",
+      "en_US": "Colleague/Trust"
+    },
+    "description": {
+      "zh_CN": "煌与阿米娅是罗德岛同事，煌称呼阿米娅为「小兔子」，两人关系亲密，阿米娅委托煌保护博士",
+      "en_US": "Blaze and Amiya are Rhodes Island colleagues. Blaze calls Amiya 'little bunny', they are close. Amiya entrusts Blaze to protect the Doctor"
+    },
+    "associated_event_id": "main_ch06",
+    "evidences": [
+      {
+        "source_story": "level_main_06-01_end.clean.txt",
+        "quote": "小兔子！！阿米娅：别一见面就把我抱起来啊！！煌：怎么会有这么软的脸蛋......怎么会！",
+        "context_analysis": "煌与阿米娅重逢时热情拥抱，展现亲近关系"
+      },
+      {
+        "source_story": "level_main_06-01_end.clean.txt",
+        "quote": "我会联系煌，让她保护你。会合前这一小段时间，也麻烦你，照看一下煌。",
+        "context_analysis": "阿米娅委托博士照顾煌的心理状态，说明两人信任关系"
+      }
+    ],
+    "confidence_level": "high"
+  },
+  {
+    "id": "ch06_rel_003",
+    "source": "char_134_aglina",
+    "target": "char_367_swllow",
+    "relation_type": "hostile",
+    "relation_label": {
+      "zh_CN": "警告/对立",
+      "en_US": "Warning/Confrontation"
+    },
+    "description": {
+      "zh_CN": "煌对灰喉说过的歧视感染者言论表示不满并警告她",
+      "en_US": "Blaze is dissatisfied and warns GreyThroat about her discriminatory remarks against the infected"
+    },
+    "associated_event_id": "main_ch06",
+    "evidences": [
+      {
+        "source_story": "level_main_06-01_end.clean.txt",
+        "quote": "下次你再对我们感染者同胞说那种话，我会撕掉你半张脸。",
+        "context_analysis": "煌警告灰喉不要歧视感染者同胞，语气强硬"
+      }
+    ],
+    "confidence_level": "high"
+  },
+  {
+    "id": "ch06_rel_004",
+    "source": "char_002_amiya",
+    "target": "char_367_swllow",
+    "relation_type": "allied",
+    "relation_label": {
+      "zh_CN": "同事/引导",
+      "en_US": "Colleague/Guidance"
+    },
+    "description": {
+      "zh_CN": "阿米娅尝试引导灰喉理解感染者的处境，认为她需要机会认清自己",
+      "en_US": "Amiya tries to guide GreyThroat to understand the situation of the infected, believing she needs a chance to recognize herself"
+    },
+    "associated_event_id": "main_ch06",
+    "evidences": [
+      {
+        "source_story": "level_main_06-01_end.clean.txt",
+        "quote": "她没理由用那时的事情去批评现在的你。灰喉：谁知道呢，我真的改变看法了吗？我自己也不知道。阿米娅：（她的情感里没有恶意。她只是需要机会认清自己。）",
+        "context_analysis": "阿米娅理解灰喉的困惑，认为她需要机会认清自己"
+      }
+    ],
+    "confidence_level": "high"
+  },
+  {
+    "id": "ch06_rel_005",
+    "source": "char_010_chen",
+    "target": "char_b18703d0",
+    "relation_type": "allied",
+    "relation_label": {
+      "zh_CN": "同僚/合作",
+      "en_US": "Colleague/Cooperation"
+    },
+    "description": {
+      "zh_CN": "陈与诗怀雅同为龙门近卫局人员，共同指挥对整合运动的围剿行动",
+      "en_US": "Ch'en and Saria are both Longmen Guard Bureau members, jointly commanding the encirclement operation against the Integration Movement"
+    },
+    "associated_event_id": "main_ch06",
+    "evidences": [
+      {
+        "source_story": "level_main_06-01_end.clean.txt",
+        "quote": "陈警司说得那样做！通讯完毕！我们有多久没并肩作战过了？",
+        "context_analysis": "两人共同指挥战斗，诗怀雅称呼陈为陈警司"
+      },
+      {
+        "source_story": "level_main_06-02_end.clean.txt",
+        "quote": "不好好指挥战斗，站在那看什么呢？陈：不关你事，小姐。",
+        "context_analysis": "诗怀雅和陈互相调侃，展现同事间轻松互动"
+      }
+    ],
+    "confidence_level": "high"
+  },
+  {
+    "id": "ch06_rel_006",
+    "source": "npc_wei",
+    "target": "char_010_chen",
+    "relation_type": "allied",
+    "relation_label": {
+      "zh_CN": "上级/指挥",
+      "en_US": "Superior/Command"
+    },
+    "description": {
+      "zh_CN": "魏彦吾是龙门近卫局的上级，陈警司执行其指令进行围剿行动",
+      "en_US": "Wei Yanwu is Ch'en's superior in the Longmen Guard Bureau, and Ch'en executes his orders in the encirclement operation"
+    },
+    "associated_event_id": "main_ch06",
+    "evidences": [
+      {
+        "source_story": "level_main_06-01_end.clean.txt",
+        "quote": "魏彦吾：你们已经就位了？魏彦吾：对，没错。我知道。只是，近卫局有他们该做的事，你们有你们该做的。",
+        "context_analysis": "魏彦吾确认近卫局的部署，显示出对行动的整体指挥权"
+      }
+    ],
+    "confidence_level": "high"
+  },
+  {
+    "id": "ch06_rel_007",
+    "source": "npc_mephisto",
+    "target": "npc_faust",
+    "relation_type": "allied",
+    "relation_label": {
+      "zh_CN": "战友/分歧",
+      "en_US": "Comrade/Tension"
+    },
+    "description": {
+      "zh_CN": "梅菲斯特与浮士德同为整合运动指挥官，梅菲斯特的激进做法引起浮士德的不安和反对",
+      "en_US": "Mephisto and Faust are both Integration Movement commanders. Mephisto's radical actions cause unease and opposition from Faust"
+    },
+    "associated_event_id": "main_ch06",
+    "evidences": [
+      {
+        "source_story": "level_main_06-03_beg.clean.txt",
+        "quote": "浮士德：梅菲斯特......停手吧。我们能活下去的。梅菲斯特：只有我的法术能做到这种事情，也只有这样，我们才有可能逃出去！",
+        "context_analysis": "浮士德劝阻梅菲斯特使用激进法术，但梅菲斯特坚持己见"
+      },
+      {
+        "source_story": "level_main_06-03_beg.clean.txt",
+        "quote": "浮士德：他们（牧群）是活的人啊！",
+        "context_analysis": "浮士德强烈反对梅菲斯特将感染者变成牧群的做法"
+      }
+    ],
+    "confidence_level": "high"
+  },
+  {
+    "id": "ch06_rel_008",
+    "source": "npc_faust",
+    "target": "char_367_swllow",
+    "relation_type": "neutral",
+    "relation_label": {
+      "zh_CN": "对手/复杂",
+      "en_US": "Opponent/Complex"
+    },
+    "description": {
+      "zh_CN": "浮士德与灰喉在战场上相遇，两人都累了，浮士德对灰喉的幼稚想法有所批评，但最终没有互相射击",
+      "en_US": "Faust and GreyThroat encounter each other on the battlefield. Both are exhausted. Faust criticizes GreyThroat's naive thoughts but ultimately does not shoot each other"
+    },
+    "associated_event_id": "main_ch06",
+    "evidences": [
+      {
+        "source_story": "level_main_06-03_end.clean.txt",
+        "quote": "浮士德：罗德岛怎么会有这样幼稚的人？灰喉：是的，我很幼稚。我只会按命令做事。",
+        "context_analysis": "浮士德批评灰喉幼稚，但语气中带有某种认可"
+      },
+      {
+        "source_story": "level_main_06-03_end.clean.txt",
+        "quote": "灰喉：你很累了。只要是用弩的人，都能看出你的疲劳。弦绷得太紧，这样下去一定会断掉。",
+        "context_analysis": "灰喉理解浮士德的疲劳和压力，两人产生某种共鸣"
+      },
+      {
+        "source_story": "level_main_06-03_end.clean.txt",
+        "quote": "你没有射击我，我也没有。下次不会了。如果你没射杀我，我就会射杀你。",
+        "context_analysis": "两人约定下次相遇时会互相射击，但这次互相放过"
+      }
+    ],
+    "confidence_level": "high"
+  },
+  {
+    "id": "ch06_rel_009",
+    "source": "npc_mephisto",
+    "target": "integration_member",
+    "relation_type": "hostile",
+    "relation_label": {
+      "zh_CN": "控制/牺牲",
+      "en_US": "Control/Sacrifice"
+    },
+    "description": {
+      "zh_CN": "梅菲斯特用法术催化感染者的感染，将他们变成牧群，完全控制并牺牲他们",
+      "en_US": "Mephisto uses arts to catalyze the infection of members, turning them into a flock under his control, sacrificing them completely"
+    },
+    "associated_event_id": "main_ch06",
+    "evidences": [
+      {
+        "source_story": "level_main_06-03_beg.clean.txt",
+        "quote": "梅菲斯特：我的同胞们，我的族裔们，响应我吧！梅菲斯特的牧群：（混乱的尖叫声）",
+        "context_analysis": "梅菲斯特召唤牧群，将普通整合运动成员转化为狂躁的感染者"
+      },
+      {
+        "source_story": "level_main_06-03_beg.clean.txt",
+        "quote": "浮士德：他们（牧群）是活的人啊！",
+        "context_analysis": "浮士德目睹牧群的悲惨状态，强烈反对梅菲斯特的做法"
+      }
+    ],
+    "confidence_level": "high"
+  },
+  {
+    "id": "ch06_rel_010",
+    "source": "avg_npc_042",
+    "target": "avg_npc_026",
+    "relation_type": "allied",
+    "relation_label": {
+      "zh_CN": "同事/关心",
+      "en_US": "Colleague/Care"
+    },
+    "description": {
+      "zh_CN": "Rosmontis与Scout是罗德岛同事，Scout关心Rosmontis，称呼她为小猫",
+      "en_US": "Rosmontis and Scout are Rhodes Island colleagues. Scout cares about Rosmontis, calling her 'little cat'"
+    },
+    "associated_event_id": "main_ch06",
+    "evidences": [
+      {
+        "source_story": "level_main_06-02_beg.clean.txt",
+        "quote": "Scout：你会见到的，小猫。",
+        "context_analysis": "Scout安慰Rosmontis会见到博士，称呼她小猫"
+      }
+    ],
+    "confidence_level": "high"
+  },
+  {
+    "id": "ch06_rel_011",
+    "source": "avg_npc_042",
+    "target": "npc_ace",
+    "relation_type": "allied",
+    "relation_label": {
+      "zh_CN": "同事/好感",
+      "en_US": "Colleague/Affection"
+    },
+    "description": {
+      "zh_CN": "Rosmontis与Ace是罗德岛同事，Rosmontis提到Ace的胡子很硬",
+      "en_US": "Rosmontis and Ace are Rhodes Island colleagues. Rosmontis mentions that Ace's beard is very hard"
+    },
+    "associated_event_id": "main_ch06",
+    "evidences": [
+      {
+        "source_story": "level_main_06-02_beg.clean.txt",
+        "quote": "Rosmontis：Ace，胡子很硬。",
+        "context_analysis": "Rosmontis与Ace有亲近的互动，评价Ace的胡子"
+      }
+    ],
+    "confidence_level": "high"
+  },
+  {
+    "id": "ch06_rel_012",
+    "source": "npc_ace",
+    "target": "char_367_swllow",
+    "relation_type": "allied",
+    "relation_label": {
+      "zh_CN": "培育/信任",
+      "en_US": "Mentorship/Trust"
+    },
+    "description": {
+      "zh_CN": "Ace培育灰喉数月，认为她绝对没有恶意，只是需要表达的机会",
+      "en_US": "Ace has mentored GreyThroat for months, believing she absolutely has no malice, just needs an opportunity to express herself"
+    },
+    "associated_event_id": "main_ch06",
+    "evidences": [
+      {
+        "source_story": "level_main_06-02_beg.clean.txt",
+        "quote": "Ace：我清楚。但她可能真的只是很疑惑，她想要去问这个问题。我没资格要求干员立即明白我们的处境，而且，灰喉从没质疑过罗德岛的命令。",
+        "context_analysis": "Ace为灰喉的行为辩护，认为她只是疑惑而非恶意"
+      }
+    ],
+    "confidence_level": "high"
+  },
+  {
+    "id": "ch06_rel_013",
+    "source": "npc_ace",
+    "target": "char_134_aglina",
+    "relation_type": "allied",
+    "relation_label": {
+      "zh_CN": "同僚/尊重",
+      "en_US": "Colleague/Respect"
+    },
+    "description": {
+      "zh_CN": "Ace与煌是罗德岛精英干员同事，Ace资历比煌老，被煌调侃",
+      "en_US": "Ace and Blaze are Rhodes Island elite operator colleagues. Ace has more seniority than Blaze and is teased by her"
+    },
+    "associated_event_id": "main_ch06",
+    "evidences": [
+      {
+        "source_story": "level_main_06-02_beg.clean.txt",
+        "quote": "谁叫Ace资历比我老呢。",
+        "context_analysis": "煌承认Ace资历比她老，语气中有调侃"
+      }
+    ],
+    "confidence_level": "high"
+  },
+  {
+    "id": "ch06_rel_014",
+    "source": "char_134_aglina",
+    "target": "longmen_bureau",
+    "relation_type": "allied",
+    "relation_label": {
+      "zh_CN": "合作",
+      "en_US": "Cooperation"
+    },
+    "description": {
+      "zh_CN": "煌与龙门近卫局合作，在行动中协助近卫局对抗整合运动",
+      "en_US": "Blaze cooperates with the Longmen Guard Bureau, assisting them against the Integration Movement"
+    },
+    "associated_event_id": "main_ch06",
+    "evidences": [
+      {
+        "source_story": "level_main_06-01_beg.clean.txt",
+        "quote": "我是罗德岛的。别射击，我没心思再边打架边处理流矢了。这里交给我一个人就行，你们赶紧去下处封锁点吧。",
+        "context_analysis": "煌劝退龙门警员，由自己处理整合运动成员"
+      }
+    ],
+    "confidence_level": "high"
+  },
+  {
+    "id": "ch06_rel_015",
+    "source": "char_002_amiya",
+    "target": "rhodes_doctor",
+    "relation_type": "allied",
+    "relation_label": {
+      "zh_CN": "上下级/信赖",
+      "en_US": "Superior-Subordinate/Trust"
+    },
+    "description": {
+      "zh_CN": "阿米娅与博士是罗德岛的上下级关系，阿米娅信任博士并委托其任务",
+      "en_US": "Amiya and the Doctor are Rhodes Island superior-subordinate relationship. Amiya trusts the Doctor and assigns tasks"
+    },
+    "associated_event_id": "main_ch06",
+    "evidences": [
+      {
+        "source_story": "level_main_06-01_end.clean.txt",
+        "quote": "阿米娅：Dr.{@nickname}，这边！阿米娅：有什么事，也许只有你能做到。",
+        "context_analysis": "阿米娅称呼博士Dr.{@nickname}并委托任务"
+      }
+    ],
+    "confidence_level": "high"
+  },
+  {
+    "id": "ch06_rel_016",
+    "source": "npc_faust",
+    "target": "integration_member",
+    "relation_type": "allied",
+    "relation_label": {
+      "zh_CN": "保护",
+      "en_US": "Protection"
+    },
+    "description": {
+      "zh_CN": "浮士德试图保护整合运动普通成员免受梅菲斯特牧群的攻击",
+      "en_US": "Faust tries to protect ordinary Integration Movement members from Mephisto's flock attacks"
+    },
+    "associated_event_id": "main_ch06",
+    "evidences": [
+      {
+        "source_story": "level_main_06-03_beg.clean.txt",
+        "quote": "浮士德：你们，跟我来！浮士德：（从这里走，快。幻影弩手会保护你们。）",
+        "context_analysis": "浮士德带领整合运动成员逃离牧群攻击"
+      }
+    ],
+    "confidence_level": "high"
+  },
+  {
+    "id": "ch06_rel_017",
+    "source": "npc_霜星",
+    "target": "integration_member",
+    "relation_type": "neutral",
+    "relation_label": {
+      "zh_CN": "潜在盟友",
+      "en_US": "Potential Ally"
+    },
+    "description": {
+      "zh_CN": "霜星表示愿意加入罗德岛对抗感染者共同的敌人，但她仍需先被击败",
+      "en_US": "Frostleaf expresses willingness to join Rhodes Island to fight common enemies of the infected, but she must first be defeated"
+    },
+    "associated_event_id": "main_ch06",
+    "evidences": [
+      {
+        "source_story": "level_main_06-01_beg.clean.txt",
+        "quote": "如果你们战胜我，有人能够侥幸活着——我愿意加入罗德岛，依你们的想法去对抗感染者共同的敌人。",
+        "context_analysis": "霜星提出条件：战胜她后愿意加入罗德岛"
+      }
+    ],
+    "confidence_level": "medium"
+  },
+  {
+    "id": "ch06_rel_018",
+    "source": "npc_mephisto",
+    "target": "npc_霜星",
+    "relation_type": "hostile",
+    "relation_label": {
+      "zh_CN": "指控背叛",
+      "en_US": "Accusing Betrayal"
+    },
+    "description": {
+      "zh_CN": "梅菲斯特怀疑并指责霜星和雪怪背叛了整合运动",
+      "en_US": "Mephisto suspects and accuses Frostleaf and her Snow Devils of betraying the Integration Movement"
+    },
+    "associated_event_id": "main_ch06",
+    "evidences": [
+      {
+        "source_story": "level_main_06-03_beg.clean.txt",
+        "quote": "梅菲斯特：霜星？那个霜星？呵呵，她和她的雪怪，难道不是也背叛了吗？",
+        "context_analysis": "梅菲斯特质疑霜星的忠诚"
+      }
+    ],
+    "confidence_level": "medium"
+  },
+  {
+    "id": "ch06_rel_019",
+    "source": "npc_faust",
+    "target": "npc_霜星",
+    "relation_type": "allied",
+    "relation_label": {
+      "zh_CN": "战友/信任",
+      "en_US": "Comrade/Trust"
+    },
+    "description": {
+      "zh_CN": "浮士德信任霜星，认为她不会背叛整合运动",
+      "en_US": "Faust trusts Frostleaf, believing she will not betray the Integration Movement"
+    },
+    "associated_event_id": "main_ch06",
+    "evidences": [
+      {
+        "source_story": "level_main_06-03_beg.clean.txt",
+        "quote": "浮士德：霜星一定会来支援我们。浮士德：霜星不会背叛。我们不是说好了，要自己去看到真相？",
+        "context_analysis": "浮士德坚信霜星会来支援，不会背叛"
+      }
+    ],
+    "confidence_level": "medium"
+  },
+  {
+    "id": "ch06_rel_020",
+    "source": "char_010_chen",
+    "target": "integration_member",
+    "relation_type": "hostile",
+    "relation_label": {
+      "zh_CN": "敌对/清剿",
+      "en_US": "Hostile/Clearance"
+    },
+    "description": {
+      "zh_CN": "陈警司指挥龙门近卫局清剿整合运动，下令不许任何一个整合运动逃出龙门",
+      "en_US": "Inspector Ch'en commands the Longmen Guard Bureau to clear out the Integration Movement, ordering that not a single member escape"
+    },
+    "associated_event_id": "main_ch06",
+    "evidences": [
+      {
+        "source_story": "level_main_06-01_end.clean.txt",
+        "quote": "陈：不许哪怕一个整合运动逃出龙门！",
+        "context_analysis": "陈下达命令，展现坚决清剿整合运动的态度"
+      }
+    ],
+    "confidence_level": "high"
+  }
+]

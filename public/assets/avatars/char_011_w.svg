@@ -1,8 +1,0 @@
-<svg width="180" height="180" viewBox="0 0 180 180" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="180" height="180" rx="8" fill="#1a0a0a"/>
-  <rect x="1" y="1" width="178" height="178" rx="7" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
-  <text x="50%" y="48%" dominant-baseline="central" text-anchor="middle" font-family="monospace" font-size="36" font-weight="bold" fill="rgba(255,50,50,0.5)">W</text>
-  <text x="50%" y="62%" dominant-baseline="central" text-anchor="middle" font-family="monospace" font-size="9" fill="rgba(255,255,255,0.2)" letter-spacing="3">SARKAZ</text>
-  <line x1="45" y1="100" x2="135" y2="100" stroke="rgba(255,50,50,0.15)" stroke-width="1"/>
-  <line x1="45" y1="110" x2="105" y2="110" stroke="rgba(255,50,50,0.1)" stroke-width="1"/>
-</svg>

@@ -51,6 +51,7 @@ export const RELATION_TYPE_STYLES: Record<
   hostile: { color: '#ff4757', label: { zh_CN: '敌对', en_US: 'Hostile' }, dash: '8 4' },
   rival: { color: '#ff4757', label: { zh_CN: '敌对', en_US: 'Rival' }, dash: '8 4' },
   neutral: { color: '#a0a0a0', label: { zh_CN: '中立', en_US: 'Neutral' }, dash: '4 4' },
+  complex: { color: '#f2a104', label: { zh_CN: '复杂', en_US: 'Complex' }, dash: '6 3' },
   bound: { color: '#f2a104', label: { zh_CN: '羁绊', en_US: 'Bound' }, dash: '' },
   subordinate: { color: 'rgba(255,255,255,0.3)', label: { zh_CN: '隶属', en_US: 'Subordinate' }, dash: '2 4' },
   unknown: { color: 'rgba(255,255,255,0.15)', label: { zh_CN: '未知', en_US: 'Unknown' }, dash: '2 2' },

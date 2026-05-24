@@ -1,0 +1,27 @@
+{
+  "chapter": "ch00",
+  "title": "序章 · 营救博士",
+  "year": "1096 TY 十二月",
+  "batch": "batch1",
+  "pairs_analyzed": [
+    {
+      "pair": "临光|杜宾",
+      "characters": ["临光 (char_1778bbd4)", "杜宾 (char_8375f0bb)"],
+      "co_appearances": ["activities", "main"],
+      "relationship_notes": "ch00增援场景中共同登场同为罗德岛成员/战友关系,临光为骑士,杜宾为教官,两者在ch00中无直接对话记录但在增援行动中协同作战"
+    },
+    {
+      "pair": "梅菲斯特|阿米娅",
+      "characters": ["梅菲斯特 (npc_mephisto)", "阿米娅 (char_002_amiya)"],
+      "co_appearances": ["activities", "main"],
+      "relationship_notes": "敌对关系,梅菲斯特为整合运动干部,阿米娅为罗德岛领袖,ch00中首次遭遇战,梅菲斯特以残酷游戏著称,对阿米娅有特别兴趣"
+    }
+  ],
+  "source_files": [
+    "docs/lore/ch00_relationships.json",
+    "public/data/extracted_pairs.json",
+    "docs/lore/relations-mainline.md"
+  ],
+  "ch00_total_relationships": 8,
+  "analysis_summary": "临光与杜宾在ch00为协同增援的战友同属罗德岛阵营;梅菲斯特与阿米娅为敌对阵营整合运动vs罗德岛首次遭遇战"
+}

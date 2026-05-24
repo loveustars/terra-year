@@ -1,0 +1,87 @@
+{
+  "version": "1.0",
+  "last_updated": "1096 TY (Ch06 龙门战役篇)",
+  "chapters_analyzed": ["ch00", "ch01", "ch02", "ch03", "ch04", "ch05", "ch06", "ch07_side"],
+  "notes": [
+    {
+      "id": "chen_swire_deep",
+      "source": "level_st_07-03",
+      "content": "诗怀雅向星熊坦白：'我很害怕，我害怕她'（指陈变成第二个塔露拉）。陈小时候会挡在朋友前面保护，会为了朋友打架，是诗怀雅心中近卫局的标杆和偶像。星熊评价陈'心口不一'。星熊认为诗怀雅适合担当近卫局重任，只有她能承担。"
+    },
+    {
+      "id": "chen_swire_06",
+      "source": "level_main_06-08_beg",
+      "content": "陈通讯时：'小姐，麻烦你去那边等我'。诗怀雅：'你怎么每次时间都卡这么准非要在我有事找你的时候有事？'。陈：'下次给你买鳞鱼蛋吃'。诗怀雅：'你当我小孩吗？' —— 显示两人互动模式亲密且日常化，陈用食物/鳞鱼蛋哄诗怀雅。"
+    },
+    {
+      "id": "chen_wei_02",
+      "source": "level_main_02-02_beg",
+      "content": "陈是魏彦吾（龙门近卫局长官）的直接下属。魏彦吾制止陈对罗德岛的过激言论，陈服从命令。魏彦吾指定陈全权负责与罗德岛的对接。陈称魏彦吾为'魏长官'，忠诚执行命令。"
+    },
+    {
+      "id": "chen_kaltsit_02",
+      "source": "level_main_02-02_beg",
+      "content": "陈与凯尔希在龙门会议室激烈交锋。陈质疑罗德岛、反对感染者参与龙门机密。凯尔希反击陈的立场，魏彦吾介入阻止冲突。陈言辞激烈但最终服从上级安排。"
+    },
+    {
+      "id": "mephisto_faust_death",
+      "source": "level_main_06-09_end",
+      "content": "浮士德为了掩护其他小队撤退留在贫民区外，霜星评价：'那种情况下，很难生还。浮士德是个好战士。' 梅菲斯特精神受到创伤。浮士德与梅菲斯特的关系在06达到高潮——浮士德的牺牲。"
+    },
+    {
+      "id": "frostnova_origin",
+      "source": "level_main_06-15_end",
+      "content": "霜星原名汉译'FrostNova'，是爱国者（博卓卡斯替）的女儿。爱国者从巫师那里求得能维持霜星性命的东西，但连一场战斗都没撑过。霜星对自己应得的结局毫无怨言，承认伤害了罗德岛和龙门人。临终前将最后一点生命交给阿米娅/博士。"
+    },
+    {
+      "id": "huang_frostnova",
+      "source": "level_main_06-14_beg",
+      "content": "煌震惊于霜星身上渗透出的源石结晶，说'她不疼吗！她难道感觉不到疼吗！！' 煌对霜星产生强烈共情，称其为'白兔子'。阿米娅能感知霜星的情感倒灌进意识。"
+    },
+    {
+      "id": "npc_9_identity",
+      "source": "level_main_06-08_beg",
+      "content": "Only-1（九）是龙门近卫局特殊部队成员，原隶属龙门。三年前脱离近卫局。'原本，理应是我命令你'——暗示九的级别高于陈。陈称呼其为'九'，九最后带走龙门的感染者，称'龙门就拜托你了'。"
+    },
+    {
+      "id": "grey_throat_new",
+      "source": "level_main_06-10_beg",
+      "content": "灰喉（char_367_swllow）登场。灰喉是Ace小队的非感染者干员，对感染者有疑惑但听从命令。灰喉用弩箭，救出被困儿童时说'跟我走，这里很乱'，对整合运动成员说'暂时保护你们的生命'。"
+    },
+    {
+      "id": "huang_amiya_ch06",
+      "source": "level_main_06-06_beg",
+      "content": "煌与阿米娅通讯时，煌正和博士一起行动，阿米娅威胁要把违纪档案交给凯尔希。煌说'我什么都没做啊！这个人自己不说话！'，显示煌和博士的轻松互动。阿米娅评价'你们的关系还变得挺好的'。"
+    },
+    {
+      "id": "ace_existing",
+      "source": "level_main_06-02_beg",
+      "content": "Ace（char_014_riope）继续登场。Ace是营救Dr.{nickname}任务的主要发起人。Ace说'作为主要发起人之一，如果我自己都不去，罗德岛精英干员不是成了笑话？'。Ace评价灰喉'她也许不太会表达，但绝对没有恶意'。"
+    },
+    {
+      "id": "swire_hoshiguma_trust",
+      "source": "level_st_07-03",
+      "content": "诗怀雅和星熊之间是信任的上下级关系。星熊多次保护诗怀雅，诗怀雅对星熊倾诉对陈的担忧。星熊说'诗怀雅，以后你就要担当起近卫局的重任了'，表达对诗怀雅能力的认可和期望。"
+    },
+    {
+      "id": "rosmontis_new",
+      "source": "level_main_06-02_beg",
+      "content": "Rosmontis（avg_npc_042）登场。Rosmontis的便携终端损坏，六年前到去年的记忆都在里面。她评价Scout'给人很干净的感觉......像白色的瓷砖一样'。Scout说她'会的，小猫'。"
+    },
+    {
+      "id": "scout_new",
+      "source": "level_main_06-02_beg",
+      "content": "Scout（avg_npc_026）登场。Scout习惯隐藏自己，说'从没听过你对我的评价，现在才知道，原来我感受起来是这么脆弱'。Scout说自己是来参与营救Dr.{nickname}任务的。与Ace一同行动。"
+    }
+  ],
+  "new_characters": [
+    {"id": "char_367_swllow", "name_zh": "灰喉", "name_en": "GreyThroat", "faction": "rhodes_island", "first_appear": "main_ch06"},
+    {"id": "avg_npc_039", "name_zh": "九（Only-1）", "name_en": "Nine", "faction": "龙门", "first_appear": "main_ch06"},
+    {"id": "avg_npc_040", "name_zh": "九（Only-1）", "name_en": "Nine", "faction": "龙门", "first_appear": "main_ch06"},
+    {"id": "avg_npc_041", "name_zh": "大熊", "name_en": "BigBear", "faction": "龙门", "first_appear": "main_ch06"},
+    {"id": "avg_npc_042", "name_zh": "迷迭香", "name_en": "Rosmontis", "faction": "rhodes_island", "first_appear": "main_ch06"},
+    {"id": "avg_npc_026", "name_zh": "Scout", "name_en": "Scout", "faction": "rhodes_island", "first_appear": "main_ch06"},
+    {"id": "avg_npc_012", "name_zh": "飞行员", "name_en": "Pilot", "faction": "rhodes_island", "first_appear": "main_ch06"},
+    {"id": "char_014_riope", "name_zh": "Ace", "name_en": "Ace", "faction": "rhodes_island", "first_appear": "main_ch00"}
+  ]
+}

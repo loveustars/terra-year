@@ -1,0 +1,602 @@
+[
+  {
+    "id": "rel_ch6_06-11_001",
+    "source": "char_134_aglina",
+    "target": "npc_霜星",
+    "relation_type": "hostile",
+    "relation_label": {
+      "zh_CN": "战斗对立",
+      "en_US": "Combat Confrontation"
+    },
+    "description": {
+      "zh_CN": "煌与霜星在切尔诺伯格废墟进行激烈战斗，煌试图突破霜星的寒冰防御拯救队友",
+      "en_US": "Blaze and FrostNova engaged in intense combat in Chernobog ruins, with Blaze attempting to break through FrostNova's ice defenses to save her teammates"
+    },
+    "associated_event_id": "main_ch06",
+    "evidences": [
+      {
+        "source_story": "level_main_06-11_beg.clean.txt",
+        "quote": "煌：去救人！",
+        "context_analysis": "煌发现雪怪小队处境危险，决定独自前往营救，与霜星部队产生直接冲突"
+      },
+      {
+        "source_story": "level_main_06-14_beg.clean.txt",
+        "quote": "煌：——冰刀？ 嘁！你认真的？",
+        "context_analysis": "战斗场景，霜星使用冰刃攻击，煌惊讶于霜星作为术师却拥有强大近战能力"
+      },
+      {
+        "source_story": "level_main_06-14_beg.clean.txt",
+        "quote": "霜星：在你眼里...你的动作和力度，与静止无异。接下来是咽喉。",
+        "context_analysis": "霜星展示压倒性战斗优势，几乎完全压制煌的攻击"
+      }
+    ],
+    "confidence_level": "high"
+  },
+  {
+    "id": "rel_ch6_06-11_002",
+    "source": "char_134_aglina",
+    "target": "npc_霜星",
+    "relation_type": "allied",
+    "relation_label": {
+      "zh_CN": "战后和解",
+      "en_US": "Post-Battle Reconciliation"
+    },
+    "description": {
+      "zh_CN": "战斗结束后，霜星濒死之际选择加入罗德岛，煌与霜星从敌人转为认可的关系",
+      "en_US": "After the battle, as FrostNova was dying, she chose to join Rhodes Island, transitioning Blaze and FrostNova from enemies to acknowledged relationship"
+    },
+    "associated_event_id": "main_ch06",
+    "evidences": [
+      {
+        "source_story": "level_main_06-15_end.clean.txt",
+        "quote": "霜星：我......愿意加入罗德岛。",
+        "context_analysis": "霜星在临死前做出加入罗德岛的决定，表示愿意为对抗塔露拉而战"
+      },
+      {
+        "source_story": "level_main_06-15_end.clean.txt",
+        "quote": "霜星：真像啊。你的眼神，和那个孩子，真的很像。只不过，你没他那么坚定，但却比他......温柔太多了。",
+        "context_analysis": "霜星对煌产生认可，表达了对罗德岛众人的肯定"
+      },
+      {
+        "source_story": "level_main_06-14_beg.clean.txt",
+        "quote": "霜星：你也是。",
+        "context_analysis": "霜星认可煌作为战士的身份，承认Ace是优秀战士，暗示对煌的同等认可"
+      }
+    ],
+    "confidence_level": "high"
+  },
+  {
+    "id": "rel_ch6_06-11_003",
+    "source": "char_002_amiya",
+    "target": "npc_霜星",
+    "relation_type": "neutral",
+    "relation_label": {
+      "zh_CN": "战场对峙",
+      "en_US": "Battlefield Confrontation"
+    },
+    "description": {
+      "zh_CN": "阿米娅与霜星在战场上对峙，阿米娅试图理解霜星的立场和情感",
+      "en_US": "Amiya confronted FrostNova on the battlefield, attempting to understand FrostNova's position and emotions"
+    },
+    "associated_event_id": "main_ch06",
+    "evidences": [
+      {
+        "source_story": "level_main_06-14_beg.clean.txt",
+        "quote": "霜星：我们迟早会是敌人，小兔子。只是，现在还不是。",
+        "context_analysis": "霜星表明当前不是敌人但终将敌对，展现复杂关系"
+      },
+      {
+        "source_story": "level_main_06-14_beg.clean.txt",
+        "quote": "阿米娅：霜星小姐，他们经历过什么，我清清楚楚。",
+        "context_analysis": "阿米娅表达对雪怪小队经历的理解和同情"
+      },
+      {
+        "source_story": "level_main_06-14_beg.clean.txt",
+        "quote": "霜星：那就祈祷我们别再见面吧。",
+        "context_analysis": "霜星表达不愿与罗德岛为敌但立场对立"
+      }
+    ],
+    "confidence_level": "high"
+  },
+  {
+    "id": "rel_ch6_06-11_004",
+    "source": "char_002_amiya",
+    "target": "npc_霜星",
+    "relation_type": "allied",
+    "relation_label": {
+      "zh_CN": "战斗后同盟",
+      "en_US": "Post-Combat Alliance"
+    },
+    "description": {
+      "zh_CN": "霜星战败后加入罗德岛，与阿米娅成为战友",
+      "en_US": "After being defeated, FrostNova joined Rhodes Island and became a comrade with Amiya"
+    },
+    "associated_event_id": "main_ch06",
+    "evidences": [
+      {
+        "source_story": "level_main_06-15_end.clean.txt",
+        "quote": "霜星：如果你们战胜我，有人能够侥幸活着——我愿意加入罗德岛。",
+        "context_analysis": "霜星提出加入罗德岛的条件，愿意为对抗塔露拉而战"
+      },
+      {
+        "source_story": "level_main_06-15_end.clean.txt",
+        "quote": "阿米娅：感染者才不需要谁去带领他们。我们只是为了同一个信念而战，而不是为了哪一个人。",
+        "context_analysis": "阿米娅表达对霜星理念的认同，建立共同信念"
+      },
+      {
+        "source_story": "level_main_06-15_end.clean.txt",
+        "quote": "霜星：没错。对了。腐败了的就该切除。战胜我，战胜塔露拉。",
+        "context_analysis": "霜星认同罗德岛的理念，愿意共同对抗塔露拉"
+      }
+    ],
+    "confidence_level": "high"
+  },
+  {
+    "id": "rel_ch6_06-11_005",
+    "source": "char_010_chen",
+    "target": "char_002_amiya",
+    "relation_type": "allied",
+    "relation_label": {
+      "zh_CN": "龙门-罗德岛联盟",
+      "en_US": "Lungmen-Rhodes Island Alliance"
+    },
+    "description": {
+      "zh_CN": "陈与阿米娅在对抗整合运动的战斗中建立合作关系，陈邀请阿米娅战斗后一起吃饭",
+      "en_US": "Ch'en and Amiya established cooperative relationship in fighting the Reunion Movement, with Ch'en inviting Amiya for a meal after battle"
+    },
+    "associated_event_id": "main_ch06",
+    "evidences": [
+      {
+        "source_story": "level_main_06-11_beg.clean.txt",
+        "quote": "陈：这场战斗......无论是谁都损失太多了。",
+        "context_analysis": "陈表达对战争伤亡的感慨，展现合作诚意"
+      },
+      {
+        "source_story": "level_main_06-11_beg.clean.txt",
+        "quote": "陈：战斗结束以后，我们一起去吃个饭吧。",
+        "context_analysis": "陈主动邀请阿米娅，显示友好态度"
+      },
+      {
+        "source_story": "level_main_06-11_beg.clean.txt",
+        "quote": "阿米娅：对于我们来说是战斗。对于龙门来说，这确确实实是一场战争。",
+        "context_analysis": "阿米娅理解龙门立场，双方建立互信"
+      }
+    ],
+    "confidence_level": "high"
+  },
+  {
+    "id": "rel_ch6_06-11_006",
+    "source": "char_010_chen",
+    "target": "char_134_aglina",
+    "relation_type": "allied",
+    "relation_label": {
+      "zh_CN": "临时合作关系",
+      "en_US": "Temporary Cooperation"
+    },
+    "description": {
+      "zh_CN": "陈与煌在对抗整合运动时形成临时合作，陈帮助煌解围",
+      "en_US": "Ch'en and Blaze formed temporary cooperation against the Reunion Movement, with Ch'en helping Blaze out of a difficult situation"
+    },
+    "associated_event_id": "main_ch06",
+    "evidences": [
+      {
+        "source_story": "level_main_06-12_end.clean.txt",
+        "quote": "陈：你还没有调查我合作伙伴的权限。",
+        "context_analysis": "陈公开承认煌为合作伙伴，在监察司面前维护煌"
+      },
+      {
+        "source_story": "level_main_06-12_end.clean.txt",
+        "quote": "陈：煌，收手吧，这三位贵人不是你我该伺候的。",
+        "context_analysis": "陈提醒煌注意局势，共同应对危机"
+      },
+      {
+        "source_story": "level_main_06-12_end.clean.txt",
+        "quote": "煌：刚才谢谢你了。没别的。",
+        "context_analysis": "煌向陈表达感谢，显示双方建立默契"
+      }
+    ],
+    "confidence_level": "high"
+  },
+  {
+    "id": "rel_ch6_06-11_007",
+    "source": "npc_霜星",
+    "target": "npc_talula",
+    "relation_type": "hostile",
+    "relation_label": {
+      "zh_CN": "背叛与对立",
+      "en_US": "Betrayal and Opposition"
+    },
+    "description": {
+      "zh_CN": "霜星认为塔露拉背叛了整合运动的理想，决定对抗塔露拉",
+      "en_US": "FrostNova believes Talulah betrayed the ideals of the Reunion Movement and decided to oppose her"
+    },
+    "associated_event_id": "main_ch06",
+    "evidences": [
+      {
+        "source_story": "level_main_06-14_beg.clean.txt",
+        "quote": "霜星：但她已经背叛我们了。我所认定最坚定最执着的战士，居然只是种假扮出来的面貌......",
+        "context_analysis": "霜星明确表示塔露拉的背叛和对她的敌意"
+      },
+      {
+        "source_story": "level_main_06-15_end.clean.txt",
+        "quote": "霜星：去拯救她。不。去帮助她。和我们那无数的感染者同胞一起......那个真正的......走在泥泞土地上的......塔露拉......",
+        "context_analysis": "霜星表示想要帮助真正的塔露拉，说明二人现在的对立关系"
+      },
+      {
+        "source_story": "level_main_06-14_beg.clean.txt",
+        "quote": "霜星：如果她要带着感染者向那最黑暗的未来走去......去完成她最恶毒的计划......那她的邪恶就必须被摧毁。",
+        "context_analysis": "霜星决心对抗塔露拉，认定她必须被阻止"
+      }
+    ],
+    "confidence_level": "high"
+  },
+  {
+    "id": "rel_ch6_06-11_008",
+    "source": "char_003_kalts",
+    "target": "char_134_aglina",
+    "relation_type": "neutral",
+    "relation_label": {
+      "zh_CN": "上级观察",
+      "en_US": "Superior Observation"
+    },
+    "description": {
+      "zh_CN": "凯尔希观察煌与雪怪小队的互动，对煌的情感状态发表评论",
+      "en_US": "Kal'tsit observed Blaze's interaction with the Snowcap Squad, commenting on Blaze's emotional state"
+    },
+    "associated_event_id": "main_ch06",
+    "evidences": [
+      {
+        "source_story": "level_main_06-12_end.clean.txt",
+        "quote": "凯尔希：你们的情感状态有些起伏不定。看来在切城废城，你们和这支整合运动的小队有过更深层次的交流。",
+        "context_analysis": "凯尔希观察并评论煌的情感状态，暗示对煌与雪怪小队关系的了解"
+      }
+    ],
+    "confidence_level": "medium"
+  },
+  {
+    "id": "rel_ch6_06-11_009",
+    "source": "char_003_kalts",
+    "target": "char_002_amiya",
+    "relation_type": "neutral",
+    "relation_label": {
+      "zh_CN": "上下级关系",
+      "en_US": "Superior-Subordinate Relationship"
+    },
+    "description": {
+      "zh_CN": "凯尔希作为罗德岛高层，对阿米娅的行动提出建议和警告",
+      "en_US": "Kal'tsit, as Rhodes Island high-level, gave advice and warnings to Amiya regarding her actions"
+    },
+    "associated_event_id": "main_ch06",
+    "evidences": [
+      {
+        "source_story": "level_main_06-12_end.clean.txt",
+        "quote": "凯尔希：——我太了解你了，所以我不会信任你。这就像过去的你也不会信任我一样。",
+        "context_analysis": "凯尔希表达与阿米娅之间复杂的历史关系和信任问题"
+      }
+    ],
+    "confidence_level": "medium"
+  },
+  {
+    "id": "rel_ch6_06-11_010",
+    "source": "npc_霜星",
+    "target": "npc_mephisto",
+    "relation_type": "neutral",
+    "relation_label": {
+      "zh_CN": "敌人宽容",
+      "en_US": "Enemy Leniency"
+    },
+    "description": {
+      "zh_CN": "霜星决定不杀死失去战斗意志的梅菲斯特，让他继续存活接受惩罚",
+      "en_US": "FrostNova decided not to kill Mephisto who lost his will to fight, letting him live to face punishment"
+    },
+    "associated_event_id": "main_ch06",
+    "evidences": [
+      {
+        "source_story": "level_main_06-12_end.clean.txt",
+        "quote": "霜星：让他剩下的生命继续惩罚他吧。",
+        "context_analysis": "霜星选择让梅菲斯特活着承受内心折磨，而非亲手了结"
+      },
+      {
+        "source_story": "level_main_06-12_end.clean.txt",
+        "quote": "霜星：他的眼神只属于心灰意冷的人。",
+        "context_analysis": "霜星观察到梅菲斯特已失去斗志，对他产生某种同情"
+      },
+      {
+        "source_story": "level_main_06-12_end.clean.txt",
+        "quote": "霜星：有时候......我会突然想起，在三四年以前，他想努力唱歌的样子。",
+        "context_analysis": "霜星回忆梅菲斯特曾经努力想要正常生活的过去"
+      }
+    ],
+    "confidence_level": "medium"
+  },
+  {
+    "id": "rel_ch6_06-11_011",
+    "source": "avg_npc_041",
+    "target": "npc_霜星",
+    "relation_type": "allied",
+    "relation_label": {
+      "zh_CN": "雪怪小队战友",
+      "en_US": "Snowcap Squad Comrade"
+    },
+    "description": {
+      "zh_CN": "大熊作为雪怪小队成员，与霜星一同战斗到最后",
+      "en_US": "Big熊, as a member of Snowcap Squad, fought alongside FrostNova to the end"
+    },
+    "associated_event_id": "main_ch06",
+    "evidences": [
+      {
+        "source_story": "level_main_06-11_beg.clean.txt",
+        "quote": "大熊：荒原上会出现一条河流......一条逃难者的河流。",
+        "context_analysis": "大熊对雪怪小队和霜星的命运发出感慨，展现深厚战友情"
+      },
+      {
+        "source_story": "level_main_06-11_beg.clean.txt",
+        "quote": "雪怪小队全体：敬霜星和爱国者！",
+        "context_analysis": "雪怪小队全员向霜星和爱国者敬酒，展现他们对霜星的忠诚"
+      },
+      {
+        "source_story": "level_main_06-13_end.clean.txt",
+        "quote": "霜星：大熊，罗德岛是不是没有和你们交战？",
+        "context_analysis": "霜星询问大熊确认罗德岛立场，建立信任"
+      }
+    ],
+    "confidence_level": "high"
+  },
+  {
+    "id": "rel_ch6_06-11_012",
+    "source": "char_367_swllow",
+    "target": "char_134_aglina",
+    "relation_type": "allied",
+    "relation_label": {
+      "zh_CN": "小队成员协作",
+      "en_US": "Squad Member Cooperation"
+    },
+    "description": {
+      "zh_CN": "灰喉作为煌小队的狙击手，与煌一起对抗霜星",
+      "en_US": "Swallow, as Blaze's squad's sniper, fought alongside Blaze against FrostNova"
+    },
+    "associated_event_id": "main_ch06",
+    "evidences": [
+      {
+        "source_story": "level_main_06-14_beg.clean.txt",
+        "quote": "灰喉：我的弩箭似乎已经没用了。",
+        "context_analysis": "灰喉在面对霜星时发现常规武器失效，与煌共同面对危机"
+      },
+      {
+        "source_story": "level_main_06-14_beg.clean.txt",
+        "quote": "煌：灰喉，你留下。其他人，立刻出去。对付这个霜星，一两支小队和两三个人比起来并没有优势。",
+        "context_analysis": "煌选择灰喉留下作为主要战斗力，展现信任"
+      },
+      {
+        "source_story": "level_main_06-14_beg.clean.txt",
+        "quote": "灰喉：没有错。现在最强的，是我。",
+        "context_analysis": "灰喉主动请战，展现担当"
+      }
+    ],
+    "confidence_level": "high"
+  },
+  {
+    "id": "rel_ch6_06-11_013",
+    "source": "char_040fdfb9",
+    "target": "char_002_amiya",
+    "relation_type": "allied",
+    "relation_label": {
+      "zh_CN": "战友协作",
+      "en_US": "Comrade Cooperation"
+    },
+    "description": {
+      "zh_CN": "陨星作为罗德岛干员，配合阿米娅进行救援行动",
+      "en_US": "FallingStar, as a Rhodes Island operator, cooperated with Amiya in rescue operations"
+    },
+    "associated_event_id": "main_ch06",
+    "evidences": [
+      {
+        "source_story": "level_main_06-14_beg.clean.txt",
+        "quote": "陨星：阿米娅，收手吧！你的手指已经血流不止了......！",
+        "context_analysis": "陨星关心阿米娅的状态，劝说她停止过度使用能力"
+      },
+      {
+        "source_story": "level_main_06-14_beg.clean.txt",
+        "quote": "陨星：真不知道该说这是阿米娅她的缺点，还是她的特长......",
+        "context_analysis": "陨星评价阿米娅在博士安危面前的执着态度"
+      }
+    ],
+    "confidence_level": "high"
+  },
+  {
+    "id": "rel_ch6_06-11_014",
+    "source": "npc_霜星",
+    "target": "char_f2b9a339",
+    "relation_type": "allied",
+    "relation_label": {
+      "zh_CN": "霜星赠药",
+      "en_US": "FrostNova's Gift"
+    },
+    "description": {
+      "zh_CN": "霜星将特效药赠予霜叶治疗冻伤，表达对战友的关怀",
+      "en_US": "FrostNova gave special medicine to FrostLeaf to treat frostbite, showing care for her comrade"
+    },
+    "associated_event_id": "main_ch06",
+    "evidences": [
+      {
+        "source_story": "level_main_06-13_end.clean.txt",
+        "quote": "霜星：治疗冻伤的特效药。独家秘方。至少能缓解烧灼感和疼痛。我研究这东西很久了，刚才那一仗，你打的很不错。",
+        "context_analysis": "霜星认可霜叶的战斗表现并给予奖励，展现雪怪小队内部温情"
+      },
+      {
+        "source_story": "level_main_06-13_end.clean.txt",
+        "quote": "霜叶：......谢谢。",
+        "context_analysis": "霜叶接受霜星的心意，展现小队团结"
+      }
+    ],
+    "confidence_level": "high"
+  },
+  {
+    "id": "rel_ch6_06-11_015",
+    "source": "char_002_amiya",
+    "target": "char_134_aglina",
+    "relation_type": "allied",
+    "relation_label": {
+      "zh_CN": "战友信任",
+      "en_US": "Comrade Trust"
+    },
+    "description": {
+      "zh_CN": "阿米娅信任煌的战斗判断，授权煌带队作战",
+      "en_US": "Amiya trusted Blaze's combat judgment and authorized her to lead the squad"
+    },
+    "associated_event_id": "main_ch06",
+    "evidences": [
+      {
+        "source_story": "level_main_06-14_beg.clean.txt",
+        "quote": "阿米娅：（我很担忧现在的情况。）现在，我们和雪怪都依靠各自的手法确定了博士和霜星的位置。你的法术很成功，他们现在很安全。",
+        "context_analysis": "阿米娅与煌配合确定目标位置，展现默契"
+      },
+      {
+        "source_story": "level_main_06-14_beg.clean.txt",
+        "quote": "煌：没有被他人的战斗胜利冲昏头脑，而是坚守原本的战术目标，这才是我信任的作为战地指挥官的阿米娅。",
+        "context_analysis": "煌表达对阿米娅指挥能力的信任和认可"
+      }
+    ],
+    "confidence_level": "high"
+  },
+  {
+    "id": "rel_ch6_06-11_016",
+    "source": "avg_npc_026",
+    "target": "npc_霜星",
+    "relation_type": "neutral",
+    "relation_label": {
+      "zh_CN": "战士敬重",
+      "en_US": "Warrior Respect"
+    },
+    "description": {
+      "zh_CN": "霜星提到Ace是优秀战士，表达对他的敬意",
+      "en_US": "FrostNova mentioned Ace as an excellent warrior, expressing respect for him"
+    },
+    "associated_event_id": "main_ch06",
+    "evidences": [
+      {
+        "source_story": "level_main_06-14_beg.clean.txt",
+        "quote": "霜星：有一个被他们称作Ace的，是我平生少见的顽强战士，他会带着一种其他战士少有的情感去战斗。",
+        "context_analysis": "霜星对Ace在切城战斗中表现出的坚韧和忧愁气质表示认可"
+      },
+      {
+        "source_story": "level_main_06-14_beg.clean.txt",
+        "quote": "霜星：只有不断反思自己战斗的战士，才会感到担忧。他是个好战士。你也是。",
+        "context_analysis": "霜星将Ace与煌相比，表达对两人的敬意"
+      }
+    ],
+    "confidence_level": "medium"
+  },
+  {
+    "id": "rel_ch6_06-11_017",
+    "source": "char_134_aglina",
+    "target": "avg_npc_026",
+    "relation_type": "allied",
+    "relation_label": {
+      "zh_CN": "战友牺牲",
+      "en_US": "Comrade Sacrifice"
+    },
+    "description": {
+      "zh_CN": "煌对未能救下Ace感到遗憾和后悔，展现战友之情",
+      "en_US": "Blaze felt regret and remorse for not being able to save Ace, showing comrade bond"
+    },
+    "associated_event_id": "main_ch06",
+    "evidences": [
+      {
+        "source_story": "level_main_06-14_beg.clean.txt",
+        "quote": "煌：必须。",
+        "context_analysis": "煌确认对失去Ace的遗憾，必须为其复仇"
+      },
+      {
+        "source_story": "level_main_06-14_beg.clean.txt",
+        "quote": "煌：当然！没机会救下他，后悔吗？",
+        "context_analysis": "煌表达对未能救下Ace的悔恨"
+      }
+    ],
+    "confidence_level": "medium"
+  },
+  {
+    "id": "rel_ch6_06-11_018",
+    "source": "npc_wei",
+    "target": "char_010_chen",
+    "relation_type": "neutral",
+    "relation_label": {
+      "zh_CN": "龙门内部关系",
+      "en_US": "Lungmen Internal Relations"
+    },
+    "description": {
+      "zh_CN": "魏彦吾与陈的上下级关系，陈对魏彦吾有所保留",
+      "en_US": "The superior-subordinate relationship between Wei Yenwu and Ch'en, with Ch'en having reservations about Wei Yenwu"
+    },
+    "associated_event_id": "main_ch06",
+    "evidences": [
+      {
+        "source_story": "level_main_06-12_end.clean.txt",
+        "quote": "？？？：魏彦吾了不得。",
+        "context_analysis": "神秘人物讨论魏彦吾，暗示其重要性"
+      },
+      {
+        "source_story": "level_main_06-12_end.clean.txt",
+        "quote": "？？？：你是说魏彦吾的身世？",
+        "context_analysis": "讨论魏彦吾身世秘密，暗示政治复杂性"
+      }
+    ],
+    "confidence_level": "low"
+  },
+  {
+    "id": "rel_ch6_06-11_019",
+    "source": "avg_npc_039",
+    "target": "char_010_chen",
+    "relation_type": "neutral",
+    "relation_label": {
+      "zh_CN": "政治立场转变",
+      "en_US": "Political Stance Shift"
+    },
+    "description": {
+      "zh_CN": "九作为龙门人参与到整合运动中，与陈对立",
+      "en_US": "Jiu, as a Lungmen citizen, participated in the Reunion Movement and opposed Ch'en"
+    },
+    "associated_event_id": "main_ch06",
+    "evidences": [
+      {
+        "source_story": "level_main_06-11_beg.clean.txt",
+        "quote": "九：感染者在哪都一样。",
+        "context_analysis": "九表达作为感染者的立场转变，与龙门身份产生冲突"
+      },
+      {
+        "source_story": "level_main_06-11_beg.clean.txt",
+        "quote": "九：人是会变的。",
+        "context_analysis": "九承认自己立场的变化，不再效忠龙门"
+      }
+    ],
+    "confidence_level": "medium"
+  },
+  {
+    "id": "rel_ch6_06-11_020",
+    "source": "char_002_amiya",
+    "target": "npc_霜星",
+    "relation_type": "neutral",
+    "relation_label": {
+      "zh_CN": "情感共鸣",
+      "en_US": "Emotional Resonance"
+    },
+    "description": {
+      "zh_CN": "阿米娅感受到霜星强烈的愤怒和痛苦，两人在情感上产生深层连接",
+      "en_US": "Amiya felt FrostNova's intense anger and pain, creating a deep emotional connection between them"
+    },
+    "associated_event_id": "main_ch06",
+    "evidences": [
+      {
+        "source_story": "level_main_06-14_beg.clean.txt",
+        "quote": "阿米娅：我只是没法拒绝......我没法隔绝从你那来的情感。从你胸膛中涌入我记忆里的又痛又焦灼的......愤怒。",
+        "context_analysis": "阿米娅被霜星的情感冲击所震撼，感受到她胸中的愤怒"
+      },
+      {
+        "source_story": "level_main_06-14_beg.clean.txt",
+        "quote": "阿米娅：但我不能。霜星小姐，我很明白我该做什么。我不会拒绝你。",
+        "context_analysis": "阿米娅决定接受霜星的情感，不抗拒这份连接"
+      }
+    ],
+    "confidence_level": "high"
+  }
+]

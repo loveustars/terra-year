@@ -15,7 +15,7 @@ export interface Operator {
   id: string;
   display_name: I18nString;
   faction: string;
-  avatar_key: string;
+  avatar_key?: string;
   is_npc: boolean;
 }
 
@@ -57,7 +57,8 @@ export type LangKey = 'zh_CN' | 'en_US' | 'ja_JP' | 'ko_KR';
 /** 干员在特定时间点的状态 */
 export interface OperatorState {
   operator_id: string;
-  year: number;
+  year?: number;
+  terran_year?: number;
   status: 'alive' | 'deceased' | 'amnesiac' | 'awakened' | 'missing';
   reason?: I18nString;
   event_id?: string;
@@ -197,8 +198,11 @@ export function useTerraData(): UseTerraDataReturn {
   const getOperatorState = useCallback(
     (operatorId: string, year: number): OperatorState | undefined => {
       return state.operatorStates
-        .filter(s => s.operator_id === operatorId && s.year <= year)
-        .sort((a, b) => b.year - a.year)[0];
+        .filter(s => {
+          const stateYear = s.year ?? s.terran_year;
+          return s.operator_id === operatorId && stateYear !== undefined && stateYear <= year;
+        })
+        .sort((a, b) => (b.year ?? b.terran_year ?? 0) - (a.year ?? a.terran_year ?? 0))[0];
     },
     [state.operatorStates],
   );

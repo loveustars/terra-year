@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect, useMemo, useCallback } from 'react';
+import React, { useMemo, useCallback } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import type { TerraEvent, LangKey } from '../hooks/useTerraData';
 
@@ -21,71 +21,20 @@ function formatYear(year: number | 'unknown'): string {
   return `${Math.abs(year)} ${year < 0 ? 'BCE' : 'TY'}`;
 }
 
-/* ---- 事件详情卡 ---- */
-const EventDetailCard: React.FC<{ event: TerraEvent; lang: LangKey; onClose: () => void }> = ({ event, lang, onClose }) => {
-  const sy = event.terran_year_start;
-  const ey = event.terran_year_end;
-  const yearStr = sy === 'unknown' && ey === 'unknown'
-    ? 'TIME UNKNOWN'
-    : sy === 'unknown' ? `? — ${ey} TY`
-    : ey === 'unknown' ? `${sy} TY — ?`
-    : sy === ey ? `${sy} TY`
-    : `${sy} TY — ${ey} TY`;
-
-  return (
-    <motion.div className="absolute left-0 right-0 z-50 mx-auto"
-      style={{ bottom: 'calc(100% + 16px)', maxWidth: 520 }}
-      initial={{ opacity: 0, y: 16, scale: 0.95 }}
-      animate={{ opacity: 1, y: 0, scale: 1 }}
-      exit={{ opacity: 0, y: 16, scale: 0.95 }}
-      transition={{ duration: 0.25, ease: 'easeOut' }}
-    >
-      <div className="relative p-5 shadow-2xl border max-h-[55vh] overflow-y-auto"
-        style={{
-          backgroundColor: 'rgba(18, 18, 18, 0.96)',
-          backdropFilter: 'blur(12px)',
-          borderColor: 'rgba(242, 161, 4, 0.2)',
-          clipPath: 'polygon(0 0, 94% 0, 100% 6%, 100% 100%, 6% 100%, 0 94%)',
-        }}
-      >
-        <button onClick={onClose}
-          className="absolute top-2 right-3 text-[10px] font-mono transition-colors z-10"
-          style={{ color: 'rgba(255,255,255,0.3)' }}
-          onMouseEnter={e => e.currentTarget.style.color = '#f2a104'}
-          onMouseLeave={e => e.currentTarget.style.color = 'rgba(255,255,255,0.3)' }>
-          [ CLOSE ]
-        </button>
-        <div className="text-[10px] font-mono mb-2 tracking-[0.15em]" style={{ color: '#f2a104' }}>
-          {yearStr}
-        </div>
-        <h3 className="text-lg font-mono font-bold mb-1 tracking-wide" style={{ color: '#f5f5f5' }}>{t(event.title, lang)}</h3>
-        <h4 className="text-[10px] font-mono mb-3 tracking-[0.12em] uppercase" style={{ color: 'rgba(255,255,255,0.4)' }}>{t(event.subtitle, lang)}</h4>
-        <div className="w-full h-px my-3" style={{ backgroundColor: 'rgba(255,255,255,0.06)' }} />
-        <p className="text-xs leading-relaxed" style={{ color: 'rgba(255,255,255,0.65)' }}>{t(event.brief, lang)}</p>
-        <div className="text-[9px] font-mono mt-3 pt-2 tracking-[0.08em] uppercase"
-          style={{ color: 'rgba(242, 161, 4, 0.5)', borderTop: '1px dashed rgba(255,255,255,0.06)' }}>
-          &gt; EVENT ID: {event.id}
-          <span className="float-right">{typeof event.bg_preset === 'string' ? event.bg_preset.toUpperCase() : '—'}</span>
-        </div>
-      </div>
-      <div className="mx-auto" style={{ width: 0, height: 0, borderLeft: '8px solid transparent', borderRight: '8px solid transparent', borderTop: '8px solid rgba(242, 161, 4, 0.2)' }} />
-    </motion.div>
-  );
-};
-
-/* ---- 主组件：单轴章节时间轴 ---- */
-const Timeline: React.FC<TimelineProps> = ({ events, lang, selectedEvent, onSelectEvent, showDetail, onToggleDetail }) => {
-  const scrollRef = useRef<HTMLDivElement>(null);
-  const [canScrollLeft, setCanScrollLeft] = useState(false);
-  const [canScrollRight, setCanScrollRight] = useState(false);
-
+const Timeline: React.FC<TimelineProps> = ({ events, lang, selectedEvent, onSelectEvent, onToggleDetail }) => {
   const sorted = useMemo(() => [...events].sort((a, b) => {
     const ay = a.terran_year_start === 'unknown' ? 9999 : a.terran_year_start;
     const by = b.terran_year_start === 'unknown' ? 9999 : b.terran_year_start;
     return ay - by;
   }), [events]);
 
-  // 年份范围
+  const selectedIndex = useMemo(() => {
+    if (!selectedEvent) return 0;
+    return Math.max(0, sorted.findIndex(event => event.id === selectedEvent.id));
+  }, [selectedEvent, sorted]);
+
+  const progress = sorted.length <= 1 ? 0 : (selectedIndex / (sorted.length - 1)) * 100;
+
   const years = useMemo(() => {
     const validEvents = events.filter(e => typeof e.terran_year_start === 'number' && typeof e.terran_year_end === 'number') as Array<{terran_year_start: number; terran_year_end: number} & TerraEvent>;
     if (validEvents.length === 0) return { min: 1096, max: 1100, range: 4 };
@@ -94,177 +43,107 @@ const Timeline: React.FC<TimelineProps> = ({ events, lang, selectedEvent, onSele
     return { min, max, range: max - min || 1 };
   }, [events]);
 
-  const checkScroll = () => {
-    const el = scrollRef.current;
-    if (!el) return;
-    setCanScrollLeft(el.scrollLeft > 4);
-    setCanScrollRight(el.scrollLeft < el.scrollWidth - el.clientWidth - 4);
-  };
-
-  useEffect(() => {
-    const el = scrollRef.current;
-    if (!el) return;
-    checkScroll();
-    el.addEventListener('scroll', checkScroll, { passive: true });
-    window.addEventListener('resize', checkScroll);
-    return () => { el?.removeEventListener('scroll', checkScroll); };
-  }, [sorted]);
-
-  const scrollBy = (dir: 'left' | 'right') => scrollRef.current?.scrollBy({ left: dir === 'left' ? -280 : 280, behavior: 'smooth' });
-
   const handleNodeClick = useCallback((event: TerraEvent) => {
     onSelectEvent(event);
     onToggleDetail(true);
   }, [onSelectEvent, onToggleDetail]);
 
+  const handleRangeChange = useCallback((e: React.ChangeEvent<HTMLInputElement>) => {
+    const nextEvent = sorted[Number(e.target.value)];
+    if (!nextEvent) return;
+    onSelectEvent(nextEvent);
+    onToggleDetail(true);
+  }, [onSelectEvent, onToggleDetail, sorted]);
+
   if (events.length === 0) {
     return (
-      <div className="w-full py-4 px-6 border-t text-center font-mono text-xs" style={{ borderColor: 'rgba(255,255,255,0.06)', color: 'rgba(255,255,255,0.3)', letterSpacing: '0.1em' }}>
+      <div className="w-full py-4 px-6 border-t text-center font-mono text-xs shadow-[0_-4px_15px_rgba(0,0,0,0.05)] border-black/10 bg-[#f9f9f9] text-[#777] tracking-[0.1em]">
         &gt; NO_EVENTS_LOADED
       </div>
     );
   }
 
-  // 均匀分布：将事件沿线均匀排布，不管实际年份差距
-  // 最小间距80px，最大间距200px
-  const totalWidth = events.length * 140;
-  const startPadding = 60;
-  const getNodeX = (index: number) => startPadding + (index / Math.max(events.length - 1, 1)) * (totalWidth - startPadding * 2);
-
   return (
-    <div className="relative w-full border-t" style={{ borderColor: 'rgba(255,255,255,0.06)', backgroundColor: 'rgba(10, 10, 10, 0.95)' }}>
-
-      {/* 时间轴头部 */}
-      <div className="flex items-center px-5 pt-2 pb-1">
-        <span className="text-[10px] font-mono tracking-[0.2em] uppercase" style={{ color: 'rgba(255,255,255,0.25)' }}>&gt;&gt; TERRA-YEAR</span>
-        <span className="mx-3" style={{ color: 'rgba(255,255,255,0.08)' }}>|</span>
-        <span className="text-[9px] font-mono tracking-[0.15em] uppercase" style={{ color: 'rgba(242,161,4,0.5)' }}>MAINLINE CHAPTERS</span>
+    <div className="relative w-full border-t border-black/10 shadow-[0_-4px_15px_rgba(0,0,0,0.05)] bg-[#fcfcfc] select-none">
+      <div className="flex items-center px-5 pt-2 pb-1 relative z-10">
+        <span className="text-[10px] font-mono tracking-[0.2em] uppercase text-[#666]">&gt;&gt; TERRA-YEAR</span>
+        <span className="mx-3 text-[#ccc]">|</span>
+        <AnimatePresence mode="wait">
+          <motion.span
+            key={selectedEvent?.id ?? 'none'}
+            className="text-[9px] font-mono tracking-[0.15em] uppercase text-[#f2a104]"
+            initial={{ opacity: 0, y: 4 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: -4 }}
+          >
+            {selectedEvent ? `${t(selectedEvent.title, lang)} / ${formatYear(selectedEvent.terran_year_start)}` : 'MAINLINE CHAPTERS'}
+          </motion.span>
+        </AnimatePresence>
         <div className="flex-1" />
-        <span className="text-[9px] font-mono tracking-[0.1em]" style={{ color: 'rgba(255,255,255,0.15)' }}>
-          {sorted.length} CHAPTERS · {years.min}–{years.max} TY
+        <span className="text-[9px] font-mono tracking-[0.1em] text-[#888]">
+          {selectedIndex + 1}/{sorted.length} · {years.min}–{years.max} TY
         </span>
       </div>
 
-      {/* 详情浮层 */}
-      <div className="relative px-6">
-        <AnimatePresence mode="wait">
-          {showDetail && selectedEvent && (
-            <EventDetailCard key={selectedEvent.id} event={selectedEvent} lang={lang} onClose={() => onToggleDetail(false)} />
-          )}
-        </AnimatePresence>
-      </div>
+      <div className="relative px-6 pt-3 pb-5">
+        <div className="relative h-16">
+          <div className="absolute left-0 right-0 top-7 h-1 bg-[#dedede]" />
+          <motion.div
+            className="absolute left-0 top-7 h-1 bg-[#f2a104]"
+            animate={{ width: `${progress}%` }}
+            transition={{ duration: 0.25, ease: 'easeOut' }}
+          />
+          <input
+            aria-label="Timeline chapter"
+            type="range"
+            min={0}
+            max={Math.max(sorted.length - 1, 0)}
+            step={1}
+            value={selectedIndex}
+            onChange={handleRangeChange}
+            className="terra-timeline-range absolute left-0 right-0 top-4 z-20 w-full"
+          />
 
-      {/* 单轴时间轴 */}
-      <div className="relative">
-        <AnimatePresence>
-          {canScrollLeft && (
-            <motion.button key="sl" className="absolute left-0 top-0 bottom-0 z-20 flex items-center justify-center w-8"
-              style={{ background: 'linear-gradient(to right, rgba(10,10,10,0.9) 0%, transparent 100%)' }}
-              onClick={() => scrollBy('left')}
-              initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}>
-              <span className="text-xs font-mono" style={{ color: 'rgba(255,255,255,0.3)' }}>&lt;</span>
-            </motion.button>
-          )}
-        </AnimatePresence>
-        <AnimatePresence>
-          {canScrollRight && (
-            <motion.button key="sr" className="absolute right-0 top-0 bottom-0 z-20 flex items-center justify-center w-8"
-              style={{ background: 'linear-gradient(to left, rgba(10,10,10,0.9) 0%, transparent 100%)' }}
-              onClick={() => scrollBy('right')}
-              initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}>
-              <span className="text-xs font-mono" style={{ color: 'rgba(255,255,255,0.3)' }}>&gt;</span>
-            </motion.button>
-          )}
-        </AnimatePresence>
-
-        {/* 滚动区域 */}
-        <div ref={scrollRef} className="overflow-x-auto overflow-y-hidden scroll-smooth" style={{ scrollbarWidth: 'none' }}>
-          <div className="relative px-6 pb-3" style={{ minWidth: totalWidth + startPadding * 2 + 40 }}>
-            {/* 水平轴线 */}
-            <div className="absolute top-1/2 left-6 right-6 h-px -translate-y-1/2" style={{ backgroundColor: 'rgba(255,255,255,0.08)' }} />
-
-            {/* 事件节点：沿轴线均匀分布 */}
-            <div className="relative flex items-center" style={{ height: 64 }}>
-              {sorted.map((event, index) => {
-                const isSelected = selectedEvent?.id === event.id;
-                const nodeX = getNodeX(index);
-                return (
-                  <div
-                    key={event.id}
-                    className="absolute flex flex-col items-center cursor-pointer group"
-                    style={{ left: nodeX, top: 0, transform: 'translateX(-50%)' }}
-                    onClick={() => handleNodeClick(event)}
+          <div className="absolute inset-x-0 top-0 z-30 flex justify-between pointer-events-none">
+            {sorted.map((event, index) => {
+              const isSelected = selectedEvent?.id === event.id;
+              const isPast = index <= selectedIndex;
+              return (
+                <button
+                  key={event.id}
+                  type="button"
+                  onClick={() => handleNodeClick(event)}
+                  className="group relative flex h-16 w-10 flex-col items-center pointer-events-auto"
+                >
+                  <span
+                    className="mb-1 h-3 max-w-16 overflow-hidden text-center text-[8px] font-mono uppercase text-ellipsis whitespace-nowrap"
+                    style={{ color: isSelected ? '#f2a104' : 'rgba(0,0,0,0.38)', letterSpacing: '0.06em' }}
                   >
-                    {/* 上方标签 */}
-                    <div
-                      className="mb-1.5 text-center transition-all duration-200 opacity-0 group-hover:opacity-100"
-                      style={{
-                        color: isSelected ? '#f2a104' : 'rgba(255,255,255,0.25)',
-                        fontSize: '9px',
-                        fontFamily: 'monospace',
-                        letterSpacing: '0.1em',
-                      }}
+                    {t(event.title, lang)}
+                  </span>
+                  <motion.span
+                    className="relative block h-4 w-4 border-2 bg-[#fcfcfc]"
+                    style={{
+                      borderColor: isPast ? '#f2a104' : '#bcbcbc',
+                      boxShadow: isSelected ? '0 0 14px rgba(242,161,4,0.45)' : 'none',
+                      clipPath: 'polygon(50% 0, 100% 50%, 50% 100%, 0 50%)',
+                    }}
+                    animate={{ scale: isSelected ? 1.35 : 1 }}
+                    transition={{ duration: 0.2 }}
+                  />
+                  {isSelected && (
+                    <motion.span
+                      className="absolute top-10 max-w-24 overflow-hidden text-center text-[8px] font-mono text-[#f2a104] text-ellipsis whitespace-nowrap"
+                      style={{ letterSpacing: '0.08em' }}
+                      initial={{ opacity: 0, y: -3 }}
+                      animate={{ opacity: 1, y: 0 }}
                     >
-                      {t(event.title, lang)}
-                    </div>
-
-                    {/* 节点圆点（轴线穿过） */}
-                    <div className="relative flex items-center justify-center" style={{ width: 32, height: 32 }}>
-                      <motion.div
-                        className="w-3 h-3 rounded-full border-2 relative z-10"
-                        style={{
-                          backgroundColor: isSelected ? '#f2a104' : 'transparent',
-                          borderColor: isSelected ? '#f2a104' : 'rgba(255,255,255,0.2)',
-                          boxShadow: isSelected ? '0 0 12px rgba(242, 161, 4, 0.5)' : '0 0 0px rgba(242, 161, 4, 0)',
-                        }}
-                        animate={{ scale: isSelected ? 1.3 : 1 }}
-                        transition={{ duration: 0.3 }}
-                      />
-                      {/* 年份标签在圆点正下方 */}
-                      <div
-                        className="absolute top-full mt-1 text-[9px] font-mono whitespace-nowrap transition-colors"
-                        style={{ color: isSelected ? '#f2a104' : 'rgba(255,255,255,0.2)', letterSpacing: '0.08em' }}
-                      >
-                        {formatYear(event.terran_year_start)}
-                      </div>
-                    </div>
-
-                    {/* 选中时显示副标题 */}
-                    <AnimatePresence>
-                      {isSelected && (
-                        <motion.div
-                          key={event.id + '-label'}
-                          className="absolute top-full mt-8 text-[8px] font-mono whitespace-nowrap"
-                          style={{ color: 'rgba(242,161,4,0.4)', letterSpacing: '0.08em' }}
-                          initial={{ opacity: 0, y: -4 }}
-                          animate={{ opacity: 1, y: 0 }}
-                          exit={{ opacity: 0, y: -4 }}
-                        >
-                          {t(event.subtitle, lang)}
-                        </motion.div>
-                      )}
-                    </AnimatePresence>
-                  </div>
-                );
-              })}
-            </div>
-
-            {/* 底部年份刻度 */}
-            <div className="relative h-4 mt-1">
-              {/* 刻度线 */}
-              {sorted.map((event, index) => {
-                const nodeX = getNodeX(index);
-                return (
-                  <div
-                    key={event.id}
-                    className="absolute"
-                    style={{ left: nodeX, transform: 'translateX(-50%)' }}
-                  >
-                    <div className="w-px h-2 -translate-y-full" style={{ backgroundColor: 'rgba(255,255,255,0.06)' }} />
-                  </div>
-                );
-              })}
-            </div>
+                      {t(event.subtitle, lang)}
+                    </motion.span>
+                  )}
+                </button>
+              );
+            })}
           </div>
         </div>
       </div>

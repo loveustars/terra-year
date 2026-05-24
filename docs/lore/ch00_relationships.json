@@ -1,0 +1,79 @@
+{
+  "chapter": "ch00",
+  "title": "序章 · 营救博士",
+  "year": "1096 TY 十二月",
+  "relationships": [
+    {
+      "source": "char_002_amiya",
+      "source_name": "阿米娅",
+      "target": "char_6d7c1afb",
+      "target_name": "博士",
+      "type": "trust",
+      "direction": "bidirectional",
+      "description": "信任、依赖、托付 — 阿米娅对博士无条件信任，博士失忆但阿米娅坚持认同其信念"
+    },
+    {
+      "source": "char_8375f0bb",
+      "source_name": "杜宾",
+      "target": "char_6d7c1afb",
+      "target_name": "博士",
+      "type": "trust",
+      "direction": "bidirectional",
+      "description": "谨慎观察 → 信任 — 杜宾从初期试探到完全信任，称战场生命已交给博士"
+    },
+    {
+      "source": "char_ce834e1a",
+      "source_name": "ACE",
+      "target": "char_6d7c1afb",
+      "target_name": "博士",
+      "type": "trust",
+      "direction": "bidirectional",
+      "description": "深厚信任、战友、托付 — ACE记得过去的博士，牺牲断后，对博士毫无保留"
+    },
+    {
+      "source": "char_ce834e1a",
+      "source_name": "ACE",
+      "target": "char_002_amiya",
+      "target_name": "阿米娅",
+      "type": "trust",
+      "direction": "bidirectional",
+      "description": "深厚友谊、战友、保护者 — ACE牺牲时安慰阿米娅，嘱托博士保护她"
+    },
+    {
+      "source": "char_003_kalts",
+      "source_name": "凯尔希",
+      "target": "char_002_amiya",
+      "target_name": "阿米娅",
+      "type": "command",
+      "direction": "directional",
+      "description": "上下级、信任、默契 — 凯尔希远程指挥，阿米娅服从；跨种族信任"
+    },
+    {
+      "source": "char_1778bbd4",
+      "source_name": "临光",
+      "target": "char_6d7c1afb",
+      "target_name": "博士",
+      "type": "protective",
+      "direction": "directional",
+      "description": "保护性友好、骑士精神 — 临光主动要求保护博士，骑士誓言式护卫"
+    },
+    {
+      "source": "char_1778bbd4",
+      "source_name": "临光",
+      "target": "char_002_amiya",
+      "target_name": "阿米娅",
+      "type": "friendly",
+      "direction": "bidirectional",
+      "description": "友好、战友、相互鼓励 — 临光主动增援迎接罗德岛"
+    },
+    {
+      "source": "char_8375f0bb",
+      "source_name": "杜宾",
+      "target": "char_002_amiya",
+      "target_name": "阿米娅",
+      "type": "command",
+      "direction": "directional",
+      "description": "上下级、信任、服从 — 杜宾服从阿米娅指挥，共同制定战术"
+    }
+  ]
+}

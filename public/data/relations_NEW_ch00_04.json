@@ -1,0 +1,2910 @@
+[
+  {
+    "id": "rel_ch00_char_002_ami_char_edfebc8",
+    "source": "char_002_amiya",
+    "target": "char_edfebc83",
+    "relation_type": "hostile",
+    "relation_label": {
+      "zh_CN": "敌人/整合运动",
+      "en_US": "敌人/整合运动"
+    },
+    "description": {
+      "zh_CN": "阿米娅与弑君者在ch00(1096 TY)的互动关系。",
+      "en_US": "阿米娅 and 弑君者 interact during ch00."
+    },
+    "associated_event_id": "ch00",
+    "evidences": [
+      {
+        "source_story": "level_main_00-XX_beg",
+        "quote": {
+          "zh_CN": "......敌人的头目......带着一部分整合运动的部队，撤离了？",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "阿米娅与弑君者在ch00(1096 TY)的对话",
+          "en_US": ""
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_ch00_char_002_ami_npc_mephisto",
+    "source": "char_002_amiya",
+    "target": "npc_mephisto",
+    "relation_type": "hostile",
+    "relation_label": {
+      "zh_CN": "敌人/对抗",
+      "en_US": "敌人/对抗"
+    },
+    "description": {
+      "zh_CN": "阿米娅与梅菲斯特在ch00(1096 TY)的互动关系。",
+      "en_US": "阿米娅 and 梅菲斯特 interact during ch00."
+    },
+    "associated_event_id": "ch00",
+    "evidences": [
+      {
+        "source_story": "level_main_00-XX_beg",
+        "quote": {
+          "zh_CN": "你们可以称呼我，梅菲斯特。",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "阿米娅与梅菲斯特在ch00(1096 TY)的对话",
+          "en_US": ""
+        }
+      },
+      {
+        "source_story": "level_main_00-XX_beg",
+        "quote": {
+          "zh_CN": "既然我们不是整合运动的目标，那为什么......",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "阿米娅与梅菲斯特在ch00(1096 TY)的对话",
+          "en_US": ""
+        }
+      },
+      {
+        "source_story": "level_main_00-XX_beg",
+        "quote": {
+          "zh_CN": "不过，我有幸观赏了你们的战斗。",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "阿米娅与梅菲斯特在ch00(1096 TY)的对话",
+          "en_US": ""
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_ch00_char_002_ami_npc_faust",
+    "source": "char_002_amiya",
+    "target": "npc_faust",
+    "relation_type": "hostile",
+    "relation_label": {
+      "zh_CN": "敌人/狙击威胁",
+      "en_US": "敌人/狙击威胁"
+    },
+    "description": {
+      "zh_CN": "阿米娅与浮士德在ch00(1096 TY)的互动关系。",
+      "en_US": "阿米娅 and 浮士德 interact during ch00."
+    },
+    "associated_event_id": "ch00",
+    "evidences": [
+      {
+        "source_story": "level_main_00-XX_beg",
+        "quote": {
+          "zh_CN": "对不起......我失手了。",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "阿米娅与浮士德在ch00(1096 TY)的对话",
+          "en_US": ""
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_ch00_char_1778bbd_char_8375f0b",
+    "source": "char_1778bbd4",
+    "target": "char_8375f0bb",
+    "relation_type": "allied",
+    "relation_label": {
+      "zh_CN": "同事/战友",
+      "en_US": "同事/战友"
+    },
+    "description": {
+      "zh_CN": "临光与杜宾在ch00(1096 TY)的互动关系。",
+      "en_US": "临光 and 杜宾 interact during ch00."
+    },
+    "associated_event_id": "ch00",
+    "evidences": [
+      {
+        "source_story": "level_main_00-XX_beg",
+        "quote": {
+          "zh_CN": "幸亏这次作战，有你参加。",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "临光与杜宾在ch00(1096 TY)的对话",
+          "en_US": ""
+        }
+      },
+      {
+        "source_story": "level_main_00-XX_beg",
+        "quote": {
+          "zh_CN": "信号弹的定位很有效。看来你们遇到的麻烦确实不小。",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "临光与杜宾在ch00(1096 TY)的对话",
+          "en_US": ""
+        }
+      },
+      {
+        "source_story": "level_main_00-XX_beg",
+        "quote": {
+          "zh_CN": "您就是{@nickname}博士吧？",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "临光与杜宾在ch00(1096 TY)的对话",
+          "en_US": ""
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_ch00_char_1778bbd_npc_faust",
+    "source": "char_1778bbd4",
+    "target": "npc_faust",
+    "relation_type": "hostile",
+    "relation_label": {
+      "zh_CN": "敌人/狙击威胁",
+      "en_US": "敌人/狙击威胁"
+    },
+    "description": {
+      "zh_CN": "临光与浮士德在ch00(1096 TY)的互动关系。",
+      "en_US": "临光 and 浮士德 interact during ch00."
+    },
+    "associated_event_id": "ch00",
+    "evidences": [
+      {
+        "source_story": "level_main_00-XX_beg",
+        "quote": {
+          "zh_CN": "居然......右侧？！",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "临光与浮士德在ch00(1096 TY)的对话",
+          "en_US": ""
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_ch00_char_8375f0b_char_edfebc8",
+    "source": "char_8375f0bb",
+    "target": "char_edfebc83",
+    "relation_type": "hostile",
+    "relation_label": {
+      "zh_CN": "敌人/整合运动",
+      "en_US": "敌人/整合运动"
+    },
+    "description": {
+      "zh_CN": "杜宾与弑君者在ch00(1096 TY)的互动关系。",
+      "en_US": "杜宾 and 弑君者 interact during ch00."
+    },
+    "associated_event_id": "ch00",
+    "evidences": [
+      {
+        "source_story": "level_main_00-XX_beg",
+        "quote": {
+          "zh_CN": "不能放松警惕......敌人的数量，依然是我们的数倍之多！",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "杜宾与弑君者在ch00(1096 TY)的对话",
+          "en_US": ""
+        }
+      },
+      {
+        "source_story": "level_main_00-XX_beg",
+        "quote": {
+          "zh_CN": "别停下！优先确保防线！",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "杜宾与弑君者在ch00(1096 TY)的对话",
+          "en_US": ""
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_ch00_char_8375f0b_npc_mephisto",
+    "source": "char_8375f0bb",
+    "target": "npc_mephisto",
+    "relation_type": "hostile",
+    "relation_label": {
+      "zh_CN": "敌人/对抗",
+      "en_US": "敌人/对抗"
+    },
+    "description": {
+      "zh_CN": "杜宾与梅菲斯特在ch00(1096 TY)的互动关系。",
+      "en_US": "杜宾 and 梅菲斯特 interact during ch00."
+    },
+    "associated_event_id": "ch00",
+    "evidences": [
+      {
+        "source_story": "level_main_00-XX_beg",
+        "quote": {
+          "zh_CN": "你们可以称呼我，梅菲斯特。",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "杜宾与梅菲斯特在ch00(1096 TY)的对话",
+          "en_US": ""
+        }
+      },
+      {
+        "source_story": "level_main_00-XX_beg",
+        "quote": {
+          "zh_CN": "你们整合运动，究竟要做什么？",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "杜宾与梅菲斯特在ch00(1096 TY)的对话",
+          "en_US": ""
+        }
+      },
+      {
+        "source_story": "level_main_00-XX_beg",
+        "quote": {
+          "zh_CN": "也没什么。其实，放你们离开也无所谓。毕竟刚开始，你们也不算是整合运动的目标。",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "杜宾与梅菲斯特在ch00(1096 TY)的对话",
+          "en_US": ""
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_ch00_char_8375f0b_npc_faust",
+    "source": "char_8375f0bb",
+    "target": "npc_faust",
+    "relation_type": "hostile",
+    "relation_label": {
+      "zh_CN": "敌人/狙击威胁",
+      "en_US": "敌人/狙击威胁"
+    },
+    "description": {
+      "zh_CN": "杜宾与浮士德在ch00(1096 TY)的互动关系。",
+      "en_US": "杜宾 and 浮士德 interact during ch00."
+    },
+    "associated_event_id": "ch00",
+    "evidences": [
+      {
+        "source_story": "level_main_00-XX_beg",
+        "quote": {
+          "zh_CN": "敌人的狙击手......很强！",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "杜宾与浮士德在ch00(1096 TY)的对话",
+          "en_US": ""
+        }
+      },
+      {
+        "source_story": "level_main_00-XX_beg",
+        "quote": {
+          "zh_CN": "兼具机动性和威力，越拖下去，我们安全挡下他弩弹的几率就越小！",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "杜宾与浮士德在ch00(1096 TY)的对话",
+          "en_US": ""
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_ch01_char_011_w_char_1778bbd",
+    "source": "char_011_w",
+    "target": "char_1778bbd4",
+    "relation_type": "allied",
+    "relation_label": {
+      "zh_CN": "同事/战友",
+      "en_US": "同事/战友"
+    },
+    "description": {
+      "zh_CN": "W与临光在ch01(1096 TY)的互动关系。",
+      "en_US": "W and 临光 interact during ch01."
+    },
+    "associated_event_id": "ch01",
+    "evidences": [
+      {
+        "source_story": "level_main_01-XX_beg",
+        "quote": {
+          "zh_CN": "为了见你身边那个人，我在这里可是等了好久呢。",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "W与临光在ch01(1096 TY)的对话",
+          "en_US": ""
+        }
+      },
+      {
+        "source_story": "level_main_01-XX_beg",
+        "quote": {
+          "zh_CN": "你在浪费你自己的时间。",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "W与临光在ch01(1096 TY)的对话",
+          "en_US": ""
+        }
+      },
+      {
+        "source_story": "level_main_01-XX_beg",
+        "quote": {
+          "zh_CN": "——别急嘛。我也有些你们会感兴趣的情报哦。",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "W与临光在ch01(1096 TY)的对话",
+          "en_US": ""
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_ch01_char_011_w_char_8375f0b",
+    "source": "char_011_w",
+    "target": "char_8375f0bb",
+    "relation_type": "allied",
+    "relation_label": {
+      "zh_CN": "同事/战友",
+      "en_US": "同事/战友"
+    },
+    "description": {
+      "zh_CN": "W与杜宾在ch01(1096 TY)的互动关系。",
+      "en_US": "W and 杜宾 interact during ch01."
+    },
+    "associated_event_id": "ch01",
+    "evidences": [
+      {
+        "source_story": "level_main_01-XX_beg",
+        "quote": {
+          "zh_CN": "为了见你身边那个人，我在这里可是等了好久呢。",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "W与杜宾在ch01(1096 TY)的对话",
+          "en_US": ""
+        }
+      },
+      {
+        "source_story": "level_main_01-XX_beg",
+        "quote": {
+          "zh_CN": "整合运动......撤退了。",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "W与杜宾在ch01(1096 TY)的对话",
+          "en_US": ""
+        }
+      },
+      {
+        "source_story": "level_main_01-XX_beg",
+        "quote": {
+          "zh_CN": "————已经超出了预定时间。",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "W与杜宾在ch01(1096 TY)的对话",
+          "en_US": ""
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_ch01_char_1778bbd_npc_talula",
+    "source": "char_1778bbd4",
+    "target": "npc_talula",
+    "relation_type": "hostile",
+    "relation_label": {
+      "zh_CN": "敌人/首要威胁",
+      "en_US": "敌人/首要威胁"
+    },
+    "description": {
+      "zh_CN": "临光与塔露拉在ch01(1096 TY)的互动关系。",
+      "en_US": "临光 and 塔露拉 interact during ch01."
+    },
+    "associated_event_id": "ch01",
+    "evidences": [
+      {
+        "source_story": "level_main_01-XX_beg",
+        "quote": {
+          "zh_CN": "大概......是能烧尽整片大地的火焰吧。",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "临光与塔露拉在ch01(1096 TY)的对话",
+          "en_US": ""
+        }
+      },
+      {
+        "source_story": "level_main_01-XX_beg",
+        "quote": {
+          "zh_CN": "——？热量......在......她手里......聚集？",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "临光与塔露拉在ch01(1096 TY)的对话",
+          "en_US": ""
+        }
+      },
+      {
+        "source_story": "level_main_01-XX_beg",
+        "quote": {
+          "zh_CN": "不，那是她......加热了周围的空气！",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "临光与塔露拉在ch01(1096 TY)的对话",
+          "en_US": ""
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_ch02_char_002_ami_npc_wei",
+    "source": "char_002_amiya",
+    "target": "npc_wei",
+    "relation_type": "allied",
+    "relation_label": {
+      "zh_CN": "接触/合作",
+      "en_US": "接触/合作"
+    },
+    "description": {
+      "zh_CN": "阿米娅与魏彦吾在ch02(1096 TY)的互动关系。",
+      "en_US": "阿米娅 and 魏彦吾 interact during ch02."
+    },
+    "associated_event_id": "ch02",
+    "evidences": [
+      {
+        "source_story": "level_main_02-XX_beg",
+        "quote": {
+          "zh_CN": "罗德岛不仅亲历了切尔诺伯格事件，而且......我们经历了天灾，并且自灾难中活了下来。",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "阿米娅与魏彦吾在ch02(1096 TY)的对话",
+          "en_US": ""
+        }
+      },
+      {
+        "source_story": "level_main_02-XX_beg",
+        "quote": {
+          "zh_CN": "真是，真是，令人尊敬。",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "阿米娅与魏彦吾在ch02(1096 TY)的对话",
+          "en_US": ""
+        }
+      },
+      {
+        "source_story": "level_main_02-XX_beg",
+        "quote": {
+          "zh_CN": "除了一些不要命的狂人，我还真没见到过多少人能从天灾中幸存呢。阿米娅小姐，请继续说，我在听。",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "阿米娅与魏彦吾在ch02(1096 TY)的对话",
+          "en_US": ""
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_ch02_char_002_ami_char_b09c7d0",
+    "source": "char_002_amiya",
+    "target": "char_b09c7d04",
+    "relation_type": "allied",
+    "relation_label": {
+      "zh_CN": "企鹅物流/任务搭档",
+      "en_US": "企鹅物流/任务搭档"
+    },
+    "description": {
+      "zh_CN": "阿米娅与芙兰卡在ch02(1096 TY)的互动关系。",
+      "en_US": "阿米娅 and 芙兰卡 interact during ch02."
+    },
+    "associated_event_id": "ch02",
+    "evidences": [
+      {
+        "source_story": "level_main_02-XX_beg",
+        "quote": {
+          "zh_CN": "阿米娅，这是什么情况？",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "阿米娅与芙兰卡在ch02(1096 TY)的对话",
+          "en_US": ""
+        }
+      },
+      {
+        "source_story": "level_main_02-XX_beg",
+        "quote": {
+          "zh_CN": "嗯，我看见了一个，应该也是未登记的感染者......",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "阿米娅与芙兰卡在ch02(1096 TY)的对话",
+          "en_US": ""
+        }
+      },
+      {
+        "source_story": "level_main_02-XX_beg",
+        "quote": {
+          "zh_CN": "是的，乌萨斯人，她往贫民区更深处去了。",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "阿米娅与芙兰卡在ch02(1096 TY)的对话",
+          "en_US": ""
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_ch02_char_002_ami_char_564b67e",
+    "source": "char_002_amiya",
+    "target": "char_564b67e2",
+    "relation_type": "allied",
+    "relation_label": {
+      "zh_CN": "企鹅物流/任务搭档",
+      "en_US": "企鹅物流/任务搭档"
+    },
+    "description": {
+      "zh_CN": "阿米娅与雷蛇在ch02(1096 TY)的互动关系。",
+      "en_US": "阿米娅 and 雷蛇 interact during ch02."
+    },
+    "associated_event_id": "ch02",
+    "evidences": [
+      {
+        "source_story": "level_main_02-XX_beg",
+        "quote": {
+          "zh_CN": "雷蛇和其余重装干员已经就位。",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "阿米娅与雷蛇在ch02(1096 TY)的对话",
+          "en_US": ""
+        }
+      },
+      {
+        "source_story": "level_main_02-XX_beg",
+        "quote": {
+          "zh_CN": "全体干员注意，敌人的狙击手可能利用了地形来隐蔽自己。",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "阿米娅与雷蛇在ch02(1096 TY)的对话",
+          "en_US": ""
+        }
+      },
+      {
+        "source_story": "level_main_02-XX_beg",
+        "quote": {
+          "zh_CN": "我能理解，但是阿米娅，你可不能给自己太多压力。",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "阿米娅与雷蛇在ch02(1096 TY)的对话",
+          "en_US": ""
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_ch02_char_002_ami_char_103_ang",
+    "source": "char_002_amiya",
+    "target": "char_103_angel",
+    "relation_type": "allied",
+    "relation_label": {
+      "zh_CN": "企鹅物流/任务搭档",
+      "en_US": "企鹅物流/任务搭档"
+    },
+    "description": {
+      "zh_CN": "阿米娅与能天使在ch02(1096 TY)的互动关系。",
+      "en_US": "阿米娅 and 能天使 interact during ch02."
+    },
+    "associated_event_id": "ch02",
+    "evidences": [
+      {
+        "source_story": "level_main_02-04_beg",
+        "quote": {
+          "zh_CN": "任务是不是很快就完成了？“企鹅”的服务如何？",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "阿米娅与能天使在ch02(1096 TY)的对话",
+          "en_US": ""
+        }
+      },
+      {
+        "source_story": "level_main_02-04_beg",
+        "quote": {
+          "zh_CN": "能天使，我们需要一条比较安全的路线。",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "阿米娅与能天使在ch02(1096 TY)的对话",
+          "en_US": ""
+        }
+      },
+      {
+        "source_story": "level_main_02-04_beg",
+        "quote": {
+          "zh_CN": "那我就直接说结论好了。",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "阿米娅与能天使在ch02(1096 TY)的对话",
+          "en_US": ""
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_ch02_char_002_ami_char_102_tex",
+    "source": "char_002_amiya",
+    "target": "char_102_texas",
+    "relation_type": "allied",
+    "relation_label": {
+      "zh_CN": "企鹅物流/任务搭档",
+      "en_US": "企鹅物流/任务搭档"
+    },
+    "description": {
+      "zh_CN": "阿米娅与德克萨斯在ch02(1096 TY)的互动关系。",
+      "en_US": "阿米娅 and 德克萨斯 interact during ch02."
+    },
+    "associated_event_id": "ch02",
+    "evidences": [
+      {
+        "source_story": "level_main_02-05_beg",
+        "quote": {
+          "zh_CN": "啊......太好了！",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "阿米娅与德克萨斯在ch02(1096 TY)的对话",
+          "en_US": ""
+        }
+      },
+      {
+        "source_story": "level_main_02-05_beg",
+        "quote": {
+          "zh_CN": "我干掉了不少，那些叫整合运动的。",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "阿米娅与德克萨斯在ch02(1096 TY)的对话",
+          "en_US": ""
+        }
+      },
+      {
+        "source_story": "level_main_02-05_beg",
+        "quote": {
+          "zh_CN": "——但他们后面，跟着的更多。",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "阿米娅与德克萨斯在ch02(1096 TY)的对话",
+          "en_US": ""
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_ch02_char_003_kal_npc_wei",
+    "source": "char_003_kalts",
+    "target": "npc_wei",
+    "relation_type": "allied",
+    "relation_label": {
+      "zh_CN": "接触/合作",
+      "en_US": "接触/合作"
+    },
+    "description": {
+      "zh_CN": "凯尔希与魏彦吾在ch02(1096 TY)的互动关系。",
+      "en_US": "凯尔希 and 魏彦吾 interact during ch02."
+    },
+    "associated_event_id": "ch02",
+    "evidences": [
+      {
+        "source_story": "level_main_02-XX_beg",
+        "quote": {
+          "zh_CN": "请坐。凯尔希小姐正向我说明现在的局势呢。",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "凯尔希与魏彦吾在ch02(1096 TY)的对话",
+          "en_US": ""
+        }
+      },
+      {
+        "source_story": "level_main_02-XX_beg",
+        "quote": {
+          "zh_CN": "那我就继续吧。关于现在的局势，我想魏先生也已经很清楚了。",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "凯尔希与魏彦吾在ch02(1096 TY)的对话",
+          "en_US": ""
+        }
+      },
+      {
+        "source_story": "level_main_02-XX_beg",
+        "quote": {
+          "zh_CN": "龙门的情报网每天都在搜集大量针对整合运动的信息，想必也对这件事情极为重视。",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "凯尔希与魏彦吾在ch02(1096 TY)的对话",
+          "en_US": ""
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_ch02_char_010_che_char_564b67e",
+    "source": "char_010_chen",
+    "target": "char_564b67e2",
+    "relation_type": "allied",
+    "relation_label": {
+      "zh_CN": "企鹅物流/任务搭档",
+      "en_US": "企鹅物流/任务搭档"
+    },
+    "description": {
+      "zh_CN": "陈与雷蛇在ch02(1096 TY)的互动关系。",
+      "en_US": "陈 and 雷蛇 interact during ch02."
+    },
+    "associated_event_id": "ch02",
+    "evidences": [
+      {
+        "source_story": "level_main_02-XX_beg",
+        "quote": {
+          "zh_CN": "千万不要逞强，撑不住就立刻撤退。",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "陈与雷蛇在ch02(1096 TY)的对话",
+          "en_US": ""
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_ch02_char_010_che_char_b09c7d0",
+    "source": "char_010_chen",
+    "target": "char_b09c7d04",
+    "relation_type": "allied",
+    "relation_label": {
+      "zh_CN": "企鹅物流/任务搭档",
+      "en_US": "企鹅物流/任务搭档"
+    },
+    "description": {
+      "zh_CN": "陈与芙兰卡在ch02(1096 TY)的互动关系。",
+      "en_US": "陈 and 芙兰卡 interact during ch02."
+    },
+    "associated_event_id": "ch02",
+    "evidences": [
+      {
+        "source_story": "level_main_02-XX_beg",
+        "quote": {
+          "zh_CN": "陈长官，好硬的脾气啊。",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "陈与芙兰卡在ch02(1096 TY)的对话",
+          "en_US": ""
+        }
+      },
+      {
+        "source_story": "level_main_02-XX_beg",
+        "quote": {
+          "zh_CN": "也就是说，我们现在要给她跑腿？",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "陈与芙兰卡在ch02(1096 TY)的对话",
+          "en_US": ""
+        }
+      },
+      {
+        "source_story": "level_main_02-XX_beg",
+        "quote": {
+          "zh_CN": "搜索敌人的话......我们可能会被发现吧？",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "陈与芙兰卡在ch02(1096 TY)的对话",
+          "en_US": ""
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_ch02_char_010_che_npc_米莎",
+    "source": "char_010_chen",
+    "target": "npc_米莎",
+    "relation_type": "allied",
+    "relation_label": {
+      "zh_CN": "接触/合作",
+      "en_US": "接触/合作"
+    },
+    "description": {
+      "zh_CN": "陈与米莎在ch02(1096 TY)的互动关系。",
+      "en_US": "陈 and 米莎 interact during ch02."
+    },
+    "associated_event_id": "ch02",
+    "evidences": [
+      {
+        "source_story": "level_main_02-XX_beg",
+        "quote": {
+          "zh_CN": "别给龙门增加多余的安全隐患。",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "陈与米莎在ch02(1096 TY)的对话",
+          "en_US": ""
+        }
+      },
+      {
+        "source_story": "level_main_02-XX_beg",
+        "quote": {
+          "zh_CN": "从现在起，你必须听从近卫局的安排。",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "陈与米莎在ch02(1096 TY)的对话",
+          "en_US": ""
+        }
+      },
+      {
+        "source_story": "level_main_02-XX_beg",
+        "quote": {
+          "zh_CN": "PC94172，看好这孩子。",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "陈与米莎在ch02(1096 TY)的对话",
+          "en_US": ""
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_ch02_char_010_che_char_011_w",
+    "source": "char_010_chen",
+    "target": "char_011_w",
+    "relation_type": "allied",
+    "relation_label": {
+      "zh_CN": "同事/战友",
+      "en_US": "同事/战友"
+    },
+    "description": {
+      "zh_CN": "陈与W在ch02(1096 TY)的互动关系。",
+      "en_US": "陈 and W interact during ch02."
+    },
+    "associated_event_id": "ch02",
+    "evidences": [
+      {
+        "source_story": "level_main_02-XX_beg",
+        "quote": {
+          "zh_CN": "呵呵，找到你们了，龙门近卫局。",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "陈与W在ch02(1096 TY)的对话",
+          "en_US": ""
+        }
+      },
+      {
+        "source_story": "level_main_02-XX_beg",
+        "quote": {
+          "zh_CN": "虽然我和你们无冤无仇——",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "陈与W在ch02(1096 TY)的对话",
+          "en_US": ""
+        }
+      },
+      {
+        "source_story": "level_main_02-XX_beg",
+        "quote": {
+          "zh_CN": "但我手上有一个很有意思的剧本哦。",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "陈与W在ch02(1096 TY)的对话",
+          "en_US": ""
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_ch02_char_102_tex_char_b09c7d0",
+    "source": "char_102_texas",
+    "target": "char_b09c7d04",
+    "relation_type": "allied",
+    "relation_label": {
+      "zh_CN": "企鹅物流/任务搭档",
+      "en_US": "企鹅物流/任务搭档"
+    },
+    "description": {
+      "zh_CN": "德克萨斯与芙兰卡在ch02(1096 TY)的互动关系。",
+      "en_US": "德克萨斯 and 芙兰卡 interact during ch02."
+    },
+    "associated_event_id": "ch02",
+    "evidences": [
+      {
+        "source_story": "level_main_02-XX_beg",
+        "quote": {
+          "zh_CN": "阿米娅，企鹅物流的德克萨斯已归队。",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "德克萨斯与芙兰卡在ch02(1096 TY)的对话",
+          "en_US": ""
+        }
+      },
+      {
+        "source_story": "level_main_02-XX_beg",
+        "quote": {
+          "zh_CN": "我干掉了不少，那些叫整合运动的。",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "德克萨斯与芙兰卡在ch02(1096 TY)的对话",
+          "en_US": ""
+        }
+      },
+      {
+        "source_story": "level_main_02-XX_beg",
+        "quote": {
+          "zh_CN": "——但他们后面，跟着的更多。",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "德克萨斯与芙兰卡在ch02(1096 TY)的对话",
+          "en_US": ""
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_ch02_char_102_tex_char_564b67e",
+    "source": "char_102_texas",
+    "target": "char_564b67e2",
+    "relation_type": "allied",
+    "relation_label": {
+      "zh_CN": "企鹅物流/任务搭档",
+      "en_US": "企鹅物流/任务搭档"
+    },
+    "description": {
+      "zh_CN": "德克萨斯与雷蛇在ch02(1096 TY)的互动关系。",
+      "en_US": "德克萨斯 and 雷蛇 interact during ch02."
+    },
+    "associated_event_id": "ch02",
+    "evidences": [
+      {
+        "source_story": "level_main_02-XX_beg",
+        "quote": {
+          "zh_CN": "......还有事吗？",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "德克萨斯与雷蛇在ch02(1096 TY)的对话",
+          "en_US": ""
+        }
+      },
+      {
+        "source_story": "level_main_02-XX_beg",
+        "quote": {
+          "zh_CN": "没事的话，我来带路。我很清楚该怎么走！",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "德克萨斯与雷蛇在ch02(1096 TY)的对话",
+          "en_US": ""
+        }
+      },
+      {
+        "source_story": "level_main_02-XX_beg",
+        "quote": {
+          "zh_CN": "企鹅物流的宗旨之一是，只要能抵达目的地，什么路都可以走。",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "德克萨斯与雷蛇在ch02(1096 TY)的对话",
+          "en_US": ""
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_ch02_char_102_tex_npc_米莎",
+    "source": "char_102_texas",
+    "target": "npc_米莎",
+    "relation_type": "allied",
+    "relation_label": {
+      "zh_CN": "企鹅物流/任务搭档",
+      "en_US": "企鹅物流/任务搭档"
+    },
+    "description": {
+      "zh_CN": "德克萨斯与米莎在ch02(1096 TY)的互动关系。",
+      "en_US": "德克萨斯 and 米莎 interact during ch02."
+    },
+    "associated_event_id": "ch02",
+    "evidences": [
+      {
+        "source_story": "level_main_02-XX_beg",
+        "quote": {
+          "zh_CN": "他们也是......？",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "德克萨斯与米莎在ch02(1096 TY)的对话",
+          "en_US": ""
+        }
+      },
+      {
+        "source_story": "level_main_02-XX_beg",
+        "quote": {
+          "zh_CN": "你就是罗德岛的那位Dr.{@nickname}？",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "德克萨斯与米莎在ch02(1096 TY)的对话",
+          "en_US": ""
+        }
+      },
+      {
+        "source_story": "level_main_02-XX_beg",
+        "quote": {
+          "zh_CN": "预估一下整合运动的撤退路线。",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "德克萨斯与米莎在ch02(1096 TY)的对话",
+          "en_US": ""
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_ch02_char_102_tex_char_103_ang",
+    "source": "char_102_texas",
+    "target": "char_103_angel",
+    "relation_type": "allied",
+    "relation_label": {
+      "zh_CN": "企鹅物流/任务搭档",
+      "en_US": "企鹅物流/任务搭档"
+    },
+    "description": {
+      "zh_CN": "德克萨斯与能天使在ch02(1096 TY)的互动关系。",
+      "en_US": "德克萨斯 and 能天使 interact during ch02."
+    },
+    "associated_event_id": "ch02",
+    "evidences": [
+      {
+        "source_story": "level_main_02-05_end",
+        "quote": {
+          "zh_CN": "阿米娅，阿米娅！上来，对对，就是上面！",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "德克萨斯与能天使在ch02(1096 TY)的对话",
+          "en_US": ""
+        }
+      },
+      {
+        "source_story": "level_main_02-05_end",
+        "quote": {
+          "zh_CN": "快点，要是被整合运动发现就真的难说了！",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "德克萨斯与能天使在ch02(1096 TY)的对话",
+          "en_US": ""
+        }
+      },
+      {
+        "source_story": "level_main_02-05_end",
+        "quote": {
+          "zh_CN": "企鹅物流的宗旨之一是，只要能抵达目的地，什么路都可以走。",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "德克萨斯与能天使在ch02(1096 TY)的对话",
+          "en_US": ""
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_ch02_char_103_ang_char_564b67e",
+    "source": "char_103_angel",
+    "target": "char_564b67e2",
+    "relation_type": "allied",
+    "relation_label": {
+      "zh_CN": "企鹅物流/任务搭档",
+      "en_US": "企鹅物流/任务搭档"
+    },
+    "description": {
+      "zh_CN": "能天使与雷蛇在ch02(1096 TY)的互动关系。",
+      "en_US": "能天使 and 雷蛇 interact during ch02."
+    },
+    "associated_event_id": "ch02",
+    "evidences": [
+      {
+        "source_story": "level_main_02-XX_beg",
+        "quote": {
+          "zh_CN": "任务是不是很快就完成了？“企鹅”的服务如何？",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "能天使与雷蛇在ch02(1096 TY)的对话",
+          "en_US": ""
+        }
+      },
+      {
+        "source_story": "level_main_02-XX_beg",
+        "quote": {
+          "zh_CN": "别这么说，没有企鹅物流的情报，罗德岛没法缩小搜索范围——",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "能天使与雷蛇在ch02(1096 TY)的对话",
+          "en_US": ""
+        }
+      },
+      {
+        "source_story": "level_main_02-XX_beg",
+        "quote": {
+          "zh_CN": "更不可能那么轻易地掌握有关龙门感染者的各种信息。",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "能天使与雷蛇在ch02(1096 TY)的对话",
+          "en_US": ""
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_ch02_char_103_ang_char_b09c7d0",
+    "source": "char_103_angel",
+    "target": "char_b09c7d04",
+    "relation_type": "allied",
+    "relation_label": {
+      "zh_CN": "企鹅物流/任务搭档",
+      "en_US": "企鹅物流/任务搭档"
+    },
+    "description": {
+      "zh_CN": "能天使与芙兰卡在ch02(1096 TY)的互动关系。",
+      "en_US": "能天使 and 芙兰卡 interact during ch02."
+    },
+    "associated_event_id": "ch02",
+    "evidences": [
+      {
+        "source_story": "level_main_02-XX_beg",
+        "quote": {
+          "zh_CN": "别这么~垂头丧气的嘛。",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "能天使与芙兰卡在ch02(1096 TY)的对话",
+          "en_US": ""
+        }
+      },
+      {
+        "source_story": "level_main_02-XX_beg",
+        "quote": {
+          "zh_CN": "是发生什么不开心的事情了？还是说，遇到了什么不喜欢的人？",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "能天使与芙兰卡在ch02(1096 TY)的对话",
+          "en_US": ""
+        }
+      },
+      {
+        "source_story": "level_main_02-XX_beg",
+        "quote": {
+          "zh_CN": "这位小姐，多谢夸奖！你还是很识货的！",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "能天使与芙兰卡在ch02(1096 TY)的对话",
+          "en_US": ""
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_ch02_char_103_ang_npc_米莎",
+    "source": "char_103_angel",
+    "target": "npc_米莎",
+    "relation_type": "allied",
+    "relation_label": {
+      "zh_CN": "企鹅物流/任务搭档",
+      "en_US": "企鹅物流/任务搭档"
+    },
+    "description": {
+      "zh_CN": "能天使与米莎在ch02(1096 TY)的互动关系。",
+      "en_US": "能天使 and 米莎 interact during ch02."
+    },
+    "associated_event_id": "ch02",
+    "evidences": [
+      {
+        "source_story": "level_main_02-XX_beg",
+        "quote": {
+          "zh_CN": "......我可以问问——我们要去哪里吗？",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "能天使与米莎在ch02(1096 TY)的对话",
+          "en_US": ""
+        }
+      },
+      {
+        "source_story": "level_main_02-XX_beg",
+        "quote": {
+          "zh_CN": "她......怎么了？",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "能天使与米莎在ch02(1096 TY)的对话",
+          "en_US": ""
+        }
+      },
+      {
+        "source_story": "level_main_02-XX_beg",
+        "quote": {
+          "zh_CN": "看来他们的损失不小呢。",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "能天使与米莎在ch02(1096 TY)的对话",
+          "en_US": ""
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_ch02_char_564b67e_char_b09c7d0",
+    "source": "char_564b67e2",
+    "target": "char_b09c7d04",
+    "relation_type": "allied",
+    "relation_label": {
+      "zh_CN": "企鹅物流/任务搭档",
+      "en_US": "企鹅物流/任务搭档"
+    },
+    "description": {
+      "zh_CN": "雷蛇与芙兰卡在ch02(1096 TY)的互动关系。",
+      "en_US": "雷蛇 and 芙兰卡 interact during ch02."
+    },
+    "associated_event_id": "ch02",
+    "evidences": [
+      {
+        "source_story": "level_main_02-XX_beg",
+        "quote": {
+          "zh_CN": "阿米娅......几位重装干员向我发来了另一条通讯。",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "雷蛇与芙兰卡在ch02(1096 TY)的对话",
+          "en_US": ""
+        }
+      },
+      {
+        "source_story": "level_main_02-XX_beg",
+        "quote": {
+          "zh_CN": "他们遭遇了对罗德岛干员展现出攻击倾向的人。",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "雷蛇与芙兰卡在ch02(1096 TY)的对话",
+          "en_US": ""
+        }
+      },
+      {
+        "source_story": "level_main_02-XX_beg",
+        "quote": {
+          "zh_CN": "而且，那些袭击者不是普通人，他们是......感染者。",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "雷蛇与芙兰卡在ch02(1096 TY)的对话",
+          "en_US": ""
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_ch02_char_564b67e_npc_米莎",
+    "source": "char_564b67e2",
+    "target": "npc_米莎",
+    "relation_type": "allied",
+    "relation_label": {
+      "zh_CN": "企鹅物流/任务搭档",
+      "en_US": "企鹅物流/任务搭档"
+    },
+    "description": {
+      "zh_CN": "雷蛇与米莎在ch02(1096 TY)的互动关系。",
+      "en_US": "雷蛇 and 米莎 interact during ch02."
+    },
+    "associated_event_id": "ch02",
+    "evidences": [
+      {
+        "source_story": "level_main_02-XX_beg",
+        "quote": {
+          "zh_CN": "阿米娅，我们的身后有追兵。",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "雷蛇与米莎在ch02(1096 TY)的对话",
+          "en_US": ""
+        }
+      },
+      {
+        "source_story": "level_main_02-XX_beg",
+        "quote": {
+          "zh_CN": "......我可以问问——我们要去哪里吗？",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "雷蛇与米莎在ch02(1096 TY)的对话",
+          "en_US": ""
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_ch02_char_564b67e_npc_碎骨",
+    "source": "char_564b67e2",
+    "target": "npc_碎骨",
+    "relation_type": "hostile",
+    "relation_label": {
+      "zh_CN": "敌对/悲剧背景",
+      "en_US": "敌对/悲剧背景"
+    },
+    "description": {
+      "zh_CN": "雷蛇与碎骨在ch02(1096 TY)的互动关系。",
+      "en_US": "雷蛇 and 碎骨 interact during ch02."
+    },
+    "associated_event_id": "ch02",
+    "evidences": [
+      {
+        "source_story": "level_main_02-XX_beg",
+        "quote": {
+          "zh_CN": "别让他们有任何喘息的机会。",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "雷蛇与碎骨在ch02(1096 TY)的对话",
+          "en_US": ""
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_ch02_char_b09c7d0_npc_米莎",
+    "source": "char_b09c7d04",
+    "target": "npc_米莎",
+    "relation_type": "allied",
+    "relation_label": {
+      "zh_CN": "企鹅物流/任务搭档",
+      "en_US": "企鹅物流/任务搭档"
+    },
+    "description": {
+      "zh_CN": "芙兰卡与米莎在ch02(1096 TY)的互动关系。",
+      "en_US": "芙兰卡 and 米莎 interact during ch02."
+    },
+    "associated_event_id": "ch02",
+    "evidences": [
+      {
+        "source_story": "level_main_02-XX_beg",
+        "quote": {
+          "zh_CN": "你......笑什么......",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "芙兰卡与米莎在ch02(1096 TY)的对话",
+          "en_US": ""
+        }
+      },
+      {
+        "source_story": "level_main_02-XX_beg",
+        "quote": {
+          "zh_CN": "如果我们真的想抓你，你是根本没机会反抗啦。",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "芙兰卡与米莎在ch02(1096 TY)的对话",
+          "en_US": ""
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_ch02_char_b09c7d0_npc_碎骨",
+    "source": "char_b09c7d04",
+    "target": "npc_碎骨",
+    "relation_type": "hostile",
+    "relation_label": {
+      "zh_CN": "敌对/悲剧背景",
+      "en_US": "敌对/悲剧背景"
+    },
+    "description": {
+      "zh_CN": "芙兰卡与碎骨在ch02(1096 TY)的互动关系。",
+      "en_US": "芙兰卡 and 碎骨 interact during ch02."
+    },
+    "associated_event_id": "ch02",
+    "evidences": [
+      {
+        "source_story": "level_main_02-XX_beg",
+        "quote": {
+          "zh_CN": "可这......这是向上啊？",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "芙兰卡与碎骨在ch02(1096 TY)的对话",
+          "en_US": ""
+        }
+      },
+      {
+        "source_story": "level_main_02-XX_beg",
+        "quote": {
+          "zh_CN": "你们，把她交给龙门了？",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "芙兰卡与碎骨在ch02(1096 TY)的对话",
+          "en_US": ""
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_ch03_char_002_ami_char_137_bro",
+    "source": "char_002_amiya",
+    "target": "char_137_brownb",
+    "relation_type": "allied",
+    "relation_label": {
+      "zh_CN": "同事/战友",
+      "en_US": "同事/战友"
+    },
+    "description": {
+      "zh_CN": "阿米娅与星熊在ch03(1096 TY)的互动关系。",
+      "en_US": "阿米娅 and 星熊 interact during ch03."
+    },
+    "associated_event_id": "ch03",
+    "evidences": [
+      {
+        "source_story": "level_main_03-XX_beg",
+        "quote": {
+          "zh_CN": "陈长官，这位是......",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "阿米娅与星熊在ch03(1096 TY)的对话",
+          "en_US": ""
+        }
+      },
+      {
+        "source_story": "level_main_03-XX_beg",
+        "quote": {
+          "zh_CN": "咦，这么小的孩子，也是罗德岛的人吗？",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "阿米娅与星熊在ch03(1096 TY)的对话",
+          "en_US": ""
+        }
+      },
+      {
+        "source_story": "level_main_03-XX_beg",
+        "quote": {
+          "zh_CN": "别在意。我也想稍微听一下。",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "阿米娅与星熊在ch03(1096 TY)的对话",
+          "en_US": ""
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_ch03_char_010_che_char_103_ang",
+    "source": "char_010_chen",
+    "target": "char_103_angel",
+    "relation_type": "allied",
+    "relation_label": {
+      "zh_CN": "企鹅物流/任务搭档",
+      "en_US": "企鹅物流/任务搭档"
+    },
+    "description": {
+      "zh_CN": "陈与能天使在ch03(1096 TY)的互动关系。",
+      "en_US": "陈 and 能天使 interact during ch03."
+    },
+    "associated_event_id": "ch03",
+    "evidences": [
+      {
+        "source_story": "level_main_03-04_beg",
+        "quote": {
+          "zh_CN": "——唔哦，刚才那阵风好大。",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "陈与能天使在ch03(1096 TY)的对话",
+          "en_US": ""
+        }
+      },
+      {
+        "source_story": "level_main_03-04_beg",
+        "quote": {
+          "zh_CN": "唔唔，可视好差，有点施展不开呢......",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "陈与能天使在ch03(1096 TY)的对话",
+          "en_US": ""
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_ch03_char_010_che_npc_碎骨",
+    "source": "char_010_chen",
+    "target": "npc_碎骨",
+    "relation_type": "hostile",
+    "relation_label": {
+      "zh_CN": "敌对/悲剧背景",
+      "en_US": "敌对/悲剧背景"
+    },
+    "description": {
+      "zh_CN": "陈与碎骨在ch03(1096 TY)的互动关系。",
+      "en_US": "陈 and 碎骨 interact during ch03."
+    },
+    "associated_event_id": "ch03",
+    "evidences": [
+      {
+        "source_story": "level_main_03-XX_beg",
+        "quote": {
+          "zh_CN": "——我会在这里，挡住他们。",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "陈与碎骨在ch03(1096 TY)的对话",
+          "en_US": ""
+        }
+      },
+      {
+        "source_story": "level_main_03-XX_beg",
+        "quote": {
+          "zh_CN": "星熊，立刻向外围的近卫局成员发出通讯！",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "陈与碎骨在ch03(1096 TY)的对话",
+          "en_US": ""
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_ch03_char_011_w_npc_米莎",
+    "source": "char_011_w",
+    "target": "npc_米莎",
+    "relation_type": "allied",
+    "relation_label": {
+      "zh_CN": "接触/合作",
+      "en_US": "接触/合作"
+    },
+    "description": {
+      "zh_CN": "W与米莎在ch03(1096 TY)的互动关系。",
+      "en_US": "W and 米莎 interact during ch03."
+    },
+    "associated_event_id": "ch03",
+    "evidences": [
+      {
+        "source_story": "level_main_03-XX_beg",
+        "quote": {
+          "zh_CN": "毕竟我还有利用价值，是吗？",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "W与米莎在ch03(1096 TY)的对话",
+          "en_US": ""
+        }
+      },
+      {
+        "source_story": "level_main_03-XX_beg",
+        "quote": {
+          "zh_CN": "......让我和碎骨单独待会儿吧。",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "W与米莎在ch03(1096 TY)的对话",
+          "en_US": ""
+        }
+      },
+      {
+        "source_story": "level_main_03-XX_beg",
+        "quote": {
+          "zh_CN": "我来......照看他。",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "W与米莎在ch03(1096 TY)的对话",
+          "en_US": ""
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_ch03_char_011_w_char_137_bro",
+    "source": "char_011_w",
+    "target": "char_137_brownb",
+    "relation_type": "allied",
+    "relation_label": {
+      "zh_CN": "同事/战友",
+      "en_US": "同事/战友"
+    },
+    "description": {
+      "zh_CN": "W与星熊在ch03(1096 TY)的互动关系。",
+      "en_US": "W and 星熊 interact during ch03."
+    },
+    "associated_event_id": "ch03",
+    "evidences": [
+      {
+        "source_story": "level_main_03-XX_beg",
+        "quote": {
+          "zh_CN": "呼呼，用盾挡开了？有些意思——",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "W与星熊在ch03(1096 TY)的对话",
+          "en_US": ""
+        }
+      },
+      {
+        "source_story": "level_main_03-XX_beg",
+        "quote": {
+          "zh_CN": "爆炸？整合运动的偷袭？！",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "W与星熊在ch03(1096 TY)的对话",
+          "en_US": ""
+        }
+      },
+      {
+        "source_story": "level_main_03-XX_beg",
+        "quote": {
+          "zh_CN": "就请你在这里乖乖呆着，别向后去了哦？",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "W与星熊在ch03(1096 TY)的对话",
+          "en_US": ""
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_ch03_char_102_tex_char_137_bro",
+    "source": "char_102_texas",
+    "target": "char_137_brownb",
+    "relation_type": "allied",
+    "relation_label": {
+      "zh_CN": "企鹅物流/任务搭档",
+      "en_US": "企鹅物流/任务搭档"
+    },
+    "description": {
+      "zh_CN": "德克萨斯与星熊在ch03(1096 TY)的互动关系。",
+      "en_US": "德克萨斯 and 星熊 interact during ch03."
+    },
+    "associated_event_id": "ch03",
+    "evidences": [
+      {
+        "source_story": "level_main_03-XX_beg",
+        "quote": {
+          "zh_CN": "整合运动应该是有意识把我们引到这里来的。",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "德克萨斯与星熊在ch03(1096 TY)的对话",
+          "en_US": ""
+        }
+      },
+      {
+        "source_story": "level_main_03-XX_beg",
+        "quote": {
+          "zh_CN": "看来一切进行得十分顺利。",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "德克萨斯与星熊在ch03(1096 TY)的对话",
+          "en_US": ""
+        }
+      },
+      {
+        "source_story": "level_main_03-XX_beg",
+        "quote": {
+          "zh_CN": "接下来——可就不一定了。 敌人设置了许多障碍物，埋伏也十分隐蔽。",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "德克萨斯与星熊在ch03(1096 TY)的对话",
+          "en_US": ""
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_ch03_char_103_ang_npc_碎骨",
+    "source": "char_103_angel",
+    "target": "npc_碎骨",
+    "relation_type": "hostile",
+    "relation_label": {
+      "zh_CN": "敌对/悲剧背景",
+      "en_US": "敌对/悲剧背景"
+    },
+    "description": {
+      "zh_CN": "能天使与碎骨在ch03(1096 TY)的互动关系。",
+      "en_US": "能天使 and 碎骨 interact during ch03."
+    },
+    "associated_event_id": "ch03",
+    "evidences": [
+      {
+        "source_story": "level_main_03-XX_beg",
+        "quote": {
+          "zh_CN": "看来他们的损失不小呢。",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "能天使与碎骨在ch03(1096 TY)的对话",
+          "en_US": ""
+        }
+      },
+      {
+        "source_story": "level_main_03-XX_beg",
+        "quote": {
+          "zh_CN": "还好没回公司......不然又要兜一大圈再出来执行任务了呢......",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "能天使与碎骨在ch03(1096 TY)的对话",
+          "en_US": ""
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_ch03_char_103_ang_char_137_bro",
+    "source": "char_103_angel",
+    "target": "char_137_brownb",
+    "relation_type": "allied",
+    "relation_label": {
+      "zh_CN": "企鹅物流/任务搭档",
+      "en_US": "企鹅物流/任务搭档"
+    },
+    "description": {
+      "zh_CN": "能天使与星熊在ch03(1096 TY)的互动关系。",
+      "en_US": "能天使 and 星熊 interact during ch03."
+    },
+    "associated_event_id": "ch03",
+    "evidences": [
+      {
+        "source_story": "level_main_03-XX_beg",
+        "quote": {
+          "zh_CN": "——唔哦，刚才那阵风好大。",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "能天使与星熊在ch03(1096 TY)的对话",
+          "en_US": ""
+        }
+      },
+      {
+        "source_story": "level_main_03-XX_beg",
+        "quote": {
+          "zh_CN": "唔唔，可视好差，有点施展不开呢......",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "能天使与星熊在ch03(1096 TY)的对话",
+          "en_US": ""
+        }
+      },
+      {
+        "source_story": "level_main_03-XX_beg",
+        "quote": {
+          "zh_CN": "是从......地下！？？",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "能天使与星熊在ch03(1096 TY)的对话",
+          "en_US": ""
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_ch03_char_137_bro_char_b09c7d0",
+    "source": "char_137_brownb",
+    "target": "char_b09c7d04",
+    "relation_type": "allied",
+    "relation_label": {
+      "zh_CN": "企鹅物流/任务搭档",
+      "en_US": "企鹅物流/任务搭档"
+    },
+    "description": {
+      "zh_CN": "星熊与芙兰卡在ch03(1096 TY)的互动关系。",
+      "en_US": "星熊 and 芙兰卡 interact during ch03."
+    },
+    "associated_event_id": "ch03",
+    "evidences": [
+      {
+        "source_story": "level_main_03-XX_beg",
+        "quote": {
+          "zh_CN": "黄沙、荒原、岩石。真是凑齐了一切野外作战的要素。",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "星熊与芙兰卡在ch03(1096 TY)的对话",
+          "en_US": ""
+        }
+      },
+      {
+        "source_story": "level_main_03-XX_beg",
+        "quote": {
+          "zh_CN": "唯一缺的东西，大概就是敌人了吧？",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "星熊与芙兰卡在ch03(1096 TY)的对话",
+          "en_US": ""
+        }
+      },
+      {
+        "source_story": "level_main_03-XX_beg",
+        "quote": {
+          "zh_CN": "那么多感染者，怎么可能消失得无影无踪？",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "星熊与芙兰卡在ch03(1096 TY)的对话",
+          "en_US": ""
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_ch03_char_137_bro_char_564b67e",
+    "source": "char_137_brownb",
+    "target": "char_564b67e2",
+    "relation_type": "allied",
+    "relation_label": {
+      "zh_CN": "企鹅物流/任务搭档",
+      "en_US": "企鹅物流/任务搭档"
+    },
+    "description": {
+      "zh_CN": "星熊与雷蛇在ch03(1096 TY)的互动关系。",
+      "en_US": "星熊 and 雷蛇 interact during ch03."
+    },
+    "associated_event_id": "ch03",
+    "evidences": [
+      {
+        "source_story": "level_main_03-XX_beg",
+        "quote": {
+          "zh_CN": "整合运动可能会等到我们都进入包围圈之后，再对我们发动攻击。",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "星熊与雷蛇在ch03(1096 TY)的对话",
+          "en_US": ""
+        }
+      },
+      {
+        "source_story": "level_main_03-XX_beg",
+        "quote": {
+          "zh_CN": "那么多感染者，怎么可能消失得无影无踪？",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "星熊与雷蛇在ch03(1096 TY)的对话",
+          "en_US": ""
+        }
+      },
+      {
+        "source_story": "level_main_03-XX_beg",
+        "quote": {
+          "zh_CN": "凯尔希医生嘱咐我们的是......",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "星熊与雷蛇在ch03(1096 TY)的对话",
+          "en_US": ""
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_ch03_char_137_bro_npc_碎骨",
+    "source": "char_137_brownb",
+    "target": "npc_碎骨",
+    "relation_type": "hostile",
+    "relation_label": {
+      "zh_CN": "敌对/悲剧背景",
+      "en_US": "敌对/悲剧背景"
+    },
+    "description": {
+      "zh_CN": "星熊与碎骨在ch03(1096 TY)的互动关系。",
+      "en_US": "星熊 and 碎骨 interact during ch03."
+    },
+    "associated_event_id": "ch03",
+    "evidences": [
+      {
+        "source_story": "level_main_03-XX_beg",
+        "quote": {
+          "zh_CN": "怎么......你居然......能挡住？",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "星熊与碎骨在ch03(1096 TY)的对话",
+          "en_US": ""
+        }
+      },
+      {
+        "source_story": "level_main_03-XX_beg",
+        "quote": {
+          "zh_CN": "这面“般若”，可不是你能打得穿的。",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "星熊与碎骨在ch03(1096 TY)的对话",
+          "en_US": ""
+        }
+      },
+      {
+        "source_story": "level_main_03-XX_beg",
+        "quote": {
+          "zh_CN": "那可......未必......",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "星熊与碎骨在ch03(1096 TY)的对话",
+          "en_US": ""
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_ch04_char_002_ami_char_31c537a",
+    "source": "char_002_amiya",
+    "target": "char_31c537a1",
+    "relation_type": "allied",
+    "relation_label": {
+      "zh_CN": "同事/战友",
+      "en_US": "同事/战友"
+    },
+    "description": {
+      "zh_CN": "阿米娅与杰西卡在ch04(1096 TY)的互动关系。",
+      "en_US": "阿米娅 and 杰西卡 interact during ch04."
+    },
+    "associated_event_id": "ch04",
+    "evidences": [
+      {
+        "source_story": "level_main_04-XX_beg",
+        "quote": {
+          "zh_CN": "啊......博士，你来了。",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "阿米娅与杰西卡在ch04(1096 TY)的对话",
+          "en_US": ""
+        }
+      },
+      {
+        "source_story": "level_main_04-XX_beg",
+        "quote": {
+          "zh_CN": "是的，这里是杰西卡......",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "阿米娅与杰西卡在ch04(1096 TY)的对话",
+          "en_US": ""
+        }
+      },
+      {
+        "source_story": "level_main_04-XX_beg",
+        "quote": {
+          "zh_CN": "是在进行什么隐秘行动吗，声音这么轻......",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "阿米娅与杰西卡在ch04(1096 TY)的对话",
+          "en_US": ""
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_ch04_char_002_ami_char_f2b9a33",
+    "source": "char_002_amiya",
+    "target": "char_f2b9a339",
+    "relation_type": "allied",
+    "relation_label": {
+      "zh_CN": "同事/战友",
+      "en_US": "同事/战友"
+    },
+    "description": {
+      "zh_CN": "阿米娅与霜叶在ch04(1096 TY)的互动关系。",
+      "en_US": "阿米娅 and 霜叶 interact during ch04."
+    },
+    "associated_event_id": "ch04",
+    "evidences": [
+      {
+        "source_story": "level_main_04-XX_beg",
+        "quote": {
+          "zh_CN": "啊......博士，你来了。",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "阿米娅与霜叶在ch04(1096 TY)的对话",
+          "en_US": ""
+        }
+      },
+      {
+        "source_story": "level_main_04-XX_beg",
+        "quote": {
+          "zh_CN": "是我。敌人我解决掉了。",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "阿米娅与霜叶在ch04(1096 TY)的对话",
+          "en_US": ""
+        }
+      },
+      {
+        "source_story": "level_main_04-XX_beg",
+        "quote": {
+          "zh_CN": "抱歉让你担心了，阿米娅。",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "阿米娅与霜叶在ch04(1096 TY)的对话",
+          "en_US": ""
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_ch04_char_003_kal_char_040fdfb",
+    "source": "char_003_kalts",
+    "target": "char_040fdfb9",
+    "relation_type": "allied",
+    "relation_label": {
+      "zh_CN": "同事/战友",
+      "en_US": "同事/战友"
+    },
+    "description": {
+      "zh_CN": "凯尔希与陨星在ch04(1096 TY)的互动关系。",
+      "en_US": "凯尔希 and 陨星 interact during ch04."
+    },
+    "associated_event_id": "ch04",
+    "evidences": [
+      {
+        "source_story": "level_main_04-XX_beg",
+        "quote": {
+          "zh_CN": "一直在听。确实不能懈怠——",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "凯尔希与陨星在ch04(1096 TY)的对话",
+          "en_US": ""
+        }
+      },
+      {
+        "source_story": "level_main_04-XX_beg",
+        "quote": {
+          "zh_CN": "杰西卡，你背后可能有敌人。",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "凯尔希与陨星在ch04(1096 TY)的对话",
+          "en_US": ""
+        }
+      },
+      {
+        "source_story": "level_main_04-XX_beg",
+        "quote": {
+          "zh_CN": "龙门内部的潜藏着的整合运动还没有活动的迹象。",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "凯尔希与陨星在ch04(1096 TY)的对话",
+          "en_US": ""
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_ch04_char_003_kal_char_31c537a",
+    "source": "char_003_kalts",
+    "target": "char_31c537a1",
+    "relation_type": "allied",
+    "relation_label": {
+      "zh_CN": "同事/战友",
+      "en_US": "同事/战友"
+    },
+    "description": {
+      "zh_CN": "凯尔希与杰西卡在ch04(1096 TY)的互动关系。",
+      "en_US": "凯尔希 and 杰西卡 interact during ch04."
+    },
+    "associated_event_id": "ch04",
+    "evidences": [
+      {
+        "source_story": "level_main_04-XX_beg",
+        "quote": {
+          "zh_CN": "一直在听。确实不能懈怠——",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "凯尔希与杰西卡在ch04(1096 TY)的对话",
+          "en_US": ""
+        }
+      },
+      {
+        "source_story": "level_main_04-XX_beg",
+        "quote": {
+          "zh_CN": "杰西卡，你背后可能有敌人。",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "凯尔希与杰西卡在ch04(1096 TY)的对话",
+          "en_US": ""
+        }
+      },
+      {
+        "source_story": "level_main_04-XX_beg",
+        "quote": {
+          "zh_CN": "如果这么说的话，到现在为止，我们所消灭的，已经是第二支整合运动小队了......",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "凯尔希与杰西卡在ch04(1096 TY)的对话",
+          "en_US": ""
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_ch04_char_003_kal_char_f2b9a33",
+    "source": "char_003_kalts",
+    "target": "char_f2b9a339",
+    "relation_type": "allied",
+    "relation_label": {
+      "zh_CN": "同事/战友",
+      "en_US": "同事/战友"
+    },
+    "description": {
+      "zh_CN": "凯尔希与霜叶在ch04(1096 TY)的互动关系。",
+      "en_US": "凯尔希 and 霜叶 interact during ch04."
+    },
+    "associated_event_id": "ch04",
+    "evidences": [
+      {
+        "source_story": "level_main_04-XX_beg",
+        "quote": {
+          "zh_CN": "我能从背后攻击你，说明你动作太慢了。",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "凯尔希与霜叶在ch04(1096 TY)的对话",
+          "en_US": ""
+        }
+      },
+      {
+        "source_story": "level_main_04-XX_beg",
+        "quote": {
+          "zh_CN": "暂时没事了，凯尔希医生。我已经解决了敌人。",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "凯尔希与霜叶在ch04(1096 TY)的对话",
+          "en_US": ""
+        }
+      },
+      {
+        "source_story": "level_main_04-XX_beg",
+        "quote": {
+          "zh_CN": "龙门内部的潜藏着的整合运动还没有活动的迹象。",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "凯尔希与霜叶在ch04(1096 TY)的对话",
+          "en_US": ""
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_ch04_char_003_kal_char_137_bro",
+    "source": "char_003_kalts",
+    "target": "char_137_brownb",
+    "relation_type": "allied",
+    "relation_label": {
+      "zh_CN": "同事/战友",
+      "en_US": "同事/战友"
+    },
+    "description": {
+      "zh_CN": "凯尔希与星熊在ch04(1096 TY)的互动关系。",
+      "en_US": "凯尔希 and 星熊 interact during ch04."
+    },
+    "associated_event_id": "ch04",
+    "evidences": [
+      {
+        "source_story": "level_main_04-XX_beg",
+        "quote": {
+          "zh_CN": "出了什么事？我不过拿个报表，你们两个的表情就变得那么严肃。",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "凯尔希与星熊在ch04(1096 TY)的对话",
+          "en_US": ""
+        }
+      },
+      {
+        "source_story": "level_main_04-XX_beg",
+        "quote": {
+          "zh_CN": "我去整备。你通知一下近卫局的其他人。",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "凯尔希与星熊在ch04(1096 TY)的对话",
+          "en_US": ""
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_ch04_char_010_che_char_040fdfb",
+    "source": "char_010_chen",
+    "target": "char_040fdfb9",
+    "relation_type": "allied",
+    "relation_label": {
+      "zh_CN": "同事/战友",
+      "en_US": "同事/战友"
+    },
+    "description": {
+      "zh_CN": "陈与陨星在ch04(1096 TY)的互动关系。",
+      "en_US": "陈 and 陨星 interact during ch04."
+    },
+    "associated_event_id": "ch04",
+    "evidences": [
+      {
+        "source_story": "level_main_04-XX_beg",
+        "quote": {
+          "zh_CN": "......听......好......？",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "陈与陨星在ch04(1096 TY)的对话",
+          "en_US": ""
+        }
+      },
+      {
+        "source_story": "level_main_04-XX_beg",
+        "quote": {
+          "zh_CN": "......龙门...........",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "陈与陨星在ch04(1096 TY)的对话",
+          "en_US": ""
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_ch04_char_011_w_char_31c537a",
+    "source": "char_011_w",
+    "target": "char_31c537a1",
+    "relation_type": "allied",
+    "relation_label": {
+      "zh_CN": "同事/战友",
+      "en_US": "同事/战友"
+    },
+    "description": {
+      "zh_CN": "W与杰西卡在ch04(1096 TY)的互动关系。",
+      "en_US": "W and 杰西卡 interact during ch04."
+    },
+    "associated_event_id": "ch04",
+    "evidences": [
+      {
+        "source_story": "level_main_04-XX_beg",
+        "quote": {
+          "zh_CN": "我可不属于你们这种下等种族哦。",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "W与杰西卡在ch04(1096 TY)的对话",
+          "en_US": ""
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_ch04_char_011_w_npc_mephisto",
+    "source": "char_011_w",
+    "target": "npc_mephisto",
+    "relation_type": "hostile",
+    "relation_label": {
+      "zh_CN": "敌人/对抗",
+      "en_US": "敌人/对抗"
+    },
+    "description": {
+      "zh_CN": "W与梅菲斯特在ch04(1096 TY)的互动关系。",
+      "en_US": "W and 梅菲斯特 interact during ch04."
+    },
+    "associated_event_id": "ch04",
+    "evidences": [
+      {
+        "source_story": "level_main_04-XX_beg",
+        "quote": {
+          "zh_CN": "我可不属于你们这种下等种族哦。",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "W与梅菲斯特在ch04(1096 TY)的对话",
+          "en_US": ""
+        }
+      },
+      {
+        "source_story": "level_main_04-XX_beg",
+        "quote": {
+          "zh_CN": "——如果你不是成功完成了任务，我一定让你这张脸上多添一两道疤。",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "W与梅菲斯特在ch04(1096 TY)的对话",
+          "en_US": ""
+        }
+      },
+      {
+        "source_story": "level_main_04-XX_beg",
+        "quote": {
+          "zh_CN": "麻烦被炸的手足全失的小孩子用嘴来为我化妆，真过意不去呢。",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "W与梅菲斯特在ch04(1096 TY)的对话",
+          "en_US": ""
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_ch04_char_040fdfb_char_f2b9a33",
+    "source": "char_040fdfb9",
+    "target": "char_f2b9a339",
+    "relation_type": "allied",
+    "relation_label": {
+      "zh_CN": "同事/战友",
+      "en_US": "同事/战友"
+    },
+    "description": {
+      "zh_CN": "陨星与霜叶在ch04(1096 TY)的互动关系。",
+      "en_US": "陨星 and 霜叶 interact during ch04."
+    },
+    "associated_event_id": "ch04",
+    "evidences": [
+      {
+        "source_story": "level_main_04-XX_beg",
+        "quote": {
+          "zh_CN": "我只是有点在意阿米娅她们的状况。",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "陨星与霜叶在ch04(1096 TY)的对话",
+          "en_US": ""
+        }
+      },
+      {
+        "source_story": "level_main_04-XX_beg",
+        "quote": {
+          "zh_CN": "阿米娅她们已经顺利回到罗德岛了。",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "陨星与霜叶在ch04(1096 TY)的对话",
+          "en_US": ""
+        }
+      },
+      {
+        "source_story": "level_main_04-XX_beg",
+        "quote": {
+          "zh_CN": "临光和杜宾一个星期前就已经动身前往龙门外的其他地区。",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "陨星与霜叶在ch04(1096 TY)的对话",
+          "en_US": ""
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_ch04_char_040fdfb_char_31c537a",
+    "source": "char_040fdfb9",
+    "target": "char_31c537a1",
+    "relation_type": "allied",
+    "relation_label": {
+      "zh_CN": "同事/战友",
+      "en_US": "同事/战友"
+    },
+    "description": {
+      "zh_CN": "陨星与杰西卡在ch04(1096 TY)的互动关系。",
+      "en_US": "陨星 and 杰西卡 interact during ch04."
+    },
+    "associated_event_id": "ch04",
+    "evidences": [
+      {
+        "source_story": "level_main_04-XX_beg",
+        "quote": {
+          "zh_CN": "啊，雷蛇姐和芙兰卡姐......",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "陨星与杰西卡在ch04(1096 TY)的对话",
+          "en_US": ""
+        }
+      },
+      {
+        "source_story": "level_main_04-XX_beg",
+        "quote": {
+          "zh_CN": "她们，她们平安就好......",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "陨星与杰西卡在ch04(1096 TY)的对话",
+          "en_US": ""
+        }
+      },
+      {
+        "source_story": "level_main_04-XX_beg",
+        "quote": {
+          "zh_CN": "你可也要好好加油才行。",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "陨星与杰西卡在ch04(1096 TY)的对话",
+          "en_US": ""
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_ch04_char_040fdfb_char_102_tex",
+    "source": "char_040fdfb9",
+    "target": "char_102_texas",
+    "relation_type": "allied",
+    "relation_label": {
+      "zh_CN": "企鹅物流/任务搭档",
+      "en_US": "企鹅物流/任务搭档"
+    },
+    "description": {
+      "zh_CN": "陨星与德克萨斯在ch04(1096 TY)的互动关系。",
+      "en_US": "陨星 and 德克萨斯 interact during ch04."
+    },
+    "associated_event_id": "ch04",
+    "evidences": [
+      {
+        "source_story": "level_main_04-XX_beg",
+        "quote": {
+          "zh_CN": "来得刚好，Dr.{@nickname}。",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "陨星与德克萨斯在ch04(1096 TY)的对话",
+          "en_US": ""
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_ch04_char_040fdfb_char_103_ang",
+    "source": "char_040fdfb9",
+    "target": "char_103_angel",
+    "relation_type": "allied",
+    "relation_label": {
+      "zh_CN": "企鹅物流/任务搭档",
+      "en_US": "企鹅物流/任务搭档"
+    },
+    "description": {
+      "zh_CN": "陨星与能天使在ch04(1096 TY)的互动关系。",
+      "en_US": "陨星 and 能天使 interact during ch04."
+    },
+    "associated_event_id": "ch04",
+    "evidences": [
+      {
+        "source_story": "level_main_04-XX_beg",
+        "quote": {
+          "zh_CN": "我们这边的活儿也干的差不多了，得暂时离开一段时间~",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "陨星与能天使在ch04(1096 TY)的对话",
+          "en_US": ""
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_ch04_char_040fdfb_npc_mephisto",
+    "source": "char_040fdfb9",
+    "target": "npc_mephisto",
+    "relation_type": "hostile",
+    "relation_label": {
+      "zh_CN": "敌人/对抗",
+      "en_US": "敌人/对抗"
+    },
+    "description": {
+      "zh_CN": "陨星与梅菲斯特在ch04(1096 TY)的互动关系。",
+      "en_US": "陨星 and 梅菲斯特 interact during ch04."
+    },
+    "associated_event_id": "ch04",
+    "evidences": [
+      {
+        "source_story": "level_main_04-XX_beg",
+        "quote": {
+          "zh_CN": "这可能是陷阱......！",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "陨星与梅菲斯特在ch04(1096 TY)的对话",
+          "en_US": ""
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_ch04_char_102_tex_char_31c537a",
+    "source": "char_102_texas",
+    "target": "char_31c537a1",
+    "relation_type": "allied",
+    "relation_label": {
+      "zh_CN": "企鹅物流/任务搭档",
+      "en_US": "企鹅物流/任务搭档"
+    },
+    "description": {
+      "zh_CN": "德克萨斯与杰西卡在ch04(1096 TY)的互动关系。",
+      "en_US": "德克萨斯 and 杰西卡 interact during ch04."
+    },
+    "associated_event_id": "ch04",
+    "evidences": [
+      {
+        "source_story": "level_main_04-XX_beg",
+        "quote": {
+          "zh_CN": "来得刚好，Dr.{@nickname}。",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "德克萨斯与杰西卡在ch04(1096 TY)的对话",
+          "en_US": ""
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_ch04_char_102_tex_char_f2b9a33",
+    "source": "char_102_texas",
+    "target": "char_f2b9a339",
+    "relation_type": "allied",
+    "relation_label": {
+      "zh_CN": "企鹅物流/任务搭档",
+      "en_US": "企鹅物流/任务搭档"
+    },
+    "description": {
+      "zh_CN": "德克萨斯与霜叶在ch04(1096 TY)的互动关系。",
+      "en_US": "德克萨斯 and 霜叶 interact during ch04."
+    },
+    "associated_event_id": "ch04",
+    "evidences": [
+      {
+        "source_story": "level_main_04-XX_beg",
+        "quote": {
+          "zh_CN": "来得刚好，Dr.{@nickname}。",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "德克萨斯与霜叶在ch04(1096 TY)的对话",
+          "en_US": ""
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_ch04_char_103_ang_char_f2b9a33",
+    "source": "char_103_angel",
+    "target": "char_f2b9a339",
+    "relation_type": "allied",
+    "relation_label": {
+      "zh_CN": "企鹅物流/任务搭档",
+      "en_US": "企鹅物流/任务搭档"
+    },
+    "description": {
+      "zh_CN": "能天使与霜叶在ch04(1096 TY)的互动关系。",
+      "en_US": "能天使 and 霜叶 interact during ch04."
+    },
+    "associated_event_id": "ch04",
+    "evidences": [
+      {
+        "source_story": "level_main_04-XX_beg",
+        "quote": {
+          "zh_CN": "我们这边的活儿也干的差不多了，得暂时离开一段时间~",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "能天使与霜叶在ch04(1096 TY)的对话",
+          "en_US": ""
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_ch04_char_31c537a_char_f2b9a33",
+    "source": "char_31c537a1",
+    "target": "char_f2b9a339",
+    "relation_type": "allied",
+    "relation_label": {
+      "zh_CN": "同事/战友",
+      "en_US": "同事/战友"
+    },
+    "description": {
+      "zh_CN": "杰西卡与霜叶在ch04(1096 TY)的互动关系。",
+      "en_US": "杰西卡 and 霜叶 interact during ch04."
+    },
+    "associated_event_id": "ch04",
+    "evidences": [
+      {
+        "source_story": "level_main_04-XX_beg",
+        "quote": {
+          "zh_CN": "噪音，会不会太大了些。",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "杰西卡与霜叶在ch04(1096 TY)的对话",
+          "en_US": ""
+        }
+      },
+      {
+        "source_story": "level_main_04-XX_beg",
+        "quote": {
+          "zh_CN": "呼......终于解决了......",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "杰西卡与霜叶在ch04(1096 TY)的对话",
+          "en_US": ""
+        }
+      },
+      {
+        "source_story": "level_main_04-XX_beg",
+        "quote": {
+          "zh_CN": "这种事情......我还是知道的！",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "杰西卡与霜叶在ch04(1096 TY)的对话",
+          "en_US": ""
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_ch04_char_31c537a_npc_mephisto",
+    "source": "char_31c537a1",
+    "target": "npc_mephisto",
+    "relation_type": "hostile",
+    "relation_label": {
+      "zh_CN": "敌人/对抗",
+      "en_US": "敌人/对抗"
+    },
+    "description": {
+      "zh_CN": "杰西卡与梅菲斯特在ch04(1096 TY)的互动关系。",
+      "en_US": "杰西卡 and 梅菲斯特 interact during ch04."
+    },
+    "associated_event_id": "ch04",
+    "evidences": [
+      {
+        "source_story": "level_main_04-XX_beg",
+        "quote": {
+          "zh_CN": "丧家犬就这样灰溜溜地跑回来了？",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "杰西卡与梅菲斯特在ch04(1096 TY)的对话",
+          "en_US": ""
+        }
+      },
+      {
+        "source_story": "level_main_04-XX_beg",
+        "quote": {
+          "zh_CN": "——如果你不是成功完成了任务，我一定让你这张脸上多添一两道疤。",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "杰西卡与梅菲斯特在ch04(1096 TY)的对话",
+          "en_US": ""
+        }
+      },
+      {
+        "source_story": "level_main_04-XX_beg",
+        "quote": {
+          "zh_CN": "他发现我们了！必须——",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "杰西卡与梅菲斯特在ch04(1096 TY)的对话",
+          "en_US": ""
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_ch04_char_31c537a_npc_霜星",
+    "source": "char_31c537a1",
+    "target": "npc_霜星",
+    "relation_type": "hostile",
+    "relation_label": {
+      "zh_CN": "敌人/霜星",
+      "en_US": "敌人/霜星"
+    },
+    "description": {
+      "zh_CN": "杰西卡与霜星在ch04(1096 TY)的互动关系。",
+      "en_US": "杰西卡 and 霜星 interact during ch04."
+    },
+    "associated_event_id": "ch04",
+    "evidences": [
+      {
+        "source_story": "level_main_04-XX_beg",
+        "quote": {
+          "zh_CN": "冰晶缓缓降落在地面上了！",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "杰西卡与霜星在ch04(1096 TY)的对话",
+          "en_US": ""
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_ch04_char_f2b9a33_npc_mephisto",
+    "source": "char_f2b9a339",
+    "target": "npc_mephisto",
+    "relation_type": "hostile",
+    "relation_label": {
+      "zh_CN": "敌人/对抗",
+      "en_US": "敌人/对抗"
+    },
+    "description": {
+      "zh_CN": "霜叶与梅菲斯特在ch04(1096 TY)的互动关系。",
+      "en_US": "霜叶 and 梅菲斯特 interact during ch04."
+    },
+    "associated_event_id": "ch04",
+    "evidences": [
+      {
+        "source_story": "level_main_04-XX_beg",
+        "quote": {
+          "zh_CN": "光芒，从那个家伙的法杖里......？",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "霜叶与梅菲斯特在ch04(1096 TY)的对话",
+          "en_US": ""
+        }
+      },
+      {
+        "source_story": "level_main_04-XX_beg",
+        "quote": {
+          "zh_CN": "哈哈......这种情况下，你们还有讨论的余裕吗？",
+          "en_US": ""
+        },
+        "context_analysis": {
+          "zh_CN": "霜叶与梅菲斯特在ch04(1096 TY)的对话",
+          "en_US": ""
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  }
+]

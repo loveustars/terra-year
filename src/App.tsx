@@ -1,4 +1,4 @@
-import { useState, useMemo, useCallback } from 'react';
+import { useState, useMemo, useCallback, useEffect } from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
 import { useTerraData } from './hooks/useTerraData';
 import Timeline from './components/Timeline';
@@ -8,6 +8,17 @@ import OperatorSelector from './components/OperatorSelector';
 import RelationPanel from './components/RelationPanel';
 import AvatarRelationPopup from './components/AvatarRelationPopup';
 import type { LangKey, TerraEvent, OperatorRelation } from './hooks/useTerraData';
+
+const EVENT_STATUS_OVERRIDES: Record<string, { eventId: string; status: string; reason: Partial<Record<LangKey, string>> }> = {
+  npc_ace: {
+    eventId: 'main_ch00',
+    status: 'deceased',
+    reason: {
+      zh_CN: '在切尔诺伯格行动中牺牲',
+      en_US: 'Sacrificed during the Chernobog operation',
+    },
+  },
+};
 
 type SingleRelationDetail = {
   relation: OperatorRelation;
@@ -27,6 +38,17 @@ function App() {
   const [lang, setLang] = useState<LangKey>('zh_CN');
   const [currentEvent, setCurrentEvent] = useState<TerraEvent | null>(null);
   const [hasInteracted, setHasInteracted] = useState(false);
+
+  const currentEventIndex = useMemo(() => {
+    if (!currentEvent) return -1;
+    return events.findIndex(e => e.id === currentEvent.id);
+  }, [currentEvent, events]);
+
+  useEffect(() => {
+    if (!currentEvent && events.length > 0 && !loading && !error) {
+      setCurrentEvent(events[0]);
+    }
+  }, [currentEvent, error, events, loading]);
 
   /** 已在左侧面板勾选的干员 */
   const [selectedOpIds, setSelectedOpIds] = useState<Set<string>>(new Set());
@@ -55,13 +77,11 @@ function App() {
   const graphData = useMemo(() => {
     if (!currentEvent) return { operators: [] as typeof operators, relations: [] as OperatorRelation[] };
 
-    // 找出当前事件在 events 列表中的顺序索引
-    const eventIndex = events.findIndex(e => e.id === currentEvent.id);
-    if (eventIndex < 0) return { operators: [] as typeof operators, relations: [] as OperatorRelation[] };
+    if (currentEventIndex < 0) return { operators: [] as typeof operators, relations: [] as OperatorRelation[] };
 
     // 收集当前事件及之前所有章节的关系（树形生长）
-    const earlierEventIds = events.slice(0, eventIndex + 1).map(e => e.id);
-    const cumulativeRels = relations.filter(r => earlierEventIds.includes(r.first_appear_event_id));
+    const earlierEventIds = events.slice(0, currentEventIndex + 1).map(e => e.id);
+    const cumulativeRels = relations.filter(r => earlierEventIds.includes(r.first_appear_event_id || r.associated_event_id));
 
     const filtered = selectedOpIds.size > 0
       ? cumulativeRels.filter(r => selectedOpIds.has(r.source) && selectedOpIds.has(r.target))
@@ -72,7 +92,7 @@ function App() {
       .map(id => getOperatorById(id))
       .filter((op): op is NonNullable<typeof op> => op !== undefined);
     return { operators: graphOps, relations: filtered };
-  }, [currentEvent, selectedOpIds, getRelationsByEvent, getOperatorById, relations, events]);
+  }, [currentEvent, currentEventIndex, selectedOpIds, getOperatorById, relations, events]);
 
   /** 当前年份（用于取干员状态） */
   const currentYear = useMemo(() => {
@@ -94,94 +114,98 @@ function App() {
           reason: state.reason?.[lang] ?? state.reason?.zh_CN,
         });
       }
+      const override = EVENT_STATUS_OVERRIDES[op.id];
+      const overrideIndex = override ? events.findIndex(e => e.id === override.eventId) : -1;
+      if (override && currentEventIndex >= overrideIndex && overrideIndex >= 0) {
+        map.set(op.id, {
+          status: override.status,
+          reason: override.reason[lang] ?? override.reason.zh_CN,
+        });
+      }
     }
     return map;
-  }, [graphData.operators, currentYear, getOperatorState, lang]);
+  }, [currentEventIndex, events, graphData.operators, currentYear, getOperatorState, lang]);
 
   /* ---- 事件切换 ---- */
   const handleSelectEvent = useCallback((event: TerraEvent) => {
     setCurrentEvent(event);
     setSelectedOpIds(new Set());
+    setSelectedRelations([]);
+    setAvatarPopup(null);
     if (!hasInteracted) setHasInteracted(true);
   }, [hasInteracted]);
 
   /* ---- 点击头像：显示迷你弹出面板（头像下方跟随出现） ---- */
   const [selectedRelations, setSelectedRelations] = useState<OperatorRelation[]>([]);
+  /** 头像点击时传入的 Operator（用于 RelationPanel 标题） */
+  const [selectedPanelOperator, setSelectedPanelOperator] = useState<string | null>(null);
   const [showDetail, setShowDetail] = useState(false);
   const [avatarPopup, setAvatarPopup] = useState<{
     relations: SingleRelationDetail[];
-    position: { x: number; y: number };
+    rect: DOMRect;
   } | null>(null);
   const handleToggleDetail = useCallback((show: boolean) => { setShowDetail(show); }, []);
 
   const handleSelectOperator = useCallback((
     operatorId: string | null,
-    event?: { pageX: number; pageY: number },
   ) => {
     if (!operatorId) {
       setSelectedRelations([]);
       setAvatarPopup(null);
+      setSelectedPanelOperator(null);
       return;
     }
     // 显示该干员在当前事件及之前所有章节中的关系（树形生长）
-    const eventIndex = currentEvent ? events.findIndex(e => e.id === currentEvent.id) : -1;
-    const earlierEventIds = eventIndex >= 0 ? events.slice(0, eventIndex + 1).map(e => e.id) : [];
+    const earlierEventIds = currentEventIndex >= 0 ? events.slice(0, currentEventIndex + 1).map(e => e.id) : [];
     const cumulativeRels = relations.filter(r =>
-      earlierEventIds.includes(r.first_appear_event_id) &&
+      earlierEventIds.includes(r.first_appear_event_id || r.associated_event_id) &&
       (r.source === operatorId || r.target === operatorId)
     );
-    const details = cumulativeRels.map(r => {
-      const src = getOperatorById(r.source);
-      const tgt = getOperatorById(r.target);
-      if (!src || !tgt) return null;
-      return { relation: r, sourceOp: src, targetOp: tgt, event: currentEvent! };
-    }).filter(Boolean) as SingleRelationDetail[];
-
+    // Always show the right-side RelationPanel when avatar is clicked (never small popup)
     setSelectedRelations(cumulativeRels);
-    // 如果有鼠标位置信息（来自头像点击），弹出面板
-    if (event) {
-      setAvatarPopup({ relations: details, position: { x: event.pageX, y: event.pageY } });
-    } else {
-      setAvatarPopup(null);
-    }
-  }, [currentEvent, events, relations, getOperatorById]);
+    setSelectedPanelOperator(operatorId);
+    setAvatarPopup(null);
+  }, [currentEventIndex, events, relations]);
 
   const handleCloseRelations = useCallback(() => {
     setSelectedRelations([]);
     setAvatarPopup(null);
+    setSelectedPanelOperator(null);
   }, []);
 
   /* ---- 关系详情数据 ---- */
   const relationDetails = useMemo(() => {
     if (!currentEvent) return [];
+    // 用 selectedPanelOperator 确定标题显示哪个干员的名字
+    const titleOp = selectedPanelOperator ? getOperatorById(selectedPanelOperator) : null;
     return selectedRelations.map(r => {
       const src = getOperatorById(r.source);
       const tgt = getOperatorById(r.target);
       if (!src || !tgt) return null;
-      return { relation: r, sourceOp: src, targetOp: tgt, event: currentEvent };
+      return { relation: r, sourceOp: src, targetOp: tgt, event: currentEvent, titleOp };
     }).filter(Boolean) as Array<{
       relation: OperatorRelation;
       sourceOp: NonNullable<ReturnType<typeof getOperatorById>>;
       targetOp: NonNullable<ReturnType<typeof getOperatorById>>;
       event: TerraEvent;
+      titleOp: NonNullable<ReturnType<typeof getOperatorById>>;
     }>;
-  }, [selectedRelations, currentEvent, getOperatorById]);
+  }, [selectedRelations, currentEvent, getOperatorById, selectedPanelOperator]);
 
   const showWelcome = !currentEvent && !hasInteracted && !loading && !error;
 
   /** 当前事件及之前所有章节的干员（用于左侧面板，树形生长） */
   const allEventOperators = useMemo(() => {
     if (!currentEvent) return [];
-    const eventIndex = events.findIndex(e => e.id === currentEvent.id);
-    if (eventIndex < 0) return [];
-    const earlierEventIds = events.slice(0, eventIndex + 1).map(e => e.id);
-    const cumulativeRels = relations.filter(r => earlierEventIds.includes(r.first_appear_event_id));
+    if (currentEventIndex < 0) return [];
+    const earlierEventIds = events.slice(0, currentEventIndex + 1).map(e => e.id);
+    const cumulativeRels = relations.filter(r => earlierEventIds.includes(r.first_appear_event_id || r.associated_event_id));
     const opIds = new Set<string>();
     cumulativeRels.forEach(r => { opIds.add(r.source); opIds.add(r.target); });
     return Array.from(opIds)
       .map(id => getOperatorById(id))
       .filter((op): op is NonNullable<typeof op> => op !== undefined);
-  }, [currentEvent, getRelationsByEvent, getOperatorById, relations, events]);
+  }, [currentEvent, currentEventIndex, getOperatorById, relations, events]);
 
   return (
     <div className="relative w-full h-screen overflow-hidden arknights-grid" style={{ backgroundColor: '#0a0a0a' }}>
@@ -312,10 +336,11 @@ function App() {
           <AvatarRelationPopup
             relations={avatarPopup.relations}
             lang={lang}
-            position={avatarPopup.position}
+            avatarRect={avatarPopup.rect}
             onClose={() => {
               setAvatarPopup(null);
               setSelectedRelations([]);
+              setSelectedPanelOperator(null);
             }}
           />
         )}

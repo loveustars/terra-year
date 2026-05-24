@@ -1,16 +1,14 @@
 import React, { useMemo, useState, useCallback, useRef, useEffect, useReducer } from 'react';
+import { AnimatePresence, motion } from 'framer-motion';
 import type { Operator, OperatorRelation, TerraEvent, LangKey } from '../hooks/useTerraData';
 import { RELATION_TYPE_STYLES } from '../utils/assets';
 import OperatorAvatar, { ErrorBoundary } from './OperatorAvatar';
 
-/* CSS Transform 驱动的平移/缩放（GPU 加速，实时更新） */
-
 interface GraphNode extends Operator {
   x: number; y: number;
   connections: string[];
+  rx: number; ry: number;
 }
-
-const BASE_W = 800, BASE_H = 600;
 
 function circularLayout(ops: Operator[], rels: OperatorRelation[]): GraphNode[] {
   const connMap = new Map<string, Set<string>>();
@@ -20,88 +18,158 @@ function circularLayout(ops: Operator[], rels: OperatorRelation[]): GraphNode[] 
     connMap.get(r.source)!.add(r.target);
     connMap.get(r.target)!.add(r.source);
   }
-  const cx = BASE_W / 2, cy = BASE_H / 2;
-  const radius = ops.length <= 3 ? 100 : ops.length <= 5 ? 150 : 200;
+  const cx = 400, cy = 300;
+  const radius = ops.length <= 3 ? 150 : ops.length <= 5 ? 220 : ops.length <= 8 ? 280 : 320;
   return ops.map((op, i) => {
     const angle = (2 * Math.PI * i) / ops.length - Math.PI / 2;
     return {
       ...op,
       x: cx + radius * Math.cos(angle),
       y: cy + radius * Math.sin(angle),
+      rx: cx + radius * Math.cos(angle),
+      ry: cy + radius * Math.sin(angle),
       connections: Array.from(connMap.get(op.id) ?? []),
     };
   });
 }
 
-/* ---- 关系连线 ---- */
-const SVG_LINES: React.FC<{
-  nodes: GraphNode[]; rels: OperatorRelation[];
-  highlighted: Set<string>; selId: string | null; lang: LangKey;
-}> = ({ nodes, rels, highlighted, selId, lang }) => (
-  <svg width={BASE_W} height={BASE_H} className="absolute top-0 left-0 pointer-events-none z-0 overflow-visible">
-    {rels.map(r => {
-      const src = nodes.find(n => n.id === r.source);
-      const tgt = nodes.find(n => n.id === r.target);
-      if (!src || !tgt) return null;
-      const hl = !selId || highlighted.has(r.source) || highlighted.has(r.target);
-      const st = RELATION_TYPE_STYLES[r.relation_type] ?? RELATION_TYPE_STYLES.unknown;
-      return (
-        <g key={r.id}>
-          {hl && <line x1={src.x} y1={src.y} x2={tgt.x} y2={tgt.y} stroke={st.color} strokeWidth={6} opacity={0.1} strokeLinecap="round" />}
-          <line x1={src.x} y1={src.y} x2={tgt.x} y2={tgt.y} stroke={hl ? st.color : 'rgba(255,255,255,0.06)'} strokeWidth={hl ? 2 : 1} strokeDasharray={hl ? (st.dash || 'none') : 'none'} opacity={hl ? 1 : 0.3} />
-{hl && r.relation_label ? <text x={(src.x+tgt.x)/2} y={(src.y+tgt.y)/2-6} textAnchor="middle" fill={st.color} fontSize="8" fontFamily="monospace" opacity={0.7}>{r.relation_label[lang] ?? r.relation_label.zh_CN}</text> : null}
-        </g>
-      );
-    })}
-  </svg>
+/* ---- SVG 连线 ---- */
+interface SVGLineProps {
+  x1: number; y1: number; x2: number; y2: number;
+  hlColor: string; normalColor: string; highlighted: boolean;
+}
+const SVGLine: React.FC<SVGLineProps> = ({ x1, y1, x2, y2, hlColor, normalColor, highlighted }) => (
+  <motion.line
+    x1={x1} y1={y1} x2={x2} y2={y2}
+    stroke={highlighted ? hlColor : normalColor}
+    strokeWidth={highlighted ? 1.5 : 0.75}
+    initial={{ opacity: 0, pathLength: 0 }}
+    animate={{ opacity: highlighted ? 0.9 : 0.25, pathLength: 1 }}
+    exit={{ opacity: 0, pathLength: 0 }}
+    transition={{ duration: 0.45, ease: 'easeOut' }}
+  />
 );
 
-/* ---- 缩放控件 ---- */
-const ZoomControls: React.FC<{ zi: () => void; zo: () => void; rst: () => void; z: number }> = ({ zi, zo, rst, z }) => (
-  <div className="absolute bottom-6 right-6 z-10 flex flex-col gap-1">
-    {[
-      { l: '+', o: zi, t: 'Zoom in' },
-      { l: `${Math.round(z*100)}%`, o: undefined, t: '' },
-      { l: '−', o: zo, t: 'Zoom out' },
-      { l: '⟲', o: rst, t: 'Reset view' },
-    ].map((b, i) =>
-      b.o
-        ? <button key={i} onClick={b.o} className="w-7 h-7 flex items-center justify-center text-[11px] font-mono border transition-colors hover:bg-white/5" style={{borderColor:'rgba(255,255,255,0.1)',color:'rgba(255,255,255,0.4)',clipPath:'polygon(0 0, 85% 0, 100% 20%, 100% 100%, 15% 100%, 0 80%)'}} title={b.t}>{b.l}</button>
-        : <span key={i} className="text-[8px] font-mono text-center block" style={{color:'rgba(255,255,255,0.15)'}}>{b.l}</span>
-    )}
-  </div>
-);
+interface SVG_LINESProps {
+  rels: OperatorRelation[];
+  highlighted: Set<string>;
+  selId: string | null;
+  /** Callback so SVG can read latest dragged positions from GraphCanvas's ref */
+  getPos: (id: string) => { rx: number; ry: number };
+}
+const SVG_LINES: React.FC<SVG_LINESProps> = ({ rels, highlighted, selId, getPos }) => {
+  // Use a FIXED viewBox so SVG coordinate space doesn't shift as nodes move.
+  // The container's CSS transform (pan/zoom) is applied separately via transformRef.
+  const FIXED_W = 800, FIXED_H = 600;
+
+  return (
+    <svg
+      width={FIXED_W} height={FIXED_H}
+      viewBox={`0 0 ${FIXED_W} ${FIXED_H}`}
+      style={{ position: 'absolute', top: 0, left: 0, pointerEvents: 'none', zIndex: 0, overflow: 'visible' }}
+    >
+      <AnimatePresence>
+        {rels.map(r => {
+          const srcPos = getPos(r.source);
+          const tgtPos = getPos(r.target);
+          if (!srcPos || !tgtPos) return null;
+          const hl = !selId || highlighted.has(r.source) || highlighted.has(r.target);
+          const st = RELATION_TYPE_STYLES[r.relation_type] ?? RELATION_TYPE_STYLES.neutral;
+          return (
+            <SVGLine
+              key={r.id}
+              x1={srcPos.rx} y1={srcPos.ry}
+              x2={tgtPos.rx} y2={tgtPos.ry}
+              hlColor={st.color}
+              normalColor="rgba(255,255,255,0.12)"
+              highlighted={hl}
+            />
+          );
+        })}
+      </AnimatePresence>
+    </svg>
+  );
+};
 
 /* ---- 图例 ---- */
-const Legend: React.FC<{ lang: LangKey }> = ({ lang }) => (
-  <div className="absolute bottom-6 left-6 z-10 flex flex-col gap-1.5">
-    {Object.entries(RELATION_TYPE_STYLES).map(([k, s]) => (
-      <div key={k} className="flex items-center gap-2 text-[9px] font-mono">
-        <div className="w-4 h-px" style={{backgroundColor:s.color,...(s.dash?{borderTop:`1px dashed ${s.color}`,background:'transparent'}:{})}} />
-        <span style={{color:'rgba(255,255,255,0.25)',letterSpacing:'0.1em'}}>{s.label[lang]??s.label.zh_CN}</span>
-      </div>
-    ))}
+const Legend: React.FC<{ lang: LangKey }> = ({ lang }) => {
+  const types = ['allied', 'hostile', 'neutral', 'complex', 'bond', 'subordinate'];
+  const labels: Record<string, Partial<Record<LangKey, string>>> = {
+    allied: { zh_CN: '盟友', en_US: 'Allied' },
+    hostile: { zh_CN: '敌对', en_US: 'Hostile' },
+    neutral: { zh_CN: '中立', en_US: 'Neutral' },
+    complex: { zh_CN: '复杂', en_US: 'Complex' },
+    bond: { zh_CN: '羁绊', en_US: 'Bond' },
+    subordinate: { zh_CN: '隶属', en_US: 'Subordinate' },
+  };
+  return (
+    <div
+      className="absolute bottom-20 right-6 z-10 flex flex-col gap-1"
+      style={{ pointerEvents: 'none' }}
+    >
+      {types.map(t => {
+        const st = RELATION_TYPE_STYLES[t] ?? RELATION_TYPE_STYLES.neutral;
+        const label = labels[t]?.[lang] ?? t;
+        return (
+          <div key={t} className="flex items-center gap-1.5">
+            <div className="w-4 h-0.5 rounded-full" style={{ backgroundColor: st.color }} />
+            <span className="text-[8px] font-mono tracking-widest" style={{ color: 'rgba(255,255,255,0.4)' }}>
+              {label}
+            </span>
+          </div>
+        );
+      })}
+    </div>
+  );
+};
+
+/* ---- 缩放控制 ---- */
+const ZoomControls: React.FC<{ zi: () => void; zo: () => void; rst: () => void; z: number }> = ({ zi, zo, rst, z }) => (
+  <div className="absolute bottom-20 left-6 z-10 flex flex-col gap-1">
+    <button onClick={zi} className="w-7 h-7 rounded border flex items-center justify-center text-sm font-mono" style={{ borderColor: 'rgba(255,255,255,0.12)', color: 'rgba(255,255,255,0.5)', background: 'rgba(0,0,0,0.4)' }}>+</button>
+    <div className="text-center text-[8px] font-mono" style={{ color: 'rgba(255,255,255,0.3)' }}>{Math.round(z * 100)}%</div>
+    <button onClick={zo} className="w-7 h-7 rounded border flex items-center justify-center text-sm font-mono" style={{ borderColor: 'rgba(255,255,255,0.12)', color: 'rgba(255,255,255,0.5)', background: 'rgba(0,0,0,0.4)' }}>−</button>
+    <button onClick={rst} className="w-7 h-7 rounded border flex items-center justify-center text-sm font-mono" style={{ borderColor: 'rgba(255,255,255,0.12)', color: 'rgba(255,255,255,0.5)', background: 'rgba(0,0,0,0.4)' }}>⟲</button>
   </div>
 );
 
-/* ---- 主组件 ---- */
 interface GraphCanvasProps {
-  operators: Operator[]; relations: OperatorRelation[];
-  operatorStatuses?: Map<string, { status: string; reason?: string }>;
-  currentEvent: TerraEvent; lang: LangKey;
-  onSelectOperator?: (id: string | null, event?: { pageX: number; pageY: number }) => void;
+  operators: Operator[];
+  relations: OperatorRelation[];
+  operatorStatuses?: Map<string, { status: string; note?: string }>;
+  currentEvent: TerraEvent;
+  lang: LangKey;
+  onSelectOperator?: (id: string | null, event?: { pageX: number; pageY: number }, avatarRect?: DOMRect) => void;
 }
 
-const GraphCanvas: React.FC<GraphCanvasProps> = ({ operators, relations, operatorStatuses = new Map(), currentEvent, lang, onSelectOperator }) => {
-  const [selId, setSelId] = useState<string | null>(null);
+export default function GraphCanvas({
+  operators, relations, operatorStatuses = new Map(), currentEvent, lang, onSelectOperator,
+}: GraphCanvasProps) {
   const containerRef = useRef<HTMLDivElement>(null);
-
   const transformRef = useRef({ tx: 0, ty: 0, s: 1 });
   const [, forceUpdate] = useReducer(x => x + 1, 0);
-  const isDragging = useRef(false);
-  const lastPos = useRef({ x: 0, y: 0 });
+
+  const isDraggingCanvas = useRef(false);
+  const lastPan = useRef({ x: 0, y: 0 });
+  const dragNodeRef = useRef<{ id: string; startX: number; startY: number; origRx: number; origRy: number } | null>(null);
+  const nodePosMapRef = useRef<Record<string, { rx: number; ry: number }>>({});
 
   const nodes = useMemo(() => circularLayout(operators, relations), [operators, relations]);
+
+  useEffect(() => {
+    const nextIds = new Set(nodes.map(n => n.id));
+    Object.keys(nodePosMapRef.current).forEach(id => {
+      if (!nextIds.has(id)) delete nodePosMapRef.current[id];
+    });
+    nodes.forEach(n => {
+      if (!nodePosMapRef.current[n.id]) {
+        nodePosMapRef.current[n.id] = { rx: n.rx, ry: n.ry };
+      }
+    });
+    forceUpdate();
+  }, [nodes]);
+
+  const [selId, setSelId] = useState<string | null>(null);
 
   const highlighted = useMemo(() => {
     if (!selId) return new Set<string>();
@@ -120,34 +188,50 @@ const GraphCanvas: React.FC<GraphCanvasProps> = ({ operators, relations, operato
 
   useEffect(() => { apply(); }, [apply]);
 
-  /* Drag */
+  const nodePos = useCallback((id: string) => nodePosMapRef.current[id] ?? nodes.find(n => n.id === id) ?? { rx: 400, ry: 300 }, [nodes]);
+
   const onMouseDown = useCallback((e: React.MouseEvent) => {
     if (e.button !== 0 || (e.target as HTMLElement).closest('button')) return;
-    isDragging.current = true;
-    lastPos.current = { x: e.clientX, y: e.clientY };
+    isDraggingCanvas.current = true;
+    lastPan.current = { x: e.clientX, y: e.clientY };
   }, []);
 
+  const startNodeDrag = useCallback((id: string, startX: number, startY: number) => {
+    const pos = nodePosMapRef.current[id] ?? nodes.find(n => n.id === id) ?? { rx: 0, ry: 0 };
+    dragNodeRef.current = { id, startX, startY, origRx: pos.rx, origRy: pos.ry };
+  }, [nodes]);
+
   const onMouseMove = useCallback((e: React.MouseEvent) => {
-    if (!isDragging.current) return;
+    if (dragNodeRef.current) {
+      const d = dragNodeRef.current;
+      const dx = (e.clientX - d.startX) / transformRef.current.s;
+      const dy = (e.clientY - d.startY) / transformRef.current.s;
+      nodePosMapRef.current[d.id] = { rx: d.origRx + dx, ry: d.origRy + dy };
+      forceUpdate();
+      return;
+    }
+    if (!isDraggingCanvas.current) return;
     const t = transformRef.current;
-    const dx = (e.clientX - lastPos.current.x) / t.s;
-    const dy = (e.clientY - lastPos.current.y) / t.s;
-    lastPos.current = { x: e.clientX, y: e.clientY };
+    const dx = (e.clientX - lastPan.current.x) / t.s;
+    const dy = (e.clientY - lastPan.current.y) / t.s;
+    lastPan.current = { x: e.clientX, y: e.clientY };
     t.tx += dx;
     t.ty += dy;
     apply();
   }, [apply]);
 
-  const onMouseUp = useCallback(() => { isDragging.current = false; }, []);
+  const onMouseUp = useCallback(() => {
+    dragNodeRef.current = null;
+    isDraggingCanvas.current = false;
+  }, []);
 
-  /* Wheel zoom */
   const onWheel = useCallback((e: React.WheelEvent) => {
     e.preventDefault();
     const t = transformRef.current;
     const rect = containerRef.current?.parentElement?.getBoundingClientRect();
     if (!rect) return;
     const factor = e.deltaY > 0 ? 0.92 : 1.08;
-    const newS = Math.max(0.2, Math.min(5, t.s * factor));
+    const newS = Math.max(0.8, Math.min(1.4, t.s * factor));
     const mx = (e.clientX - rect.left) / rect.width;
     const my = (e.clientY - rect.top) / rect.height;
     t.tx -= (newS - t.s) * (containerRef.current!.clientWidth * mx) / (t.s * newS);
@@ -158,12 +242,12 @@ const GraphCanvas: React.FC<GraphCanvasProps> = ({ operators, relations, operato
 
   const zoomIn = useCallback(() => {
     const t = transformRef.current;
-    t.s = Math.min(5, t.s * 1.25);
+    t.s = Math.min(1.4, t.s * 1.25);
     apply();
   }, [apply]);
   const zoomOut = useCallback(() => {
     const t = transformRef.current;
-    t.s = Math.max(0.2, t.s * 0.8);
+    t.s = Math.max(0.8, t.s * 0.8);
     apply();
   }, [apply]);
   const resetView = useCallback(() => {
@@ -172,17 +256,17 @@ const GraphCanvas: React.FC<GraphCanvasProps> = ({ operators, relations, operato
     apply();
   }, [apply]);
 
-  const handleSelect = useCallback((id: string, e?: React.MouseEvent) => {
+  const handleSelect = useCallback((id: string, e?: React.MouseEvent, avatarRect?: DOMRect) => {
     const next = selId === id ? null : id;
     setSelId(next);
-    onSelectOperator?.(next, e ? { pageX: e.pageX, pageY: e.pageY } : undefined);
+    onSelectOperator?.(next, e ? { pageX: e.pageX, pageY: e.pageY } : undefined, avatarRect);
   }, [selId, onSelectOperator]);
 
   const zoom = transformRef.current.s;
 
   return (
-    <div className="relative w-full h-full overflow-hidden" style={{cursor: isDragging.current ? 'grabbing' : 'grab'}}>
-      {/* Transform 容器 */}
+    <div className="relative w-full h-full overflow-hidden" style={{ cursor: isDraggingCanvas.current ? 'grabbing' : 'grab' }}>
+      {/* Transform 容器：CSS transform 实现缩放/平移 */}
       <div
         ref={containerRef}
         className="absolute inset-0 will-change-transform"
@@ -194,78 +278,89 @@ const GraphCanvas: React.FC<GraphCanvasProps> = ({ operators, relations, operato
         onWheel={onWheel}
       >
         {/* SVG 连线 */}
-        <SVG_LINES nodes={nodes} rels={relations} highlighted={highlighted} selId={selId} lang={lang} />
+        <SVG_LINES rels={relations} highlighted={highlighted} selId={selId} getPos={nodePos} />
 
         {/* HTML 节点 */}
-        {nodes.map(node => {
-          const label = node.display_name[lang] ?? node.display_name.zh_CN;
-          const hl = !selId || highlighted.has(node.id);
-          return (
-            <div
-              key={node.id}
-              onClick={(e) => { e.stopPropagation(); handleSelect(node.id, e); }}
-              className="absolute flex flex-col items-center cursor-pointer transition-opacity duration-200"
-              style={{
-                left: node.x, top: node.y,
-                transform: 'translate(-50%, -50%)',
-                zIndex: selId === node.id ? 20 : hl ? 10 : 1,
-                opacity: hl ? 1 : 0.3,
-                filter: hl ? 'none' : 'grayscale(0.5)',
-              }}
-            >
-              {selId === node.id && (
-                <div className="absolute rounded-full" style={{
-                  width: 60, height: 60,
-                  border: '1.5px solid rgba(242, 161, 4, 0.35)',
-                  boxShadow: '0 0 20px rgba(242, 161, 4, 0.15)',
-                  animation: 'pulse-ring 2s ease-in-out infinite',
-                }} />
-              )}
-            <ErrorBoundary>
-              <OperatorAvatar avatarKey={node.avatar_key} name={label} highlighted={hl} size={44} />
-            </ErrorBoundary>
-              {/* 角色状态标签 */}
-              {operatorStatuses.has(node.id) && (
-                <div className="absolute -top-1 -right-2 flex items-center gap-1">
-                  <span className="text-[7px] font-mono px-1 py-0.5 border"
-                    style={{
-                      backgroundColor: operatorStatuses.get(node.id)!.status === 'deceased' ? 'rgba(200,0,0,0.2)' : 'rgba(0,180,216,0.15)',
-                      borderColor: operatorStatuses.get(node.id)!.status === 'deceased' ? 'rgba(200,0,0,0.3)' : 'rgba(0,180,216,0.2)',
-                      color: operatorStatuses.get(node.id)!.status === 'deceased' ? '#ff6b6b' : '#00b4d8',
-                    }}>
-                    {operatorStatuses.get(node.id)!.status.toUpperCase()}
-                  </span>
-                </div>
-              )}
-              <span className="text-[9px] font-mono mt-1 select-none whitespace-nowrap transition-colors duration-200"
+        <AnimatePresence>
+          {nodes.map(node => {
+            const pos = nodePos(node.id);
+            const label = node.display_name[lang] ?? node.display_name.zh_CN;
+            const hl = !selId || highlighted.has(node.id);
+            return (
+              <motion.div
+                key={node.id}
+                onClick={(e) => { e.stopPropagation(); const rect = e.currentTarget.getBoundingClientRect(); handleSelect(node.id, e, rect); }}
+                onMouseDown={(e) => { if (e.button === 0) startNodeDrag(node.id, e.clientX, e.clientY); }}
+                className="absolute flex flex-col items-center cursor-pointer transition-opacity duration-200"
+                initial={{ scale: 0.35, opacity: 0 }}
+                animate={{ scale: 1, opacity: hl ? 1 : 0.3 }}
+                exit={{ scale: 0.35, opacity: 0 }}
+                transition={{ duration: 0.35, ease: 'easeOut' }}
                 style={{
-                  color: hl ? '#f5f5f5' : 'rgba(255,255,255,0.2)',
-                  letterSpacing: '0.05em',
-                  textShadow: '0 1px 4px rgba(0,0,0,0.8)',
-                }}>
-                {label}
-              </span>
-            </div>
-          );
-        })}
+                  left: pos.rx, top: pos.ry,
+                  x: '-50%',
+                  y: '-50%',
+                  zIndex: selId === node.id ? 20 : hl ? 10 : 1,
+                  filter: hl ? 'none' : 'grayscale(0.5)',
+                }}
+              >
+                {selId === node.id && (
+                  <div className="absolute rounded-full" style={{
+                    width: 60, height: 60,
+                    border: '1.5px solid rgba(242, 161, 4, 0.35)',
+                    boxShadow: '0 0 20px rgba(242, 161, 4, 0.15)',
+                    animation: 'pulse-ring 2s ease-in-out infinite',
+                  }} />
+                )}
+                <ErrorBoundary>
+                  <OperatorAvatar
+                    avatarKey={node.avatar_key}
+                    name={label}
+                    aliases={[node.id, node.display_name.zh_CN, node.display_name.en_US]}
+                    highlighted={hl}
+                    size={44}
+                    isDeceased={operatorStatuses.get(node.id)?.status === "deceased"}
+                  />
+                </ErrorBoundary>
+                {operatorStatuses.has(node.id) && (
+                  <div className="absolute -top-1 -right-2 flex items-center gap-1">
+                    <span className="text-[7px] font-mono px-1 py-0.5 border"
+                      style={{
+                        backgroundColor: operatorStatuses.get(node.id)!.status === 'deceased' ? 'rgba(200,0,0,0.2)' : 'rgba(0,180,216,0.15)',
+                        borderColor: operatorStatuses.get(node.id)!.status === 'deceased' ? 'rgba(200,0,0,0.3)' : 'rgba(0,180,216,0.2)',
+                        color: operatorStatuses.get(node.id)!.status === 'deceased' ? '#ff6b6b' : '#00b4d8',
+                      }}>
+                      {operatorStatuses.get(node.id)!.status.toUpperCase()}
+                    </span>
+                  </div>
+                )}
+                <span className="text-[9px] font-mono mt-1 select-none whitespace-nowrap transition-colors duration-200"
+                  style={{
+                    color: hl ? '#f5f5f5' : 'rgba(255,255,255,0.2)',
+                    letterSpacing: '0.05em',
+                    textShadow: '0 1px 4px rgba(0,0,0,0.8)',
+                  }}>
+                  {label}
+                </span>
+              </motion.div>
+            );
+          })}
+        </AnimatePresence>
       </div>
 
       <Legend lang={lang} />
       <ZoomControls zi={zoomIn} zo={zoomOut} rst={resetView} z={zoom} />
 
       <div className="absolute top-6 right-6 z-10 text-right">
-        <div className="text-[8px] font-mono tracking-[0.2em] uppercase" style={{color:'rgba(242, 161, 4, 0.4)'}}>{currentEvent.id}</div>
-        <div className="text-[9px] font-mono tracking-[0.1em] mt-0.5" style={{color:'rgba(255,255,255,0.15)'}}>{relations.length} RLT / {operators.length} OPS</div>
+        <div className="text-[8px] font-mono tracking-[0.2em] uppercase" style={{ color: 'rgba(242, 161, 4, 0.4)' }}>{currentEvent.id}</div>
+        <div className="text-[9px] font-mono tracking-[0.1em] mt-0.5" style={{ color: 'rgba(255,255,255,0.15)' }}>{relations.length} RLT / {operators.length} OPS</div>
       </div>
 
-      {/* 提示 - 第一次交互后淡出 */}
       {!selId && (
         <div className="absolute bottom-20 left-1/2 -translate-x-1/2 z-10 pointer-events-none text-center">
-          <div className="text-[8px] font-mono tracking-[0.2em]" style={{color:'rgba(255,255,255,0.06)'}}>DRAG TO PAN · SCROLL TO ZOOM</div>
+          <div className="text-[8px] font-mono tracking-[0.2em]" style={{ color: 'rgba(255,255,255,0.06)' }}>DRAG TO PAN · SCROLL TO ZOOM</div>
         </div>
       )}
     </div>
   );
-};
-
-export default GraphCanvas;
+}

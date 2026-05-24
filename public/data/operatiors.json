@@ -2673,5 +2673,55 @@
     "faction": "整合运动",
     "avatar_key": "npc_霜星",
     "is_npc": true
+  },
+  {
+    "id": "char_367_swllow",
+    "display_name": {
+      "zh_CN": "灰喉",
+      "en_US": "GreyThroat"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_367_swllow",
+    "is_npc": false
+  },
+  {
+    "id": "avg_npc_042",
+    "display_name": {
+      "zh_CN": "迷迭香",
+      "en_US": "Rosmontis"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "avg_npc_042",
+    "is_npc": true
+  },
+  {
+    "id": "avg_npc_026",
+    "display_name": {
+      "zh_CN": "Scout",
+      "en_US": "Scout"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "avg_npc_026",
+    "is_npc": true
+  },
+  {
+    "id": "avg_npc_039",
+    "display_name": {
+      "zh_CN": "九",
+      "en_US": "Nine"
+    },
+    "faction": "龙门",
+    "avatar_key": "avg_npc_039",
+    "is_npc": true
+  },
+  {
+    "id": "avg_npc_041",
+    "display_name": {
+      "zh_CN": "大熊",
+      "en_US": "BigBear"
+    },
+    "faction": "龙门",
+    "avatar_key": "avg_npc_041",
+    "is_npc": true
   }
 ]
