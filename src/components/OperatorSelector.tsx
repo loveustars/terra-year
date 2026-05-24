@@ -20,13 +20,13 @@ const FACTION_COLORS: Record<string, string> = {
   rhodes_island: '#00a7c7',
   babel: '#8e44ad',
   reunion: '#e74c3c',
-  lungmen: '#e67e22',
+  lungmen: '#00c2ff',
   penguin_logistics: '#3498db',
   kjerag: '#4f8fda',
-  kazimierz: '#c89419',
+  kazimierz: '#00c2ff',
   yan: '#c84a31',
   victoria: '#b84d85',
-  laterano: '#caa82d',
+  laterano: '#00c2ff',
   leithanien: '#7a65c7',
   siracusa: '#795548',
   acahualla: '#27ae60',
@@ -35,7 +35,7 @@ const FACTION_COLORS: Record<string, string> = {
   '罗德岛': '#00a7c7',
   '巴别塔': '#8e44ad',
   '整合运动': '#e74c3c',
-  '龙门': '#e67e22',
+  '龙门': '#00c2ff',
   '企鹅物流': '#3498db',
   '卡兹戴尔': '#c0392b',
   '维多利亚': '#b84d85',
@@ -229,9 +229,9 @@ const OperatorSelector: React.FC<OperatorSelectorProps> = ({
                                 key={op.id}
                                 onClick={() => onToggle(op.id)}
                                 className="w-full flex items-center gap-2 px-2 py-1 text-left transition-colors"
-                                style={{ backgroundColor: isSelected ? 'rgba(242,161,4,0.15)' : 'transparent' }}
+                                style={{ backgroundColor: isSelected ? 'rgba(0,194,255,0.15)' : 'transparent' }}
                               >
-                                <span className="w-1.5 h-1.5 flex-shrink-0" style={{ backgroundColor: isSelected ? '#f2a104' : '#ccc' }} />
+                                <span className="w-1.5 h-1.5 flex-shrink-0" style={{ backgroundColor: isSelected ? '#00c2ff' : '#ccc' }} />
                                 <span className="text-[11px] font-bold truncate text-[#111]">{name}</span>
                               </button>
                             );
@@ -284,7 +284,7 @@ const OperatorSelector: React.FC<OperatorSelectorProps> = ({
                 className="flex flex-col overflow-hidden"
               >
                 <div className="p-4 bg-white overflow-y-auto" style={{ scrollbarWidth: 'thin' }}>
-                  <div className="text-[10px] uppercase font-bold text-[#f2a104] mb-1">
+                  <div className="text-[10px] uppercase font-bold text-[#00c2ff] mb-1">
                     {currentEvent.id}
                   </div>
                   <h3 className="text-xl font-black text-[#1a1a1a] mb-2 leading-tight">

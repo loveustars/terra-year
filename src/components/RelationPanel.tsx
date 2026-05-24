@@ -66,11 +66,11 @@ const RelationPanel: React.FC<RelationPanelProps> = ({ relations, lang, onClose 
         />
 
         {/* Decorative corner blocks to outline the clip-path borders */}
-        <div className="absolute top-0 right-[32px] w-12 h-1.5 bg-[#f2a104] z-20" />
-        <div className="absolute top-[32px] right-0 w-1.5 h-12 bg-[#f2a104] z-20" />
+        <div className="absolute top-0 right-[32px] w-12 h-1.5 bg-[#00c2ff] z-20" />
+        <div className="absolute top-[32px] right-0 w-1.5 h-12 bg-[#00c2ff] z-20" />
 
-        <div className="absolute bottom-0 left-[32px] w-12 h-1.5 bg-[#f2a104] z-20" />
-        <div className="absolute bottom-[32px] left-0 w-1.5 h-12 bg-[#f2a104] z-20" />
+        <div className="absolute bottom-0 left-[32px] w-12 h-1.5 bg-[#00c2ff] z-20" />
+        <div className="absolute bottom-[32px] left-0 w-1.5 h-12 bg-[#00c2ff] z-20" />
 
         {/* Header Section */}
         <div className="relative px-8 pt-10 pb-5 shrink-0 z-10 w-full overflow-hidden bg-[#e0e0e0] border-b-2 border-[#1f1f1f]">

@@ -33,6 +33,8 @@ function App() {
     return events.findIndex(e => e.id === currentEvent.id);
   }, [currentEvent, events]);
 
+  const isTotalWebEvent = currentEventIndex >= 0 && currentEventIndex === events.length - 1;
+
   /** 已在左侧面板勾选的干员 */
   const [selectedOpIds, setSelectedOpIds] = useState<Set<string>>(new Set());
 
@@ -40,6 +42,9 @@ function App() {
     if (!event) return new Set<string>();
     const eventIndex = events.findIndex(e => e.id === event.id);
     if (eventIndex < 0) return new Set<string>();
+    if (eventIndex === events.length - 1) {
+      return new Set(operators.map(op => op.id));
+    }
     const earlierEventIds = events.slice(0, eventIndex + 1).map(e => e.id);
     const ids = new Set<string>();
     relations
@@ -49,7 +54,7 @@ function App() {
         if (getOperatorById(r.target)) ids.add(r.target);
       });
     return ids;
-  }, [events, getOperatorById, relations]);
+  }, [events, getOperatorById, operators, relations]);
 
   useEffect(() => {
     if (!currentEvent && events.length > 0 && !loading && !error) {
@@ -102,11 +107,16 @@ function App() {
     const filtered = cumulativeRels.filter(r => selectedOpIds.has(r.source) && selectedOpIds.has(r.target));
     const opIds = new Set<string>();
     filtered.forEach(r => { opIds.add(r.source); opIds.add(r.target); });
+    if (isTotalWebEvent) {
+      operators.forEach(op => {
+        if (selectedOpIds.has(op.id)) opIds.add(op.id);
+      });
+    }
     const graphOps = Array.from(opIds)
       .map(id => getOperatorById(id))
       .filter((op): op is NonNullable<typeof op> => op !== undefined);
     return { operators: graphOps, relations: filtered };
-  }, [currentEvent, currentEventIndex, selectedOpIds, getOperatorById, relations, events]);
+  }, [currentEvent, currentEventIndex, isTotalWebEvent, operators, selectedOpIds, getOperatorById, relations, events]);
 
   /** 当前年份（用于取干员状态） */
   const currentYear = useMemo(() => {
@@ -205,13 +215,14 @@ function App() {
     if (!currentEvent) return [];
     if (currentEventIndex < 0) return [];
     const earlierEventIds = events.slice(0, currentEventIndex + 1).map(e => e.id);
+    if (isTotalWebEvent) return operators;
     const cumulativeRels = relations.filter(r => earlierEventIds.includes(r.first_appear_event_id || r.associated_event_id));
     const opIds = new Set<string>();
     cumulativeRels.forEach(r => { opIds.add(r.source); opIds.add(r.target); });
     return Array.from(opIds)
       .map(id => getOperatorById(id))
       .filter((op): op is NonNullable<typeof op> => op !== undefined);
-  }, [currentEvent, currentEventIndex, getOperatorById, relations, events]);
+  }, [currentEvent, currentEventIndex, getOperatorById, isTotalWebEvent, operators, relations, events]);
 
   return (
     <div className="relative w-full h-screen overflow-hidden arknights-grid" style={{ backgroundColor: '#0a0a0a' }}>
@@ -250,10 +261,10 @@ function App() {
         </AnimatePresence>
         <span className="text-[9px]" style={{ color: 'rgba(255,255,255,0.08)' }}>|</span>
         <button onClick={() => setLang('zh_CN')} className="text-[10px] tracking-[0.1em] transition-colors"
-          style={{ color: lang === 'zh_CN' ? '#f2a104' : 'rgba(255,255,255,0.25)' }}>[ ZH ]</button>
+          style={{ color: lang === 'zh_CN' ? '#00c2ff' : 'rgba(255,255,255,0.25)' }}>[ ZH ]</button>
         <span className="text-[9px]" style={{ color: 'rgba(255,255,255,0.08)' }}>|</span>
         <button onClick={() => setLang('en_US')} className="text-[10px] tracking-[0.1em] transition-colors"
-          style={{ color: lang === 'en_US' ? '#f2a104' : 'rgba(255,255,255,0.25)' }}>[ EN ]</button>
+          style={{ color: lang === 'en_US' ? '#00c2ff' : 'rgba(255,255,255,0.25)' }}>[ EN ]</button>
       </div>
 
       {/* 第4层：主内容 */}
@@ -282,13 +293,13 @@ function App() {
               }}
               initial={{ opacity: 0, scale: 0.95, y: 10 }} animate={{ opacity: 1, scale: 1, y: 0 }}
               exit={{ opacity: 0, scale: 0.95, y: -10 }} transition={{ duration: 0.4 }}>
-              <h1 className="text-3xl sm:text-4xl font-black tracking-[0.15em] font-mono" style={{ color: '#f2a104' }}>
+              <h1 className="text-3xl sm:text-4xl font-black tracking-[0.15em] font-mono" style={{ color: '#00c2ff' }}>
                 TERRA-YEAR
               </h1>
               <h2 className="text-[10px] tracking-[0.25em] font-mono mt-1 mb-5" style={{ color: 'rgba(255,255,255,0.3)' }}>
                 CHRONO-RELATIONS CHART
               </h2>
-              <div className="w-16 h-px mx-auto mb-5" style={{ backgroundColor: 'rgba(242,161,4,0.3)' }} />
+              <div className="w-16 h-px mx-auto mb-5" style={{ backgroundColor: 'rgba(0,194,255,0.3)' }} />
               <div className="grid grid-cols-3 gap-4 max-w-xs mx-auto mb-5">
                 {[{v: operators.length, l:'Operators'},{v: events.length, l:'Events'},{v: operatorStates.length, l:'State Changes'}].map((s,i)=>(
                   <div key={i}>
@@ -302,7 +313,7 @@ function App() {
                 <div style={{color:'rgba(255,255,255,0.2)'}}>&gt; STACK: React 18 / Vite 4 / Tailwind v3</div>
                 <div style={{color:'rgba(255,255,255,0.2)'}}>&gt; TIMELINE: {events.length} events spanning {yearRange[0]}–{yearRange[1]} TY</div>
                 <div style={{color:'rgba(255,255,255,0.2)'}}>&gt; SELECT OPERATORS via the left panel, then explore relations</div>
-                <div className="animate-pulse" style={{color:'rgba(242,161,4,0.6)'}}>&gt; STATUS: SYSTEM_READY</div>
+                <div className="animate-pulse" style={{color:'rgba(0,194,255,0.6)'}}>&gt; STATUS: SYSTEM_READY</div>
               </div>
               <p className="mt-6 text-[9px] font-mono tracking-[0.15em]" style={{color:'rgba(255,255,255,0.12)'}}>
                 ↓ SELECT AN EVENT ON THE TIMELINE BELOW

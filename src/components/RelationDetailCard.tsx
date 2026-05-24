@@ -62,7 +62,7 @@ const RelationDetailCard: React.FC<RelationDetailCardProps> = ({
           onClick={onClose}
           className="absolute top-2 right-3 text-[10px] font-mono transition-colors z-10"
           style={{ color: 'rgba(255,255,255,0.3)' }}
-          onMouseEnter={e => e.currentTarget.style.color = '#f2a104'}
+          onMouseEnter={e => e.currentTarget.style.color = '#00c2ff'}
           onMouseLeave={e => e.currentTarget.style.color = 'rgba(255,255,255,0.3)'}
         >
           [ CLOSE ]
@@ -100,7 +100,7 @@ const RelationDetailCard: React.FC<RelationDetailCardProps> = ({
 
         {/* 关联事件 */}
         <div className="mb-3">
-          <span className="text-[9px] font-mono tracking-[0.1em]" style={{ color: 'rgba(242, 161, 4, 0.5)' }}>
+          <span className="text-[9px] font-mono tracking-[0.1em]" style={{ color: 'rgba(0, 194, 255, 0.5)' }}>
             EVENT: {event.id}
           </span>
           <span className="text-[11px] font-mono ml-2" style={{ color: 'rgba(255,255,255,0.5)' }}>
@@ -121,7 +121,7 @@ const RelationDetailCard: React.FC<RelationDetailCardProps> = ({
               }}
             >
               <div className="flex items-center gap-2 mb-2">
-                <span className="text-[8px] font-mono tracking-[0.15em] uppercase" style={{ color: 'rgba(242, 161, 4, 0.4)' }}>
+                <span className="text-[8px] font-mono tracking-[0.15em] uppercase" style={{ color: 'rgba(0, 194, 255, 0.4)' }}>
                   EVIDENCE #{i + 1}
                 </span>
                 <span className="text-[9px] font-mono" style={{ color: 'rgba(255,255,255,0.2)' }}>

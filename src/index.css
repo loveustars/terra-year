@@ -61,8 +61,8 @@
   margin-top: -8px;
   appearance: none;
   background: #1f1f1f;
-  border: 2px solid #f2a104;
-  box-shadow: 0 0 0 4px rgba(242, 161, 4, 0.14);
+  border: 2px solid #00c2ff;
+  box-shadow: 0 0 0 4px rgba(0, 194, 255, 0.14);
   clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
 }
 
@@ -75,8 +75,8 @@
   width: 18px;
   height: 18px;
   background: #1f1f1f;
-  border: 2px solid #f2a104;
+  border: 2px solid #00c2ff;
   border-radius: 0;
-  box-shadow: 0 0 0 4px rgba(242, 161, 4, 0.14);
+  box-shadow: 0 0 0 4px rgba(0, 194, 255, 0.14);
   clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
 }

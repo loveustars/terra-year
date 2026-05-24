@@ -78,6 +78,44 @@ const LOCAL_AVATAR_ALIASES: Record<string, string[]> = {
   雷蛇: ['liskarm'],
   能天使: ['exusiai'],
   凯尔希: ['kaltsit'],
+  aglina: ['angelina', 'blaze'],
+  archet: ['archetto'],
+  ardign: ['cardigan'],
+  brownb: ['hoshiguma'],
+  cerber: ['flint', 'ceobe'],
+  celya: ['saria'],
+  chiyue: ['nian'],
+  deepcl: ['deepcolor'],
+  elite: ['thorns'],
+  elyzi: ['elysium'],
+  estell: ['estelle'],
+  falco: ['plume'],
+  flash: ['shining'],
+  flk: ['nightingale'],
+  gyuki: ['matoimaru'],
+  halo: ['astgenne'],
+  halo2: ['astgenne'],
+  hasyu: ['courier'],
+  hmau: ['hung'],
+  mantic: ['manticore'],
+  mesa: ['cliffheart'],
+  mlys: ['muelsyse'],
+  mstm: ['mostima'],
+  nightm: ['nightmare'],
+  noirc: ['noircorne'],
+  panda: ['feater'],
+  pepol: ['pramanix'],
+  petra: ['croissant'],
+  podego: ['podenco'],
+  rang: ['rangers'],
+  scave: ['scavenger'],
+  shotst: ['meteor'],
+  silent: ['ceylon'],
+  snakek: ['cuora'],
+  sophia: ['whislash'],
+  sqrrel: ['shaw'],
+  whitew: ['schwarz'],
+  yue: ['chongyue'],
 };
 
 const CDN_CHAINS = [
@@ -110,6 +148,12 @@ function addLocalCandidates(target: string[], seen: Set<string>, alias: string) 
       seen.add(url);
       target.push(url);
     }
+  }
+}
+
+function addMappedLocalCandidates(target: string[], seen: Set<string>, alias: string) {
+  for (const mapped of LOCAL_AVATAR_ALIASES[alias] ?? []) {
+    addLocalCandidates(target, seen, mapped);
   }
 }
 
@@ -146,8 +190,15 @@ const OperatorAvatar: React.FC<OperatorAvatar> = ({
 
     if (safeKey) {
       addLocalCandidates(urls, seen, safeKey);
+      addMappedLocalCandidates(urls, seen, safeKey);
       const suffix = keySuffix(safeKey);
-      if (suffix) addLocalCandidates(urls, seen, suffix);
+      if (suffix) {
+        addLocalCandidates(urls, seen, suffix);
+        addMappedLocalCandidates(urls, seen, suffix);
+        if (/^\d+[a-z]+$/.test(suffix)) {
+          addLocalCandidates(urls, seen, suffix.replace(/[a-z]{2}$/, ''));
+        }
+      }
     }
 
     const stableAliases = aliasKey ? aliasKey.split('\0') : [];
@@ -238,7 +289,7 @@ const OperatorAvatar: React.FC<OperatorAvatar> = ({
         <polygon
           points={outerPoints}
           fill="none"
-          stroke={isDeceased ? "rgba(200, 0, 0, 0.4)" : "rgba(242, 161, 4, 0.3)"}
+          stroke={isDeceased ? "rgba(200, 0, 0, 0.4)" : "rgba(0, 194, 255, 0.3)"}
           strokeWidth="2"
           filter={`url(#glow-${clipId})`}
         >
@@ -249,7 +300,7 @@ const OperatorAvatar: React.FC<OperatorAvatar> = ({
       <polygon
         points={points}
         fill={loadError ? 'rgba(20, 20, 20, 0.6)' : 'rgba(255,255,255,0.04)'}
-        stroke={highlighted ? (isDeceased ? 'rgba(200, 0, 0, 0.6)' : 'rgba(242, 161, 4, 0.5)') : 'rgba(255,255,255,0.08)'}
+        stroke={highlighted ? (isDeceased ? 'rgba(200, 0, 0, 0.6)' : 'rgba(0, 194, 255, 0.5)') : 'rgba(255,255,255,0.08)'}
         strokeWidth={1.5}
       />
 

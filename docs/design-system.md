@@ -7,7 +7,7 @@
 - **High Contrast White** (高反白): `#f5f5f5` (冷白，正文)
 - **Muted Text** (暗灰): `#666666` (辅助信息)
 - **Rhodes Blue** (罗德岛蓝 - 交互与状态色): `#00b4d8`
-- **Arknights Orange** (方舟橙 - 核心高亮与强调色): `#f2a104` 
+- **Neon Cyan (核心高亮与强调色): `#00c2ff` 
 - **Border Tone** (极细边框色): `rgba(255, 255, 255, 0.08)` / `#222222`
 
 ## 2. 方舟专属组件 CSS / Tailwind 实现

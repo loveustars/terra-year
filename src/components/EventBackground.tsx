@@ -38,8 +38,8 @@ const CornerDecor: React.FC = () => {
   return (<>{corners.map((c,i)=>(
     <div key={i} className="absolute w-16 h-16 pointer-events-none z-20" style={{top:c.t!==undefined?c.t:'auto',bottom:c.b!==undefined?c.b:'auto',left:c.l!==undefined?c.l:'auto',right:c.ri!==undefined?c.ri:'auto',transform:`rotate(${c.rot}deg)`,opacity:0.4}}>
       <svg width="64" height="64" viewBox="0 0 64 64">
-        <line x1="0" y1="0" x2="28" y2="0" stroke="#f2a104" strokeWidth="2"/>
-        <line x1="0" y1="0" x2="0" y2="28" stroke="#f2a104" strokeWidth="2"/>
+        <line x1="0" y1="0" x2="28" y2="0" stroke="#00c2ff" strokeWidth="2"/>
+        <line x1="0" y1="0" x2="0" y2="28" stroke="#00c2ff" strokeWidth="2"/>
       </svg>
     </div>
   ))}</>);
@@ -59,8 +59,8 @@ const EventTitleOverlay: React.FC<{ event: TerraEvent; lang: LangKey }> = ({ eve
     <motion.div className="absolute top-8 left-8 z-30 select-none bg-white p-5 border border-[#ccc] shadow-sm transform-gpu"
       style={{ clipPath: 'polygon(0 0, calc(100% - 16px) 0, 100% 16px, 100% 100%, 0 100%)' }}
       initial={{ opacity: 0, x: -24 }} animate={{ opacity: 1, x: 0 }} exit={{ opacity: 0, x: -24 }} transition={{ duration: 0.5, ease: 'easeOut' }}>
-      <div className="absolute top-0 right-4 w-12 h-1 bg-[#f2a104]"></div>
-      <div className="absolute bottom-4 left-0 w-1 h-12 bg-[#f2a104]"></div>
+      <div className="absolute top-0 right-4 w-12 h-1 bg-[#00c2ff]"></div>
+      <div className="absolute bottom-4 left-0 w-1 h-12 bg-[#00c2ff]"></div>
 
       <div className="flex items-center gap-2 mb-2">
         <div className="w-2 h-4 bg-[#1f1f1f]"></div>

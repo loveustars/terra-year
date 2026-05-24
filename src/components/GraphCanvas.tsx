@@ -10,8 +10,8 @@ interface GraphNode extends Operator {
   rx: number; ry: number;
 }
 
-const GRAPH_W = 1800;
-const GRAPH_H = 1200;
+const GRAPH_W = 4200;
+const GRAPH_H = 3000;
 const GRAPH_CX = GRAPH_W / 2;
 const GRAPH_CY = GRAPH_H / 2;
 const NODE_GAP = 74;
@@ -28,17 +28,41 @@ function circularLayout(ops: Operator[], rels: OperatorRelation[]): GraphNode[] 
     connMap.get(r.source)!.add(r.target);
     connMap.get(r.target)!.add(r.source);
   }
-  const radius = Math.min(520, Math.max(180, ops.length * 14));
-  return ops.map((op, i) => {
+  const connectedOps = ops.filter(op => (connMap.get(op.id)?.size ?? 0) > 0);
+  const connectedIndex = new Map(connectedOps.map((op, i) => [op.id, i]));
+  const isolatedOps = ops.filter(op => (connMap.get(op.id)?.size ?? 0) === 0);
+  const isolatedIndex = new Map(isolatedOps.map((op, i) => [op.id, i]));
+  const radius = Math.min(1180, Math.max(220, connectedOps.length * 18));
+  const isolatedColumns = Math.max(1, Math.floor((GRAPH_W - 220) / 92));
+  const isolatedStartY = GRAPH_H - Math.ceil(isolatedOps.length / isolatedColumns) * 72 - 80;
+
+  return ops.map((op) => {
+    const isolatedI = isolatedIndex.get(op.id);
+    if (isolatedI !== undefined) {
+      const col = isolatedI % isolatedColumns;
+      const row = Math.floor(isolatedI / isolatedColumns);
+      const x = 110 + col * 92;
+      const y = Math.max(760, isolatedStartY) + row * 72;
+      return {
+        ...op,
+        x,
+        y,
+        rx: x,
+        ry: y,
+        connections: [],
+      };
+    }
+
+    const i = connectedIndex.get(op.id) ?? 0;
     const factionHash = Math.abs([...op.faction].reduce((acc, ch) => acc + ch.charCodeAt(0), 0));
     const factionOffset = (factionHash % 11) * 0.035;
-    const angle = (2 * Math.PI * (i + factionOffset)) / Math.max(ops.length, 1) - Math.PI / 2;
+    const angle = (2 * Math.PI * (i + factionOffset)) / Math.max(connectedOps.length, 1) - Math.PI / 2;
     return {
       ...op,
       x: GRAPH_CX + radius * Math.cos(angle),
-      y: GRAPH_CY + radius * Math.sin(angle),
+      y: GRAPH_CY - 220 + radius * Math.sin(angle),
       rx: GRAPH_CX + radius * Math.cos(angle),
-      ry: GRAPH_CY + radius * Math.sin(angle),
+      ry: GRAPH_CY - 220 + radius * Math.sin(angle),
       connections: Array.from(connMap.get(op.id) ?? []),
     };
   });
@@ -54,6 +78,7 @@ function relaxOverlaps(
   rels: OperatorRelation[],
 ) {
   const ids = nodes.map(n => n.id);
+  const isolated = new Set(nodes.filter(n => n.connections.length === 0).map(n => n.id));
   const degree = new Map(ids.map(id => [id, 0]));
   for (const r of rels) {
     degree.set(r.source, (degree.get(r.source) ?? 0) + 1);
@@ -63,10 +88,10 @@ function relaxOverlaps(
   for (let step = 0; step < 90; step++) {
     for (let i = 0; i < ids.length; i++) {
       const a = positions[ids[i]];
-      if (!a) continue;
+      if (!a || isolated.has(ids[i])) continue;
       for (let j = i + 1; j < ids.length; j++) {
         const b = positions[ids[j]];
-        if (!b) continue;
+        if (!b || isolated.has(ids[j])) continue;
         let dx = b.rx - a.rx;
         let dy = b.ry - a.ry;
         let distance = Math.hypot(dx, dy);
@@ -107,6 +132,7 @@ function relaxOverlaps(
 
     for (const id of ids) {
       const p = positions[id];
+      if (isolated.has(id)) continue;
       p.rx += (GRAPH_CX - p.rx) * 0.002;
       p.ry += (GRAPH_CY - p.ry) * 0.002;
       p.rx = clamp(p.rx, NODE_MIN_X, NODE_MAX_X);
@@ -225,8 +251,9 @@ interface GraphCanvasProps {
 export default function GraphCanvas({
   operators, relations, operatorStatuses = new Map(), currentEvent, lang, onSelectOperator,
 }: GraphCanvasProps) {
+  const viewportRef = useRef<HTMLDivElement>(null);
   const containerRef = useRef<HTMLDivElement>(null);
-  const transformRef = useRef({ tx: 0, ty: 0, s: 1 });
+  const transformRef = useRef({ tx: 0, ty: 0, s: 0.55 });
   const [, forceUpdate] = useReducer(x => x + 1, 0);
 
   const isDraggingCanvas = useRef(false);
@@ -267,12 +294,26 @@ export default function GraphCanvas({
     forceUpdate();
   }, []);
 
-  useEffect(() => { apply(); }, [apply]);
+  const centerView = useCallback((scale = transformRef.current.s) => {
+    const viewport = viewportRef.current?.getBoundingClientRect();
+    if (!viewport) {
+      apply();
+      return;
+    }
+    const t = transformRef.current;
+    t.s = scale;
+    t.tx = viewport.width / 2 - GRAPH_CX * scale;
+    t.ty = viewport.height / 2 - GRAPH_CY * scale;
+    apply();
+  }, [apply]);
+
+  useEffect(() => { centerView(); }, [centerView]);
 
   const nodePos = useCallback((id: string) => nodePosMapRef.current[id] ?? nodes.find(n => n.id === id) ?? { rx: GRAPH_CX, ry: GRAPH_CY }, [nodes]);
 
   const onMouseDown = useCallback((e: React.MouseEvent) => {
     if (e.button !== 0 || (e.target as HTMLElement).closest('button')) return;
+    e.preventDefault();
     isDraggingCanvas.current = true;
     lastPan.current = { x: e.clientX, y: e.clientY };
   }, []);
@@ -293,8 +334,8 @@ export default function GraphCanvas({
     }
     if (!isDraggingCanvas.current) return;
     const t = transformRef.current;
-    const dx = (e.clientX - lastPan.current.x) / t.s;
-    const dy = (e.clientY - lastPan.current.y) / t.s;
+    const dx = e.clientX - lastPan.current.x;
+    const dy = e.clientY - lastPan.current.y;
     lastPan.current = { x: e.clientX, y: e.clientY };
     t.tx += dx;
     t.ty += dy;
@@ -309,33 +350,31 @@ export default function GraphCanvas({
   const onWheel = useCallback((e: React.WheelEvent) => {
     e.preventDefault();
     const t = transformRef.current;
-    const rect = containerRef.current?.parentElement?.getBoundingClientRect();
+    const rect = viewportRef.current?.getBoundingClientRect();
     if (!rect) return;
-    const factor = e.deltaY > 0 ? 0.92 : 1.08;
-    const newS = Math.max(0.8, Math.min(1.4, t.s * factor));
-    const mx = (e.clientX - rect.left) / rect.width;
-    const my = (e.clientY - rect.top) / rect.height;
-    t.tx -= (newS - t.s) * (containerRef.current!.clientWidth * mx) / (t.s * newS);
-    t.ty -= (newS - t.s) * (containerRef.current!.clientHeight * my) / (t.s * newS);
+    const mx = e.clientX - rect.left;
+    const my = e.clientY - rect.top;
+    const worldX = (mx - t.tx) / t.s;
+    const worldY = (my - t.ty) / t.s;
+    const factor = Math.exp(-e.deltaY * 0.00055);
+    const newS = Math.max(0.18, Math.min(2.8, t.s * factor));
+    t.tx = mx - worldX * newS;
+    t.ty = my - worldY * newS;
     t.s = newS;
     apply();
   }, [apply]);
 
   const zoomIn = useCallback(() => {
     const t = transformRef.current;
-    t.s = Math.min(1.4, t.s * 1.25);
-    apply();
-  }, [apply]);
+    centerView(Math.min(2.8, t.s * 1.12));
+  }, [centerView]);
   const zoomOut = useCallback(() => {
     const t = transformRef.current;
-    t.s = Math.max(0.8, t.s * 0.8);
-    apply();
-  }, [apply]);
+    centerView(Math.max(0.18, t.s * 0.9));
+  }, [centerView]);
   const resetView = useCallback(() => {
-    const t = transformRef.current;
-    t.tx = 0; t.ty = 0; t.s = 1;
-    apply();
-  }, [apply]);
+    centerView(0.55);
+  }, [centerView]);
 
   const handleSelect = useCallback((id: string, e?: React.MouseEvent, avatarRect?: DOMRect) => {
     const next = selId === id ? null : id;
@@ -346,17 +385,21 @@ export default function GraphCanvas({
   const zoom = transformRef.current.s;
 
   return (
-    <div className="relative w-full h-full overflow-hidden" style={{ cursor: isDraggingCanvas.current ? 'grabbing' : 'grab' }}>
+    <div
+      ref={viewportRef}
+      className="relative w-full h-full overflow-hidden touch-none"
+      style={{ cursor: isDraggingCanvas.current ? 'grabbing' : 'grab' }}
+      onMouseDown={onMouseDown}
+      onMouseMove={onMouseMove}
+      onMouseUp={onMouseUp}
+      onMouseLeave={onMouseUp}
+      onWheel={onWheel}
+    >
       {/* Transform 容器：CSS transform 实现缩放/平移 */}
       <div
         ref={containerRef}
-        className="absolute inset-0 will-change-transform"
-        style={{ transformOrigin: '0 0' }}
-        onMouseDown={onMouseDown}
-        onMouseMove={onMouseMove}
-        onMouseUp={onMouseUp}
-        onMouseLeave={onMouseUp}
-        onWheel={onWheel}
+        className="absolute left-0 top-0 will-change-transform"
+        style={{ transformOrigin: '0 0', width: GRAPH_W, height: GRAPH_H }}
       >
         {/* SVG 连线 */}
         <SVG_LINES rels={relations} highlighted={highlighted} selId={selId} getPos={nodePos} />
@@ -371,7 +414,7 @@ export default function GraphCanvas({
               <motion.div
                 key={node.id}
                 onClick={(e) => { e.stopPropagation(); const rect = e.currentTarget.getBoundingClientRect(); handleSelect(node.id, e, rect); }}
-                onMouseDown={(e) => { if (e.button === 0) startNodeDrag(node.id, e.clientX, e.clientY); }}
+                onMouseDown={(e) => { if (e.button === 0) { e.stopPropagation(); startNodeDrag(node.id, e.clientX, e.clientY); } }}
                 className="absolute flex flex-col items-center cursor-pointer transition-opacity duration-200"
                 initial={{ scale: 0.35, opacity: 0 }}
                 animate={{ scale: 1, opacity: hl ? 1 : 0.3 }}
@@ -388,8 +431,8 @@ export default function GraphCanvas({
                 {selId === node.id && (
                   <div className="absolute rounded-full" style={{
                     width: 60, height: 60,
-                    border: '1.5px solid rgba(242, 161, 4, 0.35)',
-                    boxShadow: '0 0 20px rgba(242, 161, 4, 0.15)',
+                    border: '1.5px solid rgba(0, 194, 255, 0.35)',
+                    boxShadow: '0 0 20px rgba(0, 194, 255, 0.15)',
                     animation: 'pulse-ring 2s ease-in-out infinite',
                   }} />
                 )}
@@ -433,7 +476,7 @@ export default function GraphCanvas({
       <ZoomControls zi={zoomIn} zo={zoomOut} rst={resetView} z={zoom} />
 
       <div className="absolute top-6 right-6 z-10 text-right">
-        <div className="text-[8px] font-mono tracking-[0.2em] uppercase" style={{ color: 'rgba(242, 161, 4, 0.4)' }}>{currentEvent.id}</div>
+        <div className="text-[8px] font-mono tracking-[0.2em] uppercase" style={{ color: 'rgba(0, 194, 255, 0.4)' }}>{currentEvent.id}</div>
         <div className="text-[9px] font-mono tracking-[0.1em] mt-0.5" style={{ color: 'rgba(255,255,255,0.15)' }}>{relations.length} RLT / {operators.length} OPS</div>
       </div>
 

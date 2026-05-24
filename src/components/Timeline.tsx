@@ -71,7 +71,7 @@ const Timeline: React.FC<TimelineProps> = ({ events, lang, selectedEvent, onSele
         <AnimatePresence mode="wait">
           <motion.span
             key={selectedEvent?.id ?? 'none'}
-            className="text-[9px] font-mono tracking-[0.15em] uppercase text-[#f2a104]"
+            className="text-[9px] font-mono tracking-[0.15em] uppercase text-[#00c2ff]"
             initial={{ opacity: 0, y: 4 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -4 }}
@@ -89,7 +89,7 @@ const Timeline: React.FC<TimelineProps> = ({ events, lang, selectedEvent, onSele
         <div className="relative h-16">
           <div className="absolute left-0 right-0 top-7 h-1 bg-[#dedede]" />
           <motion.div
-            className="absolute left-0 top-7 h-1 bg-[#f2a104]"
+            className="absolute left-0 top-7 h-1 bg-[#00c2ff]"
             animate={{ width: `${progress}%` }}
             transition={{ duration: 0.25, ease: 'easeOut' }}
           />
@@ -117,15 +117,15 @@ const Timeline: React.FC<TimelineProps> = ({ events, lang, selectedEvent, onSele
                 >
                   <span
                     className="mb-1 h-3 max-w-16 overflow-hidden text-center text-[8px] font-mono uppercase text-ellipsis whitespace-nowrap"
-                    style={{ color: isSelected ? '#f2a104' : 'rgba(0,0,0,0.38)', letterSpacing: '0.06em' }}
+                    style={{ color: isSelected ? '#00c2ff' : 'rgba(0,0,0,0.38)', letterSpacing: '0.06em' }}
                   >
                     {t(event.title, lang)}
                   </span>
                   <motion.span
                     className="relative block h-4 w-4 border-2 bg-[#fcfcfc]"
                     style={{
-                      borderColor: isPast ? '#f2a104' : '#bcbcbc',
-                      boxShadow: isSelected ? '0 0 14px rgba(242,161,4,0.45)' : 'none',
+                      borderColor: isPast ? '#00c2ff' : '#bcbcbc',
+                      boxShadow: isSelected ? '0 0 14px rgba(0,194,255,0.45)' : 'none',
                       clipPath: 'polygon(50% 0, 100% 50%, 50% 100%, 0 50%)',
                     }}
                     animate={{ scale: isSelected ? 1.35 : 1 }}
@@ -133,7 +133,7 @@ const Timeline: React.FC<TimelineProps> = ({ events, lang, selectedEvent, onSele
                   />
                   {isSelected && (
                     <motion.span
-                      className="absolute top-10 max-w-24 overflow-hidden text-center text-[8px] font-mono text-[#f2a104] text-ellipsis whitespace-nowrap"
+                      className="absolute top-10 max-w-24 overflow-hidden text-center text-[8px] font-mono text-[#00c2ff] text-ellipsis whitespace-nowrap"
                       style={{ letterSpacing: '0.08em' }}
                       initial={{ opacity: 0, y: -3 }}
                       animate={{ opacity: 1, y: 0 }}
