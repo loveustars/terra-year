@@ -1,5 +1,15 @@
 [
   {
+    "operator_id": "npc_ace",
+    "terran_year": 1096,
+    "event_id": "main_ch00",
+    "status": "deceased",
+    "reason": {
+      "zh_CN": "在切尔诺伯格行动中牺牲",
+      "en_US": "Sacrificed during the Chernobog operation"
+    }
+  },
+  {
     "operator_id": "npc_theresa",
     "terran_year": 1090,
     "status": "alive",

@@ -101,7 +101,7 @@ export interface UseTerraDataReturn extends TerraDataState {
   /** 获取指定干员相关的所有关系（可按事件过滤） */
   getConnectedOperators: (operatorId: string, eventId?: string) => OperatorRelation[];
   /** 获取干员在指定年份的状态 */
-  getOperatorState: (operatorId: string, year: number) => OperatorState | undefined;
+  getOperatorState: (operatorId: string, year: number, eventId?: string) => OperatorState | undefined;
   /** 事件的最小/最大年份范围 */
   yearRange: [number, number];
   /** 全部关系数据（用于树形生长过滤） */
@@ -196,15 +196,25 @@ export function useTerraData(): UseTerraDataReturn {
   );
 
   const getOperatorState = useCallback(
-    (operatorId: string, year: number): OperatorState | undefined => {
+    (operatorId: string, year: number, eventId?: string): OperatorState | undefined => {
+      const currentEventIndex = eventId ? state.events.findIndex(e => e.id === eventId) : -1;
       return state.operatorStates
         .filter(s => {
           const stateYear = s.year ?? s.terran_year;
-          return s.operator_id === operatorId && stateYear !== undefined && stateYear <= year;
+          if (s.operator_id !== operatorId || stateYear === undefined || stateYear > year) return false;
+          if (!s.event_id || currentEventIndex < 0) return true;
+          const stateEventIndex = state.events.findIndex(e => e.id === s.event_id);
+          return stateEventIndex < 0 || stateEventIndex <= currentEventIndex;
         })
-        .sort((a, b) => (b.year ?? b.terran_year ?? 0) - (a.year ?? a.terran_year ?? 0))[0];
+        .sort((a, b) => {
+          const yearDiff = (b.year ?? b.terran_year ?? 0) - (a.year ?? a.terran_year ?? 0);
+          if (yearDiff !== 0) return yearDiff;
+          const aEventIndex = a.event_id ? state.events.findIndex(e => e.id === a.event_id) : -1;
+          const bEventIndex = b.event_id ? state.events.findIndex(e => e.id === b.event_id) : -1;
+          return bEventIndex - aEventIndex;
+        })[0];
     },
-    [state.operatorStates],
+    [state.events, state.operatorStates],
   );
 
   const yearRange = useMemo<[number, number]>(() => {

@@ -10,6 +10,16 @@ interface GraphNode extends Operator {
   rx: number; ry: number;
 }
 
+const GRAPH_W = 1800;
+const GRAPH_H = 1200;
+const GRAPH_CX = GRAPH_W / 2;
+const GRAPH_CY = GRAPH_H / 2;
+const NODE_GAP = 74;
+const NODE_MIN_X = 90;
+const NODE_MAX_X = GRAPH_W - 90;
+const NODE_MIN_Y = 90;
+const NODE_MAX_Y = GRAPH_H - 90;
+
 function circularLayout(ops: Operator[], rels: OperatorRelation[]): GraphNode[] {
   const connMap = new Map<string, Set<string>>();
   for (const r of rels) {
@@ -18,19 +28,91 @@ function circularLayout(ops: Operator[], rels: OperatorRelation[]): GraphNode[] 
     connMap.get(r.source)!.add(r.target);
     connMap.get(r.target)!.add(r.source);
   }
-  const cx = 400, cy = 300;
-  const radius = ops.length <= 3 ? 150 : ops.length <= 5 ? 220 : ops.length <= 8 ? 280 : 320;
+  const radius = Math.min(520, Math.max(180, ops.length * 14));
   return ops.map((op, i) => {
-    const angle = (2 * Math.PI * i) / ops.length - Math.PI / 2;
+    const factionHash = Math.abs([...op.faction].reduce((acc, ch) => acc + ch.charCodeAt(0), 0));
+    const factionOffset = (factionHash % 11) * 0.035;
+    const angle = (2 * Math.PI * (i + factionOffset)) / Math.max(ops.length, 1) - Math.PI / 2;
     return {
       ...op,
-      x: cx + radius * Math.cos(angle),
-      y: cy + radius * Math.sin(angle),
-      rx: cx + radius * Math.cos(angle),
-      ry: cy + radius * Math.sin(angle),
+      x: GRAPH_CX + radius * Math.cos(angle),
+      y: GRAPH_CY + radius * Math.sin(angle),
+      rx: GRAPH_CX + radius * Math.cos(angle),
+      ry: GRAPH_CY + radius * Math.sin(angle),
       connections: Array.from(connMap.get(op.id) ?? []),
     };
   });
+}
+
+function clamp(value: number, min: number, max: number): number {
+  return Math.max(min, Math.min(max, value));
+}
+
+function relaxOverlaps(
+  positions: Record<string, { rx: number; ry: number }>,
+  nodes: GraphNode[],
+  rels: OperatorRelation[],
+) {
+  const ids = nodes.map(n => n.id);
+  const degree = new Map(ids.map(id => [id, 0]));
+  for (const r of rels) {
+    degree.set(r.source, (degree.get(r.source) ?? 0) + 1);
+    degree.set(r.target, (degree.get(r.target) ?? 0) + 1);
+  }
+
+  for (let step = 0; step < 90; step++) {
+    for (let i = 0; i < ids.length; i++) {
+      const a = positions[ids[i]];
+      if (!a) continue;
+      for (let j = i + 1; j < ids.length; j++) {
+        const b = positions[ids[j]];
+        if (!b) continue;
+        let dx = b.rx - a.rx;
+        let dy = b.ry - a.ry;
+        let distance = Math.hypot(dx, dy);
+        if (distance < 0.01) {
+          dx = 1;
+          dy = 0;
+          distance = 1;
+        }
+        const minDistance = NODE_GAP + Math.min(26, ((degree.get(ids[i]) ?? 0) + (degree.get(ids[j]) ?? 0)) * 0.8);
+        if (distance < minDistance) {
+          const push = (minDistance - distance) * 0.48;
+          const ux = dx / distance;
+          const uy = dy / distance;
+          a.rx -= ux * push;
+          a.ry -= uy * push;
+          b.rx += ux * push;
+          b.ry += uy * push;
+        }
+      }
+    }
+
+    for (const r of rels) {
+      const a = positions[r.source];
+      const b = positions[r.target];
+      if (!a || !b) continue;
+      const dx = b.rx - a.rx;
+      const dy = b.ry - a.ry;
+      const distance = Math.hypot(dx, dy) || 1;
+      const target = 210;
+      const pull = (distance - target) * 0.008;
+      const ux = dx / distance;
+      const uy = dy / distance;
+      a.rx += ux * pull;
+      a.ry += uy * pull;
+      b.rx -= ux * pull;
+      b.ry -= uy * pull;
+    }
+
+    for (const id of ids) {
+      const p = positions[id];
+      p.rx += (GRAPH_CX - p.rx) * 0.002;
+      p.ry += (GRAPH_CY - p.ry) * 0.002;
+      p.rx = clamp(p.rx, NODE_MIN_X, NODE_MAX_X);
+      p.ry = clamp(p.ry, NODE_MIN_Y, NODE_MAX_Y);
+    }
+  }
 }
 
 /* ---- SVG 连线 ---- */
@@ -60,12 +142,10 @@ interface SVG_LINESProps {
 const SVG_LINES: React.FC<SVG_LINESProps> = ({ rels, highlighted, selId, getPos }) => {
   // Use a FIXED viewBox so SVG coordinate space doesn't shift as nodes move.
   // The container's CSS transform (pan/zoom) is applied separately via transformRef.
-  const FIXED_W = 800, FIXED_H = 600;
-
   return (
     <svg
-      width={FIXED_W} height={FIXED_H}
-      viewBox={`0 0 ${FIXED_W} ${FIXED_H}`}
+      width={GRAPH_W} height={GRAPH_H}
+      viewBox={`0 0 ${GRAPH_W} ${GRAPH_H}`}
       style={{ position: 'absolute', top: 0, left: 0, pointerEvents: 'none', zIndex: 0, overflow: 'visible' }}
     >
       <AnimatePresence>
@@ -166,8 +246,9 @@ export default function GraphCanvas({
         nodePosMapRef.current[n.id] = { rx: n.rx, ry: n.ry };
       }
     });
+    relaxOverlaps(nodePosMapRef.current, nodes, relations);
     forceUpdate();
-  }, [nodes]);
+  }, [nodes, relations]);
 
   const [selId, setSelId] = useState<string | null>(null);
 
@@ -188,7 +269,7 @@ export default function GraphCanvas({
 
   useEffect(() => { apply(); }, [apply]);
 
-  const nodePos = useCallback((id: string) => nodePosMapRef.current[id] ?? nodes.find(n => n.id === id) ?? { rx: 400, ry: 300 }, [nodes]);
+  const nodePos = useCallback((id: string) => nodePosMapRef.current[id] ?? nodes.find(n => n.id === id) ?? { rx: GRAPH_CX, ry: GRAPH_CY }, [nodes]);
 
   const onMouseDown = useCallback((e: React.MouseEvent) => {
     if (e.button !== 0 || (e.target as HTMLElement).closest('button')) return;

@@ -1,5 +1,5 @@
 import React from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion } from 'framer-motion';
 import type { TerraEvent, LangKey } from '../hooks/useTerraData';
 
 interface EventBackgroundProps {
@@ -74,9 +74,7 @@ const EventTitleOverlay: React.FC<{ event: TerraEvent; lang: LangKey }> = ({ eve
 
 const EventBackground: React.FC< EventBackgroundProps > = ({ event, lang }) => {
   return (
-    <AnimatePresence mode="wait">
-      <motion.div key={event ? event.id : 'default'} className="absolute inset-0 bg-[#f4f4f4]"
-        initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} transition={{ duration: 0.4 }}>
+      <motion.div className="absolute inset-0 bg-[#f4f4f4]">
         
         <MovingGrid />
         
@@ -89,7 +87,6 @@ const EventBackground: React.FC< EventBackgroundProps > = ({ event, lang }) => {
 
         {event && <EventTitleOverlay event={event} lang={lang} />}
       </motion.div>
-    </AnimatePresence>
   );
 };
 

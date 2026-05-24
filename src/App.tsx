@@ -9,17 +9,6 @@ import RelationPanel from './components/RelationPanel';
 import AvatarRelationPopup from './components/AvatarRelationPopup';
 import type { LangKey, TerraEvent, OperatorRelation } from './hooks/useTerraData';
 
-const EVENT_STATUS_OVERRIDES: Record<string, { eventId: string; status: string; reason: Partial<Record<LangKey, string>> }> = {
-  npc_ace: {
-    eventId: 'main_ch00',
-    status: 'deceased',
-    reason: {
-      zh_CN: '在切尔诺伯格行动中牺牲',
-      en_US: 'Sacrificed during the Chernobog operation',
-    },
-  },
-};
-
 type SingleRelationDetail = {
   relation: OperatorRelation;
   sourceOp: import('./hooks/useTerraData').Operator;
@@ -31,7 +20,7 @@ function App() {
   const {
     operators, events, operatorStates,
     loading, error, yearRange,
-    getRelationsByEvent, getOperatorById,
+    getOperatorById,
     getOperatorState, relations,
   } = useTerraData();
 
@@ -44,14 +33,30 @@ function App() {
     return events.findIndex(e => e.id === currentEvent.id);
   }, [currentEvent, events]);
 
+  /** 已在左侧面板勾选的干员 */
+  const [selectedOpIds, setSelectedOpIds] = useState<Set<string>>(new Set());
+
+  const getCumulativeOperatorIds = useCallback((event: TerraEvent | null) => {
+    if (!event) return new Set<string>();
+    const eventIndex = events.findIndex(e => e.id === event.id);
+    if (eventIndex < 0) return new Set<string>();
+    const earlierEventIds = events.slice(0, eventIndex + 1).map(e => e.id);
+    const ids = new Set<string>();
+    relations
+      .filter(r => earlierEventIds.includes(r.first_appear_event_id || r.associated_event_id))
+      .forEach(r => {
+        if (getOperatorById(r.source)) ids.add(r.source);
+        if (getOperatorById(r.target)) ids.add(r.target);
+      });
+    return ids;
+  }, [events, getOperatorById, relations]);
+
   useEffect(() => {
     if (!currentEvent && events.length > 0 && !loading && !error) {
       setCurrentEvent(events[0]);
+      setSelectedOpIds(getCumulativeOperatorIds(events[0]));
     }
-  }, [currentEvent, error, events, loading]);
-
-  /** 已在左侧面板勾选的干员 */
-  const [selectedOpIds, setSelectedOpIds] = useState<Set<string>>(new Set());
+  }, [currentEvent, error, events, getCumulativeOperatorIds, loading]);
 
   const toggleOperator = useCallback((id: string) => {
     setSelectedOpIds(prev => {
@@ -62,14 +67,25 @@ function App() {
     });
   }, []);
 
+  const selectOperators = useCallback((ids: string[]) => {
+    setSelectedOpIds(prev => {
+      const next = new Set(prev);
+      ids.forEach(id => next.add(id));
+      return next;
+    });
+  }, []);
+
+  const deselectOperators = useCallback((ids: string[]) => {
+    setSelectedOpIds(prev => {
+      const next = new Set(prev);
+      ids.forEach(id => next.delete(id));
+      return next;
+    });
+  }, []);
+
   const selectAll = useCallback(() => {
-    // 选取当前事件中有关联的所有干员
-    if (!currentEvent) return;
-    const evRels = getRelationsByEvent(currentEvent.id);
-    const ids = new Set<string>();
-    evRels.forEach(r => { ids.add(r.source); ids.add(r.target); });
-    setSelectedOpIds(ids);
-  }, [currentEvent, getRelationsByEvent]);
+    setSelectedOpIds(getCumulativeOperatorIds(currentEvent));
+  }, [currentEvent, getCumulativeOperatorIds]);
 
   const deselectAll = useCallback(() => setSelectedOpIds(new Set()), []);
 
@@ -83,9 +99,7 @@ function App() {
     const earlierEventIds = events.slice(0, currentEventIndex + 1).map(e => e.id);
     const cumulativeRels = relations.filter(r => earlierEventIds.includes(r.first_appear_event_id || r.associated_event_id));
 
-    const filtered = selectedOpIds.size > 0
-      ? cumulativeRels.filter(r => selectedOpIds.has(r.source) && selectedOpIds.has(r.target))
-      : cumulativeRels;
+    const filtered = cumulativeRels.filter(r => selectedOpIds.has(r.source) && selectedOpIds.has(r.target));
     const opIds = new Set<string>();
     filtered.forEach(r => { opIds.add(r.source); opIds.add(r.target); });
     const graphOps = Array.from(opIds)
@@ -107,33 +121,25 @@ function App() {
   const operatorStatuses = useMemo(() => {
     const map = new Map<string, { status: string; reason?: string }>();
     for (const op of graphData.operators) {
-      const state = getOperatorState(op.id, currentYear);
-      if (state) {
+      const state = getOperatorState(op.id, currentYear, currentEvent?.id);
+      if (state && state.status !== 'alive') {
         map.set(op.id, {
           status: state.status,
           reason: state.reason?.[lang] ?? state.reason?.zh_CN,
         });
       }
-      const override = EVENT_STATUS_OVERRIDES[op.id];
-      const overrideIndex = override ? events.findIndex(e => e.id === override.eventId) : -1;
-      if (override && currentEventIndex >= overrideIndex && overrideIndex >= 0) {
-        map.set(op.id, {
-          status: override.status,
-          reason: override.reason[lang] ?? override.reason.zh_CN,
-        });
-      }
     }
     return map;
-  }, [currentEventIndex, events, graphData.operators, currentYear, getOperatorState, lang]);
+  }, [currentEvent?.id, graphData.operators, currentYear, getOperatorState, lang]);
 
   /* ---- 事件切换 ---- */
   const handleSelectEvent = useCallback((event: TerraEvent) => {
     setCurrentEvent(event);
-    setSelectedOpIds(new Set());
+    setSelectedOpIds(getCumulativeOperatorIds(event));
     setSelectedRelations([]);
     setAvatarPopup(null);
     if (!hasInteracted) setHasInteracted(true);
-  }, [hasInteracted]);
+  }, [getCumulativeOperatorIds, hasInteracted]);
 
   /* ---- 点击头像：显示迷你弹出面板（头像下方跟随出现） ---- */
   const [selectedRelations, setSelectedRelations] = useState<OperatorRelation[]>([]);
@@ -212,11 +218,7 @@ function App() {
 
       {/* 第1层：背景 */}
       <div className="absolute inset-0 z-0">
-        <AnimatePresence mode="wait">
-          {currentEvent
-            ? <EventBackground key={currentEvent.id} event={currentEvent} lang={lang} />
-            : <EventBackground key="none" event={null} lang={lang} />}
-        </AnimatePresence>
+        <EventBackground event={currentEvent} lang={lang} />
       </div>
 
       {/* 第2层：干员选择面板（使用 allEventOperators 而非 graphData.operators） */}
@@ -227,7 +229,10 @@ function App() {
           onToggle={toggleOperator}
           onSelectAll={selectAll}
           onDeselectAll={deselectAll}
+          onSelectIds={selectOperators}
+          onDeselectIds={deselectOperators}
           lang={lang}
+          currentEvent={currentEvent}
         />
       )}
 

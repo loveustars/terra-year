@@ -1,18 +1,36 @@
-# CDN Asset Loading Strategy
+# Avatar Asset Loading Strategy
 
-为了防止 Git 仓库膨胀并保证中国大陆用户的极速加载体验，本项目一律通过外部 CDN 动态拼装干员头像与势力 Logo。
+The current app uses a local-first avatar strategy.
 
-## 1. 核心 URL 拼装公式 (干员头像)
+## Load Order
 
-AI Agent 在实现组件图像渲染时，必须统一调用此逻辑：
+`OperatorAvatar.tsx` resolves avatars in this order:
 
-```typescript
-const MASTER_CDN_PREFIX = "https://fastly.jsdelivr.net/gh/Aceship/Arknight-Images@main/avatars/";
-const FALLBACK_CDN_PREFIX = "https://gcore.jsdelivr.net/gh/ArknightsAssets/ArknightsAssets/cn/assets/torappu/dynamicassets/arts/charportraits/";
+1. `/assets/avatars/{avatar_key}.webp`
+2. `/assets/avatars/{avatar_key}.png`
+3. `/assets/avatars/{avatar_key}.svg`
+4. suffix aliases such as `char_002_amiya` -> `amiya.webp`
+5. known manual aliases such as `Doctor` -> `doctor.webp`
+6. remote CDN fallbacks
+7. text placeholder
 
-export function getOperatorAvatarUrl(avatarKey: string, useFallback = false): string {
-  if (useFallback) {
-    return `${FALLBACK_CDN_PREFIX}${avatarKey}_1.png`;
-  }
-  return `${MASTER_CDN_PREFIX}${avatarKey}.png`;
-}
+## Local Asset Rules
+
+- Place new avatar files in `public/assets/avatars/`.
+- Prefer lowercase friendly filenames, for example `amiya.webp`, `doctor.webp`, `frostnova.webp`.
+- Keep existing canonical-key files when present, for example `char_367_swllow.png`.
+- Do not rename `avatar_key` just to match an asset file; use aliases or add a matching local file.
+
+## CDN Fallbacks
+
+Remote fallback URLs are used only after local candidates fail:
+
+```ts
+const CDN_CHAINS = [
+  (key: string) => `https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/main/avatar/${key}.png`,
+  (key: string) => `https://raw.githubusercontent.com/Aceship/Arknight-Images/main/avatars/${key}.png`,
+  (key: string) => `https://fastly.jsdelivr.net/gh/Aceship/Arknight-Images@main/avatars/${key}.png`,
+];
+```
+
+Relationship agents usually should not modify avatar loading code. If an extracted character lacks an avatar, add an asset file or update the alias table in `OperatorAvatar.tsx`.
