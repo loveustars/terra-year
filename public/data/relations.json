@@ -1773,7 +1773,8 @@
         "context_analysis": "阿米娅委托博士照顾煌的心理状态，说明两人信任关系"
       }
     ],
-    "confidence_level": "high"
+    "confidence_level": "high",
+    "first_appear_event_id": "main_ch06"
   },
   {
     "id": "ch06_rel_003",
@@ -1796,7 +1797,8 @@
         "context_analysis": "煌警告灰喉不要歧视感染者同胞，语气强硬"
       }
     ],
-    "confidence_level": "high"
+    "confidence_level": "high",
+    "first_appear_event_id": "main_ch06"
   },
   {
     "id": "ch06_rel_004",
@@ -1819,7 +1821,8 @@
         "context_analysis": "阿米娅理解灰喉的困惑，认为她需要机会认清自己"
       }
     ],
-    "confidence_level": "high"
+    "confidence_level": "high",
+    "first_appear_event_id": "main_ch06"
   },
   {
     "id": "ch06_rel_008",
@@ -1852,7 +1855,8 @@
         "context_analysis": "两人约定下次相遇时会互相射击，但这次互相放过"
       }
     ],
-    "confidence_level": "high"
+    "confidence_level": "high",
+    "first_appear_event_id": "main_ch06"
   },
   {
     "id": "ch06_rel_010",
@@ -1875,7 +1879,8 @@
         "context_analysis": "Scout安慰Rosmontis会见到博士，称呼她小猫"
       }
     ],
-    "confidence_level": "high"
+    "confidence_level": "high",
+    "first_appear_event_id": "main_ch06"
   },
   {
     "id": "ch06_rel_011",
@@ -1898,7 +1903,8 @@
         "context_analysis": "Rosmontis与Ace有亲近的互动，评价Ace的胡子"
       }
     ],
-    "confidence_level": "high"
+    "confidence_level": "high",
+    "first_appear_event_id": "main_ch06"
   },
   {
     "id": "ch06_rel_012",
@@ -1921,7 +1927,8 @@
         "context_analysis": "Ace为灰喉的行为辩护，认为她只是疑惑而非恶意"
       }
     ],
-    "confidence_level": "high"
+    "confidence_level": "high",
+    "first_appear_event_id": "main_ch06"
   },
   {
     "id": "ch06_rel_013",
@@ -1944,7 +1951,8 @@
         "context_analysis": "煌承认Ace资历比她老，语气中有调侃"
       }
     ],
-    "confidence_level": "high"
+    "confidence_level": "high",
+    "first_appear_event_id": "main_ch06"
   },
   {
     "id": "r007",
@@ -1967,7 +1975,8 @@
         "context_analysis": "塔露拉命令弑君者去刺杀敌人，巩固势力"
       }
     ],
-    "confidence_level": "high"
+    "confidence_level": "high",
+    "first_appear_event_id": "main_ch06"
   },
   {
     "id": "r008",
@@ -1990,7 +1999,8 @@
         "context_analysis": "霜星提醒弑君者不要忘记真正的敌人是谁"
       }
     ],
-    "confidence_level": "high"
+    "confidence_level": "high",
+    "first_appear_event_id": "main_ch06"
   },
   {
     "id": "r009",
@@ -2018,7 +2028,8 @@
         "context_analysis": "林雨霞执行父亲的意志，维护龙门秩序"
       }
     ],
-    "confidence_level": "high"
+    "confidence_level": "high",
+    "first_appear_event_id": "main_ch06"
   },
   {
     "id": "r010",
@@ -2051,7 +2062,8 @@
         "context_analysis": "诗怀雅强调林雨霞父亲的努力都在贫民区"
       }
     ],
-    "confidence_level": "high"
+    "confidence_level": "high",
+    "first_appear_event_id": "main_ch06"
   },
   {
     "id": "r011",
@@ -2084,7 +2096,8 @@
         "context_analysis": "林雨霞提到陈逼走黑蓑一事"
       }
     ],
-    "confidence_level": "high"
+    "confidence_level": "high",
+    "first_appear_event_id": "main_ch06"
   },
   {
     "id": "r012",
@@ -2107,7 +2120,8 @@
         "context_analysis": "林雨霞传达魏彦吾的意志，让近卫局维护秩序"
       }
     ],
-    "confidence_level": "medium"
+    "confidence_level": "medium",
+    "first_appear_event_id": "main_ch06"
   },
   {
     "id": "r016",
@@ -2130,7 +2144,8 @@
         "context_analysis": "灰喉参与战斗"
       }
     ],
-    "confidence_level": "medium"
+    "confidence_level": "medium",
+    "first_appear_event_id": "main_ch06"
   },
   {
     "id": "r017",
@@ -2158,7 +2173,8 @@
         "context_analysis": "浮士德临终前信任霜星会照顾他的部队"
       }
     ],
-    "confidence_level": "high"
+    "confidence_level": "high",
+    "first_appear_event_id": "main_ch06"
   },
   {
     "id": "r018",
@@ -2186,7 +2202,8 @@
         "context_analysis": "幻影弩手执行浮士德的遗愿"
       }
     ],
-    "confidence_level": "high"
+    "confidence_level": "high",
+    "first_appear_event_id": "main_ch06"
   },
   {
     "id": "r019",
@@ -2214,7 +2231,8 @@
         "context_analysis": "阿米娅认出诗怀雅的声音"
       }
     ],
-    "confidence_level": "medium"
+    "confidence_level": "medium",
+    "first_appear_event_id": "main_ch06"
   },
   {
     "id": "r020",
@@ -2242,7 +2260,8 @@
         "context_analysis": "煌后悔没有早点解决梅菲斯特"
       }
     ],
-    "confidence_level": "medium"
+    "confidence_level": "medium",
+    "first_appear_event_id": "main_ch06"
   },
   {
     "id": "r022",
@@ -2270,7 +2289,8 @@
         "context_analysis": "神秘人物对灰喉与感染者的关系表示担忧"
       }
     ],
-    "confidence_level": "low"
+    "confidence_level": "low",
+    "first_appear_event_id": "main_ch06"
   },
   {
     "id": "ch6_rel_005",
@@ -2293,7 +2313,8 @@
         "context_analysis": "霜星对浮士德的牺牲表示敬意"
       }
     ],
-    "confidence_level": "high"
+    "confidence_level": "high",
+    "first_appear_event_id": "main_ch06"
   },
   {
     "id": "ch6_rel_008",
@@ -2321,7 +2342,8 @@
         "context_analysis": "九表示要将龙门交给陈，暗示她要离开"
       }
     ],
-    "confidence_level": "high"
+    "confidence_level": "high",
+    "first_appear_event_id": "main_ch06"
   },
   {
     "id": "ch6_rel_010",
@@ -2354,7 +2376,8 @@
         "context_analysis": "凯尔希试图让弑君者认清真相"
       }
     ],
-    "confidence_level": "high"
+    "confidence_level": "high",
+    "first_appear_event_id": "main_ch06"
   },
   {
     "id": "ch6_rel_011",
@@ -2387,7 +2410,8 @@
         "context_analysis": "红与凯尔希讨论如何处置弑君者"
       }
     ],
-    "confidence_level": "high"
+    "confidence_level": "high",
+    "first_appear_event_id": "main_ch06"
   },
   {
     "id": "ch6_rel_012",
@@ -2425,7 +2449,8 @@
         "context_analysis": "Mon3tr执行凯尔希的命令"
       }
     ],
-    "confidence_level": "high"
+    "confidence_level": "high",
+    "first_appear_event_id": "main_ch06"
   },
   {
     "id": "ch6_rel_014",
@@ -2453,7 +2478,8 @@
         "context_analysis": "大熊同意与罗德岛休战"
       }
     ],
-    "confidence_level": "medium"
+    "confidence_level": "medium",
+    "first_appear_event_id": "main_ch06"
   },
   {
     "id": "ch6_rel_015",
@@ -2481,7 +2507,8 @@
         "context_analysis": "阿米娅承认杀害碎骨（亚历克斯），双方达成休战"
       }
     ],
-    "confidence_level": "medium"
+    "confidence_level": "medium",
+    "first_appear_event_id": "main_ch06"
   },
   {
     "id": "ch6_rel_016",
@@ -2509,7 +2536,8 @@
         "context_analysis": "浮士德为掩护他人牺牲自己"
       }
     ],
-    "confidence_level": "high"
+    "confidence_level": "high",
+    "first_appear_event_id": "main_ch06"
   },
   {
     "id": "ch6_rel_017",
@@ -2532,7 +2560,8 @@
         "context_analysis": "杰西卡负责侦察任务"
       }
     ],
-    "confidence_level": "medium"
+    "confidence_level": "medium",
+    "first_appear_event_id": "main_ch06"
   },
   {
     "id": "ch6_rel_018",
@@ -2560,7 +2589,8 @@
         "context_analysis": "霜叶对雪怪小队的人性感到意外"
       }
     ],
-    "confidence_level": "medium"
+    "confidence_level": "medium",
+    "first_appear_event_id": "main_ch06"
   },
   {
     "id": "rel_ch6_06-11_008",
@@ -2583,7 +2613,8 @@
         "context_analysis": "凯尔希观察并评论煌的情感状态，暗示对煌与雪怪小队关系的了解"
       }
     ],
-    "confidence_level": "medium"
+    "confidence_level": "medium",
+    "first_appear_event_id": "main_ch06"
   },
   {
     "id": "rel_ch6_06-11_013",
@@ -2611,7 +2642,8 @@
         "context_analysis": "陨星评价阿米娅在博士安危面前的执着态度"
       }
     ],
-    "confidence_level": "high"
+    "confidence_level": "high",
+    "first_appear_event_id": "main_ch06"
   },
   {
     "id": "rel_ch6_06-11_014",
@@ -2639,7 +2671,8 @@
         "context_analysis": "霜叶接受霜星的心意，展现小队团结"
       }
     ],
-    "confidence_level": "high"
+    "confidence_level": "high",
+    "first_appear_event_id": "main_ch06"
   },
   {
     "id": "rel_ch6_06-11_017",
@@ -2667,7 +2700,8 @@
         "context_analysis": "煌表达对未能救下Ace的悔恨"
       }
     ],
-    "confidence_level": "medium"
+    "confidence_level": "medium",
+    "first_appear_event_id": "main_ch06"
   },
   {
     "id": "rel_ch00_char_002_ami_char_edfebc8",
@@ -2696,7 +2730,8 @@
         }
       }
     ],
-    "confidence_level": "official_fact"
+    "confidence_level": "official_fact",
+    "first_appear_event_id": "main_ch00"
   },
   {
     "id": "rel_ch00_char_002_ami_npc_mephisto",
@@ -2747,7 +2782,8 @@
         }
       }
     ],
-    "confidence_level": "official_fact"
+    "confidence_level": "official_fact",
+    "first_appear_event_id": "main_ch00"
   },
   {
     "id": "rel_ch00_char_002_ami_npc_faust",
@@ -2776,7 +2812,8 @@
         }
       }
     ],
-    "confidence_level": "official_fact"
+    "confidence_level": "official_fact",
+    "first_appear_event_id": "main_ch00"
   },
   {
     "id": "rel_ch00_char_1778bbd_char_8375f0b",
@@ -2827,7 +2864,8 @@
         }
       }
     ],
-    "confidence_level": "official_fact"
+    "confidence_level": "official_fact",
+    "first_appear_event_id": "main_ch00"
   },
   {
     "id": "rel_ch00_char_1778bbd_npc_faust",
@@ -2856,7 +2894,8 @@
         }
       }
     ],
-    "confidence_level": "official_fact"
+    "confidence_level": "official_fact",
+    "first_appear_event_id": "main_ch00"
   },
   {
     "id": "rel_ch00_char_8375f0b_char_edfebc8",
@@ -2896,7 +2935,8 @@
         }
       }
     ],
-    "confidence_level": "official_fact"
+    "confidence_level": "official_fact",
+    "first_appear_event_id": "main_ch00"
   },
   {
     "id": "rel_ch00_char_8375f0b_npc_mephisto",
@@ -2947,7 +2987,8 @@
         }
       }
     ],
-    "confidence_level": "official_fact"
+    "confidence_level": "official_fact",
+    "first_appear_event_id": "main_ch00"
   },
   {
     "id": "rel_ch00_char_8375f0b_npc_faust",
@@ -2987,7 +3028,8 @@
         }
       }
     ],
-    "confidence_level": "official_fact"
+    "confidence_level": "official_fact",
+    "first_appear_event_id": "main_ch00"
   },
   {
     "id": "rel_ch01_char_011_w_char_1778bbd",
@@ -3038,7 +3080,8 @@
         }
       }
     ],
-    "confidence_level": "official_fact"
+    "confidence_level": "official_fact",
+    "first_appear_event_id": "main_ch01"
   },
   {
     "id": "rel_ch01_char_011_w_char_8375f0b",
@@ -3089,7 +3132,8 @@
         }
       }
     ],
-    "confidence_level": "official_fact"
+    "confidence_level": "official_fact",
+    "first_appear_event_id": "main_ch01"
   },
   {
     "id": "rel_ch01_char_1778bbd_npc_talula",
@@ -3140,7 +3184,8 @@
         }
       }
     ],
-    "confidence_level": "official_fact"
+    "confidence_level": "official_fact",
+    "first_appear_event_id": "main_ch01"
   },
   {
     "id": "rel_ch02_char_002_ami_npc_wei",
@@ -3191,7 +3236,8 @@
         }
       }
     ],
-    "confidence_level": "official_fact"
+    "confidence_level": "official_fact",
+    "first_appear_event_id": "main_ch02"
   },
   {
     "id": "rel_ch02_char_002_ami_char_b09c7d0",
@@ -3242,7 +3288,8 @@
         }
       }
     ],
-    "confidence_level": "official_fact"
+    "confidence_level": "official_fact",
+    "first_appear_event_id": "main_ch02"
   },
   {
     "id": "rel_ch02_char_002_ami_char_564b67e",
@@ -3293,7 +3340,8 @@
         }
       }
     ],
-    "confidence_level": "official_fact"
+    "confidence_level": "official_fact",
+    "first_appear_event_id": "main_ch02"
   },
   {
     "id": "rel_ch02_char_002_ami_char_103_ang",
@@ -3344,7 +3392,8 @@
         }
       }
     ],
-    "confidence_level": "official_fact"
+    "confidence_level": "official_fact",
+    "first_appear_event_id": "main_ch02"
   },
   {
     "id": "rel_ch02_char_002_ami_char_102_tex",
@@ -3395,7 +3444,8 @@
         }
       }
     ],
-    "confidence_level": "official_fact"
+    "confidence_level": "official_fact",
+    "first_appear_event_id": "main_ch02"
   },
   {
     "id": "rel_ch02_char_003_kal_npc_wei",
@@ -3446,7 +3496,8 @@
         }
       }
     ],
-    "confidence_level": "official_fact"
+    "confidence_level": "official_fact",
+    "first_appear_event_id": "main_ch02"
   },
   {
     "id": "rel_ch02_char_010_che_char_564b67e",
@@ -3475,7 +3526,8 @@
         }
       }
     ],
-    "confidence_level": "official_fact"
+    "confidence_level": "official_fact",
+    "first_appear_event_id": "main_ch02"
   },
   {
     "id": "rel_ch02_char_010_che_char_b09c7d0",
@@ -3526,7 +3578,8 @@
         }
       }
     ],
-    "confidence_level": "official_fact"
+    "confidence_level": "official_fact",
+    "first_appear_event_id": "main_ch02"
   },
   {
     "id": "rel_ch02_char_010_che_npc_米莎",
@@ -3577,7 +3630,8 @@
         }
       }
     ],
-    "confidence_level": "official_fact"
+    "confidence_level": "official_fact",
+    "first_appear_event_id": "main_ch02"
   },
   {
     "id": "rel_ch02_char_010_che_char_011_w",
@@ -3628,7 +3682,8 @@
         }
       }
     ],
-    "confidence_level": "official_fact"
+    "confidence_level": "official_fact",
+    "first_appear_event_id": "main_ch02"
   },
   {
     "id": "rel_ch02_char_102_tex_char_b09c7d0",
@@ -3679,7 +3734,8 @@
         }
       }
     ],
-    "confidence_level": "official_fact"
+    "confidence_level": "official_fact",
+    "first_appear_event_id": "main_ch02"
   },
   {
     "id": "rel_ch02_char_102_tex_char_564b67e",
@@ -3730,7 +3786,8 @@
         }
       }
     ],
-    "confidence_level": "official_fact"
+    "confidence_level": "official_fact",
+    "first_appear_event_id": "main_ch02"
   },
   {
     "id": "rel_ch02_char_102_tex_npc_米莎",
@@ -3781,7 +3838,8 @@
         }
       }
     ],
-    "confidence_level": "official_fact"
+    "confidence_level": "official_fact",
+    "first_appear_event_id": "main_ch02"
   },
   {
     "id": "rel_ch02_char_102_tex_char_103_ang",
@@ -3832,7 +3890,8 @@
         }
       }
     ],
-    "confidence_level": "official_fact"
+    "confidence_level": "official_fact",
+    "first_appear_event_id": "main_ch02"
   },
   {
     "id": "rel_ch02_char_103_ang_char_564b67e",
@@ -3883,7 +3942,8 @@
         }
       }
     ],
-    "confidence_level": "official_fact"
+    "confidence_level": "official_fact",
+    "first_appear_event_id": "main_ch02"
   },
   {
     "id": "rel_ch02_char_103_ang_char_b09c7d0",
@@ -3934,7 +3994,8 @@
         }
       }
     ],
-    "confidence_level": "official_fact"
+    "confidence_level": "official_fact",
+    "first_appear_event_id": "main_ch02"
   },
   {
     "id": "rel_ch02_char_103_ang_npc_米莎",
@@ -3985,7 +4046,8 @@
         }
       }
     ],
-    "confidence_level": "official_fact"
+    "confidence_level": "official_fact",
+    "first_appear_event_id": "main_ch02"
   },
   {
     "id": "rel_ch02_char_564b67e_char_b09c7d0",
@@ -4036,7 +4098,8 @@
         }
       }
     ],
-    "confidence_level": "official_fact"
+    "confidence_level": "official_fact",
+    "first_appear_event_id": "main_ch02"
   },
   {
     "id": "rel_ch02_char_564b67e_npc_米莎",
@@ -4076,7 +4139,8 @@
         }
       }
     ],
-    "confidence_level": "official_fact"
+    "confidence_level": "official_fact",
+    "first_appear_event_id": "main_ch02"
   },
   {
     "id": "rel_ch02_char_564b67e_npc_碎骨",
@@ -4105,7 +4169,8 @@
         }
       }
     ],
-    "confidence_level": "official_fact"
+    "confidence_level": "official_fact",
+    "first_appear_event_id": "main_ch02"
   },
   {
     "id": "rel_ch02_char_b09c7d0_npc_米莎",
@@ -4145,7 +4210,8 @@
         }
       }
     ],
-    "confidence_level": "official_fact"
+    "confidence_level": "official_fact",
+    "first_appear_event_id": "main_ch02"
   },
   {
     "id": "rel_ch02_char_b09c7d0_npc_碎骨",
@@ -4185,7 +4251,8 @@
         }
       }
     ],
-    "confidence_level": "official_fact"
+    "confidence_level": "official_fact",
+    "first_appear_event_id": "main_ch02"
   },
   {
     "id": "rel_ch03_char_002_ami_char_137_bro",
@@ -4236,7 +4303,8 @@
         }
       }
     ],
-    "confidence_level": "official_fact"
+    "confidence_level": "official_fact",
+    "first_appear_event_id": "main_ch03"
   },
   {
     "id": "rel_ch03_char_010_che_char_103_ang",
@@ -4276,7 +4344,8 @@
         }
       }
     ],
-    "confidence_level": "official_fact"
+    "confidence_level": "official_fact",
+    "first_appear_event_id": "main_ch03"
   },
   {
     "id": "rel_ch03_char_010_che_npc_碎骨",
@@ -4316,7 +4385,8 @@
         }
       }
     ],
-    "confidence_level": "official_fact"
+    "confidence_level": "official_fact",
+    "first_appear_event_id": "main_ch03"
   },
   {
     "id": "rel_ch03_char_011_w_npc_米莎",
@@ -4367,7 +4437,8 @@
         }
       }
     ],
-    "confidence_level": "official_fact"
+    "confidence_level": "official_fact",
+    "first_appear_event_id": "main_ch03"
   },
   {
     "id": "rel_ch03_char_011_w_char_137_bro",
@@ -4418,7 +4489,8 @@
         }
       }
     ],
-    "confidence_level": "official_fact"
+    "confidence_level": "official_fact",
+    "first_appear_event_id": "main_ch03"
   },
   {
     "id": "rel_ch03_char_102_tex_char_137_bro",
@@ -4469,7 +4541,8 @@
         }
       }
     ],
-    "confidence_level": "official_fact"
+    "confidence_level": "official_fact",
+    "first_appear_event_id": "main_ch03"
   },
   {
     "id": "rel_ch03_char_103_ang_npc_碎骨",
@@ -4509,7 +4582,8 @@
         }
       }
     ],
-    "confidence_level": "official_fact"
+    "confidence_level": "official_fact",
+    "first_appear_event_id": "main_ch03"
   },
   {
     "id": "rel_ch03_char_103_ang_char_137_bro",
@@ -4560,7 +4634,8 @@
         }
       }
     ],
-    "confidence_level": "official_fact"
+    "confidence_level": "official_fact",
+    "first_appear_event_id": "main_ch03"
   },
   {
     "id": "rel_ch03_char_137_bro_char_b09c7d0",
@@ -4611,7 +4686,8 @@
         }
       }
     ],
-    "confidence_level": "official_fact"
+    "confidence_level": "official_fact",
+    "first_appear_event_id": "main_ch03"
   },
   {
     "id": "rel_ch03_char_137_bro_char_564b67e",
@@ -4662,7 +4738,8 @@
         }
       }
     ],
-    "confidence_level": "official_fact"
+    "confidence_level": "official_fact",
+    "first_appear_event_id": "main_ch03"
   },
   {
     "id": "rel_ch03_char_137_bro_npc_碎骨",
@@ -4713,7 +4790,8 @@
         }
       }
     ],
-    "confidence_level": "official_fact"
+    "confidence_level": "official_fact",
+    "first_appear_event_id": "main_ch03"
   },
   {
     "id": "rel_ch04_char_002_ami_char_31c537a",
@@ -4764,7 +4842,8 @@
         }
       }
     ],
-    "confidence_level": "official_fact"
+    "confidence_level": "official_fact",
+    "first_appear_event_id": "main_ch04"
   },
   {
     "id": "rel_ch04_char_002_ami_char_f2b9a33",
@@ -4815,7 +4894,8 @@
         }
       }
     ],
-    "confidence_level": "official_fact"
+    "confidence_level": "official_fact",
+    "first_appear_event_id": "main_ch04"
   },
   {
     "id": "rel_ch04_char_003_kal_char_040fdfb",
@@ -4866,7 +4946,8 @@
         }
       }
     ],
-    "confidence_level": "official_fact"
+    "confidence_level": "official_fact",
+    "first_appear_event_id": "main_ch04"
   },
   {
     "id": "rel_ch04_char_003_kal_char_31c537a",
@@ -4917,7 +4998,8 @@
         }
       }
     ],
-    "confidence_level": "official_fact"
+    "confidence_level": "official_fact",
+    "first_appear_event_id": "main_ch04"
   },
   {
     "id": "rel_ch04_char_003_kal_char_f2b9a33",
@@ -4968,7 +5050,8 @@
         }
       }
     ],
-    "confidence_level": "official_fact"
+    "confidence_level": "official_fact",
+    "first_appear_event_id": "main_ch04"
   },
   {
     "id": "rel_ch04_char_003_kal_char_137_bro",
@@ -5008,7 +5091,8 @@
         }
       }
     ],
-    "confidence_level": "official_fact"
+    "confidence_level": "official_fact",
+    "first_appear_event_id": "main_ch04"
   },
   {
     "id": "rel_ch04_char_010_che_char_040fdfb",
@@ -5048,7 +5132,8 @@
         }
       }
     ],
-    "confidence_level": "official_fact"
+    "confidence_level": "official_fact",
+    "first_appear_event_id": "main_ch04"
   },
   {
     "id": "rel_ch04_char_011_w_char_31c537a",
@@ -5077,7 +5162,8 @@
         }
       }
     ],
-    "confidence_level": "official_fact"
+    "confidence_level": "official_fact",
+    "first_appear_event_id": "main_ch04"
   },
   {
     "id": "rel_ch04_char_011_w_npc_mephisto",
@@ -5128,7 +5214,8 @@
         }
       }
     ],
-    "confidence_level": "official_fact"
+    "confidence_level": "official_fact",
+    "first_appear_event_id": "main_ch04"
   },
   {
     "id": "rel_ch04_char_040fdfb_char_f2b9a33",
@@ -5179,7 +5266,8 @@
         }
       }
     ],
-    "confidence_level": "official_fact"
+    "confidence_level": "official_fact",
+    "first_appear_event_id": "main_ch04"
   },
   {
     "id": "rel_ch04_char_040fdfb_char_31c537a",
@@ -5230,7 +5318,8 @@
         }
       }
     ],
-    "confidence_level": "official_fact"
+    "confidence_level": "official_fact",
+    "first_appear_event_id": "main_ch04"
   },
   {
     "id": "rel_ch04_char_040fdfb_char_102_tex",
@@ -5259,7 +5348,8 @@
         }
       }
     ],
-    "confidence_level": "official_fact"
+    "confidence_level": "official_fact",
+    "first_appear_event_id": "main_ch04"
   },
   {
     "id": "rel_ch04_char_040fdfb_char_103_ang",
@@ -5288,7 +5378,8 @@
         }
       }
     ],
-    "confidence_level": "official_fact"
+    "confidence_level": "official_fact",
+    "first_appear_event_id": "main_ch04"
   },
   {
     "id": "rel_ch04_char_040fdfb_npc_mephisto",
@@ -5317,7 +5408,8 @@
         }
       }
     ],
-    "confidence_level": "official_fact"
+    "confidence_level": "official_fact",
+    "first_appear_event_id": "main_ch04"
   },
   {
     "id": "rel_ch04_char_102_tex_char_31c537a",
@@ -5346,7 +5438,8 @@
         }
       }
     ],
-    "confidence_level": "official_fact"
+    "confidence_level": "official_fact",
+    "first_appear_event_id": "main_ch04"
   },
   {
     "id": "rel_ch04_char_102_tex_char_f2b9a33",
@@ -5375,7 +5468,8 @@
         }
       }
     ],
-    "confidence_level": "official_fact"
+    "confidence_level": "official_fact",
+    "first_appear_event_id": "main_ch04"
   },
   {
     "id": "rel_ch04_char_103_ang_char_f2b9a33",
@@ -5404,7 +5498,8 @@
         }
       }
     ],
-    "confidence_level": "official_fact"
+    "confidence_level": "official_fact",
+    "first_appear_event_id": "main_ch04"
   },
   {
     "id": "rel_ch04_char_31c537a_char_f2b9a33",
@@ -5455,7 +5550,8 @@
         }
       }
     ],
-    "confidence_level": "official_fact"
+    "confidence_level": "official_fact",
+    "first_appear_event_id": "main_ch04"
   },
   {
     "id": "rel_ch04_char_31c537a_npc_mephisto",
@@ -5506,7 +5602,8 @@
         }
       }
     ],
-    "confidence_level": "official_fact"
+    "confidence_level": "official_fact",
+    "first_appear_event_id": "main_ch04"
   },
   {
     "id": "rel_ch04_char_31c537a_npc_霜星",
@@ -5535,7 +5632,8 @@
         }
       }
     ],
-    "confidence_level": "official_fact"
+    "confidence_level": "official_fact",
+    "first_appear_event_id": "main_ch04"
   },
   {
     "id": "rel_ch04_char_f2b9a33_npc_mephisto",
@@ -5575,7 +5673,8 @@
         }
       }
     ],
-    "confidence_level": "official_fact"
+    "confidence_level": "official_fact",
+    "first_appear_event_id": "main_ch04"
   },
   {
     "id": "rel_hb_char_4daf615_char_6d7c1af",
@@ -10468,7 +10567,7 @@
       "zh_CN": "达格达与维娜是维多利亚旧友，常在私下聚会中交流。",
       "en_US": "达格达与维娜是维多利亚旧友，常在私下聚会中交流。"
     },
-    "associated_event_id": "handbook",
+    "associated_event_id": "main_ch17",
     "evidences": [
       {
         "source_story": "handbook_info_table",
@@ -10482,7 +10581,8 @@
         }
       }
     ],
-    "confidence_level": "implied_plot"
+    "confidence_level": "implied_plot",
+    "first_appear_event_id": "main_ch17"
   },
   {
     "id": "rel_hb_5e011deb_1019_siege2",
@@ -10497,7 +10597,7 @@
       "zh_CN": "因陀罗与维娜是街头混混时期的旧识，互相了解对方的喜好与过往。",
       "en_US": "因陀罗与维娜是街头混混时期的旧识，互相了解对方的喜好与过往。"
     },
-    "associated_event_id": "handbook",
+    "associated_event_id": "main_ch17",
     "evidences": [
       {
         "source_story": "handbook_info_table",
@@ -10511,7 +10611,8 @@
         }
       }
     ],
-    "confidence_level": "official_fact"
+    "confidence_level": "official_fact",
+    "first_appear_event_id": "main_ch17"
   },
   {
     "id": "rel_hb_121_ifrit_167_celya",
@@ -10526,7 +10627,7 @@
       "zh_CN": "伊芙利特与塞雷娅曾同在莱茵生命，伊芙利特渴望得到塞雷娅的认可。",
       "en_US": "伊芙利特与塞雷娅曾同在莱茵生命，伊芙利特渴望得到塞雷娅的认可。"
     },
-    "associated_event_id": "handbook",
+    "associated_event_id": "main_ch17",
     "evidences": [
       {
         "source_story": "handbook_info_table",
@@ -10540,7 +10641,8 @@
         }
       }
     ],
-    "confidence_level": "official_fact"
+    "confidence_level": "official_fact",
+    "first_appear_event_id": "main_ch17"
   },
   {
     "id": "rel_hb_1047_halo2_002_amiya",
@@ -10555,7 +10657,7 @@
       "zh_CN": "星源确认博士值得信任后加入罗德岛。",
       "en_US": "星源确认博士值得信任后加入罗德岛。"
     },
-    "associated_event_id": "handbook",
+    "associated_event_id": "main_ch17",
     "evidences": [
       {
         "source_story": "handbook_info_table",
@@ -10569,7 +10671,8 @@
         }
       }
     ],
-    "confidence_level": "official_fact"
+    "confidence_level": "official_fact",
+    "first_appear_event_id": "main_ch17"
   },
   {
     "id": "rel_hb_1047_halo2_381cca24",
@@ -10584,7 +10687,7 @@
       "zh_CN": "星源与星极是两姐妹，互相鼓励互相依赖。",
       "en_US": "星源与星极是两姐妹，互相鼓励互相依赖。"
     },
-    "associated_event_id": "handbook",
+    "associated_event_id": "main_ch17",
     "evidences": [
       {
         "source_story": "handbook_info_table",
@@ -10598,7 +10701,8 @@
         }
       }
     ],
-    "confidence_level": "official_fact"
+    "confidence_level": "official_fact",
+    "first_appear_event_id": "main_ch17"
   },
   {
     "id": "rel_hb_206_gnosis_221_silver",
@@ -10613,7 +10717,7 @@
       "zh_CN": "灵知与银灰共同创立喀兰贸易，银灰是灵知为数不多的牵绊之一。",
       "en_US": "灵知与银灰共同创立喀兰贸易，银灰是灵知为数不多的牵绊之一。"
     },
-    "associated_event_id": "handbook",
+    "associated_event_id": "main_ch17",
     "evidences": [
       {
         "source_story": "handbook_info_table",
@@ -10627,7 +10731,8 @@
         }
       }
     ],
-    "confidence_level": "official_fact"
+    "confidence_level": "official_fact",
+    "first_appear_event_id": "main_ch17"
   },
   {
     "id": "rel_hb_209_ardign_3545e4d1",
@@ -10642,7 +10747,7 @@
       "zh_CN": "卡缇与史都华德在莱塔尼亚旅行期间结识并结下深厚友谊。",
       "en_US": "卡缇与史都华德在莱塔尼亚旅行期间结识并结下深厚友谊。"
     },
-    "associated_event_id": "handbook",
+    "associated_event_id": "main_ch17",
     "evidences": [
       {
         "source_story": "handbook_info_table",
@@ -10656,7 +10761,8 @@
         }
       }
     ],
-    "confidence_level": "official_fact"
+    "confidence_level": "official_fact",
+    "first_appear_event_id": "main_ch17"
   },
   {
     "id": "rel_hb_209_ardign_e99d2b11",
@@ -10671,7 +10777,7 @@
       "zh_CN": "卡缇与安德切尔在莱塔尼亚旅行期间结识并结下深厚友谊。",
       "en_US": "卡缇与安德切尔在莱塔尼亚旅行期间结识并结下深厚友谊。"
     },
-    "associated_event_id": "handbook",
+    "associated_event_id": "main_ch17",
     "evidences": [
       {
         "source_story": "handbook_info_table",
@@ -10685,7 +10791,8 @@
         }
       }
     ],
-    "confidence_level": "official_fact"
+    "confidence_level": "official_fact",
+    "first_appear_event_id": "main_ch17"
   },
   {
     "id": "rel_hb_332_archet_92c4f87a",
@@ -10700,7 +10807,7 @@
       "zh_CN": "空弦与送葬人同为兰登修道院出身，送葬人常向空弦讲述修道院逸闻。",
       "en_US": "空弦与送葬人同为兰登修道院出身，送葬人常向空弦讲述修道院逸闻。"
     },
-    "associated_event_id": "handbook",
+    "associated_event_id": "main_ch17",
     "evidences": [
       {
         "source_story": "handbook_info_table",
@@ -10714,7 +10821,8 @@
         }
       }
     ],
-    "confidence_level": "implied_plot"
+    "confidence_level": "implied_plot",
+    "first_appear_event_id": "main_ch17"
   },
   {
     "id": "rel_hb_343_tknogi_6d7c1afb",
@@ -10729,7 +10837,7 @@
       "zh_CN": "月禾将全部信赖交予博士。",
       "en_US": "月禾将全部信赖交予博士。"
     },
-    "associated_event_id": "handbook",
+    "associated_event_id": "main_ch17",
     "evidences": [
       {
         "source_story": "handbook_info_table",
@@ -10743,7 +10851,8 @@
         }
       }
     ],
-    "confidence_level": "official_fact"
+    "confidence_level": "official_fact",
+    "first_appear_event_id": "main_ch17"
   },
   {
     "id": "rel_hb_366_acdrop_21367c43",
@@ -10758,7 +10867,7 @@
       "zh_CN": "酸糖与红豆是在走廊打嘻哈、涂鸦的年轻干员搭档。",
       "en_US": "酸糖与红豆是在走廊打嘻哈、涂鸦的年轻干员搭档。"
     },
-    "associated_event_id": "handbook",
+    "associated_event_id": "main_ch17",
     "evidences": [
       {
         "source_story": "handbook_info_table",
@@ -10772,7 +10881,8 @@
         }
       }
     ],
-    "confidence_level": "implied_plot"
+    "confidence_level": "implied_plot",
+    "first_appear_event_id": "main_ch17"
   },
   {
     "id": "rel_hb_366_acdrop_8bdc21d9",
@@ -10787,7 +10897,7 @@
       "zh_CN": "酸糖与伊桑是在走廊打嘻哈、涂鸦的搭档。",
       "en_US": "酸糖与伊桑是在走廊打嘻哈、涂鸦的搭档。"
     },
-    "associated_event_id": "handbook",
+    "associated_event_id": "main_ch17",
     "evidences": [
       {
         "source_story": "handbook_info_table",
@@ -10801,7 +10911,8 @@
         }
       }
     ],
-    "confidence_level": "implied_plot"
+    "confidence_level": "implied_plot",
+    "first_appear_event_id": "main_ch17"
   },
   {
     "id": "rel_hb_381_bubble_201_gavial",
@@ -10816,7 +10927,7 @@
       "zh_CN": "泡泡崇拜嘉维尔，常与刻俄柏争论谁更强。",
       "en_US": "泡泡崇拜嘉维尔，常与刻俄柏争论谁更强。"
     },
-    "associated_event_id": "handbook",
+    "associated_event_id": "main_ch17",
     "evidences": [
       {
         "source_story": "handbook_info_table",
@@ -10830,7 +10941,8 @@
         }
       }
     ],
-    "confidence_level": "official_fact"
+    "confidence_level": "official_fact",
+    "first_appear_event_id": "main_ch17"
   },
   {
     "id": "rel_hb_381_bubble_785038ac",
@@ -10845,7 +10957,7 @@
       "zh_CN": "泡泡与火神在工坊活动中常发生肢体冲突（推来推去）。",
       "en_US": "泡泡与火神在工坊活动中常发生肢体冲突（推来推去）。"
     },
-    "associated_event_id": "handbook",
+    "associated_event_id": "main_ch17",
     "evidences": [
       {
         "source_story": "handbook_info_table",
@@ -10859,7 +10971,8 @@
         }
       }
     ],
-    "confidence_level": "implied_plot"
+    "confidence_level": "implied_plot",
+    "first_appear_event_id": "main_ch17"
   },
   {
     "id": "rel_hb_4054_malist_501_durin",
@@ -10874,7 +10987,7 @@
       "zh_CN": "至简在庆典中被杜林、桃金娘和褐果用花朵打扮，罕见地没有生气。",
       "en_US": "至简在庆典中被杜林、桃金娘和褐果用花朵打扮，罕见地没有生气。"
     },
-    "associated_event_id": "handbook",
+    "associated_event_id": "main_ch17",
     "evidences": [
       {
         "source_story": "handbook_info_table",
@@ -10888,7 +11001,8 @@
         }
       }
     ],
-    "confidence_level": "official_fact"
+    "confidence_level": "official_fact",
+    "first_appear_event_id": "main_ch17"
   },
   {
     "id": "rel_hb_4054_malist_151_myrtle",
@@ -10903,7 +11017,7 @@
       "zh_CN": "至简在庆典中被桃金娘和褐果用花朵打扮。",
       "en_US": "至简在庆典中被桃金娘和褐果用花朵打扮。"
     },
-    "associated_event_id": "handbook",
+    "associated_event_id": "main_ch17",
     "evidences": [
       {
         "source_story": "handbook_info_table",
@@ -10917,7 +11031,8 @@
         }
       }
     ],
-    "confidence_level": "official_fact"
+    "confidence_level": "official_fact",
+    "first_appear_event_id": "main_ch17"
   },
   {
     "id": "rel_hb_4054_malist_4041_chnut",
@@ -10932,7 +11047,7 @@
       "zh_CN": "至简在庆典中被褐果和桃金娘用花朵打扮。",
       "en_US": "至简在庆典中被褐果和桃金娘用花朵打扮。"
     },
-    "associated_event_id": "handbook",
+    "associated_event_id": "main_ch17",
     "evidences": [
       {
         "source_story": "handbook_info_table",
@@ -10946,7 +11061,8 @@
         }
       }
     ],
-    "confidence_level": "official_fact"
+    "confidence_level": "official_fact",
+    "first_appear_event_id": "main_ch17"
   },
   {
     "id": "rel_hb_4067_lolxh_6d7c1afb",
@@ -10961,7 +11077,7 @@
       "zh_CN": "罗小黑认为博士是值得信任的人。",
       "en_US": "罗小黑认为博士是值得信任的人。"
     },
-    "associated_event_id": "handbook",
+    "associated_event_id": "main_ch17",
     "evidences": [
       {
         "source_story": "handbook_info_table",
@@ -10975,7 +11091,8 @@
         }
       }
     ],
-    "confidence_level": "official_fact"
+    "confidence_level": "official_fact",
+    "first_appear_event_id": "main_ch17"
   },
   {
     "id": "rel_hb_4133_logos_002_amiya",
@@ -10990,7 +11107,7 @@
       "zh_CN": "特蕾西娅称博士为她的挚友和最信任的同行者。",
       "en_US": "特蕾西娅称博士为她的挚友和最信任的同行者。"
     },
-    "associated_event_id": "handbook",
+    "associated_event_id": "main_ch17",
     "evidences": [
       {
         "source_story": "handbook_info_table",
@@ -11004,7 +11121,8 @@
         }
       }
     ],
-    "confidence_level": "official_fact"
+    "confidence_level": "official_fact",
+    "first_appear_event_id": "main_ch17"
   },
   {
     "id": "rel_hb_4211_snhunt_6d7c1afb",
@@ -11019,7 +11137,7 @@
       "zh_CN": "雪猎在祈祷中感谢朋友们的帮助，将自己的朋友托付给神明。",
       "en_US": "雪猎在祈祷中感谢朋友们的帮助，将自己的朋友托付给神明。"
     },
-    "associated_event_id": "handbook",
+    "associated_event_id": "main_ch17",
     "evidences": [
       {
         "source_story": "handbook_info_table",
@@ -11033,7 +11151,8 @@
         }
       }
     ],
-    "confidence_level": "implied_plot"
+    "confidence_level": "implied_plot",
+    "first_appear_event_id": "main_ch17"
   },
   {
     "id": "rel_hb_421_crow_6d7c1afb",
@@ -11048,7 +11167,7 @@
       "zh_CN": "羽毛笔对博士逐渐亲近，在罗德岛寻找新的生活。",
       "en_US": "羽毛笔对博士逐渐亲近，在罗德岛寻找新的生活。"
     },
-    "associated_event_id": "handbook",
+    "associated_event_id": "main_ch17",
     "evidences": [
       {
         "source_story": "handbook_info_table",
@@ -11062,7 +11181,8 @@
         }
       }
     ],
-    "confidence_level": "official_fact"
+    "confidence_level": "official_fact",
+    "first_appear_event_id": "main_ch17"
   },
   {
     "id": "rel_hb_421_crow_b55e79f5",
@@ -11077,7 +11197,7 @@
       "zh_CN": "羽毛笔父亲曾是潘乔的战友，她本名拉菲艾拉·席尔瓦。",
       "en_US": "羽毛笔父亲曾是潘乔的战友，她本名拉菲艾拉·席尔瓦。"
     },
-    "associated_event_id": "handbook",
+    "associated_event_id": "main_ch17",
     "evidences": [
       {
         "source_story": "handbook_info_table",
@@ -11091,7 +11211,8 @@
         }
       }
     ],
-    "confidence_level": "official_fact"
+    "confidence_level": "official_fact",
+    "first_appear_event_id": "main_ch17"
   },
   {
     "id": "rel_hb_4224_turdus_8c04a24d",
@@ -11106,7 +11227,7 @@
       "zh_CN": "乌啾在罗德岛的监护人由烈冬指定为烈夏。",
       "en_US": "乌啾在罗德岛的监护人由烈冬指定为烈夏。"
     },
-    "associated_event_id": "handbook",
+    "associated_event_id": "main_ch17",
     "evidences": [
       {
         "source_story": "handbook_info_table",
@@ -11120,7 +11241,8 @@
         }
       }
     ],
-    "confidence_level": "official_fact"
+    "confidence_level": "official_fact",
+    "first_appear_event_id": "main_ch17"
   },
   {
     "id": "rel_hb_423_blemsh_1778bbd4",
@@ -11135,7 +11257,7 @@
       "zh_CN": "瑕光与临光从无胄盟杀手与被卷入者的关系变得亲密无间。",
       "en_US": "瑕光与临光从无胄盟杀手与被卷入者的关系变得亲密无间。"
     },
-    "associated_event_id": "handbook",
+    "associated_event_id": "main_ch17",
     "evidences": [
       {
         "source_story": "handbook_info_table",
@@ -11149,7 +11271,8 @@
         }
       }
     ],
-    "confidence_level": "official_fact"
+    "confidence_level": "official_fact",
+    "first_appear_event_id": "main_ch17"
   },
   {
     "id": "rel_hb_433_windft_6d7c1afb",
@@ -11164,7 +11287,7 @@
       "zh_CN": "掠风初入职时对家境富裕的干员有芥蒂，需要博士及人事部多加注意。",
       "en_US": "掠风初入职时对家境富裕的干员有芥蒂，需要博士及人事部多加注意。"
     },
-    "associated_event_id": "handbook",
+    "associated_event_id": "main_ch17",
     "evidences": [
       {
         "source_story": "handbook_info_table",
@@ -11178,7 +11301,8 @@
         }
       }
     ],
-    "confidence_level": "official_fact"
+    "confidence_level": "official_fact",
+    "first_appear_event_id": "main_ch17"
   },
   {
     "id": "rel_hb_496_wildmn_4000_jnight",
@@ -11193,7 +11317,7 @@
       "zh_CN": "正义骑士号是野鬃的宠物更是她的好搭档，在战场上多次为她解围。",
       "en_US": "正义骑士号是野鬃的宠物更是她的好搭档，在战场上多次为她解围。"
     },
-    "associated_event_id": "handbook",
+    "associated_event_id": "main_ch17",
     "evidences": [
       {
         "source_story": "handbook_info_table",
@@ -11207,7 +11331,8 @@
         }
       }
     ],
-    "confidence_level": "official_fact"
+    "confidence_level": "official_fact",
+    "first_appear_event_id": "main_ch17"
   },
   {
     "id": "rel_hb_496_wildmn_430_fartth",
@@ -11222,7 +11347,7 @@
       "zh_CN": "野鬃与远牙是红松骑士团同僚，远牙的沉着冷静性格与野鬃互补。",
       "en_US": "野鬃与远牙是红松骑士团同僚，远牙的沉着冷静性格与野鬃互补。"
     },
-    "associated_event_id": "handbook",
+    "associated_event_id": "main_ch17",
     "evidences": [
       {
         "source_story": "handbook_info_table",
@@ -11236,7 +11361,8 @@
         }
       }
     ],
-    "confidence_level": "official_fact"
+    "confidence_level": "official_fact",
+    "first_appear_event_id": "main_ch17"
   },
   {
     "id": "rel_hb_509_acast_003_kalts",
@@ -11251,7 +11377,7 @@
       "zh_CN": "特蕾西娅像亲友一般待术髓，让她拥有了一个新的家庭和一帮兄弟姐妹。",
       "en_US": "特蕾西娅像亲友一般待术髓，让她拥有了一个新的家庭和一帮兄弟姐妹。"
     },
-    "associated_event_id": "handbook",
+    "associated_event_id": "main_ch17",
     "evidences": [
       {
         "source_story": "handbook_info_table",
@@ -11265,7 +11391,8 @@
         }
       }
     ],
-    "confidence_level": "official_fact"
+    "confidence_level": "official_fact",
+    "first_appear_event_id": "main_ch17"
   },
   {
     "id": "rel_hb_137_brownb_8375f0bb",
@@ -11280,7 +11407,7 @@
       "zh_CN": "星熊最初不受杜宾教官待见，两人一度僵持。",
       "en_US": "星熊最初不受杜宾教官待见，两人一度僵持。"
     },
-    "associated_event_id": "handbook",
+    "associated_event_id": "main_ch17",
     "evidences": [
       {
         "source_story": "handbook_info_table",
@@ -11294,7 +11421,8 @@
         }
       }
     ],
-    "confidence_level": "official_fact"
+    "confidence_level": "official_fact",
+    "first_appear_event_id": "main_ch17"
   },
   {
     "id": "rel_hb_423_blemsh_265_sophia",
@@ -11309,7 +11437,7 @@
       "zh_CN": "鞭刃守护临光家的名誉并照顾临光和瑕光。",
       "en_US": "鞭刃守护临光家的名誉并照顾临光和瑕光。"
     },
-    "associated_event_id": "handbook",
+    "associated_event_id": "main_ch17",
     "evidences": [
       {
         "source_story": "handbook_info_table",
@@ -11323,7 +11451,8 @@
         }
       }
     ],
-    "confidence_level": "official_fact"
+    "confidence_level": "official_fact",
+    "first_appear_event_id": "main_ch17"
   },
   {
     "id": "rel_hb_436_whispr_263_skadi",
@@ -11338,7 +11467,7 @@
       "zh_CN": "絮雨与斯卡蒂、幽灵鲨一样在源石技艺上有相同缺陷，多次接受身体检查。",
       "en_US": "絮雨与斯卡蒂、幽灵鲨一样在源石技艺上有相同缺陷，多次接受身体检查。"
     },
-    "associated_event_id": "handbook",
+    "associated_event_id": "main_ch17",
     "evidences": [
       {
         "source_story": "handbook_info_table",
@@ -11352,7 +11481,8 @@
         }
       }
     ],
-    "confidence_level": "official_fact"
+    "confidence_level": "official_fact",
+    "first_appear_event_id": "main_ch17"
   },
   {
     "id": "rel_hb_487_bobb_1019_siege2",
@@ -11367,7 +11497,7 @@
       "zh_CN": "波卜对推进之王（维娜·维多利亚）相当好奇，从资料调阅记录可见。",
       "en_US": "波卜对推进之王（维娜·维多利亚）相当好奇，从资料调阅记录可见。"
     },
-    "associated_event_id": "handbook",
+    "associated_event_id": "main_ch17",
     "evidences": [
       {
         "source_story": "handbook_info_table",
@@ -11381,6 +11511,1687 @@
         }
       }
     ],
+    "confidence_level": "implied_plot",
+    "first_appear_event_id": "main_ch17"
+  },
+  {
+    "id": "rel_amiya_theresa",
+    "source": "char_002_amiya",
+    "target": "npc_theresa",
+    "relation_type": "ally",
+    "relation_label": {
+      "zh_CN": "先代魔王与继承者",
+      "en_US": "Predecessor & Heir"
+    },
+    "description": {
+      "zh_CN": "先代魔王与继承者",
+      "en_US": "Predecessor & Heir"
+    },
+    "first_appear_event_id": "main_ch13",
+    "associated_event_id": "main_ch13",
+    "evidences": [
+      {
+        "source_story": "level_main_13-08_end",
+        "quote": {
+          "zh_CN": "[剧情证据]",
+          "en_US": "[Plot evidence]"
+        },
+        "context_analysis": {
+          "zh_CN": "先代魔王与继承者",
+          "en_US": "Predecessor & Heir"
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_logos_blooddemon",
+    "source": "char_4133_logos",
+    "target": "npc_blooddemon",
+    "relation_type": "rival",
+    "relation_label": {
+      "zh_CN": "正面对决",
+      "en_US": "Confrontation"
+    },
+    "description": {
+      "zh_CN": "正面对决",
+      "en_US": "Confrontation"
+    },
+    "first_appear_event_id": "main_ch13",
+    "associated_event_id": "main_ch13",
+    "evidences": [
+      {
+        "source_story": "level_main_13-19_beg",
+        "quote": {
+          "zh_CN": "[剧情证据]",
+          "en_US": "[Plot evidence]"
+        },
+        "context_analysis": {
+          "zh_CN": "正面对决",
+          "en_US": "Confrontation"
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_amiya_blooddemon",
+    "source": "char_002_amiya",
+    "target": "npc_blooddemon",
+    "relation_type": "rival",
+    "relation_label": {
+      "zh_CN": "正面对抗",
+      "en_US": "Opposition"
+    },
+    "description": {
+      "zh_CN": "正面对抗",
+      "en_US": "Opposition"
+    },
+    "first_appear_event_id": "main_ch13",
+    "associated_event_id": "main_ch13",
+    "evidences": [
+      {
+        "source_story": "level_main_13-19_end",
+        "quote": {
+          "zh_CN": "[剧情证据]",
+          "en_US": "[Plot evidence]"
+        },
+        "context_analysis": {
+          "zh_CN": "正面对抗",
+          "en_US": "Opposition"
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_warl_w",
+    "source": "npc_warl",
+    "target": "char_113_cqbw",
+    "relation_type": "rival",
+    "relation_label": {
+      "zh_CN": "萨卡兹战团对立",
+      "en_US": "Sarkaz Faction Rivalry"
+    },
+    "description": {
+      "zh_CN": "萨卡兹战团对立",
+      "en_US": "Sarkaz Faction Rivalry"
+    },
+    "first_appear_event_id": "main_ch13",
+    "associated_event_id": "main_ch13",
+    "evidences": [
+      {
+        "source_story": "level_main_13-18_end",
+        "quote": {
+          "zh_CN": "[剧情证据]",
+          "en_US": "[Plot evidence]"
+        },
+        "context_analysis": {
+          "zh_CN": "萨卡兹战团对立",
+          "en_US": "Sarkaz Faction Rivalry"
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_warl_hoeder",
+    "source": "npc_warl",
+    "target": "avg_npc_043",
+    "relation_type": "rival",
+    "relation_label": {
+      "zh_CN": "萨卡兹战团追杀",
+      "en_US": "Sarkaz Warl Hunt"
+    },
+    "description": {
+      "zh_CN": "萨卡兹战团追杀",
+      "en_US": "Sarkaz Warl Hunt"
+    },
+    "first_appear_event_id": "main_ch13",
+    "associated_event_id": "main_ch13",
+    "evidences": [
+      {
+        "source_story": "level_main_13-19_beg",
+        "quote": {
+          "zh_CN": "[剧情证据]",
+          "en_US": "[Plot evidence]"
+        },
+        "context_analysis": {
+          "zh_CN": "萨卡兹战团追杀",
+          "en_US": "Sarkaz Warl Hunt"
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_warl_ines",
+    "source": "npc_warl",
+    "target": "avg_npc_044",
+    "relation_type": "rival",
+    "relation_label": {
+      "zh_CN": "萨卡兹战团追杀",
+      "en_US": "Sarkaz Warl Hunt"
+    },
+    "description": {
+      "zh_CN": "萨卡兹战团追杀",
+      "en_US": "Sarkaz Warl Hunt"
+    },
+    "first_appear_event_id": "main_ch13",
+    "associated_event_id": "main_ch13",
+    "evidences": [
+      {
+        "source_story": "level_main_13-19_beg",
+        "quote": {
+          "zh_CN": "[剧情证据]",
+          "en_US": "[Plot evidence]"
+        },
+        "context_analysis": {
+          "zh_CN": "萨卡兹战团追杀",
+          "en_US": "Sarkaz Warl Hunt"
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_warl_ironcap",
+    "source": "npc_warl",
+    "target": "npc_ironcap",
+    "relation_type": "rival",
+    "relation_label": {
+      "zh_CN": "正面交战",
+      "en_US": "Open Warfare"
+    },
+    "description": {
+      "zh_CN": "正面交战",
+      "en_US": "Open Warfare"
+    },
+    "first_appear_event_id": "main_ch14",
+    "associated_event_id": "main_ch14",
+    "evidences": [
+      {
+        "source_story": "level_main_14-01_beg",
+        "quote": {
+          "zh_CN": "[剧情证据]",
+          "en_US": "[Plot evidence]"
+        },
+        "context_analysis": {
+          "zh_CN": "正面交战",
+          "en_US": "Open Warfare"
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_wellington_ironcap",
+    "source": "npc_wellington",
+    "target": "npc_ironcap",
+    "relation_type": "ally",
+    "relation_label": {
+      "zh_CN": "指挥关系",
+      "en_US": "Command"
+    },
+    "description": {
+      "zh_CN": "指挥关系",
+      "en_US": "Command"
+    },
+    "first_appear_event_id": "main_ch14",
+    "associated_event_id": "main_ch14",
+    "evidences": [
+      {
+        "source_story": "level_main_14-01_beg",
+        "quote": {
+          "zh_CN": "[剧情证据]",
+          "en_US": "[Plot evidence]"
+        },
+        "context_analysis": {
+          "zh_CN": "指挥关系",
+          "en_US": "Command"
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_wellington_necras",
+    "source": "npc_wellington",
+    "target": "char_450_necras",
+    "relation_type": "ally",
+    "relation_label": {
+      "zh_CN": "火力支援同盟",
+      "en_US": "Fire Support Alliance"
+    },
+    "description": {
+      "zh_CN": "火力支援同盟",
+      "en_US": "Fire Support Alliance"
+    },
+    "first_appear_event_id": "main_ch14",
+    "associated_event_id": "main_ch14",
+    "evidences": [
+      {
+        "source_story": "level_main_14-06_end",
+        "quote": {
+          "zh_CN": "[剧情证据]",
+          "en_US": "[Plot evidence]"
+        },
+        "context_analysis": {
+          "zh_CN": "火力支援同盟",
+          "en_US": "Fire Support Alliance"
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_siege_wellington",
+    "source": "char_1019_siege2",
+    "target": "npc_wellington",
+    "relation_type": "ally",
+    "relation_label": {
+      "zh_CN": "同盟",
+      "en_US": "Alliance"
+    },
+    "description": {
+      "zh_CN": "同盟",
+      "en_US": "Alliance"
+    },
+    "first_appear_event_id": "main_ch14",
+    "associated_event_id": "main_ch14",
+    "evidences": [
+      {
+        "source_story": "level_main_14-01_beg",
+        "quote": {
+          "zh_CN": "[剧情证据]",
+          "en_US": "[Plot evidence]"
+        },
+        "context_analysis": {
+          "zh_CN": "同盟",
+          "en_US": "Alliance"
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_bpipe_wellington",
+    "source": "avg_222_bpipe",
+    "target": "npc_wellington",
+    "relation_type": "ally",
+    "relation_label": {
+      "zh_CN": "同盟",
+      "en_US": "Alliance"
+    },
+    "description": {
+      "zh_CN": "同盟",
+      "en_US": "Alliance"
+    },
+    "first_appear_event_id": "main_ch14",
+    "associated_event_id": "main_ch14",
+    "evidences": [
+      {
+        "source_story": "level_main_14-08_end",
+        "quote": {
+          "zh_CN": "[剧情证据]",
+          "en_US": "[Plot evidence]"
+        },
+        "context_analysis": {
+          "zh_CN": "同盟",
+          "en_US": "Alliance"
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_warl_sarius",
+    "source": "npc_warl",
+    "target": "npc_sarius",
+    "relation_type": "rival",
+    "relation_label": {
+      "zh_CN": "路线分歧",
+      "en_US": "Route Divergence"
+    },
+    "description": {
+      "zh_CN": "路线分歧",
+      "en_US": "Route Divergence"
+    },
+    "first_appear_event_id": "main_ch14",
+    "associated_event_id": "main_ch14",
+    "evidences": [
+      {
+        "source_story": "level_main_14-05_beg",
+        "quote": {
+          "zh_CN": "[剧情证据]",
+          "en_US": "[Plot evidence]"
+        },
+        "context_analysis": {
+          "zh_CN": "路线分歧",
+          "en_US": "Route Divergence"
+        }
+      }
+    ],
     "confidence_level": "implied_plot"
+  },
+  {
+    "id": "rel_shifter_warl",
+    "source": "npc_shifter",
+    "target": "npc_warl",
+    "relation_type": "rival",
+    "relation_label": {
+      "zh_CN": "死敌",
+      "en_US": "Sworn Enemy"
+    },
+    "description": {
+      "zh_CN": "死敌",
+      "en_US": "Sworn Enemy"
+    },
+    "first_appear_event_id": "main_ch14",
+    "associated_event_id": "main_ch14",
+    "evidences": [
+      {
+        "source_story": "level_main_14-03_end",
+        "quote": {
+          "zh_CN": "[剧情证据]",
+          "en_US": "[Plot evidence]"
+        },
+        "context_analysis": {
+          "zh_CN": "死敌",
+          "en_US": "Sworn Enemy"
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_shifter_manfred",
+    "source": "npc_shifter",
+    "target": "avg_npc_045",
+    "relation_type": "rival",
+    "relation_label": {
+      "zh_CN": "敌对",
+      "en_US": "Hostile"
+    },
+    "description": {
+      "zh_CN": "敌对",
+      "en_US": "Hostile"
+    },
+    "first_appear_event_id": "main_ch14",
+    "associated_event_id": "main_ch14",
+    "evidences": [
+      {
+        "source_story": "level_main_14-03_end",
+        "quote": {
+          "zh_CN": "[剧情证据]",
+          "en_US": "[Plot evidence]"
+        },
+        "context_analysis": {
+          "zh_CN": "敌对",
+          "en_US": "Hostile"
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_shifter_sarius",
+    "source": "npc_shifter",
+    "target": "npc_sarius",
+    "relation_type": "unknown",
+    "relation_label": {
+      "zh_CN": "监视与操控",
+      "en_US": "Surveillance & Control"
+    },
+    "description": {
+      "zh_CN": "监视与操控",
+      "en_US": "Surveillance & Control"
+    },
+    "first_appear_event_id": "main_ch14",
+    "associated_event_id": "main_ch14",
+    "evidences": [
+      {
+        "source_story": "level_main_14-05_beg",
+        "quote": {
+          "zh_CN": "[剧情证据]",
+          "en_US": "[Plot evidence]"
+        },
+        "context_analysis": {
+          "zh_CN": "监视与操控",
+          "en_US": "Surveillance & Control"
+        }
+      }
+    ],
+    "confidence_level": "implied_plot"
+  },
+  {
+    "id": "rel_shifter_daphne",
+    "source": "npc_shifter",
+    "target": "avg_npc_046",
+    "relation_type": "rival",
+    "relation_label": {
+      "zh_CN": "死敌",
+      "en_US": "Sworn Enemy"
+    },
+    "description": {
+      "zh_CN": "死敌",
+      "en_US": "Sworn Enemy"
+    },
+    "first_appear_event_id": "main_ch14",
+    "associated_event_id": "main_ch14",
+    "evidences": [
+      {
+        "source_story": "level_main_14-03_end",
+        "quote": {
+          "zh_CN": "[剧情证据]",
+          "en_US": "[Plot evidence]"
+        },
+        "context_analysis": {
+          "zh_CN": "死敌",
+          "en_US": "Sworn Enemy"
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_sarius_shifter",
+    "source": "npc_sarius",
+    "target": "npc_shifter",
+    "relation_type": "unknown",
+    "relation_label": {
+      "zh_CN": "监视与反抗",
+      "en_US": "Surveillance & Resistance"
+    },
+    "description": {
+      "zh_CN": "监视与反抗",
+      "en_US": "Surveillance & Resistance"
+    },
+    "first_appear_event_id": "main_ch14",
+    "associated_event_id": "main_ch14",
+    "evidences": [
+      {
+        "source_story": "level_main_14-05_beg",
+        "quote": {
+          "zh_CN": "[剧情证据]",
+          "en_US": "[Plot evidence]"
+        },
+        "context_analysis": {
+          "zh_CN": "监视与反抗",
+          "en_US": "Surveillance & Resistance"
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_necras_warl",
+    "source": "char_450_necras",
+    "target": "npc_warl",
+    "relation_type": "rival",
+    "relation_label": {
+      "zh_CN": "死敌",
+      "en_US": "Sworn Enemy"
+    },
+    "description": {
+      "zh_CN": "死敌",
+      "en_US": "Sworn Enemy"
+    },
+    "first_appear_event_id": "main_ch14",
+    "associated_event_id": "main_ch14",
+    "evidences": [
+      {
+        "source_story": "level_main_14-06_end",
+        "quote": {
+          "zh_CN": "[剧情证据]",
+          "en_US": "[Plot evidence]"
+        },
+        "context_analysis": {
+          "zh_CN": "死敌",
+          "en_US": "Sworn Enemy"
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_manfred_wellington",
+    "source": "avg_npc_045",
+    "target": "npc_wellington",
+    "relation_type": "rival",
+    "relation_label": {
+      "zh_CN": "死敌",
+      "en_US": "Sworn Enemy"
+    },
+    "description": {
+      "zh_CN": "死敌",
+      "en_US": "Sworn Enemy"
+    },
+    "first_appear_event_id": "main_ch14",
+    "associated_event_id": "main_ch14",
+    "evidences": [
+      {
+        "source_story": "level_main_14-06_end",
+        "quote": {
+          "zh_CN": "[剧情证据]",
+          "en_US": "[Plot evidence]"
+        },
+        "context_analysis": {
+          "zh_CN": "死敌",
+          "en_US": "Sworn Enemy"
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_misery_doc",
+    "source": "npc_misery",
+    "target": "npc_doctor",
+    "relation_type": "ally",
+    "relation_label": {
+      "zh_CN": "罗德岛同僚",
+      "en_US": "Rhodes Island Colleague"
+    },
+    "description": {
+      "zh_CN": "罗德岛同僚",
+      "en_US": "Rhodes Island Colleague"
+    },
+    "first_appear_event_id": "main_ch14",
+    "associated_event_id": "main_ch14",
+    "evidences": [
+      {
+        "source_story": "level_main_14-06_beg",
+        "quote": {
+          "zh_CN": "[剧情证据]",
+          "en_US": "[Plot evidence]"
+        },
+        "context_analysis": {
+          "zh_CN": "罗德岛同僚",
+          "en_US": "Rhodes Island Colleague"
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_misery_amiya",
+    "source": "npc_misery",
+    "target": "char_002_amiya",
+    "relation_type": "ally",
+    "relation_label": {
+      "zh_CN": "罗德岛同僚",
+      "en_US": "Rhodes Island Colleague"
+    },
+    "description": {
+      "zh_CN": "罗德岛同僚",
+      "en_US": "Rhodes Island Colleague"
+    },
+    "first_appear_event_id": "main_ch14",
+    "associated_event_id": "main_ch14",
+    "evidences": [
+      {
+        "source_story": "level_main_14-06_beg",
+        "quote": {
+          "zh_CN": "[剧情证据]",
+          "en_US": "[Plot evidence]"
+        },
+        "context_analysis": {
+          "zh_CN": "罗德岛同僚",
+          "en_US": "Rhodes Island Colleague"
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_doc_shifter",
+    "source": "npc_doctor",
+    "target": "npc_shifter",
+    "relation_type": "unknown",
+    "relation_label": {
+      "zh_CN": "信息交换",
+      "en_US": "Information Exchange"
+    },
+    "description": {
+      "zh_CN": "信息交换",
+      "en_US": "Information Exchange"
+    },
+    "first_appear_event_id": "main_ch14",
+    "associated_event_id": "main_ch14",
+    "evidences": [
+      {
+        "source_story": "level_main_14-05_beg",
+        "quote": {
+          "zh_CN": "[剧情证据]",
+          "en_US": "[Plot evidence]"
+        },
+        "context_analysis": {
+          "zh_CN": "信息交换",
+          "en_US": "Information Exchange"
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_doc_warl",
+    "source": "npc_doctor",
+    "target": "npc_warl",
+    "relation_type": "rival",
+    "relation_label": {
+      "zh_CN": "敌对",
+      "en_US": "Hostile"
+    },
+    "description": {
+      "zh_CN": "敌对",
+      "en_US": "Hostile"
+    },
+    "first_appear_event_id": "main_ch14",
+    "associated_event_id": "main_ch14",
+    "evidences": [
+      {
+        "source_story": "level_main_14-05_beg",
+        "quote": {
+          "zh_CN": "[剧情证据]",
+          "en_US": "[Plot evidence]"
+        },
+        "context_analysis": {
+          "zh_CN": "敌对",
+          "en_US": "Hostile"
+        }
+      }
+    ],
+    "confidence_level": "implied_plot"
+  },
+  {
+    "id": "rel_doc_wellington",
+    "source": "npc_doctor",
+    "target": "npc_wellington",
+    "relation_type": "ally",
+    "relation_label": {
+      "zh_CN": "暂时盟友",
+      "en_US": "Temporary Alliance"
+    },
+    "description": {
+      "zh_CN": "暂时盟友",
+      "en_US": "Temporary Alliance"
+    },
+    "first_appear_event_id": "main_ch14",
+    "associated_event_id": "main_ch14",
+    "evidences": [
+      {
+        "source_story": "level_main_14-05_beg",
+        "quote": {
+          "zh_CN": "[剧情证据]",
+          "en_US": "[Plot evidence]"
+        },
+        "context_analysis": {
+          "zh_CN": "暂时盟友",
+          "en_US": "Temporary Alliance"
+        }
+      }
+    ],
+    "confidence_level": "implied_plot"
+  },
+  {
+    "id": "rel_tyikatz_warl",
+    "source": "npc_tyikatz",
+    "target": "npc_warl",
+    "relation_type": "ally",
+    "relation_label": {
+      "zh_CN": "力量来源",
+      "en_US": "Power Source"
+    },
+    "description": {
+      "zh_CN": "力量来源",
+      "en_US": "Power Source"
+    },
+    "first_appear_event_id": "main_ch14",
+    "associated_event_id": "main_ch14",
+    "evidences": [
+      {
+        "source_story": "level_main_14-08_beg",
+        "quote": {
+          "zh_CN": "[剧情证据]",
+          "en_US": "[Plot evidence]"
+        },
+        "context_analysis": {
+          "zh_CN": "力量来源",
+          "en_US": "Power Source"
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_tyikatz_shifter",
+    "source": "npc_tyikatz",
+    "target": "npc_shifter",
+    "relation_type": "unknown",
+    "relation_label": {
+      "zh_CN": "力量控制争夺",
+      "en_US": "Power Control Contest"
+    },
+    "description": {
+      "zh_CN": "力量控制争夺",
+      "en_US": "Power Control Contest"
+    },
+    "first_appear_event_id": "main_ch14",
+    "associated_event_id": "main_ch14",
+    "evidences": [
+      {
+        "source_story": "level_main_14-03_end",
+        "quote": {
+          "zh_CN": "[剧情证据]",
+          "en_US": "[Plot evidence]"
+        },
+        "context_analysis": {
+          "zh_CN": "力量控制争夺",
+          "en_US": "Power Control Contest"
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_tyikatz_doc",
+    "source": "npc_tyikatz",
+    "target": "npc_doctor",
+    "relation_type": "unknown",
+    "relation_label": {
+      "zh_CN": "观察对象",
+      "en_US": "Observed Subject"
+    },
+    "description": {
+      "zh_CN": "观察对象",
+      "en_US": "Observed Subject"
+    },
+    "first_appear_event_id": "main_ch14",
+    "associated_event_id": "main_ch14",
+    "evidences": [
+      {
+        "source_story": "level_main_14-08_beg",
+        "quote": {
+          "zh_CN": "[剧情证据]",
+          "en_US": "[Plot evidence]"
+        },
+        "context_analysis": {
+          "zh_CN": "观察对象",
+          "en_US": "Observed Subject"
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_misery_tyikatz",
+    "source": "npc_misery",
+    "target": "npc_tyikatz",
+    "relation_type": "unknown",
+    "relation_label": {
+      "zh_CN": "感知",
+      "en_US": "Perception"
+    },
+    "description": {
+      "zh_CN": "感知",
+      "en_US": "Perception"
+    },
+    "first_appear_event_id": "main_ch14",
+    "associated_event_id": "main_ch14",
+    "evidences": [
+      {
+        "source_story": "level_main_14-08_beg",
+        "quote": {
+          "zh_CN": "[剧情证据]",
+          "en_US": "[Plot evidence]"
+        },
+        "context_analysis": {
+          "zh_CN": "感知",
+          "en_US": "Perception"
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_warl_manfred",
+    "source": "npc_warl",
+    "target": "avg_npc_045",
+    "relation_type": "ally",
+    "relation_label": {
+      "zh_CN": "协同作战",
+      "en_US": "Coordinated"
+    },
+    "description": {
+      "zh_CN": "协同作战",
+      "en_US": "Coordinated"
+    },
+    "first_appear_event_id": "main_ch14",
+    "associated_event_id": "main_ch14",
+    "evidences": [
+      {
+        "source_story": "level_main_14-05_beg",
+        "quote": {
+          "zh_CN": "[剧情证据]",
+          "en_US": "[Plot evidence]"
+        },
+        "context_analysis": {
+          "zh_CN": "协同作战",
+          "en_US": "Coordinated"
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_warl_daphne",
+    "source": "npc_warl",
+    "target": "avg_npc_046",
+    "relation_type": "rival",
+    "relation_label": {
+      "zh_CN": "敌对",
+      "en_US": "Hostile"
+    },
+    "description": {
+      "zh_CN": "敌对",
+      "en_US": "Hostile"
+    },
+    "first_appear_event_id": "main_ch14",
+    "associated_event_id": "main_ch14",
+    "evidences": [
+      {
+        "source_story": "level_main_14-01_beg",
+        "quote": {
+          "zh_CN": "[剧情证据]",
+          "en_US": "[Plot evidence]"
+        },
+        "context_analysis": {
+          "zh_CN": "敌对",
+          "en_US": "Hostile"
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_wellington_durgen",
+    "source": "npc_wellington",
+    "target": "char_4056_durgen",
+    "relation_type": "ally",
+    "relation_label": {
+      "zh_CN": "公爵联军",
+      "en_US": "Ducal Forces"
+    },
+    "description": {
+      "zh_CN": "公爵联军",
+      "en_US": "Ducal Forces"
+    },
+    "first_appear_event_id": "main_ch14",
+    "associated_event_id": "main_ch14",
+    "evidences": [
+      {
+        "source_story": "level_main_14-01_beg",
+        "quote": {
+          "zh_CN": "[剧情证据]",
+          "en_US": "[Plot evidence]"
+        },
+        "context_analysis": {
+          "zh_CN": "公爵联军",
+          "en_US": "Ducal Forces"
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_warl_durgen",
+    "source": "npc_warl",
+    "target": "char_4056_durgen",
+    "relation_type": "rival",
+    "relation_label": {
+      "zh_CN": "正面交战",
+      "en_US": "Open Warfare"
+    },
+    "description": {
+      "zh_CN": "正面交战",
+      "en_US": "Open Warfare"
+    },
+    "first_appear_event_id": "main_ch14",
+    "associated_event_id": "main_ch14",
+    "evidences": [
+      {
+        "source_story": "level_main_14-01_beg",
+        "quote": {
+          "zh_CN": "[剧情证据]",
+          "en_US": "[Plot evidence]"
+        },
+        "context_analysis": {
+          "zh_CN": "正面交战",
+          "en_US": "Open Warfare"
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_misery_sarius",
+    "source": "npc_misery",
+    "target": "npc_sarius",
+    "relation_type": "ally",
+    "relation_label": {
+      "zh_CN": "协同行动",
+      "en_US": "Coordinated Action"
+    },
+    "description": {
+      "zh_CN": "协同行动",
+      "en_US": "Coordinated Action"
+    },
+    "first_appear_event_id": "main_ch14",
+    "associated_event_id": "main_ch14",
+    "evidences": [
+      {
+        "source_story": "level_main_14-06_beg",
+        "quote": {
+          "zh_CN": "[剧情证据]",
+          "en_US": "[Plot evidence]"
+        },
+        "context_analysis": {
+          "zh_CN": "协同行动",
+          "en_US": "Coordinated Action"
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_mantra_amiya",
+    "source": "char_4204_mantra",
+    "target": "char_002_amiya",
+    "relation_type": "ally",
+    "relation_label": {
+      "zh_CN": "罗德岛战友·精神导师",
+      "en_US": "Rhodes Island Comrade & Mentor"
+    },
+    "description": {
+      "zh_CN": "罗德岛战友·精神导师",
+      "en_US": "Rhodes Island Comrade & Mentor"
+    },
+    "first_appear_event_id": "main_ch16",
+    "associated_event_id": "main_ch16",
+    "evidences": [
+      {
+        "source_story": "level_main_16-01_beg",
+        "quote": {
+          "zh_CN": "[剧情证据]",
+          "en_US": "[Plot evidence]"
+        },
+        "context_analysis": {
+          "zh_CN": "罗德岛战友·精神导师",
+          "en_US": "Rhodes Island Comrade & Mentor"
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_mantra_raidian",
+    "source": "char_4204_mantra",
+    "target": "npc_raidian",
+    "relation_type": "ally",
+    "relation_label": {
+      "zh_CN": "巴别塔旧友·通讯搭档",
+      "en_US": "Babel Veteran & Comms"
+    },
+    "description": {
+      "zh_CN": "巴别塔旧友·通讯搭档",
+      "en_US": "Babel Veteran & Comms"
+    },
+    "first_appear_event_id": "main_ch16",
+    "associated_event_id": "main_ch16",
+    "evidences": [
+      {
+        "source_story": "level_main_16-01_beg",
+        "quote": {
+          "zh_CN": "[剧情证据]",
+          "en_US": "[Plot evidence]"
+        },
+        "context_analysis": {
+          "zh_CN": "巴别塔旧友·通讯搭档",
+          "en_US": "Babel Veteran & Comms"
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_raidian_amiya",
+    "source": "npc_raidian",
+    "target": "char_002_amiya",
+    "relation_type": "ally",
+    "relation_label": {
+      "zh_CN": "流动医疗队与领袖",
+      "en_US": "Mobile Medical & Leader"
+    },
+    "description": {
+      "zh_CN": "流动医疗队与领袖",
+      "en_US": "Mobile Medical & Leader"
+    },
+    "first_appear_event_id": "main_ch16",
+    "associated_event_id": "main_ch16",
+    "evidences": [
+      {
+        "source_story": "level_main_16-01_beg",
+        "quote": {
+          "zh_CN": "[剧情证据]",
+          "en_US": "[Plot evidence]"
+        },
+        "context_analysis": {
+          "zh_CN": "流动医疗队与领袖",
+          "en_US": "Mobile Medical & Leader"
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_koser_mon3tr",
+    "source": "npc_koser",
+    "target": "char_5472b188",
+    "relation_type": "unknown",
+    "relation_label": {
+      "zh_CN": "研究所研究员与干员",
+      "en_US": "Researcher & Operator"
+    },
+    "description": {
+      "zh_CN": "研究所研究员与干员",
+      "en_US": "Researcher & Operator"
+    },
+    "first_appear_event_id": "main_ch16",
+    "associated_event_id": "main_ch16",
+    "evidences": [
+      {
+        "source_story": "level_main_16-01_beg",
+        "quote": {
+          "zh_CN": "[剧情证据]",
+          "en_US": "[Plot evidence]"
+        },
+        "context_analysis": {
+          "zh_CN": "研究所研究员与干员",
+          "en_US": "Researcher & Operator"
+        }
+      }
+    ],
+    "confidence_level": "implied_plot"
+  },
+  {
+    "id": "rel_amiya_aloise",
+    "source": "char_002_amiya",
+    "target": "npc_aloise",
+    "relation_type": "ally",
+    "relation_label": {
+      "zh_CN": "合作者与信任",
+      "en_US": "Cooperator & Trust"
+    },
+    "description": {
+      "zh_CN": "合作者与信任",
+      "en_US": "Cooperator & Trust"
+    },
+    "first_appear_event_id": "main_ch16",
+    "associated_event_id": "main_ch16",
+    "evidences": [
+      {
+        "source_story": "level_main_16-01_beg",
+        "quote": {
+          "zh_CN": "[剧情证据]",
+          "en_US": "[Plot evidence]"
+        },
+        "context_analysis": {
+          "zh_CN": "合作者与信任",
+          "en_US": "Cooperator & Trust"
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_raidian_beaconch",
+    "source": "npc_raidian",
+    "target": "npc_beaconch",
+    "relation_type": "ally",
+    "relation_label": {
+      "zh_CN": "医生与受救治者",
+      "en_US": "Doctor & Patient"
+    },
+    "description": {
+      "zh_CN": "医生与受救治者",
+      "en_US": "Doctor & Patient"
+    },
+    "first_appear_event_id": "main_ch16",
+    "associated_event_id": "main_ch16",
+    "evidences": [
+      {
+        "source_story": "level_main_16-01_beg",
+        "quote": {
+          "zh_CN": "[剧情证据]",
+          "en_US": "[Plot evidence]"
+        },
+        "context_analysis": {
+          "zh_CN": "医生与受救治者",
+          "en_US": "Doctor & Patient"
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_raidian_mantra",
+    "source": "npc_raidian",
+    "target": "char_4204_mantra",
+    "relation_type": "ally",
+    "relation_label": {
+      "zh_CN": "罗德岛战友·协同作战",
+      "en_US": "Rhodes Island Comrade"
+    },
+    "description": {
+      "zh_CN": "罗德岛战友·协同作战",
+      "en_US": "Rhodes Island Comrade"
+    },
+    "first_appear_event_id": "main_ch16",
+    "associated_event_id": "main_ch16",
+    "evidences": [
+      {
+        "source_story": "level_main_16-01_beg",
+        "quote": {
+          "zh_CN": "[剧情证据]",
+          "en_US": "[Plot evidence]"
+        },
+        "context_analysis": {
+          "zh_CN": "罗德岛战友·协同作战",
+          "en_US": "Rhodes Island Comrade"
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_beaconch_aloise",
+    "source": "npc_beaconch",
+    "target": "npc_aloise",
+    "relation_type": "unknown",
+    "relation_label": {
+      "zh_CN": "矿区矿工与近卫军",
+      "en_US": "Miner & Guard"
+    },
+    "description": {
+      "zh_CN": "矿区矿工与近卫军",
+      "en_US": "Miner & Guard"
+    },
+    "first_appear_event_id": "main_ch16",
+    "associated_event_id": "main_ch16",
+    "evidences": [
+      {
+        "source_story": "level_main_16-01_beg",
+        "quote": {
+          "zh_CN": "[剧情证据]",
+          "en_US": "[Plot evidence]"
+        },
+        "context_analysis": {
+          "zh_CN": "矿区矿工与近卫军",
+          "en_US": "Miner & Guard"
+        }
+      }
+    ],
+    "confidence_level": "implied_plot"
+  },
+  {
+    "id": "rel_mantra_saint",
+    "source": "char_4204_mantra",
+    "target": "npc_saint",
+    "relation_type": "rival",
+    "relation_label": {
+      "zh_CN": "圣愚的对立者",
+      "en_US": "Saint's Opponent"
+    },
+    "description": {
+      "zh_CN": "圣愚的对立者",
+      "en_US": "Saint's Opponent"
+    },
+    "first_appear_event_id": "main_ch16",
+    "associated_event_id": "main_ch16",
+    "evidences": [
+      {
+        "source_story": "level_main_16-01_beg",
+        "quote": {
+          "zh_CN": "[剧情证据]",
+          "en_US": "[Plot evidence]"
+        },
+        "context_analysis": {
+          "zh_CN": "圣愚的对立者",
+          "en_US": "Saint's Opponent"
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_beaconch_mantra",
+    "source": "npc_beaconch",
+    "target": "char_4204_mantra",
+    "relation_type": "ally",
+    "relation_label": {
+      "zh_CN": "被拯救者与导师",
+      "en_US": "Saved & Mentor"
+    },
+    "description": {
+      "zh_CN": "被拯救者与导师",
+      "en_US": "Saved & Mentor"
+    },
+    "first_appear_event_id": "main_ch16",
+    "associated_event_id": "main_ch16",
+    "evidences": [
+      {
+        "source_story": "level_main_16-01_beg",
+        "quote": {
+          "zh_CN": "[剧情证据]",
+          "en_US": "[Plot evidence]"
+        },
+        "context_analysis": {
+          "zh_CN": "被拯救者与导师",
+          "en_US": "Saved & Mentor"
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_amiya_mon3tr",
+    "source": "char_002_amiya",
+    "target": "char_5472b188",
+    "relation_type": "ally",
+    "relation_label": {
+      "zh_CN": "罗德岛战友·并肩作战",
+      "en_US": "Rhodes Island Comrade"
+    },
+    "description": {
+      "zh_CN": "罗德岛战友·并肩作战",
+      "en_US": "Rhodes Island Comrade"
+    },
+    "first_appear_event_id": "main_ch16",
+    "associated_event_id": "main_ch16",
+    "evidences": [
+      {
+        "source_story": "level_main_16-01_beg",
+        "quote": {
+          "zh_CN": "[剧情证据]",
+          "en_US": "[Plot evidence]"
+        },
+        "context_analysis": {
+          "zh_CN": "罗德岛战友·并肩作战",
+          "en_US": "Rhodes Island Comrade"
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_amiya_raidian",
+    "source": "char_002_amiya",
+    "target": "npc_raidian",
+    "relation_type": "ally",
+    "relation_label": {
+      "zh_CN": "罗德岛领袖与医疗队长",
+      "en_US": "Leader & Medical Captain"
+    },
+    "description": {
+      "zh_CN": "罗德岛领袖与医疗队长",
+      "en_US": "Leader & Medical Captain"
+    },
+    "first_appear_event_id": "main_ch16",
+    "associated_event_id": "main_ch16",
+    "evidences": [
+      {
+        "source_story": "level_main_16-01_beg",
+        "quote": {
+          "zh_CN": "[剧情证据]",
+          "en_US": "[Plot evidence]"
+        },
+        "context_analysis": {
+          "zh_CN": "罗德岛领袖与医疗队长",
+          "en_US": "Leader & Medical Captain"
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_doc_mon3tr",
+    "source": "npc_doctor",
+    "target": "char_5472b188",
+    "relation_type": "ally",
+    "relation_label": {
+      "zh_CN": "罗德岛指挥官与干员",
+      "en_US": "Commander & Operator"
+    },
+    "description": {
+      "zh_CN": "罗德岛指挥官与干员",
+      "en_US": "Commander & Operator"
+    },
+    "first_appear_event_id": "main_ch16",
+    "associated_event_id": "main_ch16",
+    "evidences": [
+      {
+        "source_story": "level_main_16-01_beg",
+        "quote": {
+          "zh_CN": "[剧情证据]",
+          "en_US": "[Plot evidence]"
+        },
+        "context_analysis": {
+          "zh_CN": "罗德岛指挥官与干员",
+          "en_US": "Commander & Operator"
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_doc_koser",
+    "source": "npc_doctor",
+    "target": "npc_koser",
+    "relation_type": "unknown",
+    "relation_label": {
+      "zh_CN": "调查者与情报来源",
+      "en_US": "Investigator & Intel"
+    },
+    "description": {
+      "zh_CN": "调查者与情报来源",
+      "en_US": "Investigator & Intel"
+    },
+    "first_appear_event_id": "main_ch16",
+    "associated_event_id": "main_ch16",
+    "evidences": [
+      {
+        "source_story": "level_main_16-01_beg",
+        "quote": {
+          "zh_CN": "[剧情证据]",
+          "en_US": "[Plot evidence]"
+        },
+        "context_analysis": {
+          "zh_CN": "调查者与情报来源",
+          "en_US": "Investigator & Intel"
+        }
+      }
+    ],
+    "confidence_level": "implied_plot"
+  },
+  {
+    "id": "rel_doc_raidian",
+    "source": "npc_doctor",
+    "target": "npc_raidian",
+    "relation_type": "ally",
+    "relation_label": {
+      "zh_CN": "罗德岛指挥官与医疗队长",
+      "en_US": "Commander & Medical Captain"
+    },
+    "description": {
+      "zh_CN": "罗德岛指挥官与医疗队长",
+      "en_US": "Commander & Medical Captain"
+    },
+    "first_appear_event_id": "main_ch16",
+    "associated_event_id": "main_ch16",
+    "evidences": [
+      {
+        "source_story": "level_main_16-01_beg",
+        "quote": {
+          "zh_CN": "[剧情证据]",
+          "en_US": "[Plot evidence]"
+        },
+        "context_analysis": {
+          "zh_CN": "罗德岛指挥官与医疗队长",
+          "en_US": "Commander & Medical Captain"
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_koser_ascalon",
+    "source": "npc_koser",
+    "target": "char_4132_ascln",
+    "relation_type": "ally",
+    "relation_label": {
+      "zh_CN": "罗德岛同僚",
+      "en_US": "Rhodes Island Colleague"
+    },
+    "description": {
+      "zh_CN": "罗德岛同僚",
+      "en_US": "Rhodes Island Colleague"
+    },
+    "first_appear_event_id": "main_ch16",
+    "associated_event_id": "main_ch16",
+    "evidences": [
+      {
+        "source_story": "level_main_16-01_beg",
+        "quote": {
+          "zh_CN": "[剧情证据]",
+          "en_US": "[Plot evidence]"
+        },
+        "context_analysis": {
+          "zh_CN": "罗德岛同僚",
+          "en_US": "Rhodes Island Colleague"
+        }
+      }
+    ],
+    "confidence_level": "implied_plot"
+  },
+  {
+    "id": "rel_nearl_hrrlg",
+    "source": "char_1778bbd4",
+    "target": "npc_hrrlg",
+    "relation_type": "ally",
+    "relation_label": {
+      "zh_CN": "罗德岛战友",
+      "en_US": "Rhodes Island Comrade"
+    },
+    "description": {
+      "zh_CN": "罗德岛战友",
+      "en_US": "Rhodes Island Comrade"
+    },
+    "first_appear_event_id": "main_ch17",
+    "associated_event_id": "main_ch17",
+    "evidences": [
+      {
+        "source_story": "level_main_17-01_beg",
+        "quote": {
+          "zh_CN": "[剧情证据]",
+          "en_US": "[Plot evidence]"
+        },
+        "context_analysis": {
+          "zh_CN": "罗德岛战友",
+          "en_US": "Rhodes Island Comrade"
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_talula_turin",
+    "source": "npc_talula",
+    "target": "npc_ivan_turin",
+    "relation_type": "unknown",
+    "relation_label": {
+      "zh_CN": "北原领袖与作家",
+      "en_US": "Northern Leader & Writer"
+    },
+    "description": {
+      "zh_CN": "北原领袖与作家",
+      "en_US": "Northern Leader & Writer"
+    },
+    "first_appear_event_id": "main_ch17",
+    "associated_event_id": "main_ch17",
+    "evidences": [
+      {
+        "source_story": "level_main_17-01_beg",
+        "quote": {
+          "zh_CN": "[剧情证据]",
+          "en_US": "[Plot evidence]"
+        },
+        "context_analysis": {
+          "zh_CN": "北原领袖与作家",
+          "en_US": "Northern Leader & Writer"
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_turin_krd",
+    "source": "npc_ivan_turin",
+    "target": "npc_red_krd",
+    "relation_type": "ally",
+    "relation_label": {
+      "zh_CN": "战友",
+      "en_US": "Comrade"
+    },
+    "description": {
+      "zh_CN": "战友",
+      "en_US": "Comrade"
+    },
+    "first_appear_event_id": "main_ch17",
+    "associated_event_id": "main_ch17",
+    "evidences": [
+      {
+        "source_story": "level_main_17-01_beg",
+        "quote": {
+          "zh_CN": "[剧情证据]",
+          "en_US": "[Plot evidence]"
+        },
+        "context_analysis": {
+          "zh_CN": "战友",
+          "en_US": "Comrade"
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_turin_lattof_1",
+    "source": "npc_ivan_turin",
+    "target": "npc_lattof",
+    "relation_type": "ally",
+    "relation_label": {
+      "zh_CN": "合作者",
+      "en_US": "Cooperator"
+    },
+    "description": {
+      "zh_CN": "合作者",
+      "en_US": "Cooperator"
+    },
+    "first_appear_event_id": "main_ch17",
+    "associated_event_id": "main_ch17",
+    "evidences": [
+      {
+        "source_story": "level_main_17-01_beg",
+        "quote": {
+          "zh_CN": "[剧情证据]",
+          "en_US": "[Plot evidence]"
+        },
+        "context_analysis": {
+          "zh_CN": "合作者",
+          "en_US": "Cooperator"
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_turin_lattof_2",
+    "source": "npc_ivan_turin",
+    "target": "npc_lattof",
+    "relation_type": "rival",
+    "relation_label": {
+      "zh_CN": "路线对立",
+      "en_US": "Route Opposition"
+    },
+    "description": {
+      "zh_CN": "路线对立",
+      "en_US": "Route Opposition"
+    },
+    "first_appear_event_id": "main_ch17",
+    "associated_event_id": "main_ch17",
+    "evidences": [
+      {
+        "source_story": "level_main_17-01_beg",
+        "quote": {
+          "zh_CN": "[剧情证据]",
+          "en_US": "[Plot evidence]"
+        },
+        "context_analysis": {
+          "zh_CN": "路线对立",
+          "en_US": "Route Opposition"
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_amiya_doc",
+    "source": "char_002_amiya",
+    "target": "npc_doctor",
+    "relation_type": "ally",
+    "relation_label": {
+      "zh_CN": "罗德岛并肩",
+      "en_US": "Shoulder-to-Shoulder"
+    },
+    "description": {
+      "zh_CN": "罗德岛并肩",
+      "en_US": "Shoulder-to-Shoulder"
+    },
+    "first_appear_event_id": "main_ch17",
+    "associated_event_id": "main_ch17",
+    "evidences": [
+      {
+        "source_story": "level_main_17-01_beg",
+        "quote": {
+          "zh_CN": "[剧情证据]",
+          "en_US": "[Plot evidence]"
+        },
+        "context_analysis": {
+          "zh_CN": "罗德岛并肩",
+          "en_US": "Shoulder-to-Shoulder"
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_mantra_koser",
+    "source": "char_4204_mantra",
+    "target": "npc_koser",
+    "relation_type": "ally",
+    "relation_label": {
+      "zh_CN": "罗德岛战友",
+      "en_US": "Rhodes Island Comrade"
+    },
+    "description": {
+      "zh_CN": "罗德岛战友",
+      "en_US": "Rhodes Island Comrade"
+    },
+    "first_appear_event_id": "main_ch16",
+    "associated_event_id": "main_ch16",
+    "evidences": [
+      {
+        "source_story": "level_main_16-01_beg",
+        "quote": {
+          "zh_CN": "[剧情证据]",
+          "en_US": "[Plot evidence]"
+        },
+        "context_analysis": {
+          "zh_CN": "罗德岛战友",
+          "en_US": "Rhodes Island Comrade"
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
   }
 ]

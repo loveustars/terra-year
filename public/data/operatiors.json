@@ -5018,5 +5018,23 @@
     },
     "rarity": "operator_5",
     "source": "story"
+  },
+  {
+    "id": "char_4056_durgen",
+    "display_name": {
+      "zh_CN": "德格恩",
+      "en_US": "Durgen"
+    },
+    "rarity": "operator_5",
+    "source": "story"
+  },
+  {
+    "id": "char_4224_pingos",
+    "display_name": {
+      "zh_CN": "平格尔",
+      "en_US": "Pingos"
+    },
+    "rarity": "operator_5",
+    "source": "story"
   }
 ]
