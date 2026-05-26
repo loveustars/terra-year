@@ -116,6 +116,71 @@ async function fetchJson<T>(path: string): Promise<T> {
   return response.json() as Promise<T>;
 }
 
+function normalizeI18n(value: Partial<I18nString> | string | undefined, fallback: string): I18nString {
+  if (typeof value === 'string') {
+    return { zh_CN: value, en_US: value };
+  }
+  return {
+    zh_CN: value?.zh_CN || value?.en_US || fallback,
+    en_US: value?.en_US || value?.zh_CN || fallback,
+    ja_JP: value?.ja_JP,
+    ko_KR: value?.ko_KR,
+  };
+}
+
+function normalizeEventId(eventId: string | undefined, eventIds: Set<string>): string {
+  if (!eventId) return '';
+  const candidates = eventId.split(',').map(id => id.trim()).filter(Boolean);
+  for (const candidate of candidates) {
+    if (eventIds.has(candidate)) return candidate;
+    const chMatch = candidate.match(/^ch(\d{1,2})$/i);
+    if (chMatch) {
+      const normalized = `main_ch${chMatch[1].padStart(2, '0')}`;
+      if (eventIds.has(normalized)) return normalized;
+    }
+  }
+  return eventId;
+}
+
+function normalizeOperators(operators: Operator[]): Operator[] {
+  return operators.map((operator) => ({
+    ...operator,
+    display_name: normalizeI18n(operator.display_name, operator.id),
+    faction: operator.faction || 'unknown',
+    avatar_key: operator.avatar_key || operator.id,
+    is_npc: operator.is_npc ?? (operator.id.startsWith('npc_') || operator.id.startsWith('avg_')),
+  }));
+}
+
+function normalizeRelations(relations: OperatorRelation[], events: TerraEvent[]): OperatorRelation[] {
+  const eventIds = new Set(events.map(event => event.id));
+  return relations.map((relation) => {
+    const associated_event_id = normalizeEventId(relation.associated_event_id, eventIds);
+    const first_appear_event_id = normalizeEventId(
+      relation.first_appear_event_id || associated_event_id,
+      eventIds,
+    );
+
+    return {
+      ...relation,
+      first_appear_event_id,
+      associated_event_id,
+      relation_label: normalizeI18n(relation.relation_label, relation.relation_type || 'unknown'),
+      confidence_level: relation.confidence_level || 'implied_plot',
+      evidences: Array.isArray(relation.evidences)
+        ? relation.evidences.map(evidence => ({
+          ...evidence,
+          source_story: evidence.source_story || associated_event_id || first_appear_event_id || 'unknown',
+          quote: normalizeI18n(evidence.quote, ''),
+          context_analysis: evidence.context_analysis
+            ? normalizeI18n(evidence.context_analysis, '')
+            : undefined,
+        }))
+        : [],
+    };
+  });
+}
+
 export function useTerraData(): UseTerraDataReturn {
   const [state, setState] = useState<TerraDataState & { operatorStates: OperatorState[] }>({
     operators: [],
@@ -139,7 +204,16 @@ export function useTerraData(): UseTerraDataReturn {
         ]);
 
         if (!cancelled) {
-          setState({ operators, events, relations, operatorStates: opStates, loading: false, error: null });
+          const normalizedOperators = normalizeOperators(operators);
+          const normalizedRelations = normalizeRelations(relations, events);
+          setState({
+            operators: normalizedOperators,
+            events,
+            relations: normalizedRelations,
+            operatorStates: opStates,
+            loading: false,
+            error: null,
+          });
         }
       } catch (err) {
         if (!cancelled) {

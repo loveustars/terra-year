@@ -4703,5 +4703,320 @@
     },
     "rarity": 5,
     "class": "operator"
+  },
+  {
+    "id": "avg_outcast",
+    "display_name": {
+      "zh_CN": "流徙者",
+      "en_US": "Outcast"
+    },
+    "rarity": "operator_5",
+    "source": "story"
+  },
+  {
+    "id": "char_171_bldsk",
+    "display_name": {
+      "zh_CN": "布兰德克斯",
+      "en_US": "Bldsk"
+    },
+    "rarity": "operator_5",
+    "source": "story"
+  },
+  {
+    "id": "char_391_rosmon",
+    "display_name": {
+      "zh_CN": "罗丝蒙德",
+      "en_US": "Rosmontis"
+    },
+    "rarity": "operator_5",
+    "source": "story"
+  },
+  {
+    "id": "npc_doctor",
+    "display_name": {
+      "zh_CN": "博士",
+      "en_US": "Doctor"
+    },
+    "rarity": "operator_5",
+    "source": "story"
+  },
+  {
+    "id": "npc_ghost_rhine",
+    "display_name": {
+      "zh_CN": "幽灵莱茵",
+      "en_US": "Ghost Rhine"
+    },
+    "rarity": "operator_5",
+    "source": "story"
+  },
+  {
+    "id": "npc_hilda",
+    "display_name": {
+      "zh_CN": "希尔达",
+      "en_US": "Hilda"
+    },
+    "rarity": "operator_5",
+    "source": "story"
+  },
+  {
+    "id": "npc_misery",
+    "display_name": {
+      "zh_CN": "米斯卡",
+      "en_US": "Misery"
+    },
+    "rarity": "operator_5",
+    "source": "story"
+  },
+  {
+    "id": "npc_mechanist",
+    "display_name": {
+      "zh_CN": "机械师",
+      "en_US": "Mechanist"
+    },
+    "rarity": "operator_5",
+    "source": "story"
+  },
+  {
+    "id": "npc_prts",
+    "display_name": {
+      "zh_CN": "普瑞赛提",
+      "en_US": "PRTS"
+    },
+    "rarity": "operator_5",
+    "source": "story"
+  },
+  {
+    "id": "npc_raidian",
+    "display_name": {
+      "zh_CN": "雷典",
+      "en_US": "Raidian"
+    },
+    "rarity": "operator_5",
+    "source": "story"
+  },
+  {
+    "id": "npc_saint",
+    "display_name": {
+      "zh_CN": "圣愚",
+      "en_US": "Saint"
+    },
+    "rarity": "operator_5",
+    "source": "story"
+  },
+  {
+    "id": "npc_warl",
+    "display_name": {
+      "zh_CN": "食腐者之王",
+      "en_US": "Warl"
+    },
+    "rarity": "operator_5",
+    "source": "story"
+  },
+  {
+    "id": "npc_blooddemon",
+    "display_name": {
+      "zh_CN": "血魔大君",
+      "en_US": "Blood Demon"
+    },
+    "rarity": "operator_5",
+    "source": "story"
+  },
+  {
+    "id": "npc_ironcap",
+    "display_name": {
+      "zh_CN": "铁冠军",
+      "en_US": "Ironcap"
+    },
+    "rarity": "operator_5",
+    "source": "story"
+  },
+  {
+    "id": "npc_wellington",
+    "display_name": {
+      "zh_CN": "威灵顿公爵",
+      "en_US": "Duke Wellington"
+    },
+    "rarity": "operator_5",
+    "source": "story"
+  },
+  {
+    "id": "npc_tyikatz",
+    "display_name": {
+      "zh_CN": "提卡兹之血",
+      "en_US": "Tykaz Blood"
+    },
+    "rarity": "operator_5",
+    "source": "story"
+  },
+  {
+    "id": "npc_shifter",
+    "display_name": {
+      "zh_CN": "变形者",
+      "en_US": "Shifter"
+    },
+    "rarity": "operator_5",
+    "source": "story"
+  },
+  {
+    "id": "npc_sarius",
+    "display_name": {
+      "zh_CN": "萨里乌斯",
+      "en_US": "Sarius"
+    },
+    "rarity": "operator_5",
+    "source": "story"
+  },
+  {
+    "id": "npc_ironduke",
+    "display_name": {
+      "zh_CN": "铁公爵",
+      "en_US": "Iron Duke"
+    },
+    "rarity": "operator_5",
+    "source": "story"
+  },
+  {
+    "id": "npc_misery_ch14",
+    "display_name": {
+      "zh_CN": "Misery",
+      "en_US": "Misery"
+    },
+    "rarity": "operator_5",
+    "source": "story"
+  },
+  {
+    "id": "npc_aloise",
+    "display_name": {
+      "zh_CN": "阿洛伊泽",
+      "en_US": "Aloise"
+    },
+    "rarity": "operator_5",
+    "source": "story"
+  },
+  {
+    "id": "npc_beaconch",
+    "display_name": {
+      "zh_CN": "别乔克",
+      "en_US": "Beaconch"
+    },
+    "rarity": "operator_5",
+    "source": "story"
+  },
+  {
+    "id": "npc_hrrlg",
+    "display_name": {
+      "zh_CN": "赫拉格",
+      "en_US": "Hellagur"
+    },
+    "rarity": "operator_5",
+    "source": "story"
+  },
+  {
+    "id": "npc_ivan_turin",
+    "display_name": {
+      "zh_CN": "伊凡·图林",
+      "en_US": "Ivan Turin"
+    },
+    "rarity": "operator_5",
+    "source": "story"
+  },
+  {
+    "id": "npc_red_krd",
+    "display_name": {
+      "zh_CN": "雷德",
+      "en_US": "Red Krd"
+    },
+    "rarity": "operator_5",
+    "source": "story"
+  },
+  {
+    "id": "npc_lattof",
+    "display_name": {
+      "zh_CN": "拉特科夫",
+      "en_US": "Lattof"
+    },
+    "rarity": "operator_5",
+    "source": "story"
+  },
+  {
+    "id": "avg_npc_043",
+    "display_name": {
+      "zh_CN": "赫德雷",
+      "en_US": "Hoeder"
+    },
+    "rarity": "operator_5",
+    "source": "story"
+  },
+  {
+    "id": "avg_npc_045",
+    "display_name": {
+      "zh_CN": "曼弗雷德",
+      "en_US": "Manfred"
+    },
+    "rarity": "operator_5",
+    "source": "story"
+  },
+  {
+    "id": "avg_npc_046",
+    "display_name": {
+      "zh_CN": "戴菲恩",
+      "en_US": "Daphne"
+    },
+    "rarity": "operator_5",
+    "source": "story"
+  },
+  {
+    "id": "char_450_necras",
+    "display_name": {
+      "zh_CN": "死芒",
+      "en_US": "Necras"
+    },
+    "rarity": "operator_5",
+    "source": "story"
+  },
+  {
+    "id": "avg_222_bpipe",
+    "display_name": {
+      "zh_CN": "号角",
+      "en_US": "Bpipe"
+    },
+    "rarity": "operator_5",
+    "source": "story"
+  },
+  {
+    "id": "npc_koser",
+    "display_name": {
+      "zh_CN": "科谢尼娅",
+      "en_US": "Koser"
+    },
+    "rarity": "operator_5",
+    "source": "story"
+  },
+  {
+    "id": "char_011_talula",
+    "display_name": {
+      "zh_CN": "塔露拉",
+      "en_US": "Talula"
+    },
+    "rarity": "operator_5",
+    "source": "story"
+  },
+  {
+    "id": "char_4132_ascln",
+    "display_name": {
+      "zh_CN": "艾雅法拉",
+      "en_US": "Ifrit"
+    },
+    "rarity": "operator_5",
+    "source": "story"
+  },
+  {
+    "id": "npc_shuangxing",
+    "display_name": {
+      "zh_CN": "霜星",
+      "en_US": "Frostnova"
+    },
+    "rarity": "operator_5",
+    "source": "story"
   }
 ]

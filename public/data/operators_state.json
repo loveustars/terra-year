@@ -19,7 +19,7 @@
     }
   },
   {
-    "operator_id": "npc_vigil",
+    "operator_id": "char_427_vigil",
     "terran_year": 1090,
     "status": "alive",
     "reason": {
@@ -28,7 +28,7 @@
     }
   },
   {
-    "operator_id": "char_6d7c1afb",
+    "operator_id": "npc_doctor",
     "terran_year": 1090,
     "status": "alive",
     "reason": {
@@ -55,7 +55,7 @@
     }
   },
   {
-    "operator_id": "char_011_w",
+    "operator_id": "char_113_cqbw",
     "terran_year": 1090,
     "status": "alive",
     "reason": {
@@ -64,7 +64,7 @@
     }
   },
   {
-    "operator_id": "char_ce834e1a",
+    "operator_id": "char_130_doberm",
     "terran_year": 1090,
     "status": "alive",
     "reason": {
@@ -73,7 +73,7 @@
     }
   },
   {
-    "operator_id": "char_a2026b00",
+    "operator_id": "char_423_blemsh",
     "terran_year": 1090,
     "status": "alive",
     "reason": {
@@ -82,21 +82,12 @@
     }
   },
   {
-    "operator_id": "char_134_aglina",
+    "operator_id": "char_017_huang",
     "terran_year": 1090,
     "status": "alive",
     "reason": {
       "zh_CN": "罗德岛精英干员",
       "en_US": "Rhodes Island Elite operator"
-    }
-  },
-  {
-    "operator_id": "char_4489b55b",
-    "terran_year": 1090,
-    "status": "alive",
-    "reason": {
-      "zh_CN": "巴别塔成员",
-      "en_US": "Babel member"
     }
   },
   {
@@ -109,7 +100,7 @@
     }
   },
   {
-    "operator_id": "char_1012_skadi2",
+    "operator_id": "char_263_skadi",
     "terran_year": 1090,
     "status": "alive",
     "reason": {
@@ -118,7 +109,7 @@
     }
   },
   {
-    "operator_id": "char_a651dc93",
+    "operator_id": "char_252_bibeak",
     "terran_year": 1090,
     "status": "alive",
     "reason": {
@@ -127,7 +118,7 @@
     }
   },
   {
-    "operator_id": "char_167_celya",
+    "operator_id": "char_252_bibeak",
     "terran_year": 1090,
     "status": "alive",
     "reason": {
@@ -136,7 +127,7 @@
     }
   },
   {
-    "operator_id": "char_121_ifrit",
+    "operator_id": "char_180_amgoat",
     "terran_year": 1090,
     "status": "alive",
     "reason": {
@@ -145,7 +136,7 @@
     }
   },
   {
-    "operator_id": "char_122_silence",
+    "operator_id": "npc_silence",
     "terran_year": 1090,
     "status": "alive",
     "reason": {
@@ -154,7 +145,7 @@
     }
   },
   {
-    "operator_id": "char_88d8605e",
+    "operator_id": "char_106_franka",
     "terran_year": 1090,
     "status": "alive",
     "reason": {
@@ -163,7 +154,7 @@
     }
   },
   {
-    "operator_id": "char_5472b188",
+    "operator_id": "char_4179_monstr",
     "terran_year": 1090,
     "status": "alive",
     "reason": {
@@ -181,7 +172,7 @@
     }
   },
   {
-    "operator_id": "char_6d7c1afb",
+    "operator_id": "npc_doctor",
     "terran_year": 1094,
     "status": "amnesiac",
     "reason": {
@@ -208,7 +199,7 @@
     }
   },
   {
-    "operator_id": "char_011_w",
+    "operator_id": "char_113_cqbw",
     "terran_year": 1094,
     "status": "alive",
     "reason": {
@@ -217,7 +208,7 @@
     }
   },
   {
-    "operator_id": "char_ce834e1a",
+    "operator_id": "char_130_doberm",
     "terran_year": 1094,
     "status": "missing",
     "reason": {
@@ -226,7 +217,7 @@
     }
   },
   {
-    "operator_id": "char_a2026b00",
+    "operator_id": "char_423_blemsh",
     "terran_year": 1094,
     "status": "alive",
     "reason": {
@@ -235,16 +226,7 @@
     }
   },
   {
-    "operator_id": "char_4489b55b",
-    "terran_year": 1094,
-    "status": "amnesiac",
-    "reason": {
-      "zh_CN": "巴别塔事件后记忆受损",
-      "en_US": "Memory damaged after Babel"
-    }
-  },
-  {
-    "operator_id": "char_167_celya",
+    "operator_id": "char_252_bibeak",
     "terran_year": 1095,
     "status": "alive",
     "reason": {
@@ -253,7 +235,7 @@
     }
   },
   {
-    "operator_id": "char_121_ifrit",
+    "operator_id": "char_180_amgoat",
     "terran_year": 1095,
     "status": "missing",
     "reason": {
@@ -262,7 +244,7 @@
     }
   },
   {
-    "operator_id": "char_122_silence",
+    "operator_id": "npc_silence",
     "terran_year": 1095,
     "status": "alive",
     "reason": {
@@ -271,7 +253,7 @@
     }
   },
   {
-    "operator_id": "char_6d7c1afb",
+    "operator_id": "npc_doctor",
     "terran_year": 1096,
     "status": "alive",
     "reason": {
@@ -298,7 +280,7 @@
     }
   },
   {
-    "operator_id": "npc_vigil",
+    "operator_id": "char_427_vigil",
     "terran_year": 1097,
     "status": "alive",
     "reason": {
@@ -325,7 +307,7 @@
     }
   },
   {
-    "operator_id": "char_011_w",
+    "operator_id": "char_113_cqbw",
     "terran_year": 1097,
     "status": "alive",
     "reason": {
@@ -334,7 +316,7 @@
     }
   },
   {
-    "operator_id": "char_a2026b00",
+    "operator_id": "char_423_blemsh",
     "terran_year": 1097,
     "status": "alive",
     "reason": {
@@ -343,21 +325,12 @@
     }
   },
   {
-    "operator_id": "char_134_aglina",
+    "operator_id": "char_017_huang",
     "terran_year": 1097,
     "status": "alive",
     "reason": {
       "zh_CN": "维多利亚篇核心战力",
       "en_US": "Core fighter in Victoria arc"
-    }
-  },
-  {
-    "operator_id": "char_4489b55b",
-    "terran_year": 1097,
-    "status": "alive",
-    "reason": {
-      "zh_CN": "重新加入罗德岛",
-      "en_US": "Rejoined Rhodes Island"
     }
   },
   {
@@ -424,7 +397,7 @@
     }
   },
   {
-    "operator_id": "char_1012_skadi2",
+    "operator_id": "char_263_skadi",
     "terran_year": 1097,
     "status": "awakened",
     "reason": {
@@ -433,7 +406,7 @@
     }
   },
   {
-    "operator_id": "char_a651dc93",
+    "operator_id": "char_252_bibeak",
     "terran_year": 1097,
     "status": "alive",
     "reason": {
@@ -442,7 +415,7 @@
     }
   },
   {
-    "operator_id": "char_d7b7fd4d",
+    "operator_id": "char_423_blemsh",
     "terran_year": 1097,
     "status": "alive",
     "reason": {
@@ -451,7 +424,7 @@
     }
   },
   {
-    "operator_id": "char_167_celya",
+    "operator_id": "char_252_bibeak",
     "terran_year": 1097,
     "status": "alive",
     "reason": {
@@ -460,7 +433,7 @@
     }
   },
   {
-    "operator_id": "char_121_ifrit",
+    "operator_id": "char_180_amgoat",
     "terran_year": 1097,
     "status": "alive",
     "reason": {
@@ -487,7 +460,7 @@
     }
   },
   {
-    "operator_id": "char_201_gavial",
+    "operator_id": "npc_gavial",
     "terran_year": 1097,
     "status": "alive",
     "reason": {
@@ -496,16 +469,7 @@
     }
   },
   {
-    "operator_id": "char_1017_skadi2",
-    "terran_year": 1097,
-    "status": "alive",
-    "reason": {
-      "zh_CN": "阿卡胡拉战士",
-      "en_US": "Acuahlla warrior"
-    }
-  },
-  {
-    "operator_id": "char_4087_dowarne",
+    "operator_id": "char_459_tachak",
     "terran_year": 1097,
     "status": "alive",
     "reason": {
@@ -550,7 +514,7 @@
     }
   },
   {
-    "operator_id": "char_182_petra",
+    "operator_id": "char_326_glacus",
     "terran_year": 1097,
     "status": "alive",
     "reason": {
@@ -568,25 +532,7 @@
     }
   },
   {
-    "operator_id": "char_1034_mizuki",
-    "terran_year": 1097,
-    "status": "alive",
-    "reason": {
-      "zh_CN": "多索雷斯假日事件",
-      "en_US": "Dossoles Holiday event"
-    }
-  },
-  {
-    "operator_id": "char_0e316ec5",
-    "terran_year": 1097,
-    "status": "alive",
-    "reason": {
-      "zh_CN": "多索雷斯大帝",
-      "en_US": "Dossoles Emperor"
-    }
-  },
-  {
-    "operator_id": "char_562b3bbc",
+    "operator_id": "npc_rockrock",
     "terran_year": 1097,
     "status": "alive",
     "reason": {
@@ -595,7 +541,7 @@
     }
   },
   {
-    "operator_id": "char_265_flk",
+    "operator_id": "char_213_mostma",
     "terran_year": 1097,
     "status": "alive",
     "reason": {
@@ -604,16 +550,7 @@
     }
   },
   {
-    "operator_id": "char_266_flash",
-    "terran_year": 1097,
-    "status": "alive",
-    "reason": {
-      "zh_CN": "罗德岛精英干员",
-      "en_US": "Rhodes Island Elite operator"
-    }
-  },
-  {
-    "operator_id": "char_88d8605e",
+    "operator_id": "char_106_franka",
     "terran_year": 1097,
     "status": "alive",
     "reason": {
@@ -622,7 +559,7 @@
     }
   },
   {
-    "operator_id": "char_5472b188",
+    "operator_id": "char_4179_monstr",
     "terran_year": 1097,
     "status": "alive",
     "reason": {
