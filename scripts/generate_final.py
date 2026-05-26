@@ -413,7 +413,7 @@ OPERATOR_STATES = [
      "reason":{"zh_CN":"罗德岛干员，前莱茵生命防卫科主任","en_US":"RI operator, former Rhine Lab Defense Director"},
      "event_id":"act25side"},
 
-    {"operator_id":"char_134_aglina","year":1097,"status":"alive",
+    {"operator_id":"char_291_aglina","year":1097,"status":"alive",
      "reason":{"zh_CN":"罗德岛精英干员","en_US":"RI Elite Operator"},
      "event_id":"ep07"},
 

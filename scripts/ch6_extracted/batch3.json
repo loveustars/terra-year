@@ -1,7 +1,7 @@
 [
   {
     "id": "ch6_rel_001",
-    "source": "char_134_aglina",
+    "source": "char_291_aglina",
     "target": "npc_霜星",
     "relation_type": "hostile",
     "relation_label": {
@@ -29,7 +29,7 @@
   },
   {
     "id": "ch6_rel_002",
-    "source": "char_134_aglina",
+    "source": "char_291_aglina",
     "target": "npc_霜星",
     "relation_type": "neutral",
     "relation_label": {
@@ -57,7 +57,7 @@
   },
   {
     "id": "ch6_rel_003",
-    "source": "char_134_aglina",
+    "source": "char_291_aglina",
     "target": "char_367_swllow",
     "relation_type": "allied",
     "relation_label": {
@@ -90,7 +90,7 @@
   },
   {
     "id": "ch6_rel_004",
-    "source": "char_134_aglina",
+    "source": "char_291_aglina",
     "target": "char_002_amiya",
     "relation_type": "allied",
     "relation_label": {
@@ -469,7 +469,7 @@
   },
   {
     "id": "ch6_rel_017",
-    "source": "char_134_aglina",
+    "source": "char_291_aglina",
     "target": "char_31c537a1",
     "relation_type": "allied",
     "relation_label": {
@@ -492,7 +492,7 @@
   },
   {
     "id": "ch6_rel_018",
-    "source": "char_134_aglina",
+    "source": "char_291_aglina",
     "target": "char_f2b9a339",
     "relation_type": "allied",
     "relation_label": {

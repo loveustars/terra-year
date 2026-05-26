@@ -1,6 +1,6 @@
 [
   {
-    "id": "avg_npc_026",
+    "id": "npc_scout",
     "display_name": {
       "zh_CN": "Scout",
       "en_US": "Scout"
@@ -10,7 +10,7 @@
     "is_npc": true
   },
   {
-    "id": "avg_npc_039",
+    "id": "npc_nine",
     "display_name": {
       "zh_CN": "九",
       "en_US": "Nine"
@@ -20,23 +20,13 @@
     "is_npc": true
   },
   {
-    "id": "avg_npc_041",
+    "id": "npc_bigbear",
     "display_name": {
       "zh_CN": "大熊",
       "en_US": "BigBear"
     },
     "faction": "龙门",
     "avatar_key": "avg_npc_041",
-    "is_npc": true
-  },
-  {
-    "id": "avg_npc_042",
-    "display_name": {
-      "zh_CN": "迷迭香",
-      "en_US": "Rosmontis"
-    },
-    "faction": "rhodes_island",
-    "avatar_key": "avg_npc_042",
     "is_npc": true
   },
   {
@@ -100,7 +90,7 @@
     "is_npc": false
   },
   {
-    "id": "char_040fdfb9",
+    "id": "char_219_meteo",
     "display_name": {
       "zh_CN": "陨星",
       "en_US": "陨星"
@@ -140,7 +130,7 @@
     "is_npc": false
   },
   {
-    "id": "char_0d14174c",
+    "id": "char_4010_etlchi",
     "display_name": {
       "zh_CN": "隐德来希",
       "en_US": "隐德来希"
@@ -320,7 +310,7 @@
     "is_npc": false
   },
   {
-    "id": "char_1159084b",
+    "id": "char_4039_horn",
     "display_name": {
       "zh_CN": "号角",
       "en_US": "号角"
@@ -390,13 +380,13 @@
     "is_npc": false
   },
   {
-    "id": "char_134_aglina",
+    "id": "char_291_aglina",
     "display_name": {
       "zh_CN": "煌",
       "en_US": "煌"
     },
     "faction": "rhodes_island",
-    "avatar_key": "char_134_aglina",
+    "avatar_key": "char_291_aglina",
     "is_npc": false
   },
   {
@@ -450,7 +440,7 @@
     "is_npc": false
   },
   {
-    "id": "char_1487946d",
+    "id": "char_4059_strmey",
     "display_name": {
       "zh_CN": "Stormeye",
       "en_US": "Stormeye"
@@ -480,7 +470,7 @@
     "is_npc": false
   },
   {
-    "id": "char_14aa5984",
+    "id": "char_4114_harold",
     "display_name": {
       "zh_CN": "哈洛德",
       "en_US": "哈洛德"
@@ -550,7 +540,7 @@
     "is_npc": false
   },
   {
-    "id": "char_1778bbd4",
+    "id": "char_148_nearl",
     "display_name": {
       "zh_CN": "临光",
       "en_US": "临光"
@@ -720,7 +710,7 @@
     "is_npc": false
   },
   {
-    "id": "char_20eeab7c",
+    "id": "char_121_lava",
     "display_name": {
       "zh_CN": "炎熔",
       "en_US": "炎熔"
@@ -730,7 +720,7 @@
     "is_npc": false
   },
   {
-    "id": "char_21367c43",
+    "id": "char_290_vigna",
     "display_name": {
       "zh_CN": "红豆",
       "en_US": "红豆"
@@ -910,7 +900,7 @@
     "is_npc": false
   },
   {
-    "id": "char_27a8a580",
+    "id": "char_4124_iana",
     "display_name": {
       "zh_CN": "双月",
       "en_US": "双月"
@@ -920,7 +910,7 @@
     "is_npc": false
   },
   {
-    "id": "char_27bf42cd",
+    "id": "char_4081_warmy",
     "display_name": {
       "zh_CN": "温米",
       "en_US": "温米"
@@ -990,7 +980,7 @@
     "is_npc": false
   },
   {
-    "id": "char_29fe53d2",
+    "id": "char_157_dagda",
     "display_name": {
       "zh_CN": "达格达",
       "en_US": "达格达"
@@ -1000,7 +990,7 @@
     "is_npc": false
   },
   {
-    "id": "char_2a6219aa",
+    "id": "char_158_milu",
     "display_name": {
       "zh_CN": "守林人",
       "en_US": "守林人"
@@ -1070,7 +1060,7 @@
     "is_npc": false
   },
   {
-    "id": "char_31c537a1",
+    "id": "char_235_jesica",
     "display_name": {
       "zh_CN": "杰西卡",
       "en_US": "杰西卡"
@@ -1140,7 +1130,7 @@
     "is_npc": false
   },
   {
-    "id": "char_3545e4d1",
+    "id": "char_210_stward",
     "display_name": {
       "zh_CN": "史都华德",
       "en_US": "史都华德"
@@ -1190,7 +1180,7 @@
     "is_npc": false
   },
   {
-    "id": "char_36bb28ec",
+    "id": "char_4064_mlynar",
     "display_name": {
       "zh_CN": "玛恩纳",
       "en_US": "玛恩纳"
@@ -1230,7 +1220,7 @@
     "is_npc": false
   },
   {
-    "id": "char_381cca24",
+    "id": "char_274_astesi",
     "display_name": {
       "zh_CN": "星极",
       "en_US": "星极"
@@ -1250,7 +1240,7 @@
     "is_npc": false
   },
   {
-    "id": "char_3e300804",
+    "id": "char_326_glacus",
     "display_name": {
       "zh_CN": "格劳克斯",
       "en_US": "格劳克斯"
@@ -1480,7 +1470,7 @@
     "is_npc": false
   },
   {
-    "id": "char_4053729a",
+    "id": "char_422_aurora",
     "display_name": {
       "zh_CN": "极光",
       "en_US": "极光"
@@ -1620,7 +1610,7 @@
     "is_npc": false
   },
   {
-    "id": "char_40a6210a",
+    "id": "char_4013_kjera",
     "display_name": {
       "zh_CN": "耶拉",
       "en_US": "耶拉"
@@ -2290,7 +2280,7 @@
     "is_npc": false
   },
   {
-    "id": "char_490e8f54",
+    "id": "char_122_beagle",
     "display_name": {
       "zh_CN": "米格鲁",
       "en_US": "米格鲁"
@@ -2370,7 +2360,7 @@
     "is_npc": false
   },
   {
-    "id": "char_49a6c086",
+    "id": "char_298_susuro",
     "display_name": {
       "zh_CN": "苏苏洛",
       "en_US": "苏苏洛"
@@ -2380,7 +2370,7 @@
     "is_npc": false
   },
   {
-    "id": "char_4a5b4cb2",
+    "id": "char_4088_hodrer",
     "display_name": {
       "zh_CN": "赫德雷",
       "en_US": "赫德雷"
@@ -2390,7 +2380,7 @@
     "is_npc": false
   },
   {
-    "id": "char_4daf615f",
+    "id": "char_4027_heyak",
     "display_name": {
       "zh_CN": "霍尔海雅",
       "en_US": "霍尔海雅"
@@ -2410,7 +2400,7 @@
     "is_npc": false
   },
   {
-    "id": "char_4fd08a5e",
+    "id": "char_4082_qiubai",
     "display_name": {
       "zh_CN": "仇白",
       "en_US": "仇白"
@@ -2560,17 +2550,7 @@
     "is_npc": false
   },
   {
-    "id": "char_562b3bbc",
-    "display_name": {
-      "zh_CN": "迷迭香",
-      "en_US": "迷迭香"
-    },
-    "faction": "rhodes_island",
-    "avatar_key": "char_562b3bbc",
-    "is_npc": false
-  },
-  {
-    "id": "char_564b67e2",
+    "id": "char_107_liskam",
     "display_name": {
       "zh_CN": "雷蛇",
       "en_US": "雷蛇"
@@ -2620,7 +2600,7 @@
     "is_npc": false
   },
   {
-    "id": "char_59eb83e7",
+    "id": "char_4178_alanna",
     "display_name": {
       "zh_CN": "阿兰娜",
       "en_US": "阿兰娜"
@@ -2630,7 +2610,7 @@
     "is_npc": false
   },
   {
-    "id": "char_5bb39aed",
+    "id": "char_4131_odda",
     "display_name": {
       "zh_CN": "奥达",
       "en_US": "奥达"
@@ -2650,7 +2630,7 @@
     "is_npc": false
   },
   {
-    "id": "char_5cdf4e3d",
+    "id": "char_4098_vvana",
     "display_name": {
       "zh_CN": "薇薇安娜",
       "en_US": "薇薇安娜"
@@ -2660,7 +2640,7 @@
     "is_npc": false
   },
   {
-    "id": "char_5e011deb",
+    "id": "char_155_tiger",
     "display_name": {
       "zh_CN": "因陀罗",
       "en_US": "因陀罗"
@@ -2680,7 +2660,7 @@
     "is_npc": false
   },
   {
-    "id": "char_5f82f34b",
+    "id": "char_4145_ulpia",
     "display_name": {
       "zh_CN": "乌尔比安",
       "en_US": "乌尔比安"
@@ -2700,7 +2680,7 @@
     "is_npc": false
   },
   {
-    "id": "char_6107a800",
+    "id": "char_140_whitew",
     "display_name": {
       "zh_CN": "拉普兰德",
       "en_US": "拉普兰德"
@@ -2750,7 +2730,7 @@
     "is_npc": false
   },
   {
-    "id": "char_6d7c1afb",
+    "id": "npc_doctor",
     "display_name": {
       "zh_CN": "博士",
       "en_US": "Doctor"
@@ -2780,7 +2760,7 @@
     "is_npc": false
   },
   {
-    "id": "char_70349ec8",
+    "id": "char_4056_titi",
     "display_name": {
       "zh_CN": "缇缇",
       "en_US": "缇缇"
@@ -2790,7 +2770,7 @@
     "is_npc": false
   },
   {
-    "id": "char_705bda3b",
+    "id": "char_278_orchid",
     "display_name": {
       "zh_CN": "梓兰",
       "en_US": "梓兰"
@@ -2810,7 +2790,7 @@
     "is_npc": false
   },
   {
-    "id": "char_7465f109",
+    "id": "char_2012_typhon",
     "display_name": {
       "zh_CN": "提丰",
       "en_US": "提丰"
@@ -2860,7 +2840,7 @@
     "is_npc": false
   },
   {
-    "id": "char_785038ac",
+    "id": "char_163_hpsts",
     "display_name": {
       "zh_CN": "火神",
       "en_US": "火神"
@@ -2870,7 +2850,7 @@
     "is_npc": false
   },
   {
-    "id": "char_785b3ab2",
+    "id": "char_166_skfire",
     "display_name": {
       "zh_CN": "天火",
       "en_US": "天火"
@@ -2910,7 +2890,7 @@
     "is_npc": false
   },
   {
-    "id": "char_7b4925db",
+    "id": "char_4083_chimes",
     "display_name": {
       "zh_CN": "铎铃",
       "en_US": "铎铃"
@@ -2930,7 +2910,7 @@
     "is_npc": false
   },
   {
-    "id": "char_7f560885",
+    "id": "char_171_bldsk",
     "display_name": {
       "zh_CN": "华法琳",
       "en_US": "华法琳"
@@ -2980,7 +2960,7 @@
     "is_npc": false
   },
   {
-    "id": "char_8375f0bb",
+    "id": "char_130_doberm",
     "display_name": {
       "zh_CN": "杜宾",
       "en_US": "杜宾"
@@ -2990,7 +2970,7 @@
     "is_npc": false
   },
   {
-    "id": "char_83c0a162",
+    "id": "char_472_pasngr",
     "display_name": {
       "zh_CN": "异客",
       "en_US": "异客"
@@ -3000,7 +2980,7 @@
     "is_npc": false
   },
   {
-    "id": "char_84fdce1b",
+    "id": "char_4162_cathy",
     "display_name": {
       "zh_CN": "凯瑟琳",
       "en_US": "凯瑟琳"
@@ -3010,7 +2990,7 @@
     "is_npc": false
   },
   {
-    "id": "char_86c6217f",
+    "id": "char_260_durnar",
     "display_name": {
       "zh_CN": "坚雷",
       "en_US": "坚雷"
@@ -3030,7 +3010,7 @@
     "is_npc": false
   },
   {
-    "id": "char_88d8605e",
+    "id": "char_4228_closur",
     "display_name": {
       "zh_CN": "可露希尔",
       "en_US": "可露希尔"
@@ -3070,7 +3050,7 @@
     "is_npc": false
   },
   {
-    "id": "char_8bdc21d9",
+    "id": "char_355_ethan",
     "display_name": {
       "zh_CN": "伊桑",
       "en_US": "伊桑"
@@ -3080,7 +3060,7 @@
     "is_npc": false
   },
   {
-    "id": "char_8c04a24d",
+    "id": "char_194_leto",
     "display_name": {
       "zh_CN": "烈夏",
       "en_US": "烈夏"
@@ -3100,7 +3080,7 @@
     "is_npc": false
   },
   {
-    "id": "char_8d11ef81",
+    "id": "char_1035_wisdel",
     "display_name": {
       "zh_CN": "维什戴尔",
       "en_US": "维什戴尔"
@@ -3140,7 +3120,7 @@
     "is_npc": false
   },
   {
-    "id": "char_92c4f87a",
+    "id": "char_279_excu",
     "display_name": {
       "zh_CN": "送葬人",
       "en_US": "送葬人"
@@ -3150,7 +3130,7 @@
     "is_npc": false
   },
   {
-    "id": "char_92c7073f",
+    "id": "char_282_catap",
     "display_name": {
       "zh_CN": "空爆",
       "en_US": "空爆"
@@ -3230,7 +3210,7 @@
     "is_npc": false
   },
   {
-    "id": "char_99da5df6",
+    "id": "char_4040_rockr",
     "display_name": {
       "zh_CN": "洛洛",
       "en_US": "洛洛"
@@ -3250,7 +3230,7 @@
     "is_npc": false
   },
   {
-    "id": "char_9efedb7a",
+    "id": "char_185_frncat",
     "display_name": {
       "zh_CN": "慕斯",
       "en_US": "慕斯"
@@ -3270,7 +3250,7 @@
     "is_npc": false
   },
   {
-    "id": "char_a2026b00",
+    "id": "char_4087_ines",
     "display_name": {
       "zh_CN": "伊内丝",
       "en_US": "伊内丝"
@@ -3280,7 +3260,7 @@
     "is_npc": false
   },
   {
-    "id": "char_a651dc93",
+    "id": "char_474_glady",
     "display_name": {
       "zh_CN": "歌蕾蒂娅",
       "en_US": "歌蕾蒂娅"
@@ -3290,7 +3270,7 @@
     "is_npc": false
   },
   {
-    "id": "char_a67c8fa9",
+    "id": "char_4014_lunacu",
     "display_name": {
       "zh_CN": "子月",
       "en_US": "子月"
@@ -3310,7 +3290,7 @@
     "is_npc": false
   },
   {
-    "id": "char_a8c4568d",
+    "id": "char_4003_pith",
     "display_name": {
       "zh_CN": "Pith",
       "en_US": "Pith"
@@ -3320,7 +3300,7 @@
     "is_npc": false
   },
   {
-    "id": "char_a8d845da",
+    "id": "char_300_phenxi",
     "display_name": {
       "zh_CN": "菲亚梅塔",
       "en_US": "菲亚梅塔"
@@ -3330,7 +3310,7 @@
     "is_npc": false
   },
   {
-    "id": "char_aa6c82c1",
+    "id": "char_154_morgan",
     "display_name": {
       "zh_CN": "摩根",
       "en_US": "摩根"
@@ -3340,7 +3320,7 @@
     "is_npc": false
   },
   {
-    "id": "char_ac098486",
+    "id": "char_123_fang",
     "display_name": {
       "zh_CN": "芬",
       "en_US": "芬"
@@ -3380,7 +3360,7 @@
     "is_npc": false
   },
   {
-    "id": "char_af162254",
+    "id": "char_250_phatom",
     "display_name": {
       "zh_CN": "傀影",
       "en_US": "傀影"
@@ -3410,7 +3390,7 @@
     "is_npc": false
   },
   {
-    "id": "char_b09c7d04",
+    "id": "char_106_franka",
     "display_name": {
       "zh_CN": "芙兰卡",
       "en_US": "芙兰卡"
@@ -3430,7 +3410,7 @@
     "is_npc": false
   },
   {
-    "id": "char_b18703d0",
+    "id": "char_308_swire",
     "display_name": {
       "zh_CN": "诗怀雅",
       "en_US": "Swire"
@@ -3464,7 +3444,7 @@
     "is_npc": false
   },
   {
-    "id": "char_b55e79f5",
+    "id": "char_4123_ela",
     "display_name": {
       "zh_CN": "艾拉",
       "en_US": "艾拉"
@@ -3534,7 +3514,7 @@
     "is_npc": false
   },
   {
-    "id": "char_c45dd8d7",
+    "id": "char_4193_lemuen",
     "display_name": {
       "zh_CN": "蕾缪安",
       "en_US": "蕾缪安"
@@ -3544,7 +3524,7 @@
     "is_npc": false
   },
   {
-    "id": "char_c607a8f3",
+    "id": "char_333_sidero",
     "display_name": {
       "zh_CN": "铸铁",
       "en_US": "铸铁"
@@ -3554,7 +3534,7 @@
     "is_npc": false
   },
   {
-    "id": "char_c982e1a2",
+    "id": "char_450_necras",
     "display_name": {
       "zh_CN": "死芒",
       "en_US": "死芒"
@@ -3574,7 +3554,7 @@
     "is_npc": false
   },
   {
-    "id": "char_caf59647",
+    "id": "char_145_prove",
     "display_name": {
       "zh_CN": "普罗旺斯",
       "en_US": "普罗旺斯"
@@ -3604,7 +3584,7 @@
     "is_npc": false
   },
   {
-    "id": "char_ce834e1a",
+    "id": "char_4132_ascln",
     "display_name": {
       "zh_CN": "阿斯卡纶",
       "en_US": "阿斯卡纶"
@@ -3624,17 +3604,7 @@
     "is_npc": false
   },
   {
-    "id": "char_d088e652",
-    "display_name": {
-      "zh_CN": "红",
-      "en_US": "红"
-    },
-    "faction": "siracusa",
-    "avatar_key": "char_d088e652",
-    "is_npc": false
-  },
-  {
-    "id": "char_d0d79f43",
+    "id": "char_4117_ray",
     "display_name": {
       "zh_CN": "莱伊",
       "en_US": "莱伊"
@@ -3674,7 +3644,7 @@
     "is_npc": false
   },
   {
-    "id": "char_d7b7fd4d",
+    "id": "char_4009_irene",
     "display_name": {
       "zh_CN": "艾丽妮",
       "en_US": "艾丽妮"
@@ -3704,7 +3674,7 @@
     "is_npc": false
   },
   {
-    "id": "char_da0bb5dc",
+    "id": "char_124_kroos",
     "display_name": {
       "zh_CN": "克洛丝",
       "en_US": "克洛丝"
@@ -3714,7 +3684,7 @@
     "is_npc": false
   },
   {
-    "id": "char_da9f461a",
+    "id": "char_4048_doroth",
     "display_name": {
       "zh_CN": "多萝西",
       "en_US": "多萝西"
@@ -3734,7 +3704,7 @@
     "is_npc": false
   },
   {
-    "id": "char_decc944a",
+    "id": "char_325_bison",
     "display_name": {
       "zh_CN": "拜松",
       "en_US": "拜松"
@@ -3744,7 +3714,7 @@
     "is_npc": false
   },
   {
-    "id": "char_e0711500",
+    "id": "char_373_lionhd",
     "display_name": {
       "zh_CN": "莱恩哈特",
       "en_US": "莱恩哈特"
@@ -3754,7 +3724,7 @@
     "is_npc": false
   },
   {
-    "id": "char_e56afc23",
+    "id": "char_502_nblade",
     "display_name": {
       "zh_CN": "夜刀",
       "en_US": "夜刀"
@@ -3784,7 +3754,7 @@
     "is_npc": false
   },
   {
-    "id": "char_e99d2b11",
+    "id": "char_211_adnach",
     "display_name": {
       "zh_CN": "安德切尔",
       "en_US": "安德切尔"
@@ -3804,7 +3774,7 @@
     "is_npc": false
   },
   {
-    "id": "char_edfebc83",
+    "id": "char_1502_crosly",
     "display_name": {
       "zh_CN": "弑君者",
       "en_US": "弑君者"
@@ -3834,7 +3804,7 @@
     "is_npc": false
   },
   {
-    "id": "char_f0f31c97",
+    "id": "char_4002_touki",
     "display_name": {
       "zh_CN": "Touch",
       "en_US": "Touch"
@@ -3844,7 +3814,7 @@
     "is_npc": false
   },
   {
-    "id": "char_f24e7d9f",
+    "id": "char_4121_zuole",
     "display_name": {
       "zh_CN": "左乐",
       "en_US": "左乐"
@@ -3854,7 +3824,7 @@
     "is_npc": false
   },
   {
-    "id": "char_f2b9a339",
+    "id": "char_193_frostl",
     "display_name": {
       "zh_CN": "霜叶",
       "en_US": "霜叶"
@@ -3884,7 +3854,7 @@
     "is_npc": false
   },
   {
-    "id": "char_f339017d",
+    "id": "char_4047_pianst",
     "display_name": {
       "zh_CN": "车尔尼",
       "en_US": "车尔尼"
@@ -3894,7 +3864,7 @@
     "is_npc": false
   },
   {
-    "id": "char_f37cba01",
+    "id": "char_4045_heidi",
     "display_name": {
       "zh_CN": "海蒂",
       "en_US": "海蒂"
@@ -3904,7 +3874,7 @@
     "is_npc": false
   },
   {
-    "id": "char_f5d563aa",
+    "id": "char_4071_peper",
     "display_name": {
       "zh_CN": "明椒",
       "en_US": "明椒"
@@ -3914,7 +3884,7 @@
     "is_npc": false
   },
   {
-    "id": "char_f6869f88",
+    "id": "char_261_sddrag",
     "display_name": {
       "zh_CN": "苇草",
       "en_US": "苇草"
@@ -3964,7 +3934,7 @@
     "is_npc": false
   },
   {
-    "id": "char_f9f3ca5f",
+    "id": "char_4110_delphn",
     "display_name": {
       "zh_CN": "戴菲恩",
       "en_US": "戴菲恩"
@@ -3974,7 +3944,7 @@
     "is_npc": false
   },
   {
-    "id": "char_fa7d6c49",
+    "id": "char_180_amgoat",
     "display_name": {
       "zh_CN": "艾雅法拉",
       "en_US": "艾雅法拉"
@@ -3984,7 +3954,7 @@
     "is_npc": false
   },
   {
-    "id": "char_fa9aec3b",
+    "id": "char_379_sesa",
     "display_name": {
       "zh_CN": "慑砂",
       "en_US": "慑砂"
@@ -4074,7 +4044,7 @@
     "is_npc": false
   },
   {
-    "id": "char_ff920ec9",
+    "id": "char_4151_tinman",
     "display_name": {
       "zh_CN": "锡人",
       "en_US": "锡人"
@@ -4104,7 +4074,7 @@
     "is_npc": true
   },
   {
-    "id": "npc_003_kalts",
+    "id": "char_003_kalts",
     "display_name": {
       "zh_CN": "凯尔希",
       "en_US": "Kal'tsit"
@@ -4340,10 +4310,10 @@
     "id": "char_144_red",
     "display_name": {
       "zh_CN": "红",
-      "en_US": "红"
+      "en_US": "red"
     },
     "faction": "rhodes_island",
-    "avatar_key": "char_144_red",
+    "avatar_key": "char_144_projektred",
     "is_npc": true,
     "description": {
       "zh_CN": "种族:鲁珀 | 性别:女 | 身高:162cm | 出身地:未公开",
@@ -4705,7 +4675,7 @@
     "class": "operator"
   },
   {
-    "id": "avg_outcast",
+    "id": "npc_outcast",
     "display_name": {
       "zh_CN": "流徙者",
       "en_US": "Outcast"
@@ -4725,7 +4695,7 @@
   {
     "id": "char_391_rosmon",
     "display_name": {
-      "zh_CN": "罗丝蒙德",
+      "zh_CN": "迷迭香",
       "en_US": "Rosmontis"
     },
     "rarity": "operator_5",
@@ -4903,7 +4873,7 @@
     "source": "story"
   },
   {
-    "id": "npc_hrrlg",
+    "id": "char_188_helage",
     "display_name": {
       "zh_CN": "赫拉格",
       "en_US": "Hellagur"
@@ -4939,28 +4909,10 @@
     "source": "story"
   },
   {
-    "id": "avg_npc_043",
-    "display_name": {
-      "zh_CN": "赫德雷",
-      "en_US": "Hoeder"
-    },
-    "rarity": "operator_5",
-    "source": "story"
-  },
-  {
-    "id": "avg_npc_045",
+    "id": "npc_manfred",
     "display_name": {
       "zh_CN": "曼弗雷德",
       "en_US": "Manfred"
-    },
-    "rarity": "operator_5",
-    "source": "story"
-  },
-  {
-    "id": "avg_npc_046",
-    "display_name": {
-      "zh_CN": "戴菲恩",
-      "en_US": "Daphne"
     },
     "rarity": "operator_5",
     "source": "story"
@@ -4970,15 +4922,6 @@
     "display_name": {
       "zh_CN": "死芒",
       "en_US": "Necras"
-    },
-    "rarity": "operator_5",
-    "source": "story"
-  },
-  {
-    "id": "avg_222_bpipe",
-    "display_name": {
-      "zh_CN": "号角",
-      "en_US": "Bpipe"
     },
     "rarity": "operator_5",
     "source": "story"
@@ -5094,7 +5037,7 @@
     "first_appear": "main_ch08"
   },
   {
-    "id": "npc_shrew_king",
+    "id": "npc_ratking",
     "display_name": {
       "zh_CN": "鼠王",
       "en_US": "The Shrew King"
@@ -5108,7 +5051,7 @@
     "first_appear": "main_ch08"
   },
   {
-    "id": "avg_npc_229",
+    "id": "char_222_bpipe",
     "name": {
       "zh_CN": "风笛",
       "en_US": "Bagpipe"
@@ -5118,7 +5061,7 @@
     "faction": "Victoria Military"
   },
   {
-    "id": "avg_npc_222",
+    "id": "npc_oliver",
     "name": {
       "zh_CN": "奥利弗",
       "en_US": "Oliver"
@@ -5128,7 +5071,7 @@
     "faction": "Rhodes Island"
   },
   {
-    "id": "avg_npc_239",
+    "id": "npc_hamilton",
     "name": {
       "zh_CN": "汉密尔顿上校",
       "en_US": "Captain Hamilton"
@@ -5138,7 +5081,7 @@
     "faction": "Victoria Military"
   },
   {
-    "id": "avg_npc_228",
+    "id": "npc_ahmani",
     "name": {
       "zh_CN": "阿赫茉妮",
       "en_US": "Ahmani"
@@ -5148,7 +5091,7 @@
     "faction": "Deeppool"
   },
   {
-    "id": "avg_npc_233",
+    "id": "npc_mendra",
     "name": {
       "zh_CN": "蔓德拉",
       "en_US": "Mendra"
@@ -5158,7 +5101,7 @@
     "faction": "Deeppool"
   },
   {
-    "id": "avg_npc_236",
+    "id": "npc_deeppool_leader",
     "name": {
       "zh_CN": "深池神秘领袖",
       "en_US": "Deeppool Mysterious Leader"
@@ -5168,7 +5111,7 @@
     "faction": "Deeppool"
   },
   {
-    "id": "avg_npc_227",
+    "id": "npc_lafcine",
     "name": {
       "zh_CN": "拉芙希妮",
       "en_US": "Lafcine"
@@ -5178,7 +5121,7 @@
     "faction": "Unknown (originally Deeppool)"
   },
   {
-    "id": "avg_npc_244",
+    "id": "npc_cello",
     "name": {
       "zh_CN": "大提琴",
       "en_US": "Cello"
@@ -5188,7 +5131,7 @@
     "faction": "Victoria Military"
   },
   {
-    "id": "avg_npc_238",
+    "id": "npc_captain_kelly",
     "name": {
       "zh_CN": "凯利上尉",
       "en_US": "Captain Kelly"
@@ -5198,7 +5141,7 @@
     "faction": "Victoria Military"
   },
   {
-    "id": "avg_npc_242",
+    "id": "npc_craig",
     "name": {
       "zh_CN": "克雷格",
       "en_US": "Craig"
@@ -5208,7 +5151,7 @@
     "faction": "Talar"
   },
   {
-    "id": "avg_npc_213",
+    "id": "npc_sylsas",
     "name": {
       "zh_CN": "西尔莎",
       "en_US": "Sylsas"
@@ -5228,7 +5171,7 @@
     "faction": "Talar"
   },
   {
-    "id": "avg_npc_243",
+    "id": "npc_talar_residents",
     "name": {
       "zh_CN": "塔拉居民",
       "en_US": "Talar Residents"
@@ -5238,7 +5181,7 @@
     "faction": "Talar"
   },
   {
-    "id": "avg_npc_241",
+    "id": "npc_victoria_soldiers",
     "name": {
       "zh_CN": "维多利亚士兵",
       "en_US": "Victorian Soldiers"
@@ -5248,7 +5191,7 @@
     "faction": "Victoria Military"
   },
   {
-    "id": "avg_deeppool_soldiers_6",
+    "id": "npc_deeppool_cadres",
     "name": {
       "zh_CN": "深池六名干部",
       "en_US": "Six Deeppool Cadres"
@@ -5438,7 +5381,7 @@
     "source": "level_main_10-11_end, level_main_10-12_beg, level_main_10-15_end"
   },
   {
-    "id": "avg_npc_479",
+    "id": "npc_jeanne",
     "display_name": {
       "zh_CN": "简妮",
       "en_US": "Jeanne"
@@ -5536,20 +5479,6 @@
     "is_npc": true
   },
   {
-    "id": "npc_cathleen",
-    "display_name": {
-      "zh_CN": "凯瑟琳",
-      "en_US": "Cathleen"
-    },
-    "faction": "unknown",
-    "description": {
-      "zh_CN": "十一号军工厂的老工人代表，曾被选为工人代表的女杰。她打造过蒸汽甲胄，深知萨卡兹补给线位置。为保护其他工人而向萨卡兹妥协，直到被萨卡兹处决时被费斯特等人救出。她将格林的指套交给明椒，说\"你还不理解战争是什么\"。",
-      "en_US": "Veteran worker representative at Factory No.11, once chosen as a model worker representative. Built steam armor herself and knows the location of Sankazi supply lines. Compromise with the Sankazi to protect other workers, until sentenced to execution and rescued by Fust and the workers. Gives Grane's finger guard to Peper, saying 'you still don't understand war.'"
-    },
-    "avatar_key": "npc_cathleen",
-    "is_npc": true
-  },
-  {
     "id": "npc_goldin",
     "display_name": {
       "zh_CN": "戈尔丁",
@@ -5561,20 +5490,6 @@
       "en_US": "Teacher at Saint-Marso School, of Gaul descent. Holds firm to the belief 'where there is light, we will walk toward it,' nurturing children through drama performances. Colonel Ledou was once her trusted student but now collaborates with the Sankazi. A Shapeshifter infiltrates as 'Mo莉' to gather intelligence beside her."
     },
     "avatar_key": "npc_goldin",
-    "is_npc": true
-  },
-  {
-    "id": "npc_hedy",
-    "display_name": {
-      "zh_CN": "海蒂",
-      "en_US": "Hedy"
-    },
-    "faction": "unknown",
-    "description": {
-      "zh_CN": "戈尔丁通过读书会结识的文学界朋友，实际上是情报工作者。为伦蒂尼姆市民的生存而战，在萨卡兹占领期间送出大量情报。称赞戈尔丁是\"伦蒂尼姆最有眼光的评论家\"。",
-      "en_US": "Literary friend who met Goldin through a reading club, actually an intelligence operative. Fights for the survival of Lonedin citizens, sending large amounts of intelligence during the Sankazi occupation. Calls Goldin 'the most discerning critic in Lonedin.'"
-    },
-    "avatar_key": "npc_hedy",
     "is_npc": true
   },
   {

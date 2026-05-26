@@ -112,7 +112,7 @@ SPECIAL_CHAR_MAP = {
     "黑": "char_140_whitew",
     "伊芙利特": "char_121_ifrit",
     "赫默": "char_122_silence",
-    "煌": "char_134_aglina",
+    "煌": "char_291_aglina",
     "星熊": "char_137_brownb",
     "极境": "char_141_elyzi",
     "可颂": "char_182_petra",

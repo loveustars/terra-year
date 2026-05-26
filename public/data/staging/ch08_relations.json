@@ -454,8 +454,8 @@
     "confidence_level": "official_fact"
   },
   {
-    "id": "rel_shrew_king_weiyanwu_ch08",
-    "source": "npc_shrew_king",
+    "id": "rel_ratking_weiyanwu_ch08",
+    "source": "npc_ratking",
     "target": "npc_2005_wywu",
     "relation_type": "rival",
     "relation_label": {

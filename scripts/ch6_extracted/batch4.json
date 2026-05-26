@@ -1,7 +1,7 @@
 [
   {
     "id": "rel_ch6_06-11_001",
-    "source": "char_134_aglina",
+    "source": "char_291_aglina",
     "target": "npc_霜星",
     "relation_type": "hostile",
     "relation_label": {
@@ -34,7 +34,7 @@
   },
   {
     "id": "rel_ch6_06-11_002",
-    "source": "char_134_aglina",
+    "source": "char_291_aglina",
     "target": "npc_霜星",
     "relation_type": "allied",
     "relation_label": {
@@ -167,7 +167,7 @@
   {
     "id": "rel_ch6_06-11_006",
     "source": "char_010_chen",
-    "target": "char_134_aglina",
+    "target": "char_291_aglina",
     "relation_type": "allied",
     "relation_label": {
       "zh_CN": "临时合作关系",
@@ -233,7 +233,7 @@
   {
     "id": "rel_ch6_06-11_008",
     "source": "char_003_kalts",
-    "target": "char_134_aglina",
+    "target": "char_291_aglina",
     "relation_type": "neutral",
     "relation_label": {
       "zh_CN": "上级观察",
@@ -345,7 +345,7 @@
   {
     "id": "rel_ch6_06-11_012",
     "source": "char_367_swllow",
-    "target": "char_134_aglina",
+    "target": "char_291_aglina",
     "relation_type": "allied",
     "relation_label": {
       "zh_CN": "小队成员协作",
@@ -434,7 +434,7 @@
   {
     "id": "rel_ch6_06-11_015",
     "source": "char_002_amiya",
-    "target": "char_134_aglina",
+    "target": "char_291_aglina",
     "relation_type": "allied",
     "relation_label": {
       "zh_CN": "战友信任",
@@ -489,7 +489,7 @@
   },
   {
     "id": "rel_ch6_06-11_017",
-    "source": "char_134_aglina",
+    "source": "char_291_aglina",
     "target": "avg_npc_026",
     "relation_type": "allied",
     "relation_label": {
