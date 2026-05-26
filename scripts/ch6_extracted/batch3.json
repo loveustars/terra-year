@@ -220,7 +220,7 @@
   },
   {
     "id": "ch6_rel_009",
-    "source": "avg_npc_044",
+    "source": "char_4080_lin",
     "target": "char_b18703d0",
     "relation_type": "neutral",
     "relation_label": {
@@ -315,7 +315,7 @@
   {
     "id": "ch6_rel_012",
     "source": "char_003_kalts",
-    "target": "char_5472b188",
+    "target": "char_4179_monstr",
     "relation_type": "allied",
     "relation_label": {
       "zh_CN": "共生契约",
@@ -521,7 +521,7 @@
   {
     "id": "ch6_rel_019",
     "source": "char_010_chen",
-    "target": "avg_npc_044",
+    "target": "char_4080_lin",
     "relation_type": "neutral",
     "relation_label": {
       "zh_CN": "工作合作",

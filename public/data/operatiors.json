@@ -2530,13 +2530,13 @@
     "is_npc": false
   },
   {
-    "id": "char_5472b188",
+    "id": "char_4179_monstr",
     "display_name": {
       "zh_CN": "Mon3tr",
       "en_US": "Mon3tr"
     },
     "faction": "rhodes_island",
-    "avatar_key": "char_5472b188",
+    "avatar_key": "char_4179_monstr",
     "is_npc": false
   },
   {
@@ -4289,13 +4289,13 @@
     "is_npc": true
   },
   {
-    "id": "avg_npc_044",
+    "id": "char_4080_lin",
     "display_name": {
       "zh_CN": "林雨霞",
       "en_US": "Lin Yuxia"
     },
     "faction": "longzhou",
-    "avatar_key": "avg_npc_044",
+    "avatar_key": "char_4080_lin",
     "is_npc": true,
     "description": {
       "zh_CN": "龙门近卫局成员，魏彦吾之女，黑蓑首领",
@@ -5036,5 +5036,740 @@
     },
     "rarity": "operator_5",
     "source": "story"
+  },
+  {
+    "id": "npc_phantoms",
+    "display_name": {
+      "zh_CN": "幻影弩手",
+      "en_US": "Phantom Crossbowmen"
+    },
+    "faction": "整合运动",
+    "is_npc": true,
+    "description": {
+      "zh_CN": "整合运动精锐小队，浮士德牺牲后由浮士德训练并带领，幻影弩手们从龙门撤回核心城向塔露拉汇报。",
+      "en_US": "Elite squad of the Reunion Movement, trained and led by Faust. The Phantom Crossbowmen return to the Core City from Lungmen to report to Talulah."
+    },
+    "source": "main_ch07"
+  },
+  {
+    "id": "npc_guard",
+    "display_name": {
+      "zh_CN": "盾卫",
+      "en_US": "Shieldguard"
+    },
+    "faction": "整合运动游击队",
+    "is_npc": true,
+    "description": {
+      "zh_CN": "爱国者（博卓卡斯替）率领的游击队盾卫，在核心城战斗中守护爱国者。",
+      "en_US": "Shieldguards of the guerrilla force led by Patriot (Patriot). They defended Patriot in the Core City battle."
+    },
+    "source": "main_ch07"
+  },
+  {
+    "id": "npc_koschei",
+    "display_name": {
+      "zh_CN": "科西切公爵",
+      "en_US": "Duke Koschei"
+    },
+    "faction": "乌萨斯",
+    "is_npc": true,
+    "description": {
+      "zh_CN": "乌萨斯公爵，塔露拉的养父，以教育之名施加源石技艺的思维操控。凯尔希在07-01_end中向魏彦吾透露他是塔露拉的继承人。",
+      "en_US": "Duke of Ursus, Talulah's adoptive father who imposed mental control through arts in the name of education. Kal'tsit reveals to Wei that he is Talulah's heir in 07-01_end."
+    },
+    "source": "main_ch07"
+  },
+  {
+    "id": "npc_alina",
+    "display_name": {
+      "zh_CN": "阿丽娜",
+      "en_US": "Alina"
+    },
+    "faction": "感染者",
+    "description": {
+      "zh_CN": "阿丽娜是塔露拉最亲密的朋友和战友。她是感染者，和塔露拉一起逃离村子，成为塔露拉的精神导师和重要支柱。她教导塔露拉关于人性、命运和信念的哲学思考。阿丽娜最终留在冻原教授感染者孩子们。",
+      "en_US": "Alina is Talulah's closest friend and companion. She is an infected person who fled the village with Talulah, becoming her spiritual mentor and vital support. She taught Talulah philosophy about humanity, fate and belief. Alina eventually stayed on the tundra teaching infected children."
+    },
+    "is_npc": true,
+    "first_appear": "main_ch08"
+  },
+  {
+    "id": "npc_shrew_king",
+    "display_name": {
+      "zh_CN": "鼠王",
+      "en_US": "The Shrew King"
+    },
+    "faction": "龙门",
+    "description": {
+      "zh_CN": "鼠王（林舸瑞）是龙门的前辈，与魏彦吾是同一时代的人。他阻止魏彦吾前往核心城，为陈和阿米娅争取战斗时间。他认为他们的时代已经过去，不应该让陈晖洁再次经历手足相残的悲剧。",
+      "en_US": "The Shrew King (Lin Gerui) is a Lungmen elder from the same era as Wei Yanwu. He stopped Wei Yanwu from going to the Core City, buying time for Ch'en and Amiya's battle. He believed their era had passed and shouldn't let Ch'en Huijie suffer fraternal conflict again."
+    },
+    "is_npc": true,
+    "first_appear": "main_ch08"
+  },
+  {
+    "id": "avg_npc_229",
+    "name": {
+      "zh_CN": "风笛",
+      "en_US": "Bagpipe"
+    },
+    "description": "维多利亚突击队成员，号角小队的核心战士，瓦伊凡。使用破城矛，在通讯塔决战中击败蔓德拉，最终用破城矛的弹射功能飞出小丘郡传递情报。",
+    "type": "npc",
+    "faction": "Victoria Military"
+  },
+  {
+    "id": "avg_npc_222",
+    "name": {
+      "zh_CN": "奥利弗",
+      "en_US": "Oliver"
+    },
+    "description": "罗德岛驻小丘郡办事处的负责人，瓦伊凡。简妮经常来办事处送早餐，与简妮等建立了如同家人般的同事关系。",
+    "type": "npc",
+    "faction": "Rhodes Island"
+  },
+  {
+    "id": "avg_npc_239",
+    "name": {
+      "zh_CN": "汉密尔顿上校",
+      "en_US": "Captain Hamilton"
+    },
+    "description": "小丘郡驻军最高指挥官，对塔拉居民持极端种族主义立场，授权炮兵营使用脏弹攻击城区，最终在驻军覆灭时独自留下战斗。",
+    "type": "npc",
+    "faction": "Victoria Military"
+  },
+  {
+    "id": "avg_npc_228",
+    "name": {
+      "zh_CN": "阿赫茉妮",
+      "en_US": "Ahmani"
+    },
+    "description": "深池首席谋臣，向往看见「终点」的哲学型人物，是深池神秘领袖（拉特）的左膀右臂，在晚宴上代表深池发言，与蔓德拉路线对立。",
+    "type": "npc",
+    "faction": "Deeppool"
+  },
+  {
+    "id": "avg_npc_233",
+    "name": {
+      "zh_CN": "蔓德拉",
+      "en_US": "Mendra"
+    },
+    "description": "深池激进派领袖，菲林，拥有强大的源石技艺（能同时操控大量石柱攻击和防御），对维多利亚贵族怀有深仇。最终在通讯塔决战中败于风笛和号角的联手战术。",
+    "type": "npc",
+    "faction": "Deeppool"
+  },
+  {
+    "id": "avg_npc_236",
+    "name": {
+      "zh_CN": "深池神秘领袖",
+      "en_US": "Deeppool Mysterious Leader"
+    },
+    "description": "深池的最高指挥，深池的神秘领袖，萨卡兹？妹妹是拉芙希妮。在小丘郡事变中始终保持神秘，由阿赫茉妮代为发声，目标是引发维多利亚内战。",
+    "type": "npc",
+    "faction": "Deeppool"
+  },
+  {
+    "id": "avg_npc_227",
+    "name": {
+      "zh_CN": "拉芙希妮",
+      "en_US": "Lafcine"
+    },
+    "description": "深池神秘领袖的妹妹，瓦伊凡。在小丘郡事变中被炮弹击中受重伤，被Outcast救走后站在了与哥哥对立的位置，成为维多利亚方的一员。",
+    "type": "npc",
+    "faction": "Unknown (originally Deeppool)"
+  },
+  {
+    "id": "avg_npc_244",
+    "name": {
+      "zh_CN": "大提琴",
+      "en_US": "Cello"
+    },
+    "description": "号角小队的成员，在通讯塔决战中为争取时间而被蔓德拉用石柱击杀，为情报传递事业献出生命。",
+    "type": "npc",
+    "faction": "Victoria Military"
+  },
+  {
+    "id": "avg_npc_238",
+    "name": {
+      "zh_CN": "凯利上尉",
+      "en_US": "Captain Kelly"
+    },
+    "description": "小丘郡驻军上尉，塔拉族出身。达米安·巴里的舅舅，在驻军内部清洗中被捕，最终将驻军制造脏弹的证据交给厨子麦克马丁。",
+    "type": "npc",
+    "faction": "Victoria Military"
+  },
+  {
+    "id": "avg_npc_242",
+    "name": {
+      "zh_CN": "克雷格",
+      "en_US": "Craig"
+    },
+    "description": "塔拉族小男孩，母亲在十七区卖苹果。达米安·巴里的表弟，父亲因矿石病去世。被其他士兵疏远但简妮给予温暖，始终紧握父亲留下的球。",
+    "type": "npc",
+    "faction": "Talar"
+  },
+  {
+    "id": "avg_npc_213",
+    "name": {
+      "zh_CN": "西尔莎",
+      "en_US": "Sylsas"
+    },
+    "description": "简妮的塔拉族朋友，在当地报社工作。达米安·巴里的表姐，为了阻止更大冲突将情报交给简妮，后被深池以「叛徒」罪名处决。",
+    "type": "npc",
+    "faction": "Talar"
+  },
+  {
+    "id": "avg_npc_240",
+    "name": {
+      "zh_CN": "克雷格母亲",
+      "en_US": "Craig's Mother"
+    },
+    "description": "塔拉族女性，在十七区小巷卖苹果。丈夫因矿石病去世，儿子克雷格被其他士兵疏远，在事变中受到简妮的保护。",
+    "type": "npc",
+    "faction": "Talar"
+  },
+  {
+    "id": "avg_npc_243",
+    "name": {
+      "zh_CN": "塔拉居民",
+      "en_US": "Talar Residents"
+    },
+    "description": "小丘郡的塔拉族原住民，长期受维多利亚工厂歧视性待遇（药品减半、防护服缺失、工资不平等），是深池崛起的社会基础。",
+    "type": "npc",
+    "faction": "Talar"
+  },
+  {
+    "id": "avg_npc_241",
+    "name": {
+      "zh_CN": "维多利亚士兵",
+      "en_US": "Victorian Soldiers"
+    },
+    "description": "小丘郡驻军士兵，对塔拉居民持歧视态度，是深池的直接对立面。部分士兵在事变中倒戈加入深池。",
+    "type": "npc",
+    "faction": "Victoria Military"
+  },
+  {
+    "id": "avg_deeppool_soldiers_6",
+    "name": {
+      "zh_CN": "深池六名干部",
+      "en_US": "Six Deeppool Cadres"
+    },
+    "description": "深池的六名干部：「会计」「囚犯」「纵火家」「毒药学者」「强盗」「雄辩家」。他们追捕被Outcast救走的深池领袖（拉芙希妮），最终被Outcast以六发子弹同时射击全部击杀。",
+    "type": "npc",
+    "faction": "Deeppool"
+  },
+  {
+    "id": "npc_fist_ch10",
+    "display_name": {
+      "zh_CN": "费斯特",
+      "en_US": "Fist"
+    },
+    "faction": "伦蒂尼姆市民自救军",
+    "avatar_key": "npc_fist_ch10",
+    "is_npc": true,
+    "description": {
+      "zh_CN": "费斯特是伦蒂尼姆市民自救军的队长，同时也是一名工匠和工程师。他带领小队进行各种地下行动，负责维护和改装设备。在制醇厂战斗中，他利用赫德雷的攻击成功逃脱，展现了高超的智慧和技术能力。他是洛洛的队长，两人在战斗中配合默契。",
+      "en_US": "Fist is the leader of the Londinium Citizens' Self-Rescue Army and also a craftsman and engineer. He leads his squad in various underground operations, maintaining and modifying equipment. At the refinery battle, he uses Hechter's attacks to escape, showing high intelligence and technical ability."
+    },
+    "source": "level_main_10-04_beg, level_main_10-08_beg, level_main_10-13_beg"
+  },
+  {
+    "id": "npc_lolo_ch10",
+    "display_name": {
+      "zh_CN": "洛洛",
+      "en_US": "Lolo"
+    },
+    "faction": "伦蒂尼姆市民自救军",
+    "avatar_key": "npc_lolo_ch10",
+    "is_npc": true,
+    "description": {
+      "zh_CN": "洛洛是费斯特的副队长，洛克十七无人机操作员。她是萨迪恩区本地人，父亲因不愿出卖城防军情报而被萨卡兹雇佣兵打死，因此对萨卡兹有强烈的仇恨。在战斗中受伤但坚持行动，负责操作洛克五号和洛克十七无人机进行侦察和攻击。",
+      "en_US": "Lolo is Fist's deputy and drone operator. She is a local of Sadiom District whose father was killed by Sarkaz mercenaries for refusing to betray intelligence. She has strong hostility toward Sarkaz. Despite being injured in battle, she persists in operating drones for reconnaissance and attacks."
+    },
+    "source": "level_main_10-04_beg, level_main_10-05_end, level_main_10-08_beg"
+  },
+  {
+    "id": "npc_bill_ch10",
+    "display_name": {
+      "zh_CN": "老比尔",
+      "en_US": "Old Bill"
+    },
+    "faction": "伦蒂尼姆市民自救军",
+    "avatar_key": "npc_bill_ch10",
+    "is_npc": true,
+    "description": {
+      "zh_CN": "老比尔是自救军的资深战士，在制醇厂战斗中被萨卡兹俘虏并受重伤。费斯特承诺会救他回来。比尔是一名焊接工匠，曾用扳手为费斯特等人制作机械零件。他对费斯特和洛洛来说如同家人一般。",
+      "en_US": "Old Bill is a veteran of the Self-Rescue Army, captured and critically wounded at the refinery. Fist promised to rescue him. Bill is a welding craftsman who made mechanical parts for Fist and others. He is like family to Fist and Lolo."
+    },
+    "source": "level_main_10-05_beg, level_main_10-08_beg, level_main_10-09_beg"
+  },
+  {
+    "id": "npc_heidi_ch10",
+    "display_name": {
+      "zh_CN": "海蒂·汤姆森",
+      "en_US": "Heidi Tomson"
+    },
+    "faction": "罗德岛信使",
+    "avatar_key": "npc_heidi_ch10",
+    "is_npc": true,
+    "description": {
+      "zh_CN": "海蒂是罗德岛在伦蒂尼姆的秘密信使，也是凯尔希的学生。她在被萨卡兹俘虏期间展现了战斗能力，最终被W救出。她负责协调自救军与罗德岛之间的联络，是救援行动的关键人物。",
+      "en_US": "Heidi is Rhodes Island's secret messenger in Londinium and a student of Kal'tsit. She showed combat ability while captured by Sarkaz and was rescued by W. She coordinates between the Self-Rescue Army and Rhodes Island, being key to the rescue operation."
+    },
+    "source": "level_main_10-08_beg, level_main_10-08_end, level_main_10-09_beg"
+  },
+  {
+    "id": "npc_mandrag_ch10",
+    "display_name": {
+      "zh_CN": "蔓德拉",
+      "en_US": "Mandrag"
+    },
+    "faction": "深池",
+    "avatar_key": "npc_mandrag_ch10",
+    "is_npc": true,
+    "description": {
+      "zh_CN": "蔓德拉是深池的术师和指挥官，小丘郡事件的始作俑者之一。她在出入口岸与罗德岛发生冲突，后被曼弗雷德的部队歼灭。她是塔拉人，为深池领袖效力，但最终被萨卡兹处决。",
+      "en_US": "Mandrag is Deep Pool's mage and commander, one of the instigators of the《小丘郡事件. She clashed with Rhodes Island at the port and was destroyed by Manfred's forces. She is a Talumed working for the Deep Pool leader but was ultimately executed by the Sarkaz."
+    },
+    "source": "level_main_10-02_beg, level_main_10-02_end, level_main_10-05_end, level_main_10-11_end"
+  },
+  {
+    "id": "npc_jonny_ch10",
+    "display_name": {
+      "zh_CN": "强尼",
+      "en_US": "Jonny"
+    },
+    "faction": "伦蒂尼姆市民自救军",
+    "avatar_key": "npc_jonny_ch10",
+    "is_npc": true,
+    "description": {
+      "zh_CN": "强尼是费斯特小队的成员，在制醇厂战斗中被赫德雷杀害。他是自救军战士，为夺回伦蒂尼姆而战。",
+      "en_US": "Jonny was a member of Fist's squad, killed by Hechter at the refinery. He was a Self-Rescue Army fighter fighting to reclaim Londinium."
+    },
+    "source": "level_main_10-09_beg"
+  },
+  {
+    "id": "npc_gabby_ch10",
+    "display_name": {
+      "zh_CN": "加比",
+      "en_US": "Gabby"
+    },
+    "faction": "伦蒂尼姆市民自救军",
+    "avatar_key": "npc_gabby_ch10",
+    "is_npc": true,
+    "description": {
+      "zh_CN": "加比是费斯特小队的成员，在制醇厂战斗中被赫德雷杀害。他是自救军战士，为夺回伦蒂尼姆而战。",
+      "en_US": "Gabby was a member of Fist's squad, killed by Hechter at the refinery. He was a Self-Rescue Army fighter fighting to reclaim Londinium."
+    },
+    "source": "level_main_10-09_beg"
+  },
+  {
+    "id": "npc_theresa_ch10",
+    "display_name": {
+      "zh_CN": "特蕾西娅",
+      "en_US": "Theresa"
+    },
+    "faction": "萨卡兹",
+    "avatar_key": "npc_theresa_ch10",
+    "is_npc": true,
+    "description": {
+      "zh_CN": "特蕾西娅是萨卡兹的先代魔王，阿米娅继承了她的力量。在伦蒂尼姆，她的影像/精神出现在战场废墟中，所有萨卡兹都停下脚步注视她。她的白发和温和的面庞给在场的人留下了深刻印象。",
+      "en_US": "Theresa is the past Demon King of the Sarkaz; Amiya inherited her power. In Londinium, her image/spirit appears in the battlefield ruins, and all Sarkaz stop to gaze at her. Her white hair and gentle face left a deep impression on those present."
+    },
+    "source": "level_main_10-15_end"
+  },
+  {
+    "id": "npc_robb_ch10",
+    "display_name": {
+      "zh_CN": "罗本",
+      "en_US": "Robben"
+    },
+    "faction": "维多利亚残余部队",
+    "avatar_key": "npc_robb_ch10",
+    "is_npc": true,
+    "description": {
+      "zh_CN": "罗本是号角的狙击手，在城墙上与曼弗雷德交战时展现出勇敢。他有一枚自制的榴弹，愿意为战友牺牲。被Misery救出后继续战斗。",
+      "en_US": "Robben is B雕's sniper, showing bravery when fighting Manfred on the wall. He has a homemade grenade and is willing to sacrifice himself for comrades. He is rescued by Misery and continues fighting."
+    },
+    "source": "level_main_10-10_beg, level_main_10-11_end, level_main_10-15_end"
+  },
+  {
+    "id": "npc_blake_ch10",
+    "display_name": {
+      "zh_CN": "布莱克",
+      "en_US": "Blake"
+    },
+    "faction": "维多利亚残余部队",
+    "avatar_key": "npc_blake_ch10",
+    "is_npc": true,
+    "description": {
+      "zh_CN": "布莱克是号角的战友，陪同号角进行各种任务。他帮助安置新来的士兵，参与与萨卡兹和深池的战斗。",
+      "en_US": "Blake is B雕's comrade, accompanying her on various missions. He helps settle newly arrived soldiers and participates in battles against Sarkaz and Deep Pool."
+    },
+    "source": "level_main_10-05_beg, level_main_10-10_beg"
+  },
+  {
+    "id": "npc_klovitz_ch10",
+    "display_name": {
+      "zh_CN": "克洛维希娅",
+      "en_US": "Klovitsch"
+    },
+    "faction": "伦蒂尼姆市民自救军",
+    "avatar_key": "npc_klovitz_ch10",
+    "is_npc": true,
+    "description": {
+      "zh_CN": "克洛维希娅是伦蒂尼姆市民自救军的指挥官，年轻的维多利亚少女。她带领自救军在萨卡兹占领下进行地下抵抗，与罗德岛合作进行营救行动。她与阿米娅年纪相仿，都承担着重任。",
+      "en_US": "Klovitsch is the commander of the Londinium Citizens' Self-Rescue Army, a young Victoria girl. She leads the underground resistance against the Sarkaz occupation and cooperates with Rhodes Island on rescue operations. She and Amiya are similar in age, both bearing heavy responsibilities."
+    },
+    "source": "level_main_10-05_beg, level_main_10-05_end, level_main_10-06_beg, level_main_10-15_end"
+  },
+  {
+    "id": "npc_misery_ch10",
+    "display_name": {
+      "zh_CN": "Misery（ch10）",
+      "en_US": "Misery (ch10)"
+    },
+    "faction": "罗德岛",
+    "avatar_key": "npc_misery_ch10",
+    "is_npc": true,
+    "description": {
+      "zh_CN": "Misery是罗德岛精英干员，擅长空间源石技艺。在伦蒂尼姆地下，她使用空间转移能力救助众人，包括营救号角和阻挡曼弗雷德。她是凯尔希派遣先行进入伦蒂尼姆的干员之一。",
+      "en_US": "Misery is a Rhodes Island elite operator skilled in spatial Arts. In the Londinium underground, she uses spatial transfer to rescue people, including B雕 and blocking Manfred. She is one of the operators Kal'tsit sent ahead into Londinium."
+    },
+    "source": "level_main_10-11_end, level_main_10-12_beg, level_main_10-15_end"
+  },
+  {
+    "id": "avg_npc_479",
+    "display_name": {
+      "zh_CN": "简妮",
+      "en_US": "Jeanne"
+    },
+    "faction": "维多利亚",
+    "description": {
+      "zh_CN": "维多利亚仪仗兵，在小丘郡事变中从迷茫的士兵成长为有独立判断力的战士，最终决定留在罗德岛。与塔拉族朋友西尔莎有超越种族隔阂的友谊，对克雷格展现善良本性。",
+      "en_US": "Victorian ceremonial soldier who grew from a confused soldier into a warrior with independent judgment during the Small Hill County incident, eventually deciding to stay with Rhodes Island."
+    },
+    "avatar_key": "avg_npc_479",
+    "is_npc": true
+  },
+  {
+    "id": "npc_aleda",
+    "display_name": {
+      "zh_CN": "阿勒黛",
+      "en_US": "Aleda"
+    },
+    "faction": "unknown",
+    "description": {
+      "zh_CN": "坎伯兰公爵的女儿，自幼梦想成为蒸汽骑士。26年前在公爵府花园首次遇见幼年的亚历山德莉娜（推进之王/维娜）。萨卡兹占领伦蒂尼姆后，她成为自救军奥克特里格区负责人，同时受某位公爵操控执行\"使命\"——窃取诸王之息。最终她放弃使命，在蒸汽骑士面前选择牺牲自己保护维娜。",
+      "en_US": "Daughter of the Duke of Cumberland. Dreamed since childhood of becoming a Steam Knight. Met young Alexandrina (Siege/Vina) in the Duke's garden 26 years ago. After Sankazi occupation, she becomes Self-Rescue Army Zone Chief in Octeridge District while secretly commissioned by a Duke to steal the Kings' Breath. She ultimately abandons her mission and sacrifices herself to protect Vina from the last Steam Knight."
+    },
+    "avatar_key": "npc_aleda",
+    "is_npc": true
+  },
+  {
+    "id": "npc_elise",
+    "display_name": {
+      "zh_CN": "艾尔希",
+      "en_US": "Elise"
+    },
+    "faction": "unknown",
+    "description": {
+      "zh_CN": "自幼陪伴阿勒黛长大的侍女和管家。在26年前的动乱中陪伴公爵府，在萨卡兹占领期间陪伴阿勒黛坚守到最后。她珍视花园中的金色灌木，希望阿勒黛能实现童年誓言成为蒸汽骑士。最终在坎伯兰公爵府的大火中牺牲。",
+      "en_US": "Maid and caretaker who grew up alongside Aleda. Accompanied the Duke's manor through the 26-year turmoil and stood by Aleda during the Sankazi occupation. Treasures the golden flowers in the garden, hoping Aleda will fulfill her childhood vow to become a Steam Knight. She ultimately perishes in the fire at Cumberland Manor."
+    },
+    "avatar_key": "npc_elise",
+    "is_npc": true
+  },
+  {
+    "id": "npc_last_steam",
+    "display_name": {
+      "zh_CN": "最后的蒸汽骑士",
+      "en_US": "The Last Steam Knight"
+    },
+    "faction": "unknown",
+    "description": {
+      "zh_CN": "在诸王长眠之所坚守四年的蒸汽骑士。26年前被议会调离伦蒂尼姆，返回后遭遇萨卡兹的伏击，幸存者躲入地下。他将诸王之息视为自己最后守护的\"维多利亚\"，向试图带走它的亚历山德莉娜发起冲锋。最终在阿勒黛用石像阻挡后，记忆中出现了一个女孩为他落泪的画面。",
+      "en_US": "The Steam Knight who guarded the Kings' Resting Place for four years. Was recalled from Lungmen by Parliament 26 years ago, returned to find a Sankazi ambush, and the survivors hid underground. He treats the Kings' Breath as his last 'Victoria' and charges at Alexandrina for trying to take it. In his final moments, a memory surfaces — a girl crying for him."
+    },
+    "avatar_key": "npc_last_steam",
+    "is_npc": true
+  },
+  {
+    "id": "npc_qianjiao",
+    "display_name": {
+      "zh_CN": "铅踝",
+      "en_US": "Qianjiao"
+    },
+    "faction": "unknown",
+    "description": {
+      "zh_CN": "雇佣兵，差一个月从业14年。与因陀罗、摩根等格拉斯哥帮成员一起协助推进之王行动。任务是协助阿勒黛将诸王之息带出诸王长眠之所。他向达格达讲述\"活着很难\"的道理。最终在废墟中用烟雾弹掩护撤退。",
+      "en_US": "Mercenary, 14 years minus one month in the profession. Works with the Glasgow Gang (Indra, Morgan, etc.) to assist Siege. His mission is to help Aleda smuggle the Kings' Breath out of the Royal Tomb. He teaches Dagda that 'living is hard.' Uses his last smoke bomb to cover the retreat at the end."
+    },
+    "avatar_key": "npc_qianjiao",
+    "is_npc": true
+  },
+  {
+    "id": "npc_clouzing",
+    "display_name": {
+      "zh_CN": "克洛维希娅",
+      "en_US": "Clouzing"
+    },
+    "faction": "unknown",
+    "description": {
+      "zh_CN": "伦蒂尼姆市民自救军指挥官，与阿勒黛共同创建。与城防军对峙时发表\"我们不是来杀戮的，我们只是想活下去\"的演说。指挥对城防军指挥塔的突袭行动。",
+      "en_US": "Commander of the Lonedin Citizens' Self-Rescue Army, co-founded with Aleda. Delivers speeches like 'We are not here to kill, we just want to live' when confronting the City Defense Army. Commands the raid on the City Defense Command Tower."
+    },
+    "avatar_key": "npc_clouzing",
+    "is_npc": true
+  },
+  {
+    "id": "npc_fust",
+    "display_name": {
+      "zh_CN": "费斯特",
+      "en_US": "Fust"
+    },
+    "faction": "unknown",
+    "description": {
+      "zh_CN": "凯瑟琳的孙子，十一号军工厂的年轻工人代表。三年前逃离工厂加入自救军，后返回工厂获取萨卡兹补给线情报。带领工人们冲入刑场救出祖母。精通机械，与可露希尔合作使用无人机控制自行源石炮。",
+      "en_US": "Grandson of Cathleen, young worker representative at Factory No.11. Fled the factory three years ago to join the Self-Rescue Army, then returned to gather intelligence on Sankazi supply lines. Led workers to storm the execution site and rescue his grandmother. Skilled with machinery; cooperated with的可露希尔 to use drones to control mobile source stone artillery."
+    },
+    "avatar_key": "npc_fust",
+    "is_npc": true
+  },
+  {
+    "id": "npc_cathleen",
+    "display_name": {
+      "zh_CN": "凯瑟琳",
+      "en_US": "Cathleen"
+    },
+    "faction": "unknown",
+    "description": {
+      "zh_CN": "十一号军工厂的老工人代表，曾被选为工人代表的女杰。她打造过蒸汽甲胄，深知萨卡兹补给线位置。为保护其他工人而向萨卡兹妥协，直到被萨卡兹处决时被费斯特等人救出。她将格林的指套交给明椒，说\"你还不理解战争是什么\"。",
+      "en_US": "Veteran worker representative at Factory No.11, once chosen as a model worker representative. Built steam armor herself and knows the location of Sankazi supply lines. Compromise with the Sankazi to protect other workers, until sentenced to execution and rescued by Fust and the workers. Gives Grane's finger guard to Peper, saying 'you still don't understand war.'"
+    },
+    "avatar_key": "npc_cathleen",
+    "is_npc": true
+  },
+  {
+    "id": "npc_goldin",
+    "display_name": {
+      "zh_CN": "戈尔丁",
+      "en_US": "Goldin"
+    },
+    "faction": "unknown",
+    "description": {
+      "zh_CN": "圣马尔索学校教师，高卢遗民出身。坚持\"只要有光，我们就会向光而行\"的信念，培养孩子们的戏剧演出。莱托中校曾是她信任的学生，如今却与萨卡兹合作。变形者潜伏在她身边以\"茉莉\"身份收集情报。",
+      "en_US": "Teacher at Saint-Marso School, of Gaul descent. Holds firm to the belief 'where there is light, we will walk toward it,' nurturing children through drama performances. Colonel Ledou was once her trusted student but now collaborates with the Sankazi. A Shapeshifter infiltrates as 'Mo莉' to gather intelligence beside her."
+    },
+    "avatar_key": "npc_goldin",
+    "is_npc": true
+  },
+  {
+    "id": "npc_hedy",
+    "display_name": {
+      "zh_CN": "海蒂",
+      "en_US": "Hedy"
+    },
+    "faction": "unknown",
+    "description": {
+      "zh_CN": "戈尔丁通过读书会结识的文学界朋友，实际上是情报工作者。为伦蒂尼姆市民的生存而战，在萨卡兹占领期间送出大量情报。称赞戈尔丁是\"伦蒂尼姆最有眼光的评论家\"。",
+      "en_US": "Literary friend who met Goldin through a reading club, actually an intelligence operative. Fights for the survival of Lonedin citizens, sending large amounts of intelligence during the Sankazi occupation. Calls Goldin 'the most discerning critic in Lonedin.'"
+    },
+    "avatar_key": "npc_hedy",
+    "is_npc": true
+  },
+  {
+    "id": "npc_jasmine",
+    "display_name": {
+      "zh_CN": "茉莉",
+      "en_US": "Mo莉"
+    },
+    "faction": "unknown",
+    "description": {
+      "zh_CN": "戈尔丁的助手，在圣马尔索学校照顾孩子们。她不记得莱托中校（因为真正的她已被变形者替换）。莱托曾在这所学校学习，与她同期。",
+      "en_US": "Goldin's teaching assistant at Saint-Marso School, caring for the children. She doesn't remember Colonel Ledou because the real Mo莉 has been replaced by a Shapeshifter. Ledou studied at this school and was her contemporary."
+    },
+    "avatar_key": "npc_jasmine",
+    "is_npc": true
+  },
+  {
+    "id": "npc_shapeshifter",
+    "display_name": {
+      "zh_CN": "变形者",
+      "en_US": "Shapeshifter"
+    },
+    "faction": "unknown",
+    "description": {
+      "zh_CN": "萨卡兹变形者，伪装成茉莉潜伏在戈尔丁身边收集情报。它对\"茉莉\"关心儿童的纯粹情感感到困惑，声称\"我们对你们很感兴趣\"。在地下剧场中邀请博士加入演出。",
+      "en_US": "Sarkaz Shapeshifter infiltrating as Mo莉 beside Goldin to gather intelligence. It is puzzled by the pure emotion of 'Mo莉' caring for children and claims 'we find you very interesting.' Invites the Doctor to join the play in the underground theater."
+    },
+    "avatar_key": "npc_shapeshifter",
+    "is_npc": true
+  },
+  {
+    "id": "npc_klovitsch",
+    "display_name": {
+      "zh_CN": "克洛维切奇",
+      "en_US": "Klovitsch"
+    },
+    "faction": "unknown",
+    "description": {
+      "zh_CN": "操控阿勒黛执行\"使命\"的幕后公爵，高卢遗民势力之一。他通过信件与阿勒黛联系，以\"诸王之息\"为筹码威慑其他公爵加入自己的阵营。26年前的政变中，他可能参与了蒸汽骑士的调离。",
+      "en_US": "The Duke manipulating Aleda through her 'mission,' a Gaul descendant faction leader. He communicates with Aleda through letters, using the Kings' Breath as leverage to intimidate other Dukes into joining his faction. He may have been involved in recalling the Steam Knights during the 26-year-ago coup."
+    },
+    "avatar_key": "npc_klovitsch",
+    "is_npc": true
+  },
+  {
+    "id": "npc_ledou",
+    "display_name": {
+      "zh_CN": "莱托中校",
+      "en_US": "Colonel Ledou"
+    },
+    "faction": "unknown",
+    "description": {
+      "zh_CN": "伦蒂尼姆城防军指挥官，高卢遗民，父亲是资助戈尔丁学校的高卢人。他以\"高卢遗民\"身份与特雷西斯合作，用城防军为萨卡兹服务，交换条件是让高卢城市在维多利亚乱局中回归。他敬佩凯瑟琳，称其为\"曾被选为工人代表的女杰\"。",
+      "en_US": "City Defense Force Commander, of Gaul descent, whose father funded Goldin's school. Cooperates with Theresa as a 'Gaul descendant,' using the City Defense Army to serve the Sankazi in exchange for Gaul cities to return during Victoria's chaos. Respects Cathleen as 'a true worker representative heroine.'"
+    },
+    "avatar_key": "npc_ledou",
+    "is_npc": true
+  },
+  {
+    "id": "npc_meiqiao",
+    "display_name": {
+      "zh_CN": "明椒",
+      "en_US": "Peper"
+    },
+    "faction": "unknown",
+    "description": {
+      "zh_CN": "萨卡兹年轻雇佣兵，格林的\"徒弟\"，在哥伦比亚长大。她的父母都是佣兵，已去世，由姥姥带大。格林牺牲后，她被迫执行处决凯瑟琳的命令，但最终无法下手。她的指套是格林留下的遗物。",
+      "en_US": "Young Sarkaz mercenary, 'apprentice' of Grane, raised in Columbia. Her parents were mercenaries who died; she was raised by her grandmother. After Grane's death, she was forced to execute Cathleen but ultimately couldn't do it. The finger guard is Grane's keepsake."
+    },
+    "avatar_key": "npc_meiqiao",
+    "is_npc": true
+  },
+  {
+    "id": "npc_workers",
+    "display_name": {
+      "zh_CN": "十一号军工厂工人们",
+      "en_US": "Factory No.11 Workers"
+    },
+    "faction": "unknown",
+    "description": {
+      "zh_CN": "十一号军工厂的工人们，在费斯特的感召下选择集体反抗。他们高呼口号冲向刑场救回凯瑟琳和其他老工人代表。乔治用扳手击打萨卡兹雇佣兵队长。",
+      "en_US": "Workers of Factory No.11, inspired by Fust to collectively resist. They cheer and storm the execution site to rescue Cathleen and other veteran foremen. George smacks the Sankazi mercenary captain with a wrench."
+    },
+    "avatar_key": "npc_workers",
+    "is_npc": true
+  },
+  {
+    "id": "npc_steamarmor",
+    "display_name": {
+      "zh_CN": "坎伯兰家蒸汽甲胄",
+      "en_US": "Cumberland Family Steam Armor"
+    },
+    "faction": "unknown",
+    "description": {
+      "zh_CN": "初代坎伯兰蒸汽骑士的残缺甲胄，在公爵府阁楼保存了26年。26年前的宴会上，年幼的阿勒黛躲在甲胄后偷听，被甲胄中的幻象所救。它是坎伯兰家\"永远高洁\"的象征，艾尔希说\"它不该被商人当作货品\"。",
+      "en_US": "Damaged armor of the first Cumberland Steam Knight, stored in the Duke's manor attic for 26 years. At the banquet 26 years ago, young Aleda hid behind it and was saved by the phantom within. It symbolizes Cumberland's 'eternal purity.' Elise says 'it should not be bartered away as merchandise by a merchant.'"
+    },
+    "avatar_key": "npc_steamarmor",
+    "is_npc": true
+  },
+  {
+    "id": "npc_steamknight_legacy",
+    "display_name": {
+      "zh_CN": "蒸汽骑士的亡骸",
+      "en_US": "Fallen Steam Knights"
+    },
+    "faction": "unknown",
+    "description": {
+      "zh_CN": "诸王长眠之所中32具蒸汽骑士的遗骸，他们全部死于26年前萨卡兹的伏击。被议会调离后返回的蒸汽骑士一头撞进萨卡兹在诸王长眠之所设下的包围网。达格达逐一向他们行骑士礼，推进之王哀叹\"维多利亚杀死了它自己\"。",
+      "en_US": "32 Steam Knight corpses in the Kings' Resting Place, all killed in a Sankazi ambush 26 years ago. The Steam Knights recalled by Parliament charged into a Sankazi trap set in the Royal Tomb itself. Dagda salutes each one; Siege mourns 'Victoria killed itself.'"
+    },
+    "avatar_key": "npc_steamknight_legacy",
+    "is_npc": true
+  },
+  {
+    "id": "npc_theresa_prime",
+    "display_name": {
+      "zh_CN": "特雷西斯",
+      "en_US": "Theresa Prime"
+    },
+    "faction": "unknown",
+    "description": {
+      "zh_CN": "萨卡兹摄政王，军事委员会最高领袖。特雷西斯的傀儡\"特蕾西娅\"（可能是复制品或特雷西斯控制的替身）服从她的命令。她宣称\"我会再杀死你一次，凯尔希\"，揭露凯尔希两百年前参与毁灭卡兹戴尔的历史。",
+      "en_US": "Sarkaz Regent, supreme leader of the Military Committee. Her puppet 'Theresa' (possibly a duplicate or controlled substitute) obeys her commands. She declares 'I will kill you again, Kal'tsit,' revealing Kal'tsit's history of participating in the destruction of Kazdel two hundred years ago."
+    },
+    "avatar_key": "npc_theresa_prime",
+    "is_npc": true
+  },
+  {
+    "id": "npc_forgiver_elite_ch11",
+    "display_name": {
+      "zh_CN": "赦罪师直属卫兵",
+      "en_US": "Inquisitor Elite Guard"
+    },
+    "faction": "unknown",
+    "description": {
+      "zh_CN": "赦罪师的直属卫兵，使用赦罪师的巫术。他们在城防军指挥塔战斗中现身，使用消耗生命的巫术攻击罗德岛和自救军战士，最终被闪灵逐一斩杀。",
+      "en_US": "Elite Guards of the Inquisitor, using the Inquisitor's Arts. They appeared during the City Defense Command Tower battle, using life-draining Arts against Rhodes Island and Self-Rescue fighters, ultimately slain one by one by Shining."
+    },
+    "avatar_key": "npc_forgiver_elite_ch11",
+    "is_npc": true
+  },
+  {
+    "id": "npc_beld_ch12",
+    "display_name": {
+      "zh_CN": "贝尔德",
+      "en_US": "Beld"
+    },
+    "faction": "格拉斯哥帮",
+    "description": "格拉斯哥帮的成员，推进之王的长期战友。在诺伯特区沦陷期间守护拳馆，被惊慌的录像厅老板麦克拉伦误杀牺牲。",
+    "avatar_key": "npc_beld_ch12",
+    "is_npc": true
+  },
+  {
+    "id": "npc_cador_ch12",
+    "display_name": {
+      "zh_CN": "卡铎尔",
+      "en_US": "Cador"
+    },
+    "faction": "格拉斯哥帮",
+    "description": "格拉斯哥帮的成员，性格直接但内心柔软。在贝尔德牺牲后独自去找她，展现帮派兄弟情谊。",
+    "avatar_key": "npc_cador_ch12",
+    "is_npc": true
+  },
+  {
+    "id": "npc_windmere_ch12",
+    "display_name": {
+      "zh_CN": "温德米尔公爵",
+      "en_US": "Duchess Windmere"
+    },
+    "faction": "维多利亚公爵",
+    "description": "温德米尔公爵，维多利亚大公爵之一，戴菲恩的母亲。派遣军舰接应诺伯特区难民，救出女儿戴菲恩。在ch12发现飞空艇威胁后率先发出警告。",
+    "avatar_key": "npc_windmere_ch12",
+    "is_npc": true
+  },
+  {
+    "id": "npc_soulsumm_ch12",
+    "display_name": {
+      "zh_CN": "死魂灵",
+      "en_US": "Soul-Summoner"
+    },
+    "faction": "萨卡兹王庭",
+    "description": "萨卡兹古代空中要塞，以巨量亡魂为力量核心的意识体。飞空艇是死魂灵的躯体，承载着萨卡兹三千年的苦难记忆。曼弗雷德利用死魂灵的力量引诱公爵们前来。",
+    "avatar_key": "npc_soulsumm_ch12",
+    "is_npc": true
+  },
+  {
+    "id": "npc_exusia_ch12",
+    "display_name": {
+      "zh_CN": "号角",
+      "en_US": "Exusia"
+    },
+    "faction": "维多利亚",
+    "description": "号角是维多利亚军队的军官，ch12中在诺伯特区撤离战斗中英勇抵抗萨卡兹围剿，留下最后一枚榴弹断后。",
+    "avatar_key": "npc_exusia_ch12",
+    "is_npc": true
   }
 ]

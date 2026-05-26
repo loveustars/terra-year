@@ -1,0 +1,370 @@
+[
+  {
+    "id": "rel_siege_morgan",
+    "source": "char_112_siege",
+    "target": "char_aa6c82c1",
+    "relation_type": "ally",
+    "relation_label": {"zh_CN": "格拉斯哥帮战友·生死与共", "en_US": "Glasgow Gang Comrade"},
+    "description": {"zh_CN": "摩根是推进之王的格拉斯哥帮战友，共同经历诺伯特区的沦陷与撤离，在战友贝尔德牺牲后彼此支撑。", "en_US": "Morgan is Siege's Glasgow Gang comrade; together they survived the Norbeton collapse."},
+    "first_appear_event_id": "main_ch12",
+    "associated_event_id": "main_ch12",
+    "evidences": [
+      {
+        "source_story": "level_main_12-07_end",
+        "quote": {"zh_CN": "维娜，亚历山德莉娜·维娜·维多利亚殿下，带着诸王之息回来了！", "en_US": "Vina Alexandria Vina Victoria, with the King's Breath, has returned!"},
+        "context_analysis": {"zh_CN": "摩根在混乱中揭示推进之王的真实身份，以国王的名义团结民众", "en_US": "Morgan reveals Siege's identity to rally the people during chaos"}
+      },
+      {
+        "source_story": "level_main_12-18_end",
+        "quote": {"zh_CN": "战争会结束的，对吧。", "en_US": "The war will end, right?"},
+        "context_analysis": {"zh_CN": "战后，摩根与推进之王互相扶持，对未来抱有微弱的希望", "en_US": "After the battle, Morgan and Siege support each other with fragile hope for the future"}
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_siege_beld",
+    "source": "char_112_siege",
+    "target": "npc_beld_ch12",
+    "relation_type": "ally",
+    "relation_label": {"zh_CN": "格拉斯哥帮战友·街头的家人", "en_US": "Glasgow Gang Comrade & Family"},
+    "description": {"zh_CN": "贝尔德是推进之王最信任的格拉斯哥帮战友，负责守护拳馆，被麦克拉伦误杀牺牲。", "en_US": "Beld was Siege's most trusted Glasgow Gang comrade, guarding the gym; killed by McLaren in panic."},
+    "first_appear_event_id": "main_ch12",
+    "associated_event_id": "main_ch12",
+    "evidences": [
+      {
+        "source_story": "level_main_12-07_end",
+        "quote": {"zh_CN": "维娜，能看到你回到这里，我也......很高兴。", "en_US": "Vina, I'm glad to see you back here."},
+        "context_analysis": {"zh_CN": "贝尔德与推进之王重逢，表达真挚的战友之情", "en_US": "Beld expresses genuine joy at reuniting with Siege"}
+      },
+      {
+        "source_story": "level_main_12-18_beg",
+        "quote": {"zh_CN": "贝尔德死了。", "en_US": "Beld is dead."},
+        "context_analysis": {"zh_CN": "摩根向因陀罗确认贝尔德的死讯，推进之王无言承受", "en_US": "Morgan confirms Beld's death to Indra; Siege accepts in silence"}
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_siege_indra",
+    "source": "char_112_siege",
+    "target": "char_5e011deb",
+    "relation_type": "ally",
+    "relation_label": {"zh_CN": "格拉斯哥帮战友·街头岁月", "en_US": "Glasgow Gang Comrade"},
+    "description": {"zh_CN": "因陀罗是推进之王的格拉斯哥帮战友，性格火爆，贝尔德牺牲后悲愤交加。", "en_US": "Indra is Siege's volatile Glasgow Gang comrade; devastated by Beld's death."},
+    "first_appear_event_id": "main_ch12",
+    "associated_event_id": "main_ch12",
+    "evidences": [
+      {
+        "source_story": "level_main_12-15_end",
+        "quote": {"zh_CN": "维娜，难道连你也要抛下贝尔德？那可是贝尔德！", "en_US": "Vina! Are you going to abandon Beld too?"},
+        "context_analysis": {"zh_CN": "因陀罗得知贝尔德死讯后悲愤，要求推进之王采取行动", "en_US": "Indra rages upon learning Beld's death, demanding action"}
+      },
+      {
+        "source_story": "level_main_12-15_end",
+        "quote": {"zh_CN": "为了格拉斯哥帮！！", "en_US": "For Glasgow Gang!!"},
+        "context_analysis": {"zh_CN": "因陀罗最后选择信任推进之王，带领众人冲向封锁墙", "en_US": "Indra ultimately trusts Siege and charges toward the blockade wall"}
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_siege_dagda",
+    "source": "char_112_siege",
+    "target": "char_29fe53d2",
+    "relation_type": "ally",
+    "relation_label": {"zh_CN": "格拉斯哥帮战友·骑士", "en_US": "Glasgow Gang Comrade & Knight"},
+    "description": {"zh_CN": "达格达（伊莎贝尔·孟塔古）是推进之王的格拉斯哥帮战友，曼彻斯特伯爵家的小姐。", "en_US": "Dagda (Isabelle Montague) is Siege's Glasgow Gang comrade from a noble house."},
+    "first_appear_event_id": "main_ch12",
+    "associated_event_id": "main_ch12",
+    "evidences": [
+      {
+        "source_story": "level_main_12-07_end",
+        "quote": {"zh_CN": "无论是谁，让他们放马过来。", "en_US": "Whoever it is, let them come."},
+        "context_analysis": {"zh_CN": "达格达与推进之王并肩，表示愿意共同应对挑战", "en_US": "Dagda stands with Siege, ready to face whatever comes"}
+      },
+      {
+        "source_story": "level_main_12-18_end",
+        "quote": {"zh_CN": "恕我冒昧，公爵阁下，您会如何运用这种力量呢？", "en_US": "Forgive my intrusion, Duchess, how will you wield this power?"},
+        "context_analysis": {"zh_CN": "达格达战后质问温德米尔公爵，展现骑士的质疑精神", "en_US": "Dagda questions the Duchess after the battle, showing her knightly spirit"}
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_siege_cador",
+    "source": "char_112_siege",
+    "target": "npc_cador_ch12",
+    "relation_type": "ally",
+    "relation_label": {"zh_CN": "格拉斯哥帮战友·复杂的信任", "en_US": "Glasgow Gang Comrade · Complex Trust"},
+    "description": {"zh_CN": "卡铎尔是推进之王的格拉斯哥帮战友，因战争的残酷和无力感而愤怒，最终选择去寻找贝尔德。", "en_US": "Cador is Siege's Glasgow Gang comrade, angry and disillusioned by the war, chooses to find Beld."},
+    "first_appear_event_id": "main_ch12",
+    "associated_event_id": "main_ch12",
+    "evidences": [
+      {
+        "source_story": "level_main_12-10_beg",
+        "quote": {"zh_CN": "这里没有你的格拉斯哥帮。你什么都不是！", "en_US": "There is no Glasgow Gang here. You're nothing!"},
+        "context_analysis": {"zh_CN": "卡铎尔向推进之王表达愤怒，质疑她的王族身份", "en_US": "Cador explodes at Siege, questioning her royal identity"}
+      },
+      {
+        "source_story": "level_main_12-15_end",
+        "quote": {"zh_CN": "贝尔德是我的人，当然也只能我罩着她。", "en_US": "Beld is mine, I'll take care of her myself."},
+        "context_analysis": {"zh_CN": "贝尔德死后，卡铎尔选择独自去找她，展现帮派兄弟情谊", "en_US": "After Beld's death, Cador chooses to go find her, showing gang brotherhood"}
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_siege_delphn",
+    "source": "char_112_siege",
+    "target": "char_f9f3ca5f",
+    "relation_type": "ally",
+    "relation_label": {"zh_CN": "临时战友·大公爵之女", "en_US": "Temporary Ally · Duchess's Daughter"},
+    "description": {"zh_CN": "戴菲恩·温德米尔是温德米尔公爵的女儿，与推进之王在诺伯特区共同经历危机，广播计划失败后依靠母亲救援。", "en_US": "Daphne Windmira is Duchess Windmere's daughter; fought alongside Siege in Norbeton."},
+    "first_appear_event_id": "main_ch12",
+    "associated_event_id": "main_ch12",
+    "evidences": [
+      {
+        "source_story": "level_main_12-11_end",
+        "quote": {"zh_CN": "温德米尔公爵的高速军舰会在日出后不久靠近这里。", "en_US": "The Duchess Windmere's warships will approach shortly after dawn."},
+        "context_analysis": {"zh_CN": "戴菲恩解释温德米尔公爵的支援计划", "en_US": "Daphne explains the Duchess Windmere's support plan"}
+      },
+      {
+        "source_story": "level_main_12-18_end",
+        "quote": {"zh_CN": "他们已经全部登舰，接下来他们会暂时受温德米尔公爵的庇护。", "en_US": "They've all boarded; they'll be under Duchess Windmere's protection for now."},
+        "context_analysis": {"zh_CN": "戴菲恩协助推进之王安置诺伯特区难民", "en_US": "Daphne helps Siege settle the Norbeton refugees"}
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_delphn_windmere",
+    "source": "char_f9f3ca5f",
+    "target": "npc_windmere_ch12",
+    "relation_type": "ally",
+    "relation_label": {"zh_CN": "母女·温德米尔公爵与戴菲恩", "en_US": "Mother-Daughter · Duchess Windmere & Daphne"},
+    "description": {"zh_CN": "温德米尔公爵是戴菲恩的母亲，派遣军舰接应诺伯特区难民，接回了女儿戴菲恩。", "en_US": "Duchess Windmere is Daphne's mother; sent warships to rescue Norbeton refugees and her daughter."},
+    "first_appear_event_id": "main_ch12",
+    "associated_event_id": "main_ch12",
+    "evidences": [
+      {
+        "source_story": "level_main_12-18_beg",
+        "quote": {"zh_CN": "我得在那风暴形成之前，找到戴菲恩！", "en_US": "I must find Daphne before that storm forms!"},
+        "context_analysis": {"zh_CN": "温德米尔公爵发现飞空艇将引来风暴后，第一优先是找到女儿", "en_US": "Duchess Windmere prioritizes finding her daughter upon discovering the airship threat"}
+      },
+      {
+        "source_story": "level_main_12-18_end",
+        "quote": {"zh_CN": "她刚刚在房间里大哭了一场。", "en_US": "She just had a good cry in her room."},
+        "context_analysis": {"zh_CN": "温德米尔公爵向博士解释女儿经历的一切", "en_US": "The Duchess explains to the Doctor what Daphne went through"}
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_delphn_ines",
+    "source": "char_f9f3ca5f",
+    "target": "char_a2026b00",
+    "relation_type": "ally",
+    "relation_label": {"zh_CN": "救命之恩·信任建立", "en_US": "Debt of Gratitude · Trust Building"},
+    "description": {"zh_CN": "伊内丝救了被困于萨卡兹酒店的戴菲恩·温德米尔，戴菲恩承诺欠伊内丝一次，并联系母亲提供援助。", "en_US": "Ines saved Daphne trapped in the Sari hotel; Daphne promised a favor and contacted her mother for help."},
+    "first_appear_event_id": "main_ch12",
+    "associated_event_id": "main_ch12",
+    "evidences": [
+      {
+        "source_story": "level_main_12-11_end",
+        "quote": {"zh_CN": "伊内丝女士，你救了我一命，这确实......很感谢你。", "en_US": "Ms. Ines, you saved my life. Thank you sincerely."},
+        "context_analysis": {"zh_CN": "戴菲恩坦诚承认欠伊内丝一次", "en_US": "Daphne openly acknowledges owing Ines a favor"}
+      },
+      {
+        "source_story": "level_main_12-11_end",
+        "quote": {"zh_CN": "我们会试着在你们需要的方面帮忙，我需要联络我的母亲。", "en_US": "We'll try to help you. I need to contact my mother."},
+        "context_analysis": {"zh_CN": "戴菲恩承诺联络温德米尔公爵提供援助", "en_US": "Daphne promises to contact Duchess Windmere for aid"}
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_ines_hoeder_w",
+    "source": "char_a2026b00",
+    "target": "char_4a5b4cb2",
+    "relation_type": "ally",
+    "relation_label": {"zh_CN": "萨卡兹佣兵搭档·老战友重逢", "en_US": "Sarkaz Mercenary Partner · Old Friends Reunited"},
+    "description": {"zh_CN": "伊内丝与赫德雷是萨卡兹佣兵时代的老搭档。伊内丝从飞空艇坠落时，赫德雷和W用余烬网接住了她。", "en_US": "Ines and Hoederer are old mercenary partners; they caught Ines with ashes when she fell from the airship."},
+    "first_appear_event_id": "main_ch12",
+    "associated_event_id": "main_ch12",
+    "evidences": [
+      {
+        "source_story": "level_main_12-18_beg",
+        "quote": {"zh_CN": "赫德雷，算了，直接埋了吧。", "en_US": "Hoederer, forget it, just bury her."},
+        "context_analysis": {"zh_CN": "W与赫德雷早已在下方布置余烬网接应伊内丝", "en_US": "W and Hoederer had prepared an ash net below to catch Ines"}
+      },
+      {
+        "source_story": "level_main_12-18_beg",
+        "quote": {"zh_CN": "你伤得不轻。/怕。/你老是把自己弄得灰头土脸，是不是这个副作用啊？", "en_US": "You're hurt badly. / I was scared. / Is being covered in ash a side effect?"},
+        "context_analysis": {"zh_CN": "三人重逢后互相关照，伊内丝与老搭档赫德雷和W叙旧", "en_US": "The three reunite and catch up; Ines with old partners Hoederer and W"}
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_ines_misery",
+    "source": "char_a2026b00",
+    "target": "npc_misery",
+    "relation_type": "ally",
+    "relation_label": {"zh_CN": "罗德岛同僚·共同行动", "en_US": "Rhodes Island Colleague · Joint Operation"},
+    "description": {"zh_CN": "伊内丝与Misery在诺伯特区撤离行动中并肩作战，共同掩护撤退。", "en_US": "Ines and Misery fought together during the Norbeton evacuation, covering the retreat."},
+    "first_appear_event_id": "main_ch12",
+    "associated_event_id": "main_ch12",
+    "evidences": [
+      {
+        "source_story": "level_main_12-02_end",
+        "quote": {"zh_CN": "Misery，博士，敌人使用了新式的萨卡兹巫术装置。", "en_US": "Misery, Doctor, the enemy used new Sarkaz wraith devices."},
+        "context_analysis": {"zh_CN": "Misery在撤离战斗中向博士汇报战场情况", "en_US": "Misery reports the battlefield situation to the Doctor during the evacuation"}
+      },
+      {
+        "source_story": "level_main_12-05_end",
+        "quote": {"zh_CN": "Misery，保护好他们，你们还要继续往前走。", "en_US": "Misery, protect them. You need to keep moving."},
+        "context_analysis": {"zh_CN": "号角让Misery掩护伤员继续撤离", "en_US": "Exusia tells Misery to protect and escort the wounded to continue the evacuation"}
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_ines_logos",
+    "source": "char_a2026b00",
+    "target": "char_4133_logos",
+    "relation_type": "ally",
+    "relation_label": {"zh_CN": "巴别塔旧友·信任与合作", "en_US": "Babel Old Comrades · Trust and Cooperation"},
+    "description": {"zh_CN": "伊内丝是巴别塔（Babel）组织成员，与Logos、凯尔希等人共同见证了萨卡兹王庭的兴衰。Logos吹响骨哨促使变形者新生。", "en_US": "Ines was a Babel member alongside Logos and Kal'tsit; Logos blew the bone whistle causing the Shifter to be reborn."},
+    "first_appear_event_id": "main_ch12",
+    "associated_event_id": "main_ch12",
+    "evidences": [
+      {
+        "source_story": "level_main_12-17_end",
+        "quote": {"zh_CN": "赫德雷有个敏锐的好搭档，我该为他高兴吗？", "en_US": "Hoederer has a sharp partner. Should I be happy for him?"},
+        "context_analysis": {"zh_CN": "曼弗雷德称赞伊内丝的洞察力，伊内丝曾报告深池/伦蒂尼姆动向", "en_US": "Manfred praises Ines's insight; she had reported Deep Pool/Lundonium movements"}
+      },
+      {
+        "source_story": "level_main_12-18_end",
+        "quote": {"zh_CN": "骨哨声...... Logos视骨哨为旧王庭可悲的传统......但这确实是丧钟之主的骨哨。", "en_US": "Bone whistle... Logos always refused to blow it... but this is indeed the bone whistle of the Lord of丧钟."},
+        "context_analysis": {"zh_CN": "Logos吹响骨哨，导致变形者的集群在同一刻凋零并新生为两个初生的变形者", "en_US": "Logos blew the bone whistle, causing the Shifter cluster to wither and be reborn as two new entities"}
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_logos_shifter",
+    "source": "char_4133_logos",
+    "target": "npc_shifter",
+    "relation_type": "rival",
+    "relation_label": {"zh_CN": "死敌·王庭宿仇", "en_US": "Sworn Enemies · Ancient Court Rivalry"},
+    "description": {"zh_CN": "Logos作为王庭女妖一直在追猎变形者，最终通过吹响骨哨（丧钟之主的声音）促使变形者的亘古统一的集群凋亡并新生为两个独立的个体。", "en_US": "Logos the Court Witch had long hunted the Shifter; blew the bone whistle causing the ancient unified cluster to die and be reborn as two."},
+    "first_appear_event_id": "main_ch12",
+    "associated_event_id": "main_ch12",
+    "evidences": [
+      {
+        "source_story": "level_main_12-06_beg",
+        "quote": {"zh_CN": "我会奏响你的挽歌，全部的你。", "en_US": "I will play your requiem, all of you."},
+        "context_analysis": {"zh_CN": "Logos在幻境中与变形者对话，表明追杀决心", "en_US": "Logos declares her intent to destroy every fragment of the Shifter in the illusory realm"}
+      },
+      {
+        "source_story": "level_main_12-18_end",
+        "quote": {"zh_CN": "变形者死去了，最为恒久的王庭就此崩塌。......还是两个新生？", "en_US": "The Shifter is dead. The most enduring Court has collapsed... Or is it two new births?"},
+        "context_analysis": {"zh_CN": "特雷西斯确认变形者的集群在骨哨声中凋亡并产生两个新生体", "en_US": "Therasis confirms the Shifter's cluster died at the bone whistle, producing two new entities"}
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_amiya_logos",
+    "source": "char_002_amiya",
+    "target": "char_4133_logos",
+    "relation_type": "ally",
+    "relation_label": {"zh_CN": "巴别塔传承·魔王与女妖", "en_US": "Babel Legacy · Demon King & Witch"},
+    "description": {"zh_CN": "Logos在巴别塔时期与阿米娅（特蕾西娅传承的魔王）并肩作战，共同对抗萨卡兹王庭。Logos是萨卡兹王庭最古老的王庭之主之一（女妖/丧钟之主）。", "en_US": "Logos fought alongside Amiya (the Demon King's heir) at Babel; one of the oldest Court Lords (Witch/Death-Knell Lord)."},
+    "first_appear_event_id": "main_ch12",
+    "associated_event_id": "main_ch12",
+    "evidences": [
+      {
+        "source_story": "level_main_12-14_beg",
+        "quote": {"zh_CN": "死魂灵阁下，请您带领我们离开这里。这狭小的船坞容纳不下您的愤怒。", "en_US": "Lord Soul-Summoner, please guide us from here. This cramped dock cannot hold your fury."},
+        "context_analysis": {"zh_CN": "Logos作为王庭成员与曼弗雷德/萨卡兹军方共事", "en_US": "Logos interacts with Manfred and the Sarkaz military as a Court member"}
+      },
+      {
+        "source_story": "level_main_12-18_end",
+        "quote": {"zh_CN": "新生从灭亡中来。", "en_US": "New life comes from destruction."},
+        "context_analysis": {"zh_CN": "Logos的哲学宣言，预示着变形者的新生", "en_US": "Logos's philosophical declaration, foreshadowing the Shifter's rebirth"}
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_amiya_shifter",
+    "source": "char_002_amiya",
+    "target": "npc_shifter",
+    "relation_type": "unknown",
+    "relation_label": {"zh_CN": "对话·异族魔王与变形者", "en_US": "Dialogue · Non-Sarkaz Demon King & The Shifter"},
+    "description": {"zh_CN": "变形者作为最古老的萨卡兹王庭之主，与非萨卡兹的魔王阿米娅对话，对她产生了兴趣并发出邀请，希望见证她独特的存在。", "en_US": "The ancient Shifter, oldest of the Court Lords, dialogued with non-Sarkaz Demon King Amiya and invited her to prove herself unique."},
+    "first_appear_event_id": "main_ch12",
+    "associated_event_id": "main_ch12",
+    "evidences": [
+      {
+        "source_story": "level_main_12-18_beg",
+        "quote": {"zh_CN": "尊敬的魔王，请给我们漫长的生命一次惊喜。", "en_US": "Respected Demon King, please give our long lives a surprise."},
+        "context_analysis": {"zh_CN": "变形者向阿米娅发出邀请，表达对她独特性的好奇", "en_US": "The Shifter invites Amiya, expressing curiosity about her uniqueness"}
+      },
+      {
+        "source_story": "level_main_12-18_beg",
+        "quote": {"zh_CN": "你总会在未来的某一刻明白，你是无法战胜时间的。", "en_US": "You will one day realize that you cannot defeat time."},
+        "context_analysis": {"zh_CN": "变形者以古老智慧提醒魔王，最终暗示她可能会走出一条不同的路", "en_US": "The Shifter reminds the Demon King with ancient wisdom, hinting she may forge a different path"}
+      }
+    ],
+    "confidence_level": "implied_plot"
+  },
+  {
+    "id": "rel_amiya_soulsummoner",
+    "source": "char_002_amiya",
+    "target": "npc_soulsumm_ch12",
+    "relation_type": "unknown",
+    "relation_label": {"zh_CN": "心灵对峙·非萨卡兹魔王面对萨卡兹众魂", "en_US": "Spiritual Confrontation · Non-Sarkaz Demon King Faces Sarkaz Souls"},
+    "description": {"zh_CN": "阿米娅在飞空艇船坞中面对死魂灵（萨卡兹古代飞空艇/亡魂容器），看到了萨卡兹三千年的苦难史。虽然理解了仇恨的根源，但她拒绝以仇恨回应仇恨的道路。", "en_US": "Amiya faced the Soul-Summoner (ancient airship/host of the dead) and saw 3420 years of Sarkaz suffering; understood the roots of hatred but rejected the path of revenge."},
+    "first_appear_event_id": "main_ch12",
+    "associated_event_id": "main_ch12",
+    "evidences": [
+      {
+        "source_story": "level_main_12-14_beg",
+        "quote": {"zh_CN": "我看见了泪水......您一直与这些悲伤在一起吗？您用愤怒的火焰灼烧伤口。这......很痛苦。", "en_US": "I see tears... Have you been carrying this sadness all along? You burn wounds with angry fire. This... hurts."},
+        "context_analysis": {"zh_CN": "阿米娅面对死魂灵的巨大阴影，与萨卡兹众魂的痛苦产生共情", "en_US": "Amiya empathizes with the Soul-Summoner's massive shadow and the pain of the Sarkaz souls"}
+      },
+      {
+        "source_story": "level_main_12-14_beg",
+        "quote": {"zh_CN": "可是......我仍拒绝这条路。", "en_US": "But... I still reject this path."},
+        "context_analysis": {"zh_CN": "阿米娅看到了萨卡兹的痛苦，但她拒绝以仇恨作为出路，选择继续寻找自己的道路", "en_US": "Amiya saw Sarkaz suffering but rejected hatred as an answer, choosing to find her own path"}
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_amiya_w",
+    "source": "char_002_amiya",
+    "target": "char_113_cqbw",
+    "relation_type": "ally",
+    "relation_label": {"zh_CN": "萨卡兹旧友·战场重逢", "en_US": "Sarkaz Old Friend · Battle Reunion"},
+    "description": {"zh_CN": "W在诺伯特区战场出现，用炸药救出被困的可露希尔等人，展现了萨卡兹佣兵的实用主义风格。", "en_US": "W appeared at the Norbeton battlefield and rescued trapped Closure et al. with explosives, showing her mercenary pragmatism."},
+    "first_appear_event_id": "main_ch12",
+    "associated_event_id": "main_ch12",
+    "evidences": [
+      {
+        "source_story": "level_main_12-05_end",
+        "quote": {"zh_CN": "我在伦蒂尼姆城外倒是有几个好去处，要来瞧瞧吗？", "en_US": "I have some nice spots outside Lundonium. Want to take a look?"},
+        "context_analysis": {"zh_CN": "W用炸药炸开出路，邀请众人去她的安全屋", "en_US": "W blasts an escape route and invites everyone to her safehouse"}
+      },
+      {
+        "source_story": "level_main_12-05_end",
+        "quote": {"zh_CN": "我听说凯尔希被揍得很惨，于是就百忙之中抽空来看看咯。", "en_US": "I heard Kal'tsit got beaten up pretty bad, so I figured I'd drop by despite being busy."},
+        "context_analysis": {"zh_CN": "W以典型的玩世不恭方式关心凯尔希的伤势", "en_US": "W shows characteristic nonchalance about Kal'tsit's injuries"}
+      }
+    ],
+    "confidence_level": "official_fact"
+  }
+]

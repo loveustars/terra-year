@@ -1,0 +1,72 @@
+[
+  {
+    "id": "npc_koschei",
+    "display_name": {
+      "zh_CN": "科西切公爵",
+      "en_US": "Duke Koschei"
+    },
+    "faction": "乌萨斯",
+    "description": {
+      "zh_CN": "科西切公爵是塔露拉的养父，以教育之名施加源石技艺的思维操控/诅咒。他赌塔露拉终有一天会因为人性的丑恶而认同他。塔露拉刺杀科西切后，诅咒在其成年后继续生效，最终在核心城决战中被陈与阿米娅联手驱逐。",
+      "en_US": "Duke Koschei is Talulah's adoptive father who imposed a curse through originium arts, betting she would one day embrace his worldview. After Talulah stabbed him, the curse activated upon her self-negation and was finally expelled by Ch'en and Amiya in the Core City battle."
+    },
+    "is_npc": true,
+    "first_appear": "main_ch08"
+  },
+  {
+    "id": "npc_alina",
+    "display_name": {
+      "zh_CN": "阿丽娜",
+      "en_US": "Alina"
+    },
+    "faction": "感染者",
+    "description": {
+      "zh_CN": "阿丽娜是塔露拉最亲密的朋友和战友。她是感染者，和塔露拉一起逃离村子，成为塔露拉的精神导师和重要支柱。她教导塔露拉关于人性、命运和信念的哲学思考。阿丽娜最终留在冻原教授感染者孩子们。",
+      "en_US": "Alina is Talulah's closest friend and companion. She is an infected person who fled the village with Talulah, becoming her spiritual mentor and vital support. She taught Talulah philosophy about humanity, fate and belief. Alina eventually stayed on the tundra teaching infected children."
+    },
+    "is_npc": true,
+    "first_appear": "main_ch08"
+  },
+  {
+    "id": "npc_guard",
+    "display_name": {
+      "zh_CN": "盾卫",
+      "en_US": "Guard"
+    },
+    "faction": "游击队",
+    "description": {
+      "zh_CN": "盾卫是爱国者游击队的重要成员，在核心城与迷迭香和罗德岛并肩作战。他指挥游击队战斗，鼓励幻影弩手为浮士德报仇，是感染者和罗德岛联合作战的关键人物。",
+      "en_US": "Guard is a key member of Patriot's guerrilla force, fighting alongside Rosmontis and Rhodes Island in the Core City. He commands guerrilla fighters, encourages the Phantom Crossbowmen to avenge Faust, and is a key figure in the joint operation between the infected and Rhodes Island."
+    },
+    "is_npc": true,
+    "first_appear": "main_ch08"
+  },
+  {
+    "id": "npc_shrew_king",
+    "display_name": {
+      "zh_CN": "鼠王",
+      "en_US": "The Shrew King"
+    },
+    "faction": "龙门",
+    "description": {
+      "zh_CN": "鼠王（林舸瑞）是龙门的前辈，与魏彦吾是同一时代的人。他阻止魏彦吾前往核心城，为陈和阿米娅争取战斗时间。他认为他们的时代已经过去，不应该让陈晖洁再次经历手足相残的悲剧。",
+      "en_US": "The Shrew King (Lin Gerui) is a Lungmen elder from the same era as Wei Yanwu. He stopped Wei Yanwu from going to the Core City, buying time for Ch'en and Amiya's battle. He believed their era had passed and shouldn't let Ch'en Huijie suffer fraternal conflict again."
+    },
+    "is_npc": true,
+    "first_appear": "main_ch08"
+  },
+  {
+    "id": "avg_npc_026",
+    "display_name": {
+      "zh_CN": "Scout",
+      "en_US": "Scout"
+    },
+    "faction": "罗德岛",
+    "description": {
+      "zh_CN": "Scout是罗德岛的精英干员，萨卡兹族的匿形大师和神射手。他在核心城（或切城）为了保护其他罗德岛干员与W演了一出戏，最终牺牲。W认为Scout是她见过的最有价值的战士，比她自己更有价值。",
+      "en_US": "Scout was an elite Rhodes Island operator, a Sarkaz stealth master and expert marksman. In the Core City (or Chernobog), he performed a staged conflict with W to protect other Rhodes Island operators, ultimately sacrificing himself. W considered him the most valuable warrior she had ever seen, more valuable than herself."
+    },
+    "is_npc": true,
+    "first_appear": "main_ch08"
+  }
+]

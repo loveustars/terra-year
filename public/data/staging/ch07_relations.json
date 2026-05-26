@@ -1,0 +1,676 @@
+[
+  {
+    "id": "rel_rosmontis_frostnova_ch07",
+    "source": "char_562b3bbc",
+    "target": "npc_shuangxing",
+    "relation_type": "ally",
+    "relation_label": {
+      "zh_CN": "送别与铭记",
+      "en_US": "Farewell and Remembrance"
+    },
+    "description": {
+      "zh_CN": "迷迭香操作焚化炉送霜星最后一程，她第一次遇见博士时询问霜星的名字。",
+      "en_US": "Rosmontis operates the cremator for Frostnova and asks the Doctor for her name upon their first meeting."
+    },
+    "first_appear_event_id": "main_ch07",
+    "associated_event_id": "main_ch07",
+    "evidences": [
+      {
+        "source_story": "level_main_07-01_beg",
+        "quote": {
+          "zh_CN": "霜星......好好听。你好，霜星。......拜拜。",
+          "en_US": "Frostnova... what a beautiful name. Hello, Frostnova. ...Goodbye."
+        },
+        "context_analysis": {
+          "zh_CN": "迷迭香在综合生物处理室第一次遇见博士，将霜星的遗体放入焚化炉，并在告别时轻轻说出霜星的名字。",
+          "en_US": "Rosmontis meets the Doctor in the Rhodes Island Bio-Processing Room and places Frostnova's body in the cremator, saying farewell softly."
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_rosmontis_doctor_ch07",
+    "source": "char_562b3bbc",
+    "target": "npc_doctor",
+    "relation_type": "ally",
+    "relation_label": {
+      "zh_CN": "初遇与信任",
+      "en_US": "First Encounter & Trust"
+    },
+    "description": {
+      "zh_CN": "迷迭香在综合生物处理室第一次遇见失忆的博士，感受到博士身上的伤疤和沉重。",
+      "en_US": "Rosmontis first meets the amnesiac Doctor in the Rhodes Island Bio-Processing Room, sensing his scars and sorrow."
+    },
+    "first_appear_event_id": "main_ch07",
+    "associated_event_id": "main_ch07",
+    "evidences": [
+      {
+        "source_story": "level_main_07-01_beg",
+        "quote": {
+          "zh_CN": "你是，Dr.{@nickname}？......是你，没有错。我感觉到了......虽然，不太一样。",
+          "en_US": "You are Dr.{@nickname}? ...It's you, no mistake. I can feel... though it's different."
+        },
+        "context_analysis": {
+          "zh_CN": "迷迭香第一次在综合生物处理室遇见博士，通过感知察觉到博士的独特气息。",
+          "en_US": "Rosmontis meets the Doctor in the 综合生物处理室, sensing his unique presence through her abilities."
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_rosmontis_amiya_ch07",
+    "source": "char_562b3bbc",
+    "target": "char_002_amiya",
+    "relation_type": "ally",
+    "relation_label": {
+      "zh_CN": "心灵相通的挚友",
+      "en_US": "Soul-Touching Friends"
+    },
+    "description": {
+      "zh_CN": "迷迭香与阿米娅心灵相通，阿米娅通过额头相贴帮助迷迭香稳定情绪，两人并肩作战。",
+      "en_US": "Rosmontis and Amiya share a soul-deep connection; Amiya helps stabilize Rosmontis by pressing their foreheads together."
+    },
+    "first_appear_event_id": "main_ch07",
+    "associated_event_id": "main_ch07",
+    "evidences": [
+      {
+        "source_story": "level_main_07-11_beg",
+        "quote": {
+          "zh_CN": "迷迭香......我会靠近你一点。（额头相贴）过来些，再过来些。",
+          "en_US": "Rosmontis... I'll come closer to you. (Presses foreheads together) Come closer, come closer."
+        },
+        "context_analysis": {
+          "zh_CN": "阿米娅通过额头相贴引导迷迭香稳定情绪，帮助她完成源石技艺的搜索任务。",
+          "en_US": "Amiya helps Rosmontis stabilize by pressing their foreheads together during a critical mission."
+        }
+      },
+      {
+        "source_story": "level_main_07-05_end",
+        "quote": {
+          "zh_CN": "但迷迭香从来不想我拿走这些感情......这些突然缠上来的情感，无论它是什么样子，它都属于迷迭香。",
+          "en_US": "But Rosmontis never wants me to take away these emotions... these feelings, whatever form they take, belong to Rosmontis."
+        },
+        "context_analysis": {
+          "zh_CN": "阿米娅对迷迭香说，她不会干涉迷迭香的感情，只会陪伴和接受。",
+          "en_US": "Amiya tells Rosmontis she will never interfere with her emotions, only accompany and accept them."
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_rosmontis_blaze_ch07",
+    "source": "char_562b3bbc",
+    "target": "char_1040_blaze2",
+    "relation_type": "ally",
+    "relation_label": {
+      "zh_CN": "同伴的牵挂",
+      "en_US": "Companion's Concern"
+    },
+    "description": {
+      "zh_CN": "煌非常担心迷迭香参与危险任务，劝她不要去核心城，但最终尊重她的选择。",
+      "en_US": "Blaze is deeply concerned about Rosmontis participating in the dangerous core city mission, but ultimately respects her choice."
+    },
+    "first_appear_event_id": "main_ch07",
+    "associated_event_id": "main_ch07",
+    "evidences": [
+      {
+        "source_story": "level_main_07-04_end",
+        "quote": {
+          "zh_CN": "迷迭香！等等！你伤得好重，怎么还跑出来？快回去。快点回去。......你年纪太小了，这么危险的任务，你是不该去的！",
+          "en_US": "Rosmontis! Wait! You're badly injured, why are you out here? Go back. Go back quickly. ...You're way too young for such a dangerous mission!"
+        },
+        "context_analysis": {
+          "zh_CN": "煌在07-04_end中看到迷迭香伤重出现，极力劝阻她参与核心城任务，展现战友情谊。",
+          "en_US": "Blaze sees injured Rosmontis and tries to stop her from joining the core city mission, showing deep concern."
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_rosmontis_kaltsit_ch07",
+    "source": "char_562b3bbc",
+    "target": "npc_003_kalts",
+    "relation_type": "ally",
+    "relation_label": {
+      "zh_CN": "导师与战士",
+      "en_US": "Mentor & Warrior"
+    },
+    "description": {
+      "zh_CN": "凯尔希亲自引导迷迭香回归现实，用手的触感将她从精神崩溃边缘拉回。",
+      "en_US": "Kal'tsit personally guides Rosmontis back to reality, using physical touch to pull her back from the edge of mental collapse."
+    },
+    "first_appear_event_id": "main_ch07",
+    "associated_event_id": "main_ch07",
+    "evidences": [
+      {
+        "source_story": "level_main_07-11_beg",
+        "quote": {
+          "zh_CN": "迷迭香，看看我的手。看，医生的手。现在医生正把手放在你的脸上。凯尔希医生正托着你的脸。看我的脸。......我和阿米娅，都在这里。",
+          "en_US": "Rosmontis, look at my hand. Look, doctor's hand. Now doctor is placing her hand on your face. Kal'tsit is cradling your face. Look at my face. ...Amiya and I are both here."
+        },
+        "context_analysis": {
+          "zh_CN": "凯尔希用手托住迷迭香的脸，将她从精神崩溃的边缘拉回，展现出母亲般的关怀。",
+          "en_US": "Kal'tsit cradles Rosmontis's face to pull her back from collapse, showing motherly care."
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_chen_wei_ch07",
+    "source": "char_1050_chen3",
+    "target": "npc_wei",
+    "relation_type": "rival",
+    "relation_label": {
+      "zh_CN": "决裂的甥舅",
+      "en_US": "Broken Bond Between Uncle & Niece"
+    },
+    "description": {
+      "zh_CN": "陈宣告自己是感染者后与魏彦吾彻底决裂，扔还近卫局徽章，跳窗离开龙门。",
+      "en_US": "Ch'en completely breaks with Wei Yanwu after declaring her infected status, returning her LGD badge and jumping out the window."
+    },
+    "first_appear_event_id": "main_ch07",
+    "associated_event_id": "main_ch07",
+    "evidences": [
+      {
+        "source_story": "level_main_07-01_end",
+        "quote": {
+          "zh_CN": "魏彦吾，我对你和你的城市，你这座金玉其外败絮其中的城市......已经厌倦了。在你对贫民区出手的时候，我就已经不属于这座城市了。......我是感染者，也是龙门的叛徒。只有我是适合做这个的人。",
+          "en_US": "Wei Yanwu, I'm tired of you and your city, this outwardly golden but inwardly rotten city... When you moved against the slums, I stopped belonging to this city. ...I'm infected, and a traitor to Lungmen. Only I am suited for this."
+        },
+        "context_analysis": {
+          "zh_CN": "陈在07-01_end中公开自己是感染者，与魏彦吾决裂，扔还徽章，跳窗离开。",
+          "en_US": "In 07-01_end, Ch'en publicly declares her infected status, breaks with Wei, returns her badge, and jumps from the window."
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_chen_hsguma_ch07",
+    "source": "char_1050_chen3",
+    "target": "char_137_brownb",
+    "relation_type": "ally",
+    "relation_label": {
+      "zh_CN": "战友之战·龙门决裂",
+      "en_US": "Comrades at War — Lungmen Breach"
+    },
+    "description": {
+      "zh_CN": "星熊在龙门接舷区拦截陈，试图阻止她离开龙门。两人对决，陈用赤霄刺伤星熊后离开。",
+      "en_US": "Hoshiguma intercepts Ch'en at the Lungmen docking area, trying to stop her. They duel; Ch'en wounds Hoshiguma with Red Spine and leaves."
+    },
+    "first_appear_event_id": "main_ch07",
+    "associated_event_id": "main_ch07",
+    "evidences": [
+      {
+        "source_story": "level_main_07-02_beg",
+        "quote": {
+          "zh_CN": "星熊......你要拦我？......今天挡在我面前，哪怕是场天灾，我也不会乖乖束手就擒，何况是一面盾，一个鬼！",
+          "en_US": "Hoshiguma... you're going to stop me? ...If a disaster stands in my way today, I won't just surrender. How much less a shield and a ghost!"
+        },
+        "context_analysis": {
+          "zh_CN": "陈与星熊在龙门接舷区对决，陈表示即使面对星熊也要离开，最终用赤霄刺伤星熊。",
+          "en_US": "Ch'en and Hoshiguma duel at the Lungmen dock; Ch'en wounds Hoshiguma with Red Spine before departing."
+        }
+      },
+      {
+        "source_story": "level_main_07-02_end",
+        "quote": {
+          "zh_CN": "你竟然这么坚定。没想到。我没想到，你......能让我流血。......我拦不住你了。你走吧。",
+          "en_US": "You're so resolute. Unexpected. I never thought... you'd make me bleed. ...I can't stop you. Go."
+        },
+        "context_analysis": {
+          "zh_CN": "星熊承认陈让她流血，但最终放她离开，两人在龙门诀别。",
+          "en_US": "Hoshiguma admits Ch'en made her bleed but lets her go; they part ways at Lungmen."
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_chen_talula_ch07",
+    "source": "char_1050_chen3",
+    "target": "char_011_talula",
+    "relation_type": "rival",
+    "relation_label": {
+      "zh_CN": "同母异父姐妹·命运对决",
+      "en_US": "Half-Sisters — Fated Confrontation"
+    },
+    "description": {
+      "zh_CN": "陈向星熊透露塔露拉是她的姐姐，陈为了阻止塔露拉撞向龙门而离开龙门。",
+      "en_US": "Ch'en reveals to Hoshiguma that Talulah is her sister, and departs Lungmen to stop Talulah from ramming the city."
+    },
+    "first_appear_event_id": "main_ch07",
+    "associated_event_id": "main_ch07",
+    "evidences": [
+      {
+        "source_story": "level_main_07-02_beg",
+        "quote": {
+          "zh_CN": "你知道整合运动的领袖是谁吗？塔露拉。Missy没告诉过你？塔露拉是我的姐姐。",
+          "en_US": "Do you know who the Reunion Movement's leader is? Talulah. Didn't Missy tell you? Talulah is my sister."
+        },
+        "context_analysis": {
+          "zh_CN": "陈在07-02_beg中告诉星熊塔露拉是她的姐姐，并表示要独自去阻止塔露拉。",
+          "en_US": "In 07-02_beg, Ch'en tells Hoshiguma that Talulah is her sister, and she will go alone to stop her."
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_chen_nine_ch07",
+    "source": "char_1050_chen3",
+    "target": "avg_npc_039",
+    "relation_type": "ally",
+    "relation_label": {
+      "zh_CN": "龙门战友·同病相怜",
+      "en_US": "LGD Comrades — Shared Fate"
+    },
+    "description": {
+      "zh_CN": "陈告诉星熊，九也因为同一个任务感染了矿石病，后来成为陈的线人并加入了整合运动。",
+      "en_US": "Ch'en tells Hoshiguma that Nine was also infected through the same mission, later becoming Ch'en's informant and joining Reunion."
+    },
+    "first_appear_event_id": "main_ch07",
+    "associated_event_id": "main_ch07",
+    "evidences": [
+      {
+        "source_story": "level_main_07-02_beg",
+        "quote": {
+          "zh_CN": "至于九，她已经走了。之前她离开近卫局，是因为她也被感染了。现在想想，我和九也许是因为同个任务患上的矿石病。她后来是我的线人，表面上加入了整合运动......然后，为了整合运动，她抛弃了龙门。",
+          "en_US": "As for Nine, she's already gone. She left the LGD before because she was also infected. Thinking about it, Nine and I may have gotten Orypetitis from the same mission. She later became my informant, joining Reunion on the surface... then abandoned Lungmen for Reunion."
+        },
+        "context_analysis": {
+          "zh_CN": "陈与九曾是近卫局战友，共同因公感染矿石病，九后来成为整合运动成员。",
+          "en_US": "Ch'en and Nine were LGD comrades who both contracted Orypetitis from the same mission; Nine later joined Reunion."
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_hsguma_swire_ch07",
+    "source": "char_137_brownb",
+    "target": "char_b18703d0",
+    "relation_type": "ally",
+    "relation_label": {
+      "zh_CN": "战友的默契",
+      "en_US": "Comrades-in-Arms Understanding"
+    },
+    "description": {
+      "zh_CN": "星熊在陈离开后，陪伴诗怀雅在近卫局大楼门口等消息，为她挡风。",
+      "en_US": "After Ch'en's departure, Hoshiguma stays with Swire at the LGD entrance, shielding her from wind while waiting for news."
+    },
+    "first_appear_event_id": "main_ch07",
+    "associated_event_id": "main_ch07",
+    "evidences": [
+      {
+        "source_story": "level_main_07-16_end",
+        "quote": {
+          "zh_CN": "小姐？怎么在这哭唧唧的......好，好。不过，这可是近卫局大楼门口啊。......这样好了，我坐你前面的台阶上吧。我个子大，挡住你，就没人看得见了。",
+          "en_US": "Miss? Why are you crying here... Fine, fine. But this is the LGD entrance... How about I sit on the steps in front of you? I'm big enough to block you from view."
+        },
+        "context_analysis": {
+          "zh_CN": "星熊在07-16_end中陪伴诗怀雅，用身体为她挡住视线，展现战友间的温情。",
+          "en_US": "In 07-16_end, Hoshiguma stays with Swire at the LGD entrance, shielding her with her body, showing wartime camaraderie."
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_kaltsit_patriot_ch07",
+    "source": "npc_003_kalts",
+    "target": "npc_patriot",
+    "relation_type": "ally",
+    "relation_label": {
+      "zh_CN": "久别重逢·萨卡兹见证",
+      "en_US": "Reunion — Sarkaz Witness"
+    },
+    "description": {
+      "zh_CN": "凯尔希与爱国者在核心城重逢，进行萨卡兹见证仪式，送他最后一程。",
+      "en_US": "Kal'tsit reunites with Patriot in the Core City and performs the Sarkaz witness ritual to see him off."
+    },
+    "first_appear_event_id": "main_ch07",
+    "associated_event_id": "main_ch07",
+    "evidences": [
+      {
+        "source_story": "level_main_07-16_beg",
+        "quote": {
+          "zh_CN": "凯尔希，女勋爵？你为什么......没有变老？......勋爵。我甚至没想过，能再见你。",
+          "en_US": "Kal'tsit, my lady? Why... haven't you aged? ...My lady. I never thought I would see you again."
+        },
+        "context_analysis": {
+          "zh_CN": "爱国者认出凯尔希，称其为女勋爵，惊讶她没有变老，回忆起在卡兹戴尔的往事。",
+          "en_US": "Patriot recognizes Kal'tsit as 'my lady', surprised she hasn't aged, recalling their shared past in Kazdel."
+        }
+      },
+      {
+        "source_story": "level_main_07-16_end",
+        "quote": {
+          "zh_CN": "勋爵，这个，请拿好。停下切城的秘钥。......我死在......魔王的手上。......谢谢你，勋爵。",
+          "en_US": "My lady, please take this. The key to stop Chernobog. ...I die... by the hand of the Demon King. ...Thank you, my lady."
+        },
+        "context_analysis": {
+          "zh_CN": "爱国者将停止核心城的秘钥交给凯尔希，并在死前感谢她的萨卡兹见证仪式。",
+          "en_US": "Patriot gives Kal'tsit the key to stop the Core City and thanks her for the Sarkaz witness ritual before dying."
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_kaltsit_koschei_ch07",
+    "source": "npc_003_kalts",
+    "target": "npc_koschei",
+    "relation_type": "rival",
+    "relation_label": {
+      "zh_CN": "知情者·科西切继承",
+      "en_US": "Informed Witness — Koschei's Legacy"
+    },
+    "description": {
+      "zh_CN": "凯尔希揭示塔露拉是科西切的继承人，向魏彦吾透露了这一信息。",
+      "en_US": "Kal'tsit reveals to Wei Yanwu that Talulah is Koschei's heir."
+    },
+    "first_appear_event_id": "main_ch07",
+    "associated_event_id": "main_ch07",
+    "evidences": [
+      {
+        "source_story": "level_main_07-01_end",
+        "quote": {
+          "zh_CN": "科西切公爵知道你有什么，也知道你能做什么。塔露拉也一样能。请将这件事交给我们，魏先生。我们是最适合去解决本次事件的人。",
+          "en_US": "Duke Koschei knows what you have and what you can do. Talulah knows it too. Please entrust this matter to us, Mr. Wei. We are best suited to resolve this incident."
+        },
+        "context_analysis": {
+          "zh_CN": "凯尔希在07-01_end中向魏彦吾透露塔露拉是科西切的继承人，并请求让他处理此事。",
+          "en_US": "In 07-01_end, Kal'tsit tells Wei that Talulah is Koschei's heir and requests to handle the situation."
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_amiya_patriot_ch07",
+    "source": "char_002_amiya",
+    "target": "npc_patriot",
+    "relation_type": "rival",
+    "relation_label": {
+      "zh_CN": "最后对话·命运质疑",
+      "en_US": "Final Dialogue — Questioning Fate"
+    },
+    "description": {
+      "zh_CN": "阿米娅与爱国者在核心城正面对决，用魔王之力看到他两百多年的记忆，最终被爱国者认可。",
+      "en_US": "Amiya confronts Patriot in the Core City, using the Demon King's power to see his 200+ years of memories, and is ultimately acknowledged by him."
+    },
+    "first_appear_event_id": "main_ch07",
+    "associated_event_id": "main_ch07",
+    "evidences": [
+      {
+        "source_story": "level_main_07-16_beg",
+        "quote": {
+          "zh_CN": "爱国者先生......这么多，这么多的悔恨......从来都不说，你从来都不向任何人去倾诉吗？",
+          "en_US": "Mr. Patriot... so much regret... you never tell anyone, never confide in anyone?"
+        },
+        "context_analysis": {
+          "zh_CN": "阿米娅通过魔王之力看到爱国者两百多年所有失去的记忆，爱国者因此停步与她对话。",
+          "en_US": "Amiya sees Patriot's 200+ years of loss through the Demon King power, causing him to pause and dialogue with her."
+        }
+      },
+      {
+        "source_story": "level_main_07-16_end",
+        "quote": {
+          "zh_CN": "你真有能力，活着离开这里？......你真有胆识，踏进无边荒原？......也许......这一切......都属于你们。只有你们......去做。那个......整合运动的，暴君，命运......你们自己......去推翻。",
+          "en_US": "Do you truly have the ability to leave here alive? ...Do you truly have the courage to step into the endless wasteland? ...Perhaps... all of this... belongs to you. Only you... can do it. The tyrannical leader of the Reunion Movement, fate... you yourselves... overthrow."
+        },
+        "context_analysis": {
+          "zh_CN": "爱国者临终前认可阿米娅，将停止核心城的秘钥交给罗德岛。",
+          "en_US": "Patriot on his deathbed acknowledges Amiya and gives the key to stop the Core City to Rhodes Island."
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_rosmontis_patriot_ch07",
+    "source": "char_562b3bbc",
+    "target": "npc_patriot",
+    "relation_type": "rival",
+    "relation_label": {
+      "zh_CN": "战场对决",
+      "en_US": "Battlefield Confrontation"
+    },
+    "description": {
+      "zh_CN": "迷迭香与爱国者在核心城正面交战，她的剑和源石技艺都无法真正阻止爱国者前进。",
+      "en_US": "Rosmontis confronts Patriot head-on in the Core City; her swords and arts cannot stop his advance."
+    },
+    "first_appear_event_id": "main_ch07",
+    "associated_event_id": "main_ch07",
+    "evidences": [
+      {
+        "source_story": "level_main_07-15_end",
+        "quote": {
+          "zh_CN": "菲林，你很强大。你对我是威胁。......竟然能，钉穿铠甲。这副铠甲，终于到了极限。",
+          "en_US": "Felines, you are very strong. You are a threat to me. ...To actually pierce through my armor. This armor has finally reached its limit."
+        },
+        "context_analysis": {
+          "zh_CN": "迷迭香在07-15_end中用剑钉穿爱国者的铠甲，但爱国者依然前进，最终被阿米娅的魔王之力击倒。",
+          "en_US": "In 07-15_end, Rosmontis pierces Patriot's armor with her sword, but he keeps advancing until Amiya's Demon King power stops him."
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_kaltsit_walfarin_ch07",
+    "source": "npc_003_kalts",
+    "target": "char_7f560885",
+    "relation_type": "ally",
+    "relation_label": {
+      "zh_CN": "萨卡兹同胞的请托",
+      "en_US": "Sarkaz Countryman's Request"
+    },
+    "description": {
+      "zh_CN": "华法琳请求凯尔希保护爱国者，凯尔希承诺尽力，这是萨卡兹同胞间的请托。",
+      "en_US": "Walfarin asks Kal'tsit to protect Patriot; Kal'tsit promises to try, as a request between Sarkaz people."
+    },
+    "first_appear_event_id": "main_ch07",
+    "associated_event_id": "main_ch07",
+    "evidences": [
+      {
+        "source_story": "level_main_07-05_end",
+        "quote": {
+          "zh_CN": "凯尔希，听好了，其他人大概率不会和你说，但我会。他是我们里最后的几个之一了。我不是慈善家，也没那么老好人，但......我们是萨卡兹人。......萨卡兹人在这片大地上已经过得够难了。可能的话，我希望他能回到卡兹戴尔。来我们这里也行。",
+          "en_US": "Kal'tsit, listen carefully. Most others wouldn't say this to you, but I will. He's one of the last of us. I'm not a philanthropist, not that kind either, but... we are Sarkaz. ...Sarkaz have had it hard enough on this land. If possible, I hope he can return to Kazdel. Even to be with us."
+        },
+        "context_analysis": {
+          "zh_CN": "华法琳作为血魔，向凯尔希请求保护温迪戈爱国者，强调萨卡兹同胞的身份。",
+          "en_US": "Walfarin, a Vampire, asks Kal'tsit to protect the Wendigo Patriot, emphasizing their shared Sarkaz identity."
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_nearl_forest_ch07",
+    "source": "char_1778bbd4",
+    "target": "char_2a6219aa",
+    "relation_type": "ally",
+    "relation_label": {
+      "zh_CN": "卡西米尔骑士的道歉",
+      "en_US": "Kazimierz Knight's Apology"
+    },
+    "description": {
+      "zh_CN": "临光与守林人并肩战斗，代表卡西米尔骑士向守林人及其游击队为过去的不援救道歉。",
+      "en_US": "Nearl fights alongside Forest, offering apologies on behalf of Kazimierz knights for past failures to aid her guerrilla team."
+    },
+    "first_appear_event_id": "main_ch07",
+    "associated_event_id": "main_ch07",
+    "evidences": [
+      {
+        "source_story": "level_main_07-03_beg",
+        "quote": {
+          "zh_CN": "过去的我没有帮助你的机会，这一次，我们战斗。我们战斗，不为了我们的祖国，只为阻止乌萨斯的暴行。即使我们这次只做支援工作，但我也做好了准备。为信仰而战，为你而死。",
+          "en_US": "I had no chance to help you in the past. This time, we fight. Not for our country, but to stop Ursus's atrocities. Even if we're only doing support work, I'm prepared. Fight for faith, die for you."
+        },
+        "context_analysis": {
+          "zh_CN": "临光在07-03_beg中与守林人并肩战斗，为卡西米尔骑士过去未能援救游击队道歉。",
+          "en_US": "In 07-03_beg, Nearl fights alongside Forest and apologizes for Kazimierz knights' past failure to aid her guerrilla team."
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_talula_phantoms_ch07",
+    "source": "char_011_talula",
+    "target": "npc_phantoms",
+    "relation_type": "ally",
+    "relation_label": {
+      "zh_CN": "领袖与残部",
+      "en_US": "Leader & Remnants"
+    },
+    "description": {
+      "zh_CN": "幻影弩手们从龙门回到核心城向塔露拉汇报浮士德牺牲的消息，塔露拉沉默地接受了这一消息。",
+      "en_US": "The Phantom Crossbowmen return to the Core City and report Faust's sacrifice to Talulah, who silently accepts the news."
+    },
+    "first_appear_event_id": "main_ch07",
+    "associated_event_id": "main_ch07",
+    "evidences": [
+      {
+        "source_story": "level_main_07-06_beg",
+        "quote": {
+          "zh_CN": "浮士德不顾自己的命，用法术掩盖了我们所有人的踪迹，把逃出来的机会......让给了我们。......确实如此，领袖。浮士德不顾自己的命......幻影弩手们，整合运动的同胞们......我们会永远怀念浮士德。",
+          "en_US": "Faust disregarded his own life, using arts to cover all our traces, giving the chance to escape... to us. ...Indeed so, leader. Faust disregarded his own life... Phantom Crossbowmen, Reunion comrades... we will forever remember Faust."
+        },
+        "context_analysis": {
+          "zh_CN": "幻影弩手向塔露拉汇报浮士德的牺牲，塔露拉表示会永远怀念他。",
+          "en_US": "The Phantom Crossbowmen report Faust's sacrifice to Talulah, who says they will forever remember him."
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_mephisto_phantoms_ch07",
+    "source": "npc_mephisto",
+    "target": "npc_phantoms",
+    "relation_type": "ally",
+    "relation_label": {
+      "zh_CN": "指挥官的保护",
+      "en_US": "Commander's Protection"
+    },
+    "description": {
+      "zh_CN": "梅菲斯特命令萨卡兹雇佣兵放走幻影弩手，展现了对战友的保护。",
+      "en_US": "Mephisto orders the Sarkaz mercenaries to let the Phantom Crossbowmen go, showing protection of comrades."
+    },
+    "first_appear_event_id": "main_ch07",
+    "associated_event_id": "main_ch07",
+    "evidences": [
+      {
+        "source_story": "level_main_07-16_end",
+        "quote": {
+          "zh_CN": "别杀他们。让他们走。魔族人，我会给你们不知疼痛的身躯。让他们走。",
+          "en_US": "Don't kill them. Let them go. Mercenary, I'll give you all bodies that feel no pain. Let them go."
+        },
+        "context_analysis": {
+          "zh_CN": "梅菲斯特在07-16_end中命令萨卡兹雇佣兵放走幻影弩手，用分享生命作为交换条件。",
+          "en_US": "In 07-16_end, Mephisto orders the Sarkaz mercenaries to let the Phantom Crossbowmen go, offering shared life as payment."
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_amiya_doctor_ch07",
+    "source": "char_002_amiya",
+    "target": "npc_doctor",
+    "relation_type": "ally",
+    "relation_label": {
+      "zh_CN": "并肩与信任",
+      "en_US": "Shoulder to Shoulder & Trust"
+    },
+    "description": {
+      "zh_CN": "阿米娅向博士表示现在是并肩作战的状态，他们一起面对核心城的战斗。",
+      "en_US": "Amiya tells the Doctor they are now fighting shoulder to shoulder as they face the Core City battle together."
+    },
+    "first_appear_event_id": "main_ch07",
+    "associated_event_id": "main_ch07",
+    "evidences": [
+      {
+        "source_story": "level_main_07-03_beg",
+        "quote": {
+          "zh_CN": "博士，我们是肩并着肩了。从和你重逢开始，我就一直想找个机会，告诉博士......我长大了。我已经不用博士，凯尔希医生和......遮风挡雨。",
+          "en_US": "Doctor, we are now fighting shoulder to shoulder. Ever since we met again, I've been looking for a chance to tell you... I've grown up. I no longer need you, Dr. Kal'tsit, and others to shield me from the wind and rain."
+        },
+        "context_analysis": {
+          "zh_CN": "阿米娅在07-03_beg中向博士表示她已经成长，不再需要别人遮风挡雨，现在是并肩作战的伙伴。",
+          "en_US": "In 07-03_beg, Amiya tells the Doctor she has grown up and no longer needs protection; they are now equals fighting together."
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_rosmontis_ace_scout_ch07",
+    "source": "char_562b3bbc",
+    "target": "avg_npc_026",
+    "relation_type": "ally",
+    "relation_label": {
+      "zh_CN": "思念的战友们",
+      "en_US": "Cherished Comrades"
+    },
+    "description": {
+      "zh_CN": "迷迭香记挂已故的Ace和Scout，决心去了解他们身上发生了什么，并表示永远不会忘记他们的死。",
+      "en_US": "Rosmontis is deeply concerned about the late Ace and Scout, determined to understand what happened to them and vowing never to forget their deaths."
+    },
+    "first_appear_event_id": "main_ch07",
+    "associated_event_id": "main_ch07",
+    "evidences": [
+      {
+        "source_story": "level_main_07-04_end",
+        "quote": {
+          "zh_CN": "Ace和Scout都在切尔诺伯格，他们没回来。也就是说，他们已经不在了吧。我想去看看。我要明白是怎么回事。我要看看管整合运动的人，我要知道是谁做了什么。我要知道在Ace和Scout身上发生了什么。",
+          "en_US": "Ace and Scout were both in Chernobog, they didn't come back. Which means they're already gone, right? I want to go see. I need to understand what happened. I want to see who's leading Reunion, I need to know who did what. I need to know what happened to Ace and Scout."
+        },
+        "context_analysis": {
+          "zh_CN": "迷迭香在07-04_end中查看日志发现Ace和Scout没有回来，决定去核心城了解真相。",
+          "en_US": "In 07-04_end, Rosmontis checks the logs and finds Ace and Scout haven't returned, deciding to go to the Core City to find out the truth."
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_kaltsit_mon3tr_ch07",
+    "source": "npc_003_kalts",
+    "target": "char_4179_monstr",
+    "relation_type": "ally",
+    "relation_label": {
+      "zh_CN": "医疗兵与变异战士",
+      "en_US": "Medic & Mutant Warrior"
+    },
+    "description": {
+      "zh_CN": "Mon3tr是凯尔希的战斗力量，在核心城与爱国者的战斗中凯尔希指挥Mon3tr进行攻击。",
+      "en_US": "Mon3tr is Kal'tsit's combat instrument. In the Core City battle against Patriot, Kal'tsit commands Mon3tr to attack."
+    },
+    "first_appear_event_id": "main_ch07",
+    "associated_event_id": "main_ch07",
+    "evidences": [
+      {
+        "source_story": "level_main_07-16_end",
+        "quote": {
+          "zh_CN": "Mon3tr，撑住！......Mon3tr，别靠近他！把能量聚集成束......收束。再收束，收束成线，照准他的心脏部位！照射。现在！",
+          "en_US": "Mon3tr, hold on! ...Mon3tr, don't get close to him! Gather the energy into a beam... Focus. Focus more, into a line, aim for his heart! Fire. Now!"
+        },
+        "context_analysis": {
+          "zh_CN": "凯尔希在07-16_end中指挥Mon3tr对爱国者发动攻击，用能量束照射他的心脏部位。",
+          "en_US": "In 07-16_end, Kal'tsit commands Mon3tr to attack Patriot, firing an energy beam at his heart."
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  }
+]

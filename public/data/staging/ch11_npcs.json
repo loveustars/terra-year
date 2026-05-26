@@ -1,0 +1,306 @@
+[
+  {
+    "id": "npc_aleda",
+    "name": {
+      "zh_CN": "阿勒黛",
+      "en_US": "Aleda"
+    },
+    "name_extra": {
+      "zh_CN": "坎伯兰公爵之女",
+      "en_US": "Daughter of the Duke of Cumberland"
+    },
+    "note": "ch11新NPC",
+    "description": {
+      "zh_CN": "坎伯兰公爵的女儿，自幼梦想成为蒸汽骑士。26年前在公爵府花园首次遇见幼年的亚历山德莉娜（推进之王/维娜）。萨卡兹占领伦蒂尼姆后，她成为自救军奥克特里格区负责人，同时受某位公爵操控执行\"使命\"——窃取诸王之息。最终她放弃使命，在蒸汽骑士面前选择牺牲自己保护维娜。",
+      "en_US": "Daughter of the Duke of Cumberland. Dreamed since childhood of becoming a Steam Knight. Met young Alexandrina (Siege/Vina) in the Duke's garden 26 years ago. After Sankazi occupation, she becomes Self-Rescue Army Zone Chief in Octeridge District while secretly commissioned by a Duke to steal the Kings' Breath. She ultimately abandons her mission and sacrifices herself to protect Vina from the last Steam Knight."
+    }
+  },
+  {
+    "id": "npc_elise",
+    "name": {
+      "zh_CN": "艾尔希",
+      "en_US": "Elise"
+    },
+    "name_extra": {
+      "zh_CN": "阿勒黛的侍女/管家",
+      "en_US": "Aleda's Maid/Butler"
+    },
+    "note": "ch11新NPC",
+    "description": {
+      "zh_CN": "自幼陪伴阿勒黛长大的侍女和管家。在26年前的动乱中陪伴公爵府，在萨卡兹占领期间陪伴阿勒黛坚守到最后。她珍视花园中的金色灌木，希望阿勒黛能实现童年誓言成为蒸汽骑士。最终在坎伯兰公爵府的大火中牺牲。",
+      "en_US": "Maid and caretaker who grew up alongside Aleda. Accompanied the Duke's manor through the 26-year turmoil and stood by Aleda during the Sankazi occupation. Treasures the golden flowers in the garden, hoping Aleda will fulfill her childhood vow to become a Steam Knight. She ultimately perishes in the fire at Cumberland Manor."
+    }
+  },
+  {
+    "id": "npc_last_steam",
+    "name": {
+      "zh_CN": "最后的蒸汽骑士",
+      "en_US": "The Last Steam Knight"
+    },
+    "name_extra": {
+      "zh_CN": "诸王长眠之所的守墓者",
+      "en_US": "Guardian of the Kings' Resting Place"
+    },
+    "note": "ch11新NPC",
+    "description": {
+      "zh_CN": "在诸王长眠之所坚守四年的蒸汽骑士。26年前被议会调离伦蒂尼姆，返回后遭遇萨卡兹的伏击，幸存者躲入地下。他将诸王之息视为自己最后守护的\"维多利亚\"，向试图带走它的亚历山德莉娜发起冲锋。最终在阿勒黛用石像阻挡后，记忆中出现了一个女孩为他落泪的画面。",
+      "en_US": "The Steam Knight who guarded the Kings' Resting Place for four years. Was recalled from Lungmen by Parliament 26 years ago, returned to find a Sankazi ambush, and the survivors hid underground. He treats the Kings' Breath as his last 'Victoria' and charges at Alexandrina for trying to take it. In his final moments, a memory surfaces — a girl crying for him."
+    }
+  },
+  {
+    "id": "npc_qianjiao",
+    "name": {
+      "zh_CN": "铅踝",
+      "en_US": "Qianjiao"
+    },
+    "name_extra": {
+      "zh_CN": "雇佣兵",
+      "en_US": "Mercenary"
+    },
+    "note": "ch11新NPC",
+    "description": {
+      "zh_CN": "雇佣兵，差一个月从业14年。与因陀罗、摩根等格拉斯哥帮成员一起协助推进之王行动。任务是协助阿勒黛将诸王之息带出诸王长眠之所。他向达格达讲述\"活着很难\"的道理。最终在废墟中用烟雾弹掩护撤退。",
+      "en_US": "Mercenary, 14 years minus one month in the profession. Works with the Glasgow Gang (Indra, Morgan, etc.) to assist Siege. His mission is to help Aleda smuggle the Kings' Breath out of the Royal Tomb. He teaches Dagda that 'living is hard.' Uses his last smoke bomb to cover the retreat at the end."
+    }
+  },
+  {
+    "id": "npc_clouzing",
+    "name": {
+      "zh_CN": "克洛维希娅",
+      "en_US": "Clouzing"
+    },
+    "name_extra": {
+      "zh_CN": "伦蒂尼姆市民自救军指挥官",
+      "en_US": "Commander of Lonedin Citizens' Self-Rescue Army"
+    },
+    "note": "ch11新NPC",
+    "description": {
+      "zh_CN": "伦蒂尼姆市民自救军指挥官，与阿勒黛共同创建。与城防军对峙时发表\"我们不是来杀戮的，我们只是想活下去\"的演说。指挥对城防军指挥塔的突袭行动。",
+      "en_US": "Commander of the Lonedin Citizens' Self-Rescue Army, co-founded with Aleda. Delivers speeches like 'We are not here to kill, we just want to live' when confronting the City Defense Army. Commands the raid on the City Defense Command Tower."
+    }
+  },
+  {
+    "id": "npc_fust",
+    "name": {
+      "zh_CN": "费斯特",
+      "en_US": "Fust"
+    },
+    "name_extra": {
+      "zh_CN": "凯瑟琳之孙/工人代表/自救军成员",
+      "en_US": "Cathleen's Grandson / Worker Representative / Self-Rescue Member"
+    },
+    "note": "ch11新NPC",
+    "description": {
+      "zh_CN": "凯瑟琳的孙子，十一号军工厂的年轻工人代表。三年前逃离工厂加入自救军，后返回工厂获取萨卡兹补给线情报。带领工人们冲入刑场救出祖母。精通机械，与可露希尔合作使用无人机控制自行源石炮。",
+      "en_US": "Grandson of Cathleen, young worker representative at Factory No.11. Fled the factory three years ago to join the Self-Rescue Army, then returned to gather intelligence on Sankazi supply lines. Led workers to storm the execution site and rescue his grandmother. Skilled with machinery; cooperated with的可露希尔 to use drones to control mobile source stone artillery."
+    }
+  },
+  {
+    "id": "npc_cathleen",
+    "name": {
+      "zh_CN": "凯瑟琳",
+      "en_US": "Cathleen"
+    },
+    "name_extra": {
+      "zh_CN": "十一号军工厂老工人代表",
+      "en_US": "Veteran Worker Representative of Factory No.11"
+    },
+    "note": "ch11新NPC",
+    "description": {
+      "zh_CN": "十一号军工厂的老工人代表，曾被选为工人代表的女杰。她打造过蒸汽甲胄，深知萨卡兹补给线位置。为保护其他工人而向萨卡兹妥协，直到被萨卡兹处决时被费斯特等人救出。她将格林的指套交给明椒，说\"你还不理解战争是什么\"。",
+      "en_US": "Veteran worker representative at Factory No.11, once chosen as a model worker representative. Built steam armor herself and knows the location of Sankazi supply lines. Compromise with the Sankazi to protect other workers, until sentenced to execution and rescued by Fust and the workers. Gives Grane's finger guard to Peper, saying 'you still don't understand war.'"
+    }
+  },
+  {
+    "id": "npc_goldin",
+    "name": {
+      "zh_CN": "戈尔丁",
+      "en_US": "Goldin"
+    },
+    "name_extra": {
+      "zh_CN": "圣马尔索学校教师",
+      "en_US": "Teacher at Saint-Marso School"
+    },
+    "note": "ch11新NPC",
+    "description": {
+      "zh_CN": "圣马尔索学校教师，高卢遗民出身。坚持\"只要有光，我们就会向光而行\"的信念，培养孩子们的戏剧演出。莱托中校曾是她信任的学生，如今却与萨卡兹合作。变形者潜伏在她身边以\"茉莉\"身份收集情报。",
+      "en_US": "Teacher at Saint-Marso School, of Gaul descent. Holds firm to the belief 'where there is light, we will walk toward it,' nurturing children through drama performances. Colonel Ledou was once her trusted student but now collaborates with the Sankazi. A Shapeshifter infiltrates as 'Mo莉' to gather intelligence beside her."
+    }
+  },
+  {
+    "id": "npc_hedy",
+    "name": {
+      "zh_CN": "海蒂",
+      "en_US": "Hedy"
+    },
+    "name_extra": {
+      "zh_CN": "文学界朋友/情报工作者",
+      "en_US": "Literary Friend / Intelligence Operative"
+    },
+    "note": "ch11新NPC",
+    "description": {
+      "zh_CN": "戈尔丁通过读书会结识的文学界朋友，实际上是情报工作者。为伦蒂尼姆市民的生存而战，在萨卡兹占领期间送出大量情报。称赞戈尔丁是\"伦蒂尼姆最有眼光的评论家\"。",
+      "en_US": "Literary friend who met Goldin through a reading club, actually an intelligence operative. Fights for the survival of Lonedin citizens, sending large amounts of intelligence during the Sankazi occupation. Calls Goldin 'the most discerning critic in Lonedin.'"
+    }
+  },
+  {
+    "id": "npc_jasmine",
+    "name": {
+      "zh_CN": "茉莉",
+      "en_US": "Mo莉"
+    },
+    "name_extra": {
+      "zh_CN": "戈尔丁的助手",
+      "en_US": "Goldin's Teaching Assistant"
+    },
+    "note": "ch11新NPC",
+    "description": {
+      "zh_CN": "戈尔丁的助手，在圣马尔索学校照顾孩子们。她不记得莱托中校（因为真正的她已被变形者替换）。莱托曾在这所学校学习，与她同期。",
+      "en_US": "Goldin's teaching assistant at Saint-Marso School, caring for the children. She doesn't remember Colonel Ledou because the real Mo莉 has been replaced by a Shapeshifter. Ledou studied at this school and was her contemporary."
+    }
+  },
+  {
+    "id": "npc_shapeshifter",
+    "name": {
+      "zh_CN": "变形者",
+      "en_US": "Shapeshifter"
+    },
+    "name_extra": {
+      "zh_CN": "潜伏在戈尔丁身边的变形者（伪装成茉莉）",
+      "en_US": "Shapeshifter Infiltrating as Mo莉"
+    },
+    "note": "ch11新NPC",
+    "description": {
+      "zh_CN": "萨卡兹变形者，伪装成茉莉潜伏在戈尔丁身边收集情报。它对\"茉莉\"关心儿童的纯粹情感感到困惑，声称\"我们对你们很感兴趣\"。在地下剧场中邀请博士加入演出。",
+      "en_US": "Sarkaz Shapeshifter infiltrating as Mo莉 beside Goldin to gather intelligence. It is puzzled by the pure emotion of 'Mo莉' caring for children and claims 'we find you very interesting.' Invites the Doctor to join the play in the underground theater."
+    }
+  },
+  {
+    "id": "npc_klovitsch",
+    "name": {
+      "zh_CN": "克洛维切奇",
+      "en_US": "Klovitsch"
+    },
+    "name_extra": {
+      "zh_CN": "幕后公爵（高卢遗民势力）",
+      "en_US": "The Duke Behind Aleda (Gaul Descendant Faction)"
+    },
+    "note": "ch11新NPC",
+    "description": {
+      "zh_CN": "操控阿勒黛执行\"使命\"的幕后公爵，高卢遗民势力之一。他通过信件与阿勒黛联系，以\"诸王之息\"为筹码威慑其他公爵加入自己的阵营。26年前的政变中，他可能参与了蒸汽骑士的调离。",
+      "en_US": "The Duke manipulating Aleda through her 'mission,' a Gaul descendant faction leader. He communicates with Aleda through letters, using the Kings' Breath as leverage to intimidate other Dukes into joining his faction. He may have been involved in recalling the Steam Knights during the 26-year-ago coup."
+    }
+  },
+  {
+    "id": "npc_ledou",
+    "name": {
+      "zh_CN": "莱托中校",
+      "en_US": "Colonel Ledou"
+    },
+    "name_extra": {
+      "zh_CN": "伦蒂尼姆城防军指挥官（高卢遗民）",
+      "en_US": "City Defense Force Commander (Gaul Descendant)"
+    },
+    "note": "ch11新NPC",
+    "description": {
+      "zh_CN": "伦蒂尼姆城防军指挥官，高卢遗民，父亲是资助戈尔丁学校的高卢人。他以\"高卢遗民\"身份与特雷西斯合作，用城防军为萨卡兹服务，交换条件是让高卢城市在维多利亚乱局中回归。他敬佩凯瑟琳，称其为\"曾被选为工人代表的女杰\"。",
+      "en_US": "City Defense Force Commander, of Gaul descent, whose father funded Goldin's school. Cooperates with Theresa as a 'Gaul descendant,' using the City Defense Army to serve the Sankazi in exchange for Gaul cities to return during Victoria's chaos. Respects Cathleen as 'a true worker representative heroine.'"
+    }
+  },
+  {
+    "id": "npc_meiqiao",
+    "name": {
+      "zh_CN": "明椒",
+      "en_US": "Peper"
+    },
+    "name_extra": {
+      "zh_CN": "萨卡兹年轻雇佣兵",
+      "en_US": "Young Sarkaz Mercenary"
+    },
+    "note": "ch11新NPC",
+    "description": {
+      "zh_CN": "萨卡兹年轻雇佣兵，格林的\"徒弟\"，在哥伦比亚长大。她的父母都是佣兵，已去世，由姥姥带大。格林牺牲后，她被迫执行处决凯瑟琳的命令，但最终无法下手。她的指套是格林留下的遗物。",
+      "en_US": "Young Sarkaz mercenary, 'apprentice' of Grane, raised in Columbia. Her parents were mercenaries who died; she was raised by her grandmother. After Grane's death, she was forced to execute Cathleen but ultimately couldn't do it. The finger guard is Grane's keepsake."
+    }
+  },
+  {
+    "id": "npc_workers",
+    "name": {
+      "zh_CN": "十一号军工厂工人们",
+      "en_US": "Factory No.11 Workers"
+    },
+    "name_extra": {
+      "zh_CN": "乔治、帕特、汤米、戴等工人",
+      "en_US": "Workers Including George, Pat, Tommy, Dai"
+    },
+    "note": "ch11新NPC",
+    "description": {
+      "zh_CN": "十一号军工厂的工人们，在费斯特的感召下选择集体反抗。他们高呼口号冲向刑场救回凯瑟琳和其他老工人代表。乔治用扳手击打萨卡兹雇佣兵队长。",
+      "en_US": "Workers of Factory No.11, inspired by Fust to collectively resist. They cheer and storm the execution site to rescue Cathleen and other veteran foremen. George smacks the Sankazi mercenary captain with a wrench."
+    }
+  },
+  {
+    "id": "npc_steamarmor",
+    "name": {
+      "zh_CN": "坎伯兰家蒸汽甲胄",
+      "en_US": "Cumberland Family Steam Armor"
+    },
+    "name_extra": {
+      "zh_CN": "初代坎伯兰蒸汽骑士的残缺甲胄",
+      "en_US": "Damaged Armor of the First Cumberland Steam Knight"
+    },
+    "note": "ch11新NPC — 这是物品/象征意义的NPC",
+    "description": {
+      "zh_CN": "初代坎伯兰蒸汽骑士的残缺甲胄，在公爵府阁楼保存了26年。26年前的宴会上，年幼的阿勒黛躲在甲胄后偷听，被甲胄中的幻象所救。它是坎伯兰家\"永远高洁\"的象征，艾尔希说\"它不该被商人当作货品\"。",
+      "en_US": "Damaged armor of the first Cumberland Steam Knight, stored in the Duke's manor attic for 26 years. At the banquet 26 years ago, young Aleda hid behind it and was saved by the phantom within. It symbolizes Cumberland's 'eternal purity.' Elise says 'it should not be bartered away as merchandise by a merchant.'"
+    }
+  },
+  {
+    "id": "npc_steamknight_legacy",
+    "name": {
+      "zh_CN": "蒸汽骑士的亡骸",
+      "en_US": "Fallen Steam Knights"
+    },
+    "name_extra": {
+      "zh_CN": "诸王长眠之所的32具蒸汽骑士遗骸",
+      "en_US": "32 Steam Knight Corpses in the Kings' Resting Place"
+    },
+    "note": "ch11新NPC — 集体概念的NPC",
+    "description": {
+      "zh_CN": "诸王长眠之所中32具蒸汽骑士的遗骸，他们全部死于26年前萨卡兹的伏击。被议会调离后返回的蒸汽骑士一头撞进萨卡兹在诸王长眠之所设下的包围网。达格达逐一向他们行骑士礼，推进之王哀叹\"维多利亚杀死了它自己\"。",
+      "en_US": "32 Steam Knight corpses in the Kings' Resting Place, all killed in a Sankazi ambush 26 years ago. The Steam Knights recalled by Parliament charged into a Sankazi trap set in the Royal Tomb itself. Dagda salutes each one; Siege mourns 'Victoria killed itself.'"
+    }
+  },
+  {
+    "id": "npc_theresa_prime",
+    "name": {
+      "zh_CN": "特雷西斯",
+      "en_US": "Theresa Prime"
+    },
+    "name_extra": {
+      "zh_CN": "萨卡兹摄政王（曼弗雷德的上司）",
+      "en_US": "Sarkaz Regent (Manfred's Superior)"
+    },
+    "note": "ch11新NPC — 注意与npc_theresa区分",
+    "description": {
+      "zh_CN": "萨卡兹摄政王，军事委员会最高领袖。特雷西斯的傀儡\"特蕾西娅\"（可能是复制品或特雷西斯控制的替身）服从她的命令。她宣称\"我会再杀死你一次，凯尔希\"，揭露凯尔希两百年前参与毁灭卡兹戴尔的历史。",
+      "en_US": "Sarkaz Regent, supreme leader of the Military Committee. Her puppet 'Theresa' (possibly a duplicate or controlled substitute) obeys her commands. She declares 'I will kill you again, Kal'tsit,' revealing Kal'tsit's history of participating in the destruction of Kazdel two hundred years ago."
+    }
+  },
+  {
+    "id": "npc_forgiver_elite_ch11",
+    "name": {
+      "zh_CN": "赦罪师直属卫兵",
+      "en_US": "Inquisitor Elite Guard"
+    },
+    "name_extra": {
+      "zh_CN": "赦罪师的精锐卫兵",
+      "en_US": "Elite Guards of the Inquisitor"
+    },
+    "note": "ch11新NPC — 赦罪师卫兵，在战场上被闪灵斩杀",
+    "description": {
+      "zh_CN": "赦罪师的直属卫兵，使用赦罪师的巫术。他们在城防军指挥塔战斗中现身，使用消耗生命的巫术攻击罗德岛和自救军战士，最终被闪灵逐一斩杀。",
+      "en_US": "Elite Guards of the Inquisitor, using the Inquisitor's Arts. They appeared during the City Defense Command Tower battle, using life-draining Arts against Rhodes Island and Self-Rescue fighters, ultimately slain one by one by Shining."
+    }
+  }
+]

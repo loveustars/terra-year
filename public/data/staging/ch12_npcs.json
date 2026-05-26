@@ -1,0 +1,50 @@
+[
+  {
+    "id": "npc_beld_ch12",
+    "display_name": {"zh_CN": "贝尔德", "en_US": "Beld"},
+    "faction": "格拉斯哥帮",
+    "description": "格拉斯哥帮的成员，推进之王的长期战友。在诺伯特区沦陷期间守护拳馆，被惊慌的录像厅老板麦克拉伦误杀牺牲。",
+    "appears_in": ["main_ch12"],
+    "notes": "格拉斯哥帮成员，不在operatiors.json中，用npc_格式标记ch12特有NPC"
+  },
+  {
+    "id": "npc_cador_ch12",
+    "display_name": {"zh_CN": "卡铎尔", "en_US": "Cador"},
+    "faction": "格拉斯哥帮",
+    "description": "格拉斯哥帮的成员，性格直接但内心柔软。在贝尔德牺牲后独自去找她，展现帮派兄弟情谊。",
+    "appears_in": ["main_ch12"],
+    "notes": "格拉斯哥帮成员，不在operatiors.json中，用npc_格式标记ch12特有NPC"
+  },
+  {
+    "id": "npc_windmere_ch12",
+    "display_name": {"zh_CN": "温德米尔公爵", "en_US": "Duchess Windmere"},
+    "faction": "维多利亚公爵",
+    "description": "温德米尔公爵，维多利亚大公爵之一，戴菲恩的母亲。派遣军舰接应诺伯特区难民，救出女儿戴菲恩。在ch12发现飞空艇威胁后率先发出警告。",
+    "appears_in": ["main_ch12"],
+    "notes": "温德米尔公爵，维多利亚大公爵，不在operatiors.json中，用npc_格式标记ch12特有NPC"
+  },
+  {
+    "id": "npc_shifter",
+    "display_name": {"zh_CN": "变形者", "en_US": "The Shifter"},
+    "faction": "萨卡兹王庭",
+    "description": "萨卡兹王庭最古老的王庭之主，亘古统一的变形者集群。在ch12被Logos吹响骨哨（丧钟之主的骨哨）后凋亡并新生为两个独立的个体。是Logos长期追杀的目标。",
+    "appears_in": ["main_ch12"],
+    "notes": "萨卡兹王庭古老王庭之主，不在operatiors.json中；ch12后新生为两个独立的变形者"
+  },
+  {
+    "id": "npc_soulsumm_ch12",
+    "display_name": {"zh_CN": "死魂灵", "en_US": "Soul-Summoner"},
+    "faction": "萨卡兹王庭",
+    "description": "萨卡兹古代空中要塞，以巨量亡魂为力量核心的意识体。飞空艇是死魂灵的躯体，承载着萨卡兹三千年的苦难记忆。曼弗雷德利用死魂灵的力量引诱公爵们前来。",
+    "appears_in": ["main_ch12"],
+    "notes": "死魂灵是萨卡兹古代飞空艇/亡魂容器，不在operatiors.json中；ch12中作为飞空艇的核心"
+  },
+  {
+    "id": "npc_exusia_ch12",
+    "display_name": {"zh_CN": "号角", "en_US": "Exusia"},
+    "faction": "维多利亚",
+    "description": "号角是维多利亚军队的军官，ch12中在诺伯特区撤离战斗中英勇抵抗萨卡兹围剿，留下最后一枚榴弹断后。",
+    "appears_in": ["main_ch12"],
+    "notes": "号角在ch14已加入operatiors.json（char_4039_horn），ch12中是维多利亚军方的身份"
+  }
+]

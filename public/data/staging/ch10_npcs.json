@@ -1,0 +1,182 @@
+[
+  {
+    "id": "npc_fist_ch10",
+    "display_name": {
+      "zh_CN": "费斯特",
+      "en_US": "Fist"
+    },
+    "faction": "伦蒂尼姆市民自救军",
+    "avatar_key": "npc_fist_ch10",
+    "is_npc": true,
+    "description": {
+      "zh_CN": "费斯特是伦蒂尼姆市民自救军的队长，同时也是一名工匠和工程师。他带领小队进行各种地下行动，负责维护和改装设备。在制醇厂战斗中，他利用赫德雷的攻击成功逃脱，展现了高超的智慧和技术能力。他是洛洛的队长，两人在战斗中配合默契。",
+      "en_US": "Fist is the leader of the Londinium Citizens' Self-Rescue Army and also a craftsman and engineer. He leads his squad in various underground operations, maintaining and modifying equipment. At the refinery battle, he uses Hechter's attacks to escape, showing high intelligence and technical ability."
+    },
+    "source": "level_main_10-04_beg, level_main_10-08_beg, level_main_10-13_beg"
+  },
+  {
+    "id": "npc_lolo_ch10",
+    "display_name": {
+      "zh_CN": "洛洛",
+      "en_US": "Lolo"
+    },
+    "faction": "伦蒂尼姆市民自救军",
+    "avatar_key": "npc_lolo_ch10",
+    "is_npc": true,
+    "description": {
+      "zh_CN": "洛洛是费斯特的副队长，洛克十七无人机操作员。她是萨迪恩区本地人，父亲因不愿出卖城防军情报而被萨卡兹雇佣兵打死，因此对萨卡兹有强烈的仇恨。在战斗中受伤但坚持行动，负责操作洛克五号和洛克十七无人机进行侦察和攻击。",
+      "en_US": "Lolo is Fist's deputy and drone operator. She is a local of Sadiom District whose father was killed by Sarkaz mercenaries for refusing to betray intelligence. She has strong hostility toward Sarkaz. Despite being injured in battle, she persists in operating drones for reconnaissance and attacks."
+    },
+    "source": "level_main_10-04_beg, level_main_10-05_end, level_main_10-08_beg"
+  },
+  {
+    "id": "npc_bill_ch10",
+    "display_name": {
+      "zh_CN": "老比尔",
+      "en_US": "Old Bill"
+    },
+    "faction": "伦蒂尼姆市民自救军",
+    "avatar_key": "npc_bill_ch10",
+    "is_npc": true,
+    "description": {
+      "zh_CN": "老比尔是自救军的资深战士，在制醇厂战斗中被萨卡兹俘虏并受重伤。费斯特承诺会救他回来。比尔是一名焊接工匠，曾用扳手为费斯特等人制作机械零件。他对费斯特和洛洛来说如同家人一般。",
+      "en_US": "Old Bill is a veteran of the Self-Rescue Army, captured and critically wounded at the refinery. Fist promised to rescue him. Bill is a welding craftsman who made mechanical parts for Fist and others. He is like family to Fist and Lolo."
+    },
+    "source": "level_main_10-05_beg, level_main_10-08_beg, level_main_10-09_beg"
+  },
+  {
+    "id": "npc_heidi_ch10",
+    "display_name": {
+      "zh_CN": "海蒂·汤姆森",
+      "en_US": "Heidi Tomson"
+    },
+    "faction": "罗德岛信使",
+    "avatar_key": "npc_heidi_ch10",
+    "is_npc": true,
+    "description": {
+      "zh_CN": "海蒂是罗德岛在伦蒂尼姆的秘密信使，也是凯尔希的学生。她在被萨卡兹俘虏期间展现了战斗能力，最终被W救出。她负责协调自救军与罗德岛之间的联络，是救援行动的关键人物。",
+      "en_US": "Heidi is Rhodes Island's secret messenger in Londinium and a student of Kal'tsit. She showed combat ability while captured by Sarkaz and was rescued by W. She coordinates between the Self-Rescue Army and Rhodes Island, being key to the rescue operation."
+    },
+    "source": "level_main_10-08_beg, level_main_10-08_end, level_main_10-09_beg"
+  },
+  {
+    "id": "npc_mandrag_ch10",
+    "display_name": {
+      "zh_CN": "蔓德拉",
+      "en_US": "Mandrag"
+    },
+    "faction": "深池",
+    "avatar_key": "npc_mandrag_ch10",
+    "is_npc": true,
+    "description": {
+      "zh_CN": "蔓德拉是深池的术师和指挥官，小丘郡事件的始作俑者之一。她在出入口岸与罗德岛发生冲突，后被曼弗雷德的部队歼灭。她是塔拉人，为深池领袖效力，但最终被萨卡兹处决。",
+      "en_US": "Mandrag is Deep Pool's mage and commander, one of the instigators of the《小丘郡事件. She clashed with Rhodes Island at the port and was destroyed by Manfred's forces. She is a Talumed working for the Deep Pool leader but was ultimately executed by the Sarkaz."
+    },
+    "source": "level_main_10-02_beg, level_main_10-02_end, level_main_10-05_end, level_main_10-11_end"
+  },
+  {
+    "id": "npc_jonny_ch10",
+    "display_name": {
+      "zh_CN": "强尼",
+      "en_US": "Jonny"
+    },
+    "faction": "伦蒂尼姆市民自救军",
+    "avatar_key": "npc_jonny_ch10",
+    "is_npc": true,
+    "description": {
+      "zh_CN": "强尼是费斯特小队的成员，在制醇厂战斗中被赫德雷杀害。他是自救军战士，为夺回伦蒂尼姆而战。",
+      "en_US": "Jonny was a member of Fist's squad, killed by Hechter at the refinery. He was a Self-Rescue Army fighter fighting to reclaim Londinium."
+    },
+    "source": "level_main_10-09_beg"
+  },
+  {
+    "id": "npc_gabby_ch10",
+    "display_name": {
+      "zh_CN": "加比",
+      "en_US": "Gabby"
+    },
+    "faction": "伦蒂尼姆市民自救军",
+    "avatar_key": "npc_gabby_ch10",
+    "is_npc": true,
+    "description": {
+      "zh_CN": "加比是费斯特小队的成员，在制醇厂战斗中被赫德雷杀害。他是自救军战士，为夺回伦蒂尼姆而战。",
+      "en_US": "Gabby was a member of Fist's squad, killed by Hechter at the refinery. He was a Self-Rescue Army fighter fighting to reclaim Londinium."
+    },
+    "source": "level_main_10-09_beg"
+  },
+  {
+    "id": "npc_theresa_ch10",
+    "display_name": {
+      "zh_CN": "特蕾西娅",
+      "en_US": "Theresa"
+    },
+    "faction": "萨卡兹",
+    "avatar_key": "npc_theresa_ch10",
+    "is_npc": true,
+    "description": {
+      "zh_CN": "特蕾西娅是萨卡兹的先代魔王，阿米娅继承了她的力量。在伦蒂尼姆，她的影像/精神出现在战场废墟中，所有萨卡兹都停下脚步注视她。她的白发和温和的面庞给在场的人留下了深刻印象。",
+      "en_US": "Theresa is the past Demon King of the Sarkaz; Amiya inherited her power. In Londinium, her image/spirit appears in the battlefield ruins, and all Sarkaz stop to gaze at her. Her white hair and gentle face left a deep impression on those present."
+    },
+    "source": "level_main_10-15_end"
+  },
+  {
+    "id": "npc_robb_ch10",
+    "display_name": {
+      "zh_CN": "罗本",
+      "en_US": "Robben"
+    },
+    "faction": "维多利亚残余部队",
+    "avatar_key": "npc_robb_ch10",
+    "is_npc": true,
+    "description": {
+      "zh_CN": "罗本是号角的狙击手，在城墙上与曼弗雷德交战时展现出勇敢。他有一枚自制的榴弹，愿意为战友牺牲。被Misery救出后继续战斗。",
+      "en_US": "Robben is B雕's sniper, showing bravery when fighting Manfred on the wall. He has a homemade grenade and is willing to sacrifice himself for comrades. He is rescued by Misery and continues fighting."
+    },
+    "source": "level_main_10-10_beg, level_main_10-11_end, level_main_10-15_end"
+  },
+  {
+    "id": "npc_blake_ch10",
+    "display_name": {
+      "zh_CN": "布莱克",
+      "en_US": "Blake"
+    },
+    "faction": "维多利亚残余部队",
+    "avatar_key": "npc_blake_ch10",
+    "is_npc": true,
+    "description": {
+      "zh_CN": "布莱克是号角的战友，陪同号角进行各种任务。他帮助安置新来的士兵，参与与萨卡兹和深池的战斗。",
+      "en_US": "Blake is B雕's comrade, accompanying her on various missions. He helps settle newly arrived soldiers and participates in battles against Sarkaz and Deep Pool."
+    },
+    "source": "level_main_10-05_beg, level_main_10-10_beg"
+  },
+  {
+    "id": "npc_klovitz_ch10",
+    "display_name": {
+      "zh_CN": "克洛维希娅",
+      "en_US": "Klovitsch"
+    },
+    "faction": "伦蒂尼姆市民自救军",
+    "avatar_key": "npc_klovitz_ch10",
+    "is_npc": true,
+    "description": {
+      "zh_CN": "克洛维希娅是伦蒂尼姆市民自救军的指挥官，年轻的维多利亚少女。她带领自救军在萨卡兹占领下进行地下抵抗，与罗德岛合作进行营救行动。她与阿米娅年纪相仿，都承担着重任。",
+      "en_US": "Klovitsch is the commander of the Londinium Citizens' Self-Rescue Army, a young Victoria girl. She leads the underground resistance against the Sarkaz occupation and cooperates with Rhodes Island on rescue operations. She and Amiya are similar in age, both bearing heavy responsibilities."
+    },
+    "source": "level_main_10-05_beg, level_main_10-05_end, level_main_10-06_beg, level_main_10-15_end"
+  },
+  {
+    "id": "npc_misery_ch10",
+    "display_name": {
+      "zh_CN": "Misery（ch10）",
+      "en_US": "Misery (ch10)"
+    },
+    "faction": "罗德岛",
+    "avatar_key": "npc_misery_ch10",
+    "is_npc": true,
+    "description": {
+      "zh_CN": "Misery是罗德岛精英干员，擅长空间源石技艺。在伦蒂尼姆地下，她使用空间转移能力救助众人，包括营救号角和阻挡曼弗雷德。她是凯尔希派遣先行进入伦蒂尼姆的干员之一。",
+      "en_US": "Misery is a Rhodes Island elite operator skilled in spatial Arts. In the Londinium underground, she uses spatial transfer to rescue people, including B雕 and blocking Manfred. She is one of the operators Kal'tsit sent ahead into Londinium."
+    },
+    "source": "level_main_10-11_end, level_main_10-12_beg, level_main_10-15_end"
+  }
+]
