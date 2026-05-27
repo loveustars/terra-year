@@ -111,9 +111,11 @@ const OperatorSelector: React.FC<OperatorSelectorProps> = ({
   const grouped = useMemo(() => {
     const groups = new Map<string, Operator[]>();
     for (const op of filtered) {
-      const key = (Array.isArray(op.faction) ? op.faction[0] : op.faction) || 'unknown';
-      if (!groups.has(key)) groups.set(key, []);
-      groups.get(key)!.push(op);
+      const factions = (Array.isArray(op.faction) ? op.faction : [op.faction || 'unknown']);
+      for (const faction of factions) {
+        if (!groups.has(faction)) groups.set(faction, []);
+        groups.get(faction)!.push(op);
+      }
     }
     return Array.from(groups.entries())
       .map(([faction, ops]) => ({
