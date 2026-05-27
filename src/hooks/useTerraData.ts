@@ -75,10 +75,10 @@ export interface OperatorState {
  * ============================================================ */
 
 const DATA_PATHS: Record<string, string> = {
-  operators: '/data/operatiors.json',
-  events: '/data/events.json',
-  relations: '/data/relations.json',
-  states: '/data/operators_state.json',
+  operators: './data/operatiors.json',
+  events: './data/events.json',
+  relations: './data/relations.json',
+  states: './data/operators_state.json',
 } as const;
 
 export interface TerraDataState {
