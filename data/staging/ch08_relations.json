@@ -1,0 +1,822 @@
+[
+  {
+    "id": "rel_chen_talula_ch08",
+    "source": "char_010_chen",
+    "target": "npc_talulah",
+    "relation_type": "rival",
+    "relation_label": {
+      "zh_CN": "姐妹·命运对决",
+      "en_US": "Sisters · Fatal Confrontation"
+    },
+    "description": {
+      "zh_CN": "陈与塔露拉是同母异父姐妹，在核心城天台展开决战。陈手持赤霄，阿米娅使用黑色魔王之剑，两人联手对抗被科西切附身的塔露拉。最终塔露拉觉醒，驱除科西切，姐妹重逢。",
+      "en_US": "Ch'en and Talulah are half-sisters, confronting each other atop the Core City. Ch'en wields Chi Xiao while Amiya uses the black Demon King's sword. After Talulah expels Koschei, the sisters reunite."
+    },
+    "first_appear_event_id": "main_ch08",
+    "associated_event_id": "main_ch08",
+    "evidences": [
+      {
+        "source_story": "level_main_08-16_beg",
+        "quote": {
+          "zh_CN": "我本想这么说，但这似乎是在给你找理由。如果有理由，也等到你能活着上了法庭再说。",
+          "en_US": "I want to say this, but it seems I'm making excuses for you. If there's a reason, wait until you can stand trial alive."
+        },
+        "context_analysis": {
+          "zh_CN": "陈对塔露拉说要逮捕她，但承认没有审判塔露拉的资格——因为感染者至今没有公正的审判场所",
+          "en_US": "Ch'en says she will arrest Talulah but admits no one has the right to judge her——because no fair tribunal for the infected exists yet"
+        }
+      },
+      {
+        "source_story": "level_main_08-17_end",
+        "quote": {
+          "zh_CN": "好久不见。好久不见，姐姐。看来我救到你了。",
+          "en_US": "Long time no see. Long time no see, sister. Seems like I saved you."
+        },
+        "context_analysis": {
+          "zh_CN": "核心城停下后，陈与塔露拉重逢。陈用小时候的游戏比喻两人过去的隔阂，承认她们各自走上了不同的路，但未来还很长",
+          "en_US": "After the Core City stops, Ch'en and Talulah reunite. Ch'en references their childhood game, acknowledging they each walked different paths, but the future is still long"
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_amiya_talula_ch08",
+    "source": "char_002_amiya",
+    "target": "npc_talulah",
+    "relation_type": "rival",
+    "relation_label": {
+      "zh_CN": "魔王与感染者领袖·天台决战",
+      "en_US": "Demon King vs. Reunion Leader · Rooftop Duel"
+    },
+    "description": {
+      "zh_CN": "阿米娅以萨卡兹魔王继承者身份，与陈联手对抗被科西切附身的塔露拉。阿米娅使用黑色长剑和陈的赤霄剑联合攻击，最终塔露拉自我意识觉醒，驱除了科西切的诅咒。",
+      "en_US": "Amiya, as the successor to the Demon King of Sarkaz, fights alongside Ch'en against Koschei-possessed Talulah. Using a black sword and Chi Xiao together, they force Talulah to expel Koschei and reclaim her identity."
+    },
+    "first_appear_event_id": "main_ch08",
+    "associated_event_id": "main_ch08",
+    "evidences": [
+      {
+        "source_story": "level_main_08-16_beg",
+        "quote": {
+          "zh_CN": "你不是塔露拉。现在你心里的，既是塔露拉，也是科西切。我的感觉不会错。",
+          "en_US": "You are not Talulah. What dwells in your heart now is both Talulah and Koschei. My senses are never wrong."
+        },
+        "context_analysis": {
+          "zh_CN": "阿米娅识破塔露拉被科西切附身，指出她既不完全是塔露拉也不完全是科西切",
+          "en_US": "Amiya sees through Koschei's possession, identifying that Talulah is neither fully herself nor fully Koschei"
+        }
+      },
+      {
+        "source_story": "level_main_08-16_beg",
+        "quote": {
+          "zh_CN": "我们不关心。无论你是科西切还是塔露拉......从我姐姐的身体里滚出去。",
+          "en_US": "We don't care. Whether you're Koschei or Talulah...... get out of my sister's body."
+        },
+        "context_analysis": {
+          "zh_CN": "阿米娅和陈并肩作战，明确表示她们不在乎塔露拉的过去，只要求科西切离开塔露拉的身体",
+          "en_US": "Amiya and Ch'en fight back-to-back, making clear they don't care about Talulah's past, only that Koschei leave her body"
+        }
+      },
+      {
+        "source_story": "level_main_08-16_end",
+        "quote": {
+          "zh_CN": "塔露拉小姐！请你记住......请你回想起来你自己是谁！",
+          "en_US": "Miss Talulah! Please remember...... please recall who you truly are!"
+        },
+        "context_analysis": {
+          "zh_CN": "阿米娅恳求塔露拉想起自己是谁，想起了霜星、浮士德、所有相信她的战士，想起她想成为的人",
+          "en_US": "Amiya pleads with Talulah to remember who she is, recalling Frostnova, Faust, all who believed in her"
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_talula_koschei_ch08",
+    "source": "npc_talulah",
+    "target": "npc_koschei",
+    "relation_type": "rival",
+    "relation_label": {
+      "zh_CN": "养父与被诅咒的女儿",
+      "en_US": "Adoptive Father & Cursed Daughter"
+    },
+    "description": {
+      "zh_CN": "科西切公爵是塔露拉的养父，他以教育之名对塔露拉施加源石技艺的思维操控/诅咒——赌塔露拉终有一天会因为人性的丑恶而认同他。塔露拉刺杀科西切，但诅咒已在之前生效。黑蛇科西切在塔露拉成年后继续附身于她，最终在核心城决战中被陈与阿米娅联手驱逐。",
+      "en_US": "Duke Koschei is Talulah's adoptive father. He used arts to plant a curse in her mind, betting she would one day embrace his worldview. Talulah stabbed Koschei to death, but the curse had already taken root. Koschei possessed her in later years, finally expelled by Ch'en and Amiya in the Core City battle."
+    },
+    "first_appear_event_id": "main_ch08",
+    "associated_event_id": "main_ch08",
+    "evidences": [
+      {
+        "source_story": "level_main_08-05_end",
+        "quote": {
+          "zh_CN": "科西切......一个孩子。安东尼奥带着他的儿子旅行，你让我栽赃他......你诱骗我去杀一个孩子。",
+          "en_US": "Koschei...... a child. Antonio was traveling with his son, and you had me frame him...... you tricked me into killing a child."
+        },
+        "context_analysis": {
+          "zh_CN": "塔露拉揭露科西切诱骗她杀孩子的阴谋，宣布自己故意感染矿石病以摆脱他的控制",
+          "en_US": "Talulah exposes Koschei's scheme to trick her into killing a child, declaring she infected herself with oripathy to escape his control"
+        }
+      },
+      {
+        "source_story": "level_main_08-05_end",
+        "quote": {
+          "zh_CN": "你诅咒我？你是想......用你自己......塑造我？不，塔露拉，这不是诅咒。这是祝福。",
+          "en_US": "You cursed me? You want to...... shape me with yourself......? No, Talulah, this is not a curse. This is a blessing."
+        },
+        "context_analysis": {
+          "zh_CN": "科西切揭露他的诅咒本质：通过加速塔露拉对人性失望的过程，在她否定的时刻将她转化为另一个自己",
+          "en_US": "Koschei reveals the true nature of his curse: accelerating Talulah's disillusionment to turn her into himself at the moment of her negation"
+        }
+      },
+      {
+        "source_story": "level_main_08-05_end",
+        "quote": {
+          "zh_CN": "塔露拉：我不是你的女儿......我杀你，只是为了阻止你再去作恶。",
+          "en_US": "Talulah: I am not your daughter...... I kill you only to stop you from doing evil again."
+        },
+        "context_analysis": {
+          "zh_CN": "塔露拉刺死科西切，但科西切死前预言她终将后悔，诅咒的种子已经种下",
+          "en_US": "Talulah stabs Koschei to death, but Koschei predicts she will regret it——the seed of the curse was already planted"
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_talula_alina_ch08",
+    "source": "npc_talulah",
+    "target": "npc_alina",
+    "relation_type": "ally",
+    "relation_label": {
+      "zh_CN": "至死不渝的战友",
+      "en_US": "Devoted Comrades · Till Death"
+    },
+    "description": {
+      "zh_CN": "阿丽娜是塔露拉最亲密的朋友和战友，两人一起逃离村子逃亡。在塔露拉因烧死纠察队引发村庄大火时，阿丽娜责备她不该让愤怒伤害无辜村民。阿丽娜教导塔露拉关于人性与信念的哲学思考，是塔露拉最重要的精神支柱之一。",
+      "en_US": "Alina is Talulah's closest friend and companion, fleeing the village together. When Talulah burns down the village in anger, Alina rebukes her for harming innocent people. Alina's philosophical teachings about humanity and belief are central to Talulah's spiritual foundation."
+    },
+    "first_appear_event_id": "main_ch08",
+    "associated_event_id": "main_ch08",
+    "evidences": [
+      {
+        "source_story": "level_main_08-03_end",
+        "quote": {
+          "zh_CN": "你眼里有一团火。从你来这个村子的时候我就知道，你不会甘心在这个村子里呆下去的。你有你的来处，你从哪里来就要回到哪里去，这个村子容不下你。",
+          "en_US": "There is a fire in your eyes. I knew from when you came to this village that you would never be content to stay. You have your origins, where you come from is where you must return——this village cannot hold you."
+        },
+        "context_analysis": {
+          "zh_CN": "阿丽娜在塔露拉烧村后与她一起逃亡，第一次表白她知道塔露拉不是普通人",
+          "en_US": "Alina flees with Talulah after the village burning, first admitting she knew Talulah was no ordinary person"
+        }
+      },
+      {
+        "source_story": "level_main_08-04_beg",
+        "quote": {
+          "zh_CN": "阿丽娜：你是在说那些精神，那些敌意，还有那些刻在乌萨斯人与我们骨子里的东西。皇帝？皇帝也只是它的一种样子吧。只要人们还不肯放下刀，那这场战争就不会结束。",
+          "en_US": "Alina: You are talking about those spirits, those hostilities, those things carved into the bones of the Ursus people and us. The Emperor? The Emperor is just one manifestation. As long as people refuse to put down their knives, this war will never end."
+        },
+        "context_analysis": {
+          "zh_CN": "阿丽娜在篝火旁与塔露拉深入讨论关于人性、命运和抗争的哲学",
+          "en_US": "Alina and Talulah discuss philosophy about humanity, fate and resistance by the campfire"
+        }
+      },
+      {
+        "source_story": "level_main_08-06_end",
+        "quote": {
+          "zh_CN": "塔露拉：我认为我们的所作所为一定会有好的结果，原因也很简单。因为他们配得上那个结果。因为这片大地上的生灵值得那个结果。",
+          "en_US": "Talulah: I believe our actions will lead to good results, for one simple reason. Because they deserve those results. Because the beings on this land deserve those results."
+        },
+        "context_analysis": {
+          "zh_CN": "阿丽娜不相信命运是看得见摸得着的东西，塔露拉坚信感染者的未来值得奋斗",
+          "en_US": "Alina doesn't believe in fate as something tangible; Talulah firmly believes the infected's future is worth fighting for"
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_patriot_talula_ch08",
+    "source": "npc_patriot",
+    "target": "npc_talulah",
+    "relation_type": "unknown",
+    "relation_label": {
+      "zh_CN": "冻原战友·理念分歧",
+      "en_US": "Tundra Comrades · Divergent Ideals"
+    },
+    "description": {
+      "zh_CN": "爱国者（博卓卡斯替）是冻原感染者游击队的精神领袖。塔露拉在冻原遇到雪怪小队并最终与游击队合流。她想说服爱国者支持南下整合运动的计划，但爱国者始终不认同——他认为塔露拉的计划会让感染者送命，他只相信冻原上的生存方式。爱国者直到最后也没有同意塔露拉的南方计划。",
+      "en_US": "Patriot (Batoskret) is the spiritual leader of the tundra partisan guerrilla force. Talulah met the Snowsquad and eventually integrated with the guerrillas. She tried to convince Patriot to support her southern Integration Movement plan, but he never agreed——he believed her plan would send the infected to their deaths, and he only trusted life on the tundra."
+    },
+    "first_appear_event_id": "main_ch08",
+    "associated_event_id": "main_ch08",
+    "evidences": [
+      {
+        "source_story": "level_main_08-06_beg",
+        "quote": {
+          "zh_CN": "爱国者：你想离开雪原？你会被乌萨斯的铁甲碾碎。",
+          "en_US": "Patriot: You want to leave the tundra? You will be crushed by Ursus iron armor."
+        },
+        "context_analysis": {
+          "zh_CN": "爱国者第一次正式对塔露拉发表意见——否定她的南下计划",
+          "en_US": "Patriot formally expresses his opinion to Talulah for the first time——rejecting her southern plan"
+        }
+      },
+      {
+        "source_story": "level_main_08-06_end",
+        "quote": {
+          "zh_CN": "爱国者：冻原上的感染者既不无知也不愚蠢。我们不抱幻想。所有的理念在被实践前都是幻想。",
+          "en_US": "Patriot: The infected on the tundra are neither ignorant nor foolish. We have no illusions. All ideals are fantasies before they are practiced."
+        },
+        "context_analysis": {
+          "zh_CN": "爱国者批评塔露拉的理念过于超前，认为冻原感染者务实，不会被假大空的学说打动",
+          "en_US": "Patriot criticizes Talulah's ideals as too advanced, believing tundra infected are pragmatic and won't be swayed by grand doctrines"
+        }
+      },
+      {
+        "source_story": "level_main_08-06_end",
+        "quote": {
+          "zh_CN": "爱国者：我女儿也许会相信你。但我不相信一个从没因事实而失望，一直只是在陈托某种假大空的学说的人。",
+          "en_US": "Patriot: My daughter might believe you. But I don't believe in someone who has never been disappointed by facts, who only ever parrots some grand empty doctrine."
+        },
+        "context_analysis": {
+          "zh_CN": "爱国者承认霜星可能被塔露拉说服，但他自己坚持不信任",
+          "en_US": "Patriot admits Frostnova might be persuaded by Talulah, but he himself remains unconvinced"
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_amiya_kaltsit_ch08",
+    "source": "char_002_amiya",
+    "target": "char_003_kalts",
+    "relation_type": "ally",
+    "relation_label": {
+      "zh_CN": "罗德岛领袖与医疗总监",
+      "en_US": "RHODES ISLAND Leader & Medical Director"
+    },
+    "description": {
+      "zh_CN": "阿米娅是罗德岛的领导人，凯尔希是罗德岛的医疗总监兼战略顾问。在核心城决战中，凯尔希指挥Mon3tr对抗牧群萨卡兹，最终赶到与阿米娅会合。凯尔希担忧自己无法保护好博士，也担忧阿米娅是否应该承载起不幸种族的命运。",
+      "en_US": "Amiya is the leader of Rhodes Island, Kal'tsit is the medical director and strategic advisor. During the Core City battle, Kal'tsit commands Mon3tr against the Sarkaz Herd, eventually meeting up with Amiya. Kal'tsit worries about protecting the Doctor and whether Amiya should bear the fate of an unfortunate race."
+    },
+    "first_appear_event_id": "main_ch08",
+    "associated_event_id": "main_ch08",
+    "evidences": [
+      {
+        "source_story": "level_main_08-14_beg",
+        "quote": {
+          "zh_CN": "凯尔希：阿米娅......你真的要承载起这样不幸的种族的命运吗？",
+          "en_US": "Kal'tsit: Amiya...... do you truly wish to bear the fate of such an unfortunate race?"
+        },
+        "context_analysis": {
+          "zh_CN": "凯尔希询问阿米娅的决心——面对牧群和源石粉尘感染的威胁",
+          "en_US": "Kal'tsit asks Amiya about her resolve——facing the threat of the Herd and originium dust infection"
+        }
+      },
+      {
+        "source_story": "level_main_08-12_beg",
+        "quote": {
+          "zh_CN": "凯尔希：即使是不值得，我也会这么做，理由的话，一会儿我也许有机会说给你听。",
+          "en_US": "Kal'tsit: Even if he's not worth it, I will do so. The reason, perhaps I will have a chance to tell you later."
+        },
+        "context_analysis": {
+          "zh_CN": "凯尔希向博士表达她的守护决心，即使博士不是值得保护的人",
+          "en_US": "Kal'tsit expresses her determination to protect the Doctor, even if he is not worth protecting"
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_rosmontis_guard_ch08",
+    "source": "avg_npc_042",
+    "target": "npc_guard",
+    "relation_type": "ally",
+    "relation_label": {
+      "zh_CN": "战友·并肩作战",
+      "en_US": "Comrades · Fighting Side by Side"
+    },
+    "description": {
+      "zh_CN": "迷迭香（Rosmontis）与盾卫（Guard）在核心城与乌萨斯军和整合运动的混合军队战斗。迷迭香展现强大的精神力量，与盾卫和游击队并肩作战保卫罗德岛和阿米娅。",
+      "en_US": "Rosmontis and Guard fight together against the mixed force of Ursus army and Reunion soldiers in the Core City. Rosmontis displays her immense spiritual power, fighting alongside Guard and the guerrillas to protect Rhodes Island and Amiya."
+    },
+    "first_appear_event_id": "main_ch08",
+    "associated_event_id": "main_ch08",
+    "evidences": [
+      {
+        "source_story": "level_main_08-09_beg",
+        "quote": {
+          "zh_CN": "迷迭香：Raidian，收到信息的话，帮我干扰他们的通讯。一瞬间里让他们的耳机都爆炸就好了。",
+          "en_US": "Rosmontis: Radian, if you receive the message, help me jam their communications. Just make all their earpieces explode in an instant."
+        },
+        "context_analysis": {
+          "zh_CN": "迷迭香指挥战术，干扰敌人通讯，配合游击队和罗德岛作战",
+          "en_US": "Rosmontis commands tactics, jamming enemy communications, coordinating with guerrillas and Rhodes Island"
+        }
+      },
+      {
+        "source_story": "level_main_08-14_beg",
+        "quote": {
+          "zh_CN": "盾卫：菲林，受乌萨斯盾卫和游击队战士支援的外人，你是第一个！迷迭香：不，我不是外人。我们现在是一支队伍。我们要停下这座城市。",
+          "en_US": "Guard: Firin, you are the first outsider supported by Ursus shield-bearers and guerrilla fighters! Rosmontis: No, I am not an outsider. We are now one force. We must stop this city."
+        },
+        "context_analysis": {
+          "zh_CN": "盾卫承认迷迭香是第一个获得游击队支援的外人，迷迭香宣称他们现在是一支队伍",
+          "en_US": "Guard acknowledges Rosmontis as the first outsider to receive guerrilla support; Rosmontis declares they are now one force"
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_w_amiya_ch08",
+    "source": "char_113_cqbw",
+    "target": "char_002_amiya",
+    "relation_type": "ally",
+    "relation_label": {
+      "zh_CN": "揭露者与接纳者",
+      "en_US": "Revealer & Acceptor"
+    },
+    "description": {
+      "zh_CN": "W在核心城决战末尾找到阿米娅，揭露米莎（碎骨的姐姐）原本不需要死的真相。W请求阿米娅给她停止核心城的秘钥，帮助停止城市。阿米娅在得知W知道停止口令来自碎骨（亚历克斯）后，信任了W并交出秘钥。",
+      "en_US": "At the end of the Core City battle, W finds Amiya and reveals that Misha (Gravelbone's sister) didn't need to die. W asks Amiya for the key to stop the city. After learning W knows the stop command from Gravelbone (Alex), Amiya trusts W and hands over the key."
+    },
+    "first_appear_event_id": "main_ch08",
+    "associated_event_id": "main_ch08",
+    "evidences": [
+      {
+        "source_story": "level_main_08-17_end",
+        "quote": {
+          "zh_CN": "W：兔子，嗯。小兔子，你有点像她。……再见了，阿米娅。真心希望，我真心希望我这种人不会再和你见面。",
+          "en_US": "W: Bunny, um. Little bunny, you remind me of someone. [...] Goodbye, Amiya. I sincerely hope, I sincerely hope that someone like me will never meet you again."
+        },
+        "context_analysis": {
+          "zh_CN": "W承认阿米娅有点像她认识的人，表达了对未来的祝愿后离开",
+          "en_US": "W admits Amiya reminds her of someone she knew, expresses wishes for the future before departing"
+        }
+      },
+      {
+        "source_story": "level_main_08-17_end",
+        "quote": {
+          "zh_CN": "阿米娅：米莎已经死去了。我们永远没法弥补这个错误。W，以后这一切都不会再发生。我不会允许你再这样做。你要么答应我，要么，我们会把你囚禁在罗德岛。",
+          "en_US": "Amiya: Misha is already dead. We can never undo this mistake. W, this must never happen again. I won't allow you to do this again. Either you promise me, or we'll imprison you in Rhodes Island."
+        },
+        "context_analysis": {
+          "zh_CN": "阿米娅要求W承诺不再伤害无辜者，否则将把她囚禁",
+          "en_US": "Amiya demands W promise never to harm the innocent again, or face imprisonment"
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_w_talula_ch08",
+    "source": "char_113_cqbw",
+    "target": "npc_talulah",
+    "relation_type": "rival",
+    "relation_label": {
+      "zh_CN": "死敌·炸塔露拉",
+      "en_US": "Sworn Enemy · To Destroy Talulah"
+    },
+    "description": {
+      "zh_CN": "W恨塔露拉，想要把她炸成灰。W解释她是因为塔露拉才被迫杀了Scout——Scout为了保护其他人与W演了一出戏。W的萨卡兹雇佣兵被塔露拉清洗处决，W自己也受了重伤，但她发誓要再炸塔露拉一次。",
+      "en_US": "W hates Talulah and wants to blow her to pieces. W explains she was forced to kill Scout because of Talulah——Scout performed a play with W to protect others. W's Sarkaz mercenaries were purged by Talulah, and W herself was gravely wounded, but swore to blast Talulah again."
+    },
+    "first_appear_event_id": "main_ch08",
+    "associated_event_id": "main_ch08",
+    "evidences": [
+      {
+        "source_story": "level_main_08-12_beg",
+        "quote": {
+          "zh_CN": "W：只要运气好，我们就都能活下去。祝各位好运。你们如果不信我，就试着去相信自己的运气吧。",
+          "en_US": "W: As long as we're lucky, we can all survive. Good luck, everyone. If you don't believe me, try believing in your own luck."
+        },
+        "context_analysis": {
+          "zh_CN": "W在离开前警告盾卫和罗德岛，塔露拉不在意整合运动的死活，乌萨斯士兵穿着整合运动衣服",
+          "en_US": "W warns Guard and Rhodes Island before departing that Talulah doesn't care about Reunion's fate and Ursus soldiers wear Reunion uniforms"
+        }
+      },
+      {
+        "source_story": "level_main_08-17_end",
+        "quote": {
+          "zh_CN": "W：碎骨的父亲在死前和他这么说的。……在那之前，科西切这个老骗子骗了我们所有人。我，爱国者老爷子，霜星，浮士德，梅菲斯特，碎骨，弑君者，全都被骗了。",
+          "en_US": "W: Gravelbone's father told him this before he died. [...] Before that, old trickster Koschei fooled all of us. Me, old man Patriot, Frostnova, Faust, Mephisto, Gravelbone, the Assassin——we were all fooled."
+        },
+        "context_analysis": {
+          "zh_CN": "W揭露塔露拉/科西切骗了所有人——整合运动只是她实现目标的工具",
+          "en_US": "W reveals Talulah/Koschei fooled everyone——Reunion was merely a tool for her agenda"
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_w_scout_ch08",
+    "source": "char_113_cqbw",
+    "target": "avg_npc_026",
+    "relation_type": "unknown",
+    "relation_label": {
+      "zh_CN": "仇杀与真相",
+      "en_US": "Vendetta & Truth"
+    },
+    "description": {
+      "zh_CN": "W被迫杀了Scout——Scout为了保护其他罗德岛干员与W演了一出戏。W认为Scout是萨卡兹中最有价值的战士，比她自己更有价值。罗德岛干员起初不相信W，但最终接受了她的说法。",
+      "en_US": "W was forced to kill Scout——Scout performed a staged conflict with W to protect other Rhodes Island operators. W considered Scout the most valuable of all Sarkaz warriors, more valuable than herself. The Rhodes Island operator initially didn't believe W, but ultimately accepted her account."
+    },
+    "first_appear_event_id": "main_ch08",
+    "associated_event_id": "main_ch08",
+    "evidences": [
+      {
+        "source_story": "level_main_08-12_beg",
+        "quote": {
+          "zh_CN": "W：Scout是为你们罗德岛而死的。我是被迫取走了他的命。……Scout......你们给我听着！就算在巴别塔，Scout也是我觉得最有价值的战士。他比我贵。",
+          "en_US": "W: Scout died for your Rhodes Island. I was forced to take his life. [...] Scout...... listen to me! Even at Babel, Scout was the warrior I found most valuable. He was worth more than me."
+        },
+        "context_analysis": {
+          "zh_CN": "W向罗德岛揭露Scout牺牲的真相，表达她对Scout的敬意",
+          "en_US": "W reveals the truth of Scout's sacrifice to Rhodes Island, expressing her respect for him"
+        }
+      },
+      {
+        "source_story": "level_main_08-12_beg",
+        "quote": {
+          "zh_CN": "W：如果你们本事大点，如果你们当场干死那条龙女，怎么还会死那么多人？怎么还要我去杀Scout，去杀我看得起的人？",
+          "en_US": "W: If you were more capable, if you had killed that dragon lady on the spot, how many would have died? Why did I have to kill Scout, kill someone I respect?"
+        },
+        "context_analysis": {
+          "zh_CN": "W愤怒地责问罗德岛，如果他们能杀死塔露拉，Scout就不必死",
+          "en_US": "W angrily质问 Rhodes Island—if they could have killed Talulah, Scout wouldn't have had to die"
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_ratking_weiyanwu_ch08",
+    "source": "npc_ratking",
+    "target": "npc_2005_wywu",
+    "relation_type": "rival",
+    "relation_label": {
+      "zh_CN": "龙门元老·暗中相助",
+      "en_US": "Lungmen Elder · Covert Assistance"
+    },
+    "description": {
+      "zh_CN": "鼠王（林舸瑞）拦截魏彦吾争取时间，为陈和阿米娅在核心城的战斗争取机会。鼠王认为他们的时代已经过去，不应该再让陈晖洁手足相残。魏彦吾与鼠王激战，最终鼠王阻止了魏彦吾直到核心城停下。",
+      "en_US": "The Shrew King (Lin Gerui) intercepts Wei Yanwu to buy time for Ch'en and Amiya's battle in the Core City. The Shrew King believes their era has passed and shouldn't let Ch'en Huijie suffer fraternal conflict again. Wei Yanwu and the Shrew King fight desperately until the Core City stops."
+    },
+    "first_appear_event_id": "main_ch08",
+    "associated_event_id": "main_ch08",
+    "evidences": [
+      {
+        "source_story": "level_main_08-17_beg",
+        "quote": {
+          "zh_CN": "鼠王：拦到我死——或者拦到核心城被停下。不管停下它的是影卫还是乌萨斯，是晖洁还是感染者。在它停下之前，你一步也走不出。",
+          "en_US": "Shrew King: I'll block you until I die——or until the Core City stops. Whether it stops by Shadow Guards or Ursus, by Huijie or the infected. Before it stops, you won't take another step."
+        },
+        "context_analysis": {
+          "zh_CN": "鼠王拦截魏彦吾，明确表示他会战斗到核心城停下，无论谁来完成这件事",
+          "en_US": "Shrew King intercepts Wei Yanwu, clearly stating he will fight until the Core City stops, no matter who accomplishes it"
+        }
+      },
+      {
+        "source_story": "level_main_08-17_beg",
+        "quote": {
+          "zh_CN": "鼠王：难道让陈晖洁再手足相残一次？让科西切再如愿一次？！我们的时代已经过去了，魏彦吾！",
+          "en_US": "Shrew King: Would you let Ch'en Huijie suffer fraternal conflict again? Let Koschei have his way again?! Our era has passed, Wei Yanwu!"
+        },
+        "context_analysis": {
+          "zh_CN": "鼠王质问魏彦吾，不想让陈晖洁再次经历手足相残的悲剧",
+          "en_US": "Shrew King questions Wei Yanwu, refusing to let Ch'en Huijie suffer another tragedy of sibling conflict"
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_doctor_kaltsit_ch08",
+    "source": "char_6d7c1afb",
+    "target": "char_003_kalts",
+    "relation_type": "ally",
+    "relation_label": {
+      "zh_CN": "罗德岛指挥官与医疗总监",
+      "en_US": "RHODES ISLAND Commander & Medical Director"
+    },
+    "description": {
+      "zh_CN": "博士是罗德岛的指挥官，凯尔希是医疗总监。凯尔希担忧自己无法保护好博士，并质疑博士是否是一个值得她去保护的人。她认为利用信息不对等施压是一种战术手段，但也承认逼急了卡特斯也会咬人。",
+      "en_US": "The Doctor is the commander of Rhodes Island, Kal'tsit is the medical director. Kal'tsit worries she cannot protect the Doctor well enough and questions whether he is worth protecting. She sees using information asymmetry as a tactical tool, but also acknowledges that even a Cautus can bite when pushed."
+    },
+    "first_appear_event_id": "main_ch08",
+    "associated_event_id": "main_ch08",
+    "evidences": [
+      {
+        "source_story": "level_main_08-12_beg",
+        "quote": {
+          "zh_CN": "凯尔希：我在担心自己会保护不好你。不，Dr.{@nickname}，总有一天我会保护不了你。……你是否的确是一个值得我去保护的人？",
+          "en_US": "Kal'tsit: I'm worried I won't be able to protect you well. No, Dr.{@nickname}, someday I will not be able to protect you. [...] Are you truly a person worth my protecting?"
+        },
+        "context_analysis": {
+          "zh_CN": "凯尔希坦白她担心无法保护博士，并质疑博士的自我价值",
+          "en_US": "Kal'tsit openly admits her worry about protecting the Doctor and questions his self-worth"
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_kaltsit_mon3tr_ch08",
+    "source": "char_003_kalts",
+    "target": "char_4179_monstr",
+    "relation_type": "ally",
+    "relation_label": {
+      "zh_CN": "医疗兵与变异战士",
+      "en_US": "Doctor & Mutated Warrior"
+    },
+    "description": {
+      "zh_CN": "凯尔希揭示Mon3tr与萨卡兹牧群的变异真相。Mon3tr是凯尔希的重要战力，在核心城对抗牧群时凯尔希召唤Mon3tr战斗。她知道这种大规模感染源石粉尘的悲剧曾在过去发生过一次，发誓不让这类事件重演。",
+      "en_US": "Kal'tsit reveals the truth about Mon3tr and the Sarkaz Herd's mutations. Mon3tr is Kal'tsit's vital combat asset; she summons it during the battle against the Herd in the Core City. She knows such a mass originium dust catastrophe happened once before and swears never to let it happen again."
+    },
+    "first_appear_event_id": "main_ch08",
+    "associated_event_id": "main_ch08",
+    "evidences": [
+      {
+        "source_story": "level_main_08-14_beg",
+        "quote": {
+          "zh_CN": "凯尔希：Mon3tr，起来！我们的时间不多了。这种结局......甚至称不上是挽救。那些萨卡兹牧群的结局已经注定了。",
+          "en_US": "Kal'tsit: Mon3tr, rise! Our time is running out. This outcome...... cannot even be called salvation. The fate of those Sarkaz Herd members is already sealed."
+        },
+        "context_analysis": {
+          "zh_CN": "凯尔希召唤Mon3tr面对源石粉尘大规模感染悲剧，知道萨卡兹牧群的命运已经无法改变",
+          "en_US": "Kal'tsit summons Mon3tr to face the originium dust catastrophe, knowing the Sarkaz Herd's fate is irreversible"
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_guard_phantom_ch08",
+    "source": "npc_guard",
+    "target": "npc_phantoms",
+    "relation_type": "ally",
+    "relation_label": {
+      "zh_CN": "战友·共同复仇",
+      "en_US": "Comrades · Seeking Revenge Together"
+    },
+    "description": {
+      "zh_CN": "盾卫与幻影弩手在核心城并肩作战。幻影弩手提到浮士德队长为了他们连命都可以不要，如果罗德岛的兔子（阿米娅）真的可以为队长报仇，他们的命也确实不算什么。盾卫鼓励幻影弩手战斗到底。",
+      "en_US": "Guard and the Phantom Crossbowmen fight side by side in the Core City. The crossbowmen mention that Captain Faust was willing to give his life for them, and if Rhodes Island's bunny (Amiya) can avenge their captain, their lives are expendable too. Guard encourages them to fight to the end."
+    },
+    "first_appear_event_id": "main_ch08",
+    "associated_event_id": "main_ch08",
+    "evidences": [
+      {
+        "source_story": "level_main_08-14_beg",
+        "quote": {
+          "zh_CN": "幻影弩手：没了队长，我们没什么优势。……如果那个罗德岛的兔子真的可以为队长报仇，那我们的命也确实不算什么！",
+          "en_US": "Phantom Crossbowman: Without our captain, we have no advantage. [...] If that Rhodes Island bunny can really avenge our captain, our lives are truly not worth much!"
+        },
+        "context_analysis": {
+          "zh_CN": "幻影弩手为浮士德的牺牲感到悲痛，愿将性命托付给阿米娅的复仇",
+          "en_US": "Phantom Crossbowman grieves for Faust's sacrifice, willing to entrust their lives to Amiya's vengeance"
+        }
+      },
+      {
+        "source_story": "level_main_08-14_beg",
+        "quote": {
+          "zh_CN": "盾卫：把命托付给我们的人，我们的命，当然也由她！",
+          "en_US": "Guard: Those who entrust their lives to us——our lives, of course, belong to her too!"
+        },
+        "context_analysis": {
+          "zh_CN": "盾卫表示愿意将生命托付给迷迭香，体现游击队的战友信任",
+          "en_US": "Guard expresses willingness to entrust his life to Rosmontis, reflecting guerrilla comrades' trust"
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_rosmontis_ace_scout_ch08",
+    "source": "avg_npc_042",
+    "target": "avg_npc_026",
+    "relation_type": "ally",
+    "relation_label": {
+      "zh_CN": "思念的战友们",
+      "en_US": "Cherished Comrades in Memory"
+    },
+    "description": {
+      "zh_CN": "迷迭香在战斗中想起已故的Ace和Scout。她觉得做到了，理解了自己不是只有家人——这片大地上还有温柔的人、温暖的事。她努力记住这些温暖，哪怕伴随着痛苦。",
+      "en_US": "Rosmontis remembers deceased Ace and Scout during battle. She feels she has done it, understood that she is not only family——there are warm and kind people on this land. She strives to remember these warmths, even if accompanied by pain."
+    },
+    "first_appear_event_id": "main_ch08",
+    "associated_event_id": "main_ch08",
+    "evidences": [
+      {
+        "source_story": "level_main_08-17_end",
+        "quote": {
+          "zh_CN": "Ace，Scout，我好像做到了。我好像理解了。我不是只有家人的。这片大地上......还有好人。还有好多......温柔的人。很温暖。真的很温暖。温暖的事情，也许......我不会忘。",
+          "en_US": "Ace, Scout, I think I did it. I think I understand now. I'm not only family. On this land...... there are good people. So many...... gentle people. It's warm. Really warm. The warmth, perhaps...... I won't forget."
+        },
+        "context_analysis": {
+          "zh_CN": "迷迭香在核心城战斗胜利后，向已故的战友们汇报她终于理解了什么是战友和温暖",
+          "en_US": "Rosmontis reports to her fallen comrades after the Core City victory that she finally understood what it means to have comrades and warmth"
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_rosmontis_amiya_ch08",
+    "source": "avg_npc_042",
+    "target": "char_002_amiya",
+    "relation_type": "ally",
+    "relation_label": {
+      "zh_CN": "战友·守护阿米娅",
+      "en_US": "Comrades · Protecting Amiya"
+    },
+    "description": {
+      "zh_CN": "迷迭香在核心城誓言不让任何人干扰阿米娅与塔露拉的战斗。她和盾卫、游击队一起守卫阵线直到阿米娅完成决战。",
+      "en_US": "Rosmontis swears in the Core City that no one will interfere with Amiya's battle against Talulah. She and Guard and the guerrillas guard the line until Amiya finishes the decisive battle."
+    },
+    "first_appear_event_id": "main_ch08",
+    "associated_event_id": "main_ch08",
+    "evidences": [
+      {
+        "source_story": "level_main_08-17_beg",
+        "quote": {
+          "zh_CN": "迷迭香：要么我们赢了战斗结束，要么我会死去。他们谁也别想抓到阿米娅......谁也别想干扰她的战斗。",
+          "en_US": "Rosmontis: Either we win and the battle ends, or I die. No one will get their hands on Amiya...... no one will interfere with her fight."
+        },
+        "context_analysis": {
+          "zh_CN": "迷迭香誓言要么赢得战斗要么死，不让任何人干扰阿米娅的关键之战",
+          "en_US": "Rosmontis swears to win or die, refusing to let anyone interfere with Amiya's critical battle"
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_chen_amiya_ch08",
+    "source": "char_010_chen",
+    "target": "char_002_amiya",
+    "relation_type": "ally",
+    "relation_label": {
+      "zh_CN": "并肩战友",
+      "en_US": "Fighting Side by Side"
+    },
+    "description": {
+      "zh_CN": "陈与阿米娅在核心城天台并肩对抗科西切附身的塔露拉。陈将赤霄剑术传授给阿米娅，阿米娅从陈心中学会全部剑术。两人用赤霄和黑色魔王之剑联合攻击，最终帮助塔露拉驱逐科西切。",
+      "en_US": "Ch'en and Amiya fight back-to-back against Koschei-possessed Talulah atop the Core City. Ch'en teaches Amiya her sword technique; Amiya learns all of Ch'en's swordsmanship from her heart. Together they attack with Chi Xiao and the black Demon King's sword, finally helping Talulah expel Koschei."
+    },
+    "first_appear_event_id": "main_ch08",
+    "associated_event_id": "main_ch08",
+    "evidences": [
+      {
+        "source_story": "level_main_08-16_beg",
+        "quote": {
+          "zh_CN": "阿米娅：我知道，陈长官。她想杀你。我们面前的塔露拉心底还有一部分没被根除的记忆脉络，你是她与过去唯一的象征了。",
+          "en_US": "Amiya: I know, Commander Chen. She wants to kill you. The Talulah before us still has some unfading memory threads in her heart—you are the only symbol connecting her to the past."
+        },
+        "context_analysis": {
+          "zh_CN": "阿米娅向陈解释塔露拉心里还有塔露拉本人的部分，陈是塔露拉与过去的唯一联系",
+          "en_US": "Amiya explains to Ch'en that Talulah's heart still contains traces of Talulah herself, and Ch'en is the only connection to her past"
+        }
+      },
+      {
+        "source_story": "level_main_08-16_end",
+        "quote": {
+          "zh_CN": "陈：上了，阿米娅！先不要管她死活！阿米娅：啊？！真的可以吗......！陈：别想得我们好像真有得选一样！",
+          "en_US": "Ch'en: Let's go, Amiya! Don't worry about her life for now! Amiya: Huh?! Is that really okay......?! Ch'en: Don't pretend we have a choice!"
+        },
+        "context_analysis": {
+          "zh_CN": "陈与阿米娅配合默契，陈催促阿米娅一起攻击，承认她们没有选择",
+          "en_US": "Ch'en and Amiya work in perfect sync; Ch'en urges Amiya to attack together, acknowledging they have no choice"
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_talula_frostnova_ch08",
+    "source": "npc_talulah",
+    "target": "npc_shuangxing",
+    "relation_type": "ally",
+    "relation_label": {
+      "zh_CN": "冻原战友·生死与共",
+      "en_US": "Tundra Comrades · Through Life and Death"
+    },
+    "description": {
+      "zh_CN": "塔露拉在冻原遇到霜星，两人展开激烈战斗后和解。霜星后来跟随塔露拉南下参与整合运动，最终在龙门之战中牺牲。塔露拉在回忆中想起霜星咬牙切齿的悲鸣，始终无法忘记这位战友。",
+      "en_US": "Talulah met Frostnova on the tundra; after a fierce battle they reconciled. Frostnova later followed Talulah south to join the Integration Movement, ultimately sacrificing herself in the Lungmen battle. Talulah recalls Frostnova's bitter roar in her memories, unable to forget this comrade."
+    },
+    "first_appear_event_id": "main_ch08",
+    "associated_event_id": "main_ch08",
+    "evidences": [
+      {
+        "source_story": "level_main_08-05_end",
+        "quote": {
+          "zh_CN": "霜星：你很强，你带着他们走了很长的路，和我们一样。……但向南方去就是种幻想。塔露拉：我们给那些感染者找一个家。",
+          "en_US": "Frostnova: You are strong, you brought them a long way, same as us. [...] But going south is but a fantasy. Talulah: We will find a home for those infected."
+        },
+        "context_analysis": {
+          "zh_CN": "霜星承认塔露拉很强但质疑南下计划，塔露拉回应要为感染者找家",
+          "en_US": "Frostnova acknowledges Talulah's strength but questions the southern plan; Talulah responds by promising to find the infected a home"
+        }
+      },
+      {
+        "source_story": "level_main_08-16_end",
+        "quote": {
+          "zh_CN": "她记得霜星咬牙切齿的悲鸣。她看见温迪戈屹立不倒的遗躯。她听过阿丽娜压抑不住的轻呼。",
+          "en_US": "She remembers Frostnova's bitter roar. She sees the unyielding remains of the Wendigo. She hears Alina's suppressed cry."
+        },
+        "context_analysis": {
+          "zh_CN": "阿米娅在唤醒塔露拉时提到霜星和爱国者的牺牲，触动塔露拉的记忆",
+          "en_US": "Amiya touches Talulah's memories by mentioning Frostnova and Patriot's sacrifices when awakening her"
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_talula_patriot_ch08_battle",
+    "source": "npc_talulah",
+    "target": "npc_patriot",
+    "relation_type": "ally",
+    "relation_label": {
+      "zh_CN": "冻原战友·并肩战斗",
+      "en_US": "Tundra Comrades · Fighting Together"
+    },
+    "description": {
+      "zh_CN": "塔露拉与爱国者和雪怪小队在冻原并肩作战。她与霜星联手对抗乌萨斯驻军时，爱国者以萨卡兹仪式布置的源石装饰帮助吓退敌军。爱国者在战斗中使用萨卡兹仪式，巨人和冻原的北风令乌萨斯军闻风丧胆。",
+      "en_US": "Talulah fought alongside Patriot and the Snowsquad on the tundra. When she and Frostnova fought against Ursus forces, Patriot's Sarkaz ritual originium artifacts terrified the enemy. Patriot used a Sarkaz ceremony in battle; the giant and the tundra's northern wind made the Ursus army flee."
+    },
+    "first_appear_event_id": "main_ch08",
+    "associated_event_id": "main_ch08",
+    "evidences": [
+      {
+        "source_story": "level_main_08-06_beg",
+        "quote": {
+          "zh_CN": "霜星：那是为我父亲设置的。……乌萨斯军没有再追赶我们了。他们似乎很忌惮那东西。……那是萨卡兹的东西？那是爱国者的萨卡兹仪式。",
+          "en_US": "Frostnova: That was set up for my father. [...] The Ursus army didn't pursue us anymore. They seemed terrified of it. [...] Is that something Sarkaz? That is Patriot's Sarkaz ceremony."
+        },
+        "context_analysis": {
+          "zh_CN": "霜星解释源石装饰是爱国者设置的萨卡兹仪式，吓退了乌萨斯军",
+          "en_US": "Frostnova explains the originium artifacts were set up by Patriot as a Sarkaz ceremony, terrifying the Ursus army"
+        }
+      },
+      {
+        "source_story": "level_main_08-06_beg",
+        "quote": {
+          "zh_CN": "爱国者站定，向冻原投出了手中长戟。只懂如何吞食活物生命的阴郁天空忽地被刺出一个空洞。",
+          "en_US": "Patriot stood still and threw his spear toward the tundra. The gloomy sky that only knows how to devour living things was suddenly pierced with a hole."
+        },
+        "context_analysis": {
+          "zh_CN": "爱国者以萨卡兹仪式战斗，向冻原投出长戟，象征乌萨斯压迫的终结",
+          "en_US": "Patriot fights with a Sarkaz ceremony, hurling his spear toward the tundra, symbolizing the end of Ursus oppression"
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_talula_koschei_memories_ch08",
+    "source": "npc_talulah",
+    "target": "npc_koschei",
+    "relation_type": "unknown",
+    "relation_label": {
+      "zh_CN": "思维被操控的受害者",
+      "en_US": "Victim of Mental Manipulation"
+    },
+    "description": {
+      "zh_CN": "塔露拉是科西切思维操控的受害者。科西切的源石技艺早在塔露拉逃离时就已开始施用，导致她部分记忆被扭曲（比如她误以为那个夜晚是雨天而非晴天）。科西切的诅咒在她否定自己时刻生效，最终在核心城被陈和阿米娅联手打破。",
+      "en_US": "Talulah is a victim of Koschei's mental manipulation. Koschei's originium arts began being used when Talulah fled, twisting some of her memories (e.g., she mistakenly thought that night was rainy when it was clear). Koschei's curse activated when she negated herself, finally broken by Ch'en and Amiya in the Core City."
+    },
+    "first_appear_event_id": "main_ch08",
+    "associated_event_id": "main_ch08",
+    "evidences": [
+      {
+        "source_story": "level_main_08-16_beg",
+        "quote": {
+          "zh_CN": "阿米娅：不。塔露拉，科西切的源石技艺不是在他死后才生效的......他从那时候开始，就已经对你施用了这个法术了。想一想吧。你有多少思绪被扭曲了，你有多少记忆被蒙上了薄纱？",
+          "en_US": "Amiya: No. Talulah, Koschei's originium arts didn't only activate after his death...... from that time, he was already using this art on you. Think about it. How much of your thoughts have been distorted, how much of your memories have been veiled?"
+        },
+        "context_analysis": {
+          "zh_CN": "阿米娅揭露科西切的源石技艺早在塔露拉逃离时就开始施用，导致她的记忆被扭曲",
+          "en_US": "Amiya reveals Koschei's originium arts were used from when Talulah fled, distorting her memories"
+        }
+      },
+      {
+        "source_story": "level_main_08-16_beg",
+        "quote": {
+          "zh_CN": "塔露拉？：那个月夜，那个下着倾盆大雨的夜晚……你为什么心甘情愿地留在那条恶龙身边？陈：那是个晴天。我绝对不会记错……那天晚上，虽然没有月亮，没有星星——但你拉我出去的时候，是白天。",
+          "en_US": "Koschei-Talulah: That moonlit night, that night of torrential rain...... why did you willingly stay by that evil dragon's side? Ch'en: It was clear. I absolutely remember...... that night, although there was no moon, no stars——when you pulled me outside, it was daytime."
+        },
+        "context_analysis": {
+          "zh_CN": "陈指出塔露拉记错了那晚的天气——是晴天不是雨天，证明她的记忆被扭曲",
+          "en_US": "Ch'en points out Talulah misremembered that night's weather——clear, not rainy——proving her memories were distorted"
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  }
+]

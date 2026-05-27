@@ -1,0 +1,162 @@
+[
+  {
+    "id": "avg_outcast",
+    "name": {
+      "zh_CN": "Outcast",
+      "en_US": "Outcast"
+    },
+    "description": "前拉特兰枢机，萨科塔，罗德岛精英干员，外表看似普通的文职人员，实则实力深不可测。在小丘郡事变中以六发子弹同时射击的方式将深池六名干部全部击杀，为保护重伤的深池领袖（拉芙希妮）献出生命。",
+    "type": "npc",
+    "faction": "Rhodes Island"
+  },
+  {
+    "id": "avg_npc_229",
+    "name": {
+      "zh_CN": "风笛",
+      "en_US": "Bagpipe"
+    },
+    "description": "维多利亚突击队成员，号角小队的核心战士，瓦伊凡。使用破城矛，在通讯塔决战中击败蔓德拉，最终用破城矛的弹射功能飞出小丘郡传递情报。",
+    "type": "npc",
+    "faction": "Victoria Military"
+  },
+  {
+    "id": "avg_npc_222",
+    "name": {
+      "zh_CN": "奥利弗",
+      "en_US": "Oliver"
+    },
+    "description": "罗德岛驻小丘郡办事处的负责人，瓦伊凡。简妮经常来办事处送早餐，与简妮等建立了如同家人般的同事关系。",
+    "type": "npc",
+    "faction": "Rhodes Island"
+  },
+  {
+    "id": "avg_npc_239",
+    "name": {
+      "zh_CN": "汉密尔顿上校",
+      "en_US": "Captain Hamilton"
+    },
+    "description": "小丘郡驻军最高指挥官，对塔拉居民持极端种族主义立场，授权炮兵营使用脏弹攻击城区，最终在驻军覆灭时独自留下战斗。",
+    "type": "npc",
+    "faction": "Victoria Military"
+  },
+  {
+    "id": "avg_npc_228",
+    "name": {
+      "zh_CN": "阿赫茉妮",
+      "en_US": "Ahmani"
+    },
+    "description": "深池首席谋臣，向往看见「终点」的哲学型人物，是深池神秘领袖（拉特）的左膀右臂，在晚宴上代表深池发言，与蔓德拉路线对立。",
+    "type": "npc",
+    "faction": "Deeppool"
+  },
+  {
+    "id": "avg_npc_233",
+    "name": {
+      "zh_CN": "蔓德拉",
+      "en_US": "Mendra"
+    },
+    "description": "深池激进派领袖，菲林，拥有强大的源石技艺（能同时操控大量石柱攻击和防御），对维多利亚贵族怀有深仇。最终在通讯塔决战中败于风笛和号角的联手战术。",
+    "type": "npc",
+    "faction": "Deeppool"
+  },
+  {
+    "id": "avg_npc_236",
+    "name": {
+      "zh_CN": "深池神秘领袖",
+      "en_US": "Deeppool Mysterious Leader"
+    },
+    "description": "深池的最高指挥，深池的神秘领袖，萨卡兹？妹妹是拉芙希妮。在小丘郡事变中始终保持神秘，由阿赫茉妮代为发声，目标是引发维多利亚内战。",
+    "type": "npc",
+    "faction": "Deeppool"
+  },
+  {
+    "id": "avg_npc_227",
+    "name": {
+      "zh_CN": "拉芙希妮",
+      "en_US": "Lafcine"
+    },
+    "description": "深池神秘领袖的妹妹，瓦伊凡。在小丘郡事变中被炮弹击中受重伤，被Outcast救走后站在了与哥哥对立的位置，成为维多利亚方的一员。",
+    "type": "npc",
+    "faction": "Unknown (originally Deeppool)"
+  },
+  {
+    "id": "avg_npc_244",
+    "name": {
+      "zh_CN": "大提琴",
+      "en_US": "Cello"
+    },
+    "description": "号角小队的成员，在通讯塔决战中为争取时间而被蔓德拉用石柱击杀，为情报传递事业献出生命。",
+    "type": "npc",
+    "faction": "Victoria Military"
+  },
+  {
+    "id": "avg_npc_238",
+    "name": {
+      "zh_CN": "凯利上尉",
+      "en_US": "Captain Kelly"
+    },
+    "description": "小丘郡驻军上尉，塔拉族出身。达米安·巴里的舅舅，在驻军内部清洗中被捕，最终将驻军制造脏弹的证据交给厨子麦克马丁。",
+    "type": "npc",
+    "faction": "Victoria Military"
+  },
+  {
+    "id": "avg_npc_242",
+    "name": {
+      "zh_CN": "克雷格",
+      "en_US": "Craig"
+    },
+    "description": "塔拉族小男孩，母亲在十七区卖苹果。达米安·巴里的表弟，父亲因矿石病去世。被其他士兵疏远但简妮给予温暖，始终紧握父亲留下的球。",
+    "type": "npc",
+    "faction": "Talar"
+  },
+  {
+    "id": "avg_npc_213",
+    "name": {
+      "zh_CN": "西尔莎",
+      "en_US": "Sylsas"
+    },
+    "description": "简妮的塔拉族朋友，在当地报社工作。达米安·巴里的表姐，为了阻止更大冲突将情报交给简妮，后被深池以「叛徒」罪名处决。",
+    "type": "npc",
+    "faction": "Talar"
+  },
+  {
+    "id": "avg_npc_240",
+    "name": {
+      "zh_CN": "克雷格母亲",
+      "en_US": "Craig's Mother"
+    },
+    "description": "塔拉族女性，在十七区小巷卖苹果。丈夫因矿石病去世，儿子克雷格被其他士兵疏远，在事变中受到简妮的保护。",
+    "type": "npc",
+    "faction": "Talar"
+  },
+  {
+    "id": "avg_npc_243",
+    "name": {
+      "zh_CN": "塔拉居民",
+      "en_US": "Talar Residents"
+    },
+    "description": "小丘郡的塔拉族原住民，长期受维多利亚工厂歧视性待遇（药品减半、防护服缺失、工资不平等），是深池崛起的社会基础。",
+    "type": "npc",
+    "faction": "Talar"
+  },
+  {
+    "id": "avg_npc_241",
+    "name": {
+      "zh_CN": "维多利亚士兵",
+      "en_US": "Victorian Soldiers"
+    },
+    "description": "小丘郡驻军士兵，对塔拉居民持歧视态度，是深池的直接对立面。部分士兵在事变中倒戈加入深池。",
+    "type": "npc",
+    "faction": "Victoria Military"
+  },
+  {
+    "id": "avg_deeppool_soldiers_6",
+    "name": {
+      "zh_CN": "深池六名干部",
+      "en_US": "Six Deeppool Cadres"
+    },
+    "description": "深池的六名干部：「会计」「囚犯」「纵火家」「毒药学者」「强盗」「雄辩家」。他们追捕被Outcast救走的深池领袖（拉芙希妮），最终被Outcast以六发子弹同时射击全部击杀。",
+    "type": "npc",
+    "faction": "Deeppool"
+  }
+]

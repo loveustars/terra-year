@@ -1,0 +1,44 @@
+[
+  {
+    "id": "npc_phantoms",
+    "display_name": {
+      "zh_CN": "幻影弩手",
+      "en_US": "Phantom Crossbowmen"
+    },
+    "faction": "整合运动",
+    "is_npc": true,
+    "description": {
+      "zh_CN": "整合运动精锐小队，浮士德牺牲后由浮士德训练并带领，幻影弩手们从龙门撤回核心城向塔露拉汇报。",
+      "en_US": "Elite squad of the Reunion Movement, trained and led by Faust. The Phantom Crossbowmen return to the Core City from Lungmen to report to Talulah."
+    },
+    "source": "main_ch07"
+  },
+  {
+    "id": "npc_guard",
+    "display_name": {
+      "zh_CN": "盾卫",
+      "en_US": "Shieldguard"
+    },
+    "faction": "整合运动游击队",
+    "is_npc": true,
+    "description": {
+      "zh_CN": "爱国者（博卓卡斯替）率领的游击队盾卫，在核心城战斗中守护爱国者。",
+      "en_US": "Shieldguards of the guerrilla force led by Patriot (Patriot). They defended Patriot in the Core City battle."
+    },
+    "source": "main_ch07"
+  },
+  {
+    "id": "npc_koschei",
+    "display_name": {
+      "zh_CN": "科西切公爵",
+      "en_US": "Duke Koschei"
+    },
+    "faction": "乌萨斯",
+    "is_npc": true,
+    "description": {
+      "zh_CN": "乌萨斯公爵，塔露拉的养父，以教育之名施加源石技艺的思维操控。凯尔希在07-01_end中向魏彦吾透露他是塔露拉的继承人。",
+      "en_US": "Duke of Ursus, Talulah's adoptive father who imposed mental control through arts in the name of education. Kal'tsit reveals to Wei that he is Talulah's heir in 07-01_end."
+    },
+    "source": "main_ch07"
+  }
+]

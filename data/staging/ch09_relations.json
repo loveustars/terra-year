@@ -1,0 +1,723 @@
+[
+  {
+    "id": "rel_bpipe_bugle",
+    "source": "char_4039_horn",
+    "target": "avg_npc_229",
+    "relation_type": "ally",
+    "relation_label": {
+      "zh_CN": "上下级·战友",
+      "en_US": "Superior & Comrade"
+    },
+    "description": {
+      "zh_CN": "风笛是号角手下最出色的战士，号角曾用盾牌在萨尔贡雇佣兵的高爆炮弹下救过风笛一命。",
+      "en_US": "Bagpipe is Horn's most outstanding warrior; Horn once saved her with her shield during a Saladin mercenary bombardment."
+    },
+    "first_appear_event_id": "main_ch09",
+    "associated_event_id": "main_ch09",
+    "evidences": [
+      {
+        "source_story": "level_main_09-01_beg",
+        "quote": {
+          "zh_CN": "队长，当时你喊的不是其他人回撤吗？我判断只有我有机会完成这项任务。",
+          "en_US": "Captain, you called for others to retreat but not me, so I judged I was the only one with a chance to complete the task."
+        },
+        "context_analysis": {
+          "zh_CN": "风笛在仓库城事件中违背回撤命令扑向货箱保护嫌疑人，展现出号角手下最出色战士的勇气。",
+          "en_US": "Bagpipe defied the retreat order in the warehouse city incident, lunging at a crate to protect the suspect."
+        }
+      },
+      {
+        "source_story": "level_main_09-01_beg",
+        "quote": {
+          "zh_CN": "我不是质疑队长你的盾啦……上次你在萨尔贡雇佣兵的高爆炮弹轰炸下救了我，我可不会忘。",
+          "en_US": "I'm not questioning your shield, Captain... Last time you saved me under a Saladin mercenary's bombardment, I won't forget that."
+        },
+        "context_analysis": {
+          "zh_CN": "号角用盾挡住高爆炮弹救下风笛，体现上下级之间的信任与战友之情。",
+          "en_US": "Horn used her shield to block the high-explosive shells and save Bagpipe, showing trust and camaraderie."
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_jenny_oliver",
+    "source": "avg_npc_479_sleach",
+    "target": "avg_npc_222",
+    "relation_type": "ally",
+    "relation_label": {
+      "zh_CN": "罗德岛同事",
+      "en_US": "Rodes Island Colleague"
+    },
+    "description": {
+      "zh_CN": "简妮每天去罗德岛驻小丘郡办事处送早餐，是办事处的常客，与奥利弗等人建立了深厚的同事关系。",
+      "en_US": "Jeanne visits the Rhodes Island Small Hill County office every morning with breakfast, forming close collegial ties with Oliver and others."
+    },
+    "first_appear_event_id": "main_ch09",
+    "associated_event_id": "main_ch09",
+    "evidences": [
+      {
+        "source_story": "level_main_09-02_end",
+        "quote": {
+          "zh_CN": "简妮：大家早上好！今天天气真不错，你说是不是呀，奥利弗叔叔？",
+          "en_US": "Jeanne: Good morning everyone! Isn't the weather nice today, Uncle Oliver?"
+        },
+        "context_analysis": {
+          "zh_CN": "简妮每天一大早来办事处送早餐和茶点，与奥利弗、碎纸机、威尔建立了如同家人般的同事关系。",
+          "en_US": "Jeanne brings breakfast and snacks to the office daily, forming a family-like relationship with Oliver, Paper Shredder, and Will."
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_jenny_craig",
+    "source": "avg_npc_479_sleach",
+    "target": "avg_npc_242",
+    "relation_type": "ally",
+    "relation_label": {
+      "zh_CN": "善良的关怀",
+      "en_US": "Kind-hearted Compassion"
+    },
+    "description": {
+      "zh_CN": "简妮不似其他士兵，主动关心失去父亲克雷格的状况，展现出善良本性。",
+      "en_US": "Unlike other soldiers, Jeanne actively cares for young Craig who lost his father, showing her kind nature."
+    },
+    "first_appear_event_id": "main_ch09",
+    "associated_event_id": "main_ch09",
+    "evidences": [
+      {
+        "source_story": "level_main_09-02_end",
+        "quote": {
+          "zh_CN": "简妮：你们家的苹果味道很好哦。没那么脆，但还是很甜，适合做成果泥抹面包吃。",
+          "en_US": "Jeanne: Your family's apples taste great! Not too crispy but quite sweet, good for making apple sauce on bread."
+        },
+        "context_analysis": {
+          "zh_CN": "简妮认出克雷格，主动关心他和母亲，用温情对待被其他士兵疏远的塔拉族孩子。",
+          "en_US": "Jeanne recognizes Craig, actively cares for him and his mother, showing warmth toward the Talar child other soldiers avoid."
+        }
+      },
+      {
+        "source_story": "level_main_09-02_end",
+        "quote": {
+          "zh_CN": "干员碎纸机：他父亲去世了，半年前。可怜人，得了矿石病。",
+          "en_US": "Paper Shredder: His father died, half a year ago. Poor man, contracted Oripathy."
+        },
+        "context_analysis": {
+          "zh_CN": "碎纸机告知简妮克雷格父亲去世的消息，而简妮并未因此疏远克雷格，反而更温柔地对待他。",
+          "en_US": "Paper Shredder tells Jeanne about Craig's father's death, but Jeanne doesn't avoid Craig—she treats him with more warmth."
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_horn_hamilton",
+    "source": "char_4039_horn",
+    "target": "avg_npc_239",
+    "relation_type": "rival",
+    "relation_label": {
+      "zh_CN": "上下级·不同立场",
+      "en_US": "Superior · Different Stances"
+    },
+    "description": {
+      "zh_CN": "号角作为铁公爵派系军人，对汉密尔顿上校的激进措施持保留态度，在审讯和战术上存在路线分歧。",
+      "en_US": "Horn, as an Iron Duke faction soldier, holds reservations about Captain Hamilton's radical measures, differing in interrogation and tactical approaches."
+    },
+    "first_appear_event_id": "main_ch09",
+    "associated_event_id": "main_ch09",
+    "evidences": [
+      {
+        "source_story": "level_main_09-04_beg",
+        "quote": {
+          "zh_CN": "号角：上校针对部分居民的措施已有过激嫌疑。万不得已的情况下，我希望我们小队能获得更多机动权。",
+          "en_US": "Horn: The Captain's measures against some residents have been overly radical. If necessary, I hope our squad can gain more tactical flexibility."
+        },
+        "context_analysis": {
+          "zh_CN": "号角向上级表达对汉密尔顿过激措施的反对意见，认为驻军行动已偏离正当执法范畴。",
+          "en_US": "Horn expresses opposition to Hamilton's radical measures, believing the garrison's actions have deviated from legitimate law enforcement."
+        }
+      },
+      {
+        "source_story": "level_main_09-03_end",
+        "quote": {
+          "zh_CN": "号角：您说的这些事件，听起来都很像是鬼魂部队所为。",
+          "en_US": "Horn: These incidents you describe sound very much like the work of the Specter Regiment."
+        },
+        "context_analysis": {
+          "zh_CN": "号角理性分析小丘郡局势，认为敌人是鬼魂部队而非普通塔拉居民，与汉密尔顿的种族主义判断对立。",
+          "en_US": "Horn rationally analyzes the situation, identifying the enemy as the Specter Regiment rather than ordinary Talar residents, opposing Hamilton's racist judgment."
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_deeppool_ahmani",
+    "source": "avg_npc_236",
+    "target": "avg_npc_228",
+    "relation_type": "ally",
+    "relation_label": {
+      "zh_CN": "领袖与谋臣",
+      "en_US": "Leader & Strategist"
+    },
+    "description": {
+      "zh_CN": "阿赫茉妮是深池的神秘领袖身边的首席谋臣，向领袖阐述哲学观点并在晚宴上代表深池发表意见。",
+      "en_US": "Ahmani is the chief strategist of Deeppool's mysterious leader, articulating philosophical views and speaking for Deeppool at the banquet."
+    },
+    "first_appear_event_id": "main_ch09",
+    "associated_event_id": "main_ch09",
+    "evidences": [
+      {
+        "source_story": "level_main_09-17_beg",
+        "quote": {
+          "zh_CN": "阿赫茉妮：想看见……终点。在我们第一次相遇的时候，我就这么问过你——既然生的终点注定是死，秩序无论重建多少回都必然崩溃，那走在路上的人们，是如何忍受一次又一次无谓的选择的呢？",
+          "en_US": "Ahmani: I want to see... the end point. When we first met, I asked you this—if the end of life is death, and order will collapse no matter how many times it's rebuilt, how do those walking the path endure one more meaningless choice after another?"
+        },
+        "context_analysis": {
+          "zh_CN": "阿赫茉妮回忆初次与领袖相遇的情景，阐述她独特的生死哲学和对秩序崩溃的思考。",
+          "en_US": "Ahmani recalls her first meeting with the leader, expounding her unique philosophy on life and death and order's collapse."
+        }
+      },
+      {
+        "source_story": "level_main_09-17_beg",
+        "quote": {
+          "zh_CN": "阿赫茉妮：所以说，拉芙希妮的事怎么处理？我的妹妹，她选了谁？",
+          "en_US": "Ahmani: So how do we handle Lafsine's matter? My sister, which side has she chosen?"
+        },
+        "context_analysis": {
+          "zh_CN": "阿赫茉妮以谋臣身份向领袖汇报工作，讨论拉芙希妮被救走的善后事宜，展现出清晰的上下级关系。",
+          "en_US": "Ahmani reports to the leader as a strategist, discussing the aftermath of Lafcine's rescue, showing a clear subordinate relationship."
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_lafcine_deeppool",
+    "source": "avg_npc_227",
+    "target": "avg_npc_236",
+    "relation_type": "ally",
+    "relation_label": {
+      "zh_CN": "亲姐妹·阵营对立",
+      "en_US": "Sisters · Opposing Camps"
+    },
+    "description": {
+      "zh_CN": "拉芙希妮是深池神秘领袖的妹妹，在小丘郡事变中被救出后，站在了与哥哥对立的位置，成为维多利亚方的一员。",
+      "en_US": "Lafcine is the sister of Deeppool's mysterious leader. After being rescued during the Small Hill County incident, she stood in opposition to her brother, becoming a member of the Victorian side."
+    },
+    "first_appear_event_id": "main_ch09",
+    "associated_event_id": "main_ch09",
+    "evidences": [
+      {
+        "source_story": "level_main_09-17_beg",
+        "quote": {
+          "zh_CN": "阿赫茉妮：我的妹妹，她选了谁？救她的人身份不明，只是，他们在城里救了很多人。大概是……一个医疗方面的救援组织？",
+          "en_US": "Ahmani: My sister, which side has she chosen? The people who rescued her have unknown identities, but they saved many people in the city. Perhaps... a medical rescue organization?"
+        },
+        "context_analysis": {
+          "zh_CN": "阿赫茉妮向领袖汇报拉芙希妮被救走的消息，揭示两人是亲姐妹关系。领袖对此持开放态度，表示有兴趣亲自见见救援者。",
+          "en_US": "Ahmani reports Lafcine's rescue to the leader, revealing they are sisters. The leader is open, expressing interest in meeting the rescuers personally."
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_mendra_ahmani",
+    "source": "avg_npc_233",
+    "target": "avg_npc_228",
+    "relation_type": "rival",
+    "relation_label": {
+      "zh_CN": "深池内部路线对立",
+      "en_US": "Factional Rivalry within Deeppool"
+    },
+    "description": {
+      "zh_CN": "蔓德拉作为深池激进派，与阿赫茉妮的谨慎路线在晚宴上激烈争吵，展现出深池内部在扩张策略上的路线分歧。",
+      "en_US": "Mendra as Deeppool's radical faction clashes fiercely with Ahmani's cautious approach at the banquet, showing Deeppool's internal strategic divisions."
+    },
+    "first_appear_event_id": "main_ch09",
+    "associated_event_id": "main_ch09",
+    "evidences": [
+      {
+        "source_story": "level_main_09-04_end",
+        "quote": {
+          "zh_CN": "蔓德拉：你——！有钱人是不是都这副样子？放这么多乐器，买几本书，仿佛把门面装点得满满当当以后，别人就不会注意到那实际上空空荡荡的脑子。",
+          "en_US": "Mendra: You—! Are all rich people like this? Filled with instruments and books, like decorating a facade so full that others won't notice the actually empty heads inside."
+        },
+        "context_analysis": {
+          "zh_CN": "蔓德拉在晚宴上公开攻击阿赫茉妮，批评其生活方式和态度，展现两人的路线对立。",
+          "en_US": "Mendra publicly attacks Ahmani at the banquet, criticizing her lifestyle and attitude, showing their ideological opposition."
+        }
+      },
+      {
+        "source_story": "level_main_09-04_end",
+        "quote": {
+          "zh_CN": "阿赫茉妮：什么时候——轮到你替领袖做决定了？",
+          "en_US": "Ahmani: When—did it become your turn to decide for the leader?"
+        },
+        "context_analysis": {
+          "zh_CN": "阿赫茉妮当面驳斥蔓德拉的越权行为，揭示两人在深池内部权力结构中的不同地位。",
+          "en_US": "Ahmani directly rebuts Mendra's overreach, revealing their different positions within Deeppool's power structure."
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_mendra_deeppool",
+    "source": "avg_npc_233",
+    "target": "avg_npc_236",
+    "relation_type": "rival",
+    "relation_label": {
+      "zh_CN": "追随者·野心不满",
+      "en_US": "Follower · Ambitious Resentment"
+    },
+    "description": {
+      "zh_CN": "蔓德拉作为深池激进派，对领袖重用阿赫茉妮的路线不满，渴望更快地扩张势力，甚至与领袖的规划产生冲突。",
+      "en_US": "Mendra, as Deeppool's radical faction, resents the leader's preference for Ahmani's approach, craving faster expansion and clashing with the leader's plans."
+    },
+    "first_appear_event_id": "main_ch09",
+    "associated_event_id": "main_ch09",
+    "evidences": [
+      {
+        "source_story": "level_main_09-17_beg",
+        "quote": {
+          "zh_CN": "蔓德拉：阿赫茉妮，阿赫茉妮……混蛋东西，你把我骗来这里，就是为了抢这个发言的机会？凭什么……凭什么你能替领袖发言，而我要在下面替你扫垃圾？！",
+          "en_US": "Mendra: Ahmani, Ahmani... you scoundrel, you tricked me into coming here just to steal this chance to speak? Why... why can you speak for the leader while I have to clean up your mess down here?!"
+        },
+        "context_analysis": {
+          "zh_CN": "蔓德拉在通讯塔战斗中情绪崩溃，公开发泄对阿赫茉妮抢占广播发言权的不满，揭示她与领袖派系之间的深层矛盾。",
+          "en_US": "During the communications tower battle, Mendra's emotions collapse, openly venting resentment at Ahmani stealing the broadcast opportunity, revealing deep conflicts with the leader's faction."
+        }
+      }
+    ],
+    "confidence_level": "implied_plot"
+  },
+  {
+    "id": "rel_bagpipe_cello",
+    "source": "avg_npc_229",
+    "target": "avg_npc_244",
+    "relation_type": "rival",
+    "relation_label": {
+      "zh_CN": "战场死敌",
+      "en_US": "Battlefield Nemesis"
+    },
+    "description": {
+      "zh_CN": "风笛在通讯塔战斗中击败深池三十人小队，展现出超越常人的战斗力，是深池军队的主要威胁。",
+      "en_US": "Bagpipe defeats a 30-person Deeppool squad at the communications tower, demonstrating superhuman combat ability and being the main threat to Deeppool forces."
+    },
+    "first_appear_event_id": "main_ch09",
+    "associated_event_id": "main_ch09",
+    "evidences": [
+      {
+        "source_story": "level_main_09-16_end",
+        "quote": {
+          "zh_CN": "深池士兵：破城矛……是维多利亚士兵！快，通知强盗长官，这里还有残余的维多利亚部队！敌人只有一个人！可他们有三十个人！",
+          "en_US": "Deeppool Soldier: Siege Lance... Victorian soldiers! Quickly, notify Captain Bandit, there's still residual Victorian troops here! The enemy is only one person! But they have thirty people!"
+        },
+        "context_analysis": {
+          "zh_CN": "深池士兵震惊于风笛一人击败三十人的战斗力，连忙向上级汇报，展现风笛作为维多利亚精锐战士的恐怖战力。",
+          "en_US": "Deeppool soldiers are shocked by Bagpipe defeating 30 alone, urgently reporting to superiors, showcasing Bagpipe's terrifying combat power as a Victorian elite warrior."
+        }
+      },
+      {
+        "source_story": "level_main_09-16_end",
+        "quote": {
+          "zh_CN": "深池士兵：这瓦伊凡太厉害了，一矛能穿俩！让重装防御兵上，其他人回防！",
+          "en_US": "Deeppool Soldier: This Vaylin is too powerful, one lance can pierce two! Bring up heavy defenders, the rest fall back!"
+        },
+        "context_analysis": {
+          "zh_CN": "深池士兵意识到普通战术无法对付风笛，被迫调动重装防御兵，体现风笛对深池军队的压倒性优势。",
+          "en_US": "Deeppool soldiers realize normal tactics can't handle Bagpipe, forced to deploy heavy defenders, showing Bagpipe's overwhelming advantage over Deeppool forces."
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_talar_victorian_soldier",
+    "source": "avg_npc_243",
+    "target": "avg_npc_241",
+    "relation_type": "rival",
+    "relation_label": {
+      "zh_CN": "压迫与反抗",
+      "en_US": "Oppression & Resistance"
+    },
+    "description": {
+      "zh_CN": "塔拉居民与维多利亚士兵之间存在根深蒂固的种族歧视与压迫关系，这种不公是深池崛起的根本原因。",
+      "en_US": "Deep-rooted racial discrimination and oppression exist between Talar residents and Victorian soldiers, which is the fundamental cause of Deeppool's rise."
+    },
+    "first_appear_event_id": "main_ch09",
+    "associated_event_id": "main_ch09",
+    "evidences": [
+      {
+        "source_story": "level_main_09-03_beg",
+        "quote": {
+          "zh_CN": "愤怒的男性：我们只配吃他们不想要的土豆和烂苹果，哪怕每一寸农用地块上都浸透了我们的汗水。我们只配在工厂里没日没夜地消耗性命，等干不动了就如他们所愿，一个个地全都染病！",
+          "en_US": "Angry Male: We only deserve the potatoes and rotten apples they don't want, even though every inch of farmland is soaked with our sweat. We only deserve to labor day and night in factories until we get sick, as they wish—one by one!"
+        },
+        "context_analysis": {
+          "zh_CN": "愤怒的塔拉居民控诉维多利亚工厂的歧视性待遇——药品减半、防护服缺失、工资不平等等，系统性压迫导致矛盾激化。",
+          "en_US": "Angry Talar residents accuse Victorian factories of discriminatory treatment—halved medicine, missing protective gear, unequal pay—systemic oppression fueling escalating tensions."
+        }
+      },
+      {
+        "source_story": "level_main_09-03_beg",
+        "quote": {
+          "zh_CN": "维多利亚士兵：渣滓们，再说一遍，不许聚集！！你们*维多利亚粗口*——",
+          "en_US": "Victorian Soldier: Scum, I'll say it again, no gathering!! You*Victorian profanity*—"
+        },
+        "context_analysis": {
+          "zh_CN": "维多利亚士兵公然用种族歧视性语言辱骂塔拉居民，并威胁使用武力驱散，激化双方对立情绪。",
+          "en_US": "Victorian soldiers openly use racial slurs against Talar residents and threaten force, escalating mutual hostility."
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_bagpipe_outcast",
+    "source": "avg_npc_229",
+    "target": "avg_outcast",
+    "relation_type": "ally",
+    "relation_label": {
+      "zh_CN": "战友·并肩作战",
+      "en_US": "Comrades · Fighting Side by Side"
+    },
+    "description": {
+      "zh_CN": "风笛与Outcast在通讯塔战斗中相遇并配合作战，Outcast用石头精准击杀狙击手助风笛突破，风笛则帮助Outcast清理道路。",
+      "en_US": "Bagpipe and Outcast meet and fight together at the communications tower. Outcast uses stones to precisely eliminate snipers helping Bagpipe advance, while Bagpipe helps clear the path for Outcast."
+    },
+    "first_appear_event_id": "main_ch09",
+    "associated_event_id": "main_ch09",
+    "evidences": [
+      {
+        "source_story": "level_main_09-16_end",
+        "quote": {
+          "zh_CN": "风笛：是你帮了我吗？Outcast：不客气，事实上，你也帮了我。",
+          "en_US": "Bagpipe: Did you help me? Outcast: Not at all, in fact, you helped me too."
+        },
+        "context_analysis": {
+          "zh_CN": "风笛和Outcast在战斗中互相配合，Outcast用石头击落敌人帮助风笛，风笛则为Outcast清理障碍物，体现战友默契。",
+          "en_US": "Bagpipe and Outcast coordinate in battle—Outcast uses stones to take down enemies helping Bagpipe, while Bagpipe clears obstacles for Outcast, showing combat comradeship."
+        }
+      },
+      {
+        "source_story": "level_main_09-16_end",
+        "quote": {
+          "zh_CN": "风笛：谢谢！能推到一边就行。Outcast：我来帮你。风笛：谢谢，最后一根！路终于清好啦——",
+          "en_US": "Bagpipe: Thanks! Just push it to the side. Outcast: I'll help you. Bagpipe: Thanks, last one! The road is finally cleared—"
+        },
+        "context_analysis": {
+          "zh_CN": "风笛和Outcast合力清理路障，为Outcast抱着重伤的深池领袖撤离创造通道，体现战友间的无私合作。",
+          "en_US": "Bagpipe and Outcast work together to clear road obstacles, creating a passage for Outcast carrying the critically injured Deeppool leader, showing selfless comradeship."
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_outcast_jenny",
+    "source": "avg_outcast",
+    "target": "avg_npc_479_sleach",
+    "relation_type": "ally",
+    "relation_label": {
+      "zh_CN": "导师与战士",
+      "en_US": "Mentor & Warrior"
+    },
+    "description": {
+      "zh_CN": "Outcast在小丘郡事变中指导简妮，帮助她从迷茫的维多利亚仪仗兵成长为有独立判断力的战士，最终简妮决定留在罗德岛。",
+      "en_US": "Outcast guides Jeanne during the Small Hill County incident, helping her grow from a confused Victorian ceremonial soldier into a warrior with independent judgment, eventually leading Jeanne to decide to stay with Rhodes Island."
+    },
+    "first_appear_event_id": "main_ch09",
+    "associated_event_id": "main_ch09",
+    "evidences": [
+      {
+        "source_story": "level_main_09-11_end",
+        "quote": {
+          "zh_CN": "Outcast：能主动醒过来且保持清醒，这本身就需要勇气。尤其是这个梦是整个群体编织出来的关于某种文明形态的共同想象——相信我，没有人比我更了解。",
+          "en_US": "Outcast: The ability to wake up and stay awake on your own requires courage. Especially when this dream is a collective illusion about a form of civilization woven by the entire group—trust me, no one understands this better than me."
+        },
+        "context_analysis": {
+          "zh_CN": "Outcast向简妮讲述自己年轻时的经历和放弃拉特兰枢机职位的原因，帮助简妮理解自己为何曾认同维多利亚的「文明」幻象。",
+          "en_US": "Outcast tells Jeanne about her youth and why she gave up the Latran cardinal position, helping Jeanne understand why she once believed in Victoria's 'civilized' illusion."
+        }
+      },
+      {
+        "source_story": "level_main_09-12_beg",
+        "quote": {
+          "zh_CN": "简妮：有人教会了我——眼前的恶，必须被阻止。这与阵营无关，我本该如此。",
+          "en_US": "Jeanne: Someone taught me—that evil in front of me must be stopped. This has nothing to do with which side I'm on, this is who I should be."
+        },
+        "context_analysis": {
+          "zh_CN": "简妮引用Outcast的教导，在面对深池士兵欺压塔拉居民时挺身而出，展现出从迷茫到觉醒的成长。",
+          "en_US": "Jeanne quotes Outcast's teaching when standing up against Deeppool soldiers oppressing Talar residents, showing growth from confusion to awakening."
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_jenny_sylsas",
+    "source": "avg_npc_479_sleach",
+    "target": "avg_npc_213",
+    "relation_type": "ally",
+    "relation_label": {
+      "zh_CN": "关怀",
+      "en_US": "Care"
+    },
+    "description": {
+      "zh_CN": "简妮主动关心在报社工作的塔拉族朋友西尔莎，展现出超越种族隔阂的真挚友情，最终西尔莎为阻止更大冲突而牺牲。",
+      "en_US": "Jeanne actively cares for her Talar friend Sylsas who works at the newspaper, showing genuine friendship beyond racial barriers. Sylsas ultimately sacrifices herself to prevent greater conflict."
+    },
+    "first_appear_event_id": "main_ch09",
+    "associated_event_id": "main_ch09",
+    "evidences": [
+      {
+        "source_story": "level_main_09-04_beg",
+        "quote": {
+          "zh_CN": "简妮：西尔莎，你怎么了？你刚哭过吗？西尔莎：不是的，简妮，你别忙活了。他并没有再来缠着我。",
+          "en_US": "Jeanne: Sylsas, what happened? Have you been crying? Sylsas: No, Jeanne, don't worry about it. He hasn't come to bother me again."
+        },
+        "context_analysis": {
+          "zh_CN": "简妮在报社找到西尔莎，发现她因达米安·巴里被处决而悲伤，展现超越立场的真挚关怀。",
+          "en_US": "Jeanne finds Sylsas at the newspaper, discovers she's grieving over Damien Barri's execution, showing genuine care that transcends faction."
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_outcast_chef_mcmartin",
+    "source": "avg_outcast",
+    "target": "avg_npc_238",
+    "relation_type": "ally",
+    "relation_label": {
+      "zh_CN": "战友·接应与信任",
+      "en_US": "Comrade · Relay & Trust"
+    },
+    "description": {
+      "zh_CN": "Outcast在小丘郡事变中与厨子麦克马丁（点灯人）建立战友关系，信任他作为信使出城传递情报，最终厨子为保护情报献身。",
+      "en_US": "Outcast establishes a comrade relationship with Chef McMartin (Lightkeeper) during the Small Hill County incident, trusting him as a courier to deliver intelligence out of the city. Chef ultimately sacrifices himself protecting the intelligence."
+    },
+    "first_appear_event_id": "main_ch09",
+    "associated_event_id": "main_ch09",
+    "evidences": [
+      {
+        "source_story": "level_main_09-08_end",
+        "quote": {
+          "zh_CN": "厨子麦克马丁：别忘了，传递消息也是我们点灯人老本行的一部分。哎，我这总算能接点像样的任务了，我的手跟腿都在兴奋地发抖。",
+          "en_US": "Chef McMartin: Don't forget, passing messages is also part of our Lightkeeper duties. Well, I can finally take on a real mission, my hands and legs are trembling with excitement."
+        },
+        "context_analysis": {
+          "zh_CN": "厨子麦克马丁作为点灯人接下传递情报的任务，以信使身份出城，最终在炮击中为保护情报而牺牲。",
+          "en_US": "Chef McMartin as a Lightkeeper takes on the intelligence delivery mission as a courier, ultimately sacrificing himself protecting the intelligence during the bombardment."
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_bugle_mandra",
+    "source": "avg_npc_229",
+    "target": "avg_npc_233",
+    "relation_type": "rival",
+    "relation_label": {
+      "zh_CN": "死敌",
+      "en_US": "Sworn Enemy"
+    },
+    "description": {
+      "zh_CN": "风笛与蔓德拉在通讯塔决战中正面对决。风笛以战术智慧发现蔓德拉源石技艺的破绽（同时只能做一件事），用破城矛击倒石柱破坏其防御，最终击败蔓德拉。",
+      "en_US": "Bagpipe and Mendra face off at the communications tower. Bagpipe discovers Mendra's Originium Art limitation (can only do one thing at a time), uses her siege lance to knock down stone pillars breaking Mendra's defense, ultimately defeating Mendra."
+    },
+    "first_appear_event_id": "main_ch09",
+    "associated_event_id": "main_ch09",
+    "evidences": [
+      {
+        "source_story": "level_main_09-17_beg",
+        "quote": {
+          "zh_CN": "蔓德拉：我是——从废水沟旁的坟墓里爬出来的人！你们这群维多利亚上等人欠我的，还没有还干净！",
+          "en_US": "Mendra: I am—someone who crawled out of the graves by the sewage ditch! What you Victorian aristocrats owe me hasn't been paid yet!"
+        },
+        "context_analysis": {
+          "zh_CN": "蔓德拉在战斗中揭示自己悲惨的过去和对维多利亚贵族的深仇，承认风笛是很厉害的对手，展现傲气与战意。",
+          "en_US": "Mendra reveals her tragic past and deep hatred for Victorian aristocrats during combat, acknowledging Bagpipe as a formidable opponent."
+        }
+      },
+      {
+        "source_story": "level_main_09-17_end",
+        "quote": {
+          "zh_CN": "风笛：果然，我们的猜测是正确的，她的源石技艺虽然非常灵活，可在同一时间只能做一件事——无论是转移碎石当护盾，还是释放这些石刺，只要在施法的间隙期，她就会有破绽！",
+          "en_US": "Bagpipe: As we guessed, her Originium Art, though very flexible, can only do one thing at a time—whether shifting gravel as a shield or releasing these stone spikes, during the gap between casting, she'll have weaknesses!"
+        },
+        "context_analysis": {
+          "zh_CN": "风笛与号角通过观察和分析发现蔓德拉源石技艺的致命破绽——同时只能做一件事。利用这一弱点，她们成功击倒蔓德拉。",
+          "en_US": "Bagpipe and Horn discover Mendra's fatal Originium Art weakness through observation—only one action at a time. Using this gap, they successfully bring Mendra down."
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_horn_bugle_tower",
+    "source": "char_4039_horn",
+    "target": "avg_npc_229",
+    "relation_type": "ally",
+    "relation_label": {
+      "zh_CN": "战友·通讯塔决战",
+      "en_US": "Comrades · Communications Tower Finale"
+    },
+    "description": {
+      "zh_CN": "号角与风笛在通讯塔决战中并肩对抗蔓德拉。号角用残破的盾牌为风笛争取冲锋机会，风笛发现蔓德拉的源石技艺破绽，两人联手击败蔓德拉。号角重伤但坚持到最后，下令风笛用破城矛飞出城传递情报。",
+      "en_US": "Horn and Bagpipe fight side by side against Mendra at the communications tower finale. Horn uses her broken shield to buy Bagpipe time to charge, Bagpipe discovers Mendra's Originium Art flaw, and together they defeat Mendra. Horn is severely injured but holds on, ordering Bagpipe to use the siege lance to fly out of the city and deliver intelligence."
+    },
+    "first_appear_event_id": "main_ch09",
+    "associated_event_id": "main_ch09",
+    "evidences": [
+      {
+        "source_story": "level_main_09-17_end",
+        "quote": {
+          "zh_CN": "号角：抱紧你的矛，启动弹射功能，从这里飞出去——带上所有情报。找到真正值得信赖的人，把鬼魂部队的消息传到外面……伦蒂尼姆必须知道小丘郡事件的真相。风笛——活着出去！",
+          "en_US": "Horn: Hold your lance tight, activate the launch function, fly out from here—bring all the intelligence. Find someone truly trustworthy, get the Specter Regiment's message out... Lengbury must know the truth of the Small Hill County incident. Bagpipe—get out alive!"
+        },
+        "context_analysis": {
+          "zh_CN": "号角在通讯塔决战最后时刻，用最后的盾为风笛抵挡石刺攻击并下令风笛用破城矛的弹射功能飞离战场传递情报，体现出战友间的绝对信任与托付。",
+          "en_US": "At the communications tower finale, Horn uses her last shield to block stone spike attacks for Bagpipe and orders Bagpipe to use the siege lance's launch function to fly out of the battlefield with the intelligence, showing absolute trust and comradeship."
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_outcast_deeppool_leader",
+    "source": "avg_outcast",
+    "target": "avg_npc_236",
+    "relation_type": "rival",
+    "relation_label": {
+      "zh_CN": "审判者与被审判者",
+      "en_US": "Judge & The Judged"
+    },
+    "description": {
+      "zh_CN": "Outcast在小丘郡小巷中拦截深池六名干部，以六发子弹同时射击的方式将「会计」「囚犯」「纵火家」「毒药学者」「强盗」「雄辩家」全部击杀，为保护重伤的深池领袖（拉芙希妮）献出生命。",
+      "en_US": "Outcast intercepts six Deeppool cadres in a Small Hill County alley, simultaneously shooting six bullets to eliminate 'Accountant,' 'Prisoner,' 'Arsonist,' 'Poison Scholar,' 'Robber,' and 'Orator' to protect the critically injured Deeppool leader (Lafcine), sacrificing her life in the process."
+    },
+    "first_appear_event_id": "main_ch09",
+    "associated_event_id": "main_ch09",
+    "evidences": [
+      {
+        "source_story": "level_main_09-17_end",
+        "quote": {
+          "zh_CN": "Outcast：你们将在这里迎来最终的审判。六发子弹从她的左轮中同时射出。六名敌人扑向她——所有动作都停在了开始的那一刻。没有惊呼，也没人来得及倒下，他们全部在神圣的光芒中化作了齑粉。",
+          "en_US": "Outcast: You will face final judgment here. Six bullets fired simultaneously from her revolver. Six enemies rushed at her—all actions stopped at the start. No screams, no one fell, they all turned to dust in sacred light."
+        },
+        "context_analysis": {
+          "zh_CN": "Outcast以六发子弹同时射击的方式将深池六名干部全部消灭，体现了她作为审判者的绝对力量与坚定意志，最终她也化作灰烬，完成了自己的审判之路。",
+          "en_US": "Outcast eliminates all six Deeppool cadres with six simultaneous shots, embodying her absolute power and resolve as judge. She too turns to ash, completing her path of judgment."
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_outcast_deeppool_soldier_6",
+    "source": "avg_outcast",
+    "target": "avg_deeppool_soldiers_6",
+    "relation_type": "rival",
+    "relation_label": {
+      "zh_CN": "审判者与被审判者（六人）",
+      "en_US": "Judge vs. The Judged (Six People)"
+    },
+    "description": {
+      "zh_CN": "Outcast以六发子弹同时射击，将深池六名干部全部击杀。",
+      "en_US": "Outcast shoots six bullets simultaneously, eliminating all six Deeppool cadres."
+    },
+    "first_appear_event_id": "main_ch09",
+    "associated_event_id": "main_ch09",
+    "evidences": [
+      {
+        "source_story": "level_main_09-17_end",
+        "quote": {
+          "zh_CN": "Outcast：你们将在这里迎来最终的审判。六发子弹从她的左轮中同时射出。",
+          "en_US": "Outcast: You will face final judgment here. Six bullets fired simultaneously from her revolver."
+        },
+        "context_analysis": {
+          "zh_CN": "Outcast在生命最后时刻完成对深池六名干部的审判，以自己的生命为代价保护了重伤的深池领袖（拉芙希妮）。",
+          "en_US": "Outcast completes her final judgment against the six Deeppool cadres at the cost of her own life, protecting the critically injured Deeppool leader (Lafcine)."
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_craig_mother",
+    "source": "avg_npc_242",
+    "target": "avg_npc_243",
+    "relation_type": "bound",
+    "relation_label": {
+      "zh_CN": "母子·相依为命",
+      "en_US": "Mother & Son · Hardship"
+    },
+    "description": {
+      "zh_CN": "克雷格是塔拉族孩子，母亲在十七区小巷卖苹果。父亲因矿石病去世，克雷格被其他士兵疏远，但他始终紧握着父亲留下的球，简妮给予了他温暖。",
+      "en_US": "Craig is a Talar child whose mother sells apples in the 17th district alley. His father died of Oripathy, and Craig is avoided by other soldiers, but he clings to the ball his father left him. Jeanne shows him warmth."
+    },
+    "first_appear_event_id": "main_ch09",
+    "associated_event_id": "main_ch09",
+    "evidences": [
+      {
+        "source_story": "level_main_09-02_end",
+        "quote": {
+          "zh_CN": "克雷格：你……你会打我吗？简妮：我为什么要打你呀？克雷格：……你的衣服脏了。",
+          "en_US": "Craig: You... you're not going to hit me? Jeanne: Why would I hit you? Craig: ...Your clothes are dirty."
+        },
+        "context_analysis": {
+          "zh_CN": "克雷格因为父亲是矿石病患者去世，被其他维多利亚士兵疏远，见到简妮时下意识害怕挨打，展现出塔拉族孩子所受的歧视创伤。",
+          "en_US": "Craig, whose father died of Oripathy, is avoided by other Victorian soldiers. When meeting Jeanne, he instinctively fears being beaten, showing the discrimination trauma Talar children suffer."
+        }
+      },
+      {
+        "source_story": "level_main_09-02_end",
+        "quote": {
+          "zh_CN": "干员碎纸机：他父亲去世了，半年前。可怜人，得了矿石病。很多人，因为这个，不敢碰他。",
+          "en_US": "Paper Shredder: His father died, half a year ago. Poor man, contracted Oripathy. Many people, because of this, don't dare touch him."
+        },
+        "context_analysis": {
+          "zh_CN": "碎纸机告知简妮克雷格父亲去世的消息，而简妮并未因此疏远克雷格，反而用温柔对待他。",
+          "en_US": "Paper Shredder tells Jeanne about Craig's father's death, but Jeanne doesn't avoid Craig—she treats him with warmth instead."
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_deeppool_6_cadres",
+    "source": "avg_deeppool_soldiers_6",
+    "target": "avg_npc_236",
+    "relation_type": "unknown",
+    "relation_label": {
+      "zh_CN": "干部与领袖·未知关系",
+      "en_US": "Cadres & Leader · Unknown"
+    },
+    "description": {
+      "zh_CN": "深池六名干部（会计、囚犯、纵火家、毒药学者、强盗、雄辩家）追捕被Outcast救走的深池领袖，最终被Outcast六发子弹全部击杀。",
+      "en_US": "The six Deeppool cadres (Accountant, Prisoner, Arsonist, Poison Scholar, Robber, Orator) pursue the Deeppool leader rescued by Outcast, ultimately all killed by Outcast's six bullets."
+    },
+    "first_appear_event_id": "main_ch09",
+    "associated_event_id": "main_ch09",
+    "evidences": [
+      {
+        "source_story": "level_main_09-17_end",
+        "quote": {
+          "zh_CN": "Outcast：你们将在这里迎来最终的审判。六发子弹从她的左轮中同时射出。",
+          "en_US": "Outcast: You will face final judgment here. Six bullets fired simultaneously from her revolver."
+        },
+        "context_analysis": {
+          "zh_CN": "Outcast以六发子弹同时射击，将深池六名干部全部消灭，体现了她作为审判者的绝对力量与坚定意志，最终她也化作灰烬，完成了自己的审判之路。",
+          "en_US": "Outcast eliminates all six Deeppool cadres with six simultaneous shots, embodying her absolute power and resolve as judge. She too turns to ash, completing her path of judgment."
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "id": "npc_priestess",
+    "display_name": {
+      "zh_CN": "普瑞赛斯",
+      "en_US": "Prtser"
+    },
+    "faction": "originium_creator",
+    "avatar_key": "npc_priestess",
+    "is_npc": true,
+    "description": {
+      "zh_CN": "前文明的顶尖科学家，与博士（预言家）共同创造了源石。她是AMa-10双生循环系统的设计者，创造出凯尔希和Mon3tr。其目标是利用源石将整个泰拉同化为信息生命。1099 TY在Abyss中苏醒，被凯尔希设计困于身体后被Mon3tr攻击，最终与凯尔希同归于尽。",
+      "en_US": "A top scientist of the previous civilization who co-created Originium with the Doctor (the Prophet). She designed the AMa-10 dual circulatory system, creating Kaltsit and Mon3tr. Her goal was to use Originium to assimilate all of Terra into informational life. In 1099 TY, she awakened in Abyss, was trapped by Kaltsit, attacked by Mon3tr, and died together with Kaltsit."
+    },
+    "notes": {
+      "zh_CN": "ch15核心反派，源石造物主。handbook中无ID（是前文明个体），使用npc_priestess。",
+      "en_US": "Ch15 core antagonist, Originium creator. Not in handbook (previous civilization individual), use npc_priestess."
+    }
+  },
+  {
+    "id": "npc_hilda",
+    "display_name": {
+      "zh_CN": "希尔达",
+      "en_US": "Hilda"
+    },
+    "faction": "unknown",
+    "avatar_key": "avg_npc_046",
+    "is_npc": true,
+    "description": {
+      "zh_CN": "来自泰拉的卡特斯女孩，曾在矿井工作并感染矿石病。源石崩解时她被普瑞赛斯以信息形式记录保存在'文明的存续'中。她在宇宙舰船上寻找泰拉的答案，是第二个与普瑞赛斯交流的生命。",
+      "en_US": "A Kel'ta girl from Terra who worked in mines and contracted Oripathy. When Originium dissolved, she was recorded by Prtser and preserved in the Civilization's Continuation. She searches for answers about Terra aboard the cosmic ship, the second being to communicate with Prtser."
+    },
+    "notes": {
+      "zh_CN": "ch15新角色，泰拉幸存者。ID来源于剧本（avg_npc_046），待确认。",
+      "en_US": "Ch15 new character, Terra survivor. ID from script (avg_npc_046), to be confirmed."
+    }
+  }
+]

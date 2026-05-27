@@ -1,0 +1,1270 @@
+[
+  {
+    "id": "rel_amiya_siege_ch10",
+    "source": "char_002_amiya",
+    "target": "char_112_siege",
+    "relation_type": "ally",
+    "relation_label": {
+      "zh_CN": "并肩战友",
+      "en_US": "Comrades-in-Arms"
+    },
+    "description": {
+      "zh_CN": "阿米娅与推进之王在伦蒂尼姆地下通道中并肩作战，共同对抗萨卡兹侵略者。",
+      "en_US": "Amiya and Siege fight side by side in the tunnels of Londinium against the Sarkaz invaders."
+    },
+    "first_appear_event_id": "main_ch10",
+    "associated_event_id": "main_ch10",
+    "evidences": [
+      {
+        "source_story": "level_main_10-04_beg",
+        "quote": {
+          "zh_CN": "阿米娅：我明白。费斯特先生，我们会跟你走。正好，我也想见见你们的指挥官。",
+          "en_US": "Amiya: I understand. Mr. Fist, we'll follow you. And I'd like to meet your commander too."
+        },
+        "context_analysis": {
+          "zh_CN": "推进之王认可阿米娅的指挥，阿米娅表示愿与推进之王并肩同行",
+          "en_US": "Siege acknowledges Amiya's leadership; Amiya expresses willingness to walk alongside Siege"
+        }
+      },
+      {
+        "source_story": "level_main_10-15_end",
+        "quote": {
+          "zh_CN": "推进之王：阿米娅，我们也上去！",
+          "en_US": "Siege: Amiya, we're going up too!"
+        },
+        "context_analysis": {
+          "zh_CN": "列车撤离时，推进之王与阿米娅一同登车撤离",
+          "en_US": "During evacuation, Siege and Amiya board the train together to escape"
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_siege_indra_ch10",
+    "source": "char_112_siege",
+    "target": "char_5e011deb",
+    "relation_type": "ally",
+    "relation_label": {
+      "zh_CN": "主仆·战友",
+      "en_US": "Leader & Comrade"
+    },
+    "description": {
+      "zh_CN": "因陀罗是格拉斯哥帮的核心成员，追随推进之王多年，在伦蒂尼姆地下管道中与推进之王一同行动，互相守护。",
+      "en_US": "Indra is a core member of Glasgow who has followed Siege for years, fighting alongside her in Londinium's tunnels."
+    },
+    "first_appear_event_id": "main_ch10",
+    "associated_event_id": "main_ch10",
+    "evidences": [
+      {
+        "source_story": "level_main_10-04_beg",
+        "quote": {
+          "zh_CN": "因陀罗：维娜，你怎么了？",
+          "en_US": "Indra: Vina, what's wrong?"
+        },
+        "context_analysis": {
+          "zh_CN": "因陀罗关心推进之王的状态，在地下管道中始终跟随她",
+          "en_US": "Indra cares about Siege's condition and follows her throughout the tunnels"
+        }
+      },
+      {
+        "source_story": "level_main_10-01_beg",
+        "quote": {
+          "zh_CN": "因陀罗：只要一闭眼，我眼前就都是当时我们一路逃出来时的事。如果遇到危险，我应该和她们在一起……不，我理应挡在她们身前。",
+          "en_US": "Indra: Once I close my eyes, all I see is us fleeing back then. If there's danger, I should be with them... No, I should stand in front of them."
+        },
+        "context_analysis": {
+          "zh_CN": "因陀罗表达对推进之王的保护欲，誓要挡在她身前",
+          "en_US": "Indra expresses her protective instinct toward Siege, vowing to shield her"
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_siege_morgan_ch10",
+    "source": "char_112_siege",
+    "target": "char_aa6c82c1",
+    "relation_type": "ally",
+    "relation_label": {
+      "zh_CN": "主仆·战友",
+      "en_US": "Leader & Strategist"
+    },
+    "description": {
+      "zh_CN": "摩根是格拉斯哥帮的智囊，被推进之王戏称为帮派的大脑。在伦蒂尼姆地下撤退时，摩根一直陪伴在推进之王身边，协助指挥战斗。",
+      "en_US": "Morgan is Glasgow's strategist, jokingly called the 'brain of the gang' by Siege. During the Londinium retreat, Morgan stays by Siege's side assisting with tactical command."
+    },
+    "first_appear_event_id": "main_ch10",
+    "associated_event_id": "main_ch10",
+    "evidences": [
+      {
+        "source_story": "level_main_10-01_end",
+        "quote": {
+          "zh_CN": "摩根：维娜，要不要趁她们不在，我们两个偷偷溜回家算了？毕竟你看，她俩就只会打打杀杀，只有我最有脑子，也最靠得住嘛。",
+          "en_US": "Morgan: Vina, want to sneak away just the two of us? I mean, those two only know how to fight — only I have the brains and can be relied on."
+        },
+        "context_analysis": {
+          "zh_CN": "摩根以玩笑方式表达与推进之王的亲密关系，自诩为帮派中最有头脑的人",
+          "en_US": "Morgan jokingly expresses closeness to Siege, claiming to be the most intelligent member of the gang"
+        }
+      },
+      {
+        "source_story": "level_main_10-15_end",
+        "quote": {
+          "zh_CN": "摩根：维娜，我还没说完……你们害得我就连在被追杀的时候，都还惦记着达格达会不会又去了哪个犄角旮旯，准备着和萨卡兹同归于尽！",
+          "en_US": "Morgan: Vina, I still haven't finished... You made me worry about whether Dagda might go to some corner to blow herself up with the Sarkaz even when we were being hunted!"
+        },
+        "context_analysis": {
+          "zh_CN": "摩根在逃亡途中仍惦记推进之王身边人的安危，展现战友间的深厚情感",
+          "en_US": "During the escape, Morgan still worries about those close to Siege, showing deep camaraderie"
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_siege_dagda_ch10",
+    "source": "char_112_siege",
+    "target": "char_29fe53d2",
+    "relation_type": "ally",
+    "relation_label": {
+      "zh_CN": "主仆·战友·归家者",
+      "en_US": "Leader & Loyal Knight"
+    },
+    "description": {
+      "zh_CN": "达格达原为伦蒂尼姆塔楼骑士，因萨卡兹入侵而流亡，随格拉斯哥帮一同行动。在ch10中，达格达选择离开地下，联络贵族援军，最终及时归来与推进之王重逢。",
+      "en_US": "Dagda was a Tower Knight of Londinium who fled when the Sarkaz invaded. She joined Glasgow and later chose to leave the underground to contact noble reinforcements, returning just in time to reunite with Siege."
+    },
+    "first_appear_event_id": "main_ch10",
+    "associated_event_id": "main_ch10",
+    "evidences": [
+      {
+        "source_story": "level_main_10-06_beg",
+        "quote": {
+          "zh_CN": "推进之王：达格达，我会等你做出选择。",
+          "en_US": "Siege: Dagda, I will wait for your choice."
+        },
+        "context_analysis": {
+          "zh_CN": "推进之王尊重达格达的选择自由，给予她决定是否离开团队去找贵族故友的时间和空间",
+          "en_US": "Siege respects Dagda's freedom of choice, giving her time and space to decide whether to leave to contact noble contacts"
+        }
+      },
+      {
+        "source_story": "level_main_10-15_end",
+        "quote": {
+          "zh_CN": "推进之王：不，你没有迟到。对我们来说，你什么时候回来，都不算迟到。",
+          "en_US": "Siege: No, you didn't arrive late. For us, it's never late when you return."
+        },
+        "context_analysis": {
+          "zh_CN": "达格达带着援军归来，推进之王表示无论何时她回来都不算迟到",
+          "en_US": "When Dagda returns with reinforcements, Siege declares it's never too late for her to return"
+        }
+      },
+      {
+        "source_story": "level_main_10-15_end",
+        "quote": {
+          "zh_CN": "达格达：以后都不会了。我发誓。",
+          "en_US": "Dagda: Never again. I swear."
+        },
+        "context_analysis": {
+          "zh_CN": "达格达发誓以后不会再离开，推进之王终于与所有战友团聚",
+          "en_US": "Dagda swears never to leave again; Siege is finally reunited with all her comrades"
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_amiya_doc_ch10",
+    "source": "char_002_amiya",
+    "target": "npc_doctor",
+    "relation_type": "ally",
+    "relation_label": {
+      "zh_CN": "最亲密的战友与信任",
+      "en_US": "Closest Comrade & Unwavering Trust"
+    },
+    "description": {
+      "zh_CN": "阿米娅与博士在伦蒂尼姆地下通道中并肩作战，相互信任。阿米娅在面对强大敌人和情感冲击时，感受到博士的陪伴给她勇气。",
+      "en_US": "Amiya and the Doctor fight side by side in the tunnels of Londinium, with mutual trust. Amiya draws courage from the Doctor's presence when facing powerful enemies and emotional turmoil."
+    },
+    "first_appear_event_id": "main_ch10",
+    "associated_event_id": "main_ch10",
+    "evidences": [
+      {
+        "source_story": "level_main_10-05_end",
+        "quote": {
+          "zh_CN": "阿米娅：博士……谢谢你，博士……仅仅只是感觉到你在身边，我就有了走下去的勇气。",
+          "en_US": "Amiya: Thank you, Doctor... Just feeling you by my side gives me the courage to keep going."
+        },
+        "context_analysis": {
+          "zh_CN": "阿米娅向博士表达信任和依赖，感觉到博士在身边就获得了勇气",
+          "en_US": "Amiya expresses trust and dependence on the Doctor, feeling his presence gives her courage"
+        }
+      },
+      {
+        "source_story": "level_main_10-12_beg",
+        "quote": {
+          "zh_CN": "推进之王：和你相处，我总是这么容易就放松下来……也许是因为……就连你得知真相的这一刻，当你看着我的时候，你的眼里依然只是我这个叫'推进之王'的干员……而不是……维多利亚。",
+          "en_US": "Siege: Being with you always puts me at ease... Perhaps because even now, when you know the truth, your eyes still see only me — Siege — not Victoria."
+        },
+        "context_analysis": {
+          "zh_CN": "推进之王对博士坦诚身份后，博士依然以平常心对待她，让她感到放松",
+          "en_US": "After Siege reveals her identity to the Doctor, his unchanged attitude toward her puts her at ease"
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_amiya_kaltsit_ch10",
+    "source": "char_002_amiya",
+    "target": "npc_003_kalts",
+    "relation_type": "ally",
+    "relation_label": {
+      "zh_CN": "罗德岛核心·导师与继承者",
+      "en_US": "Rhodes Island Core · Mentor & Successor"
+    },
+    "description": {
+      "zh_CN": "凯尔希通过通讯指导阿米娅在伦蒂尼姆的行动，提供关键情报和建议。阿米娅感受到来自凯尔希的关心和压力。",
+      "en_US": "Kal'tsit guides Amiya through communication during the Londinium operation, providing crucial intelligence and advice. Amiya feels both care and pressure from Kal'tsit."
+    },
+    "first_appear_event_id": "main_ch10",
+    "associated_event_id": "main_ch10",
+    "evidences": [
+      {
+        "source_story": "level_main_10-04_end",
+        "quote": {
+          "zh_CN": "凯尔希：博士……无论你们在伦蒂尼姆看见什么，请和阿米娅一起面对。我知道你能做到。",
+          "en_US": "Kal'tsit: Doctor... whatever you see in Londinium, face it together with Amiya. I know you can do it."
+        },
+        "context_analysis": {
+          "zh_CN": "凯尔希托付博士照顾阿米娅，在行动前给予信任和期望",
+          "en_US": "Kal'tsit entrusts the Doctor to take care of Amiya, showing trust and expectations before the operation"
+        }
+      },
+      {
+        "source_story": "level_main_10-05_end",
+        "quote": {
+          "zh_CN": "阿米娅：凯尔希医生说可以由她开口，但我决定自己告诉你。",
+          "en_US": "Amiya: Dr. Kal'tsit said she could be the one to tell you, but I decided to tell you myself."
+        },
+        "context_analysis": {
+          "zh_CN": "阿米娅独自向推进之王解释身份问题，展现独立决策能力",
+          "en_US": "Amiya independently decides to explain identity matters to Siege, showing her independent decision-making"
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_amiya_heidi_ch10",
+    "source": "char_002_amiya",
+    "target": "char_f37cba01",
+    "relation_type": "ally",
+    "relation_label": {
+      "zh_CN": "罗德岛盟友·信任与合作",
+      "en_US": "Rhodes Island Ally · Trust & Cooperation"
+    },
+    "description": {
+      "zh_CN": "海蒂是罗德岛在伦蒂尼姆的秘密信使，与自救军有联系。在制醇厂营救行动中，阿米娅与海蒂首次见面并成功合作。",
+      "en_US": "Heidi is Rhodes Island's secret messenger in Londinium, connected to the Self-Rescue Army. During the refinery rescue operation, Amiya meets and successfully cooperates with Heidi."
+    },
+    "first_appear_event_id": "main_ch10",
+    "associated_event_id": "main_ch10",
+    "evidences": [
+      {
+        "source_story": "level_main_10-08_end",
+        "quote": {
+          "zh_CN": "海蒂：各位，晚上好。自救军的朋友，还有……未曾谋面的罗德岛的朋友。各位晚上好。",
+          "en_US": "Heidi: Good evening, everyone. Friends of the Self-Rescue Army, and... friends of Rhodes Island whom I've never met before. Good evening."
+        },
+        "context_analysis": {
+          "zh_CN": "海蒂在制醇厂首次与阿米娅正式会面，双方确认合作",
+          "en_US": "Heidi officially meets Amiya for the first time at the refinery; both sides confirm cooperation"
+        }
+      },
+      {
+        "source_story": "level_main_10-09_beg",
+        "quote": {
+          "zh_CN": "海蒂：阿米娅……凯尔希教会了我许多……是的，甚至包括如何战斗。",
+          "en_US": "Heidi: Amiya... Kal'tsit taught me a lot... yes, even including how to fight."
+        },
+        "context_analysis": {
+          "zh_CN": "海蒂透露凯尔希是她的导师，确认她与罗德岛的深层联系",
+          "en_US": "Heidi reveals Kal'tsit is her mentor, confirming her deep connection to Rhodes Island"
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_amiya_w_ch10",
+    "source": "char_002_amiya",
+    "target": "char_113_cqbw",
+    "relation_type": "ally",
+    "relation_label": {
+      "zh_CN": "萨卡兹战友·协助者",
+      "en_US": "Sarkaz Ally · Helper"
+    },
+    "description": {
+      "zh_CN": "W是萨卡兹雇佣兵，在制醇厂战斗中协助罗德岛和自救军撤离。她与凯尔希有联系，被派来营救海蒂。",
+      "en_US": "W is a Sarkaz mercenary who assists Rhodes Island and the Self-Rescue Army during the refinery battle. She has ties with Kal'tsit and was sent to rescue Heidi."
+    },
+    "first_appear_event_id": "main_ch10",
+    "associated_event_id": "main_ch10",
+    "evidences": [
+      {
+        "source_story": "level_main_10-08_end",
+        "quote": {
+          "zh_CN": "W：小兔子，带上你的那个兜帽怪物，我们是时候——呃，你们愣着做什么？",
+          "en_US": "W: Little bunny, take your hooded monster — we're going — err, why are you all standing there?"
+        },
+        "context_analysis": {
+          "zh_CN": "W协助阿米娅和博士撤离，在战斗中使用炸弹掩护",
+          "en_US": "W assists Amiya and the Doctor in evacuating, using bombs to cover their retreat"
+        }
+      },
+      {
+        "source_story": "level_main_10-09_end",
+        "quote": {
+          "zh_CN": "阿米娅：W小姐，我们还有许多信息没有同步。我们得先撤退……W，不要出事。我们会等你。",
+          "en_US": "Amiya: Ms. W, we still have much information to sync. We need to retreat first... W, don't get yourself killed. We'll wait for you."
+        },
+        "context_analysis": {
+          "zh_CN": "阿米娅对W表达关心和信任，等她一同撤离",
+          "en_US": "Amiya expresses concern and trust for W, waiting for her to evacuate together"
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_heidi_kaltsit_ch10",
+    "source": "char_f37cba01",
+    "target": "npc_003_kalts",
+    "relation_type": "ally",
+    "relation_label": {
+      "zh_CN": "罗德岛信使·师生",
+      "en_US": "Rhodes Island Messenger · Mentor-Student"
+    },
+    "description": {
+      "zh_CN": "海蒂是凯尔希的学生，受凯尔希之命在伦蒂尼姆活动，并被W营救。在制醇厂，她透露凯尔希教会了她战斗的技能。",
+      "en_US": "Heidi is a student of Kal'tsit, operating in Londinium on Kal'tsit's orders, and was rescued by W. At the refinery, she reveals Kal'tsit taught her how to fight."
+    },
+    "first_appear_event_id": "main_ch10",
+    "associated_event_id": "main_ch10",
+    "evidences": [
+      {
+        "source_story": "level_main_10-08_end",
+        "quote": {
+          "zh_CN": "海蒂：是凯尔希让你来的？",
+          "en_US": "Heidi: Did Kal'tsit send you?"
+        },
+        "context_analysis": {
+          "zh_CN": "海蒂询问W是否受凯尔希之命，确认与罗德岛的从属关系",
+          "en_US": "Heidi asks if W was sent by Kal'tsit, confirming her subordination to Rhodes Island"
+        }
+      },
+      {
+        "source_story": "level_main_10-09_beg",
+        "quote": {
+          "zh_CN": "海蒂：凯尔希教会了我许多……是的，甚至包括如何战斗。很可惜，我并不算她最好的学生。一直以来，我能帮到她的很有限。",
+          "en_US": "Heidi: Kal'tsit taught me a lot... yes, even including how to fight. Unfortunately, I'm not her best student. I've always been able to help her only so much."
+        },
+        "context_analysis": {
+          "zh_CN": "海蒂承认自己是凯尔希的学生，但自谦并非好学生",
+          "en_US": "Heidi admits she is a student of Kal'tsit but downplays her own abilities"
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_amiya_klovitch_ch10",
+    "source": "char_002_amiya",
+    "target": "avg_npc_045",
+    "relation_type": "rival",
+    "relation_label": {
+      "zh_CN": "死敌·伦蒂尼姆攻防",
+      "en_US": "Sworn Enemy · Siege of Londinium"
+    },
+    "description": {
+      "zh_CN": "曼弗雷德是萨卡兹摄政王特雷西斯的将军，在伦蒂尼姆指挥城防炮攻击反抗军。阿米娅在城墙上与曼弗雷德正面对决，试图阻止城防炮攻击。",
+      "en_US": "Manfred is General of the Regent Therbeni, commanding Londinium's defense cannons against the resistance. Amiya confronts Manfred directly on the city wall, attempting to stop the artillery bombardment."
+    },
+    "first_appear_event_id": "main_ch10",
+    "associated_event_id": "main_ch10",
+    "evidences": [
+      {
+        "source_story": "level_main_10-10_beg",
+        "quote": {
+          "zh_CN": "曼弗雷德：不必妄自菲薄，维多利亚的白狼。你在我们萨卡兹之中，也称得上是一名英勇的战士。",
+          "en_US": "Manfred: No need for false modesty, white wolf of Victoria. Even among the Sarkaz, you qualify as a valiant warrior."
+        },
+        "context_analysis": {
+          "zh_CN": "曼弗雷德对号角的表现给予认可，但在城墙上继续与反抗军交战",
+          "en_US": "Manfred acknowledges B雕's performance, but continues fighting the resistance on the wall"
+        }
+      },
+      {
+        "source_story": "level_main_10-15_beg",
+        "quote": {
+          "zh_CN": "曼弗雷德：你想用这种剑就想与我战斗？",
+          "en_US": "Manfred: You think you can fight me with that sword?"
+        },
+        "context_analysis": {
+          "zh_CN": "曼弗雷德在城墙上用源石技艺攻击阿米娅，试图捕获她献给特雷西斯",
+          "en_US": "Manfred uses Arts on the wall to attack Amiya, attempting to capture her for Therbeni"
+        }
+      },
+      {
+        "source_story": "level_main_10-15_beg",
+        "quote": {
+          "zh_CN": "阿米娅：而我会踏碎你的牢笼！",
+          "en_US": "Amiya: And I will shatter your cage!"
+        },
+        "context_analysis": {
+          "zh_CN": "阿米娅反击曼弗雷德，展现对抗到底的决心",
+          "en_US": "Amiya counterattacks Manfred, showing her determination to fight to the end"
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_amiya_hecter_ch10",
+    "source": "char_002_amiya",
+    "target": "avg_npc_043",
+    "relation_type": "rival",
+    "relation_label": {
+      "zh_CN": "战场宿敌·前巴别塔雇佣兵",
+      "en_US": "Battle Nemesis · Former Babel Mercenary"
+    },
+    "description": {
+      "zh_CN": "赫德雷是萨卡兹雇佣兵，曾为巴别塔工作，现在为曼弗雷德效力。在制醇厂战斗中，他追捕罗德岛成员，在城墙上与阿米娅交战。",
+      "en_US": "Hechter is a Sarkaz mercenary who worked for Babel and now serves Manfred. During the refinery battle, he hunts Rhodes Island members, fighting Amiya on the city wall."
+    },
+    "first_appear_event_id": "main_ch10",
+    "associated_event_id": "main_ch10",
+    "evidences": [
+      {
+        "source_story": "level_main_10-13_beg",
+        "quote": {
+          "zh_CN": "阿米娅：赫德雷。",
+          "en_US": "Amiya: Hechter."
+        },
+        "context_analysis": {
+          "zh_CN": "阿米娅在城墙上认出赫德雷，确认其为敌人",
+          "en_US": "Amiya recognizes Hechter on the city wall, confirming him as an enemy"
+        }
+      },
+      {
+        "source_story": "level_main_10-13_beg",
+        "quote": {
+          "zh_CN": "赫德雷：又见面了，罗德岛的领导人。",
+          "en_US": "Hechter: We meet again, leader of Rhodes Island."
+        },
+        "context_analysis": {
+          "zh_CN": "赫德雷与阿米娅在城墙上对峙，延续战场敌对关系",
+          "en_US": "Hechter faces Amiya on the wall, continuing their battlefield antagonism"
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_amiya_mandrag_ch10",
+    "source": "char_002_amiya",
+    "target": "npc_mandrag_ch10",
+    "relation_type": "rival",
+    "relation_label": {
+      "zh_CN": "战场死敌",
+      "en_US": "Battle Foes"
+    },
+    "description": {
+      "zh_CN": "蔓德拉是深池术师，在出入口岸与罗德岛冲突，后被曼弗雷德的部队歼灭。她是小丘郡事件的始作俑者，罗德岛干员对她抱有强烈敌意。",
+      "en_US": "Mandrag is a Deep Pool mage who clashed with Rhodes Island at the port, later destroyed by Manfred's forces. She was one of the instigators of the《小丘郡事件; Rhodes Island operators hold strong hostility toward her."
+    },
+    "first_appear_event_id": "main_ch10",
+    "associated_event_id": "main_ch10",
+    "evidences": [
+      {
+        "source_story": "level_main_10-02_end",
+        "quote": {
+          "zh_CN": "阿米娅：根据Misery的消息和风笛的报告，她就是伦蒂尼姆这支深池部队的头目……也是小丘郡事件的始作俑者之一。",
+          "en_US": "Amiya: According to Misery's intel and Breeze's report, she's the commander of the Deep Pool forces in Londinium... and one of the instigators of the《小丘郡事件."
+        },
+        "context_analysis": {
+          "zh_CN": "阿米娅向博士介绍蔓德拉的身份和敌意来源",
+          "en_US": "Amiya introduces Mandrag's identity and the source of her enmity to the Doctor"
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_w_hecter_ch10",
+    "source": "char_113_cqbw",
+    "target": "avg_npc_043",
+    "relation_type": "rival",
+    "relation_label": {
+      "zh_CN": "雇佣兵旧识·战场对峙",
+      "en_US": "Mercenary Acquaintances · Battlefield Confrontation"
+    },
+    "description": {
+      "zh_CN": "W与赫德雷都是萨卡兹雇佣兵，曾在整合运动时期共事。在制醇厂战斗中，W与赫德雷激烈交战，赫德雷重伤W。",
+      "en_US": "Both W and Hechter are Sarkaz mercenaries who worked together during the Reunion Movement. During the refinery battle, W and Hechter fight intensely; Hechter critically wounds W."
+    },
+    "first_appear_event_id": "main_ch10",
+    "associated_event_id": "main_ch10",
+    "evidences": [
+      {
+        "source_story": "level_main_10-09_end",
+        "quote": {
+          "zh_CN": "W：施瓦布的脑袋远远不够格。你还加了多少码？呃，你该不会是把她……赫德雷：别说这样的话。W：我才不……赫德雷：是的，她死了。",
+          "en_US": "W: Schwarz's head is far from enough. What else did you add? Err, you wouldn't have... Hechter: Don't say such things. W: I wouldn't... Hechter: Yes, she's dead."
+        },
+        "context_analysis": {
+          "zh_CN": "W与赫德雷对峙，得知伊内丝的死讯，两人曾是共事的雇佣兵",
+          "en_US": "W and Hechter confront each other; W learns of Ines' death — they were fellow mercenaries"
+        }
+      },
+      {
+        "source_story": "level_main_10-09_end",
+        "quote": {
+          "zh_CN": "W：你知道杀不掉我了，对吧？你当过我的头儿，我也当过你的头儿，可是这里有一个人，她当过我们俩的头儿。",
+          "en_US": "W: You know you can't kill me, right? You were my leader once, and I was yours too, but there's someone who was leader to both of us."
+        },
+        "context_analysis": {
+          "zh_CN": "W揭示她与赫德雷曾是雇佣兵搭档，共同效忠于特蕾西娅（巴别塔时期）",
+          "en_US": "W reveals she and Hechter were mercenary partners, both serving Theresa (during Babel)"
+        }
+      },
+      {
+        "source_story": "level_main_10-09_end",
+        "quote": {
+          "zh_CN": "W：所以，干脆点走出来，我顺便答应让你的尸体完整一些，不好吗？……恭喜你，你惹到我了。",
+          "en_US": "W: So come out already, and I'll even promise to keep your corpse intact, okay? ...Congratulations, you've really angered me."
+        },
+        "context_analysis": {
+          "zh_CN": "W与赫德雷在制醇厂激战，赫德雷重伤W后被阿斯卡纶阻止",
+          "en_US": "W battles Hechter at the refinery; Hechter critically wounds W before Ascalon intervenes"
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_w_ascalon_ch10",
+    "source": "char_113_cqbw",
+    "target": "char_ce834e1a",
+    "relation_type": "ally",
+    "relation_label": {
+      "zh_CN": "前同事·救命恩人",
+      "en_US": "Former Colleague · Lifesaver"
+    },
+    "description": {
+      "zh_CN": "阿斯卡纶是巴别塔时期的刺客，救下了被赫德雷重伤的W。她用匕首阻止赫德雷杀死W，展现了前同事之间的默契。",
+      "en_US": "Ascalon was an assassin during the Babel era who saved the critically wounded W. She stopped Hechter from killing W with daggers, showing the默契 of former colleagues."
+    },
+    "first_appear_event_id": "main_ch10",
+    "associated_event_id": "main_ch10",
+    "evidences": [
+      {
+        "source_story": "level_main_10-09_end",
+        "quote": {
+          "zh_CN": "阿斯卡纶：别动。赫德雷：我的剑……被挡下了？那是……匕首？从哪里飞过来的匕首？",
+          "en_US": "Ascalon: Don't move. Hechter: My sword... was blocked? That was... a dagger? From where did that dagger fly?"
+        },
+        "context_analysis": {
+          "zh_CN": "阿斯卡纶用匕首挡住赫德雷的剑，救下濒死的W",
+          "en_US": "Ascalon blocks Hechter's sword with a dagger, saving the dying W"
+        }
+      },
+      {
+        "source_story": "level_main_10-09_end",
+        "quote": {
+          "zh_CN": "阿斯卡纶：W，你每多说一句话，血就会流得更快一些。",
+          "en_US": "Ascalon: W, every word you say makes you bleed faster."
+        },
+        "context_analysis": {
+          "zh_CN": "阿斯卡纶关心W的伤势，警告她少说话",
+          "en_US": "Ascalon shows concern for W's injuries, warning her to speak less"
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_hecter_ascalon_ch10",
+    "source": "avg_npc_043",
+    "target": "char_ce834e1a",
+    "relation_type": "rival",
+    "relation_label": {
+      "zh_CN": "战场死敌",
+      "en_US": "Battle Enemies"
+    },
+    "description": {
+      "zh_CN": "阿斯卡纶阻止赫德雷杀死W，两人之间存在对抗关系。赫德雷称阿斯卡纶的出现让他无法完成杀死W的任务。",
+      "en_US": "Ascalon prevents Hechter from killing W; there is antagonism between them. Hechter says Ascalon's appearance prevents him from completing the mission to kill W."
+    },
+    "first_appear_event_id": "main_ch10",
+    "associated_event_id": "main_ch10",
+    "evidences": [
+      {
+        "source_story": "level_main_10-09_end",
+        "quote": {
+          "zh_CN": "赫德雷：阿斯卡纶……你知道我们俩的人头在下一刻都可能落地。",
+          "en_US": "Hechter: Ascalon... you know both our heads could roll at any moment."
+        },
+        "context_analysis": {
+          "zh_CN": "赫德雷承认阿斯卡纶的出现让他无法完成杀死W的任务",
+          "en_US": "Hechter admits Ascalon's appearance prevents him from completing his mission to kill W"
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_amiya_misery_ch10",
+    "source": "char_002_amiya",
+    "target": "npc_misery_ch14",
+    "relation_type": "ally",
+    "relation_label": {
+      "zh_CN": "罗德岛战友·并肩作战",
+      "en_US": "Rhodes Island Comrades · Fighting Together"
+    },
+    "description": {
+      "zh_CN": "Misery是罗德岛精英干员，在伦蒂尼姆地下使用空间源石技艺帮助众人逃脱，包括营救号角和阻挡曼弗雷德。",
+      "en_US": "Misery is a Rhodes Island elite operator who uses spatial Arts in the Londinium underground to help everyone escape, including rescuing B雕 and blocking Manfred."
+    },
+    "first_appear_event_id": "main_ch10",
+    "associated_event_id": "main_ch10",
+    "evidences": [
+      {
+        "source_story": "level_main_10-11_end",
+        "quote": {
+          "zh_CN": "号角：您到底是谁？Misery：Misery。我是罗德岛的Misery。",
+          "en_US": "B雕: Who are you? Misery: Misery. I am Rhodes Island's Misery."
+        },
+        "context_analysis": {
+          "zh_CN": "Misery向号角表明身份，确认自己是罗德岛的干员",
+          "en_US": "Misery identifies herself to B雕, confirming she is a Rhodes Island operator"
+        }
+      },
+      {
+        "source_story": "level_main_10-12_beg",
+        "quote": {
+          "zh_CN": "Misery：快回去。不，转告博士和阿米娅，地下也不安全。",
+          "en_US": "Misery: Go back quickly. No, tell the Doctor and Amiya, the underground is not safe either."
+        },
+        "context_analysis": {
+          "zh_CN": "Misery提醒众人地下也不安全，展现对同伴的关心",
+          "en_US": "Misery warns everyone the underground isn't safe, showing concern for comrades"
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_bpipe_warl_ch10",
+    "source": "avg_222_bpipe",
+    "target": "npc_warl",
+    "relation_type": "rival",
+    "relation_label": {
+      "zh_CN": "战场死敌",
+      "en_US": "Battle Enemies"
+    },
+    "description": {
+      "zh_CN": "食腐者之王（萨卡兹王庭之一）在伦蒂尼姆地下通道追捕推进之王等人，吞噬了十二队的战士们。号角和推进之王必须与他对抗。",
+      "en_US": "The Warl of the Feast (a Sarkaz king) hunts Siege and others through Londinium's underground tunnels, devouring Team 12's soldiers. B雕 and Siege must fight against him."
+    },
+    "first_appear_event_id": "main_ch10",
+    "associated_event_id": "main_ch10",
+    "evidences": [
+      {
+        "source_story": "level_main_10-14_end",
+        "quote": {
+          "zh_CN": "推进之王：这脉搏声消失了……跑！！！",
+          "en_US": "Siege: That pulse is gone... RUN!!!"
+        },
+        "context_analysis": {
+          "zh_CN": "推进之王感知到食腐者之王的存在，警告众人逃跑",
+          "en_US": "Siege senses the Warl's presence and warns everyone to flee"
+        }
+      },
+      {
+        "source_story": "level_main_10-15_end",
+        "quote": {
+          "zh_CN": "血魔大君：那个截然不同的味道……有趣……特雷西斯知道这件事吗？你不会有机会追上去确认的。",
+          "en_US": "The Blood Demon: That distinctly different scent... interesting... Does Therbeni know about this? You won't get the chance to confirm it."
+        },
+        "context_analysis": {
+          "zh_CN": "食腐者之王追踪推进之王的气味，被Logos等人阻止",
+          "en_US": "The Warl tracks Siege's scent but is blocked by Logos and others"
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_siege_dagda_ch10_return",
+    "source": "char_112_siege",
+    "target": "char_29fe53d2",
+    "relation_type": "ally",
+    "relation_label": {
+      "zh_CN": "主仆重逢·归家",
+      "en_US": "Leader & Knight · Reunion & Return"
+    },
+    "description": {
+      "zh_CN": "达格达在离开地下后，带着贵族援军及时归来，与推进之王在列车站台上重逢。",
+      "en_US": "After leaving the underground, Dagda returns in time with noble reinforcements, reuniting with Siege at the train platform."
+    },
+    "first_appear_event_id": "main_ch10",
+    "associated_event_id": "main_ch10",
+    "evidences": [
+      {
+        "source_story": "level_main_10-15_end",
+        "quote": {
+          "zh_CN": "达格达：我……我很怕自己迟到。推进之王：不，你没有迟到。对我们来说，你什么时候回来，都不算迟到。",
+          "en_US": "Dagda: I... I'm very afraid I was late. Siege: No, you weren't late. For us, it's never late when you return."
+        },
+        "context_analysis": {
+          "zh_CN": "达格达带着援军归来，推进之王表示欢迎",
+          "en_US": "Dagda returns with reinforcements; Siege welcomes her"
+        }
+      },
+      {
+        "source_story": "level_main_10-15_end",
+        "quote": {
+          "zh_CN": "因陀罗：混蛋，你……你走的时候那么干脆，我都来不及揍你！达格达：嗯……现在揍也不算太晚。",
+          "en_US": "Indra: Damn it, you left so abruptly, I didn't even have time to beat you up! Dagda: Well... it's not too late to hit me now."
+        },
+        "context_analysis": {
+          "zh_CN": "格拉斯哥帮成员以打闹方式表达重逢的喜悦",
+          "en_US": "Glasgow members express joy at reunion through playful fighting"
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_siege_klovitch_ch10",
+    "source": "char_112_siege",
+    "target": "avg_npc_045",
+    "relation_type": "rival",
+    "relation_label": {
+      "zh_CN": "伦蒂尼姆继承者与侵略者",
+      "en_US": "Londinium's Heir vs. Invader"
+    },
+    "description": {
+      "zh_CN": "推进之王是伦蒂尼姆王室的继承人，曼弗雷德是萨卡兹军队的将军。推进之王回到伦蒂尼姆，收复故土是她与格拉斯哥帮的使命。",
+      "en_US": "Siege is heir to the Londinium royal family; Manfred is the Sarkaz army's general. Siege's return to Londinium and reclaiming her homeland is the mission of her and Glasgow."
+    },
+    "first_appear_event_id": "main_ch10",
+    "associated_event_id": "main_ch10",
+    "evidences": [
+      {
+        "source_story": "level_main_10-10_beg",
+        "quote": {
+          "zh_CN": "曼弗雷德：没想到，除了阿斯卡纶，罗德岛还有一位顶尖的萨卡兹刺客。曼弗雷德：差一点点。",
+          "en_US": "Manfred: Unexpectedly, besides Ascalon, Rhodes Island has another top-tier Sarkaz assassin. Manfred: Almost."
+        },
+        "context_analysis": {
+          "zh_CN": "曼弗雷德承认几乎抓住推进之王，展现战场上的对抗",
+          "en_US": "Manfred admits he almost captured Siege, showing their battlefield confrontation"
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_amiya_klovitch_talk_ch10",
+    "source": "char_002_amiya",
+    "target": "avg_npc_045",
+    "relation_type": "rival",
+    "relation_label": {
+      "zh_CN": "战场对话·理念对立",
+      "en_US": "Battle Dialogue · Ideological Opposition"
+    },
+    "description": {
+      "zh_CN": "曼弗雷德质疑阿米娅是否有资格号令萨卡兹战士，阿米娅反驳他的观点。两人在城墙上激战，同时进行激烈的理念交锋。",
+      "en_US": "Manfred questions Amiya's right to command Sarkaz warriors; Amiya retorts his views. They battle on the wall while engaging in heated ideological confrontation."
+    },
+    "first_appear_event_id": "main_ch10",
+    "associated_event_id": "main_ch10",
+    "evidences": [
+      {
+        "source_story": "level_main_10-15_beg",
+        "quote": {
+          "zh_CN": "曼弗雷德：卡特斯，你太自负了？你不过就是一个感染者，你从来没有体验过真正属于萨卡兹的人生。仅仅是在一旁看着，你凭什么认为自己真的能理解我们的痛苦与愤恨？！",
+          "en_US": "Manfred: You are too arrogant, Ceth. You're just an Infected. You've never experienced what it truly means to be Sarkaz. How can you, merely watching from the sidelines, claim to truly understand our pain and fury?!"
+        },
+        "context_analysis": {
+          "zh_CN": "曼弗雷德质问阿米娅是否有资格理解萨卡兹的痛苦与愤怒",
+          "en_US": "Manfred questions whether Amiya has the right to understand Sarkaz pain and fury"
+        }
+      },
+      {
+        "source_story": "level_main_10-15_beg",
+        "quote": {
+          "zh_CN": "阿米娅：是的，也许我不理解。但是……烧在你们心中的那把火，它从遥远的过去一直烧到现在，从最初的卡兹戴尔烧到如今的伦蒂尼姆，至今也仍在我心中。那是滚烫的。",
+          "en_US": "Amiya: Yes, perhaps I don't understand. But... the fire burning in your hearts — it has burned since ancient times, from the original Kazdel to today's Londinium — it still burns within me. It is scorching hot."
+        },
+        "context_analysis": {
+          "zh_CN": "阿米娅承认不理解萨卡兹的历史，但表示同样的火焰也在她心中燃烧",
+          "en_US": "Amiya admits she doesn't understand Sarkaz history, but declares the same fire burns in her heart"
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_fist_klovitch_ch10",
+    "source": "npc_fist_ch10",
+    "target": "avg_npc_045",
+    "relation_type": "rival",
+    "relation_label": {
+      "zh_CN": "战场死敌",
+      "en_US": "Battle Enemies"
+    },
+    "description": {
+      "zh_CN": "费斯特在城墙上与曼弗雷德交战，利用赫德雷的攻击造成的裂缝成功逃脱。费斯特的工匠技能在战斗中发挥了关键作用。",
+      "en_US": "Fist fights Manfred on the city wall, using the crack caused by Hechter's attack to escape. Fist's engineering skills play a crucial role in the battle."
+    },
+    "first_appear_event_id": "main_ch10",
+    "associated_event_id": "main_ch10",
+    "evidences": [
+      {
+        "source_story": "level_main_10-13_beg",
+        "quote": {
+          "zh_CN": "费斯特：来啊，萨卡兹，朝我砍过来！用上你的剑，你的刀，你所有的武器——",
+          "en_US": "Fist: Come on, Sarkaz, swing at me! Use your sword, your blade, all your weapons—"
+        },
+        "context_analysis": {
+          "zh_CN": "费斯特故意引诱赫德雷攻击，利用他的攻击破坏结构层为阿米娅和博士开路",
+          "en_US": "Fist deliberately lures Hechter's attack, using his strikes to break through structural layers for Amiya and the Doctor"
+        }
+      },
+      {
+        "source_story": "level_main_10-13_beg",
+        "quote": {
+          "zh_CN": "费斯特：麻烦更用力一些！赫德雷：又是烟雾弹？费斯特：你砍向我的每一刀，都是通往你们失败的道路！",
+          "en_US": "Fist: Hit harder, please! Hechter: Another smoke bomb? Fist: Every sword swing of yours is a path toward your defeat!"
+        },
+        "context_analysis": {
+          "zh_CN": "费斯特利用赫德雷的攻击，牺牲自己为同伴争取机会",
+          "en_US": "Fist uses Hechter's attacks to sacrifice himself for his comrades"
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_bpipe_klovitch_ch10",
+    "source": "avg_222_bpipe",
+    "target": "avg_npc_045",
+    "relation_type": "rival",
+    "relation_label": {
+      "zh_CN": "伦蒂尼姆城墙死战",
+      "en_US": "Londinium Wall Battle"
+    },
+    "description": {
+      "zh_CN": "号角在城墙上与曼弗雷德进行最后的战斗，用剑与盾抵挡曼弗雷德的攻击，为罗德岛和自救军的撤离争取时间。",
+      "en_US": "B雕 fights her final battle against Manfred on the city wall, using sword and shield to withstand his attacks and buy time for Rhodes Island and the Self-Rescue Army to evacuate."
+    },
+    "first_appear_event_id": "main_ch10",
+    "associated_event_id": "main_ch10",
+    "evidences": [
+      {
+        "source_story": "level_main_10-10_beg",
+        "quote": {
+          "zh_CN": "号角：留在我耳朵里的死者的话语并不比你能听见的少。而且……我答应他们了。在看到我的人活着离开之前，我一定不会倒下。",
+          "en_US": "B雕: The voices of the dead in my ears are no fewer than what you can hear. And... I promised them. Until I see my people escape alive, I will never fall."
+        },
+        "context_analysis": {
+          "zh_CN": "号角表明战斗意志，在城墙上独自面对曼弗雷德",
+          "en_US": "B雕 declares her fighting will, facing Manfred alone on the wall"
+        }
+      },
+      {
+        "source_story": "level_main_10-15_end",
+        "quote": {
+          "zh_CN": "曼弗雷德：下次见面，我会用我的剑为你送去……配得上你的英勇的死亡。号角：下次……还会有下一次吗？",
+          "en_US": "Manfred: Next time we meet, I will send you... a death befitting your valor. B雕: Next time... will there even be a next time?"
+        },
+        "context_analysis": {
+          "zh_CN": "曼弗雷德承认号角是可敬的对手，但号角能否活到下次成了疑问",
+          "en_US": "Manfred acknowledges B雕 as a formidable opponent, but whether she will survive becomes uncertain"
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_bpipe_asc_ch10",
+    "source": "avg_222_bpipe",
+    "target": "char_ce834e1a",
+    "relation_type": "ally",
+    "relation_label": {
+      "zh_CN": "救命恩人·并肩战友",
+      "en_US": "Lifesaver · Comrade"
+    },
+    "description": {
+      "zh_CN": "Misery用空间源石技艺救了从城墙上坠落的号角，将她从高处拉回安全地带。",
+      "en_US": "Misery uses spatial Arts to rescue the falling B雕 from the city wall, pulling her back to safety from great height."
+    },
+    "first_appear_event_id": "main_ch10",
+    "associated_event_id": "main_ch10",
+    "evidences": [
+      {
+        "source_story": "level_main_10-15_end",
+        "quote": {
+          "zh_CN": "号角：这面墙……到底有多高？为什么我好像……在往上飞？罗本：是Misery先生救了您！",
+          "en_US": "B雕: How high is this wall? Why does it seem like I'm... flying upward? Robben: Mr. Misery saved you!"
+        },
+        "context_analysis": {
+          "zh_CN": "号角从城墙上坠落时被Misery救起",
+          "en_US": "B雕 is saved by Misery when falling from the wall"
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_siege_klovitch_identity_ch10",
+    "source": "char_112_siege",
+    "target": "avg_npc_045",
+    "relation_type": "rival",
+    "relation_label": {
+      "zh_CN": "伦蒂尼姆继承者与侵略者",
+      "en_US": "Londinium's Heir vs. Invader"
+    },
+    "description": {
+      "zh_CN": "推进之王向博士坦白了自己的真实身份——维娜·维多利亚，伦蒂尼姆王室的继承人。她回到伦蒂尼姆是为了夺回家园。",
+      "en_US": "Siege reveals her true identity to the Doctor — Vina Victoria, heir to the Londinium royal family. She returns to Londinium to reclaim her homeland."
+    },
+    "first_appear_event_id": "main_ch10",
+    "associated_event_id": "main_ch10",
+    "evidences": [
+      {
+        "source_story": "level_main_10-12_beg",
+        "quote": {
+          "zh_CN": "推进之王：博士……我的姓氏……维多利亚？你的表情……好平静。",
+          "en_US": "Siege: Doctor... my surname... Victoria? Your expression... is so calm."
+        },
+        "context_analysis": {
+          "zh_CN": "推进之王向博士坦白身份，博士平静地接受了这个信息",
+          "en_US": "Siege reveals her identity to the Doctor; the Doctor calmly accepts this information"
+        }
+      },
+      {
+        "source_story": "level_main_10-12_beg",
+        "quote": {
+          "zh_CN": "推进之王：我不想再看见她被推着走。她需要接纳自己的内心，然后坚定日后的道路。",
+          "en_US": "Siege: I don't want to see her being pushed anymore. She needs to accept her inner self, then walk her path firmly."
+        },
+        "context_analysis": {
+          "zh_CN": "推进之王谈论达格达时也暗示了自己的处境——被身份束缚，需要自己做出选择",
+          "en_US": "When discussing Dagda, Siege also hints at her own situation — bound by identity, needing to make her own choices"
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_siege_klovitz_ch10",
+    "source": "char_112_siege",
+    "target": "avg_npc_045",
+    "relation_type": "rival",
+    "relation_label": {
+      "zh_CN": "继承者与侵略者的正面对决",
+      "en_US": "Heir vs. Invader Direct Confrontation"
+    },
+    "description": {
+      "zh_CN": "推进之王在地下通道中找到王宫逃生密道的开关，展现了她作为王室继承人的身份。血魔大君追踪她，认为她与维多利亚王室的联系'有趣'。",
+      "en_US": "Siege finds the palace escape route switch in the underground, demonstrating her identity as royal heir. The Blood Demon tracks her, finding her connection to the Victoria royal family 'interesting'."
+    },
+    "first_appear_event_id": "main_ch10",
+    "associated_event_id": "main_ch10",
+    "evidences": [
+      {
+        "source_story": "level_main_10-14_end",
+        "quote": {
+          "zh_CN": "推进之王：三岁那年，她第一次被带到王宫地下。她的老师驮着她，用巨掌引着她按下了这个按钮。二十多年后——她第二次见到了它。",
+          "en_US": "Siege: At age three, she was first brought to the palace underground. Her teacher carried her and guided her hand to press this button. Twenty-plus years later — she sees it again."
+        },
+        "context_analysis": {
+          "zh_CN": "推进之王找到逃生密道按钮，证明她的王室血统",
+          "en_US": "Siege finds the escape route button, proving her royal bloodline"
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_fist_lolo_ch10",
+    "source": "npc_fist_ch10",
+    "target": "char_99da5df6",
+    "relation_type": "ally",
+    "relation_label": {
+      "zh_CN": "队长与副队长·战友",
+      "en_US": "Team Leader & Deputy · Comrades"
+    },
+    "description": {
+      "zh_CN": "费斯特是自救军队长，洛洛是副队长。费斯特在制醇厂战斗中失去了强尼和加比，但他承诺会救出比尔。洛洛在战斗中受伤但坚持行动。",
+      "en_US": "Fist is the Self-Rescue Army team leader; Lolo is his deputy. Fist lost Jonny and Gabby at the refinery but promised to rescue Bill. Lolo is injured in combat but persists."
+    },
+    "first_appear_event_id": "main_ch10",
+    "associated_event_id": "main_ch10",
+    "evidences": [
+      {
+        "source_story": "level_main_10-07_end",
+        "quote": {
+          "zh_CN": "洛洛：比尔在我们手上。他是为了掩护我……我不能在他生死未卜的情况下，只顾自己躺着。费斯特：我会救他回来。洛洛，我保证。",
+          "en_US": "Lolo: Bill is in their hands. He did it to cover me... I can't just lie here while his life is uncertain. Fist: I'll bring him back. I promise, Lolo."
+        },
+        "context_analysis": {
+          "zh_CN": "费斯特向洛洛承诺会救出比尔，展现队长的责任感",
+          "en_US": "Fist promises Lolo he will rescue Bill, showing the team leader's sense of responsibility"
+        }
+      },
+      {
+        "source_story": "level_main_10-15_end",
+        "quote": {
+          "zh_CN": "费斯特：哈……老比尔，你看到了吗？我……洛洛：不，别想偷懒晕过去！战斗还没结束！",
+          "en_US": "Fist: Ha... Old Bill, did you see? I... Lolo: Don't even think about slacking off and passing out! The fight isn't over!"
+        },
+        "context_analysis": {
+          "zh_CN": "费斯特想哀悼比尔，洛洛阻止他继续战斗",
+          "en_US": "Fist wants to mourn Bill; Lolo stops him, pushing him to keep fighting"
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_amiya_klovitz_theresa_ch10",
+    "source": "char_002_amiya",
+    "target": "npc_theresa_ch10",
+    "relation_type": "ally",
+    "relation_label": {
+      "zh_CN": "先代魔王与继承者",
+      "en_US": "Past Demon King & Successor"
+    },
+    "description": {
+      "zh_CN": "特蕾西娅是萨卡兹的先代魔王，阿米娅继承了她的力量。在伦蒂尼姆，特蕾西娅的影像/精神出现，萨卡兹们叫她'殿下'。",
+      "en_US": "Theresa is the past Demon King of the Sarkaz; Amiya inherited her power. In Londinium, Theresa's image/spirit appears, and Sarkaz call her 'Your Highness'."
+    },
+    "first_appear_event_id": "main_ch10",
+    "associated_event_id": "main_ch10",
+    "evidences": [
+      {
+        "source_story": "level_main_10-15_end",
+        "quote": {
+          "zh_CN": "一个萨卡兹走进了废墟里……她仿佛并不介意，只是静静地注视着一处残垣……她的面庞是那样温和，她的眼睛里却映满了悲哀。",
+          "en_US": "A Sarkaz walks into the ruins... she seems unbothered, silently gazing at some debris... her face is so gentle, yet her eyes are full of sorrow."
+        },
+        "context_analysis": {
+          "zh_CN": "特蕾西娅的白发萨卡兹身影出现在战场废墟中，萨卡兹们纷纷停下脚步注视",
+          "en_US": "Theresa's white-haired Sarkaz figure appears in the battlefield ruins; all Sarkaz stop to watch"
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_kaltsit_warl_ch10",
+    "source": "npc_003_kalts",
+    "target": "npc_warl",
+    "relation_type": "unknown",
+    "relation_label": {
+      "zh_CN": "萨卡兹旧识·伦蒂尼姆对峙",
+      "en_US": "Old Sarkaz Acquaintance · Londinium Confrontation"
+    },
+    "description": {
+      "zh_CN": "凯尔希与食腐者之王在伦蒂尼姆外的废弃矿场相遇，两人曾是萨卡兹的旧识。食腐者之王询问杀死博卓卡斯替的凶手，凯尔希拒绝与其战斗。",
+      "en_US": "Kal'tsit meets the Warl of the Feast at a abandoned mine outside Londinium; the two are old Sarkaz acquaintances. The Warl asks about who killed Patriot; Kal'tsit refuses to fight him."
+    },
+    "first_appear_event_id": "main_ch10",
+    "associated_event_id": "main_ch10",
+    "evidences": [
+      {
+        "source_story": "level_main_10-04_end",
+        "quote": {
+          "zh_CN": "样貌奇特的老者：告诉我——杀死了最后一只纯血温迪戈的，是什麼？凯尔希：……博卓卡斯替……在最后的时刻，他想要一位相称的对手，也想要一位能够对话的故友。",
+          "en_US": "Elder-looking figure: Tell me — what killed the last pureblood Widgel? Kal'tsit: ...Patriot... in his final moments, he wanted a worthy opponent, and a friend he could talk to."
+        },
+        "context_analysis": {
+          "zh_CN": "食腐者之王追问爱国者的死，凯尔希以'故友'身份回答",
+          "en_US": "The Warl asks about Patriot's death; Kal'tsit answers as an 'old friend'"
+        }
+      },
+      {
+        "source_story": "level_main_10-04_end",
+        "quote": {
+          "zh_CN": "样貌奇特的老者：特立的勋爵，我们伦蒂尼姆见。",
+          "en_US": "Elder-looking figure: The unaging lord, we shall meet in Londinium."
+        },
+        "context_analysis": {
+          "zh_CN": "食腐者之王放走凯尔希，相约伦蒂尼姆再见",
+          "en_US": "The Warl lets Kal'tsit go, saying they'll meet again in Londinium"
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_kaltsit_heidi_ch10",
+    "source": "npc_003_kalts",
+    "target": "char_f37cba01",
+    "relation_type": "ally",
+    "relation_label": {
+      "zh_CN": "导师与信使",
+      "en_US": "Mentor & Messenger"
+    },
+    "description": {
+      "zh_CN": "凯尔希在伦蒂尼姆城外527公里处与华法琳、闪灵在一起，她通过W营救海蒂，并派遣Misery和Logos先行进入伦蒂尼姆。",
+      "en_US": "Kal'tsit is with Closure and Silence at a point 527km outside Londinium; she rescues Heidi through W and sends Misery and Logos ahead into Londinium."
+    },
+    "first_appear_event_id": "main_ch10",
+    "associated_event_id": "main_ch10",
+    "evidences": [
+      {
+        "source_story": "level_main_10-08_end",
+        "quote": {
+          "zh_CN": "W：好啦，别不情不愿的，才刚见面而已，你又没那么喜欢{@nickname}。要不是因为那个老女人……唔，就是你最喜欢的那一个，她要我来找你，我也不想来啊。",
+          "en_US": "W: Come on, don't be reluctant. We just met and you don't even like {@nickname} that much. If it weren't for that old woman... the one you like best, telling me to find you, I wouldn't have come either."
+        },
+        "context_analysis": {
+          "zh_CN": "W透露是凯尔希（那个老女人）派她来救海蒂的",
+          "en_US": "W reveals it was Kal'tsit (that old woman) who sent her to rescue Heidi"
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_w_hecter_babel_ch10",
+    "source": "char_113_cqbw",
+    "target": "avg_npc_043",
+    "relation_type": "unknown",
+    "relation_label": {
+      "zh_CN": "前巴别塔成员·雇佣兵旧情",
+      "en_US": "Former Babel Members · Mercenary Bonds"
+    },
+    "description": {
+      "zh_CN": "W与赫德雷都曾是巴别塔的成员，共同效忠于特蕾西娅。在整合运动时期，W带着雇佣兵离开，赫德雷留下为特雷西斯效力。",
+      "en_US": "Both W and Hechter were members of Babel, serving Theresa together. During the Reunion Movement, W took mercenaries and left; Hechter stayed to serve Therbeni."
+    },
+    "first_appear_event_id": "main_ch10",
+    "associated_event_id": "main_ch10",
+    "evidences": [
+      {
+        "source_story": "level_main_10-09_end",
+        "quote": {
+          "zh_CN": "W：你当过我的头儿，我也当过你的头儿，可是这里有一个人，她当过我们俩的头儿。",
+          "en_US": "W: You were my leader once, and I was yours too, but there's someone who was leader to both of us."
+        },
+        "context_analysis": {
+          "zh_CN": "W揭示她与赫德雷都曾效忠于特蕾西娅",
+          "en_US": "W reveals both she and Hechter served Theresa"
+        }
+      },
+      {
+        "source_story": "level_main_10-09_end",
+        "quote": {
+          "zh_CN": "W：我早就想问了，记住这些死掉的人，会让你更安心一些吗？赫德雷：你很为他们着想。",
+          "en_US": "W: I've been meaning to ask — does remembering all these dead people make you feel more at ease? Hechter: You care a lot about them."
+        },
+        "context_analysis": {
+          "zh_CN": "W与赫德雷讨论过去的雇佣兵同伴，两人曾是共事的关系",
+          "en_US": "W and Hechter discuss their past mercenary comrades; they were once colleagues"
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_warl_blooddemon_ch10",
+    "source": "npc_warl",
+    "target": "npc_blooddemon",
+    "relation_type": "unknown",
+    "relation_label": {
+      "zh_CN": "萨卡兹王庭成员",
+      "en_US": "Sarkaz Court Members"
+    },
+    "description": {
+      "zh_CN": "食腐者之王与血魔大君都是萨卡兹王庭的成员，在伦蒂尼姆各自行动。食腐者之王在地下追捕推进之王，血魔大君在地面搜索'魔王'。",
+      "en_US": "Both the Warl and the Blood Demon are members of the Sarkaz Court, acting separately in Londinium. The Warl hunts Siege underground; the Blood Demon searches for the 'Demon King' on the surface."
+    },
+    "first_appear_event_id": "main_ch10",
+    "associated_event_id": "main_ch10",
+    "evidences": [
+      {
+        "source_story": "level_main_10-12_beg",
+        "quote": {
+          "zh_CN": "可露希尔：万一……万一你们撞见另一个血魔，跑，赶紧跑！在撞见他们的那一刻，你们也许已经没机会了。",
+          "en_US": "Closure: If... if you encounter another blood demon, run, run quickly! The moment you encounter them, you might already be out of time."
+        },
+        "context_analysis": {
+          "zh_CN": "可露希尔警告众人关于血魔大君的危险",
+          "en_US": "Closure warns everyone about the Blood Demon's danger"
+        }
+      },
+      {
+        "source_story": "level_main_10-15_end",
+        "quote": {
+          "zh_CN": "食腐者之王：这个截然不同的味道……有趣……特雷西斯知道这件事吗？",
+          "en_US": "The Warl: That distinctly different scent... interesting... Does Therbeni know about this?"
+        },
+        "context_analysis": {
+          "zh_CN": "食腐者之王追踪推进之王的气味，暗示萨卡兹王庭之间的信息差",
+          "en_US": "The Warl tracks Siege's scent, hinting at information gaps between Sarkaz Court members"
+        }
+      }
+    ],
+    "confidence_level": "implied_plot"
+  },
+  {
+    "id": "rel_siege_klovitz_underground_ch10",
+    "source": "char_112_siege",
+    "target": "avg_npc_045",
+    "relation_type": "rival",
+    "relation_label": {
+      "zh_CN": "主仆·战友·回家",
+      "en_US": "Leader & Comrades · Coming Home"
+    },
+    "description": {
+      "zh_CN": "推进之王、摩根、因陀罗、达格达组成的格拉斯哥帮小组，在地下管道中历经艰险，最终在列车站台上全员重逢。",
+      "en_US": "The Glasgow team — Siege, Morgan, Indra, and Dagda — endure hardships in the underground tunnels, finally reuniting at the train platform."
+    },
+    "first_appear_event_id": "main_ch10",
+    "associated_event_id": "main_ch10",
+    "evidences": [
+      {
+        "source_story": "level_main_10-04_beg",
+        "quote": {
+          "zh_CN": "因陀罗：我们得跟紧一点，要不然架都被她一个人打完了。",
+          "en_US": "Indra: We need to follow closely, otherwise she'll finish all the fights by herself."
+        },
+        "context_analysis": {
+          "zh_CN": "因陀罗评价达格达冲在最前面打敌人的习惯",
+          "en_US": "Indra comments on Dagda's habit of charging ahead to fight enemies"
+        }
+      },
+      {
+        "source_story": "level_main_10-15_end",
+        "quote": {
+          "zh_CN": "推进之王：推进之王小组，全体集合。只要等到博士他们回来，我们就能一起离开这里。",
+          "en_US": "Siege: Siege Squad, assemble. As long as we wait for the Doctor and the others to return, we can all leave together."
+        },
+        "context_analysis": {
+          "zh_CN": "推进之王召集格拉斯哥帮成员，准备全员撤离",
+          "en_US": "Siege gathers the Glasgow members, preparing for group evacuation"
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  }
+]

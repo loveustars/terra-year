@@ -1,0 +1,1488 @@
+[
+  {
+    "id": "rel_vina_aleda",
+    "source": "char_112_siege",
+    "target": "npc_aleda",
+    "relation_type": "ally",
+    "relation_label": {
+      "zh_CN": "命运重逢的战友",
+      "en_US": "Destined Reunion & Comrades"
+    },
+    "description": {
+      "zh_CN": "亚历山德莉娜（推进之王/维娜）与阿勒黛命运重逢，两人并肩对抗萨卡兹。自幼相识于坎伯兰公爵府，重逢后在自救军中再度并肩作战。",
+      "en_US": "Alexandrina (Siege/Vina) and Aleda reunite after fate separated them as children, fighting side by side against the Sankazi in the Lungmen Self-Rescue Army."
+    },
+    "first_appear_event_id": "main_ch11",
+    "associated_event_id": "main_ch11",
+    "evidences": [
+      {
+        "source_story": "level_main_11-04_end",
+        "quote": {
+          "zh_CN": "维娜，你可以不用管这件事。这是殿下的命令吗？我没有资格命令你，你才是自救军奥克特里格区负责人。……但是......请给我一点时间。我会想办法解决。",
+          "en_US": "Vina, you don't have to bother with this. Is this an order from Her Highness? I have no right to command you... But please give me some time. I'll find a way."
+        },
+        "context_analysis": {
+          "zh_CN": "推进之王得知阿勒黛要出售蒸汽甲胄换武器，她请求阿勒黛给她时间想办法，并承诺不用卖掉甲胄。",
+          "en_US": "When Siege learns Aleda plans to sell the steam armor, she asks for time to find another solution and promises Aleda she won't have to sell it."
+        }
+      },
+      {
+        "source_story": "level_main_11-07_end",
+        "quote": {
+          "zh_CN": "维娜，你可以不用管这件事。……但是......请给我一点时间。我会想办法解决。……我只想看着你不用失去更多东西了。",
+          "en_US": "Vina, you don't have to bother with this... But please give me some time. I'll find a way... I just don't want to see you lose anything more."
+        },
+        "context_analysis": {
+          "zh_CN": "推进之王为阿勒黛包扎伤口，两人深夜谈心。推进之王说她不想看到阿勒黛失去更多东西。",
+          "en_US": "Siege bandages Aleda's wound late at night. Siege says she doesn't want Aleda to lose anything more."
+        }
+      },
+      {
+        "source_story": "level_main_11-17_end",
+        "quote": {
+          "zh_CN": "这么多年过去，我很难再相信奇迹了。艾尔希曾告诉我，就连我也不知道将来的自己在哪里。……让我们把那个寓言结束吧，总得画下句号。……去*维多利亚粗口*的使命。",
+          "en_US": "After all these years, it's hard for me to believe in miracles anymore... Let's end this fable. There has to be an ending... To hell with the mission."
+        },
+        "context_analysis": {
+          "zh_CN": "阿勒黛放弃窃取诸王之息，在蒸汽骑士和碎石崩塌面前选择与推进之王并肩。最终她用诸王长眠之所的石像挡住蒸汽骑士，为推进之王赢得逃脱的机会，自己留在废墟中面对梦魇。",
+          "en_US": "Aleda abandons her mission to steal the Kings' Breath. She uses the stone monuments to block the Steam Knight, buying Siege time to escape while she faces her nightmare alone."
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_vina_dagda",
+    "source": "char_112_siege",
+    "target": "char_157_dagda",
+    "relation_type": "ally",
+    "relation_label": {
+      "zh_CN": "格拉斯哥帮核心战友",
+      "en_US": "Glasgow Gang Comrades"
+    },
+    "description": {
+      "zh_CN": "推进之王与达格达（格拉斯哥帮成员）并肩作战，达格达是塔楼骑士出身，始终追随维娜。",
+      "en_US": "Siege fights alongside Dagda (from Glasgow Gang), a Tower Knight who has always followed Vina."
+    },
+    "first_appear_event_id": "main_ch11",
+    "associated_event_id": "main_ch11",
+    "evidences": [
+      {
+        "source_story": "level_main_11-04_end",
+        "quote": {
+          "zh_CN": "达格达！伊莎贝尔小姐，您还执意要与她们一起行动吗？……推进之王第一天就告诉过你们，与自救军一起行动的是格拉斯哥帮，而不是亚历山德莉娜殿下与塔楼骑士。",
+          "en_US": "Dagda! Lady Isabelle, are you still set on acting with them? ...Vina told you on the first day that we're acting with the Glasgow Gang, not Princess Alexandrina and the Tower Knights."
+        },
+        "context_analysis": {
+          "zh_CN": "达格达是格拉斯哥帮成员，随推进之王与自救军并肩行动。",
+          "en_US": "Dagda is a Glasgow Gang member fighting alongside Siege and the Self-Rescue Army."
+        }
+      },
+      {
+        "source_story": "level_main_11-07_end",
+        "quote": {
+          "zh_CN": "达格达，你们送这位战士回自救军营地吧，我们分头走。……有些时刻，请容许我站在你的身侧。……好。上前来，达格达。",
+          "en_US": "Dagda, you take this warrior back to camp, we split up... There are moments when I want you at my side... Alright. Come forward, Dagda."
+        },
+        "context_analysis": {
+          "zh_CN": "推进之王在战斗中说「请容许我站在你的身侧」，对达格达表示认可和亲近。",
+          "en_US": "Siege tells Dagda 'I want you at my side' during battle, showing recognition and closeness."
+        }
+      },
+      {
+        "source_story": "level_main_11-17_beg",
+        "quote": {
+          "zh_CN": "达格达，你跟着雇佣兵离开这里。……你是最后一个向他们行过礼的人。你理应将他们的故事带回阳光下。殿下，请允许我同您并肩。……当然。",
+          "en_US": "Dagda, leave with the mercenaries... You were the last one to salute them. You should bring their story back into the sunlight. Your Highness, please allow me to fight at your side... Of course."
+        },
+        "context_analysis": {
+          "zh_CN": "达格达坚持与推进之王并肩面对蒸汽骑士，推进之王允诺。",
+          "en_US": "Dagda insists on fighting alongside Siege against the Steam Knight, and Siege agrees."
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_vina_indra",
+    "source": "char_112_siege",
+    "target": "char_155_tiger",
+    "relation_type": "ally",
+    "relation_label": {
+      "zh_CN": "格拉斯哥帮核心战友",
+      "en_US": "Glasgow Gang Comrades"
+    },
+    "description": {
+      "zh_CN": "因陀罗是格拉斯哥帮核心成员，跟随推进之王四处流浪，回到伦蒂尼姆并肩作战。",
+      "en_US": "Indra is a core Glasgow Gang member who followed Siege through exile and returns to fight alongside her in Lonedin."
+    },
+    "first_appear_event_id": "main_ch11",
+    "associated_event_id": "main_ch11",
+    "evidences": [
+      {
+        "source_story": "level_main_11-06_end",
+        "quote": {
+          "zh_CN": "你*维多利亚粗口*凭什么这么说维娜？！……得了，别嘚瑟了，这点炸肉干拿去，今天算你赢。",
+          "en_US": "How the hell do you talk about Vina like that?! ...Here, take this jerky, you win today."
+        },
+        "context_analysis": {
+          "zh_CN": "因陀罗对摩根为维娜说话，维护推进之王的尊严。",
+          "en_US": "Indra defends Siege's honor when Morgan speaks badly of Vina."
+        }
+      },
+      {
+        "source_story": "level_main_11-12_end",
+        "quote": {
+          "zh_CN": "因陀罗: 那可是维娜啊，拽得要命。她说是她的老师。我原来以为她的老师是诺伯特区的哪位斗殴大王。",
+          "en_US": "Indra: That was Vina, so damn cocky. She said it was her teacher. I thought her teacher was some street fighter from Norbert District."
+        },
+        "context_analysis": {
+          "zh_CN": "因陀罗回忆初遇维娜的场景，讲述她当时以为维娜的老师是斗殴大王，后得知其贵族出身才说得通。",
+          "en_US": "Indra recalls meeting Vina, joking about her cocky demeanor and thinking her teacher was a street fighter."
+        }
+      },
+      {
+        "source_story": "level_main_11-07_end",
+        "quote": {
+          "zh_CN": "因陀罗: 维娜！这里！",
+          "en_US": "Indra: Vina! Over here!"
+        },
+        "context_analysis": {
+          "zh_CN": "因陀罗在巷战中引导推进之王撤退，展现默契配合。",
+          "en_US": "Indra guides Siege to safety during the巷战, showing their teamwork默契."
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_vina_morgan",
+    "source": "char_112_siege",
+    "target": "char_416_zumama",
+    "relation_type": "ally",
+    "relation_label": {
+      "zh_CN": "格拉斯哥帮核心战友",
+      "en_US": "Glasgow Gang Comrades"
+    },
+    "description": {
+      "zh_CN": "摩根是格拉斯哥帮核心成员，与因陀罗一起跟随推进之王。正在写关于维娜的回忆录《伟大的维娜陛下和她伟大的朋友们》。",
+      "en_US": "Morgan is a core Glasgow Gang member, following Siege alongside Indra. She is writing a memoir about Vina."
+    },
+    "first_appear_event_id": "main_ch11",
+    "associated_event_id": "main_ch11",
+    "evidences": [
+      {
+        "source_story": "level_main_11-06_end",
+        "quote": {
+          "zh_CN": "你*维多利亚粗口*凭什么这么说维娜？！……得了，别嘚瑟了。……哈......真没想到有天你会反过来说我冲动。……摩根，你打算去哪？",
+          "en_US": "How the hell do you talk about Vina that way?! ...Morgan, where are you going?"
+        },
+        "context_analysis": {
+          "zh_CN": "摩根对维娜被贬低感到愤怒，质问自救军战士。",
+          "en_US": "Morgan is furious when a Self-Rescue soldier speaks down about Vina."
+        }
+      },
+      {
+        "source_story": "level_main_11-12_end",
+        "quote": {
+          "zh_CN": "我当时觉得，陪着一位王储冒险说不定比混迹街头刺激得多。更何况，这位王储还深得我心。……然后不知不觉地，我们就跟着维娜逃出伦蒂尼姆，跟着她四处流浪，又跟着她回到这里。",
+          "en_US": "I thought following a royal heir might be more exciting than running the streets. Especially since I liked her... Then before I knew it, we fled Lonedin with Vina, wandered around, and came back here."
+        },
+        "context_analysis": {
+          "zh_CN": "摩根回忆跟随维娜逃离伦蒂尼姆、流浪、又回来的经历，讲述她深得摩根好感。",
+          "en_US": "Morgan recalls fleeing, wandering, and returning with Vina, saying she liked the royal heir."
+        }
+      }
+    ],
+    "confidence_level": "official_fist"
+  },
+  {
+    "id": "rel_vina_graffin",
+    "source": "char_112_siege",
+    "target": "char_147_shining",
+    "relation_type": "ally",
+    "relation_label": {
+      "zh_CN": "战友·战场相遇",
+      "en_US": "Allies — Battlefield Encounter"
+    },
+    "description": {
+      "zh_CN": "闪灵（闪灵）在战场上与推进之王相遇，她离开赦罪师加入战斗，保护罗德岛和自救军战士免受赦罪师巫术的侵害。",
+      "en_US": "Shining fights alongside Siege in the battlefield, having left the Inquisitors to protect Rhodes Island and Self-Rescue fighters from the Inquisitor's magic."
+    },
+    "first_appear_event_id": "main_ch11",
+    "associated_event_id": "main_ch11",
+    "evidences": [
+      {
+        "source_story": "level_main_11-13_beg",
+        "quote": {
+          "zh_CN": "闪灵: ……所有人，退到我身后。……死亡与生命从来都是硬币的两面。不过，我能阻挡的时间很有限。",
+          "en_US": "Shining: ...Everyone, step behind me... Death and life are two sides of the same coin. But the time I can block is very limited."
+        },
+        "context_analysis": {
+          "zh_CN": "闪灵用剑挡住赦罪师卫兵的巫术，保护战场上的所有人。",
+          "en_US": "Shining uses her sword to shield everyone from the Inquisitors' dark arts."
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_vina_laststeam",
+    "source": "char_112_siege",
+    "target": "npc_last_steam",
+    "relation_type": "rival",
+    "relation_label": {
+      "zh_CN": "王与最后的骑士·命运对决",
+      "en_US": "Queen vs. Last Knight — Fateful Duel"
+    },
+    "description": {
+      "zh_CN": "推进之王（亚历山德莉娜）与最后的蒸汽骑士在诸王长眠之所展开命运对决。蒸汽骑士在地下坚守四年，被维多利亚的背叛所伤害，将诸王之息视为最后的维多利亚。",
+      "en_US": "Siege (Alexandrina) and the last Steam Knight have a fateful duel in the Kings' Resting Place. The Knight has been trapped underground for four years, scarred by Victoria's betrayal, treating the Kings' Breath as his last Victoria."
+    },
+    "first_appear_event_id": "main_ch11",
+    "associated_event_id": "main_ch11",
+    "evidences": [
+      {
+        "source_story": "level_main_11-17_beg",
+        "quote": {
+          "zh_CN": "蒸汽骑士: '维多利亚。'他将这把剑称作维多利亚。他誓死守卫的维多利亚。他被宏大的维多利亚背叛，那么，他就去守卫象征的维多利亚。……他向王位继承人发起冲锋。",
+          "en_US": "Steam Knight: 'Victoria.' He calls the sword Victoria. The Victoria he swore to defend. Betrayed by the grand Victoria, he chooses to guard the symbol of Victoria... He charges at the heir to the throne."
+        },
+        "context_analysis": {
+          "zh_CN": "蒸汽骑士将诸王之息当作自己的维多利亚，向亚历山德莉娜发起冲锋。",
+          "en_US": "The Steam Knight treats the Kings' Breath as his Victoria and charges at Alexandrina."
+        }
+      },
+      {
+        "source_story": "level_main_11-17_end",
+        "quote": {
+          "zh_CN": "推进之王: '骑士，它不是你的维多利亚。请让我通过这里。'……蒸汽骑士混沌的记忆中，突然闯进了一个画面。在他站起身来之前，一个女孩在为他落泪。",
+          "en_US": "Siege: 'Knight, it is not your Victoria. Let me pass.' ...In the Steam Knight's chaotic memory, a sudden image emerged. Before he rose, a girl was crying for him."
+        },
+        "context_analysis": {
+          "zh_CN": "推进之王试图唤醒蒸汽骑士，在他混沌的记忆中出现了阿勒黛为他落泪的画面。",
+          "en_US": "Siege tries to awaken the Steam Knight. In his fragmented memory, a scene emerges: Aleda crying for him before he rose."
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_aleda_elise",
+    "source": "npc_aleda",
+    "target": "npc_elise",
+    "relation_type": "ally",
+    "relation_label": {
+      "zh_CN": "主仆·一生守护",
+      "en_US": "Lady and Servant — Lifelong Devotion"
+    },
+    "description": {
+      "zh_CN": "阿勒黛与侍女艾尔希自幼相伴，从公爵府到沦陷的伦蒂尼姆，艾尔希始终陪伴在阿勒黛身边，是她最亲近的人。艾尔希最终在坎伯兰公爵府的大火中牺牲。",
+      "en_US": "Aleda and her servant Elise have been together since childhood. From the Duke's manor to occupied Lonedin, Elise remained at Aleda's side as her closest companion. Elise ultimately sacrificed herself in the fire at Cumberland Manor."
+    },
+    "first_appear_event_id": "main_ch11",
+    "associated_event_id": "main_ch11",
+    "evidences": [
+      {
+        "source_story": "level_main_11-01_beg",
+        "quote": {
+          "zh_CN": "侍女艾尔希: 我永远支持您的决定。……不过，您至少留意着脚下，别被花草绊倒了，否则园丁吉姆又会因为弄伤您而羞愧得吃不下饭。",
+          "en_US": "Elise: I will always support your decisions... But do watch your step, or gardener Jim will be so ashamed he won't eat."
+        },
+        "context_analysis": {
+          "zh_CN": "艾尔希从小陪伴阿勒黛，对她的照顾无微不至。",
+          "en_US": "Elise has cared for Aleda since childhood, her devotion meticulous and unwavering."
+        }
+      },
+      {
+        "source_story": "level_main_11-07_end",
+        "quote": {
+          "zh_CN": "管家艾尔希: 小姐......请再让我巡视一次这片花园吧。……就算只是些往日的碎片......它仍是我最珍视的东西。",
+          "en_US": "Elise: My lady... please let me tour this garden one more time... Even if only fragments of the past... it is what I treasure most."
+        },
+        "context_analysis": {
+          "zh_CN": "阿勒黛想留住一切，艾尔希请求最后一次巡视花园，表现出对过去的珍视。坎伯兰公爵府随后陷入火海，艾尔希留在火中。",
+          "en_US": "Before Cumberland Manor burns, Elise asks to tour the garden one last time, then stays behind in the flames."
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_aleda_klovitsch",
+    "source": "npc_aleda",
+    "target": "npc_klovitsch",
+    "relation_type": "subordinate",
+    "relation_label": {
+      "zh_CN": "公爵与幕后主使",
+      "en_US": "Duke and Mastermind Behind Aleda"
+    },
+    "description": {
+      "zh_CN": "阿勒黛受某位公爵指使执行\"使命\"，在诸王长眠之所窃取诸王之息。最终公爵的真实意图被揭露——以诸王之息威慑其他公爵加入自己的阵营。",
+      "en_US": "Aleda was ordered by a certain Duke to carry out a 'mission' — stealing the Kings' Breath in the Royal Tomb. The Duke's true intent was to use the sword to coerce other Dukes into joining his faction."
+    },
+    "first_appear_event_id": "main_ch11",
+    "associated_event_id": "main_ch11",
+    "evidences": [
+      {
+        "source_story": "level_main_11-07_end",
+        "quote": {
+          "zh_CN": "阿勒黛: '她......很心急。'……艾尔希，我早就不再等待了。",
+          "en_US": "Aleda: 'She... is very impatient.' ...Elise, I stopped waiting long ago."
+        },
+        "context_analysis": {
+          "zh_CN": "阿勒黛收到幕后公爵的第二封信，她说自己\"早就不再等待\"，暗示她长期被公爵操控。",
+          "en_US": "Aleda receives the second letter from the Duke behind the scenes. Her comment 'I stopped waiting' reveals she's long been manipulated."
+        }
+      },
+      {
+        "source_story": "level_main_11-15_end",
+        "quote": {
+          "zh_CN": "推进之王: '这就是唯一的方法吗？'……阿勒黛，我很清楚她的目的，但这与我无关。我只负责做到，我只关注那些......我能把握的事。",
+          "en_US": "Siege: 'Is this the only way?' ...Aleda, I know her purpose very clearly, but that has nothing to do with me. I just need to get it done."
+        },
+        "context_analysis": {
+          "zh_CN": "推进之王指出阿勒黛背后的人想以诸王之息威慑公爵，阿勒黛承认知道但说\"与她无关\"。",
+          "en_US": "Siege exposes that someone is behind Aleda, using the sword to intimidate Dukes. Aleda admits knowing but says it doesn't concern her."
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_aleda_mercenaries",
+    "source": "npc_aleda",
+    "target": "npc_qianjiao",
+    "relation_type": "ally",
+    "relation_label": {
+      "zh_CN": "自救军领袖与雇佣兵",
+      "en_US": "Self-Rescue Army Leader & Mercenary"
+    },
+    "description": {
+      "zh_CN": "铅踝是阿勒黛雇佣的佣兵，负责护送武器入城。阿勒黛最终用诸王长眠之所的石像挡住蒸汽骑士，铅踝目睹了这一切。",
+      "en_US": "Qianjiao is a mercenary hired by Aleda to escort weapons into Lonedin. Aleda ultimately uses the Royal Tomb's statues to block the Steam Knight while Qianjiao watches."
+    },
+    "first_appear_event_id": "main_ch11",
+    "associated_event_id": "main_ch11",
+    "evidences": [
+      {
+        "source_story": "level_main_11-07_beg",
+        "quote": {
+          "zh_CN": "铅踝: 嗯，货箱是有些闷。……出来以后......好像也差不多。……哈哈，欢迎来到伦蒂尼姆。",
+          "en_US": "Qianjiao: Yeah, the cargo boxes are a bit stuffy... After coming out, seems about the same... Welcome to Lonedin."
+        },
+        "context_analysis": {
+          "zh_CN": "铅踝率雇佣兵护送最后一批武装到达，与阿勒黛会面。",
+          "en_US": "Qianjiao leads mercenaries delivering the final shipment of weapons, meeting with Aleda."
+        }
+      },
+      {
+        "source_story": "level_main_11-17_end",
+        "quote": {
+          "zh_CN": "推进之王: '就是你们吗？在阿勒黛身后的人？不，不是你们，懦弱的公爵可不敢亲自在这里露面。'……铅踝: '最后一枚烟雾弹了，我们还有机会。'",
+          "en_US": "Siege: 'Are you the ones behind Aleda? No, the cowardly Duke wouldn't dare show his face here.' ...Qianjiao: 'Last smoke bomb, we still have a chance.'"
+        },
+        "context_analysis": {
+          "zh_CN": "推进之王直接质问铅踝等人是阿勒黛背后的人。铅踝最后用烟雾弹掩护撤退。",
+          "en_US": "Siege directly confronts Qianjiao's group as those behind Aleda. Qianjiao uses his last smoke bomb to cover the retreat."
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_aleda_klovitsch_mission",
+    "source": "npc_aleda",
+    "target": "npc_klovitsch",
+    "relation_type": "subordinate",
+    "relation_label": {
+      "zh_CN": "被操控的棋子与操控者",
+      "en_US": "Pawn and Master — Manipulation"
+    },
+    "description": {
+      "zh_CN": "阿勒黛被幕后公爵操控执行\"使命\"窃取诸王之息。她自己也知道这个任务的本质，但在命运面前选择顺从。最终她放弃使命，在最后关头选择牺牲自己保护推进之王。",
+      "en_US": "Aleda was manipulated by a Duke into 'completing her mission' to steal the Kings' Breath. She was aware of its true nature but chose to comply. She ultimately abandons the mission and sacrifices herself to protect Siege."
+    },
+    "first_appear_event_id": "main_ch11",
+    "associated_event_id": "main_ch11",
+    "evidences": [
+      {
+        "source_story": "level_main_11-15_end",
+        "quote": {
+          "zh_CN": "阿勒黛: '你可以在告诫我，可以斥责我，可以试图打倒我，我全部接受。但我会带着这把剑离开。这是我在伦蒂尼姆的......\"使命\"。'",
+          "en_US": "Aleda: 'You can warn me, scold me, try to strike me down — I'll accept it all. But I will take this sword. This is my 'mission' in Lonedin.'"
+        },
+        "context_analysis": {
+          "zh_CN": "阿勒黛称窃取诸王之息是她在伦蒂尼姆的\"使命\"，这是幕后公爵的操控。",
+          "en_US": "Aleda calls stealing the Kings' Breath her 'mission' — revealing she's been commissioned by someone else."
+        }
+      },
+      {
+        "source_story": "level_main_11-17_end",
+        "quote": {
+          "zh_CN": "阿勒黛: '去*维多利亚粗口*的使命，我已经足够累了。无论是扮演一个贵族，扮演一个领袖，还是扮演一个朋友。'",
+          "en_US": "Aleda: 'To hell with the mission. I'm already tired enough. Whether playing a noble, playing a leader, or playing a friend.'"
+        },
+        "context_analysis": {
+          "zh_CN": "阿勒黛在最后关头彻底放弃所谓的\"使命\"，宣布不再做被操控的棋子。",
+          "en_US": "Aleda at the last moment abandons her 'mission,' declaring she's done being a puppet."
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_amiya_kaltsit",
+    "source": "char_002_amiya",
+    "target": "char_003_kalts",
+    "relation_type": "ally",
+    "relation_label": {
+      "zh_CN": "魔王与导师·命运羁绊",
+      "en_US": "Demon King & Mentor — Fateful Bond"
+    },
+    "description": {
+      "zh_CN": "阿米娅（魔王继承者）与凯尔希在指挥塔战斗中并肩对抗特雷西斯和血魔大君。凯尔希以Mon3tr拦截特雷西斯的剑，为博士和阿米娅争取撤退时间，身受重伤。",
+      "en_US": "Amiya (Demon King successor) and Kal'tsit fight together against Theresa and the Blood Demon Lord. Kal'tsit uses Mon3tr to block Theresa's sword, buying time for the Doctor and Amiya to retreat, getting grievously wounded in the process."
+    },
+    "first_appear_event_id": "main_ch11",
+    "associated_event_id": "main_ch11",
+    "evidences": [
+      {
+        "source_story": "level_main_11-13_beg",
+        "quote": {
+          "zh_CN": "Mon3tr: （极度痛苦的嘶吼）凯尔希！……Dr.{@nickname}......带着阿米娅......撤退。",
+          "en_US": "Mon3tr: (Screaming in agony) Kal'tsit! ...Doctor... take Amiya... retreat."
+        },
+        "context_analysis": {
+          "zh_CN": "凯尔希用Mon3tr挡住特雷西斯对阿米娅的致命攻击，身受重伤。",
+          "en_US": "Kal'tsit uses Mon3tr to block Theresa's fatal strike against Amiya, sustaining severe injuries."
+        }
+      },
+      {
+        "source_story": "level_main_11-15_beg",
+        "quote": {
+          "zh_CN": "凯尔希: '特雷西斯......你只是在加快毁灭的进程。'特雷西斯: '你已经没有力气说话了。你拦截了巫妖的信使，了不起。'",
+          "en_US": "Kal'tsit: 'Theresa, you are only accelerating destruction.' Theresa: 'You have no strength left to speak. You intercepted the Wraith's messenger — impressive.'"
+        },
+        "context_analysis": {
+          "zh_CN": "凯尔希与特雷西斯正面对决，她此前拦截了巫妖的信使，为罗德岛争取了时间。",
+          "en_US": "Kal'tsit faces Theresa directly. She had previously intercepted the Wraith's messenger, buying Rhodes Island time."
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_amiya_logos",
+    "source": "char_002_amiya",
+    "target": "char_4133_logos",
+    "relation_type": "ally",
+    "relation_label": {
+      "zh_CN": "魔王与女妖之主·并肩抗敌",
+      "en_US": "Demon King &女妖之主 — Side by Side"
+    },
+    "description": {
+      "zh_CN": "逻各斯（女妖之主）与阿米娅在指挥塔并肩对抗血魔大君。他用咒术保护罗德岛干员们，并发表\"见过黎明光辉之人怎可能再度回到永夜之中\"的宣言。",
+      "en_US": "Logos (女妖之主) fights alongside Amiya against the Blood Demon Lord on the command tower. He uses sorcery to shield the Rhodes Island operators and declares that those who have seen the dawn's light cannot return to eternal night."
+    },
+    "first_appear_event_id": "main_ch11",
+    "associated_event_id": "main_ch11",
+    "evidences": [
+      {
+        "source_story": "level_main_11-12_beg",
+        "quote": {
+          "zh_CN": "Logos: '我追随的并非魔王的冠冕。令我前行至此的正是特蕾西娅殿下的理想。你们夺走且亵渎了她的生命，却无法熄灭她在我们眼前燃起的炬火。见过黎明光辉之人，怎可能再度回到永夜之中？'",
+          "en_US": "Logos: 'What I follow is not the Demon King's crown. What drives me here is Queen Theresa's ideal. You took and desecrated her life, but you cannot extinguish the flame she kindled before us. Those who have seen the dawn's light—how could they return to eternal night?'"
+        },
+        "context_analysis": {
+          "zh_CN": "逻各斯在阿米娅身边对抗血魔大君，宣告自己追随特蕾西娅的理想而非魔王冠冕。",
+          "en_US": "Logos stands beside Amiya against the Blood Demon Lord, declaring his allegiance to Theresa's ideal rather than the crown."
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_amiya_blooddemon",
+    "source": "char_002_amiya",
+    "target": "npc_blooddemon",
+    "relation_type": "rival",
+    "relation_label": {
+      "zh_CN": "魔王与血魔大君·正面对抗",
+      "en_US": "Demon King vs. Blood Demon Lord — Confrontation"
+    },
+    "description": {
+      "zh_CN": "阿米娅在指挥塔天台与血魔大君正面对决。她用黑色线条攻击血魔，但被血魔嘲笑\"徒有战士的姿态\"。血魔揭示萨卡兹的历史——卡兹戴尔曾与泰拉同义，却被诸国联军毁灭。",
+      "en_US": "Amiya confronts the Blood Demon Lord atop the command tower. Her dark blades cannot penetrate his blood defenses. He mocks her 'warrior's posture' and reveals Kazdel's tragic history — how it once meant the entire world before the alliance destroyed it."
+    },
+    "first_appear_event_id": "main_ch11",
+    "associated_event_id": "main_ch11",
+    "evidences": [
+      {
+        "source_story": "level_main_11-12_beg",
+        "quote": {
+          "zh_CN": "血魔大君: '你让我很失望。卡特斯，你徒有战士的姿态，却不愿承认杀戮对统治的必要性。你比特蕾西娅还要软弱。'",
+          "en_US": "Blood Demon Lord: 'You disappoint me. Cautus, you have only a warrior's posture but refuse to acknowledge the necessity of killing for rule. You are even weaker than Theresa.'"
+        },
+        "context_analysis": {
+          "zh_CN": "血魔大君嘲讽阿米娅只有战士的姿态却缺乏真正的决断力。",
+          "en_US": "The Blood Demon Lord mocks Amiya for having only a warrior's appearance without true resolve."
+        }
+      },
+      {
+        "source_story": "level_main_11-13_beg",
+        "quote": {
+          "zh_CN": "血魔大君: '我邀请你直视我的愤恨，\"魔王\"。……萨卡兹与那些可耻的侵略者从来不是同类。卡兹戴尔本应与泰拉同义。'",
+          "en_US": "Blood Demon Lord: 'I invite you to look straight at my hatred, 'Demon King.' ...Sarkaz and those contemptible aggressors were never the same. Kazdel was meant to be synonymous with Terra.'"
+        },
+        "context_analysis": {
+          "zh_CN": "血魔大君向阿米娅揭示萨卡兹被毁灭的历史，解释他对维多利亚和诸国的仇恨根源。",
+          "en_US": "The Blood Demon Lord reveals Kazdel's destruction to Amiya, explaining the roots of his hatred toward Victoria and the nations."
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_amiya_theresa_prime",
+    "source": "char_002_amiya",
+    "target": "npc_theresa",
+    "relation_type": "ally",
+    "relation_label": {
+      "zh_CN": "魔王继承者与前任魔王·灵魂共鸣",
+      "en_US": "Demon King Heir & Former Demon King — Soul Resonance"
+    },
+    "description": {
+      "zh_CN": "阿米娅在战斗中听到特蕾西娅的声音，感受到萨卡兹万年的回忆。戒指上并无裂纹，是她在颤抖。她的意识被萨卡兹的历史洪流所冲击。",
+      "en_US": "During battle, Amiya hears Theresa's voice and feels the weight of ten thousand years of Sarkaz memory. The rings on her fingers show no cracks — it is she who trembles. Her consciousness is overwhelmed by the tide of Sarkaz history."
+    },
+    "first_appear_event_id": "main_ch11",
+    "associated_event_id": "main_ch11",
+    "evidences": [
+      {
+        "source_story": "level_main_11-15_beg",
+        "quote": {
+          "zh_CN": "阿米娅: '凯尔希......医生......'……戒指上并没有裂纹，也没有变色。它们只是在颤抖。因为她在颤抖。",
+          "en_US": "Amiya: 'Kal'tsit... Doctor...' ...The rings showed no cracks and did not change color. They were trembling. Because she was trembling."
+        },
+        "context_analysis": {
+          "zh_CN": "阿米娅在血魔大君和特雷西斯的双重压力下几乎失控，戒指颤抖是因为她自己在颤抖。",
+          "en_US": "Under pressure from the Blood Demon Lord and Theresa, Amiya nearly loses control. The rings tremble because she trembles."
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_doc_amiya",
+    "source": "npc_doctor",
+    "target": "char_002_amiya",
+    "relation_type": "ally",
+    "relation_label": {
+      "zh_CN": "罗德岛指挥官与干员·生死相护",
+      "en_US": "Rhodes Island Commander & Operator — Protection"
+    },
+    "description": {
+      "zh_CN": "博士与阿米娅在伦蒂尼姆并肩作战。博士在阿米娅快要坠地时抓住她的手将她抱在怀中，在特雷西斯出现时呼叫凯尔希。",
+      "en_US": "The Doctor and Amiya fight together in Lonedin. The Doctor catches Amiya as she falls and holds her when Theresa appears, calling for Kal'tsit."
+    },
+    "first_appear_event_id": "main_ch11",
+    "associated_event_id": "main_ch11",
+    "evidences": [
+      {
+        "source_story": "level_main_11-15_beg",
+        "quote": {
+          "zh_CN": "在阿米娅的身体快要触到地面之前，你抓住了她的手，将她抱在怀中。……凯尔希！",
+          "en_US": "Before Amiya's body could hit the ground, you grabbed her hand and held her in your arms... Kal'tsit!"
+        },
+        "context_analysis": {
+          "zh_CN": "博士在阿米娅几乎坠地时抓住她抱在怀中，并呼叫凯尔希。",
+          "en_US": "The Doctor catches Amiya as she falls, holding her in their arms, and calls for Kal'tsit."
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_logos_blooddemon",
+    "source": "char_4133_logos",
+    "target": "npc_blooddemon",
+    "relation_type": "rival",
+    "relation_label": {
+      "zh_CN": "女妖之主与血魔大君·王庭对立",
+      "en_US": "女妖之主 vs. Blood Demon Lord — Royal Court Opposition"
+    },
+    "description": {
+      "zh_CN": "逻各斯与血魔大君在指挥塔正面对决。逻各斯用咒术抵挡血魔的血液攻势，并斥责血魔\"真正的迷失者是你\"，指出萨卡兹古老王庭已死。",
+      "en_US": "Logos and the Blood Demon Lord face off on the command tower. Logos uses sorcery to repel the blood tide, telling the Blood Demon Lord 'the one truly lost is you,' pointing out the ancient Sarkaz Royal Court is already dead."
+    },
+    "first_appear_event_id": "main_ch11",
+    "associated_event_id": "main_ch11",
+    "evidences": [
+      {
+        "source_story": "level_main_11-13_beg",
+        "quote": {
+          "zh_CN": "Logos: '血魔，真正的迷失者恐怕是你。……古老王庭的根须早已朽烂，如今的王庭徒具树冠，却依旧不肯坠向地面。多么荒诞......已死之物仍在从本就贫瘠的土地上攫取养分。'",
+          "en_US": "Logos: 'Blood Demon, the one truly lost is perhaps you... The roots of the ancient court have rotted away. The current court is only a canopy, yet refuses to fall to the ground. How absurd — dead things still drain nutrients from barren soil.'"
+        },
+        "context_analysis": {
+          "zh_CN": "逻各斯与血魔激辩萨卡兹的命运，斥责血魔沉迷于旧日荣耀而不知改变。",
+          "en_US": "Logos confronts the Blood Demon Lord about Sarkaz's fate, accusing him of clinging to past glory without change."
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_askalonn_manfred",
+    "source": "char_4132_ascln",
+    "target": "avg_npc_045",
+    "relation_type": "rival",
+    "relation_label": {
+      "zh_CN": "刺客与将军·宿命对决",
+      "en_US": "Assassin vs. General — Fateful Duel"
+    },
+    "description": {
+      "zh_CN": "阿斯卡纶与曼弗雷德（军事委员会将军）在指挥塔激战。阿斯卡纶揭露曼弗雷德四年前参与杀害特蕾西娅，曼弗雷德则质问阿斯卡纶为何背叛萨卡兹。",
+      "en_US": "Ascalon and Manfred (Military Committee General) battle fiercely on the command tower. Ascalon reveals Manfred was involved in Theresa's death four years ago, while Manfred questions why Ascalon betrayed Kazdel."
+    },
+    "first_appear_event_id": "main_ch11",
+    "associated_event_id": "main_ch11",
+    "evidences": [
+      {
+        "source_story": "level_main_11-12_beg",
+        "quote": {
+          "zh_CN": "阿斯卡纶: '四年前，是你们杀死了她。现在，你们又用这种毫无荣耀的方式玷污了她的死亡。真正的背叛者，是谁？'",
+          "en_US": "Ascalon: 'Four years ago, you killed her. Now you desecrate her death with this honorless method. Who is the true traitor?'"
+        },
+        "context_analysis": {
+          "zh_CN": "阿斯卡纶揭露曼弗雷德参与杀害特蕾西娅，并指责军事委员会的做法没有荣耀。",
+          "en_US": "Ascalon exposes Manfred's role in Theresa's death four years ago and condemns the Military Committee's dishonorable actions."
+        }
+      },
+      {
+        "source_story": "level_main_11-12_beg",
+        "quote": {
+          "zh_CN": "曼弗雷德: '阿斯卡纶，你准备把我们的情报交给维多利亚人吗？交给......一群曾经践踏过卡兹戴尔的异族人？你背叛了你自己曾经许下的诺言，背叛了卡兹戴尔。'",
+          "en_US": "Manfred: 'Ascalon, are you handing our intelligence to Victorians? To the very outsiders who trampled Kazdel? You betrayed your own oath, betrayed Kazdel.'"
+        },
+        "context_analysis": {
+          "zh_CN": "曼弗雷德质问阿斯卡纶为何将萨卡兹情报交给罗德岛（维多利亚人），指控她背叛萨卡兹。",
+          "en_US": "Manfred accuses Ascalon of betraying Kazdel by sharing intelligence with Rhodes Island/Victorians."
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_shelling_mercenaries",
+    "source": "char_147_shining",
+    "target": "npc_forgiver_elite_ch11",
+    "relation_type": "rival",
+    "relation_label": {
+      "zh_CN": "闪灵与赦罪师卫兵·战场对决",
+      "en_US": "Shining vs. Inquisitor Elite Guards — Battlefield Duel"
+    },
+    "description": {
+      "zh_CN": "闪灵离开赦罪师后在战场上与曾经的同僚（赦罪师卫兵）正面对决。她用剑斩杀了多名卫兵，并揭示自己\"痛恨的从来不是他（赦罪师首领），而是我自己\"。",
+      "en_US": "Shining, having left the Inquisitors, faces her former colleagues (Inquisitor Elite Guards) in battle. She slays multiple guards with her sword and reveals 'what I hate is never him — it's myself.'"
+    },
+    "first_appear_event_id": "main_ch11",
+    "associated_event_id": "main_ch11",
+    "evidences": [
+      {
+        "source_story": "level_main_11-13_beg",
+        "quote": {
+          "zh_CN": "闪灵: '假如我的行动依旧要受他辖制，那我的离开岂不是失去了意义？'……闪灵: '不。我痛恨的从来不是他。我痛恨的是我自己。'",
+          "en_US": "Shining: 'If my actions still answer to him, what meaning would my leaving have?' ...Shining: 'No. What I hate is never him. What I hate is myself.'"
+        },
+        "context_analysis": {
+          "zh_CN": "闪灵斩杀了赦罪师卫兵并揭示内心——她离开赦罪师是因为无法接受自己的无力，而非恨赦罪师首领。",
+          "en_US": "Shining slays the Inquisitor guard and reveals her inner torment — she left because she couldn't bear her own helplessness, not because she hated the Inquisitor Master."
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_ledou_klovitsch",
+    "source": "npc_ledou",
+    "target": "npc_klovitsch",
+    "relation_type": "subordinate",
+    "relation_label": {
+      "zh_CN": "城防军指挥官与高卢遗民公爵",
+      "en_US": "City Defense Commander & Gaul Descendant Duke"
+    },
+    "description": {
+      "zh_CN": "莱托中校（城防军指挥官，高卢遗民）与某位公爵合作，以\"高卢遗民\"身份与特雷西斯谈判，承诺在维多利亚乱局中让高卢城市回归。",
+      "en_US": "Colonel Ledou (City Defense Commander, Gaul descendant) cooperates with a certain Duke, negotiating with Theresa as 'Gaul descendants,' promising that Gaul cities will return to Gaul in Victoria's chaos."
+    },
+    "first_appear_event_id": "main_ch11",
+    "associated_event_id": "main_ch11",
+    "evidences": [
+      {
+        "source_story": "level_main_11-12_beg",
+        "quote": {
+          "zh_CN": "莱托中校: '摄政王殿下，如今没有一座城市属于那个名为高卢的国家。站在您面前的，并不是一名高卢人，而是高卢遗民。'",
+          "en_US": "Ledou: 'Your Highness Regent, no city bears the name of Gaul today. Before you stands not a Gaul man, but a Gaul descendant.'"
+        },
+        "context_analysis": {
+          "zh_CN": "莱托中校向特雷西斯表明自己是高卢遗民的身份背景。",
+          "en_US": "Ledou introduces himself to Theresa as a Gaul descendant, explaining his background."
+        }
+      },
+      {
+        "source_story": "level_main_11-12_beg",
+        "quote": {
+          "zh_CN": "莱托中校: '我们是高卢遗民会全力支持卡兹戴尔军事委员会在伦蒂尼姆的一切行动。而我们所希望的，只是在之后维多利亚的乱局中，让那几座原本属于高卢的城市回到高卢。'",
+          "en_US": "Ledou: 'The Gaul Descendants will fully support all actions of the Kazdel Military Committee in Lonedin. What we hope for is simply that, in the chaos to come in Victoria, those cities originally belonging to Gaul will return to Gaul.'"
+        },
+        "context_analysis": {
+          "zh_CN": "莱托中校以高卢遗民身份与萨卡兹军事委员会合作，交换条件是重建高卢的城市。",
+          "en_US": "Ledou trades cooperation with the Kazdel Military Committee in exchange for Gaul cities."
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_cathleen_ledou",
+    "source": "npc_cathleen",
+    "target": "npc_ledou",
+    "relation_type": "unknown",
+    "relation_label": {
+      "zh_CN": "工人代表与城防军指挥官",
+      "en_US": "Worker Representative & City Defense Commander"
+    },
+    "description": {
+      "zh_CN": "凯瑟琳（十一号军工厂老工人代表）与莱托中校在交接仪式和工厂管理中多次打交道。莱托中校对她心存敬意，称她\"不愧是曾被选为工人代表的女杰\"。凯瑟琳则讽刺他\"您的勋章也越来越多了\"。",
+      "en_US": "Cathleen (veteran worker representative of Factory No.11) interacts with Colonel Ledou during handover ceremonies and factory management. Ledou respects her as 'a true worker representative heroine,' while she sarcastically notes his growing medal collection."
+    },
+    "first_appear_event_id": "main_ch11",
+    "associated_event_id": "main_ch11",
+    "evidences": [
+      {
+        "source_story": "level_main_11-03_end",
+        "quote": {
+          "zh_CN": "莱托中校: '我听说过你的事迹，凯瑟琳女士。不愧是曾被选为工人代表的女杰，令人敬佩。'凯瑟琳: '长官，就像你听说过我一样，我也听说过一些你的事情。高卢。'",
+          "en_US": "Ledou: 'I've heard of your deeds, Miss Cathleen. A true worker representative heroine — admirable.' Cathleen: 'Sir, just as you've heard of me, I've heard some things about you. Gaul.'"
+        },
+        "context_analysis": {
+          "zh_CN": "莱托中校和凯瑟琳互相了解对方的背景。凯瑟琳提到莱托的高卢血统，莱托承认家父是高卢遗民。",
+          "en_US": "Ledou and Cathleen recognize each other's backgrounds. Cathleen mentions his Gaul bloodline; Ledou confirms his father was a Gaul remnant."
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_cathleen_fust",
+    "source": "npc_cathleen",
+    "target": "npc_fust",
+    "relation_type": "ally",
+    "relation_label": {
+      "zh_CN": "祖孙·传承与守护",
+      "en_US": "Grandmother & Grandson — Legacy & Protection"
+    },
+    "description": {
+      "zh_CN": "凯瑟琳和费斯特是祖孙关系。费斯特是蒸汽甲胄工匠出身，后加入自救军。凯瑟琳为保护工厂工人向萨卡兹妥协，费斯特则选择反抗。凯瑟琳最终被费斯特和工人们救出。",
+      "en_US": "Cathleen and Fust are grandmother and grandson. Fust is a steam armor craftsman who joined the Self-Rescue Army. Cathleen compromises with the Sankazi to protect workers; Fust chooses resistance. Fust and the workers ultimately rescue Cathleen."
+    },
+    "first_appear_event_id": "main_ch11",
+    "associated_event_id": "main_ch11",
+    "evidences": [
+      {
+        "source_story": "level_main_11-03_beg",
+        "quote": {
+          "zh_CN": "费斯特: '我不想帮萨卡兹对付自己人！'凯瑟琳: '抓住他们。'……费斯特: '奶奶，听我说。我收到了一些消息，有一个反抗组织正在萨迪恩区活跃。他们管自己叫伦蒂尼姆市民自救军——我要去找他们！'",
+          "en_US": "Fust: 'I don't want to help the Sankazi fight our own people!' Cathleen: 'Catch them.' ...Fust: 'Grandma, listen. I received word that a resistance group is active in Sadine District — the Lonedin Citizens' Self-Rescue Army. I'm going to find them!'"
+        },
+        "context_analysis": {
+          "zh_CN": "费斯特想反抗萨卡兹，凯瑟琳抓住他。费斯特告诉奶奶他加入了自救军。",
+          "en_US": "Fust wants to resist Sankazi; Cathleen catches him. Fust tells her he's joined the Self-Rescue Army."
+        }
+      },
+      {
+        "source_story": "level_main_11-07_beg",
+        "quote": {
+          "zh_CN": "费斯特: '奶奶，三年前，我不理解你做出的决定。而现在，我愈发感觉到，我肩上的担子有多重。我很害怕我又会做蠢事。但是——我不能因此而停下。'凯瑟琳: '......你还太嫩了，臭小子。'",
+          "en_US": "Fust: 'Grandma, three years ago I didn't understand your decision. Now I feel the weight on my shoulders. I'm afraid I'll do something foolish. But—I cannot stop.' Cathleen: '...You're still too green, you rascal.'"
+        },
+        "context_analysis": {
+          "zh_CN": "费斯特和凯瑟琳和解。凯瑟琳将暗格里的情报交给费斯特，支持他的行动。",
+          "en_US": "Fust reconciles with Cathleen, who gives him hidden intelligence and supports his mission."
+        }
+      },
+      {
+        "source_story": "level_main_11-08_end",
+        "quote": {
+          "zh_CN": "费斯特: '你知道这样的老工人，他们的经验有多宝贵吗？很抢手的。'萨卡兹雇佣兵队长: '你以为你能打赢我？'费斯特: '不能，但是她也许可以。'……凯瑟琳: '谢了，乔治。起码出了口恶气。'",
+          "en_US": "Fust: 'Old workers like her are invaluable. Very much in demand.' ...Cathleen: 'Thanks, George. At least that felt good.'"
+        },
+        "context_analysis": {
+          "zh_CN": "费斯特和工人们冲入刑场救出凯瑟琳。凯瑟琳用扳手打了萨卡兹雇佣兵队长，和乔治一起出了口恶气。",
+          "en_US": "Fust and workers storm the execution site and rescue Cathleen. She smacks the mercenary captain with a wrench, venting her anger alongside George."
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_cathleen_meiqiao",
+    "source": "npc_cathleen",
+    "target": "char_4071_peper",
+    "relation_type": "unknown",
+    "relation_label": {
+      "zh_CN": "老工人与年轻雇佣兵·意外的善意",
+      "en_US": "Veteran Worker & Young Mercenary — Unexpected Kindness"
+    },
+    "description": {
+      "zh_CN": "凯瑟琳在刑场上与年轻的萨卡兹雇佣兵明椒（曾与格林一起执行任务）交谈。她将格林留下的指套还给明椒，并说\"你还不理解战争是什么\"。明椒最终无法执行处决命令。",
+      "en_US": "Cathleen talks with young Sankazi mercenary Peper (who worked with Grane) at the execution site. She returns Grane's finger guard to Peper and says 'you still don't understand war.' Peper ultimately cannot carry out the execution order."
+    },
+    "first_appear_event_id": "main_ch11",
+    "associated_event_id": "main_ch11",
+    "evidences": [
+      {
+        "source_story": "level_main_11-08_beg",
+        "quote": {
+          "zh_CN": "明椒: '他死了。'凯瑟琳: '......你不难过吗？'明椒: '格林告诉过我，对我们雇佣兵来说，生离死别是很正常的事。'凯瑟琳: '接着，孩子。'",
+          "en_US": "Peper: 'He's dead.' Cathleen: '...Aren't you sad?' Peper: 'Grane told me, for mercenaries, parting and death are normal.' Cathleen: 'Here, take this, child.'"
+        },
+        "context_analysis": {
+          "zh_CN": "凯瑟琳将格林的指套交给明椒，格林把它藏在烟盒里当作烟钱留给了凯瑟琳。凯瑟琳让明椒接住。",
+          "en_US": "Cathleen hands Grane's finger guard to Peper. Grane had hidden it in his cigarette case and left it as payment to Cathleen."
+        }
+      },
+      {
+        "source_story": "level_main_11-08_end",
+        "quote": {
+          "zh_CN": "萨卡兹雇佣兵队长: '今天，要么你杀了这个老东西，要么，放下武器，但我会了结你。'明椒: '我......我做不到！'",
+          "en_US": "Mercenary Captain: 'Today, either you kill this old woman, or put down your weapon — and I'll end you.' Peper: 'I... I can't do it!'"
+        },
+        "context_analysis": {
+          "zh_CN": "明椒在行刑前无法对凯瑟琳下手，队长威胁她但她坚持无法执行命令。最终费斯特等人冲入救场。",
+          "en_US": "Peper cannot execute Cathleen. When the captain threatens her, she refuses. Fust and the workers storm in to rescue Cathleen."
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_goldin_ledou",
+    "source": "npc_goldin",
+    "target": "npc_ledou",
+    "relation_type": "rival",
+    "relation_label": {
+      "zh_CN": "教育者与背叛者·信念对立",
+      "en_US": "Educator vs. Collaborator — Moral Opposition"
+    },
+    "description": {
+      "zh_CN": "戈尔丁（圣马尔索学校教师）代表信念与良知，与莱托中校（城防军指挥官）形成对立。莱托曾是她信任的学生，如今成了\"协助萨卡兹\"的人。她坚持\"只要有光，我们就会向光而行\"。",
+      "en_US": "Goldin (Saint-Marso School teacher) represents belief and conscience, in stark opposition to Colonel Ledou (City Defense Commander). Ledou was once her trusted student but now collaborates with the Sankazi. She insists 'where there is light, we will walk toward it.'"
+    },
+    "first_appear_event_id": "main_ch11",
+    "associated_event_id": "main_ch11",
+    "evidences": [
+      {
+        "source_story": "level_main_11-05_beg",
+        "quote": {
+          "zh_CN": "戈尔丁: '我十分感谢你的父亲，他多年来一直资助着这所学校。……我曾以为你是和他一样的人......而你，却亲手熄灭了那点本就微弱的火光。'",
+          "en_US": "Goldin: 'I deeply thank your father, who funded our school for years... I thought you were like him... But you extinguished that faint flame yourself.'"
+        },
+        "context_analysis": {
+          "zh_CN": "戈尔丁曾信任莱托，但发现他选择了与萨卡兹合作，痛心地指出他辜负了自己的信任。",
+          "en_US": "Goldin once trusted Ledou, but now sees him collaborating with the Sankazi and feels he has betrayed her trust."
+        }
+      },
+      {
+        "source_story": "level_main_11-05_beg",
+        "quote": {
+          "zh_CN": "戈尔丁: '我必须相信。……我只能相信。只要有光，我们就会向光而行。'莱托中校: '那我羡慕你，戈尔丁女士。看看头顶的阴云吧，暴风雨就快来了。'",
+          "en_US": "Goldin: 'I must believe... I can only believe. Where there is light, we will walk toward it.' Ledou: 'Then I envy you, Miss Goldin. Look at the clouds above — the storm is coming.'"
+        },
+        "context_analysis": {
+          "zh_CN": "戈尔丁坚持信念，莱托中校则表示羡慕她的信念，暗示自己已经放弃了希望。",
+          "en_US": "Goldin clings to belief while Ledou admits he envies her conviction, implying he has given up hope."
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_goldin_hedy",
+    "source": "npc_goldin",
+    "target": "npc_hedy",
+    "relation_type": "ally",
+    "relation_label": {
+      "zh_CN": "文学知己·跨越阵营的友情",
+      "en_US": "Literary Friends — Friendship Across Divides"
+    },
+    "description": {
+      "zh_CN": "戈尔丁与海蒂是通过读书会结识的文学界朋友。海蒂是情报工作者，为伦蒂尼姆市民的生存而战。戈尔丁为学校和孩子们坚守。海蒂称赞戈尔丁是\"伦蒂尼姆最有眼光的评论家\"。",
+      "en_US": "Goldin and Hedy met through a reading club as literary friends. Hedy is an intelligence operative fighting for Lonedin citizens' survival. Goldin holds firm for her school and children. Hedy calls Goldin 'the most discerning critic in Lonedin.'"
+    },
+    "first_appear_event_id": "main_ch11",
+    "associated_event_id": "main_ch11",
+    "evidences": [
+      {
+        "source_story": "level_main_11-02_beg",
+        "quote": {
+          "zh_CN": "海蒂: '戈尔丁，你怎么注意到有什么了吗？'戈尔丁: '不是什么紧要的。茉莉，你先回学校，把孩子们都集合起来，别让他们跑到街上。'",
+          "en_US": "Hedy: 'Goldin, did you notice something?' Goldin: 'Nothing urgent. Mo莉, go back to school first, gather all the children, don't let them onto the streets.'"
+        },
+        "context_analysis": {
+          "zh_CN": "戈尔丁发现受伤的海蒂，将她带到学校缝合伤口，并让她留在学校躲避追兵。",
+          "en_US": "Goldin finds wounded Hedy, brings her to the school to treat her, and hides her from pursuers."
+        }
+      },
+      {
+        "source_story": "level_main_11-02_beg",
+        "quote": {
+          "zh_CN": "海蒂: '你当时可真是毫不留情。说我的新书是\"被流行文化牵着鼻子走的媚俗之作\"……可我也说了，作者的才华远不止于此。'戈尔丁: '我能读懂你写下来的每一个句子，也能读懂你没有写出来的另外一百句——海蒂，这是你亲口说的。'",
+          "en_US": "Hedy: 'You were so merciless back then, calling my book 'pop-culture-driven drivel.' But you also said the author's talent is far more than that.' Goldin: 'I can read every sentence you wrote, and the hundred you left unwritten — Hedy, these are your own words.'"
+        },
+        "context_analysis": {
+          "zh_CN": "戈尔丁和海蒂回忆读书会上的交往，她们是互相理解的文学知己。",
+          "en_US": "Goldin and Hedy recall their literary friendship from the reading club — mutual understanding between kindred spirits."
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_hedy_ledou",
+    "source": "npc_hedy",
+    "target": "npc_ledou",
+    "relation_type": "rival",
+    "relation_label": {
+      "zh_CN": "情报工作者与城防军指挥官·对立",
+      "en_US": "Intelligence Operative vs. City Defense Commander — Opposition"
+    },
+    "description": {
+      "zh_CN": "海蒂是情报工作者，为伦蒂尼姆的和平和市民生存而战，与莱托中校（城防军指挥官）形成对立。她与戈尔丁的对话揭示萨卡兹即将进攻。",
+      "en_US": "Hedy is an intelligence operative fighting for Lonedin's peace and citizens' survival, opposing Colonel Ledou. Her conversation with Goldin reveals the Sankazi are about to attack."
+    },
+    "first_appear_event_id": "main_ch11",
+    "associated_event_id": "main_ch11",
+    "evidences": [
+      {
+        "source_story": "level_main_11-02_beg",
+        "quote": {
+          "zh_CN": "海蒂: '戈尔丁，你也注意到了，今夜的伦蒂尼姆即将迎来又一次剧变。斯塔福德公爵的军队正在对议会广场发起进攻。……战火随时会蔓延到其他城市，所有维多利亚人都需要做好准备。'",
+          "en_US": "Hedy: 'Goldin, you noticed too — tonight Lonedin faces another upheaval. The Stafford Duke's forces are attacking the parliament square... Flames will spread to other cities. All Victorians must be prepared.'"
+        },
+        "context_analysis": {
+          "zh_CN": "海蒂警告戈尔丁伦蒂尼姆即将发生剧变，萨卡兹和公爵军队的战争即将来临。",
+          "en_US": "Hedy warns Goldin that Lonedin faces upheaval, with the Sankazi and Duke forces on the brink of war."
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_theresa_prime_theresa",
+    "source": "npc_theresa",
+    "target": "npc_theresis",
+    "relation_type": "unknown",
+    "relation_label": {
+      "zh_CN": "前任魔王与\"特蕾西娅\"·真相揭露",
+      "en_US": "Former Demon King & 'Theresa' — Truth Revealed"
+    },
+    "description": {
+      "zh_CN": "曼弗雷德提到收到\"殿下的信号\"，称它\"已经准备好了\"。这个\"特蕾西娅殿下\"是特雷西斯的傀儡/复制品/利用品。真正的特蕾西娅的灵魂存于阿米娅体内。特雷西斯宣称\"特蕾西娅回到了我们身边\"（指这个傀儡）。",
+      "en_US": "Manfred mentions receiving 'the signal from Her Highness' — this 'Theresa' is Theresa's puppet/doppelganger. The real Theresa's soul resides in Amiya. Theresa claims 'Theresa has returned to us' (referring to the puppet)."
+    },
+    "first_appear_event_id": "main_ch11",
+    "associated_event_id": "main_ch11",
+    "evidences": [
+      {
+        "source_story": "level_main_11-15_end",
+        "quote": {
+          "zh_CN": "曼弗雷德: '将军，我刚刚收到殿下的信号。它已经准备好了。'特雷西斯: '很好。那么，该开始了。'",
+          "en_US": "Manfred: 'General, I just received Her Highness's signal. It is ready.' Theresa: 'Good. Then, let us begin.'"
+        },
+        "context_analysis": {
+          "zh_CN": "曼弗雷德报告特蕾西娅的信号已准备好。特雷西斯说\"该开始了\"，暗示特雷西斯控制的傀儡特蕾西娅已准备就绪。",
+          "en_US": "Manfred reports that 'Theresa' is ready. Theresa says 'let us begin,' suggesting the puppet controlled by Theresa is prepared."
+        }
+      }
+    ],
+    "confidence_level": "implied_plot"
+  },
+  {
+    "id": "rel_aleda_steamarmor",
+    "source": "npc_aleda",
+    "target": "npc_steamarmor",
+    "relation_type": "bound",
+    "relation_label": {
+      "zh_CN": "公爵之女与蒸汽骑士甲胄·童年理想",
+      "en_US": "Duke's Daughter & Steam Knight Armor — Childhood Dream"
+    },
+    "description": {
+      "zh_CN": "阿勒黛从小梦想成为蒸汽骑士，公爵府的阁楼上保存着初代坎伯兰蒸汽骑士的残缺甲胄。她在26年前的宴会上躲在甲胄后偷听，被甲胄中的幻象所救。蒸汽甲胄对她象征着坎伯兰的荣耀与理想。",
+      "en_US": "Aleda dreamed since childhood of becoming a Steam Knight. The attic of the Duke's manor holds the damaged armor of the first Cumberland Steam Knight. As a child, she hid behind it at a banquet and was saved by the phantom within. The armor symbolizes Cumberland's honor and her ideal."
+    },
+    "first_appear_event_id": "main_ch11",
+    "associated_event_id": "main_ch11",
+    "evidences": [
+      {
+        "source_story": "level_main_11-01_beg",
+        "quote": {
+          "zh_CN": "阿勒黛: '他们都说......那个下午是一个奇迹。'……'我会像曾曾曾曾祖母一样，让坎伯兰这个名字永远闪耀。艾尔希，我保证，我会让你看见的！'",
+          "en_US": "Aleda: 'They all said... that afternoon was a miracle.' ...'I will be like my great-great-grandmother, making the Cumberland name shine forever. Elise, I promise — I will show you!'"
+        },
+        "context_analysis": {
+          "zh_CN": "幼年阿勒黛在26年前的宴会上躲在阁楼甲胄后，向艾尔希保证会成为伟大的蒸汽骑士。",
+          "en_US": "Young Aleda hides behind the attic armor at the banquet 26 years ago, promising Elise she will become a great Steam Knight."
+        }
+      },
+      {
+        "source_story": "level_main_11-01_end",
+        "quote": {
+          "zh_CN": "阿勒黛: '它们都忘了，您才是最厉害的蒸汽骑士！……要是您能有二分之一，不，三分之二个您这么厉害，也就满足了。'",
+          "en_US": "Aleda: 'They all forgot — you are the mightiest Steam Knight! ...If I could be half — no, two-thirds — as great as you, that would be enough.'"
+        },
+        "context_analysis": {
+          "zh_CN": "阿勒黛对蒸汽甲胄说话，将其视为最厉害的蒸汽骑士，希望自己能有其三分之二的能力。",
+          "en_US": "Aleda speaks to the steam armor, treating it as the mightiest Steam Knight, hoping to have two-thirds of its prowess."
+        }
+      },
+      {
+        "source_story": "level_main_11-04_beg",
+        "quote": {
+          "zh_CN": "管家艾尔希: '这具甲胄！您的先祖——那位高贵的老公爵的鲜血流淌在甲胄里。它是维多利亚赐予坎伯兰家的荣耀，是坎伯兰家\"永远高洁\"的象征。'",
+          "en_US": "Elise: 'This armor! The noble Duke's blood flows through it. It is the honor Victoria bestowed on Cumberland, the symbol of Cumberland's 'eternal purity.'"
+        },
+        "context_analysis": {
+          "zh_CN": "艾尔希说蒸汽甲胄是坎伯兰家荣耀和\"永远高洁\"的象征。阿勒黛最终决定卖掉它换取武器，艾尔希反对。",
+          "en_US": "Elise says the steam armor is Cumberland's honor and 'eternal purity.' Aleda ultimately decides to sell it for weapons, against Elise's wishes."
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_aleda_vina_youth",
+    "source": "npc_aleda",
+    "target": "char_112_siege",
+    "relation_type": "bound",
+    "relation_label": {
+      "zh_CN": "童年初遇·命运的重逢",
+      "en_US": "Childhood First Meeting — Fateful Reunion"
+    },
+    "description": {
+      "zh_CN": "26年前，阿勒黛在公爵府花园遇到带着诸王之息归来的幼年亚历山德莉娜（推进之王）和黄金狮子。她们的命运从此交织。26年后重逢，最终以悲剧告终。",
+      "en_US": "Twenty-six years ago, young Aleda met young Alexandrina (Siege) returning with the Kings' Breath and the golden lion in the Duke's garden. Their fates intertwined from that moment. They reunite 26 years later, only to end in tragedy."
+    },
+    "first_appear_event_id": "main_ch11",
+    "associated_event_id": "main_ch11",
+    "evidences": [
+      {
+        "source_story": "level_main_11-01_end",
+        "quote": {
+          "zh_CN": "之后的二十多年里，她常常梦见这一幕，梦见那些金黄色的威严的存在，梦见和他们在一起的女孩——直到她如兽主所预言的那样，与那个名为维娜之人重逢。",
+          "en_US": "For the next twenty-plus years, she often dreamed of this scene — the golden majestic beings, the girl with them — until, as the Beast Lord prophesied, she reunited with the one called Vina."
+        },
+        "context_analysis": {
+          "zh_CN": "26年前阿勒黛在公爵府花园遇到带着诸王之息归来的幼年亚历山德莉娜和黄金狮子，命运预言她们终将重逢。",
+          "en_US": "Twenty-six years ago, Aleda met the young Alexandrina returning with the Kings' Breath and golden lion. A prophecy foretold their reunion."
+        }
+      },
+      {
+        "source_story": "level_main_11-17_end",
+        "quote": {
+          "zh_CN": "推进之王: '我们很小的时候就见过，是吗？'阿勒黛: '我原以为你忘记了。'推进之王: '我几乎忘了......那时，我和高文在一起。'阿勒黛: '那时，那只太阳一般的生物告诉我，终有一日，你我会再次相逢。'",
+          "en_US": "Siege: 'We met when we were very young, didn't we?' Aleda: 'I thought you'd forgotten.' Siege: 'I almost did... at that time, I was with Gavin.' Aleda: 'At that time, the sun-like creature told me — one day, you and I would meet again.'"
+        },
+        "context_analysis": {
+          "zh_CN": "推进之王和阿勒黛确认26年前的相遇——黄金狮子预言她们的命运重逢。",
+          "en_US": "Siege and Aleda confirm their meeting 26 years ago — the golden lion prophesied their fated reunion."
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_blooddemon_theresa_prime",
+    "source": "npc_blooddemon",
+    "target": "npc_theresis",
+    "relation_type": "ally",
+    "relation_label": {
+      "zh_CN": "血魔大君与摄政王·萨卡兹王庭核心",
+      "en_US": "Blood Demon Lord & Theresa's Regent — Sarkaz Royal Court Core"
+    },
+    "description": {
+      "zh_CN": "血魔大君与特雷西斯在指挥塔协同作战。特雷西斯称血魔\"从不滥杀无辜\"，血魔则评价莱托\"不像那种对萨卡兹感到好奇的人\"。两人共同为萨卡兹军事委员会效力。",
+      "en_US": "The Blood Demon Lord and Theresa Prime coordinate on the command tower. Theresa calls him 'never one to kill innocents recklessly'; the Blood Demon Lord evaluates Ledou as 'not the type to be curious about Sarkaz.' Both serve the Kazdel Military Committee."
+    },
+    "first_appear_event_id": "main_ch11",
+    "associated_event_id": "main_ch11",
+    "evidences": [
+      {
+        "source_story": "level_main_11-07_end",
+        "quote": {
+          "zh_CN": "血魔大君: '莱托，他说得对。我还没尝过他珍藏的酒。我们该去尝尝的，不是吗？'莱托中校: '......我会协助您的审查，确保......不漏过一个叛徒。'",
+          "en_US": "Blood Demon Lord: 'Ledou, he's right. I haven't tasted his vintage wine yet. We should go try it, shouldn't we?' Ledou: '...I will assist your review, ensuring... no traitor slips through.'"
+        },
+        "context_analysis": {
+          "zh_CN": "血魔大君当着莱托的面处决贵族，莱托配合审查。血魔评论说\"我们对血液汽化的声音没兴趣\"并以之为乐。",
+          "en_US": "The Blood Demon Lord executes nobles before Ledou, who cooperates with the 'review.' The Blood Demon Lord savors the sound of blood vaporizing."
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_clouzing_fust",
+    "source": "npc_clouzing",
+    "target": "npc_fust",
+    "relation_type": "ally",
+    "relation_label": {
+      "zh_CN": "自救军指挥官与工人士兵",
+      "en_US": "Self-Rescue Army Commander & Worker Soldiers"
+    },
+    "description": {
+      "zh_CN": "克洛维希娅（自救军指挥官）与费斯特（工人代表）共同制定突袭城防军指挥塔的计划。费斯特利用自己对工厂的熟悉度引导罗德岛无人机作战。",
+      "en_US": "Clouzing (Self-Rescue Army Commander) and Fust (worker representative) coordinate the raid on the City Defense Command Tower. Fust uses his knowledge of the factories to guide Rhodes Island drone operations."
+    },
+    "first_appear_event_id": "main_ch11",
+    "associated_event_id": "main_ch11",
+    "evidences": [
+      {
+        "source_story": "level_main_11-13_beg",
+        "quote": {
+          "zh_CN": "费斯特: '按照你说的，我们都准备好了。工程小组会确保无人机畅行无阻。……这些都是我们用自己的双手造出来的东西。我们知道该怎么瞄准它们的弱点。'",
+          "en_US": "Fust: 'As you said, we're all ready. The engineering team will ensure the drones have clear passage... These are things we built with our own hands. We know how to target their weak points.'"
+        },
+        "context_analysis": {
+          "zh_CN": "费斯特带领工程小组配合可露希尔的无人机，利用自己对工厂设备的了解帮助控制自行源石炮。",
+          "en_US": "Fust leads the engineering team supporting的可露希尔's drones, using his knowledge of factory equipment to help control the mobile source stone artillery."
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_clouzing_ledou",
+    "source": "npc_clouzing",
+    "target": "npc_ledou",
+    "relation_type": "rival",
+    "relation_label": {
+      "zh_CN": "起义领袖与城防军指挥官·生死对决",
+      "en_US": "Rebel Leader vs. City Defense Commander — Life-and-Death Showdown"
+    },
+    "description": {
+      "zh_CN": "克洛维希娅指挥自救军突袭城防军指挥塔，试图说服城防军士兵不要为萨卡兹而战。她指出莱托背叛了维多利亚，士兵们\"只是士兵\"。",
+      "en_US": "Clouzing commands the Self-Rescue Army's assault on the City Defense Command Tower, trying to persuade soldiers not to fight for the Sankazi. She exposes Ledou's betrayal and insists 'you're just soldiers.'"
+    },
+    "first_appear_event_id": "main_ch11",
+    "associated_event_id": "main_ch11",
+    "evidences": [
+      {
+        "source_story": "level_main_11-09_beg",
+        "quote": {
+          "zh_CN": "克洛维希娅: '你是维多利亚人，没错吧？两万城防军官兵遍布整座城市。除了已经战死的和被俘的那些，全都被同一个命令死死绑在原地，变成了萨卡兹的帮凶。……让开吧。'",
+          "en_US": "Clouzing: 'You're Victorian, aren't you? Twenty thousand city defense soldiers across the city. All bound in place, turned into Sankazi accomplices... Step aside.'"
+        },
+        "context_analysis": {
+          "zh_CN": "克洛维希娅向城防军士兵喊话，指出他们被迫成为萨卡兹帮凶的事实，请求他们让开。",
+          "en_US": "Clouzing addresses the city defense soldiers, pointing out they've been forced into being Sankazi accomplices, and asks them to step aside."
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_vina_steamknight_legacy",
+    "source": "char_112_siege",
+    "target": "npc_steamknight_legacy",
+    "relation_type": "bound",
+    "relation_label": {
+      "zh_CN": "阿斯兰王与蒸汽骑士的背叛悲剧",
+      "en_US": "Aslan Queen & Steam Knight Betrayal Tragedy"
+    },
+    "description": {
+      "zh_CN": "推进之王（亚历山德莉娜）在诸王长眠之所发现32具蒸汽骑士残骸——他们全部死于26年前萨卡兹的伏击。蒸汽骑士被议会调离后返回，却发现整个维多利亚背叛了他们。推进之王哀悼\"由贪婪、野心与欲望拼接成的维多利亚，杀死了它自己\"。",
+      "en_US": "In the Kings' Resting Place, Siege discovers 32 Steam Knight corpses — all killed 26 years ago in a Sankazi ambush. The Steam Knights had been recalled by Parliament, returned, only to find all of Victoria had betrayed them. Siege mourns: 'Victoria, stitched together from greed, ambition and desire, killed itself.'"
+    },
+    "first_appear_event_id": "main_ch11",
+    "associated_event_id": "main_ch11",
+    "evidences": [
+      {
+        "source_story": "level_main_11-14_end",
+        "quote": {
+          "zh_CN": "达格达: '三十，三十一，三十二......这么多......这么多甲胄。他们全部死在了这里。'……推进之王: '背叛他们的——是整个维多利亚。'",
+          "en_US": "Dagda: 'Thirty, thirty-one, thirty-two... So many... all these armor. They're all dead here.' ...Siege: 'What betrayed them — was all of Victoria.'"
+        },
+        "context_analysis": {
+          "zh_CN": "推进之王在诸王长眠之所发现32具蒸汽骑士甲胄，揭露维多利亚背叛蒸汽骑士的历史真相。",
+          "en_US": "Siege discovers 32 Steam Knight corpses in the Royal Tomb, exposing the historical truth of Victoria's betrayal of its own knights."
+        }
+      },
+      {
+        "source_story": "level_main_11-14_end",
+        "quote": {
+          "zh_CN": "推进之王: '由贪婪、野心与欲望拼接成的维多利亚，杀死了它自己。'",
+          "en_US": "Siege: 'Victoria, stitched together from greed, ambition and desire, killed itself.'"
+        },
+        "context_analysis": {
+          "zh_CN": "推进之王对蒸汽骑士的悲剧下了一个定论——维多利亚自己杀死了它的守护者。",
+          "en_US": "Siege delivers her verdict on the tragedy — Victoria itself killed its own guardians."
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_goldin_jasmine",
+    "source": "npc_goldin",
+    "target": "npc_jasmine",
+    "relation_type": "ally",
+    "relation_label": {
+      "zh_CN": "教师与助手·教育的传承",
+      "en_US": "Teacher & Assistant — Legacy of Education"
+    },
+    "description": {
+      "zh_CN": "戈尔丁与茉莉是圣马尔索学校的同事，共同照顾战争中的孩子们。茉莉是戈尔丁的助手，戈尔丁信任她并让她照顾孩子们。茉莉后来被变形者（伪茉莉）替换。",
+      "en_US": "Goldin and Mo莉 are colleagues at Saint-Marso School, caring for children amid war. Mo莉 is Goldin's assistant; Goldin trusts her with the children. Mo莉 is later replaced by a Shapeshifter (fake Mo莉)."
+    },
+    "first_appear_event_id": "main_ch11",
+    "associated_event_id": "main_ch11",
+    "evidences": [
+      {
+        "source_story": "level_main_11-02_beg",
+        "quote": {
+          "zh_CN": "戈尔丁: '茉莉，刚才的事让我有了个新主意。……对年幼的孩子们而言，扮演其他角色就和玩游戏差不多。'茉莉: '但愿您是对的。'",
+          "en_US": "Goldin: 'Mo莉, what just happened gave me a new idea... For young children, playing other roles is just like a game.' Mo莉: 'I hope you're right.'"
+        },
+        "context_analysis": {
+          "zh_CN": "戈尔丁和茉莉讨论用戏剧教育孩子远离街头粗制滥造的影响。",
+          "en_US": "Goldin and Mo莉 discuss using drama to educate children away from street influences."
+        }
+      },
+      {
+        "source_story": "level_main_11-05_beg",
+        "quote": {
+          "zh_CN": "茉莉: '孩子们，都到我身后来。'莱托中校: '茉莉小姐，很遗憾，看来你已经忘记我了。'茉莉: '......忘记？'",
+          "en_US": "Mo莉: 'Children, come behind me.' Ledou: 'Miss Mo莉, it seems you've forgotten me.' Mo莉: '...Forgot?'"
+        },
+        "context_analysis": {
+          "zh_CN": "莱托中校来到学校，发现茉莉不记得他了——但这个茉莉是变形者假冒的。真正的茉莉已被关押。",
+          "en_US": "Ledou visits the school; Mo莉 doesn't remember him — but this Mo莉 is a Shapeshifter in disguise. The real Mo莉 has been captured."
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_shapeshifter_mo",
+    "source": "npc_shapeshifter",
+    "target": "npc_jasmine",
+    "relation_type": "rival",
+    "relation_label": {
+      "zh_CN": "变形者与茉莉·身份替换",
+      "en_US": "Shapeshifter vs. Mo莉 — Identity Replacement"
+    },
+    "description": {
+      "zh_CN": "变形者伪装成茉莉，混入戈尔丁身边获取情报。真正的茉莉被关押。变形者对戈尔丁的学校表示兴趣，想\"更好地理解自己……理解萨卡兹\"。",
+      "en_US": "The Shapeshifter impersonates Mo莉 to infiltrate Goldin's school and gather intelligence. The real Mo莉 is imprisoned. The Shapeshifter expresses interest in the school, wanting to 'better understand itself... understand Sarkaz.'"
+    },
+    "first_appear_event_id": "main_ch11",
+    "associated_event_id": "main_ch11",
+    "evidences": [
+      {
+        "source_story": "level_main_11-05_beg",
+        "quote": {
+          "zh_CN": "变形者集群: '把这位茉莉小姐带回去吧，中校先生。看好她。我们会留在戈尔丁女士身边，为接下来的战争取得更多情报。'",
+          "en_US": "Shapeshifter Collective: 'Take Miss Mo莉 back, Colonel Ledou. Watch her. We will stay beside Miss Goldin to gather more intelligence for the coming war.'"
+        },
+        "context_analysis": {
+          "zh_CN": "变形者（伪茉莉）指示莱托中校把真正的茉莉带走，它自己则留在戈尔丁身边收集情报。",
+          "en_US": "The Shapeshifter (fake Mo莉) orders Ledou to take the real Mo莉 away while it stays beside Goldin to gather intelligence."
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_shapeshifter_goldin",
+    "source": "npc_shapeshifter",
+    "target": "npc_goldin",
+    "relation_type": "unknown",
+    "relation_label": {
+      "zh_CN": "变形者与教育者·潜伏的观察者",
+      "en_US": "Shapeshifter & Educator — Infiltrating Observer"
+    },
+    "description": {
+      "zh_CN": "变形者（伪茉莉）潜伏在戈尔丁身边，声称\"我们对你们很感兴趣。透过你们，我们能更好地理解自己……理解萨卡兹\"。它对人类世界的教育与情感感到困惑。",
+      "en_US": "The Shapeshifter (fake Mo莉) infiltrates Goldin, claiming 'We find you very interesting. Through you, we can better understand ourselves... understand Sarkaz.' It is puzzled by human education and emotion."
+    },
+    "first_appear_event_id": "main_ch11",
+    "associated_event_id": "main_ch11",
+    "evidences": [
+      {
+        "source_story": "level_main_11-05_beg",
+        "quote": {
+          "zh_CN": "变形者集群: '我们对你们很感兴趣。透过你们，我们能更好地理解自己……理解萨卡兹。莱托，你并不像那种对萨卡兹感到好奇的人。'",
+          "en_US": "Shapeshifter Collective: 'We find you very interesting. Through you, we can better understand ourselves... understand Sarkaz. Ledou, you're not the type to be curious about Sarkaz.'"
+        },
+        "context_analysis": {
+          "zh_CN": "变形者对戈尔丁和人类世界的教育、情感表达感到好奇，表达了想要\"理解萨卡兹\"的目的。",
+          "en_US": "The Shapeshifter is fascinated by Goldin and human expressions of education and feeling, seeking to 'understand Sarkaz' through her."
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_vina_ascalon",
+    "source": "char_112_siege",
+    "target": "char_4132_ascln",
+    "relation_type": "ally",
+    "relation_label": {
+      "zh_CN": "格拉斯哥帮与阿斯卡纶·同一战场",
+      "en_US": "Glasgow Gang & Ascalon — Same Battlefield"
+    },
+    "description": {
+      "zh_CN": "因陀罗和摩根（格拉斯哥帮成员）与阿斯卡纶（罗德岛干员）在战场上并肩作战对抗萨卡兹。",
+      "en_US": "Indra and Morgan (Glasgow Gang) fight alongside Ascalon (Rhodes Island operator) on the battlefield against the Sankazi forces."
+    },
+    "first_appear_event_id": "main_ch11",
+    "associated_event_id": "main_ch11",
+    "evidences": [
+      {
+        "source_story": "level_main_11-13_beg",
+        "quote": {
+          "zh_CN": "阿斯卡纶: '阿米娅，无人机已经切断了通讯。他们应该没有发现我们。……博士，无人机成功抵达操控区域。'",
+          "en_US": "Ascalon: 'Amiya, the drones have cut communications. They shouldn't have noticed us... Doctor, the drones successfully reached the control area.'"
+        },
+        "context_analysis": {
+          "zh_CN": "阿斯卡纶通过无人机支援战场，与格拉斯哥帮在同一战区作战。",
+          "en_US": "Ascalon supports the battlefield via drones, fighting in the same zone as the Glasgow Gang."
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_doc_shapeshifter",
+    "source": "npc_doctor",
+    "target": "npc_shapeshifter",
+    "relation_type": "unknown",
+    "relation_label": {
+      "zh_CN": "博士与变形者·地下剧场的观众",
+      "en_US": "Doctor & Shapeshifter — Audience at the Underground Theatre"
+    },
+    "description": {
+      "zh_CN": "变形者（伪茉莉）邀请博士加入戈尔丁学校的话剧演出，博士走上舞台扮演\"神秘观众\"。变形者对博士在舞台上发表的反战宣言感到困惑。",
+      "en_US": "The Shapeshifter (fake Mo莉) invites the Doctor to join the school's play as 'the mysterious audience.' The Doctor takes the stage and delivers an anti-war monologue that confuses the Shapeshifter."
+    },
+    "first_appear_event_id": "main_ch11",
+    "associated_event_id": "main_ch11",
+    "evidences": [
+      {
+        "source_story": "level_main_11-05_beg",
+        "quote": {
+          "zh_CN": "茉莉: '既然舞台还在，我们能不能重新演一遍呢？从第一幕开始。'？？？: '所有人都总是在幻想，如果一切没有发生会怎样。推演没有意义。'",
+          "en_US": "Mo莉: 'Since the stage is still here, can we perform it again? From the first act?' ??? 'Everyone always wonders what would happen if everything had been different. No point in speculation.'"
+        },
+        "context_analysis": {
+          "zh_CN": "变形者（伪茉莉）邀请博士加入演出，博士走上舞台扮演\"神秘观众\"说出\"推演没有意义\"。",
+          "en_US": "The Shapeshifter (fake Mo莉) invites the Doctor onto the stage. The Doctor takes the role of 'the mysterious audience' and says 'no point in speculation.'"
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_fust_workers",
+    "source": "npc_fust",
+    "target": "npc_workers",
+    "relation_type": "ally",
+    "relation_label": {
+      "zh_CN": "工人代表与工友们·集体的觉醒",
+      "en_US": "Worker Representative & Fellow Workers — Collective Awakening"
+    },
+    "description": {
+      "zh_CN": "费斯特带领海布里区的工人们集体行动，救出凯瑟琳和其他老工人代表。乔治、帕特、汤米、戴等工人在费斯特的感召下选择反抗而非继续妥协。",
+      "en_US": "Fust leads the workers of Heburi District in collective action, rescuing Cathleen and other veteran worker representatives. Workers like George, Pat, Tommy, and Dai choose resistance over continued compromise under Fust's inspiration."
+    },
+    "first_appear_event_id": "main_ch11",
+    "associated_event_id": "main_ch11",
+    "evidences": [
+      {
+        "source_story": "level_main_11-08_end",
+        "quote": {
+          "zh_CN": "伦蒂尼姆工人们: '噢！'……费斯特: '去把我们的老工头们救回来。'伦蒂尼姆工人们: '噢！'",
+          "en_US": "Lonedin Workers: 'Ooh!' ...Fust: 'Go rescue our old foremen!' Lonedin Workers: 'Ooh!'"
+        },
+        "context_analysis": {
+          "zh_CN": "工人们集体跟随费斯特冲向刑场，高呼口号救回老工头们。",
+          "en_US": "Workers collectively follow Fust to the execution site, cheering to rescue the veteran foremen."
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_warl_reinforcement",
+    "source": "npc_warl",
+    "target": "char_4132_ascln",
+    "relation_type": "rival",
+    "relation_label": {
+      "zh_CN": "食腐者之王与阿斯卡纶·王庭内战",
+      "en_US": "Warl vs. Ascalon — Royal Court Civil War"
+    },
+    "description": {
+      "zh_CN": "阿斯卡纶提到\"食腐者的大军提前回来了\"——食腐者之王（Warl）率萨卡兹大军抵达伦蒂尼姆。阿斯卡纶曾在王庭内战中站在特蕾西娅一方，与Warl为敌。",
+      "en_US": "Ascalon notes 'Warl's reinforcements have returned early' — the King of Scourges (Warl) leads the Sarkaz army to Lonedin. Ascalon sided with Theresa in the Royal Court civil war, making her an enemy of Warl."
+    },
+    "first_appear_event_id": "main_ch11",
+    "associated_event_id": "main_ch11",
+    "evidences": [
+      {
+        "source_story": "level_main_11-13_beg",
+        "quote": {
+          "zh_CN": "阿斯卡纶: '阿米娅，食腐者提前到了。……凯尔希医生的速度已经够快，拖延巫妖的脚步已是极限。食腐者麾下军士的凝聚力远胜任何萨卡兹势力。'",
+          "en_US": "Ascalon: 'Amiya, the Scourges arrived early... Kal'tsit's speed is already maximized, delaying the Wraith is the limit. The cohesion of Warl's forces surpasses any other Sarkaz faction.'"
+        },
+        "context_analysis": {
+          "zh_CN": "食腐者之王率军提前抵达，阿斯卡纶警告他的军队凝聚力极强。阿斯卡纶曾与之在王庭内战中为敌。",
+          "en_US": "Warl's army arrives early; Ascalon warns their cohesion is unmatched. Ascalon fought against Warl in the Royal Court civil war."
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  },
+  {
+    "id": "rel_theresa_prime_kaltsit",
+    "source": "npc_theresis",
+    "target": "char_003_kalts",
+    "relation_type": "rival",
+    "relation_label": {
+      "zh_CN": "特雷西斯与凯尔希·宿敌重逢",
+      "en_US": "Theresa Prime vs. Kal'tsit — Foe Reunion"
+    },
+    "description": {
+      "zh_CN": "特雷西斯与凯尔希在指挥塔天台正面对决。特雷西斯宣称\"我会再杀死你一次\"，凯尔希则说她\"只是在加快毁灭的进程\"。两人有着两百年的恩怨纠葛。",
+      "en_US": "Theresa Prime and Kal'tsit face off on the command tower rooftop. Theresa declares 'I will kill you again,' while Kal'tsit says she 'is only accelerating destruction.' Theirs is a grudge spanning two hundred years."
+    },
+    "first_appear_event_id": "main_ch11",
+    "associated_event_id": "main_ch11",
+    "evidences": [
+      {
+        "source_story": "level_main_11-15_beg",
+        "quote": {
+          "zh_CN": "特雷西斯: '两百年前，我看着你重生在特蕾西娅的身边。一度毁灭卡兹戴尔的罪魁祸首，一个驯化古老的不灭之人。……我会再杀死你一次，凯尔希。'",
+          "en_US": "Theresa: 'Two hundred years ago, I watched you reborn beside Theresa. The culprit who once destroyed Kazdel, an ancient immortal tamed... I will kill you again, Kal'tsit.'"
+        },
+        "context_analysis": {
+          "zh_CN": "特雷西斯揭露凯尔希的历史——她曾是毁灭卡兹戴尔的\"罪魁祸首\"（泰拉文明联军），如今重生为特蕾西娅的同伴。特雷西斯宣布要再次杀死她。",
+          "en_US": "Theresa reveals Kal'tsit's history — she was once part of the coalition that destroyed Kazdel, now reborn as Theresa's companion. Theresa vows to kill her again."
+        }
+      }
+    ],
+    "confidence_level": "official_fact"
+  }
+]
