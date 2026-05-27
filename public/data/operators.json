@@ -835,7 +835,7 @@
     "source": "stafffile"
   },
   {
-    "id": "char_144_red",
+    "id": "char_144_projektred",
     "display_name": {
       "zh_CN": "红",
       "en_US": "红"
@@ -1043,7 +1043,7 @@
     "source": "stafffile"
   },
   {
-    "id": "char_171_bldsk",
+    "id": "char_171_warfarin",
     "display_name": {
       "zh_CN": "华法琳",
       "en_US": "华法琳"
@@ -5463,7 +5463,7 @@
     "source": "stub"
   },
   {
-    "id": "npc_talula",
+    "id": "npc_talulah",
     "display_name": {
       "zh_CN": "塔露拉",
       "en_US": "塔露拉"
@@ -5528,7 +5528,7 @@
     "source": "stub"
   },
   {
-    "id": "npc_霜星",
+    "id": "npc_frostnova",
     "display_name": {
       "zh_CN": "霜星",
       "en_US": "霜星"

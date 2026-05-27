@@ -2,7 +2,7 @@
   {
     "id": "rel_ch6_06-11_001",
     "source": "char_291_aglina",
-    "target": "npc_霜星",
+    "target": "npc_frostnova",
     "relation_type": "hostile",
     "relation_label": {
       "zh_CN": "战斗对立",
@@ -35,7 +35,7 @@
   {
     "id": "rel_ch6_06-11_002",
     "source": "char_291_aglina",
-    "target": "npc_霜星",
+    "target": "npc_frostnova",
     "relation_type": "allied",
     "relation_label": {
       "zh_CN": "战后和解",
@@ -68,7 +68,7 @@
   {
     "id": "rel_ch6_06-11_003",
     "source": "char_002_amiya",
-    "target": "npc_霜星",
+    "target": "npc_frostnova",
     "relation_type": "neutral",
     "relation_label": {
       "zh_CN": "战场对峙",
@@ -101,7 +101,7 @@
   {
     "id": "rel_ch6_06-11_004",
     "source": "char_002_amiya",
-    "target": "npc_霜星",
+    "target": "npc_frostnova",
     "relation_type": "allied",
     "relation_label": {
       "zh_CN": "战斗后同盟",
@@ -199,8 +199,8 @@
   },
   {
     "id": "rel_ch6_06-11_007",
-    "source": "npc_霜星",
-    "target": "npc_talula",
+    "source": "npc_frostnova",
+    "target": "npc_talulah",
     "relation_type": "hostile",
     "relation_label": {
       "zh_CN": "背叛与对立",
@@ -278,7 +278,7 @@
   },
   {
     "id": "rel_ch6_06-11_010",
-    "source": "npc_霜星",
+    "source": "npc_frostnova",
     "target": "npc_mephisto",
     "relation_type": "neutral",
     "relation_label": {
@@ -312,7 +312,7 @@
   {
     "id": "rel_ch6_06-11_011",
     "source": "avg_npc_041",
-    "target": "npc_霜星",
+    "target": "npc_frostnova",
     "relation_type": "allied",
     "relation_label": {
       "zh_CN": "雪怪小队战友",
@@ -405,7 +405,7 @@
   },
   {
     "id": "rel_ch6_06-11_014",
-    "source": "npc_霜星",
+    "source": "npc_frostnova",
     "target": "char_f2b9a339",
     "relation_type": "allied",
     "relation_label": {
@@ -462,7 +462,7 @@
   {
     "id": "rel_ch6_06-11_016",
     "source": "avg_npc_026",
-    "target": "npc_霜星",
+    "target": "npc_frostnova",
     "relation_type": "neutral",
     "relation_label": {
       "zh_CN": "战士敬重",
@@ -574,7 +574,7 @@
   {
     "id": "rel_ch6_06-11_020",
     "source": "char_002_amiya",
-    "target": "npc_霜星",
+    "target": "npc_frostnova",
     "relation_type": "neutral",
     "relation_label": {
       "zh_CN": "情感共鸣",

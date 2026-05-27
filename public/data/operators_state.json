@@ -136,15 +136,6 @@
     }
   },
   {
-    "operator_id": "npc_silence",
-    "terran_year": 1090,
-    "status": "alive",
-    "reason": {
-      "zh_CN": "莱茵生命研究员",
-      "en_US": "Rhine Lab researcher"
-    }
-  },
-  {
     "operator_id": "char_106_franka",
     "terran_year": 1090,
     "status": "alive",
@@ -271,7 +262,7 @@
     }
   },
   {
-    "operator_id": "npc_talula",
+    "operator_id": "npc_talulah",
     "terran_year": 1096,
     "status": "alive",
     "reason": {
@@ -304,6 +295,15 @@
     "reason": {
       "zh_CN": "切尔诺伯格事变指挥撤退",
       "en_US": "Directed evacuation in Chernobog Incident"
+    }
+  },
+  {
+    "operator_id": "npc_frostnova",
+    "terran_year": 1097,
+    "status": "deceased",
+    "reason": {
+      "zh_CN": "在第六章的战斗中释放源石技艺过度而战死",
+      "en_US": "Killed in Chernobog Incident"
     }
   },
   {
@@ -376,15 +376,6 @@
     "reason": {
       "zh_CN": "在沃伦姆德被击杀",
       "en_US": "Killed in Wolumunde"
-    }
-  },
-  {
-    "operator_id": "npc_talula",
-    "terran_year": 1097,
-    "status": "deceased",
-    "reason": {
-      "zh_CN": "在龙门事变中死亡",
-      "en_US": "Died in Lungmen uprising"
     }
   },
   {

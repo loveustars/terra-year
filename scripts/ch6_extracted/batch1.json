@@ -404,7 +404,7 @@
   },
   {
     "id": "ch06_rel_017",
-    "source": "npc_霜星",
+    "source": "npc_frostnova",
     "target": "integration_member",
     "relation_type": "neutral",
     "relation_label": {
@@ -428,7 +428,7 @@
   {
     "id": "ch06_rel_018",
     "source": "npc_mephisto",
-    "target": "npc_霜星",
+    "target": "npc_frostnova",
     "relation_type": "hostile",
     "relation_label": {
       "zh_CN": "指控背叛",
@@ -451,7 +451,7 @@
   {
     "id": "ch06_rel_019",
     "source": "npc_faust",
-    "target": "npc_霜星",
+    "target": "npc_frostnova",
     "relation_type": "allied",
     "relation_label": {
       "zh_CN": "战友/信任",

@@ -2,7 +2,7 @@
   {
     "id": "ch6_rel_001",
     "source": "char_291_aglina",
-    "target": "npc_霜星",
+    "target": "npc_frostnova",
     "relation_type": "hostile",
     "relation_label": {
       "zh_CN": "战斗对峙",
@@ -30,7 +30,7 @@
   {
     "id": "ch6_rel_002",
     "source": "char_291_aglina",
-    "target": "npc_霜星",
+    "target": "npc_frostnova",
     "relation_type": "neutral",
     "relation_label": {
       "zh_CN": "临时休战",
@@ -118,7 +118,7 @@
   },
   {
     "id": "ch6_rel_005",
-    "source": "npc_霜星",
+    "source": "npc_frostnova",
     "target": "avg_npc_026",
     "relation_type": "allied",
     "relation_label": {
@@ -141,7 +141,7 @@
   },
   {
     "id": "ch6_rel_006",
-    "source": "npc_霜星",
+    "source": "npc_frostnova",
     "target": "npc_faust",
     "relation_type": "allied",
     "relation_label": {
@@ -385,7 +385,7 @@
   },
   {
     "id": "ch6_rel_014",
-    "source": "npc_霜星",
+    "source": "npc_frostnova",
     "target": "avg_npc_041",
     "relation_type": "allied",
     "relation_label": {
@@ -413,7 +413,7 @@
   },
   {
     "id": "ch6_rel_015",
-    "source": "npc_霜星",
+    "source": "npc_frostnova",
     "target": "char_040fdfb9",
     "relation_type": "neutral",
     "relation_label": {

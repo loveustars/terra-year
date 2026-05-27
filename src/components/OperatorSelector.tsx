@@ -17,47 +17,59 @@ interface OperatorSelectorProps {
 }
 
 const FACTION_COLORS: Record<string, string> = {
-  rhodes_island: '#00a7c7',
-  babel: '#8e44ad',
-  reunion: '#e74c3c',
-  lungmen: '#00c2ff',
-  penguin_logistics: '#3498db',
-  kjerag: '#4f8fda',
-  kazimierz: '#00c2ff',
-  yan: '#c84a31',
-  victoria: '#b84d85',
-  laterano: '#00c2ff',
-  leithanien: '#7a65c7',
-  siracusa: '#795548',
-  acahualla: '#27ae60',
-  sargon: '#9a7b36',
-  abyss: '#2a8d9f',
-  '罗德岛': '#00a7c7',
-  '巴别塔': '#8e44ad',
-  '整合运动': '#e74c3c',
-  '龙门': '#00c2ff',
-  '企鹅物流': '#3498db',
-  '卡兹戴尔': '#c0392b',
-  '维多利亚': '#b84d85',
-  '芭芭拉': '#9b59b6',
+  rhodes_island:     '#00a7c7',
+  penguin_logistics: '#5dade2',
+  lungmen:           '#00c2ff',
+  yan:               '#c84a31',
+  babel:             '#8e44ad',
+  leithanien:        '#7a65c7',
+  rim:               '#3d8b8b',
+  siracusa:          '#795548',
+  laterano:          '#e8c44a',
+  abyss:             '#2a8d9f',
+  iberia:            '#c0392b',
+  talar:             '#8b4513',
+  victoria:          '#b84d85',
+  sami:              '#4f8fda',
+  sargon:            '#9a7b36',
+  bolivar:           '#5d8a50',
+  ursus:             '#2c5aa0',
+  kazimierz:         '#d4af37',
+  columbia:          '#3498db',
+  minos:             '#9b59b6',
+  reunion:           '#e74c3c',
+  deeppool:          '#1a5c5c',
+  kazimierz_mc:      '#c0392b',
+  dongguo:           '#d35400',
+  unknown:           '#777',
 };
 
 const FACTION_LABELS: Record<string, Partial<Record<LangKey, string>>> = {
-  rhodes_island: { zh_CN: '罗德岛', en_US: 'Rhodes Island' },
-  babel: { zh_CN: '巴别塔', en_US: 'Babel' },
-  reunion: { zh_CN: '整合运动', en_US: 'Reunion' },
-  lungmen: { zh_CN: '龙门', en_US: 'Lungmen' },
-  penguin_logistics: { zh_CN: '企鹅物流', en_US: 'Penguin Logistics' },
-  kjerag: { zh_CN: '谢拉格', en_US: 'Kjerag' },
-  kazimierz: { zh_CN: '卡西米尔', en_US: 'Kazimierz' },
-  yan: { zh_CN: '炎国', en_US: 'Yan' },
-  victoria: { zh_CN: '维多利亚', en_US: 'Victoria' },
-  laterano: { zh_CN: '拉特兰', en_US: 'Laterano' },
-  leithanien: { zh_CN: '莱塔尼亚', en_US: 'Leithanien' },
-  siracusa: { zh_CN: '叙拉古', en_US: 'Siracusa' },
-  acahualla: { zh_CN: '阿卡胡拉', en_US: 'Acahualla' },
-  sargon: { zh_CN: '萨尔贡', en_US: 'Sargon' },
-  abyss: { zh_CN: '深海猎人', en_US: 'Abyssal Hunters' },
+  rhodes_island:     { zh_CN: '罗德岛',              en_US: 'Rhodes Island' },
+  penguin_logistics:  { zh_CN: '企鹅物流',            en_US: 'Penguin Logistics' },
+  lungmen:            { zh_CN: '龙门',                en_US: 'Lungmen' },
+  yan:                { zh_CN: '炎国',                en_US: 'Yan' },
+  babel:              { zh_CN: '巴别塔',              en_US: 'Babel' },
+  leithanien:         { zh_CN: '莱塔尼亚',            en_US: 'Leithanien' },
+  rim:                { zh_CN: '雷姆必拓',            en_US: 'Rhodes Hill' },
+  siracusa:           { zh_CN: '叙拉古',             en_US: 'Siracusa' },
+  laterano:           { zh_CN: '拉特兰',             en_US: 'Laterano' },
+  abyss:              { zh_CN: '阿戈尔',              en_US: 'Abyss' },
+  iberia:             { zh_CN: '伊比利亚',            en_US: 'Iberia' },
+  talar:              { zh_CN: '塔拉',                en_US: 'Talar' },
+  victoria:           { zh_CN: '维多利亚',            en_US: 'Victoria' },
+  sami:               { zh_CN: '谢拉格',             en_US: 'Kjerag' },
+  sargon:             { zh_CN: '萨尔贡',             en_US: 'Sargon' },
+  bolivar:            { zh_CN: '玻利瓦尔',            en_US: 'Bolivar' },
+  ursus:              { zh_CN: '乌萨斯',              en_US: 'Ursus' },
+  kazimierz:          { zh_CN: '卡西米尔',            en_US: 'Kazimierz' },
+  columbia:           { zh_CN: '哥伦比亚',            en_US: 'Columbia' },
+  minos:              { zh_CN: '米诺斯',             en_US: 'Minos' },
+  reunion:            { zh_CN: '整合运动',            en_US: 'Reunion' },
+  deeppool:           { zh_CN: '深海教会',            en_US: 'Deeppool' },
+  kazimierz_mc:       { zh_CN: '卡兹戴尔军事委员会', en_US: 'Kazimierz MC' },
+  dongguo:            { zh_CN: '东国',                en_US: 'Dongguo' },
+  unknown:            { zh_CN: '未知',                en_US: 'Unknown' },
 };
 
 function getFactionColor(faction: string): string {
@@ -92,14 +104,14 @@ const OperatorSelector: React.FC<OperatorSelectorProps> = ({
       const localName = op.display_name[lang] ?? op.display_name.zh_CN ?? '';
       const zhName = op.display_name.zh_CN ?? '';
       const enName = op.display_name.en_US ?? '';
-      return `${localName} ${zhName} ${enName} ${op.faction}`.toLowerCase().includes(q);
+      return `${localName} ${zhName} ${enName} ${Array.isArray(op.faction) ? op.faction.join(',') : op.faction}`.toLowerCase().includes(q);
     });
   }, [allEventOperators, search, lang]);
 
   const grouped = useMemo(() => {
     const groups = new Map<string, Operator[]>();
     for (const op of filtered) {
-      const key = op.faction || 'unknown';
+      const key = (Array.isArray(op.faction) ? op.faction[0] : op.faction) || 'unknown';
       if (!groups.has(key)) groups.set(key, []);
       groups.get(key)!.push(op);
     }
