@@ -19,9 +19,9 @@
 | `char_88d8605e` | 可露希尔 | Closure | 罗德岛 |
 | `char_1778bbd4` | 临光（耀骑士） | Exusiai（误，实际是Saria） | 罗德岛/卡西米尔 |
 | `char_010_chen` | 陈 | Ch'en | 龙门近卫局 |
-| `char_137_brownb` | 星熊 | Hoshiguma | 龙门近卫局 |
+| `char_136_hsguma` | 星熊 | Hoshiguma | 龙门近卫局 |
 | `npc_wei` | 魏彦吾 | Wei Yenwu | 龙门 |
-| `npc_talula` | 塔露拉 | Talulah | 整合运动/雅拉 |
+| `npc_talulah` | 塔露拉 | Talulah | 整合运动/雅拉 |
 | `npc_mephisto` | 梅菲斯特 | Mephisto | 整合运动 |
 | `npc_faust` | 浮士德 | Faust | 整合运动 |
 | `char_011_w` | W | W | 整合运动（后叛离） |

@@ -1,8 +1,8 @@
 [
   {
     "id": "ch6_rel_001",
-    "source": "char_134_aglina",
-    "target": "npc_霜星",
+    "source": "char_291_aglina",
+    "target": "npc_frostnova",
     "relation_type": "hostile",
     "relation_label": {
       "zh_CN": "战斗对峙",
@@ -29,8 +29,8 @@
   },
   {
     "id": "ch6_rel_002",
-    "source": "char_134_aglina",
-    "target": "npc_霜星",
+    "source": "char_291_aglina",
+    "target": "npc_frostnova",
     "relation_type": "neutral",
     "relation_label": {
       "zh_CN": "临时休战",
@@ -57,7 +57,7 @@
   },
   {
     "id": "ch6_rel_003",
-    "source": "char_134_aglina",
+    "source": "char_291_aglina",
     "target": "char_367_swllow",
     "relation_type": "allied",
     "relation_label": {
@@ -90,7 +90,7 @@
   },
   {
     "id": "ch6_rel_004",
-    "source": "char_134_aglina",
+    "source": "char_291_aglina",
     "target": "char_002_amiya",
     "relation_type": "allied",
     "relation_label": {
@@ -118,7 +118,7 @@
   },
   {
     "id": "ch6_rel_005",
-    "source": "npc_霜星",
+    "source": "npc_frostnova",
     "target": "avg_npc_026",
     "relation_type": "allied",
     "relation_label": {
@@ -141,7 +141,7 @@
   },
   {
     "id": "ch6_rel_006",
-    "source": "npc_霜星",
+    "source": "npc_frostnova",
     "target": "npc_faust",
     "relation_type": "allied",
     "relation_label": {
@@ -385,7 +385,7 @@
   },
   {
     "id": "ch6_rel_014",
-    "source": "npc_霜星",
+    "source": "npc_frostnova",
     "target": "avg_npc_041",
     "relation_type": "allied",
     "relation_label": {
@@ -413,7 +413,7 @@
   },
   {
     "id": "ch6_rel_015",
-    "source": "npc_霜星",
+    "source": "npc_frostnova",
     "target": "char_040fdfb9",
     "relation_type": "neutral",
     "relation_label": {
@@ -469,7 +469,7 @@
   },
   {
     "id": "ch6_rel_017",
-    "source": "char_134_aglina",
+    "source": "char_291_aglina",
     "target": "char_31c537a1",
     "relation_type": "allied",
     "relation_label": {
@@ -492,7 +492,7 @@
   },
   {
     "id": "ch6_rel_018",
-    "source": "char_134_aglina",
+    "source": "char_291_aglina",
     "target": "char_f2b9a339",
     "relation_type": "allied",
     "relation_label": {

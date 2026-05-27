@@ -46,7 +46,7 @@ char_494_vendla	刺玫
 char_2013_cerber	刻俄柏
 char_301_cutter	刻刀
 char_4125_rdoc	医生
-char_171_bldsk	华法琳
+char_171_warfarin	华法琳
 char_4051_akkord	协律（托妮娅）
 char_214_kafka	卡夫卡
 char_426_billro	卡涅利安
@@ -232,7 +232,7 @@ char_4006_melnte	玫拉
 char_479_sleach	琴柳
 char_423_blemsh	瑕光
 char_4163_rosesa	瑰盐
-char_4195_radian	电弧
+char_4195_radian	电弧（Radian）
 char_204_platnm	白金
 char_4072_ironmn	白铁
 char_118_yuki	白雪
@@ -251,7 +251,7 @@ char_4015_spuria	空构（斯普莉雅）
 char_282_catap	空爆
 char_122_beagle	米格鲁
 char_436_whispr	絮雨
-char_144_red	红
+char_144_projektred	红
 char_190_clour	红云
 char_290_vigna	红豆
 char_4023_rfalcn	红隼

@@ -2,7 +2,7 @@
   {
     "id": "rel_chen_talula_ch08",
     "source": "char_010_chen",
-    "target": "char_011_talula",
+    "target": "npc_talulah",
     "relation_type": "rival",
     "relation_label": {
       "zh_CN": "姐妹·命运对决",
@@ -43,7 +43,7 @@
   {
     "id": "rel_amiya_talula_ch08",
     "source": "char_002_amiya",
-    "target": "char_011_talula",
+    "target": "npc_talulah",
     "relation_type": "rival",
     "relation_label": {
       "zh_CN": "魔王与感染者领袖·天台决战",
@@ -94,7 +94,7 @@
   },
   {
     "id": "rel_talula_koschei_ch08",
-    "source": "char_011_talula",
+    "source": "npc_talulah",
     "target": "npc_koschei",
     "relation_type": "rival",
     "relation_label": {
@@ -146,7 +146,7 @@
   },
   {
     "id": "rel_talula_alina_ch08",
-    "source": "char_011_talula",
+    "source": "npc_talulah",
     "target": "npc_alina",
     "relation_type": "ally",
     "relation_label": {
@@ -199,7 +199,7 @@
   {
     "id": "rel_patriot_talula_ch08",
     "source": "npc_patriot",
-    "target": "char_011_talula",
+    "target": "npc_talulah",
     "relation_type": "unknown",
     "relation_label": {
       "zh_CN": "冻原战友·理念分歧",
@@ -374,7 +374,7 @@
   {
     "id": "rel_w_talula_ch08",
     "source": "char_113_cqbw",
-    "target": "char_011_talula",
+    "target": "npc_talulah",
     "relation_type": "rival",
     "relation_label": {
       "zh_CN": "死敌·炸塔露拉",
@@ -454,8 +454,8 @@
     "confidence_level": "official_fact"
   },
   {
-    "id": "rel_shrew_king_weiyanwu_ch08",
-    "source": "npc_shrew_king",
+    "id": "rel_ratking_weiyanwu_ch08",
+    "source": "npc_ratking",
     "target": "npc_2005_wywu",
     "relation_type": "rival",
     "relation_label": {
@@ -698,7 +698,7 @@
   },
   {
     "id": "rel_talula_frostnova_ch08",
-    "source": "char_011_talula",
+    "source": "npc_talulah",
     "target": "npc_shuangxing",
     "relation_type": "ally",
     "relation_label": {
@@ -739,7 +739,7 @@
   },
   {
     "id": "rel_talula_patriot_ch08_battle",
-    "source": "char_011_talula",
+    "source": "npc_talulah",
     "target": "npc_patriot",
     "relation_type": "ally",
     "relation_label": {
@@ -780,7 +780,7 @@
   },
   {
     "id": "rel_talula_koschei_memories_ch08",
-    "source": "char_011_talula",
+    "source": "npc_talulah",
     "target": "npc_koschei",
     "relation_type": "unknown",
     "relation_label": {

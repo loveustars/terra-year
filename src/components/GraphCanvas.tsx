@@ -54,7 +54,8 @@ function circularLayout(ops: Operator[], rels: OperatorRelation[]): GraphNode[] 
     }
 
     const i = connectedIndex.get(op.id) ?? 0;
-    const factionHash = Math.abs([...(op.faction || 'unknown')].reduce((acc, ch) => acc + ch.charCodeAt(0), 0));
+    const primaryFaction = Array.isArray(op.faction) ? (op.faction[0] || 'unknown') : (op.faction || 'unknown');
+    const factionHash = Math.abs([...primaryFaction].reduce((acc, ch) => acc + ch.charCodeAt(0), 0));
     const factionOffset = (factionHash % 11) * 0.035;
     const angle = (2 * Math.PI * (i + factionOffset)) / Math.max(connectedOps.length, 1) - Math.PI / 2;
     return {

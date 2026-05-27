@@ -24,7 +24,8 @@ interface I18nString {
 interface Operator {
   id: string;
   display_name: I18nString;
-  faction: string;
+  /** 所属势力（可多值，如同时属于罗德岛和企鹅物流） */
+  faction: string[];
   avatar_key?: string;
   is_npc: boolean;
 }

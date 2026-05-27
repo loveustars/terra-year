@@ -35,11 +35,29 @@ export function avatarPlaceholderColor(id: string): string {
 }
 
 export const FACTION_LABELS: Record<string, { zh_CN: string; en_US: string }> = {
-  babel: { zh_CN: '巴别塔', en_US: 'Babel' },
-  rhodes_island: { zh_CN: '罗德岛', en_US: 'Rhodes Island' },
-  penguin_logistics: { zh_CN: '企鹅物流', en_US: 'Penguin Logistics' },
-  lungmen: { zh_CN: '龙门', en_US: 'Lungmen' },
-  abyss: { zh_CN: '深海猎人', en_US: 'Abyssal Hunters' },
+  rhodes_island:   { zh_CN: '罗德岛',            en_US: 'Rhodes Island' },
+  lungmen:          { zh_CN: '龙门',              en_US: 'Lungmen' },
+  yan:              { zh_CN: '炎国',              en_US: 'Yan' },
+  babel:            { zh_CN: '巴别塔',            en_US: 'Babel' },
+  leithanien:       { zh_CN: '莱塔尼亚',          en_US: 'Leithanien' },
+  rim:              { zh_CN: '雷姆必拓',          en_US: 'Rhodes Hill' },
+  siracusa:         { zh_CN: '叙拉古',            en_US: 'Siracusa' },
+  laterano:         { zh_CN: '拉特兰',            en_US: 'Laterano' },
+  abyss:            { zh_CN: '阿戈尔',             en_US: 'Abyss' },
+  iberia:           { zh_CN: '伊比利亚',          en_US: 'Iberia' },
+  talar:            { zh_CN: '塔拉',              en_US: 'Talar' },
+  victoria:         { zh_CN: '维多利亚',          en_US: 'Victoria' },
+  sami:             { zh_CN: '谢拉格',            en_US: 'Kjerag' },
+  sargon:           { zh_CN: '萨尔贡',            en_US: 'Sargon' },
+  bolivar:          { zh_CN: '玻利瓦尔',          en_US: 'Bolivar' },
+  ursus:            { zh_CN: '乌萨斯',            en_US: 'Ursus' },
+  kazimierz:        { zh_CN: '卡西米尔',          en_US: 'Kazimierz' },
+  columbia:         { zh_CN: '哥伦比亚',          en_US: 'Columbia' },
+  minos:            { zh_CN: '米诺斯',            en_US: 'Minos' },
+  reunion:          { zh_CN: '整合运动',          en_US: 'Reunion' },
+  deeppool:         { zh_CN: '深海教会',          en_US: 'Deeppool' },
+  kazimierz_mc:     { zh_CN: '卡兹戴尔军事委员会', en_US: 'Kazimierz MC' },
+  unknown:          { zh_CN: '未知',              en_US: 'Unknown' },
 };
 
 export const RELATION_TYPE_STYLES: Record<

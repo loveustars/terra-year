@@ -1,7 +1,7 @@
 [
   {
     "id": "rel_ep05_001",
-    "source": "char_6d7c1afb",
+    "source": "npc_doctor",
     "target": "char_002_amiya",
     "relation_type": "ally",
     "relation_label": {
@@ -31,7 +31,7 @@
   },
   {
     "id": "rel_ep05_006",
-    "source": "char_1778bbd4",
+    "source": "char_148_nearl",
     "target": "char_002_amiya",
     "relation_type": "ally",
     "relation_label": {
@@ -61,7 +61,7 @@
   },
   {
     "id": "rel_ep05_007",
-    "source": "char_8375f0bb",
+    "source": "char_130_doberm",
     "target": "char_002_amiya",
     "relation_type": "ally",
     "relation_label": {
@@ -121,7 +121,7 @@
   },
   {
     "id": "rel_ep05_015",
-    "source": "char_edfebc83",
+    "source": "char_1502_crosly",
     "target": "npc_mephisto",
     "relation_type": "unknown",
     "relation_label": {
@@ -151,8 +151,8 @@
   },
   {
     "id": "rel_ep05_016",
-    "source": "char_8375f0bb",
-    "target": "npc_talula",
+    "source": "char_130_doberm",
+    "target": "npc_talulah",
     "relation_type": "rival",
     "relation_label": {
       "zh_CN": "敌对与判断",
@@ -216,7 +216,7 @@
   },
   {
     "id": "rel_nearl_ace_supplementary",
-    "source": "char_1778bbd4",
+    "source": "char_148_nearl",
     "target": "npc_ace",
     "relation_type": "ally",
     "relation_label": {
@@ -258,7 +258,7 @@
   {
     "id": "rel_mephisto_nearl",
     "source": "npc_mephisto",
-    "target": "char_1778bbd4",
+    "target": "char_148_nearl",
     "relation_type": "rival",
     "relation_label": {
       "zh_CN": "仇恨与毁灭欲",
@@ -309,7 +309,7 @@
   },
   {
     "id": "rel_dobermann_ace",
-    "source": "char_8375f0bb",
+    "source": "char_130_doberm",
     "target": "npc_ace",
     "relation_type": "ally",
     "relation_label": {
@@ -350,8 +350,8 @@
   },
   {
     "id": "rel_dobermann_doctor_supplementary",
-    "source": "char_8375f0bb",
-    "target": "char_6d7c1afb",
+    "source": "char_130_doberm",
+    "target": "npc_doctor",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "从质疑到信任的战场搭档",
@@ -392,7 +392,7 @@
   {
     "id": "rel_amiya_dobermann",
     "source": "char_002_amiya",
-    "target": "char_8375f0bb",
+    "target": "char_130_doberm",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "上下级与战友深情",
@@ -432,7 +432,7 @@
   },
   {
     "id": "rel_ep05_003",
-    "source": "char_6d7c1afb",
+    "source": "npc_doctor",
     "target": "npc_ace",
     "relation_type": "ally",
     "relation_label": {
@@ -492,8 +492,8 @@
   },
   {
     "id": "rel_ep05_005",
-    "source": "char_1778bbd4",
-    "target": "char_6d7c1afb",
+    "source": "char_148_nearl",
+    "target": "npc_doctor",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "骑士保护誓言",
@@ -522,7 +522,7 @@
   },
   {
     "id": "rel_ep05_011",
-    "source": "npc_talula",
+    "source": "npc_talulah",
     "target": "char_002_amiya",
     "relation_type": "rival",
     "relation_label": {
@@ -552,8 +552,8 @@
   },
   {
     "id": "rel_ep05_013",
-    "source": "char_011_w",
-    "target": "npc_talula",
+    "source": "char_113_cqbw",
+    "target": "npc_talulah",
     "relation_type": "unknown",
     "relation_label": {
       "zh_CN": "不满与独立",
@@ -582,7 +582,7 @@
   },
   {
     "id": "rel_ep05_014",
-    "source": "char_011_w",
+    "source": "char_113_cqbw",
     "target": "char_002_amiya",
     "relation_type": "rival",
     "relation_label": {
@@ -616,8 +616,8 @@
   },
   {
     "id": "rel_ep05_018",
-    "source": "char_221_silver",
-    "target": "char_6d7c1afb",
+    "source": "char_172_svrash",
+    "target": "npc_doctor",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "合作与盟友",
@@ -646,8 +646,8 @@
   },
   {
     "id": "rel_w_doctor_curious",
-    "source": "char_011_w",
-    "target": "char_6d7c1afb",
+    "source": "char_113_cqbw",
+    "target": "npc_doctor",
     "relation_type": "unknown",
     "relation_label": {
       "zh_CN": "试探与好奇（想了解博士的指挥与魅力）",
@@ -705,38 +705,8 @@
     "first_appear_event_id": "main_ch02"
   },
   {
-    "id": "rel_ep05_009",
-    "source": "char_010_chen",
-    "target": "char_137_brownb",
-    "relation_type": "ally",
-    "relation_label": {
-      "zh_CN": "同僚战友",
-      "en_US": "Colleague & Comrade"
-    },
-    "description": {
-      "zh_CN": "陈与星熊是近卫局同僚",
-      "en_US": "Ch'en and Hoshiguma are colleagues"
-    },
-    "associated_event_id": "main_ch02",
-    "evidences": [
-      {
-        "source_story": "level_main_02-01_beg",
-        "quote": {
-          "zh_CN": "（星熊在场配合执法）",
-          "en_US": "(Hoshiguma present, enforcing together)"
-        },
-        "context_analysis": {
-          "zh_CN": "两人共同执法",
-          "en_US": "Both enforce together"
-        }
-      }
-    ],
-    "confidence_level": "implied_plot",
-    "first_appear_event_id": "main_ch02"
-  },
-  {
     "id": "rel_ep05_010",
-    "source": "npc_wei",
+    "source": "npc_2005_wywu",
     "target": "char_010_chen",
     "relation_type": "ally",
     "relation_label": {
@@ -825,8 +795,8 @@
     "first_appear_event_id": "main_ch02"
   },
   {
-    "id": "rel_char_011_w_npc_碎骨",
-    "source": "char_011_w",
+    "id": "rel_char_113_cqbw_npc_碎骨",
+    "source": "char_113_cqbw",
     "target": "npc_碎骨",
     "relation_type": "unknown",
     "relation_label": {
@@ -916,8 +886,8 @@
   },
   {
     "id": "rel_char_172_franka_char_171_lisk",
-    "source": "char_b09c7d04",
-    "target": "char_564b67e2",
+    "source": "char_106_franka",
+    "target": "char_107_liskam",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "黑钢国际战友/默契配合",
@@ -945,9 +915,9 @@
     "first_appear_event_id": "main_ch02"
   },
   {
-    "id": "rel_npc_mephisto_npc_霜星",
+    "id": "rel_npc_mephisto_npc_frostnova",
     "source": "npc_mephisto",
-    "target": "npc_霜星",
+    "target": "npc_frostnova",
     "relation_type": "rival",
     "relation_label": {
       "zh_CN": "互相厌恶",
@@ -982,7 +952,7 @@
   {
     "id": "rel_char_294_meteo_char_292_frost",
     "source": "char_126_shotst",
-    "target": "char_f2b9a339",
+    "target": "char_193_frostl",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "罗德岛战友/生死与共",
@@ -1011,7 +981,7 @@
   },
   {
     "id": "rel_char_183_jessica_char_294_meteo",
-    "source": "char_31c537a1",
+    "source": "char_235_jesica",
     "target": "char_126_shotst",
     "relation_type": "ally",
     "relation_label": {
@@ -1041,8 +1011,8 @@
   },
   {
     "id": "rel_char_183_jessica_char_292_frost",
-    "source": "char_31c537a1",
-    "target": "char_f2b9a339",
+    "source": "char_235_jesica",
+    "target": "char_193_frostl",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "战友/被保护者",
@@ -1070,9 +1040,9 @@
     "first_appear_event_id": "main_ch04"
   },
   {
-    "id": "rel_npc_霜星_npc_talula",
-    "source": "npc_霜星",
-    "target": "npc_talula",
+    "id": "rel_npc_frostnova_npc_talulah",
+    "source": "npc_frostnova",
+    "target": "npc_talulah",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "整合运动领袖与队员",
@@ -1115,8 +1085,8 @@
     "first_appear_event_id": "main_ch04"
   },
   {
-    "id": "rel_npc_talula_npc_mephisto",
-    "source": "npc_talula",
+    "id": "rel_npc_talulah_npc_mephisto",
+    "source": "npc_talulah",
     "target": "npc_mephisto",
     "relation_type": "ally",
     "relation_label": {
@@ -1145,8 +1115,8 @@
     "first_appear_event_id": "main_ch04"
   },
   {
-    "id": "rel_npc_talula_npc_faust",
-    "source": "npc_talula",
+    "id": "rel_npc_talulah_npc_faust",
+    "source": "npc_talulah",
     "target": "npc_faust",
     "relation_type": "ally",
     "relation_label": {
@@ -1177,7 +1147,7 @@
   {
     "id": "rel_char_002_amiya_char_183_jessica",
     "source": "char_002_amiya",
-    "target": "char_31c537a1",
+    "target": "char_235_jesica",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "领袖对干员的关怀/鼓励",
@@ -1207,7 +1177,7 @@
   {
     "id": "rel_chen_swire",
     "source": "char_010_chen",
-    "target": "char_b18703d0",
+    "target": "char_308_swire",
     "relation_type": "unknown",
     "relation_label": {
       "zh_CN": "表面政敌·实则青梅挚友",
@@ -1392,39 +1362,9 @@
     "first_appear_event_id": "main_ch05"
   },
   {
-    "id": "rel_hoshiguma_swire",
-    "source": "char_137_brownb",
-    "target": "char_b18703d0",
-    "relation_type": "unknown",
-    "relation_label": {
-      "zh_CN": "同事情谊与调解",
-      "en_US": "Colleague & Mediator"
-    },
-    "description": {
-      "zh_CN": "星熊在陈与诗怀雅的冲突中扮演调解者角色，试图缓和两人的矛盾，并对诗怀雅保持礼貌。",
-      "en_US": "Hoshiguma serves as mediator in Ch'en and Swire's conflicts, trying to defuse tension while remaining courteous to Swire."
-    },
-    "associated_event_id": "main_ch05",
-    "evidences": [
-      {
-        "source_story": "level_main_05-01_beg",
-        "quote": {
-          "zh_CN": "嗨，抱歉，小姐。你们脾气其实都真够差的。不管她怎么说，刚才的援助还是谢谢你了。",
-          "en_US": "Hey, sorry about that, 'miss'. You two have quite the temper. Thanks for the assist though, whatever she says."
-        },
-        "context_analysis": {
-          "zh_CN": "星熊在陈和诗怀雅争吵后向诗怀雅致歉并感谢援助，扮演调解角色",
-          "en_US": "Hoshiguma apologizes to Swire after the Ch'en/Swire argument and thanks her for help, acting as mediator"
-        }
-      }
-    ],
-    "confidence_level": "official_fact",
-    "first_appear_event_id": "main_ch05"
-  },
-  {
     "id": "rel_chen_homura",
     "source": "char_010_chen",
-    "target": "char_134_aglina",
+    "target": "char_017_huang",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "临时战友与相互认可",
@@ -1465,7 +1405,7 @@
   {
     "id": "rel_chen_wei",
     "source": "char_010_chen",
-    "target": "npc_wei",
+    "target": "npc_2005_wywu",
     "relation_type": "subordinate",
     "relation_label": {
       "zh_CN": "上下级/忠诚",
@@ -1562,7 +1502,7 @@
   },
   {
     "id": "rel_huang_chen",
-    "source": "char_134_aglina",
+    "source": "char_017_huang",
     "target": "char_010_chen",
     "relation_type": "ally",
     "relation_label": {
@@ -1607,8 +1547,8 @@
   },
   {
     "id": "rel_huang_frostnova",
-    "source": "char_134_aglina",
-    "target": "npc_霜星",
+    "source": "char_017_huang",
+    "target": "npc_frostnova",
     "relation_type": "unknown",
     "relation_label": {
       "zh_CN": "对手/共情",
@@ -1659,7 +1599,7 @@
   {
     "id": "rel_amiya_frostnova",
     "source": "char_002_amiya",
-    "target": "npc_霜星",
+    "target": "npc_frostnova",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "战士间的认可",
@@ -1715,7 +1655,7 @@
   {
     "id": "rel_faust_frostnova",
     "source": "npc_faust",
-    "target": "npc_霜星",
+    "target": "npc_frostnova",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "战友",
@@ -1749,7 +1689,7 @@
   },
   {
     "id": "ch06_rel_002",
-    "source": "char_134_aglina",
+    "source": "char_017_huang",
     "target": "char_002_amiya",
     "relation_type": "ally",
     "relation_label": {
@@ -1778,7 +1718,7 @@
   },
   {
     "id": "ch06_rel_003",
-    "source": "char_134_aglina",
+    "source": "char_017_huang",
     "target": "char_367_swllow",
     "relation_type": "ally",
     "relation_label": {
@@ -1860,8 +1800,8 @@
   },
   {
     "id": "ch06_rel_010",
-    "source": "avg_npc_042",
-    "target": "avg_npc_026",
+    "source": "char_391_rosmon",
+    "target": "npc_scout",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "同事/关心",
@@ -1884,7 +1824,7 @@
   },
   {
     "id": "ch06_rel_011",
-    "source": "avg_npc_042",
+    "source": "char_391_rosmon",
     "target": "npc_ace",
     "relation_type": "ally",
     "relation_label": {
@@ -1933,7 +1873,7 @@
   {
     "id": "ch06_rel_013",
     "source": "npc_ace",
-    "target": "char_134_aglina",
+    "target": "char_017_huang",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "同僚/尊重",
@@ -1956,8 +1896,8 @@
   },
   {
     "id": "r007",
-    "source": "npc_talula",
-    "target": "char_edfebc83",
+    "source": "npc_talulah",
+    "target": "char_1502_crosly",
     "relation_type": "rival",
     "relation_label": {
       "zh_CN": "指挥/利用",
@@ -1980,8 +1920,8 @@
   },
   {
     "id": "r008",
-    "source": "avg_npc_042",
-    "target": "char_edfebc83",
+    "source": "char_391_rosmon",
+    "target": "char_1502_crosly",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "战友",
@@ -2005,7 +1945,7 @@
   {
     "id": "r009",
     "source": "char_4080_lin",
-    "target": "npc_shrew_king",
+    "target": "npc_ratking",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "父女",
@@ -2034,7 +1974,7 @@
   {
     "id": "r010",
     "source": "char_4080_lin",
-    "target": "char_b18703d0",
+    "target": "char_308_swire",
     "relation_type": "unknown",
     "relation_label": {
       "zh_CN": "对立/争执",
@@ -2101,8 +2041,8 @@
   },
   {
     "id": "r012",
-    "source": "npc_wei",
-    "target": "char_b18703d0",
+    "source": "npc_2005_wywu",
+    "target": "char_308_swire",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "上下级/信任",
@@ -2149,7 +2089,7 @@
   },
   {
     "id": "r017",
-    "source": "avg_npc_042",
+    "source": "char_391_rosmon",
     "target": "npc_faust",
     "relation_type": "ally",
     "relation_label": {
@@ -2179,7 +2119,7 @@
   {
     "id": "r018",
     "source": "npc_faust",
-    "target": "avg_npc_039",
+    "target": "npc_nine",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "上下级",
@@ -2208,7 +2148,7 @@
   {
     "id": "r019",
     "source": "char_002_amiya",
-    "target": "char_b18703d0",
+    "target": "char_308_swire",
     "relation_type": "unknown",
     "relation_label": {
       "zh_CN": "合作/尊重",
@@ -2236,7 +2176,7 @@
   },
   {
     "id": "r020",
-    "source": "char_134_aglina",
+    "source": "char_017_huang",
     "target": "npc_mephisto",
     "relation_type": "rival",
     "relation_label": {
@@ -2294,8 +2234,8 @@
   },
   {
     "id": "ch6_rel_005",
-    "source": "npc_霜星",
-    "target": "avg_npc_026",
+    "source": "npc_frostnova",
+    "target": "npc_scout",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "整合运动盟友",
@@ -2318,7 +2258,7 @@
   },
   {
     "id": "ch6_rel_008",
-    "source": "avg_npc_039",
+    "source": "npc_nine",
     "target": "char_010_chen",
     "relation_type": "unknown",
     "relation_label": {
@@ -2348,7 +2288,7 @@
   {
     "id": "ch6_rel_010",
     "source": "char_003_kalts",
-    "target": "char_edfebc83",
+    "target": "char_1502_crosly",
     "relation_type": "rival",
     "relation_label": {
       "zh_CN": "仇敌对峙",
@@ -2382,7 +2322,7 @@
   {
     "id": "ch6_rel_011",
     "source": "char_003_kalts",
-    "target": "char_d088e652",
+    "target": "char_144_projektred",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "上下级协作",
@@ -2454,8 +2394,8 @@
   },
   {
     "id": "ch6_rel_014",
-    "source": "npc_霜星",
-    "target": "avg_npc_041",
+    "source": "npc_frostnova",
+    "target": "npc_bigbear",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "雪怪小队成员",
@@ -2483,8 +2423,8 @@
   },
   {
     "id": "ch6_rel_015",
-    "source": "npc_霜星",
-    "target": "char_040fdfb9",
+    "source": "npc_frostnova",
+    "target": "char_219_meteo",
     "relation_type": "unknown",
     "relation_label": {
       "zh_CN": "战场休战",
@@ -2512,7 +2452,7 @@
   },
   {
     "id": "ch6_rel_016",
-    "source": "avg_npc_026",
+    "source": "npc_scout",
     "target": "npc_mephisto",
     "relation_type": "ally",
     "relation_label": {
@@ -2541,8 +2481,8 @@
   },
   {
     "id": "ch6_rel_017",
-    "source": "char_134_aglina",
-    "target": "char_31c537a1",
+    "source": "char_017_huang",
+    "target": "char_235_jesica",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "罗德岛同僚",
@@ -2565,8 +2505,8 @@
   },
   {
     "id": "ch6_rel_018",
-    "source": "char_134_aglina",
-    "target": "char_f2b9a339",
+    "source": "char_017_huang",
+    "target": "char_193_frostl",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "罗德岛同僚",
@@ -2595,7 +2535,7 @@
   {
     "id": "rel_ch6_06-11_008",
     "source": "char_003_kalts",
-    "target": "char_134_aglina",
+    "target": "char_017_huang",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "战友/同伴关系",
@@ -2618,7 +2558,7 @@
   },
   {
     "id": "rel_ch6_06-11_013",
-    "source": "char_040fdfb9",
+    "source": "char_219_meteo",
     "target": "char_002_amiya",
     "relation_type": "ally",
     "relation_label": {
@@ -2647,8 +2587,8 @@
   },
   {
     "id": "rel_ch6_06-11_014",
-    "source": "npc_霜星",
-    "target": "char_f2b9a339",
+    "source": "npc_frostnova",
+    "target": "char_193_frostl",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "霜星赠药",
@@ -2676,8 +2616,8 @@
   },
   {
     "id": "rel_ch6_06-11_017",
-    "source": "char_134_aglina",
-    "target": "avg_npc_026",
+    "source": "char_017_huang",
+    "target": "npc_scout",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "战友牺牲",
@@ -2706,7 +2646,7 @@
   {
     "id": "rel_ch00_char_002_ami_char_edfebc8",
     "source": "char_002_amiya",
-    "target": "char_edfebc83",
+    "target": "char_1502_crosly",
     "relation_type": "rival",
     "relation_label": {
       "zh_CN": "敌人/整合运动",
@@ -2817,8 +2757,8 @@
   },
   {
     "id": "rel_ch00_char_1778bbd_char_8375f0b",
-    "source": "char_1778bbd4",
-    "target": "char_8375f0bb",
+    "source": "char_148_nearl",
+    "target": "char_130_doberm",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "同事/战友",
@@ -2869,7 +2809,7 @@
   },
   {
     "id": "rel_ch00_char_1778bbd_npc_faust",
-    "source": "char_1778bbd4",
+    "source": "char_148_nearl",
     "target": "npc_faust",
     "relation_type": "rival",
     "relation_label": {
@@ -2899,8 +2839,8 @@
   },
   {
     "id": "rel_ch00_char_8375f0b_char_edfebc8",
-    "source": "char_8375f0bb",
-    "target": "char_edfebc83",
+    "source": "char_130_doberm",
+    "target": "char_1502_crosly",
     "relation_type": "rival",
     "relation_label": {
       "zh_CN": "敌人/整合运动",
@@ -2940,7 +2880,7 @@
   },
   {
     "id": "rel_ch00_char_8375f0b_npc_mephisto",
-    "source": "char_8375f0bb",
+    "source": "char_130_doberm",
     "target": "npc_mephisto",
     "relation_type": "rival",
     "relation_label": {
@@ -2992,7 +2932,7 @@
   },
   {
     "id": "rel_ch00_char_8375f0b_npc_faust",
-    "source": "char_8375f0bb",
+    "source": "char_130_doberm",
     "target": "npc_faust",
     "relation_type": "rival",
     "relation_label": {
@@ -3032,9 +2972,9 @@
     "first_appear_event_id": "main_ch00"
   },
   {
-    "id": "rel_ch01_char_011_w_char_1778bbd",
-    "source": "char_011_w",
-    "target": "char_1778bbd4",
+    "id": "rel_ch01_char_113_cqbw_char_1778bbd",
+    "source": "char_113_cqbw",
+    "target": "char_148_nearl",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "同事/战友",
@@ -3084,9 +3024,9 @@
     "first_appear_event_id": "main_ch01"
   },
   {
-    "id": "rel_ch01_char_011_w_char_8375f0b",
-    "source": "char_011_w",
-    "target": "char_8375f0bb",
+    "id": "rel_ch01_char_113_cqbw_char_8375f0b",
+    "source": "char_113_cqbw",
+    "target": "char_130_doberm",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "同事/战友",
@@ -3136,9 +3076,9 @@
     "first_appear_event_id": "main_ch01"
   },
   {
-    "id": "rel_ch01_char_1778bbd_npc_talula",
-    "source": "char_1778bbd4",
-    "target": "npc_talula",
+    "id": "rel_ch01_char_1778bbd_npc_talulah",
+    "source": "char_148_nearl",
+    "target": "npc_talulah",
     "relation_type": "rival",
     "relation_label": {
       "zh_CN": "敌人/首要威胁",
@@ -3190,7 +3130,7 @@
   {
     "id": "rel_ch02_char_002_ami_npc_wei",
     "source": "char_002_amiya",
-    "target": "npc_wei",
+    "target": "npc_2005_wywu",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "接触/合作",
@@ -3242,7 +3182,7 @@
   {
     "id": "rel_ch02_char_002_ami_char_b09c7d0",
     "source": "char_002_amiya",
-    "target": "char_b09c7d04",
+    "target": "char_106_franka",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "企鹅物流/任务搭档",
@@ -3294,7 +3234,7 @@
   {
     "id": "rel_ch02_char_002_ami_char_564b67e",
     "source": "char_002_amiya",
-    "target": "char_564b67e2",
+    "target": "char_107_liskam",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "企鹅物流/任务搭档",
@@ -3450,7 +3390,7 @@
   {
     "id": "rel_ch02_char_003_kal_npc_wei",
     "source": "char_003_kalts",
-    "target": "npc_wei",
+    "target": "npc_2005_wywu",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "接触/合作",
@@ -3502,7 +3442,7 @@
   {
     "id": "rel_ch02_char_010_che_char_564b67e",
     "source": "char_010_chen",
-    "target": "char_564b67e2",
+    "target": "char_107_liskam",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "企鹅物流/任务搭档",
@@ -3532,7 +3472,7 @@
   {
     "id": "rel_ch02_char_010_che_char_b09c7d0",
     "source": "char_010_chen",
-    "target": "char_b09c7d04",
+    "target": "char_106_franka",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "企鹅物流/任务搭档",
@@ -3634,9 +3574,9 @@
     "first_appear_event_id": "main_ch02"
   },
   {
-    "id": "rel_ch02_char_010_che_char_011_w",
+    "id": "rel_ch02_char_010_che_char_113_cqbw",
     "source": "char_010_chen",
-    "target": "char_011_w",
+    "target": "char_113_cqbw",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "同事/战友",
@@ -3688,7 +3628,7 @@
   {
     "id": "rel_ch02_char_102_tex_char_b09c7d0",
     "source": "char_102_texas",
-    "target": "char_b09c7d04",
+    "target": "char_106_franka",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "企鹅物流/任务搭档",
@@ -3740,7 +3680,7 @@
   {
     "id": "rel_ch02_char_102_tex_char_564b67e",
     "source": "char_102_texas",
-    "target": "char_564b67e2",
+    "target": "char_107_liskam",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "企鹅物流/任务搭档",
@@ -3896,7 +3836,7 @@
   {
     "id": "rel_ch02_char_103_ang_char_564b67e",
     "source": "char_103_angel",
-    "target": "char_564b67e2",
+    "target": "char_107_liskam",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "企鹅物流/任务搭档",
@@ -3948,7 +3888,7 @@
   {
     "id": "rel_ch02_char_103_ang_char_b09c7d0",
     "source": "char_103_angel",
-    "target": "char_b09c7d04",
+    "target": "char_106_franka",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "企鹅物流/任务搭档",
@@ -4051,8 +3991,8 @@
   },
   {
     "id": "rel_ch02_char_564b67e_char_b09c7d0",
-    "source": "char_564b67e2",
-    "target": "char_b09c7d04",
+    "source": "char_107_liskam",
+    "target": "char_106_franka",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "企鹅物流/任务搭档",
@@ -4103,7 +4043,7 @@
   },
   {
     "id": "rel_ch02_char_564b67e_npc_米莎",
-    "source": "char_564b67e2",
+    "source": "char_107_liskam",
     "target": "npc_米莎",
     "relation_type": "ally",
     "relation_label": {
@@ -4144,7 +4084,7 @@
   },
   {
     "id": "rel_ch02_char_564b67e_npc_碎骨",
-    "source": "char_564b67e2",
+    "source": "char_107_liskam",
     "target": "npc_碎骨",
     "relation_type": "rival",
     "relation_label": {
@@ -4174,7 +4114,7 @@
   },
   {
     "id": "rel_ch02_char_b09c7d0_npc_米莎",
-    "source": "char_b09c7d04",
+    "source": "char_106_franka",
     "target": "npc_米莎",
     "relation_type": "ally",
     "relation_label": {
@@ -4215,7 +4155,7 @@
   },
   {
     "id": "rel_ch02_char_b09c7d0_npc_碎骨",
-    "source": "char_b09c7d04",
+    "source": "char_106_franka",
     "target": "npc_碎骨",
     "relation_type": "rival",
     "relation_label": {
@@ -4253,58 +4193,6 @@
     ],
     "confidence_level": "official_fact",
     "first_appear_event_id": "main_ch02"
-  },
-  {
-    "id": "rel_ch03_char_002_ami_char_137_bro",
-    "source": "char_002_amiya",
-    "target": "char_137_brownb",
-    "relation_type": "ally",
-    "relation_label": {
-      "zh_CN": "同事/战友",
-      "en_US": "同事/战友"
-    },
-    "description": {
-      "zh_CN": "阿米娅与星熊在ch03(1096 TY)的互动关系。",
-      "en_US": "阿米娅 and 星熊 interact during ch03."
-    },
-    "associated_event_id": "ch03",
-    "evidences": [
-      {
-        "source_story": "level_main_03-02_beg",
-        "quote": {
-          "zh_CN": "陈长官，这位是......",
-          "en_US": ""
-        },
-        "context_analysis": {
-          "zh_CN": "阿米娅与星熊在ch03(1096 TY)的对话",
-          "en_US": ""
-        }
-      },
-      {
-        "source_story": "level_main_03-02_beg",
-        "quote": {
-          "zh_CN": "咦，这么小的孩子，也是罗德岛的人吗？",
-          "en_US": ""
-        },
-        "context_analysis": {
-          "zh_CN": "阿米娅与星熊在ch03(1096 TY)的对话",
-          "en_US": ""
-        }
-      },
-      {
-        "source_story": "level_main_03-02_beg",
-        "quote": {
-          "zh_CN": "别在意。我也想稍微听一下。",
-          "en_US": ""
-        },
-        "context_analysis": {
-          "zh_CN": "阿米娅与星熊在ch03(1096 TY)的对话",
-          "en_US": ""
-        }
-      }
-    ],
-    "confidence_level": "official_fact",
-    "first_appear_event_id": "main_ch03"
   },
   {
     "id": "rel_ch03_char_010_che_char_103_ang",
@@ -4389,8 +4277,8 @@
     "first_appear_event_id": "main_ch03"
   },
   {
-    "id": "rel_ch03_char_011_w_npc_米莎",
-    "source": "char_011_w",
+    "id": "rel_ch03_char_113_cqbw_npc_米莎",
+    "source": "char_113_cqbw",
     "target": "npc_米莎",
     "relation_type": "ally",
     "relation_label": {
@@ -4441,110 +4329,6 @@
     "first_appear_event_id": "main_ch03"
   },
   {
-    "id": "rel_ch03_char_011_w_char_137_bro",
-    "source": "char_011_w",
-    "target": "char_137_brownb",
-    "relation_type": "ally",
-    "relation_label": {
-      "zh_CN": "同事/战友",
-      "en_US": "同事/战友"
-    },
-    "description": {
-      "zh_CN": "W与星熊在ch03(1096 TY)的互动关系。",
-      "en_US": "W and 星熊 interact during ch03."
-    },
-    "associated_event_id": "ch03",
-    "evidences": [
-      {
-        "source_story": "level_main_03-05_beg",
-        "quote": {
-          "zh_CN": "呼呼，用盾挡开了？有些意思——",
-          "en_US": ""
-        },
-        "context_analysis": {
-          "zh_CN": "W与星熊在ch03(1096 TY)的对话",
-          "en_US": ""
-        }
-      },
-      {
-        "source_story": "level_main_03-05_beg",
-        "quote": {
-          "zh_CN": "爆炸？整合运动的偷袭？！",
-          "en_US": ""
-        },
-        "context_analysis": {
-          "zh_CN": "W与星熊在ch03(1096 TY)的对话",
-          "en_US": ""
-        }
-      },
-      {
-        "source_story": "level_main_03-05_beg",
-        "quote": {
-          "zh_CN": "就请你在这里乖乖呆着，别向后去了哦？",
-          "en_US": ""
-        },
-        "context_analysis": {
-          "zh_CN": "W与星熊在ch03(1096 TY)的对话",
-          "en_US": ""
-        }
-      }
-    ],
-    "confidence_level": "official_fact",
-    "first_appear_event_id": "main_ch03"
-  },
-  {
-    "id": "rel_ch03_char_102_tex_char_137_bro",
-    "source": "char_102_texas",
-    "target": "char_137_brownb",
-    "relation_type": "ally",
-    "relation_label": {
-      "zh_CN": "企鹅物流/任务搭档",
-      "en_US": "企鹅物流/任务搭档"
-    },
-    "description": {
-      "zh_CN": "德克萨斯与星熊在ch03(1096 TY)的互动关系。",
-      "en_US": "德克萨斯 and 星熊 interact during ch03."
-    },
-    "associated_event_id": "ch03",
-    "evidences": [
-      {
-        "source_story": "level_main_03-04_beg",
-        "quote": {
-          "zh_CN": "整合运动应该是有意识把我们引到这里来的。",
-          "en_US": ""
-        },
-        "context_analysis": {
-          "zh_CN": "德克萨斯与星熊在ch03(1096 TY)的对话",
-          "en_US": ""
-        }
-      },
-      {
-        "source_story": "level_main_03-04_beg",
-        "quote": {
-          "zh_CN": "看来一切进行得十分顺利。",
-          "en_US": ""
-        },
-        "context_analysis": {
-          "zh_CN": "德克萨斯与星熊在ch03(1096 TY)的对话",
-          "en_US": ""
-        }
-      },
-      {
-        "source_story": "level_main_03-04_beg",
-        "quote": {
-          "zh_CN": "接下来——可就不一定了。 敌人设置了许多障碍物，埋伏也十分隐蔽。",
-          "en_US": ""
-        },
-        "context_analysis": {
-          "zh_CN": "德克萨斯与星熊在ch03(1096 TY)的对话",
-          "en_US": ""
-        }
-      }
-    ],
-    "confidence_level": "official_fact",
-    "first_appear_event_id": "main_ch03"
-  },
-  {
     "id": "rel_ch03_char_103_ang_npc_碎骨",
     "source": "char_103_angel",
     "target": "npc_碎骨",
@@ -4586,217 +4370,9 @@
     "first_appear_event_id": "main_ch03"
   },
   {
-    "id": "rel_ch03_char_103_ang_char_137_bro",
-    "source": "char_103_angel",
-    "target": "char_137_brownb",
-    "relation_type": "ally",
-    "relation_label": {
-      "zh_CN": "企鹅物流/任务搭档",
-      "en_US": "企鹅物流/任务搭档"
-    },
-    "description": {
-      "zh_CN": "能天使与星熊在ch03(1096 TY)的互动关系。",
-      "en_US": "能天使 and 星熊 interact during ch03."
-    },
-    "associated_event_id": "ch03",
-    "evidences": [
-      {
-        "source_story": "level_main_03-04_beg",
-        "quote": {
-          "zh_CN": "——唔哦，刚才那阵风好大。",
-          "en_US": ""
-        },
-        "context_analysis": {
-          "zh_CN": "能天使与星熊在ch03(1096 TY)的对话",
-          "en_US": ""
-        }
-      },
-      {
-        "source_story": "level_main_03-04_beg",
-        "quote": {
-          "zh_CN": "唔唔，可视好差，有点施展不开呢......",
-          "en_US": ""
-        },
-        "context_analysis": {
-          "zh_CN": "能天使与星熊在ch03(1096 TY)的对话",
-          "en_US": ""
-        }
-      },
-      {
-        "source_story": "level_main_03-04_beg",
-        "quote": {
-          "zh_CN": "是从......地下！？？",
-          "en_US": ""
-        },
-        "context_analysis": {
-          "zh_CN": "能天使与星熊在ch03(1096 TY)的对话",
-          "en_US": ""
-        }
-      }
-    ],
-    "confidence_level": "official_fact",
-    "first_appear_event_id": "main_ch03"
-  },
-  {
-    "id": "rel_ch03_char_137_bro_char_b09c7d0",
-    "source": "char_137_brownb",
-    "target": "char_b09c7d04",
-    "relation_type": "ally",
-    "relation_label": {
-      "zh_CN": "企鹅物流/任务搭档",
-      "en_US": "企鹅物流/任务搭档"
-    },
-    "description": {
-      "zh_CN": "星熊与芙兰卡在ch03(1096 TY)的互动关系。",
-      "en_US": "星熊 and 芙兰卡 interact during ch03."
-    },
-    "associated_event_id": "ch03",
-    "evidences": [
-      {
-        "source_story": "level_main_03-04_beg",
-        "quote": {
-          "zh_CN": "黄沙、荒原、岩石。真是凑齐了一切野外作战的要素。",
-          "en_US": ""
-        },
-        "context_analysis": {
-          "zh_CN": "星熊与芙兰卡在ch03(1096 TY)的对话",
-          "en_US": ""
-        }
-      },
-      {
-        "source_story": "level_main_03-04_beg",
-        "quote": {
-          "zh_CN": "唯一缺的东西，大概就是敌人了吧？",
-          "en_US": ""
-        },
-        "context_analysis": {
-          "zh_CN": "星熊与芙兰卡在ch03(1096 TY)的对话",
-          "en_US": ""
-        }
-      },
-      {
-        "source_story": "level_main_03-04_beg",
-        "quote": {
-          "zh_CN": "那么多感染者，怎么可能消失得无影无踪？",
-          "en_US": ""
-        },
-        "context_analysis": {
-          "zh_CN": "星熊与芙兰卡在ch03(1096 TY)的对话",
-          "en_US": ""
-        }
-      }
-    ],
-    "confidence_level": "official_fact",
-    "first_appear_event_id": "main_ch03"
-  },
-  {
-    "id": "rel_ch03_char_137_bro_char_564b67e",
-    "source": "char_137_brownb",
-    "target": "char_564b67e2",
-    "relation_type": "ally",
-    "relation_label": {
-      "zh_CN": "企鹅物流/任务搭档",
-      "en_US": "企鹅物流/任务搭档"
-    },
-    "description": {
-      "zh_CN": "星熊与雷蛇在ch03(1096 TY)的互动关系。",
-      "en_US": "星熊 and 雷蛇 interact during ch03."
-    },
-    "associated_event_id": "ch03",
-    "evidences": [
-      {
-        "source_story": "level_main_03-04_beg",
-        "quote": {
-          "zh_CN": "整合运动可能会等到我们都进入包围圈之后，再对我们发动攻击。",
-          "en_US": ""
-        },
-        "context_analysis": {
-          "zh_CN": "星熊与雷蛇在ch03(1096 TY)的对话",
-          "en_US": ""
-        }
-      },
-      {
-        "source_story": "level_main_03-04_beg",
-        "quote": {
-          "zh_CN": "那么多感染者，怎么可能消失得无影无踪？",
-          "en_US": ""
-        },
-        "context_analysis": {
-          "zh_CN": "星熊与雷蛇在ch03(1096 TY)的对话",
-          "en_US": ""
-        }
-      },
-      {
-        "source_story": "level_main_03-04_beg",
-        "quote": {
-          "zh_CN": "凯尔希医生嘱咐我们的是......",
-          "en_US": ""
-        },
-        "context_analysis": {
-          "zh_CN": "星熊与雷蛇在ch03(1096 TY)的对话",
-          "en_US": ""
-        }
-      }
-    ],
-    "confidence_level": "official_fact",
-    "first_appear_event_id": "main_ch03"
-  },
-  {
-    "id": "rel_ch03_char_137_bro_npc_碎骨",
-    "source": "char_137_brownb",
-    "target": "npc_碎骨",
-    "relation_type": "rival",
-    "relation_label": {
-      "zh_CN": "敌对/悲剧背景",
-      "en_US": "敌对/悲剧背景"
-    },
-    "description": {
-      "zh_CN": "星熊与碎骨在ch03(1096 TY)的互动关系。",
-      "en_US": "星熊 and 碎骨 interact during ch03."
-    },
-    "associated_event_id": "ch03",
-    "evidences": [
-      {
-        "source_story": "level_main_03-04_end",
-        "quote": {
-          "zh_CN": "怎么......你居然......能挡住？",
-          "en_US": ""
-        },
-        "context_analysis": {
-          "zh_CN": "星熊与碎骨在ch03(1096 TY)的对话",
-          "en_US": ""
-        }
-      },
-      {
-        "source_story": "level_main_03-04_end",
-        "quote": {
-          "zh_CN": "这面“般若”，可不是你能打得穿的。",
-          "en_US": ""
-        },
-        "context_analysis": {
-          "zh_CN": "星熊与碎骨在ch03(1096 TY)的对话",
-          "en_US": ""
-        }
-      },
-      {
-        "source_story": "level_main_03-04_end",
-        "quote": {
-          "zh_CN": "那可......未必......",
-          "en_US": ""
-        },
-        "context_analysis": {
-          "zh_CN": "星熊与碎骨在ch03(1096 TY)的对话",
-          "en_US": ""
-        }
-      }
-    ],
-    "confidence_level": "official_fact",
-    "first_appear_event_id": "main_ch03"
-  },
-  {
     "id": "rel_ch04_char_002_ami_char_31c537a",
     "source": "char_002_amiya",
-    "target": "char_31c537a1",
+    "target": "char_235_jesica",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "同事/战友",
@@ -4848,7 +4424,7 @@
   {
     "id": "rel_ch04_char_002_ami_char_f2b9a33",
     "source": "char_002_amiya",
-    "target": "char_f2b9a339",
+    "target": "char_193_frostl",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "同事/战友",
@@ -4900,7 +4476,7 @@
   {
     "id": "rel_ch04_char_003_kal_char_040fdfb",
     "source": "char_003_kalts",
-    "target": "char_040fdfb9",
+    "target": "char_219_meteo",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "同事/战友",
@@ -4952,7 +4528,7 @@
   {
     "id": "rel_ch04_char_003_kal_char_31c537a",
     "source": "char_003_kalts",
-    "target": "char_31c537a1",
+    "target": "char_235_jesica",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "同事/战友",
@@ -5004,7 +4580,7 @@
   {
     "id": "rel_ch04_char_003_kal_char_f2b9a33",
     "source": "char_003_kalts",
-    "target": "char_f2b9a339",
+    "target": "char_193_frostl",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "同事/战友",
@@ -5054,50 +4630,9 @@
     "first_appear_event_id": "main_ch04"
   },
   {
-    "id": "rel_ch04_char_003_kal_char_137_bro",
-    "source": "char_003_kalts",
-    "target": "char_137_brownb",
-    "relation_type": "ally",
-    "relation_label": {
-      "zh_CN": "同事/战友",
-      "en_US": "同事/战友"
-    },
-    "description": {
-      "zh_CN": "凯尔希与星熊在ch04(1096 TY)的互动关系。",
-      "en_US": "凯尔希 and 星熊 interact during ch04."
-    },
-    "associated_event_id": "ch04",
-    "evidences": [
-      {
-        "source_story": "level_main_04-05_beg",
-        "quote": {
-          "zh_CN": "出了什么事？我不过拿个报表，你们两个的表情就变得那么严肃。",
-          "en_US": ""
-        },
-        "context_analysis": {
-          "zh_CN": "凯尔希与星熊在ch04(1096 TY)的对话",
-          "en_US": ""
-        }
-      },
-      {
-        "source_story": "level_main_04-05_beg",
-        "quote": {
-          "zh_CN": "我去整备。你通知一下近卫局的其他人。",
-          "en_US": ""
-        },
-        "context_analysis": {
-          "zh_CN": "凯尔希与星熊在ch04(1096 TY)的对话",
-          "en_US": ""
-        }
-      }
-    ],
-    "confidence_level": "official_fact",
-    "first_appear_event_id": "main_ch04"
-  },
-  {
     "id": "rel_ch04_char_010_che_char_040fdfb",
     "source": "char_010_chen",
-    "target": "char_040fdfb9",
+    "target": "char_219_meteo",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "同事/战友",
@@ -5136,9 +4671,9 @@
     "first_appear_event_id": "main_ch04"
   },
   {
-    "id": "rel_ch04_char_011_w_char_31c537a",
-    "source": "char_011_w",
-    "target": "char_31c537a1",
+    "id": "rel_ch04_char_113_cqbw_char_31c537a",
+    "source": "char_113_cqbw",
+    "target": "char_235_jesica",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "同事/战友",
@@ -5166,8 +4701,8 @@
     "first_appear_event_id": "main_ch04"
   },
   {
-    "id": "rel_ch04_char_011_w_npc_mephisto",
-    "source": "char_011_w",
+    "id": "rel_ch04_char_113_cqbw_npc_mephisto",
+    "source": "char_113_cqbw",
     "target": "npc_mephisto",
     "relation_type": "rival",
     "relation_label": {
@@ -5219,8 +4754,8 @@
   },
   {
     "id": "rel_ch04_char_040fdfb_char_f2b9a33",
-    "source": "char_040fdfb9",
-    "target": "char_f2b9a339",
+    "source": "char_219_meteo",
+    "target": "char_193_frostl",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "同事/战友",
@@ -5271,8 +4806,8 @@
   },
   {
     "id": "rel_ch04_char_040fdfb_char_31c537a",
-    "source": "char_040fdfb9",
-    "target": "char_31c537a1",
+    "source": "char_219_meteo",
+    "target": "char_235_jesica",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "同事/战友",
@@ -5323,7 +4858,7 @@
   },
   {
     "id": "rel_ch04_char_040fdfb_char_102_tex",
-    "source": "char_040fdfb9",
+    "source": "char_219_meteo",
     "target": "char_102_texas",
     "relation_type": "ally",
     "relation_label": {
@@ -5353,7 +4888,7 @@
   },
   {
     "id": "rel_ch04_char_040fdfb_char_103_ang",
-    "source": "char_040fdfb9",
+    "source": "char_219_meteo",
     "target": "char_103_angel",
     "relation_type": "ally",
     "relation_label": {
@@ -5383,7 +4918,7 @@
   },
   {
     "id": "rel_ch04_char_040fdfb_npc_mephisto",
-    "source": "char_040fdfb9",
+    "source": "char_219_meteo",
     "target": "npc_mephisto",
     "relation_type": "rival",
     "relation_label": {
@@ -5414,7 +4949,7 @@
   {
     "id": "rel_ch04_char_102_tex_char_31c537a",
     "source": "char_102_texas",
-    "target": "char_31c537a1",
+    "target": "char_235_jesica",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "企鹅物流/任务搭档",
@@ -5444,7 +4979,7 @@
   {
     "id": "rel_ch04_char_102_tex_char_f2b9a33",
     "source": "char_102_texas",
-    "target": "char_f2b9a339",
+    "target": "char_193_frostl",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "企鹅物流/任务搭档",
@@ -5474,7 +5009,7 @@
   {
     "id": "rel_ch04_char_103_ang_char_f2b9a33",
     "source": "char_103_angel",
-    "target": "char_f2b9a339",
+    "target": "char_193_frostl",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "企鹅物流/任务搭档",
@@ -5503,8 +5038,8 @@
   },
   {
     "id": "rel_ch04_char_31c537a_char_f2b9a33",
-    "source": "char_31c537a1",
-    "target": "char_f2b9a339",
+    "source": "char_235_jesica",
+    "target": "char_193_frostl",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "同事/战友",
@@ -5555,7 +5090,7 @@
   },
   {
     "id": "rel_ch04_char_31c537a_npc_mephisto",
-    "source": "char_31c537a1",
+    "source": "char_235_jesica",
     "target": "npc_mephisto",
     "relation_type": "rival",
     "relation_label": {
@@ -5606,9 +5141,9 @@
     "first_appear_event_id": "main_ch04"
   },
   {
-    "id": "rel_ch04_char_31c537a_npc_霜星",
-    "source": "char_31c537a1",
-    "target": "npc_霜星",
+    "id": "rel_ch04_char_31c537a_npc_frostnova",
+    "source": "char_235_jesica",
+    "target": "npc_frostnova",
     "relation_type": "rival",
     "relation_label": {
       "zh_CN": "敌人/霜星",
@@ -5637,7 +5172,7 @@
   },
   {
     "id": "rel_ch04_char_f2b9a33_npc_mephisto",
-    "source": "char_f2b9a339",
+    "source": "char_193_frostl",
     "target": "npc_mephisto",
     "relation_type": "rival",
     "relation_label": {
@@ -5678,8 +5213,8 @@
   },
   {
     "id": "rel_hb_char_4daf615_char_6d7c1af",
-    "source": "char_4daf615f",
-    "target": "char_6d7c1afb",
+    "source": "char_4027_heyak",
+    "target": "npc_doctor",
     "first_appear_event_id": "main_ch17",
     "associated_event_id": "main_ch17",
     "relation_type": "ally",
@@ -5730,8 +5265,8 @@
   },
   {
     "id": "rel_hb_char_14aa598_char_6d7c1af",
-    "source": "char_14aa5984",
-    "target": "char_6d7c1afb",
+    "source": "char_4114_harold",
+    "target": "npc_doctor",
     "first_appear_event_id": "main_ch17",
     "associated_event_id": "main_ch17",
     "relation_type": "ally",
@@ -5783,7 +5318,7 @@
   {
     "id": "rel_hb_char_263_ska_char_6d7c1af",
     "source": "char_263_skadi",
-    "target": "char_6d7c1afb",
+    "target": "npc_doctor",
     "first_appear_event_id": "main_ch17",
     "associated_event_id": "main_ch17",
     "relation_type": "ally",
@@ -5835,7 +5370,7 @@
   {
     "id": "rel_hb_char_002_ami_char_0d14174",
     "source": "char_002_amiya",
-    "target": "char_0d14174c",
+    "target": "char_4010_etlchi",
     "first_appear_event_id": "main_ch17",
     "associated_event_id": "main_ch17",
     "relation_type": "ally",
@@ -5887,7 +5422,7 @@
   {
     "id": "rel_hb_char_003_kal_char_ce834e1",
     "source": "char_003_kalts",
-    "target": "char_ce834e1a",
+    "target": "char_4132_ascln",
     "first_appear_event_id": "main_ch17",
     "associated_event_id": "main_ch17",
     "relation_type": "ally",
@@ -5938,8 +5473,8 @@
   },
   {
     "id": "rel_hb_char_40a6210_char_6d7c1af",
-    "source": "char_40a6210a",
-    "target": "char_6d7c1afb",
+    "source": "char_4013_kjera",
+    "target": "npc_doctor",
     "first_appear_event_id": "main_ch17",
     "associated_event_id": "main_ch17",
     "relation_type": "ally",
@@ -5990,8 +5525,8 @@
   },
   {
     "id": "rel_hb_char_4a5b4cb_char_6d7c1af",
-    "source": "char_4a5b4cb2",
-    "target": "char_6d7c1afb",
+    "source": "char_4088_hodrer",
+    "target": "npc_doctor",
     "first_appear_event_id": "main_ch17",
     "associated_event_id": "main_ch17",
     "relation_type": "ally",
@@ -6042,8 +5577,8 @@
   },
   {
     "id": "rel_hb_char_6d7c1af_char_ce834e1",
-    "source": "char_6d7c1afb",
-    "target": "char_ce834e1a",
+    "source": "npc_doctor",
+    "target": "char_4132_ascln",
     "first_appear_event_id": "main_ch17",
     "associated_event_id": "main_ch17",
     "relation_type": "ally",
@@ -6094,8 +5629,8 @@
   },
   {
     "id": "rel_hb_char_121_ifr_char_6d7c1af",
-    "source": "char_121_ifrit",
-    "target": "char_6d7c1afb",
+    "source": "char_134_ifrit",
+    "target": "npc_doctor",
     "first_appear_event_id": "main_ch17",
     "associated_event_id": "main_ch17",
     "relation_type": "ally",
@@ -6146,8 +5681,8 @@
   },
   {
     "id": "rel_hb_char_040fdfb_char_2a6219a",
-    "source": "char_040fdfb9",
-    "target": "char_2a6219aa",
+    "source": "char_219_meteo",
+    "target": "char_158_milu",
     "first_appear_event_id": "main_ch17",
     "associated_event_id": "main_ch17",
     "relation_type": "ally",
@@ -6198,8 +5733,8 @@
   },
   {
     "id": "rel_hb_char_6d7c1af_char_a67c8fa",
-    "source": "char_6d7c1afb",
-    "target": "char_a67c8fa9",
+    "source": "npc_doctor",
+    "target": "char_4014_lunacu",
     "first_appear_event_id": "main_ch17",
     "associated_event_id": "main_ch17",
     "relation_type": "ally",
@@ -6251,7 +5786,7 @@
   {
     "id": "rel_hb_char_002_ami_char_6d7c1af",
     "source": "char_002_amiya",
-    "target": "char_6d7c1afb",
+    "target": "npc_doctor",
     "first_appear_event_id": "main_ch17",
     "associated_event_id": "main_ch17",
     "relation_type": "ally",
@@ -6291,8 +5826,8 @@
   },
   {
     "id": "rel_hb_char_6d7c1af_char_f6869f8",
-    "source": "char_6d7c1afb",
-    "target": "char_f6869f88",
+    "source": "npc_doctor",
+    "target": "char_261_sddrag",
     "first_appear_event_id": "main_ch17",
     "associated_event_id": "main_ch17",
     "relation_type": "ally",
@@ -6332,8 +5867,8 @@
   },
   {
     "id": "rel_hb_char_201_gav_char_4087_do",
-    "source": "char_201_gavial",
-    "target": "char_4087_dowarne",
+    "source": "char_187_ccheal",
+    "target": "char_411_tomimi",
     "first_appear_event_id": "main_ch17",
     "associated_event_id": "main_ch17",
     "relation_type": "ally",
@@ -6372,9 +5907,9 @@
     ]
   },
   {
-    "id": "rel_hb_avg_npc_042_char_f0f31c9",
-    "source": "avg_npc_042",
-    "target": "char_f0f31c97",
+    "id": "rel_hb_char_391_rosmon_char_f0f31c9",
+    "source": "char_391_rosmon",
+    "target": "char_4002_touki",
     "first_appear_event_id": "main_ch17",
     "associated_event_id": "main_ch17",
     "relation_type": "ally",
@@ -6414,8 +5949,8 @@
   },
   {
     "id": "rel_hb_char_6d7c1af_char_83c0a16",
-    "source": "char_6d7c1afb",
-    "target": "char_83c0a162",
+    "source": "npc_doctor",
+    "target": "char_472_pasngr",
     "first_appear_event_id": "main_ch17",
     "associated_event_id": "main_ch17",
     "relation_type": "ally",
@@ -6455,8 +5990,8 @@
   },
   {
     "id": "rel_hb_char_83c0a16_char_fa9aec3",
-    "source": "char_83c0a162",
-    "target": "char_fa9aec3b",
+    "source": "char_472_pasngr",
+    "target": "char_379_sesa",
     "first_appear_event_id": "main_ch17",
     "associated_event_id": "main_ch17",
     "relation_type": "ally",
@@ -6538,7 +6073,7 @@
   {
     "id": "rel_hb_char_010_che_char_6d7c1af",
     "source": "char_010_chen",
-    "target": "char_6d7c1afb",
+    "target": "npc_doctor",
     "first_appear_event_id": "main_ch17",
     "associated_event_id": "main_ch17",
     "relation_type": "ally",
@@ -6578,8 +6113,8 @@
   },
   {
     "id": "rel_hb_char_1778bbd_char_36bb28e",
-    "source": "char_1778bbd4",
-    "target": "char_36bb28ec",
+    "source": "char_148_nearl",
+    "target": "char_4064_mlynar",
     "first_appear_event_id": "main_ch17",
     "associated_event_id": "main_ch17",
     "relation_type": "ally",
@@ -6620,7 +6155,7 @@
   {
     "id": "rel_hb_char_003_kal_char_1159084",
     "source": "char_003_kalts",
-    "target": "char_1159084b",
+    "target": "char_4039_horn",
     "first_appear_event_id": "main_ch17",
     "associated_event_id": "main_ch17",
     "relation_type": "ally",
@@ -6660,8 +6195,8 @@
   },
   {
     "id": "rel_hb_char_1012_sk_char_a651dc9",
-    "source": "char_1012_skadi2",
-    "target": "char_a651dc93",
+    "source": "char_143_ghost",
+    "target": "char_474_glady",
     "first_appear_event_id": "main_ch17",
     "associated_event_id": "main_ch17",
     "relation_type": "ally",
@@ -6701,8 +6236,8 @@
   },
   {
     "id": "rel_hb_char_6d7c1af_char_e56afc2",
-    "source": "char_6d7c1afb",
-    "target": "char_e56afc23",
+    "source": "npc_doctor",
+    "target": "char_502_nblade",
     "first_appear_event_id": "main_ch17",
     "associated_event_id": "main_ch17",
     "relation_type": "ally",
@@ -6742,8 +6277,8 @@
   },
   {
     "id": "rel_hb_char_5cdf4e3_char_6d7c1af",
-    "source": "char_5cdf4e3d",
-    "target": "char_6d7c1afb",
+    "source": "char_4098_vvana",
+    "target": "npc_doctor",
     "first_appear_event_id": "main_ch17",
     "associated_event_id": "main_ch17",
     "relation_type": "ally",
@@ -6783,8 +6318,8 @@
   },
   {
     "id": "rel_hb_char_14aa598_char_88d8605",
-    "source": "char_14aa5984",
-    "target": "char_88d8605e",
+    "source": "char_4114_harold",
+    "target": "char_4228_closur",
     "first_appear_event_id": "main_ch17",
     "associated_event_id": "main_ch17",
     "relation_type": "ally",
@@ -6824,8 +6359,8 @@
   },
   {
     "id": "rel_hb_char_6d7c1af_char_d0d79f4",
-    "source": "char_6d7c1afb",
-    "target": "char_d0d79f43",
+    "source": "npc_doctor",
+    "target": "char_4117_ray",
     "first_appear_event_id": "main_ch17",
     "associated_event_id": "main_ch17",
     "relation_type": "ally",
@@ -6865,8 +6400,8 @@
   },
   {
     "id": "rel_hb_char_5bb39ae_char_6d7c1af",
-    "source": "char_5bb39aed",
-    "target": "char_6d7c1afb",
+    "source": "char_4131_odda",
+    "target": "npc_doctor",
     "first_appear_event_id": "main_ch17",
     "associated_event_id": "main_ch17",
     "relation_type": "ally",
@@ -6906,8 +6441,8 @@
   },
   {
     "id": "rel_hb_char_6d7c1af_char_8d11ef8",
-    "source": "char_6d7c1afb",
-    "target": "char_8d11ef81",
+    "source": "npc_doctor",
+    "target": "char_1035_wisdel",
     "first_appear_event_id": "main_ch17",
     "associated_event_id": "main_ch17",
     "relation_type": "ally",
@@ -6947,8 +6482,8 @@
   },
   {
     "id": "rel_hb_char_5f82f34_char_a651dc9",
-    "source": "char_5f82f34b",
-    "target": "char_a651dc93",
+    "source": "char_4145_ulpia",
+    "target": "char_474_glady",
     "first_appear_event_id": "main_ch17",
     "associated_event_id": "main_ch17",
     "relation_type": "ally",
@@ -6988,8 +6523,8 @@
   },
   {
     "id": "rel_hb_char_84fdce1_char_88d8605",
-    "source": "char_84fdce1b",
-    "target": "char_88d8605e",
+    "source": "char_4162_cathy",
+    "target": "char_4228_closur",
     "first_appear_event_id": "main_ch17",
     "associated_event_id": "main_ch17",
     "relation_type": "ally",
@@ -7029,8 +6564,8 @@
   },
   {
     "id": "rel_hb_char_0d14174_char_88d8605",
-    "source": "char_0d14174c",
-    "target": "char_88d8605e",
+    "source": "char_4010_etlchi",
+    "target": "char_4228_closur",
     "first_appear_event_id": "main_ch17",
     "associated_event_id": "main_ch17",
     "relation_type": "ally",
@@ -7070,8 +6605,8 @@
   },
   {
     "id": "rel_hb_char_0d14174_char_ce834e1",
-    "source": "char_0d14174c",
-    "target": "char_ce834e1a",
+    "source": "char_4010_etlchi",
+    "target": "char_4132_ascln",
     "first_appear_event_id": "main_ch17",
     "associated_event_id": "main_ch17",
     "relation_type": "ally",
@@ -7112,7 +6647,7 @@
   {
     "id": "rel_hb_char_003_kal_char_0d14174",
     "source": "char_003_kalts",
-    "target": "char_0d14174c",
+    "target": "char_4010_etlchi",
     "first_appear_event_id": "main_ch17",
     "associated_event_id": "main_ch17",
     "relation_type": "ally",
@@ -7152,8 +6687,8 @@
   },
   {
     "id": "rel_hb_char_0d14174_char_7f56088",
-    "source": "char_0d14174c",
-    "target": "char_7f560885",
+    "source": "char_4010_etlchi",
+    "target": "char_171_warfarin",
     "first_appear_event_id": "main_ch17",
     "associated_event_id": "main_ch17",
     "relation_type": "ally",
@@ -7193,8 +6728,8 @@
   },
   {
     "id": "rel_hb_char_6d7c1af_char_c982e1a",
-    "source": "char_6d7c1afb",
-    "target": "char_c982e1a2",
+    "source": "npc_doctor",
+    "target": "char_450_necras",
     "first_appear_event_id": "main_ch17",
     "associated_event_id": "main_ch17",
     "relation_type": "ally",
@@ -7234,8 +6769,8 @@
   },
   {
     "id": "rel_hb_char_59eb83e_char_88d8605",
-    "source": "char_59eb83e7",
-    "target": "char_88d8605e",
+    "source": "char_4178_alanna",
+    "target": "char_4228_closur",
     "first_appear_event_id": "main_ch17",
     "associated_event_id": "main_ch17",
     "relation_type": "ally",
@@ -7276,7 +6811,7 @@
   {
     "id": "rel_hb_char_003_kal_char_6d7c1af",
     "source": "char_003_kalts",
-    "target": "char_6d7c1afb",
+    "target": "npc_doctor",
     "first_appear_event_id": "main_ch17",
     "associated_event_id": "main_ch17",
     "relation_type": "ally",
@@ -7316,8 +6851,8 @@
   },
   {
     "id": "rel_hb_char_490e8f5_char_da0bb5d",
-    "source": "char_490e8f54",
-    "target": "char_da0bb5dc",
+    "source": "char_122_beagle",
+    "target": "char_199_yak",
     "first_appear_event_id": "main_ch17",
     "associated_event_id": "main_ch17",
     "relation_type": "ally",
@@ -7346,8 +6881,8 @@
   },
   {
     "id": "rel_hb_char_ac09848_char_da0bb5d",
-    "source": "char_ac098486",
-    "target": "char_da0bb5dc",
+    "source": "char_123_fang",
+    "target": "char_199_yak",
     "first_appear_event_id": "main_ch17",
     "associated_event_id": "main_ch17",
     "relation_type": "ally",
@@ -7377,7 +6912,7 @@
   {
     "id": "rel_hb_char_002_ami_char_221_sil",
     "source": "char_002_amiya",
-    "target": "char_221_silver",
+    "target": "char_172_svrash",
     "first_appear_event_id": "main_ch17",
     "associated_event_id": "main_ch17",
     "relation_type": "rival",
@@ -7406,8 +6941,8 @@
   },
   {
     "id": "rel_hb_char_199_mes_char_221_sil",
-    "source": "char_199_mesa",
-    "target": "char_221_silver",
+    "source": "char_173_slchan",
+    "target": "char_172_svrash",
     "first_appear_event_id": "main_ch17",
     "associated_event_id": "main_ch17",
     "relation_type": "ally",
@@ -7436,8 +6971,8 @@
   },
   {
     "id": "rel_hb_char_221_sil_char_8375f0b",
-    "source": "char_221_silver",
-    "target": "char_8375f0bb",
+    "source": "char_172_svrash",
+    "target": "char_130_doberm",
     "first_appear_event_id": "main_ch17",
     "associated_event_id": "main_ch17",
     "relation_type": "ally",
@@ -7467,7 +7002,7 @@
   {
     "id": "rel_hb_char_003_kal_char_266_fla",
     "source": "char_003_kalts",
-    "target": "char_266_flash",
+    "target": "char_147_shining",
     "first_appear_event_id": "main_ch17",
     "associated_event_id": "main_ch17",
     "relation_type": "ally",
@@ -7497,7 +7032,7 @@
   {
     "id": "rel_hb_char_002_ami_char_1778bbd",
     "source": "char_002_amiya",
-    "target": "char_1778bbd4",
+    "target": "char_148_nearl",
     "first_appear_event_id": "main_ch17",
     "associated_event_id": "main_ch17",
     "relation_type": "ally",
@@ -7525,9 +7060,9 @@
     ]
   },
   {
-    "id": "rel_hb_char_002_ami_char_265_flk",
+    "id": "rel_hb_char_002_ami_char_179_cgbird",
     "source": "char_002_amiya",
-    "target": "char_265_flk",
+    "target": "char_179_cgbird",
     "first_appear_event_id": "main_ch17",
     "associated_event_id": "main_ch17",
     "relation_type": "rival",
@@ -7555,69 +7090,9 @@
     ]
   },
   {
-    "id": "rel_hb_char_137_bro_npc_wei",
-    "source": "char_137_brownb",
-    "target": "npc_wei",
-    "first_appear_event_id": "main_ch17",
-    "associated_event_id": "main_ch17",
-    "relation_type": "ally",
-    "relation_label": {
-      "zh_CN": "接触/关联",
-      "en_US": "接触/关联"
-    },
-    "description": {
-      "zh_CN": "星熊与魏彦吾在干员档案中相互提及。",
-      "en_US": ""
-    },
-    "confidence_level": "official_fact",
-    "evidences": [
-      {
-        "source_story": "char_136_hsguma",
-        "quote": {
-          "zh_CN": "。  若你以为她是个理智的人，那说明你还没有完全了解她。  那面盾——般若，等到有一天你能让她亲自告诉你那面盾的来历......  你才算真正了解了她。  ——魏彦吾",
-          "en_US": ""
-        },
-        "context_analysis": {
-          "zh_CN": "星熊在档案中提及魏彦吾",
-          "en_US": ""
-        }
-      }
-    ]
-  },
-  {
-    "id": "rel_hb_char_137_bro_char_6d7c1af",
-    "source": "char_137_brownb",
-    "target": "char_6d7c1afb",
-    "first_appear_event_id": "main_ch17",
-    "associated_event_id": "main_ch17",
-    "relation_type": "ally",
-    "relation_label": {
-      "zh_CN": "战友/同事",
-      "en_US": "战友/同事"
-    },
-    "description": {
-      "zh_CN": "星熊与博士在干员档案中相互提及。",
-      "en_US": ""
-    },
-    "confidence_level": "official_fact",
-    "evidences": [
-      {
-        "source_story": "char_136_hsguma",
-        "quote": {
-          "zh_CN": "为何会栖身于龙门的黑帮？  这些故事，显然发生在她来到龙门之前，至少现在，尚且不得而知。这个人，星熊，我可以借给你们。  看在我们合作愉快的份上，给你个小提示，博士。  若你以为她是个理智的人，那说明你还没有完全了解她。  那面盾——般若，等到有一天你能让她亲自告诉你那面盾的来历......  你才算真正了解了她。  ——",
-          "en_US": ""
-        },
-        "context_analysis": {
-          "zh_CN": "星熊在档案中提及博士",
-          "en_US": ""
-        }
-      }
-    ]
-  },
-  {
     "id": "rel_hb_char_9efedb7_char_caf5964",
-    "source": "char_9efedb7a",
-    "target": "char_caf59647",
+    "source": "char_185_frncat",
+    "target": "char_145_prove",
     "first_appear_event_id": "main_ch17",
     "associated_event_id": "main_ch17",
     "relation_type": "ally",
@@ -7646,8 +7121,8 @@
   },
   {
     "id": "rel_hb_char_31c537a_char_9efedb7",
-    "source": "char_31c537a1",
-    "target": "char_9efedb7a",
+    "source": "char_235_jesica",
+    "target": "char_185_frncat",
     "first_appear_event_id": "main_ch17",
     "associated_event_id": "main_ch17",
     "relation_type": "ally",
@@ -7677,7 +7152,7 @@
   {
     "id": "rel_hb_char_002_ami_char_d088e65",
     "source": "char_002_amiya",
-    "target": "char_d088e652",
+    "target": "char_144_projektred",
     "first_appear_event_id": "main_ch17",
     "associated_event_id": "main_ch17",
     "relation_type": "ally",
@@ -7692,7 +7167,7 @@
     "confidence_level": "official_fact",
     "evidences": [
       {
-        "source_story": "char_144_red",
+        "source_story": "char_144_projektred",
         "quote": {
           "zh_CN": "任何对相关记录的查阅与再整理。 4.销毁实验数据。  以上任务须在文件签署后一至二个工作日内完成。  经办人：■■·■■■ ■■■■ 审核人：凯尔希 ■■■■ 阿米娅【权限记录】 是否应该与“外婆”进行深入接触？ 我认为这是相当危险的行为。 深入接触会带给红怎样的影响？红又受到了“外婆”多少影响？“外婆”是怎样的个体或群体，",
           "en_US": ""
@@ -7706,8 +7181,8 @@
   },
   {
     "id": "rel_hb_char_201_gav_char_785b3ab",
-    "source": "char_201_gavial",
-    "target": "char_785b3ab2",
+    "source": "char_187_ccheal",
+    "target": "char_166_skfire",
     "first_appear_event_id": "main_ch17",
     "associated_event_id": "main_ch17",
     "relation_type": "ally",
@@ -7736,8 +7211,8 @@
   },
   {
     "id": "rel_hb_char_705bda3_char_92c7073",
-    "source": "char_705bda3b",
-    "target": "char_92c7073f",
+    "source": "char_278_orchid",
+    "target": "char_282_catap",
     "first_appear_event_id": "main_ch17",
     "associated_event_id": "main_ch17",
     "relation_type": "ally",
@@ -7766,8 +7241,8 @@
   },
   {
     "id": "rel_hb_char_122_sil_char_21367c4",
-    "source": "char_122_silence",
-    "target": "char_21367c43",
+    "source": "char_108_silent",
+    "target": "char_290_vigna",
     "first_appear_event_id": "main_ch17",
     "associated_event_id": "main_ch17",
     "relation_type": "ally",
@@ -7796,7 +7271,7 @@
   },
   {
     "id": "rel_hb_char_1012_sk_char_263_ska",
-    "source": "char_1012_skadi2",
+    "source": "char_143_ghost",
     "target": "char_263_skadi",
     "first_appear_event_id": "main_ch17",
     "associated_event_id": "main_ch17",
@@ -7827,7 +7302,7 @@
   {
     "id": "rel_hb_char_003_kal_char_3e30080",
     "source": "char_003_kalts",
-    "target": "char_3e300804",
+    "target": "char_326_glacus",
     "first_appear_event_id": "main_ch17",
     "associated_event_id": "main_ch17",
     "relation_type": "ally",
@@ -7856,8 +7331,8 @@
   },
   {
     "id": "rel_hb_char_6d7c1af_char_decc944",
-    "source": "char_6d7c1afb",
-    "target": "char_decc944a",
+    "source": "npc_doctor",
+    "target": "char_325_bison",
     "first_appear_event_id": "main_ch17",
     "associated_event_id": "main_ch17",
     "relation_type": "ally",
@@ -7887,7 +7362,7 @@
   {
     "id": "rel_hb_char_003_kal_char_f6869f8",
     "source": "char_003_kalts",
-    "target": "char_f6869f88",
+    "target": "char_261_sddrag",
     "first_appear_event_id": "main_ch17",
     "associated_event_id": "main_ch17",
     "relation_type": "ally",
@@ -7917,7 +7392,7 @@
   {
     "id": "rel_hb_char_002_ami_char_134_agl",
     "source": "char_002_amiya",
-    "target": "char_134_aglina",
+    "target": "char_017_huang",
     "first_appear_event_id": "main_ch17",
     "associated_event_id": "main_ch17",
     "relation_type": "ally",
@@ -7946,8 +7421,8 @@
   },
   {
     "id": "rel_hb_char_134_agl_char_6d7c1af",
-    "source": "char_134_aglina",
-    "target": "char_6d7c1afb",
+    "source": "char_017_huang",
+    "target": "npc_doctor",
     "first_appear_event_id": "main_ch17",
     "associated_event_id": "main_ch17",
     "relation_type": "ally",
@@ -7977,7 +7452,7 @@
   {
     "id": "rel_hb_char_367_swl_char_6d7c1af",
     "source": "char_367_swllow",
-    "target": "char_6d7c1afb",
+    "target": "npc_doctor",
     "first_appear_event_id": "main_ch17",
     "associated_event_id": "main_ch17",
     "relation_type": "ally",
@@ -8006,8 +7481,8 @@
   },
   {
     "id": "rel_hb_char_6d7c1af_char_c607a8f",
-    "source": "char_6d7c1afb",
-    "target": "char_c607a8f3",
+    "source": "npc_doctor",
+    "target": "char_333_sidero",
     "first_appear_event_id": "main_ch17",
     "associated_event_id": "main_ch17",
     "relation_type": "ally",
@@ -8037,7 +7512,7 @@
   {
     "id": "rel_hb_char_003_kal_char_af16225",
     "source": "char_003_kalts",
-    "target": "char_af162254",
+    "target": "char_250_phatom",
     "first_appear_event_id": "main_ch17",
     "associated_event_id": "main_ch17",
     "relation_type": "ally",
@@ -8065,8 +7540,8 @@
     ]
   },
   {
-    "id": "rel_hb_char_011_w_npc_theresa",
-    "source": "char_011_w",
+    "id": "rel_hb_char_113_cqbw_npc_theresa",
+    "source": "char_113_cqbw",
     "target": "npc_theresa",
     "first_appear_event_id": "main_ch17",
     "associated_event_id": "main_ch17",
@@ -8096,8 +7571,8 @@
   },
   {
     "id": "rel_hb_char_6d7c1af_char_e071150",
-    "source": "char_6d7c1afb",
-    "target": "char_e0711500",
+    "source": "npc_doctor",
+    "target": "char_373_lionhd",
     "first_appear_event_id": "main_ch17",
     "associated_event_id": "main_ch17",
     "relation_type": "ally",
@@ -8125,8 +7600,8 @@
     ]
   },
   {
-    "id": "rel_hb_avg_npc_042_char_003_kal",
-    "source": "avg_npc_042",
+    "id": "rel_hb_char_391_rosmon_char_003_kal",
+    "source": "char_391_rosmon",
     "target": "char_003_kalts",
     "first_appear_event_id": "main_ch17",
     "associated_event_id": "main_ch17",
@@ -8155,8 +7630,8 @@
     ]
   },
   {
-    "id": "rel_hb_avg_npc_042_char_002_ami",
-    "source": "avg_npc_042",
+    "id": "rel_hb_char_391_rosmon_char_002_ami",
+    "source": "char_391_rosmon",
     "target": "char_002_amiya",
     "first_appear_event_id": "main_ch17",
     "associated_event_id": "main_ch17",
@@ -8185,9 +7660,9 @@
     ]
   },
   {
-    "id": "rel_hb_avg_npc_042_char_6d7c1af",
-    "source": "avg_npc_042",
-    "target": "char_6d7c1afb",
+    "id": "rel_hb_char_391_rosmon_char_6d7c1af",
+    "source": "char_391_rosmon",
+    "target": "npc_doctor",
     "first_appear_event_id": "main_ch17",
     "associated_event_id": "main_ch17",
     "relation_type": "ally",
@@ -8217,7 +7692,7 @@
   {
     "id": "rel_hb_char_003_kal_char_83c0a16",
     "source": "char_003_kalts",
-    "target": "char_83c0a162",
+    "target": "char_472_pasngr",
     "first_appear_event_id": "main_ch17",
     "associated_event_id": "main_ch17",
     "relation_type": "ally",
@@ -8247,7 +7722,7 @@
   {
     "id": "rel_hb_char_263_ska_char_a651dc9",
     "source": "char_263_skadi",
-    "target": "char_a651dc93",
+    "target": "char_474_glady",
     "first_appear_event_id": "main_ch17",
     "associated_event_id": "main_ch17",
     "relation_type": "ally",
@@ -8336,8 +7811,8 @@
   },
   {
     "id": "rel_hb_char_122_sil_char_4053729",
-    "source": "char_122_silence",
-    "target": "char_4053729a",
+    "source": "char_108_silent",
+    "target": "char_422_aurora",
     "first_appear_event_id": "main_ch17",
     "associated_event_id": "main_ch17",
     "relation_type": "ally",
@@ -8366,8 +7841,8 @@
   },
   {
     "id": "rel_hb_char_40a6210_char_7f56088",
-    "source": "char_40a6210a",
-    "target": "char_7f560885",
+    "source": "char_4013_kjera",
+    "target": "char_171_warfarin",
     "first_appear_event_id": "main_ch17",
     "associated_event_id": "main_ch17",
     "relation_type": "ally",
@@ -8396,8 +7871,8 @@
   },
   {
     "id": "rel_hb_char_221_sil_char_40a6210",
-    "source": "char_221_silver",
-    "target": "char_40a6210a",
+    "source": "char_172_svrash",
+    "target": "char_4013_kjera",
     "first_appear_event_id": "main_ch17",
     "associated_event_id": "main_ch17",
     "relation_type": "ally",
@@ -8426,8 +7901,8 @@
   },
   {
     "id": "rel_hb_char_4019_li_char_6d7c1af",
-    "source": "char_4019_ling",
-    "target": "char_6d7c1afb",
+    "source": "char_2023_ling",
+    "target": "npc_doctor",
     "first_appear_event_id": "main_ch17",
     "associated_event_id": "main_ch17",
     "relation_type": "bound",
@@ -8456,8 +7931,8 @@
   },
   {
     "id": "rel_hb_char_6d7c1af_npc_wei",
-    "source": "char_6d7c1afb",
-    "target": "npc_wei",
+    "source": "npc_doctor",
+    "target": "npc_2005_wywu",
     "first_appear_event_id": "main_ch17",
     "associated_event_id": "main_ch17",
     "relation_type": "ally",
@@ -8486,8 +7961,8 @@
   },
   {
     "id": "rel_hb_char_20eeab7_char_a8d845d",
-    "source": "char_20eeab7c",
-    "target": "char_a8d845da",
+    "source": "char_121_lava",
+    "target": "char_300_phenxi",
     "first_appear_event_id": "main_ch17",
     "associated_event_id": "main_ch17",
     "relation_type": "ally",
@@ -8517,7 +7992,7 @@
   {
     "id": "rel_hb_char_003_kal_char_f37cba0",
     "source": "char_003_kalts",
-    "target": "char_f37cba01",
+    "target": "char_4045_heidi",
     "first_appear_event_id": "main_ch17",
     "associated_event_id": "main_ch17",
     "relation_type": "ally",
@@ -8546,8 +8021,8 @@
   },
   {
     "id": "rel_hb_char_6d7c1af_char_d7b7fd4",
-    "source": "char_6d7c1afb",
-    "target": "char_d7b7fd4d",
+    "source": "npc_doctor",
+    "target": "char_4009_irene",
     "first_appear_event_id": "main_ch17",
     "associated_event_id": "main_ch17",
     "relation_type": "ally",
@@ -8576,8 +8051,8 @@
   },
   {
     "id": "rel_hb_char_6d7c1af_char_f339017",
-    "source": "char_6d7c1afb",
-    "target": "char_f339017d",
+    "source": "npc_doctor",
+    "target": "char_4047_pianst",
     "first_appear_event_id": "main_ch17",
     "associated_event_id": "main_ch17",
     "relation_type": "ally",
@@ -8606,8 +8081,8 @@
   },
   {
     "id": "rel_hb_char_167_cel_char_da9f461",
-    "source": "char_167_celya",
-    "target": "char_da9f461a",
+    "source": "char_202_demkni",
+    "target": "char_4048_doroth",
     "first_appear_event_id": "main_ch17",
     "associated_event_id": "main_ch17",
     "relation_type": "ally",
@@ -8636,8 +8111,8 @@
   },
   {
     "id": "rel_hb_char_6d7c1af_char_da9f461",
-    "source": "char_6d7c1afb",
-    "target": "char_da9f461a",
+    "source": "npc_doctor",
+    "target": "char_4048_doroth",
     "first_appear_event_id": "main_ch17",
     "associated_event_id": "main_ch17",
     "relation_type": "ally",
@@ -8666,8 +8141,8 @@
   },
   {
     "id": "rel_hb_char_49a6c08_char_7b4925d",
-    "source": "char_49a6c086",
-    "target": "char_7b4925db",
+    "source": "char_298_susuro",
+    "target": "char_4083_chimes",
     "first_appear_event_id": "main_ch17",
     "associated_event_id": "main_ch17",
     "relation_type": "ally",
@@ -8696,8 +8171,8 @@
   },
   {
     "id": "rel_hb_char_4a5b4cb_char_a2026b0",
-    "source": "char_4a5b4cb2",
-    "target": "char_a2026b00",
+    "source": "char_4088_hodrer",
+    "target": "char_4087_ines",
     "first_appear_event_id": "main_ch17",
     "associated_event_id": "main_ch17",
     "relation_type": "ally",
@@ -8726,8 +8201,8 @@
   },
   {
     "id": "rel_hb_char_122_sil_char_ff920ec",
-    "source": "char_122_silence",
-    "target": "char_ff920ec9",
+    "source": "char_108_silent",
+    "target": "char_4151_tinman",
     "first_appear_event_id": "main_ch17",
     "associated_event_id": "main_ch17",
     "relation_type": "ally",
@@ -8756,8 +8231,8 @@
   },
   {
     "id": "rel_hb_char_7465f10_char_88d8605",
-    "source": "char_7465f109",
-    "target": "char_88d8605e",
+    "source": "char_2012_typhon",
+    "target": "char_4228_closur",
     "first_appear_event_id": "main_ch17",
     "associated_event_id": "main_ch17",
     "relation_type": "ally",
@@ -8786,8 +8261,8 @@
   },
   {
     "id": "rel_hb_char_6d7c1af_char_7465f10",
-    "source": "char_6d7c1afb",
-    "target": "char_7465f109",
+    "source": "npc_doctor",
+    "target": "char_2012_typhon",
     "first_appear_event_id": "main_ch17",
     "associated_event_id": "main_ch17",
     "relation_type": "rival",
@@ -8816,8 +8291,8 @@
   },
   {
     "id": "rel_hb_char_86c6217_char_fa7d6c4",
-    "source": "char_86c6217f",
-    "target": "char_fa7d6c49",
+    "source": "char_260_durnar",
+    "target": "char_4132_ascln",
     "first_appear_event_id": "main_ch17",
     "associated_event_id": "main_ch17",
     "relation_type": "ally",
@@ -8846,8 +8321,8 @@
   },
   {
     "id": "rel_hb_char_31c537a_char_6d7c1af",
-    "source": "char_31c537a1",
-    "target": "char_6d7c1afb",
+    "source": "char_235_jesica",
+    "target": "npc_doctor",
     "first_appear_event_id": "main_ch17",
     "associated_event_id": "main_ch17",
     "relation_type": "ally",
@@ -8875,9 +8350,9 @@
     ]
   },
   {
-    "id": "rel_hb_char_305_fd_char_f9f3ca5",
-    "source": "char_305_fd",
-    "target": "char_f9f3ca5f",
+    "id": "rel_hb_char_222_bpipe_char_f9f3ca5",
+    "source": "char_222_bpipe",
+    "target": "char_4110_delphn",
     "first_appear_event_id": "main_ch17",
     "associated_event_id": "main_ch17",
     "relation_type": "ally",
@@ -8906,8 +8381,8 @@
   },
   {
     "id": "rel_hb_char_4a5b4cb_char_88d8605",
-    "source": "char_4a5b4cb2",
-    "target": "char_88d8605e",
+    "source": "char_4088_hodrer",
+    "target": "char_4228_closur",
     "first_appear_event_id": "main_ch17",
     "associated_event_id": "main_ch17",
     "relation_type": "ally",
@@ -8936,8 +8411,8 @@
   },
   {
     "id": "rel_hb_char_36bb28e_char_5cdf4e3",
-    "source": "char_36bb28ec",
-    "target": "char_5cdf4e3d",
+    "source": "char_4064_mlynar",
+    "target": "char_4098_vvana",
     "first_appear_event_id": "main_ch17",
     "associated_event_id": "main_ch17",
     "relation_type": "ally",
@@ -8966,8 +8441,8 @@
   },
   {
     "id": "rel_hb_char_27bf42c_char_59eb83e",
-    "source": "char_27bf42cd",
-    "target": "char_59eb83e7",
+    "source": "char_4081_warmy",
+    "target": "char_4178_alanna",
     "first_appear_event_id": "main_ch17",
     "associated_event_id": "main_ch17",
     "relation_type": "ally",
@@ -8996,8 +8471,8 @@
   },
   {
     "id": "rel_hb_char_4fd08a5_char_f24e7d9",
-    "source": "char_4fd08a5e",
-    "target": "char_f24e7d9f",
+    "source": "char_4082_qiubai",
+    "target": "char_4121_zuole",
     "first_appear_event_id": "main_ch17",
     "associated_event_id": "main_ch17",
     "relation_type": "ally",
@@ -9026,8 +8501,8 @@
   },
   {
     "id": "rel_hb_char_27a8a58_char_88d8605",
-    "source": "char_27a8a580",
-    "target": "char_88d8605e",
+    "source": "char_4124_iana",
+    "target": "char_4228_closur",
     "first_appear_event_id": "main_ch17",
     "associated_event_id": "main_ch17",
     "relation_type": "ally",
@@ -9056,8 +8531,8 @@
   },
   {
     "id": "rel_hb_char_5bb39ae_char_ce834e1",
-    "source": "char_5bb39aed",
-    "target": "char_ce834e1a",
+    "source": "char_4131_odda",
+    "target": "char_4132_ascln",
     "first_appear_event_id": "main_ch17",
     "associated_event_id": "main_ch17",
     "relation_type": "ally",
@@ -9086,8 +8561,8 @@
   },
   {
     "id": "rel_hb_char_5f82f34_char_88d8605",
-    "source": "char_5f82f34b",
-    "target": "char_88d8605e",
+    "source": "char_4145_ulpia",
+    "target": "char_4228_closur",
     "first_appear_event_id": "main_ch17",
     "associated_event_id": "main_ch17",
     "relation_type": "ally",
@@ -9117,7 +8592,7 @@
   {
     "id": "rel_hb_char_263_ska_char_5f82f34",
     "source": "char_263_skadi",
-    "target": "char_5f82f34b",
+    "target": "char_4145_ulpia",
     "first_appear_event_id": "main_ch17",
     "associated_event_id": "main_ch17",
     "relation_type": "ally",
@@ -9146,8 +8621,8 @@
   },
   {
     "id": "rel_hb_char_88d8605_char_ff920ec",
-    "source": "char_88d8605e",
-    "target": "char_ff920ec9",
+    "source": "char_4228_closur",
+    "target": "char_4151_tinman",
     "first_appear_event_id": "main_ch17",
     "associated_event_id": "main_ch17",
     "relation_type": "ally",
@@ -9176,8 +8651,8 @@
   },
   {
     "id": "rel_hb_char_da0bb5d_char_ff920ec",
-    "source": "char_da0bb5dc",
-    "target": "char_ff920ec9",
+    "source": "char_199_yak",
+    "target": "char_4151_tinman",
     "first_appear_event_id": "main_ch17",
     "associated_event_id": "main_ch17",
     "relation_type": "ally",
@@ -9206,8 +8681,8 @@
   },
   {
     "id": "rel_hb_char_7f56088_char_ff920ec",
-    "source": "char_7f560885",
-    "target": "char_ff920ec9",
+    "source": "char_171_warfarin",
+    "target": "char_4151_tinman",
     "first_appear_event_id": "main_ch17",
     "associated_event_id": "main_ch17",
     "relation_type": "ally",
@@ -9236,8 +8711,8 @@
   },
   {
     "id": "rel_hb_char_6d7c1af_char_ff920ec",
-    "source": "char_6d7c1afb",
-    "target": "char_ff920ec9",
+    "source": "npc_doctor",
+    "target": "char_4151_tinman",
     "first_appear_event_id": "main_ch17",
     "associated_event_id": "main_ch17",
     "relation_type": "ally",
@@ -9266,8 +8741,8 @@
   },
   {
     "id": "rel_hb_char_20eeab7_char_ff920ec",
-    "source": "char_20eeab7c",
-    "target": "char_ff920ec9",
+    "source": "char_121_lava",
+    "target": "char_4151_tinman",
     "first_appear_event_id": "main_ch17",
     "associated_event_id": "main_ch17",
     "relation_type": "ally",
@@ -9296,8 +8771,8 @@
   },
   {
     "id": "rel_hb_char_6d7c1af_char_84fdce1",
-    "source": "char_6d7c1afb",
-    "target": "char_84fdce1b",
+    "source": "npc_doctor",
+    "target": "char_4162_cathy",
     "first_appear_event_id": "main_ch17",
     "associated_event_id": "main_ch17",
     "relation_type": "ally",
@@ -9326,8 +8801,8 @@
   },
   {
     "id": "rel_hb_char_6107a80_char_6d7c1af",
-    "source": "char_6107a800",
-    "target": "char_6d7c1afb",
+    "source": "char_340_shwaz",
+    "target": "npc_doctor",
     "first_appear_event_id": "main_ch17",
     "associated_event_id": "main_ch17",
     "relation_type": "rival",
@@ -9356,8 +8831,8 @@
   },
   {
     "id": "rel_hb_char_0d14174_char_6d7c1af",
-    "source": "char_0d14174c",
-    "target": "char_6d7c1afb",
+    "source": "char_4010_etlchi",
+    "target": "npc_doctor",
     "first_appear_event_id": "main_ch17",
     "associated_event_id": "main_ch17",
     "relation_type": "ally",
@@ -9386,8 +8861,8 @@
   },
   {
     "id": "rel_hb_char_7f56088_char_c982e1a",
-    "source": "char_7f560885",
-    "target": "char_c982e1a2",
+    "source": "char_171_warfarin",
+    "target": "char_450_necras",
     "first_appear_event_id": "main_ch17",
     "associated_event_id": "main_ch17",
     "relation_type": "ally",
@@ -9416,7 +8891,7 @@
   },
   {
     "id": "rel_hb_char_1487946_char_5472b18",
-    "source": "char_1487946d",
+    "source": "char_4059_strmey",
     "target": "char_4179_monstr",
     "first_appear_event_id": "main_ch17",
     "associated_event_id": "main_ch17",
@@ -9447,7 +8922,7 @@
   {
     "id": "rel_hb_char_5472b18_char_7f56088",
     "source": "char_4179_monstr",
-    "target": "char_7f560885",
+    "target": "char_171_warfarin",
     "first_appear_event_id": "main_ch17",
     "associated_event_id": "main_ch17",
     "relation_type": "rival",
@@ -9475,8 +8950,8 @@
     ]
   },
   {
-    "id": "rel_hb_avg_npc_042_char_5472b18",
-    "source": "avg_npc_042",
+    "id": "rel_hb_char_391_rosmon_char_5472b18",
+    "source": "char_391_rosmon",
     "target": "char_4179_monstr",
     "first_appear_event_id": "main_ch17",
     "associated_event_id": "main_ch17",
@@ -9536,8 +9011,8 @@
   },
   {
     "id": "rel_hb_char_6d7c1af_char_c45dd8d",
-    "source": "char_6d7c1afb",
-    "target": "char_c45dd8d7",
+    "source": "npc_doctor",
+    "target": "char_4193_lemuen",
     "first_appear_event_id": "main_ch17",
     "associated_event_id": "main_ch17",
     "relation_type": "ally",
@@ -9567,7 +9042,7 @@
   {
     "id": "rel_hb_char_103_ang_char_182_pet",
     "source": "char_103_angel",
-    "target": "char_182_petra",
+    "target": "char_201_moeshd",
     "first_appear_event_id": "main_ch17",
     "associated_event_id": "main_ch17",
     "relation_type": "ally",
@@ -9596,8 +9071,8 @@
   },
   {
     "id": "rel_hb_char_7f56088_char_af16225",
-    "source": "char_7f560885",
-    "target": "char_af162254",
+    "source": "char_171_warfarin",
+    "target": "char_250_phatom",
     "first_appear_event_id": "main_ch17",
     "associated_event_id": "main_ch17",
     "relation_type": "ally",
@@ -9626,8 +9101,8 @@
   },
   {
     "id": "rel_hb_char_291_pep_char_7f56088",
-    "source": "char_291_pepol",
-    "target": "char_7f560885",
+    "source": "char_174_slbell",
+    "target": "char_171_warfarin",
     "first_appear_event_id": "main_ch17",
     "associated_event_id": "main_ch17",
     "relation_type": "ally",
@@ -9656,8 +9131,8 @@
   },
   {
     "id": "rel_hb_char_6d7c1af_char_70349ec",
-    "source": "char_6d7c1afb",
-    "target": "char_70349ec8",
+    "source": "npc_doctor",
+    "target": "char_4056_titi",
     "first_appear_event_id": "main_ch17",
     "associated_event_id": "main_ch17",
     "relation_type": "ally",
@@ -9687,7 +9162,7 @@
   {
     "id": "rel_hb_char_010_che_char_7f56088",
     "source": "char_010_chen",
-    "target": "char_7f560885",
+    "target": "char_171_warfarin",
     "first_appear_event_id": "main_ch17",
     "associated_event_id": "main_ch17",
     "relation_type": "ally",
@@ -9717,7 +9192,7 @@
   {
     "id": "rel_hb_char_010_che_char_49a6c08",
     "source": "char_010_chen",
-    "target": "char_49a6c086",
+    "target": "char_298_susuro",
     "first_appear_event_id": "main_ch17",
     "associated_event_id": "main_ch17",
     "relation_type": "ally",
@@ -9747,7 +9222,7 @@
   {
     "id": "rel_hb_char_003_kal_char_7f56088",
     "source": "char_003_kalts",
-    "target": "char_7f560885",
+    "target": "char_171_warfarin",
     "first_appear_event_id": "main_ch17",
     "associated_event_id": "main_ch17",
     "relation_type": "ally",
@@ -9776,8 +9251,8 @@
   },
   {
     "id": "rel_hb_char_7f56088_char_88d8605",
-    "source": "char_7f560885",
-    "target": "char_88d8605e",
+    "source": "char_171_warfarin",
+    "target": "char_4228_closur",
     "first_appear_event_id": "main_ch17",
     "associated_event_id": "main_ch17",
     "relation_type": "ally",
@@ -9806,7 +9281,7 @@
   },
   {
     "id": "rel_ch06_char_134_agl_npc_faust",
-    "source": "char_134_aglina",
+    "source": "char_017_huang",
     "target": "npc_faust",
     "first_appear_event_id": "main_ch06",
     "associated_event_id": "main_ch06",
@@ -9837,7 +9312,7 @@
   {
     "id": "rel_ch06_char_002_ami_char_308_swi",
     "source": "char_002_amiya",
-    "target": "char_b18703d0",
+    "target": "char_308_swire",
     "first_appear_event_id": "main_ch06",
     "associated_event_id": "main_ch06",
     "relation_type": "ally",
@@ -9867,7 +9342,7 @@
   {
     "id": "rel_ch06_char_010_che_char_308_swi",
     "source": "char_010_chen",
-    "target": "char_b18703d0",
+    "target": "char_308_swire",
     "first_appear_event_id": "main_ch06",
     "associated_event_id": "main_ch06",
     "relation_type": "ally",
@@ -9926,8 +9401,8 @@
   },
   {
     "id": "rel_ch06_char_134_agl_char_308_swi",
-    "source": "char_134_aglina",
-    "target": "char_b18703d0",
+    "source": "char_017_huang",
+    "target": "char_308_swire",
     "first_appear_event_id": "main_ch06",
     "associated_event_id": "main_ch06",
     "relation_type": "ally",
@@ -9956,8 +9431,8 @@
   },
   {
     "id": "rel_ch06_char_134_agl_npc_wei",
-    "source": "char_134_aglina",
-    "target": "npc_wei",
+    "source": "char_017_huang",
+    "target": "npc_2005_wywu",
     "first_appear_event_id": "main_ch06",
     "associated_event_id": "main_ch06",
     "relation_type": "ally",
@@ -9986,7 +9461,7 @@
   },
   {
     "id": "rel_ch06_char_308_swi_char_367_swl",
-    "source": "char_b18703d0",
+    "source": "char_308_swire",
     "target": "char_367_swllow",
     "first_appear_event_id": "main_ch06",
     "associated_event_id": "main_ch06",
@@ -10016,8 +9491,8 @@
   },
   {
     "id": "rel_ch06_char_308_swi_npc_wei",
-    "source": "char_b18703d0",
-    "target": "npc_wei",
+    "source": "char_308_swire",
+    "target": "npc_2005_wywu",
     "first_appear_event_id": "main_ch06",
     "associated_event_id": "main_ch06",
     "relation_type": "ally",
@@ -10047,7 +9522,7 @@
   {
     "id": "rel_ch06_char_367_swl_npc_wei",
     "source": "char_367_swllow",
-    "target": "npc_wei",
+    "target": "npc_2005_wywu",
     "first_appear_event_id": "main_ch06",
     "associated_event_id": "main_ch06",
     "relation_type": "ally",
@@ -10076,8 +9551,8 @@
   },
   {
     "id": "rel_ch06_char_308_swi_char_edfebc8",
-    "source": "char_b18703d0",
-    "target": "char_edfebc83",
+    "source": "char_308_swire",
+    "target": "char_1502_crosly",
     "first_appear_event_id": "main_ch06",
     "associated_event_id": "main_ch06",
     "relation_type": "rival",
@@ -10106,7 +9581,7 @@
   },
   {
     "id": "rel_ch06_char_308_swi_npc_faust",
-    "source": "char_b18703d0",
+    "source": "char_308_swire",
     "target": "npc_faust",
     "first_appear_event_id": "main_ch06",
     "associated_event_id": "main_ch06",
@@ -10136,7 +9611,7 @@
   },
   {
     "id": "rel_ch06_char_308_swi_npc_mephisto",
-    "source": "char_b18703d0",
+    "source": "char_308_swire",
     "target": "npc_mephisto",
     "first_appear_event_id": "main_ch06",
     "associated_event_id": "main_ch06",
@@ -10165,9 +9640,9 @@
     ]
   },
   {
-    "id": "rel_ch06_char_308_swi_npc_talula",
-    "source": "char_b18703d0",
-    "target": "npc_talula",
+    "id": "rel_ch06_char_308_swi_npc_talulah",
+    "source": "char_308_swire",
+    "target": "npc_talulah",
     "first_appear_event_id": "main_ch06",
     "associated_event_id": "main_ch06",
     "relation_type": "rival",
@@ -10195,9 +9670,9 @@
     ]
   },
   {
-    "id": "rel_ch06_char_308_swi_npc_霜星",
-    "source": "char_b18703d0",
-    "target": "npc_霜星",
+    "id": "rel_ch06_char_308_swi_npc_frostnova",
+    "source": "char_308_swire",
+    "target": "npc_frostnova",
     "first_appear_event_id": "main_ch06",
     "associated_event_id": "main_ch06",
     "relation_type": "rival",
@@ -10226,7 +9701,7 @@
   },
   {
     "id": "rel_ch06_char_edfebc8_npc_faust",
-    "source": "char_edfebc83",
+    "source": "char_1502_crosly",
     "target": "npc_faust",
     "first_appear_event_id": "main_ch06",
     "associated_event_id": "main_ch06",
@@ -10255,9 +9730,9 @@
     ]
   },
   {
-    "id": "rel_ch06_char_edfebc8_npc_霜星",
-    "source": "char_edfebc83",
-    "target": "npc_霜星",
+    "id": "rel_ch06_char_edfebc8_npc_frostnova",
+    "source": "char_1502_crosly",
+    "target": "npc_frostnova",
     "first_appear_event_id": "main_ch06",
     "associated_event_id": "main_ch06",
     "relation_type": "ally",
@@ -10316,8 +9791,8 @@
   },
   {
     "id": "rel_ch06_char_040fdfb_char_134_agl",
-    "source": "char_040fdfb9",
-    "target": "char_134_aglina",
+    "source": "char_219_meteo",
+    "target": "char_017_huang",
     "first_appear_event_id": "main_ch06",
     "associated_event_id": "main_ch06",
     "relation_type": "ally",
@@ -10345,39 +9820,9 @@
     ]
   },
   {
-    "id": "rel_ch06_char_5472b18_char_d088e65",
-    "source": "char_4179_monstr",
-    "target": "char_d088e652",
-    "first_appear_event_id": "main_ch06",
-    "associated_event_id": "main_ch06",
-    "relation_type": "rival",
-    "relation_label": {
-      "zh_CN": "Mon3tr与红的对抗关系",
-      "en_US": ""
-    },
-    "description": {
-      "zh_CN": "Mon3tr与红在第6章剧情中共同行动。",
-      "en_US": ""
-    },
-    "confidence_level": "implied_plot",
-    "evidences": [
-      {
-        "source_story": "level_main_06-10_end",
-        "quote": {
-          "zh_CN": "虽然有血腥味，但不是凯尔希你刚才说的那种，什么心性什么常的人。",
-          "en_US": ""
-        },
-        "context_analysis": {
-          "zh_CN": "第6章同场景出现于1个关卡",
-          "en_US": ""
-        }
-      }
-    ]
-  },
-  {
     "id": "rel_ch06_char_5472b18_char_edfebc8",
     "source": "char_4179_monstr",
-    "target": "char_edfebc83",
+    "target": "char_1502_crosly",
     "first_appear_event_id": "main_ch06",
     "associated_event_id": "main_ch06",
     "relation_type": "rival",
@@ -10406,8 +9851,8 @@
   },
   {
     "id": "rel_ch06_char_d088e65_char_edfebc8",
-    "source": "char_d088e652",
-    "target": "char_edfebc83",
+    "source": "char_144_projektred",
+    "target": "char_1502_crosly",
     "first_appear_event_id": "main_ch06",
     "associated_event_id": "main_ch06",
     "relation_type": "rival",
@@ -10465,9 +9910,9 @@
     ]
   },
   {
-    "id": "rel_ch06_char_003_kal_npc_霜星",
+    "id": "rel_ch06_char_003_kal_npc_frostnova",
     "source": "char_003_kalts",
-    "target": "npc_霜星",
+    "target": "npc_frostnova",
     "first_appear_event_id": "main_ch06",
     "associated_event_id": "main_ch06",
     "relation_type": "ally",
@@ -10495,9 +9940,9 @@
     ]
   },
   {
-    "id": "rel_ch06_char_010_che_npc_霜星",
+    "id": "rel_ch06_char_010_che_npc_frostnova",
     "source": "char_010_chen",
-    "target": "npc_霜星",
+    "target": "npc_frostnova",
     "first_appear_event_id": "main_ch06",
     "associated_event_id": "main_ch06",
     "relation_type": "rival",
@@ -10525,9 +9970,9 @@
     ]
   },
   {
-    "id": "rel_ch06_char_367_swl_npc_霜星",
+    "id": "rel_ch06_char_367_swl_npc_frostnova",
     "source": "char_367_swllow",
-    "target": "npc_霜星",
+    "target": "npc_frostnova",
     "first_appear_event_id": "main_ch06",
     "associated_event_id": "main_ch06",
     "relation_type": "rival",
@@ -10556,8 +10001,8 @@
   },
   {
     "id": "rel_hb_29fe53d2_1019_siege2",
-    "source": "char_29fe53d2",
-    "target": "char_1019_siege2",
+    "source": "char_157_dagda",
+    "target": "char_112_siege",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "挚友与旧识",
@@ -10586,8 +10031,8 @@
   },
   {
     "id": "rel_hb_5e011deb_1019_siege2",
-    "source": "char_5e011deb",
-    "target": "char_1019_siege2",
+    "source": "char_155_tiger",
+    "target": "char_112_siege",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "街头旧友",
@@ -10616,8 +10061,8 @@
   },
   {
     "id": "rel_hb_121_ifrit_167_celya",
-    "source": "char_121_ifrit",
-    "target": "char_167_celya",
+    "source": "char_134_ifrit",
+    "target": "char_202_demkni",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "莱茵生命旧识与情感联结",
@@ -10646,7 +10091,7 @@
   },
   {
     "id": "rel_hb_1047_halo2_002_amiya",
-    "source": "char_1047_halo2",
+    "source": "char_135_halo",
     "target": "char_002_amiya",
     "relation_type": "ally",
     "relation_label": {
@@ -10676,8 +10121,8 @@
   },
   {
     "id": "rel_hb_1047_halo2_381cca24",
-    "source": "char_1047_halo2",
-    "target": "char_381cca24",
+    "source": "char_135_halo",
+    "target": "char_274_astesi",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "两姐妹",
@@ -10707,7 +10152,7 @@
   {
     "id": "rel_hb_206_gnosis_221_silver",
     "source": "char_206_gnosis",
-    "target": "char_221_silver",
+    "target": "char_172_svrash",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "喀兰贸易同仁与密友",
@@ -10737,7 +10182,7 @@
   {
     "id": "rel_hb_209_ardign_3545e4d1",
     "source": "char_209_ardign",
-    "target": "char_3545e4d1",
+    "target": "char_210_stward",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "旅伴与深厚友谊",
@@ -10767,7 +10212,7 @@
   {
     "id": "rel_hb_209_ardign_e99d2b11",
     "source": "char_209_ardign",
-    "target": "char_e99d2b11",
+    "target": "char_211_adnach",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "旅伴与深厚友谊",
@@ -10797,7 +10242,7 @@
   {
     "id": "rel_hb_332_archet_92c4f87a",
     "source": "char_332_archet",
-    "target": "char_92c4f87a",
+    "target": "char_279_excu",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "拉特兰修道院姐妹",
@@ -10827,7 +10272,7 @@
   {
     "id": "rel_hb_343_tknogi_6d7c1afb",
     "source": "char_343_tknogi",
-    "target": "char_6d7c1afb",
+    "target": "npc_doctor",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "完全信赖关系",
@@ -10857,7 +10302,7 @@
   {
     "id": "rel_hb_366_acdrop_21367c43",
     "source": "char_366_acdrop",
-    "target": "char_21367c43",
+    "target": "char_290_vigna",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "嘻哈搭档",
@@ -10887,7 +10332,7 @@
   {
     "id": "rel_hb_366_acdrop_8bdc21d9",
     "source": "char_366_acdrop",
-    "target": "char_8bdc21d9",
+    "target": "char_355_ethan",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "嘻哈搭档",
@@ -10917,7 +10362,7 @@
   {
     "id": "rel_hb_381_bubble_201_gavial",
     "source": "char_381_bubble",
-    "target": "char_201_gavial",
+    "target": "char_187_ccheal",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "嘉维尔崇拜者",
@@ -10947,7 +10392,7 @@
   {
     "id": "rel_hb_381_bubble_785038ac",
     "source": "char_381_bubble",
-    "target": "char_785038ac",
+    "target": "char_163_hpsts",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "工匠玩伴",
@@ -11067,7 +10512,7 @@
   {
     "id": "rel_hb_4067_lolxh_6d7c1afb",
     "source": "char_4067_lolxh",
-    "target": "char_6d7c1afb",
+    "target": "npc_doctor",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "信任关系",
@@ -11127,7 +10572,7 @@
   {
     "id": "rel_hb_4211_snhunt_6d7c1afb",
     "source": "char_4211_snhunt",
-    "target": "char_6d7c1afb",
+    "target": "npc_doctor",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "朋友",
@@ -11157,7 +10602,7 @@
   {
     "id": "rel_hb_421_crow_6d7c1afb",
     "source": "char_421_crow",
-    "target": "char_6d7c1afb",
+    "target": "npc_doctor",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "逐渐亲近",
@@ -11187,7 +10632,7 @@
   {
     "id": "rel_hb_421_crow_b55e79f5",
     "source": "char_421_crow",
-    "target": "char_b55e79f5",
+    "target": "char_4123_ela",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "战友之女",
@@ -11217,7 +10662,7 @@
   {
     "id": "rel_hb_4224_turdus_8c04a24d",
     "source": "char_4224_turdus",
-    "target": "char_8c04a24d",
+    "target": "char_194_leto",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "监护关系",
@@ -11247,7 +10692,7 @@
   {
     "id": "rel_hb_423_blemsh_1778bbd4",
     "source": "char_423_blemsh",
-    "target": "char_1778bbd4",
+    "target": "char_148_nearl",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "亲密战友",
@@ -11277,7 +10722,7 @@
   {
     "id": "rel_hb_433_windft_6d7c1afb",
     "source": "char_433_windft",
-    "target": "char_6d7c1afb",
+    "target": "npc_doctor",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "信任与芥蒂",
@@ -11395,36 +10840,6 @@
     "first_appear_event_id": "main_ch17"
   },
   {
-    "id": "rel_hb_137_brownb_8375f0bb",
-    "source": "char_137_brownb",
-    "target": "char_8375f0bb",
-    "relation_type": "ally",
-    "relation_label": {
-      "zh_CN": "教官与学员",
-      "en_US": "教官与学员"
-    },
-    "description": {
-      "zh_CN": "星熊最初不受杜宾教官待见，两人一度僵持。",
-      "en_US": "星熊最初不受杜宾教官待见，两人一度僵持。"
-    },
-    "associated_event_id": "main_ch17",
-    "evidences": [
-      {
-        "source_story": "handbook_info_table",
-        "quote": {
-          "zh_CN": "星熊与杜宾的关系记录",
-          "en_US": "Relationship record between 星熊 and 杜宾"
-        },
-        "context_analysis": {
-          "zh_CN": "【档案资料】干员档案中的相关描述",
-          "en_US": "【Profile】Operator handbook record"
-        }
-      }
-    ],
-    "confidence_level": "official_fact",
-    "first_appear_event_id": "main_ch17"
-  },
-  {
     "id": "rel_hb_423_blemsh_265_sophia",
     "source": "char_423_blemsh",
     "target": "char_265_sophia",
@@ -11487,7 +10902,7 @@
   {
     "id": "rel_hb_487_bobb_1019_siege2",
     "source": "char_487_bobb",
-    "target": "char_1019_siege2",
+    "target": "char_112_siege",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "好奇",
@@ -11637,7 +11052,7 @@
   {
     "id": "rel_warl_hoeder",
     "source": "npc_warl",
-    "target": "avg_npc_043",
+    "target": "char_4088_hodrer",
     "relation_type": "rival",
     "relation_label": {
       "zh_CN": "萨卡兹战团追杀",
@@ -11786,7 +11201,7 @@
   },
   {
     "id": "rel_siege_wellington",
-    "source": "char_1019_siege2",
+    "source": "char_112_siege",
     "target": "npc_wellington",
     "relation_type": "ally",
     "relation_label": {
@@ -11816,7 +11231,7 @@
   },
   {
     "id": "rel_bpipe_wellington",
-    "source": "avg_222_bpipe",
+    "source": "char_4039_horn",
     "target": "npc_wellington",
     "relation_type": "ally",
     "relation_label": {
@@ -11907,7 +11322,7 @@
   {
     "id": "rel_shifter_manfred",
     "source": "npc_shifter",
-    "target": "avg_npc_045",
+    "target": "npc_manfred",
     "relation_type": "rival",
     "relation_label": {
       "zh_CN": "敌对",
@@ -11967,7 +11382,7 @@
   {
     "id": "rel_shifter_daphne",
     "source": "npc_shifter",
-    "target": "avg_npc_046",
+    "target": "char_4110_delphn",
     "relation_type": "rival",
     "relation_label": {
       "zh_CN": "死敌",
@@ -12056,7 +11471,7 @@
   },
   {
     "id": "rel_manfred_wellington",
-    "source": "avg_npc_045",
+    "source": "npc_manfred",
     "target": "npc_wellington",
     "relation_type": "rival",
     "relation_label": {
@@ -12357,7 +11772,7 @@
   {
     "id": "rel_warl_manfred",
     "source": "npc_warl",
-    "target": "avg_npc_045",
+    "target": "npc_manfred",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "协同作战",
@@ -12387,7 +11802,7 @@
   {
     "id": "rel_warl_daphne",
     "source": "npc_warl",
-    "target": "avg_npc_046",
+    "target": "char_4110_delphn",
     "relation_type": "rival",
     "relation_label": {
       "zh_CN": "敌对",
@@ -12596,7 +12011,7 @@
   },
   {
     "id": "rel_koser_mon3tr",
-    "source": "npc_koser",
+    "source": "char_4208_wintim",
     "target": "char_4179_monstr",
     "relation_type": "unknown",
     "relation_label": {
@@ -12897,7 +12312,7 @@
   {
     "id": "rel_doc_koser",
     "source": "npc_doctor",
-    "target": "npc_koser",
+    "target": "char_4208_wintim",
     "relation_type": "unknown",
     "relation_label": {
       "zh_CN": "调查者与情报来源",
@@ -12956,7 +12371,7 @@
   },
   {
     "id": "rel_koser_ascalon",
-    "source": "npc_koser",
+    "source": "char_4208_wintim",
     "target": "char_4132_ascln",
     "relation_type": "ally",
     "relation_label": {
@@ -12986,8 +12401,8 @@
   },
   {
     "id": "rel_nearl_hrrlg",
-    "source": "char_1778bbd4",
-    "target": "npc_hrrlg",
+    "source": "char_148_nearl",
+    "target": "char_188_helage",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "罗德岛战友",
@@ -13016,7 +12431,7 @@
   },
   {
     "id": "rel_talula_turin",
-    "source": "npc_talula",
+    "source": "npc_talulah",
     "target": "npc_ivan_turin",
     "relation_type": "unknown",
     "relation_label": {
@@ -13167,7 +12582,7 @@
   {
     "id": "rel_mantra_koser",
     "source": "char_4204_mantra",
-    "target": "npc_koser",
+    "target": "char_4208_wintim",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "罗德岛战友",
@@ -13196,7 +12611,7 @@
   },
   {
     "id": "rel_doctor_amiya_ch15",
-    "source": "npc_001_doctor",
+    "source": "npc_doctor",
     "target": "char_002_amiya",
     "relation_type": "ally",
     "relation_label": {
@@ -13225,7 +12640,7 @@
   },
   {
     "id": "rel_kaltsit_mon3tr_ch15",
-    "source": "npc_003_kalts",
+    "source": "char_003_kalts",
     "target": "char_4179_monstr",
     "relation_type": "bound",
     "relation_label": {
@@ -13283,7 +12698,7 @@
   },
   {
     "id": "rel_kaltsit_pris_ch15",
-    "source": "npc_003_kalts",
+    "source": "char_003_kalts",
     "target": "npc_pris",
     "relation_type": "rival",
     "relation_label": {
@@ -13312,7 +12727,7 @@
   },
   {
     "id": "rel_doctor_pris_ch15",
-    "source": "npc_001_doctor",
+    "source": "npc_doctor",
     "target": "npc_pris",
     "relation_type": "unknown",
     "relation_label": {
@@ -13341,8 +12756,8 @@
   },
   {
     "id": "rel_kaltsit_doctor_ch15",
-    "source": "npc_003_kalts",
-    "target": "npc_001_doctor",
+    "source": "char_003_kalts",
+    "target": "npc_doctor",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "最后的防线与信任",
@@ -13370,8 +12785,8 @@
   },
   {
     "id": "rel_rosmon_huang_ch15",
-    "source": "char_562b3bbc",
-    "target": "char_1040_blaze2",
+    "source": "char_391_rosmon",
+    "target": "char_017_huang",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "源石弧同步测试的战友",
@@ -13400,7 +12815,7 @@
   {
     "id": "rel_raidian_kroos_ch15",
     "source": "npc_raidian",
-    "target": "char_88d8605e",
+    "target": "char_4228_closur",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "备用指挥系统的操作者与创造者",
@@ -13486,8 +12901,8 @@
   },
   {
     "id": "rel_rosmontis_frostnova_ch07",
-    "source": "char_562b3bbc",
-    "target": "npc_shuangxing",
+    "source": "char_391_rosmon",
+    "target": "npc_frostnova",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "送别与铭记",
@@ -13516,7 +12931,7 @@
   },
   {
     "id": "rel_rosmontis_doctor_ch07",
-    "source": "char_562b3bbc",
+    "source": "char_391_rosmon",
     "target": "npc_doctor",
     "relation_type": "ally",
     "relation_label": {
@@ -13546,7 +12961,7 @@
   },
   {
     "id": "rel_rosmontis_amiya_ch07",
-    "source": "char_562b3bbc",
+    "source": "char_391_rosmon",
     "target": "char_002_amiya",
     "relation_type": "ally",
     "relation_label": {
@@ -13587,8 +13002,8 @@
   },
   {
     "id": "rel_rosmontis_blaze_ch07",
-    "source": "char_562b3bbc",
-    "target": "char_1040_blaze2",
+    "source": "char_391_rosmon",
+    "target": "char_017_huang",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "同伴的牵挂",
@@ -13617,8 +13032,8 @@
   },
   {
     "id": "rel_rosmontis_kaltsit_ch07",
-    "source": "char_562b3bbc",
-    "target": "npc_003_kalts",
+    "source": "char_391_rosmon",
+    "target": "char_003_kalts",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "导师与战士",
@@ -13647,8 +13062,8 @@
   },
   {
     "id": "rel_chen_wei_ch07",
-    "source": "char_1050_chen3",
-    "target": "npc_wei",
+    "source": "char_010_chen",
+    "target": "npc_2005_wywu",
     "relation_type": "rival",
     "relation_label": {
       "zh_CN": "决裂的甥舅",
@@ -13676,50 +13091,9 @@
     "confidence_level": "official_fact"
   },
   {
-    "id": "rel_chen_hsguma_ch07",
-    "source": "char_1050_chen3",
-    "target": "char_137_brownb",
-    "relation_type": "ally",
-    "relation_label": {
-      "zh_CN": "战友之战·龙门决裂",
-      "en_US": "Comrades at War — Lungmen Breach"
-    },
-    "description": {
-      "zh_CN": "星熊在龙门接舷区拦截陈，试图阻止她离开龙门。两人对决，陈用赤霄刺伤星熊后离开。",
-      "en_US": "Hoshiguma intercepts Ch'en at the Lungmen docking area, trying to stop her. They duel; Ch'en wounds Hoshiguma with Red Spine and leaves."
-    },
-    "first_appear_event_id": "main_ch07",
-    "associated_event_id": "main_ch07",
-    "evidences": [
-      {
-        "source_story": "level_main_07-02_beg",
-        "quote": {
-          "zh_CN": "星熊......你要拦我？......今天挡在我面前，哪怕是场天灾，我也不会乖乖束手就擒，何况是一面盾，一个鬼！",
-          "en_US": "Hoshiguma... you're going to stop me? ...If a disaster stands in my way today, I won't just surrender. How much less a shield and a ghost!"
-        },
-        "context_analysis": {
-          "zh_CN": "陈与星熊在龙门接舷区对决，陈表示即使面对星熊也要离开，最终用赤霄刺伤星熊。",
-          "en_US": "Ch'en and Hoshiguma duel at the Lungmen dock; Ch'en wounds Hoshiguma with Red Spine before departing."
-        }
-      },
-      {
-        "source_story": "level_main_07-02_end",
-        "quote": {
-          "zh_CN": "你竟然这么坚定。没想到。我没想到，你......能让我流血。......我拦不住你了。你走吧。",
-          "en_US": "You're so resolute. Unexpected. I never thought... you'd make me bleed. ...I can't stop you. Go."
-        },
-        "context_analysis": {
-          "zh_CN": "星熊承认陈让她流血，但最终放她离开，两人在龙门诀别。",
-          "en_US": "Hoshiguma admits Ch'en made her bleed but lets her go; they part ways at Lungmen."
-        }
-      }
-    ],
-    "confidence_level": "official_fact"
-  },
-  {
     "id": "rel_chen_talula_ch07",
-    "source": "char_1050_chen3",
-    "target": "char_011_talula",
+    "source": "char_010_chen",
+    "target": "npc_talulah",
     "relation_type": "rival",
     "relation_label": {
       "zh_CN": "同母异父姐妹·命运对决",
@@ -13748,8 +13122,8 @@
   },
   {
     "id": "rel_chen_nine_ch07",
-    "source": "char_1050_chen3",
-    "target": "avg_npc_039",
+    "source": "char_010_chen",
+    "target": "npc_nine",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "龙门战友·同病相怜",
@@ -13777,38 +13151,8 @@
     "confidence_level": "official_fact"
   },
   {
-    "id": "rel_hsguma_swire_ch07",
-    "source": "char_137_brownb",
-    "target": "char_b18703d0",
-    "relation_type": "ally",
-    "relation_label": {
-      "zh_CN": "战友的默契",
-      "en_US": "Comrades-in-Arms Understanding"
-    },
-    "description": {
-      "zh_CN": "星熊在陈离开后，陪伴诗怀雅在近卫局大楼门口等消息，为她挡风。",
-      "en_US": "After Ch'en's departure, Hoshiguma stays with Swire at the LGD entrance, shielding her from wind while waiting for news."
-    },
-    "first_appear_event_id": "main_ch07",
-    "associated_event_id": "main_ch07",
-    "evidences": [
-      {
-        "source_story": "level_main_07-16_end",
-        "quote": {
-          "zh_CN": "小姐？怎么在这哭唧唧的......好，好。不过，这可是近卫局大楼门口啊。......这样好了，我坐你前面的台阶上吧。我个子大，挡住你，就没人看得见了。",
-          "en_US": "Miss? Why are you crying here... Fine, fine. But this is the LGD entrance... How about I sit on the steps in front of you? I'm big enough to block you from view."
-        },
-        "context_analysis": {
-          "zh_CN": "星熊在07-16_end中陪伴诗怀雅，用身体为她挡住视线，展现战友间的温情。",
-          "en_US": "In 07-16_end, Hoshiguma stays with Swire at the LGD entrance, shielding her with her body, showing wartime camaraderie."
-        }
-      }
-    ],
-    "confidence_level": "official_fact"
-  },
-  {
     "id": "rel_kaltsit_patriot_ch07",
-    "source": "npc_003_kalts",
+    "source": "char_003_kalts",
     "target": "npc_patriot",
     "relation_type": "ally",
     "relation_label": {
@@ -13849,7 +13193,7 @@
   },
   {
     "id": "rel_kaltsit_koschei_ch07",
-    "source": "npc_003_kalts",
+    "source": "char_003_kalts",
     "target": "npc_koschei",
     "relation_type": "rival",
     "relation_label": {
@@ -13920,7 +13264,7 @@
   },
   {
     "id": "rel_rosmontis_patriot_ch07",
-    "source": "char_562b3bbc",
+    "source": "char_391_rosmon",
     "target": "npc_patriot",
     "relation_type": "rival",
     "relation_label": {
@@ -13950,8 +13294,8 @@
   },
   {
     "id": "rel_kaltsit_walfarin_ch07",
-    "source": "npc_003_kalts",
-    "target": "char_7f560885",
+    "source": "char_003_kalts",
+    "target": "char_171_warfarin",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "萨卡兹同胞的请托",
@@ -13980,8 +13324,8 @@
   },
   {
     "id": "rel_nearl_forest_ch07",
-    "source": "char_1778bbd4",
-    "target": "char_2a6219aa",
+    "source": "char_148_nearl",
+    "target": "char_158_milu",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "卡西米尔骑士的道歉",
@@ -14010,7 +13354,7 @@
   },
   {
     "id": "rel_talula_phantoms_ch07",
-    "source": "char_011_talula",
+    "source": "npc_talulah",
     "target": "npc_phantoms",
     "relation_type": "ally",
     "relation_label": {
@@ -14100,8 +13444,8 @@
   },
   {
     "id": "rel_rosmontis_ace_scout_ch07",
-    "source": "char_562b3bbc",
-    "target": "avg_npc_026",
+    "source": "char_391_rosmon",
+    "target": "npc_scout",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "思念的战友们",
@@ -14130,7 +13474,7 @@
   },
   {
     "id": "rel_kaltsit_mon3tr_ch07",
-    "source": "npc_003_kalts",
+    "source": "char_003_kalts",
     "target": "char_4179_monstr",
     "relation_type": "ally",
     "relation_label": {
@@ -14161,7 +13505,7 @@
   {
     "id": "rel_chen_talula_ch08",
     "source": "char_010_chen",
-    "target": "char_011_talula",
+    "target": "npc_talulah",
     "relation_type": "rival",
     "relation_label": {
       "zh_CN": "姐妹·命运对决",
@@ -14202,7 +13546,7 @@
   {
     "id": "rel_amiya_talula_ch08",
     "source": "char_002_amiya",
-    "target": "char_011_talula",
+    "target": "npc_talulah",
     "relation_type": "rival",
     "relation_label": {
       "zh_CN": "魔王与感染者领袖·天台决战",
@@ -14253,7 +13597,7 @@
   },
   {
     "id": "rel_talula_koschei_ch08",
-    "source": "char_011_talula",
+    "source": "npc_talulah",
     "target": "npc_koschei",
     "relation_type": "rival",
     "relation_label": {
@@ -14305,7 +13649,7 @@
   },
   {
     "id": "rel_talula_alina_ch08",
-    "source": "char_011_talula",
+    "source": "npc_talulah",
     "target": "npc_alina",
     "relation_type": "ally",
     "relation_label": {
@@ -14358,7 +13702,7 @@
   {
     "id": "rel_patriot_talula_ch08",
     "source": "npc_patriot",
-    "target": "char_011_talula",
+    "target": "npc_talulah",
     "relation_type": "unknown",
     "relation_label": {
       "zh_CN": "冻原战友·理念分歧",
@@ -14450,7 +13794,7 @@
   },
   {
     "id": "rel_rosmontis_guard_ch08",
-    "source": "avg_npc_042",
+    "source": "char_391_rosmon",
     "target": "npc_guard",
     "relation_type": "ally",
     "relation_label": {
@@ -14533,7 +13877,7 @@
   {
     "id": "rel_w_talula_ch08",
     "source": "char_113_cqbw",
-    "target": "char_011_talula",
+    "target": "npc_talulah",
     "relation_type": "rival",
     "relation_label": {
       "zh_CN": "死敌·炸塔露拉",
@@ -14574,7 +13918,7 @@
   {
     "id": "rel_w_scout_ch08",
     "source": "char_113_cqbw",
-    "target": "avg_npc_026",
+    "target": "npc_scout",
     "relation_type": "unknown",
     "relation_label": {
       "zh_CN": "仇杀与真相",
@@ -14613,8 +13957,8 @@
     "confidence_level": "official_fact"
   },
   {
-    "id": "rel_shrew_king_weiyanwu_ch08",
-    "source": "npc_shrew_king",
+    "id": "rel_ratking_weiyanwu_ch08",
+    "source": "npc_ratking",
     "target": "npc_2005_wywu",
     "relation_type": "rival",
     "relation_label": {
@@ -14655,7 +13999,7 @@
   },
   {
     "id": "rel_doctor_kaltsit_ch08",
-    "source": "char_6d7c1afb",
+    "source": "npc_doctor",
     "target": "char_003_kalts",
     "relation_type": "ally",
     "relation_label": {
@@ -14756,8 +14100,8 @@
   },
   {
     "id": "rel_rosmontis_ace_scout_ch08",
-    "source": "avg_npc_042",
-    "target": "avg_npc_026",
+    "source": "char_391_rosmon",
+    "target": "npc_scout",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "思念的战友们",
@@ -14786,7 +14130,7 @@
   },
   {
     "id": "rel_rosmontis_amiya_ch08",
-    "source": "avg_npc_042",
+    "source": "char_391_rosmon",
     "target": "char_002_amiya",
     "relation_type": "ally",
     "relation_label": {
@@ -14857,8 +14201,8 @@
   },
   {
     "id": "rel_talula_frostnova_ch08",
-    "source": "char_011_talula",
-    "target": "npc_shuangxing",
+    "source": "npc_talulah",
+    "target": "npc_frostnova",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "冻原战友·生死与共",
@@ -14898,7 +14242,7 @@
   },
   {
     "id": "rel_talula_patriot_ch08_battle",
-    "source": "char_011_talula",
+    "source": "npc_talulah",
     "target": "npc_patriot",
     "relation_type": "ally",
     "relation_label": {
@@ -14939,7 +14283,7 @@
   },
   {
     "id": "rel_talula_koschei_memories_ch08",
-    "source": "char_011_talula",
+    "source": "npc_talulah",
     "target": "npc_koschei",
     "relation_type": "unknown",
     "relation_label": {
@@ -14980,8 +14324,8 @@
   },
   {
     "id": "rel_bpipe_bugle",
-    "source": "char_1159084b",
-    "target": "avg_npc_229",
+    "source": "char_4039_horn",
+    "target": "char_222_bpipe",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "上下级·战友",
@@ -15021,8 +14365,8 @@
   },
   {
     "id": "rel_jenny_oliver",
-    "source": "avg_npc_479",
-    "target": "avg_npc_222",
+    "source": "npc_jeanne",
+    "target": "npc_oliver",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "罗德岛同事",
@@ -15051,8 +14395,8 @@
   },
   {
     "id": "rel_jenny_craig",
-    "source": "avg_npc_479",
-    "target": "avg_npc_242",
+    "source": "npc_jeanne",
+    "target": "npc_craig",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "善良的关怀",
@@ -15092,8 +14436,8 @@
   },
   {
     "id": "rel_horn_hamilton",
-    "source": "char_1159084b",
-    "target": "avg_npc_239",
+    "source": "char_4039_horn",
+    "target": "npc_hamilton",
     "relation_type": "rival",
     "relation_label": {
       "zh_CN": "上下级·不同立场",
@@ -15133,8 +14477,8 @@
   },
   {
     "id": "rel_deeppool_ahmani",
-    "source": "avg_npc_236",
-    "target": "avg_npc_228",
+    "source": "npc_deeppool_leader",
+    "target": "npc_ahmani",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "领袖与谋臣",
@@ -15174,8 +14518,8 @@
   },
   {
     "id": "rel_lafcine_deeppool",
-    "source": "avg_npc_227",
-    "target": "avg_npc_236",
+    "source": "npc_lafcine",
+    "target": "npc_deeppool_leader",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "亲姐妹·阵营对立",
@@ -15204,8 +14548,8 @@
   },
   {
     "id": "rel_mendra_ahmani",
-    "source": "avg_npc_233",
-    "target": "avg_npc_228",
+    "source": "npc_mendra",
+    "target": "npc_ahmani",
     "relation_type": "rival",
     "relation_label": {
       "zh_CN": "深池内部路线对立",
@@ -15245,8 +14589,8 @@
   },
   {
     "id": "rel_mendra_deeppool",
-    "source": "avg_npc_233",
-    "target": "avg_npc_236",
+    "source": "npc_mendra",
+    "target": "npc_deeppool_leader",
     "relation_type": "rival",
     "relation_label": {
       "zh_CN": "追随者·野心不满",
@@ -15275,8 +14619,8 @@
   },
   {
     "id": "rel_bagpipe_cello",
-    "source": "avg_npc_229",
-    "target": "avg_npc_244",
+    "source": "char_222_bpipe",
+    "target": "npc_cello",
     "relation_type": "rival",
     "relation_label": {
       "zh_CN": "战场死敌",
@@ -15316,8 +14660,8 @@
   },
   {
     "id": "rel_talar_victorian_soldier",
-    "source": "avg_npc_243",
-    "target": "avg_npc_241",
+    "source": "npc_talar_residents",
+    "target": "npc_victoria_soldiers",
     "relation_type": "rival",
     "relation_label": {
       "zh_CN": "压迫与反抗",
@@ -15357,8 +14701,8 @@
   },
   {
     "id": "rel_bagpipe_outcast",
-    "source": "avg_npc_229",
-    "target": "avg_outcast",
+    "source": "char_222_bpipe",
+    "target": "npc_outcast",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "战友·并肩作战",
@@ -15398,8 +14742,8 @@
   },
   {
     "id": "rel_outcast_jenny",
-    "source": "avg_outcast",
-    "target": "avg_npc_479",
+    "source": "npc_outcast",
+    "target": "npc_jeanne",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "导师与战士",
@@ -15439,8 +14783,8 @@
   },
   {
     "id": "rel_jenny_sylsas",
-    "source": "avg_npc_479",
-    "target": "avg_npc_213",
+    "source": "npc_jeanne",
+    "target": "npc_sylsas",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "关怀",
@@ -15469,8 +14813,8 @@
   },
   {
     "id": "rel_outcast_chef_mcmartin",
-    "source": "avg_outcast",
-    "target": "avg_npc_238",
+    "source": "npc_outcast",
+    "target": "npc_captain_kelly",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "战友·接应与信任",
@@ -15499,8 +14843,8 @@
   },
   {
     "id": "rel_bugle_mandra",
-    "source": "avg_npc_229",
-    "target": "avg_npc_233",
+    "source": "char_222_bpipe",
+    "target": "npc_mendra",
     "relation_type": "rival",
     "relation_label": {
       "zh_CN": "死敌",
@@ -15540,8 +14884,8 @@
   },
   {
     "id": "rel_horn_bugle_tower",
-    "source": "char_1159084b",
-    "target": "avg_npc_229",
+    "source": "char_4039_horn",
+    "target": "char_222_bpipe",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "战友·通讯塔决战",
@@ -15570,8 +14914,8 @@
   },
   {
     "id": "rel_outcast_deeppool_leader",
-    "source": "avg_outcast",
-    "target": "avg_npc_236",
+    "source": "npc_outcast",
+    "target": "npc_deeppool_leader",
     "relation_type": "rival",
     "relation_label": {
       "zh_CN": "审判者与被审判者",
@@ -15600,8 +14944,8 @@
   },
   {
     "id": "rel_outcast_deeppool_soldier_6",
-    "source": "avg_outcast",
-    "target": "avg_deeppool_soldiers_6",
+    "source": "npc_outcast",
+    "target": "npc_deeppool_cadres",
     "relation_type": "rival",
     "relation_label": {
       "zh_CN": "审判者与被审判者（六人）",
@@ -15630,8 +14974,8 @@
   },
   {
     "id": "rel_craig_mother",
-    "source": "avg_npc_242",
-    "target": "avg_npc_243",
+    "source": "npc_craig",
+    "target": "npc_talar_residents",
     "relation_type": "bound",
     "relation_label": {
       "zh_CN": "母子·相依为命",
@@ -15671,8 +15015,8 @@
   },
   {
     "id": "rel_deeppool_6_cadres",
-    "source": "avg_deeppool_soldiers_6",
-    "target": "avg_npc_236",
+    "source": "npc_deeppool_cadres",
+    "target": "npc_deeppool_leader",
     "relation_type": "unknown",
     "relation_label": {
       "zh_CN": "干部与领袖·未知关系",
@@ -15743,7 +15087,7 @@
   {
     "id": "rel_siege_indra_ch10",
     "source": "char_112_siege",
-    "target": "char_5e011deb",
+    "target": "char_155_tiger",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "主仆·战友",
@@ -15784,7 +15128,7 @@
   {
     "id": "rel_siege_morgan_ch10",
     "source": "char_112_siege",
-    "target": "char_aa6c82c1",
+    "target": "char_154_morgan",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "主仆·战友",
@@ -15825,7 +15169,7 @@
   {
     "id": "rel_siege_dagda_ch10",
     "source": "char_112_siege",
-    "target": "char_29fe53d2",
+    "target": "char_157_dagda",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "主仆·战友·归家者",
@@ -15918,7 +15262,7 @@
   {
     "id": "rel_amiya_kaltsit_ch10",
     "source": "char_002_amiya",
-    "target": "npc_003_kalts",
+    "target": "char_003_kalts",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "罗德岛核心·导师与继承者",
@@ -15959,7 +15303,7 @@
   {
     "id": "rel_amiya_heidi_ch10",
     "source": "char_002_amiya",
-    "target": "char_f37cba01",
+    "target": "char_4045_heidi",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "罗德岛盟友·信任与合作",
@@ -16040,8 +15384,8 @@
   },
   {
     "id": "rel_heidi_kaltsit_ch10",
-    "source": "char_f37cba01",
-    "target": "npc_003_kalts",
+    "source": "char_4045_heidi",
+    "target": "char_003_kalts",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "罗德岛信使·师生",
@@ -16082,7 +15426,7 @@
   {
     "id": "rel_amiya_klovitch_ch10",
     "source": "char_002_amiya",
-    "target": "avg_npc_045",
+    "target": "npc_manfred",
     "relation_type": "rival",
     "relation_label": {
       "zh_CN": "死敌·伦蒂尼姆攻防",
@@ -16134,7 +15478,7 @@
   {
     "id": "rel_amiya_hecter_ch10",
     "source": "char_002_amiya",
-    "target": "avg_npc_043",
+    "target": "char_4088_hodrer",
     "relation_type": "rival",
     "relation_label": {
       "zh_CN": "战场宿敌·前巴别塔雇佣兵",
@@ -16175,7 +15519,7 @@
   {
     "id": "rel_amiya_mandrag_ch10",
     "source": "char_002_amiya",
-    "target": "npc_mandrag_ch10",
+    "target": "npc_mendra",
     "relation_type": "rival",
     "relation_label": {
       "zh_CN": "战场死敌",
@@ -16205,7 +15549,7 @@
   {
     "id": "rel_w_hecter_ch10",
     "source": "char_113_cqbw",
-    "target": "avg_npc_043",
+    "target": "char_4088_hodrer",
     "relation_type": "rival",
     "relation_label": {
       "zh_CN": "雇佣兵旧识·战场对峙",
@@ -16257,7 +15601,7 @@
   {
     "id": "rel_w_ascalon_ch10",
     "source": "char_113_cqbw",
-    "target": "char_ce834e1a",
+    "target": "char_4132_ascln",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "前同事·救命恩人",
@@ -16297,8 +15641,8 @@
   },
   {
     "id": "rel_hecter_ascalon_ch10",
-    "source": "avg_npc_043",
-    "target": "char_ce834e1a",
+    "source": "char_4088_hodrer",
+    "target": "char_4132_ascln",
     "relation_type": "rival",
     "relation_label": {
       "zh_CN": "战场死敌",
@@ -16368,7 +15712,7 @@
   },
   {
     "id": "rel_bpipe_warl_ch10",
-    "source": "avg_222_bpipe",
+    "source": "char_4039_horn",
     "target": "npc_warl",
     "relation_type": "rival",
     "relation_label": {
@@ -16410,7 +15754,7 @@
   {
     "id": "rel_siege_dagda_ch10_return",
     "source": "char_112_siege",
-    "target": "char_29fe53d2",
+    "target": "char_157_dagda",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "主仆重逢·归家",
@@ -16451,7 +15795,7 @@
   {
     "id": "rel_siege_klovitch_ch10",
     "source": "char_112_siege",
-    "target": "avg_npc_045",
+    "target": "npc_manfred",
     "relation_type": "rival",
     "relation_label": {
       "zh_CN": "伦蒂尼姆继承者与侵略者",
@@ -16481,7 +15825,7 @@
   {
     "id": "rel_amiya_klovitch_talk_ch10",
     "source": "char_002_amiya",
-    "target": "avg_npc_045",
+    "target": "npc_manfred",
     "relation_type": "rival",
     "relation_label": {
       "zh_CN": "战场对话·理念对立",
@@ -16522,7 +15866,7 @@
   {
     "id": "rel_fist_klovitch_ch10",
     "source": "npc_fist_ch10",
-    "target": "avg_npc_045",
+    "target": "npc_manfred",
     "relation_type": "rival",
     "relation_label": {
       "zh_CN": "战场死敌",
@@ -16562,8 +15906,8 @@
   },
   {
     "id": "rel_bpipe_klovitch_ch10",
-    "source": "avg_222_bpipe",
-    "target": "avg_npc_045",
+    "source": "char_4039_horn",
+    "target": "npc_manfred",
     "relation_type": "rival",
     "relation_label": {
       "zh_CN": "伦蒂尼姆城墙死战",
@@ -16603,8 +15947,8 @@
   },
   {
     "id": "rel_bpipe_asc_ch10",
-    "source": "avg_222_bpipe",
-    "target": "char_ce834e1a",
+    "source": "char_4039_horn",
+    "target": "char_4132_ascln",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "救命恩人·并肩战友",
@@ -16634,7 +15978,7 @@
   {
     "id": "rel_siege_klovitch_identity_ch10",
     "source": "char_112_siege",
-    "target": "avg_npc_045",
+    "target": "npc_manfred",
     "relation_type": "rival",
     "relation_label": {
       "zh_CN": "伦蒂尼姆继承者与侵略者",
@@ -16675,7 +16019,7 @@
   {
     "id": "rel_siege_klovitz_ch10",
     "source": "char_112_siege",
-    "target": "avg_npc_045",
+    "target": "npc_manfred",
     "relation_type": "rival",
     "relation_label": {
       "zh_CN": "继承者与侵略者的正面对决",
@@ -16705,7 +16049,7 @@
   {
     "id": "rel_fist_lolo_ch10",
     "source": "npc_fist_ch10",
-    "target": "char_99da5df6",
+    "target": "char_4040_rockr",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "队长与副队长·战友",
@@ -16746,7 +16090,7 @@
   {
     "id": "rel_amiya_klovitz_theresa_ch10",
     "source": "char_002_amiya",
-    "target": "npc_theresa_ch10",
+    "target": "npc_theresa",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "先代魔王与继承者",
@@ -16775,7 +16119,7 @@
   },
   {
     "id": "rel_kaltsit_warl_ch10",
-    "source": "npc_003_kalts",
+    "source": "char_003_kalts",
     "target": "npc_warl",
     "relation_type": "unknown",
     "relation_label": {
@@ -16816,8 +16160,8 @@
   },
   {
     "id": "rel_kaltsit_heidi_ch10",
-    "source": "npc_003_kalts",
-    "target": "char_f37cba01",
+    "source": "char_003_kalts",
+    "target": "char_4045_heidi",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "导师与信使",
@@ -16847,7 +16191,7 @@
   {
     "id": "rel_w_hecter_babel_ch10",
     "source": "char_113_cqbw",
-    "target": "avg_npc_043",
+    "target": "char_4088_hodrer",
     "relation_type": "unknown",
     "relation_label": {
       "zh_CN": "前巴别塔成员·雇佣兵旧情",
@@ -16929,7 +16273,7 @@
   {
     "id": "rel_siege_klovitz_underground_ch10",
     "source": "char_112_siege",
-    "target": "avg_npc_045",
+    "target": "npc_manfred",
     "relation_type": "rival",
     "relation_label": {
       "zh_CN": "主仆·战友·回家",
@@ -17022,7 +16366,7 @@
   {
     "id": "rel_vina_dagda",
     "source": "char_112_siege",
-    "target": "char_29fe53d2",
+    "target": "char_157_dagda",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "格拉斯哥帮核心战友",
@@ -17074,7 +16418,7 @@
   {
     "id": "rel_vina_indra",
     "source": "char_112_siege",
-    "target": "char_5e011deb",
+    "target": "char_155_tiger",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "格拉斯哥帮核心战友",
@@ -17126,7 +16470,7 @@
   {
     "id": "rel_vina_morgan",
     "source": "char_112_siege",
-    "target": "char_aa6c82c1",
+    "target": "char_154_morgan",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "格拉斯哥帮核心战友",
@@ -17167,7 +16511,7 @@
   {
     "id": "rel_vina_graffin",
     "source": "char_112_siege",
-    "target": "char_266_flash",
+    "target": "char_147_shining",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "战友·战场相遇",
@@ -17320,7 +16664,7 @@
   {
     "id": "rel_aleda_mercenaries",
     "source": "npc_aleda",
-    "target": "npc_qianjiao",
+    "target": "char_4062_totter",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "自救军领袖与雇佣兵",
@@ -17533,7 +16877,7 @@
   {
     "id": "rel_askalonn_manfred",
     "source": "char_4132_ascln",
-    "target": "avg_npc_045",
+    "target": "npc_manfred",
     "relation_type": "rival",
     "relation_label": {
       "zh_CN": "刺客与将军·宿命对决",
@@ -17573,7 +16917,7 @@
   },
   {
     "id": "rel_shelling_mercenaries",
-    "source": "char_266_flash",
+    "source": "char_147_shining",
     "target": "npc_forgiver_elite_ch11",
     "relation_type": "rival",
     "relation_label": {
@@ -17644,7 +16988,7 @@
   },
   {
     "id": "rel_cathleen_ledou",
-    "source": "npc_cathleen",
+    "source": "char_4162_cathy",
     "target": "npc_ledou",
     "relation_type": "unknown",
     "relation_label": {
@@ -17674,8 +17018,8 @@
   },
   {
     "id": "rel_cathleen_fust",
-    "source": "npc_cathleen",
-    "target": "npc_fust",
+    "source": "char_4162_cathy",
+    "target": "npc_fist_ch10",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "祖孙·传承与守护",
@@ -17726,8 +17070,8 @@
   },
   {
     "id": "rel_cathleen_meiqiao",
-    "source": "npc_cathleen",
-    "target": "char_f5d563aa",
+    "source": "char_4162_cathy",
+    "target": "char_4071_peper",
     "relation_type": "unknown",
     "relation_label": {
       "zh_CN": "老工人与年轻雇佣兵·意外的善意",
@@ -17809,7 +17153,7 @@
   {
     "id": "rel_goldin_hedy",
     "source": "npc_goldin",
-    "target": "npc_hedy",
+    "target": "char_4045_heidi",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "文学知己·跨越阵营的友情",
@@ -17849,7 +17193,7 @@
   },
   {
     "id": "rel_hedy_ledou",
-    "source": "npc_hedy",
+    "source": "char_4045_heidi",
     "target": "npc_ledou",
     "relation_type": "rival",
     "relation_label": {
@@ -18033,7 +17377,7 @@
   {
     "id": "rel_clouzing_fust",
     "source": "npc_clouzing",
-    "target": "npc_fust",
+    "target": "npc_fist_ch10",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "自救军指挥官与工人士兵",
@@ -18174,7 +17518,7 @@
   },
   {
     "id": "rel_shapeshifter_mo",
-    "source": "npc_shapeshifter",
+    "source": "npc_shifter",
     "target": "npc_jasmine",
     "relation_type": "rival",
     "relation_label": {
@@ -18204,7 +17548,7 @@
   },
   {
     "id": "rel_shapeshifter_goldin",
-    "source": "npc_shapeshifter",
+    "source": "npc_shifter",
     "target": "npc_goldin",
     "relation_type": "unknown",
     "relation_label": {
@@ -18265,7 +17609,7 @@
   {
     "id": "rel_doc_shapeshifter",
     "source": "npc_doctor",
-    "target": "npc_shapeshifter",
+    "target": "npc_shifter",
     "relation_type": "unknown",
     "relation_label": {
       "zh_CN": "博士与变形者·地下剧场的观众",
@@ -18294,7 +17638,7 @@
   },
   {
     "id": "rel_fust_workers",
-    "source": "npc_fust",
+    "source": "npc_fist_ch10",
     "target": "npc_workers",
     "relation_type": "ally",
     "relation_label": {
@@ -18385,7 +17729,7 @@
   {
     "id": "rel_siege_morgan",
     "source": "char_112_siege",
-    "target": "char_aa6c82c1",
+    "target": "char_154_morgan",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "格拉斯哥帮战友·生死与共",
@@ -18467,7 +17811,7 @@
   {
     "id": "rel_siege_indra",
     "source": "char_112_siege",
-    "target": "char_5e011deb",
+    "target": "char_155_tiger",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "格拉斯哥帮战友·街头岁月",
@@ -18508,7 +17852,7 @@
   {
     "id": "rel_siege_dagda",
     "source": "char_112_siege",
-    "target": "char_29fe53d2",
+    "target": "char_157_dagda",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "格拉斯哥帮战友·骑士",
@@ -18590,7 +17934,7 @@
   {
     "id": "rel_siege_delphn",
     "source": "char_112_siege",
-    "target": "char_f9f3ca5f",
+    "target": "char_4110_delphn",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "临时战友·大公爵之女",
@@ -18630,7 +17974,7 @@
   },
   {
     "id": "rel_delphn_windmere",
-    "source": "char_f9f3ca5f",
+    "source": "char_4110_delphn",
     "target": "npc_windmere_ch12",
     "relation_type": "ally",
     "relation_label": {
@@ -18671,8 +18015,8 @@
   },
   {
     "id": "rel_delphn_ines",
-    "source": "char_f9f3ca5f",
-    "target": "char_a2026b00",
+    "source": "char_4110_delphn",
+    "target": "char_4087_ines",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "救命之恩·信任建立",
@@ -18712,8 +18056,8 @@
   },
   {
     "id": "rel_ines_hoeder_w",
-    "source": "char_a2026b00",
-    "target": "char_4a5b4cb2",
+    "source": "char_4087_ines",
+    "target": "char_4088_hodrer",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "萨卡兹佣兵搭档·老战友重逢",
@@ -18753,7 +18097,7 @@
   },
   {
     "id": "rel_ines_misery",
-    "source": "char_a2026b00",
+    "source": "char_4087_ines",
     "target": "npc_misery",
     "relation_type": "ally",
     "relation_label": {
@@ -18794,7 +18138,7 @@
   },
   {
     "id": "rel_ines_logos",
-    "source": "char_a2026b00",
+    "source": "char_4087_ines",
     "target": "char_4133_logos",
     "relation_type": "ally",
     "relation_label": {
@@ -19300,8 +18644,8 @@
   },
   {
     "id": "rel_huang_rosmon_ch15",
-    "source": "char_134_aglina",
-    "target": "char_562b3bbc",
+    "source": "char_017_huang",
+    "target": "char_391_rosmon",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "战友与临时搭档",
@@ -19352,7 +18696,7 @@
   },
   {
     "id": "rel_walfarin_kaltsit_ch15",
-    "source": "char_7f560885",
+    "source": "char_171_warfarin",
     "target": "char_003_kalts",
     "relation_type": "ally",
     "relation_label": {
@@ -19393,8 +18737,8 @@
   },
   {
     "id": "rel_walfarin_kaloi_ch15",
-    "source": "char_7f560885",
-    "target": "char_f0f31c97",
+    "source": "char_171_warfarin",
+    "target": "char_4002_touki",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "医疗部同事与战友",
@@ -19475,7 +18819,7 @@
   },
   {
     "id": "rel_ascalon_misery_ch15",
-    "source": "char_ce834e1a",
+    "source": "char_4132_ascln",
     "target": "npc_misery",
     "relation_type": "ally",
     "relation_label": {
@@ -19558,7 +18902,7 @@
   {
     "id": "rel_logos_pith_ch15",
     "source": "char_4133_logos",
-    "target": "char_a8c4568d",
+    "target": "char_4003_pith",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "巫术与战术协同的精英战友",
@@ -19598,8 +18942,8 @@
   },
   {
     "id": "rel_alanna_walfarin_ch15",
-    "source": "char_59eb83e7",
-    "target": "char_7f560885",
+    "source": "char_4178_alanna",
+    "target": "char_171_warfarin",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "监护人与医疗部战友",
@@ -19628,8 +18972,8 @@
   },
   {
     "id": "rel_walfarin_kaloi_ch15_brave",
-    "source": "char_7f560885",
-    "target": "char_f0f31c97",
+    "source": "char_171_warfarin",
+    "target": "char_4002_touki",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "救治者与见证者",

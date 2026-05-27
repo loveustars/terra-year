@@ -124,9 +124,6 @@ CANONICAL_RELATIONS = [
      "type":"ally","label_zh":"多索雷斯的相遇","label_en":"Dossoles Encounter","confidence":"official_fact",
      "story":"DH-ST1","quote_zh":"你是谁？为什么会在这里？","quote_en":"Who are you? Why are you here?"},
 
-    {"id":"chen_hoshiguma","source":"char_010_chen","target":"char_137_brownb","event":"act12side",
-     "type":"bound","label_zh":"龙门近卫局的搭档","label_en":"LGD Partners","confidence":"official_fact",
-     "story":"DH-ST3","quote_zh":"星熊，跟我走。","quote_en":"Hoshiguma, follow me."},
 
     # === Stultifera Navis (act17side) ===
     {"id":"skadi_doctor_sv","source":"char_263_skadi","target":"char_001_doctor","event":"act17side",
@@ -237,10 +234,6 @@ CANONICAL_RELATIONS = [
     {"id":"chen_siwre_dossoles","source":"char_010_chen","target":"char_308_swire","event":"act12side",
      "type":"ally","label_zh":"多索雷斯的临时搭档","label_en":"Dossoles Temporary Partners","confidence":"implied_plot",
      "story":"DH-ST1","quote_zh":"诗怀雅，你也来了？","quote_en":"Swire, you're here too?"},
-
-    {"id":"hoshiguma_chen","source":"char_137_brownb","target":"char_010_chen","event":"act12side",
-     "type":"bound","label_zh":"龙门近卫局的搭档","label_en":"LGD Partners","confidence":"official_fact",
-     "story":"DH-ST2","quote_zh":"陈，小心点。","quote_en":"Ch'en, be careful."},
 
     # === Siracusa - Penguin Logistics in the theater ===
     {"id":"texas_sora_siracusa","source":"char_102_texas","target":"char_101_sora","event":"act21side",
@@ -413,7 +406,7 @@ OPERATOR_STATES = [
      "reason":{"zh_CN":"罗德岛干员，前莱茵生命防卫科主任","en_US":"RI operator, former Rhine Lab Defense Director"},
      "event_id":"act25side"},
 
-    {"operator_id":"char_134_aglina","year":1097,"status":"alive",
+    {"operator_id":"char_291_aglina","year":1097,"status":"alive",
      "reason":{"zh_CN":"罗德岛精英干员","en_US":"RI Elite Operator"},
      "event_id":"ep07"},
 

@@ -193,7 +193,7 @@
   {
     "id": "rel_chen_hsguma_ch07",
     "source": "char_1050_chen3",
-    "target": "char_137_brownb",
+    "target": "char_136_hsguma",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "战友之战·龙门决裂",
@@ -234,7 +234,7 @@
   {
     "id": "rel_chen_talula_ch07",
     "source": "char_1050_chen3",
-    "target": "char_011_talula",
+    "target": "npc_talulah",
     "relation_type": "rival",
     "relation_label": {
       "zh_CN": "同母异父姐妹·命运对决",
@@ -293,7 +293,7 @@
   },
   {
     "id": "rel_hsguma_swire_ch07",
-    "source": "char_137_brownb",
+    "source": "char_136_hsguma",
     "target": "char_b18703d0",
     "relation_type": "ally",
     "relation_label": {
@@ -525,7 +525,7 @@
   },
   {
     "id": "rel_talula_phantoms_ch07",
-    "source": "char_011_talula",
+    "source": "npc_talulah",
     "target": "npc_phantoms",
     "relation_type": "ally",
     "relation_label": {

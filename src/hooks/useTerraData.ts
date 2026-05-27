@@ -14,7 +14,8 @@ export interface I18nString {
 export interface Operator {
   id: string;
   display_name: I18nString;
-  faction: string;
+  /** 所属势力（可多值） */
+  faction: string[];
   avatar_key?: string;
   is_npc: boolean;
 }
@@ -146,7 +147,9 @@ function normalizeOperators(operators: Operator[]): Operator[] {
   return operators.map((operator) => ({
     ...operator,
     display_name: normalizeI18n(operator.display_name, operator.id),
-    faction: operator.faction || 'unknown',
+    faction: Array.isArray(operator.faction)
+      ? operator.faction
+      : [operator.faction || 'unknown'],
     avatar_key: operator.avatar_key || operator.id,
     is_npc: operator.is_npc ?? (operator.id.startsWith('npc_') || operator.id.startsWith('avg_')),
   }));
@@ -254,7 +257,7 @@ export function useTerraData(): UseTerraDataReturn {
 
   const getOperatorsByFaction = useCallback(
     (faction: string) =>
-      state.operators.filter((o) => o.faction === faction),
+      state.operators.filter((o) => o.faction.includes(faction)),
     [state.operators],
   );
 
