@@ -14477,8 +14477,8 @@
   },
   {
     "id": "rel_deeppool_ahmani",
-    "source": "npc_deeppool_leader",
-    "target": "npc_ahmani",
+    "source": "char_450_necras",
+    "target": "char_297_harmonie",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "领袖与谋臣",
@@ -14519,7 +14519,7 @@
   {
     "id": "rel_lafcine_deeppool",
     "source": "npc_lafcine",
-    "target": "npc_deeppool_leader",
+    "target": "char_450_necras",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "亲姐妹·阵营对立",
@@ -14549,7 +14549,7 @@
   {
     "id": "rel_mendra_ahmani",
     "source": "npc_mendra",
-    "target": "npc_ahmani",
+    "target": "char_297_harmonie",
     "relation_type": "rival",
     "relation_label": {
       "zh_CN": "深池内部路线对立",
@@ -14590,7 +14590,7 @@
   {
     "id": "rel_mendra_deeppool",
     "source": "npc_mendra",
-    "target": "npc_deeppool_leader",
+    "target": "char_450_necras",
     "relation_type": "rival",
     "relation_label": {
       "zh_CN": "追随者·野心不满",
@@ -14915,7 +14915,7 @@
   {
     "id": "rel_outcast_deeppool_leader",
     "source": "npc_outcast",
-    "target": "npc_deeppool_leader",
+    "target": "char_450_necras",
     "relation_type": "rival",
     "relation_label": {
       "zh_CN": "审判者与被审判者",
@@ -15016,7 +15016,7 @@
   {
     "id": "rel_deeppool_6_cadres",
     "source": "npc_deeppool_cadres",
-    "target": "npc_deeppool_leader",
+    "target": "char_450_necras",
     "relation_type": "unknown",
     "relation_label": {
       "zh_CN": "干部与领袖·未知关系",
