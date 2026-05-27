@@ -159,7 +159,7 @@ const NPC_SUFFIX_FALLBACK: Record<string, string> = {
 function addLocalCandidates(target: string[], seen: Set<string>, alias: string) {
   if (!alias) return;
   for (const ext of LOCAL_EXTENSIONS) {
-    const url = `/assets/avatars/${alias}.${ext}`;
+    const url = `${(import.meta.env.BASE_URL as string) || ''}assets/avatars/${alias}.${ext}`;
     if (!seen.has(url)) {
       seen.add(url);
       target.push(url);
