@@ -1,20 +1,20 @@
 [
   {
-    "id": "npc_pris",
+    "id": "npc_priestess",
     "display_name": {
       "zh_CN": "普瑞赛斯",
       "en_US": "Prtser"
     },
     "faction": "originium_creator",
-    "avatar_key": "npc_pris",
+    "avatar_key": "npc_priestess",
     "is_npc": true,
     "description": {
       "zh_CN": "前文明的顶尖科学家，与博士（预言家）共同创造了源石。她是AMa-10双生循环系统的设计者，创造出凯尔希和Mon3tr。其目标是利用源石将整个泰拉同化为信息生命。1099 TY在Abyss中苏醒，被凯尔希设计困于身体后被Mon3tr攻击，最终与凯尔希同归于尽。",
       "en_US": "A top scientist of the previous civilization who co-created Originium with the Doctor (the Prophet). She designed the AMa-10 dual circulatory system, creating Kaltsit and Mon3tr. Her goal was to use Originium to assimilate all of Terra into informational life. In 1099 TY, she awakened in Abyss, was trapped by Kaltsit, attacked by Mon3tr, and died together with Kaltsit."
     },
     "notes": {
-      "zh_CN": "ch15核心反派，源石造物主。handbook中无ID（是前文明个体），使用npc_pris。",
-      "en_US": "Ch15 core antagonist, Originium creator. Not in handbook (previous civilization individual), use npc_pris."
+      "zh_CN": "ch15核心反派，源石造物主。handbook中无ID（是前文明个体），使用npc_priestess。",
+      "en_US": "Ch15 core antagonist, Originium creator. Not in handbook (previous civilization individual), use npc_priestess."
     }
   },
   {

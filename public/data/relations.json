@@ -736,8 +736,8 @@
   },
   {
     "id": "rel_npc_碎骨_npc_米莎",
-    "source": "npc_碎骨",
-    "target": "npc_米莎",
+    "source": "npc_suigu",
+    "target": "npc_misha",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "姐弟/誓死保护",
@@ -766,7 +766,7 @@
   },
   {
     "id": "rel_npc_碎骨_char_002_amiya",
-    "source": "npc_碎骨",
+    "source": "npc_suigu",
     "target": "char_002_amiya",
     "relation_type": "rival",
     "relation_label": {
@@ -797,7 +797,7 @@
   {
     "id": "rel_char_113_cqbw_npc_碎骨",
     "source": "char_113_cqbw",
-    "target": "npc_碎骨",
+    "target": "npc_suigu",
     "relation_type": "unknown",
     "relation_label": {
       "zh_CN": "利用关系",
@@ -826,7 +826,7 @@
   },
   {
     "id": "rel_npc_米莎_char_002_amiya",
-    "source": "npc_米莎",
+    "source": "npc_misha",
     "target": "char_002_amiya",
     "relation_type": "unknown",
     "relation_label": {
@@ -3524,7 +3524,7 @@
   {
     "id": "rel_ch02_char_010_che_npc_米莎",
     "source": "char_010_chen",
-    "target": "npc_米莎",
+    "target": "npc_misha",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "接触/合作",
@@ -3732,7 +3732,7 @@
   {
     "id": "rel_ch02_char_102_tex_npc_米莎",
     "source": "char_102_texas",
-    "target": "npc_米莎",
+    "target": "npc_misha",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "企鹅物流/任务搭档",
@@ -3940,7 +3940,7 @@
   {
     "id": "rel_ch02_char_103_ang_npc_米莎",
     "source": "char_103_angel",
-    "target": "npc_米莎",
+    "target": "npc_misha",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "企鹅物流/任务搭档",
@@ -4044,7 +4044,7 @@
   {
     "id": "rel_ch02_char_564b67e_npc_米莎",
     "source": "char_107_liskam",
-    "target": "npc_米莎",
+    "target": "npc_misha",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "企鹅物流/任务搭档",
@@ -4085,7 +4085,7 @@
   {
     "id": "rel_ch02_char_564b67e_npc_碎骨",
     "source": "char_107_liskam",
-    "target": "npc_碎骨",
+    "target": "npc_suigu",
     "relation_type": "rival",
     "relation_label": {
       "zh_CN": "敌对/悲剧背景",
@@ -4115,7 +4115,7 @@
   {
     "id": "rel_ch02_char_b09c7d0_npc_米莎",
     "source": "char_106_franka",
-    "target": "npc_米莎",
+    "target": "npc_misha",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "企鹅物流/任务搭档",
@@ -4156,7 +4156,7 @@
   {
     "id": "rel_ch02_char_b09c7d0_npc_碎骨",
     "source": "char_106_franka",
-    "target": "npc_碎骨",
+    "target": "npc_suigu",
     "relation_type": "rival",
     "relation_label": {
       "zh_CN": "敌对/悲剧背景",
@@ -4238,7 +4238,7 @@
   {
     "id": "rel_ch03_char_010_che_npc_碎骨",
     "source": "char_010_chen",
-    "target": "npc_碎骨",
+    "target": "npc_suigu",
     "relation_type": "rival",
     "relation_label": {
       "zh_CN": "敌对/悲剧背景",
@@ -4279,7 +4279,7 @@
   {
     "id": "rel_ch03_char_113_cqbw_npc_米莎",
     "source": "char_113_cqbw",
-    "target": "npc_米莎",
+    "target": "npc_misha",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "接触/合作",
@@ -4331,7 +4331,7 @@
   {
     "id": "rel_ch03_char_103_ang_npc_碎骨",
     "source": "char_103_angel",
-    "target": "npc_碎骨",
+    "target": "npc_suigu",
     "relation_type": "rival",
     "relation_label": {
       "zh_CN": "敌对/悲剧背景",
@@ -5909,7 +5909,7 @@
   {
     "id": "rel_hb_char_391_rosmon_char_f0f31c9",
     "source": "char_391_rosmon",
-    "target": "char_4002_touki",
+    "target": "npc_touki",
     "first_appear_event_id": "main_ch17",
     "associated_event_id": "main_ch17",
     "relation_type": "ally",
@@ -8891,7 +8891,7 @@
   },
   {
     "id": "rel_hb_char_1487946_char_5472b18",
-    "source": "char_4059_strmey",
+    "source": "npc_strmey",
     "target": "char_4179_monstr",
     "first_appear_event_id": "main_ch17",
     "associated_event_id": "main_ch17",
@@ -11832,7 +11832,7 @@
   {
     "id": "rel_wellington_durgen",
     "source": "npc_wellington",
-    "target": "char_4056_durgen",
+    "target": "npc_durgen",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "公爵联军",
@@ -11862,7 +11862,7 @@
   {
     "id": "rel_warl_durgen",
     "source": "npc_warl",
-    "target": "char_4056_durgen",
+    "target": "npc_durgen",
     "relation_type": "rival",
     "relation_label": {
       "zh_CN": "正面交战",
@@ -11952,7 +11952,7 @@
   {
     "id": "rel_mantra_raidian",
     "source": "char_4204_mantra",
-    "target": "npc_raidian",
+    "target": "char_4195_raidian",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "巴别塔旧友·通讯搭档",
@@ -11981,7 +11981,7 @@
   },
   {
     "id": "rel_raidian_amiya",
-    "source": "npc_raidian",
+    "source": "char_4195_raidian",
     "target": "char_002_amiya",
     "relation_type": "ally",
     "relation_label": {
@@ -12071,7 +12071,7 @@
   },
   {
     "id": "rel_raidian_beaconch",
-    "source": "npc_raidian",
+    "source": "char_4195_raidian",
     "target": "npc_beaconch",
     "relation_type": "ally",
     "relation_label": {
@@ -12101,7 +12101,7 @@
   },
   {
     "id": "rel_raidian_mantra",
-    "source": "npc_raidian",
+    "source": "char_4195_raidian",
     "target": "char_4204_mantra",
     "relation_type": "ally",
     "relation_label": {
@@ -12252,7 +12252,7 @@
   {
     "id": "rel_amiya_raidian",
     "source": "char_002_amiya",
-    "target": "npc_raidian",
+    "target": "char_4195_raidian",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "罗德岛领袖与医疗队长",
@@ -12342,7 +12342,7 @@
   {
     "id": "rel_doc_raidian",
     "source": "npc_doctor",
-    "target": "npc_raidian",
+    "target": "char_4195_raidian",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "罗德岛指挥官与医疗队长",
@@ -12699,7 +12699,7 @@
   {
     "id": "rel_kaltsit_pris_ch15",
     "source": "char_003_kalts",
-    "target": "npc_pris",
+    "target": "npc_priestess",
     "relation_type": "rival",
     "relation_label": {
       "zh_CN": "造物主与反叛者的终极对决",
@@ -12728,7 +12728,7 @@
   {
     "id": "rel_doctor_pris_ch15",
     "source": "npc_doctor",
-    "target": "npc_pris",
+    "target": "npc_priestess",
     "relation_type": "unknown",
     "relation_label": {
       "zh_CN": "源石共创者与遗失的同行者",
@@ -12814,7 +12814,7 @@
   },
   {
     "id": "rel_raidian_kroos_ch15",
-    "source": "npc_raidian",
+    "source": "char_4195_raidian",
     "target": "char_4228_closur",
     "relation_type": "ally",
     "relation_label": {
@@ -12844,7 +12844,7 @@
   {
     "id": "rel_amiya_pris_ch15",
     "source": "char_002_amiya",
-    "target": "npc_pris",
+    "target": "npc_priestess",
     "relation_type": "rival",
     "relation_label": {
       "zh_CN": "魔王觉醒者与源石造物主",
@@ -12872,7 +12872,7 @@
   },
   {
     "id": "rel_pris_hilda_ch15",
-    "source": "npc_pris",
+    "source": "npc_priestess",
     "target": "npc_hilda",
     "relation_type": "unknown",
     "relation_label": {
@@ -17224,7 +17224,7 @@
   {
     "id": "rel_theresa_prime_theresa",
     "source": "npc_theresa",
-    "target": "npc_theresa_prime",
+    "target": "npc_theresis",
     "relation_type": "unknown",
     "relation_label": {
       "zh_CN": "前任魔王与\"特蕾西娅\"·真相揭露",
@@ -17347,7 +17347,7 @@
   {
     "id": "rel_blooddemon_theresa_prime",
     "source": "npc_blooddemon",
-    "target": "npc_theresa_prime",
+    "target": "npc_theresis",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "血魔大君与摄政王·萨卡兹王庭核心",
@@ -17698,7 +17698,7 @@
   },
   {
     "id": "rel_theresa_prime_kaltsit",
-    "source": "npc_theresa_prime",
+    "source": "npc_theresis",
     "target": "char_003_kalts",
     "relation_type": "rival",
     "relation_label": {
@@ -18344,7 +18344,7 @@
   {
     "id": "rel_doc_prtser_ch15",
     "source": "npc_doctor",
-    "target": "npc_pris",
+    "target": "npc_priestess",
     "relation_type": "unknown",
     "relation_label": {
       "zh_CN": "旧识与源石共创者",
@@ -18511,7 +18511,7 @@
   {
     "id": "rel_kaltsit_prtser_ch15",
     "source": "char_003_kalts",
-    "target": "npc_pris",
+    "target": "npc_priestess",
     "relation_type": "rival",
     "relation_label": {
       "zh_CN": "造主与觉醒的造物——生死对抗",
@@ -18604,7 +18604,7 @@
   {
     "id": "rel_amiya_prtser_ch15",
     "source": "char_002_amiya",
-    "target": "npc_pris",
+    "target": "npc_priestess",
     "relation_type": "rival",
     "relation_label": {
       "zh_CN": "对抗源石造物主的魔王继承者",
@@ -18738,7 +18738,7 @@
   {
     "id": "rel_walfarin_kaloi_ch15",
     "source": "char_171_warfarin",
-    "target": "char_4002_touki",
+    "target": "npc_touki",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "医疗部同事与战友",
@@ -18861,7 +18861,7 @@
   {
     "id": "rel_kaltsit_prtser_ch15_doctrine",
     "source": "npc_doctor",
-    "target": "npc_pris",
+    "target": "npc_priestess",
     "relation_type": "unknown",
     "relation_label": {
       "zh_CN": "预言家与源石——过去的创造者与现在的对立",
@@ -18902,7 +18902,7 @@
   {
     "id": "rel_logos_pith_ch15",
     "source": "char_4133_logos",
-    "target": "char_4003_pith",
+    "target": "npc_pith",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "巫术与战术协同的精英战友",
@@ -18973,7 +18973,7 @@
   {
     "id": "rel_walfarin_kaloi_ch15_brave",
     "source": "char_171_warfarin",
-    "target": "char_4002_touki",
+    "target": "npc_touki",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "救治者与见证者",
@@ -19107,7 +19107,7 @@
   {
     "id": "rel_doc_amiya_prtser_ch15",
     "source": "npc_doctor",
-    "target": "npc_pris",
+    "target": "npc_priestess",
     "relation_type": "rival",
     "relation_label": {
       "zh_CN": "拒绝源石同化的终极抉择",

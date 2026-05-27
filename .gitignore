@@ -30,3 +30,11 @@ temp
 public/pagereference
 .mavis
 .opencode
+
+# One-off data processing scripts & artifacts
+handbook_real_names.tsv
+memory.json
+process_stories.py
+write_event_bg.py
+write_relation_panel.py
+scripts/

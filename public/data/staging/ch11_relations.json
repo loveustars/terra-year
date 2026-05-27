@@ -983,7 +983,7 @@
   {
     "id": "rel_theresa_prime_theresa",
     "source": "npc_theresa",
-    "target": "npc_theresa_prime",
+    "target": "npc_theresis",
     "relation_type": "unknown",
     "relation_label": {
       "zh_CN": "前任魔王与\"特蕾西娅\"·真相揭露",
@@ -1106,7 +1106,7 @@
   {
     "id": "rel_blooddemon_theresa_prime",
     "source": "npc_blooddemon",
-    "target": "npc_theresa_prime",
+    "target": "npc_theresis",
     "relation_type": "ally",
     "relation_label": {
       "zh_CN": "血魔大君与摄政王·萨卡兹王庭核心",
@@ -1457,7 +1457,7 @@
   },
   {
     "id": "rel_theresa_prime_kaltsit",
-    "source": "npc_theresa_prime",
+    "source": "npc_theresis",
     "target": "char_003_kalts",
     "relation_type": "rival",
     "relation_label": {
