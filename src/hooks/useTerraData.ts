@@ -74,11 +74,12 @@ export interface OperatorState {
  *  - 暴露加载状态 / 错误信息
  * ============================================================ */
 
+const BASE = (import.meta.env.BASE_URL as string) || '';
 const DATA_PATHS: Record<string, string> = {
-  operators: './data/operatiors.json',
-  events: './data/events.json',
-  relations: './data/relations.json',
-  states: './data/operators_state.json',
+  operators: `${BASE}data/operatiors.json`,
+  events: `${BASE}data/events.json`,
+  relations: `${BASE}data/relations.json`,
+  states: `${BASE}data/operators_state.json`,
 } as const;
 
 export interface TerraDataState {

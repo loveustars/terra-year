@@ -140,6 +140,22 @@ function keySuffix(key: string): string | null {
   return null;
 }
 
+/** npc_ 后缀英文名 → LOCAL_AVATAR_ALIASES 里对应的英文 key */
+const NPC_SUFFIX_FALLBACK: Record<string, string> = {
+  suigu: 'skullshatterer',
+  misha: 'misha',
+  sharp: 'sharp',
+  muluo: 'muluo',
+  dionysus: 'dionysus',
+  touki: 'touki',
+  pith: 'pith',
+  durgen: 'durgen',
+  strmey: 'strmey',
+  pingos: 'pingos',
+  lava2: 'lava',
+  ahmani: 'ahmani',
+};
+
 function addLocalCandidates(target: string[], seen: Set<string>, alias: string) {
   if (!alias) return;
   for (const ext of LOCAL_EXTENSIONS) {
@@ -197,6 +213,12 @@ const OperatorAvatar: React.FC<OperatorAvatar> = ({
         addMappedLocalCandidates(urls, seen, suffix);
         if (/^\d+[a-z]+$/.test(suffix)) {
           addLocalCandidates(urls, seen, suffix.replace(/[a-z]{2}$/, ''));
+        }
+      } else if (safeKey?.startsWith('npc_')) {
+        // npc_ IDs without known suffix → fallback to LOCAL_AVATAR_ALIASES
+        const fallback = NPC_SUFFIX_FALLBACK[safeKey];
+        if (fallback) {
+          addMappedLocalCandidates(urls, seen, fallback);
         }
       }
     }
