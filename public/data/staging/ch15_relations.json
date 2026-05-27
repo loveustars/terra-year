@@ -2,7 +2,7 @@
   {
     "id": "rel_doc_prtser_ch15",
     "source": "npc_doctor",
-    "target": "npc_pris",
+    "target": "npc_priestess",
     "relation_type": "unknown",
     "relation_label": {
       "zh_CN": "旧识与源石共创者",
@@ -232,7 +232,7 @@
   {
     "id": "rel_kaltsit_prtser_ch15",
     "source": "char_003_kalts",
-    "target": "npc_pris",
+    "target": "npc_priestess",
     "relation_type": "rival",
     "relation_label": {
       "zh_CN": "造主与觉醒的造物——生死对抗",
@@ -325,7 +325,7 @@
   {
     "id": "rel_amiya_prtser_ch15",
     "source": "char_002_amiya",
-    "target": "npc_pris",
+    "target": "npc_priestess",
     "relation_type": "rival",
     "relation_label": {
       "zh_CN": "对抗源石造物主的魔王继承者",
@@ -582,7 +582,7 @@
   {
     "id": "rel_kaltsit_prtser_ch15_doctrine",
     "source": "npc_doctor",
-    "target": "npc_pris",
+    "target": "npc_priestess",
     "relation_type": "unknown",
     "relation_label": {
       "zh_CN": "预言家与源石——过去的创造者与现在的对立",
@@ -828,7 +828,7 @@
   {
     "id": "rel_doc_amiya_prtser_ch15",
     "source": "npc_doctor",
-    "target": "npc_pris",
+    "target": "npc_priestess",
     "relation_type": "rival",
     "relation_label": {
       "zh_CN": "拒绝源石同化的终极抉择",

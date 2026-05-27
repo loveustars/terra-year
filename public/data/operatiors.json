@@ -3,7 +3,7 @@
     "id": "char_002_amiya",
     "display_name": {
       "zh_CN": "阿米娅",
-      "en_US": "阿米娅"
+      "en_US": "Amiya"
     },
     "faction": [
       "rhodes_island"
@@ -19,7 +19,7 @@
     "id": "char_003_kalts",
     "display_name": {
       "zh_CN": "凯尔希",
-      "en_US": "凯尔希"
+      "en_US": "Kal'tsit"
     },
     "faction": "rhodes_island",
     "avatar_key": "char_003_kalts",
@@ -35,7 +35,7 @@
       "zh_CN": "12F",
       "en_US": "12F"
     },
-    "faction": "columbia",
+    "faction": "rhodes_island",
     "avatar_key": "char_009_12fce",
     "is_npc": false,
     "description": {
@@ -47,7 +47,7 @@
     "id": "char_010_chen",
     "display_name": {
       "zh_CN": "陈",
-      "en_US": "陈"
+      "en_US": "Ch'en"
     },
     "faction": [
       "lungmen"
@@ -65,9 +65,7 @@
       "zh_CN": "煌",
       "en_US": "Huang"
     },
-    "faction": [
-      "columbia"
-    ],
+    "faction": "rhodes_island",
     "avatar_key": "char_017_huang",
     "is_npc": true,
     "description": {
@@ -81,7 +79,7 @@
     "id": "char_101_sora",
     "display_name": {
       "zh_CN": "空",
-      "en_US": "空"
+      "en_US": "Sora"
     },
     "faction": [
       "penguin_logistics",
@@ -97,10 +95,10 @@
     "class": "operator"
   },
   {
-    "id": "char_1011_lava2",
+    "id": "npc_lava2",
     "display_name": {
       "zh_CN": "炎狱炎熔",
-      "en_US": "炎狱炎熔"
+      "en_US": "Lava the Purgatory"
     },
     "faction": "victoria",
     "avatar_key": "char_1011_lava2",
@@ -114,7 +112,7 @@
     "id": "char_143_ghost",
     "display_name": {
       "zh_CN": "幽灵鲨",
-      "en_US": "幽灵鲨"
+      "en_US": "Specter"
     },
     "faction": "abyss",
     "avatar_key": "char_143_ghost",
@@ -145,7 +143,7 @@
     "id": "char_103_angel",
     "display_name": {
       "zh_CN": "能天使",
-      "en_US": "能天使"
+      "en_US": "Exusiai"
     },
     "faction": [
       "rhodes_island",
@@ -159,10 +157,10 @@
     }
   },
   {
-    "id": "char_105_liskarm",
+    "id": "char_107_liskam",
     "display_name": {
       "zh_CN": "雷蛇",
-      "en_US": "雷蛇"
+      "en_US": "Liskarm"
     },
     "faction": "columbia",
     "avatar_key": "char_105_liskarm",
@@ -176,7 +174,7 @@
     "id": "char_109_fmout",
     "display_name": {
       "zh_CN": "远山",
-      "en_US": "远山"
+      "en_US": "Gitano"
     },
     "faction": "sami",
     "avatar_key": "char_109_fmout",
@@ -190,7 +188,7 @@
     "id": "char_110_deepcl",
     "display_name": {
       "zh_CN": "深海色",
-      "en_US": "深海色"
+      "en_US": "Deepcolor"
     },
     "faction": "abyss",
     "avatar_key": "char_110_deepcl",
@@ -204,7 +202,7 @@
     "id": "char_112_siege",
     "display_name": {
       "zh_CN": "推进之王",
-      "en_US": "推进之王"
+      "en_US": "Siege"
     },
     "faction": [
       "rhodes_island"
@@ -222,7 +220,11 @@
       "zh_CN": "W",
       "en_US": "W"
     },
-    "faction": "rhodes_island",
+    "faction": [
+      "rhodes_island",
+      "babel",
+      "sarkaz"
+    ],
     "avatar_key": "char_113_cqbw",
     "is_npc": false,
     "description": {
@@ -234,7 +236,7 @@
     "id": "char_115_headbr",
     "display_name": {
       "zh_CN": "凛冬",
-      "en_US": "凛冬"
+      "en_US": "Зима"
     },
     "faction": "ursus",
     "avatar_key": "char_115_headbr",
@@ -248,9 +250,9 @@
     "id": "char_117_myrrh",
     "display_name": {
       "zh_CN": "末药",
-      "en_US": "末药"
+      "en_US": "Myrrh"
     },
-    "faction": "minos",
+    "faction": "rhodes_island",
     "avatar_key": "char_117_myrrh",
     "is_npc": false,
     "description": {
@@ -262,7 +264,7 @@
     "id": "char_118_yuki",
     "display_name": {
       "zh_CN": "白雪",
-      "en_US": "白雪"
+      "en_US": "ShiraYuki"
     },
     "faction": "rhodes_island",
     "avatar_key": "char_118_yuki",
@@ -276,7 +278,7 @@
     "id": "char_120_hibisc",
     "display_name": {
       "zh_CN": "芙蓉",
-      "en_US": "芙蓉"
+      "en_US": "Hibiscus"
     },
     "faction": "victoria",
     "avatar_key": "char_120_hibisc",
@@ -290,7 +292,7 @@
     "id": "char_121_lava",
     "display_name": {
       "zh_CN": "炎熔",
-      "en_US": "炎熔"
+      "en_US": "Lava"
     },
     "faction": "victoria",
     "avatar_key": "char_121_lava",
@@ -304,7 +306,7 @@
     "id": "char_122_beagle",
     "display_name": {
       "zh_CN": "米格鲁",
-      "en_US": "米格鲁"
+      "en_US": "Beagle"
     },
     "faction": "bolivar",
     "avatar_key": "char_122_beagle",
@@ -318,7 +320,7 @@
     "id": "char_123_fang",
     "display_name": {
       "zh_CN": "芬",
-      "en_US": "芬"
+      "en_US": "Fang"
     },
     "faction": "kazimierz",
     "avatar_key": "char_123_fang",
@@ -332,7 +334,7 @@
     "id": "char_124_kroos",
     "display_name": {
       "zh_CN": "克洛丝",
-      "en_US": "克洛丝"
+      "en_US": "Kroos"
     },
     "faction": "rim",
     "avatar_key": "char_124_kroos",
@@ -346,7 +348,7 @@
     "id": "char_126_shotst",
     "display_name": {
       "zh_CN": "流星",
-      "en_US": "流星"
+      "en_US": "Meteor"
     },
     "faction": "kazimierz",
     "avatar_key": "char_126_shotst",
@@ -360,7 +362,7 @@
     "id": "char_127_estell",
     "display_name": {
       "zh_CN": "艾丝黛尔",
-      "en_US": "艾丝黛尔"
+      "en_US": "Estelle"
     },
     "faction": "sargon",
     "avatar_key": "char_127_estell",
@@ -374,7 +376,7 @@
     "id": "char_128_plosis",
     "display_name": {
       "zh_CN": "白面鸮",
-      "en_US": "白面鸮"
+      "en_US": "Ptilopsis"
     },
     "faction": [
       "rhodes_island",
@@ -391,7 +393,7 @@
     "id": "char_129_bluep",
     "display_name": {
       "zh_CN": "蓝毒",
-      "en_US": "蓝毒"
+      "en_US": "Blue Poison"
     },
     "faction": "rhodes_island",
     "avatar_key": "char_129_bluep",
@@ -405,9 +407,9 @@
     "id": "char_130_doberm",
     "display_name": {
       "zh_CN": "杜宾",
-      "en_US": "杜宾"
+      "en_US": "Dobermann"
     },
-    "faction": "bolivar",
+    "faction": "rhodes_island",
     "avatar_key": "char_130_doberm",
     "is_npc": false,
     "description": {
@@ -419,7 +421,7 @@
     "id": "char_131_flameb",
     "display_name": {
       "zh_CN": "炎客",
-      "en_US": "炎客"
+      "en_US": "Flamebringer"
     },
     "faction": "rhodes_island",
     "avatar_key": "char_131_flameb",
@@ -433,7 +435,7 @@
     "id": "char_133_mm",
     "display_name": {
       "zh_CN": "梅",
-      "en_US": "梅"
+      "en_US": "May"
     },
     "faction": "victoria",
     "avatar_key": "char_133_mm",
@@ -463,7 +465,7 @@
     "id": "char_135_halo",
     "display_name": {
       "zh_CN": "星源",
-      "en_US": "星源"
+      "en_US": "Astgenne"
     },
     "faction": [
       "rhodes_island"
@@ -479,7 +481,7 @@
     "id": "char_136_hsguma",
     "display_name": {
       "zh_CN": "星熊",
-      "en_US": "星熊"
+      "en_US": "Hoshiguma"
     },
     "faction": [
       "yan",
@@ -496,7 +498,7 @@
     "id": "char_137_brownb",
     "display_name": {
       "zh_CN": "猎蜂",
-      "en_US": "猎蜂"
+      "en_US": "Beehunter"
     },
     "faction": "ursus",
     "avatar_key": "char_137_brownb",
@@ -510,7 +512,7 @@
     "id": "char_141_nights",
     "display_name": {
       "zh_CN": "夜烟",
-      "en_US": "夜烟"
+      "en_US": "Haze"
     },
     "faction": "victoria",
     "avatar_key": "char_141_nights",
@@ -540,9 +542,12 @@
     "id": "char_145_prove",
     "display_name": {
       "zh_CN": "普罗旺斯",
-      "en_US": "普罗旺斯"
+      "en_US": "Provence"
     },
-    "faction": "rhodes_island",
+    "faction": [
+      "rhodes_island",
+      "siracusa"
+    ],
     "avatar_key": "char_145_prove",
     "is_npc": false,
     "description": {
@@ -554,7 +559,7 @@
     "id": "char_147_shining",
     "display_name": {
       "zh_CN": "闪灵",
-      "en_US": "闪灵"
+      "en_US": "Shining"
     },
     "faction": "kazimierz_mc",
     "avatar_key": "char_147_shining",
@@ -568,7 +573,7 @@
     "id": "char_148_nearl",
     "display_name": {
       "zh_CN": "临光",
-      "en_US": "临光"
+      "en_US": "Nearl"
     },
     "faction": [
       "rhodes_island"
@@ -584,7 +589,7 @@
     "id": "char_149_scave",
     "display_name": {
       "zh_CN": "清道夫",
-      "en_US": "清道夫"
+      "en_US": "Scavenger"
     },
     "faction": "sargon",
     "avatar_key": "char_149_scave",
@@ -598,9 +603,12 @@
     "id": "char_150_snakek",
     "display_name": {
       "zh_CN": "蛇屠箱",
-      "en_US": "蛇屠箱"
+      "en_US": "Cuora"
     },
-    "faction": "rhodes_island",
+    "faction": [
+      "rhodes_island",
+      "columbia"
+    ],
     "avatar_key": "char_150_snakek",
     "is_npc": false,
     "description": {
@@ -612,9 +620,12 @@
     "id": "char_1502_crosly",
     "display_name": {
       "zh_CN": "弑君者",
-      "en_US": "弑君者"
+      "en_US": "Crownslayer"
     },
-    "faction": "ursus",
+    "faction": [
+      "ursus",
+      "rhodes_island"
+    ],
     "avatar_key": "char_1502_crosly",
     "is_npc": false,
     "description": {
@@ -626,7 +637,7 @@
     "id": "char_151_myrtle",
     "display_name": {
       "zh_CN": "桃金娘",
-      "en_US": "桃金娘"
+      "en_US": "Myrtle"
     },
     "faction": "rhodes_island",
     "avatar_key": "char_151_myrtle",
@@ -640,7 +651,7 @@
     "id": "char_154_morgan",
     "display_name": {
       "zh_CN": "摩根",
-      "en_US": "摩根"
+      "en_US": "Morgan"
     },
     "faction": "victoria",
     "avatar_key": "char_154_morgan",
@@ -654,7 +665,7 @@
     "id": "char_155_tiger",
     "display_name": {
       "zh_CN": "因陀罗",
-      "en_US": "因陀罗"
+      "en_US": "Indra"
     },
     "faction": "victoria",
     "avatar_key": "char_155_tiger",
@@ -668,7 +679,7 @@
     "id": "char_157_dagda",
     "display_name": {
       "zh_CN": "达格达",
-      "en_US": "达格达"
+      "en_US": "Dagda"
     },
     "faction": "victoria",
     "avatar_key": "char_157_dagda",
@@ -682,7 +693,7 @@
     "id": "char_158_milu",
     "display_name": {
       "zh_CN": "守林人",
-      "en_US": "守林人"
+      "en_US": "Firewatch"
     },
     "faction": "rhodes_island",
     "avatar_key": "char_158_milu",
@@ -696,9 +707,12 @@
     "id": "char_159_peacok",
     "display_name": {
       "zh_CN": "断罪者",
-      "en_US": "断罪者"
+      "en_US": "Conviction"
     },
-    "faction": "unknown",
+    "faction": [
+      "unknown",
+      "minos"
+    ],
     "avatar_key": "char_159_peacok",
     "is_npc": false,
     "description": {
@@ -710,7 +724,7 @@
     "id": "char_163_hpsts",
     "display_name": {
       "zh_CN": "火神",
-      "en_US": "火神"
+      "en_US": "Vulcan"
     },
     "faction": "minos",
     "avatar_key": "char_163_hpsts",
@@ -724,9 +738,12 @@
     "id": "char_164_nightm",
     "display_name": {
       "zh_CN": "夜魔",
-      "en_US": "夜魔"
+      "en_US": "Nightmare"
     },
-    "faction": "rhodes_island",
+    "faction": [
+      "rhodes_island",
+      "victoria"
+    ],
     "avatar_key": "char_164_nightm",
     "is_npc": false,
     "description": {
@@ -738,7 +755,7 @@
     "id": "char_166_skfire",
     "display_name": {
       "zh_CN": "天火",
-      "en_US": "天火"
+      "en_US": "Skyfire"
     },
     "faction": "victoria",
     "avatar_key": "char_166_skfire",
@@ -752,7 +769,7 @@
     "id": "char_171_warfarin",
     "display_name": {
       "zh_CN": "华法琳",
-      "en_US": "华法琳"
+      "en_US": "Warfarin"
     },
     "faction": "rhodes_island",
     "avatar_key": "char_171_warfarin",
@@ -766,7 +783,7 @@
     "id": "char_172_svrash",
     "display_name": {
       "zh_CN": "银灰",
-      "en_US": "银灰"
+      "en_US": "SilverAsh"
     },
     "faction": "sami",
     "avatar_key": "char_172_svrash",
@@ -780,7 +797,7 @@
     "id": "char_173_slchan",
     "display_name": {
       "zh_CN": "崖心",
-      "en_US": "崖心"
+      "en_US": "Cliffheart"
     },
     "faction": "sami",
     "avatar_key": "char_173_slchan",
@@ -794,7 +811,7 @@
     "id": "char_174_slbell",
     "display_name": {
       "zh_CN": "初雪",
-      "en_US": "初雪"
+      "en_US": "Pramanix"
     },
     "faction": "sami",
     "avatar_key": "char_174_slbell",
@@ -808,7 +825,7 @@
     "id": "char_179_cgbird",
     "display_name": {
       "zh_CN": "夜莺",
-      "en_US": "夜莺"
+      "en_US": "Nightingale"
     },
     "faction": "rhodes_island",
     "avatar_key": "char_179_cgbird",
@@ -822,10 +839,11 @@
     "id": "char_180_amgoat",
     "display_name": {
       "zh_CN": "艾雅法拉",
-      "en_US": "艾雅法拉"
+      "en_US": "Eyjafjalla"
     },
     "faction": [
-      "rhodes_island"
+      "rhodes_island",
+      "leithanien"
     ],
     "avatar_key": "char_198_blackd",
     "is_npc": false,
@@ -838,7 +856,7 @@
     "id": "char_199_yak",
     "display_name": {
       "zh_CN": "角峰",
-      "en_US": "角峰"
+      "en_US": "Matterhorn"
     },
     "faction": "sami",
     "avatar_key": "char_199_yak",
@@ -852,7 +870,7 @@
     "id": "char_201_moeshd",
     "display_name": {
       "zh_CN": "可颂",
-      "en_US": "可颂"
+      "en_US": "Croissant"
     },
     "faction": [
       "penguin_logistics"
@@ -868,7 +886,7 @@
     "id": "char_2012_typhon",
     "display_name": {
       "zh_CN": "提丰",
-      "en_US": "提丰"
+      "en_US": "Typhon"
     },
     "faction": "sami",
     "avatar_key": "char_2012_typhon",
@@ -882,7 +900,7 @@
     "id": "char_2013_cerber",
     "display_name": {
       "zh_CN": "刻俄柏",
-      "en_US": "刻俄柏"
+      "en_US": "Ceobe"
     },
     "faction": "rhodes_island",
     "avatar_key": "char_2013_cerber",
@@ -896,7 +914,7 @@
     "id": "char_2014_nian",
     "display_name": {
       "zh_CN": "年",
-      "en_US": "年"
+      "en_US": "Nian"
     },
     "faction": "yan",
     "avatar_key": "char_2014_nian",
@@ -912,7 +930,7 @@
     "id": "char_2015_dusk",
     "display_name": {
       "zh_CN": "夕",
-      "en_US": "夕"
+      "en_US": "Dusk"
     },
     "faction": "yan",
     "avatar_key": "char_2015_dusk",
@@ -928,7 +946,7 @@
     "id": "char_202_demkni",
     "display_name": {
       "zh_CN": "塞雷娅",
-      "en_US": "塞雷娅"
+      "en_US": "Saria"
     },
     "faction": [
       "rhodes_island"
@@ -944,7 +962,7 @@
     "id": "char_2023_ling",
     "display_name": {
       "zh_CN": "令",
-      "en_US": "令"
+      "en_US": "Ling"
     },
     "faction": "yan",
     "avatar_key": "char_2023_ling",
@@ -960,7 +978,7 @@
     "id": "char_2024_chyue",
     "display_name": {
       "zh_CN": "重岳",
-      "en_US": "重岳"
+      "en_US": "Chongyue"
     },
     "faction": "yan",
     "avatar_key": "char_2024_chyue",
@@ -974,7 +992,7 @@
     "id": "char_2025_shu",
     "display_name": {
       "zh_CN": "黍",
-      "en_US": "黍"
+      "en_US": "Shu"
     },
     "faction": "yan",
     "avatar_key": "char_2025_shu",
@@ -990,7 +1008,7 @@
     "id": "char_2026_yu",
     "display_name": {
       "zh_CN": "余",
-      "en_US": "余"
+      "en_US": "Yu"
     },
     "faction": "yan",
     "avatar_key": "char_2026_yu",
@@ -1006,7 +1024,7 @@
     "id": "char_2027_wang",
     "display_name": {
       "zh_CN": "望",
-      "en_US": "望"
+      "en_US": "Wang"
     },
     "faction": "yan",
     "avatar_key": "char_2027_wang",
@@ -1022,7 +1040,7 @@
     "id": "char_204_platnm",
     "display_name": {
       "zh_CN": "白金",
-      "en_US": "白金"
+      "en_US": "Platinum"
     },
     "faction": "kazimierz",
     "avatar_key": "char_204_platnm",
@@ -1036,7 +1054,7 @@
     "id": "char_206_gnosis",
     "display_name": {
       "zh_CN": "灵知",
-      "en_US": "灵知"
+      "en_US": "Gnosis"
     },
     "faction": "sami",
     "avatar_key": "char_206_gnosis",
@@ -1050,7 +1068,7 @@
     "id": "char_208_melan",
     "display_name": {
       "zh_CN": "玫兰莎",
-      "en_US": "玫兰莎"
+      "en_US": "Melantha"
     },
     "faction": "rhodes_island",
     "avatar_key": "char_208_melan",
@@ -1064,7 +1082,7 @@
     "id": "char_209_ardign",
     "display_name": {
       "zh_CN": "卡缇",
-      "en_US": "卡缇"
+      "en_US": "Cardigan"
     },
     "faction": "rhodes_island",
     "avatar_key": "char_209_ardign",
@@ -1078,7 +1096,7 @@
     "id": "char_210_stward",
     "display_name": {
       "zh_CN": "史都华德",
-      "en_US": "史都华德"
+      "en_US": "Steward"
     },
     "faction": "rhodes_island",
     "avatar_key": "char_210_stward",
@@ -1092,7 +1110,7 @@
     "id": "char_211_adnach",
     "display_name": {
       "zh_CN": "安德切尔",
-      "en_US": "安德切尔"
+      "en_US": "Adnachiel"
     },
     "faction": "rhodes_island",
     "avatar_key": "char_211_adnach",
@@ -1106,7 +1124,7 @@
     "id": "char_212_ansel",
     "display_name": {
       "zh_CN": "安赛尔",
-      "en_US": "安赛尔"
+      "en_US": "Ansel"
     },
     "faction": "rhodes_island",
     "avatar_key": "char_212_ansel",
@@ -1120,10 +1138,11 @@
     "id": "char_213_mostma",
     "display_name": {
       "zh_CN": "莫斯提马",
-      "en_US": "莫斯提马"
+      "en_US": "Mostima"
     },
     "faction": [
-      "penguin_logistics"
+      "penguin_logistics",
+      "laterano"
     ],
     "avatar_key": "char_213_mostma",
     "is_npc": false,
@@ -1136,9 +1155,12 @@
     "id": "char_214_kafka",
     "display_name": {
       "zh_CN": "卡夫卡",
-      "en_US": "卡夫卡"
+      "en_US": "Kafka"
     },
-    "faction": "rhodes_island",
+    "faction": [
+      "rhodes_island",
+      "columbia"
+    ],
     "avatar_key": "char_214_kafka",
     "is_npc": false,
     "description": {
@@ -1150,9 +1172,12 @@
     "id": "char_215_mantic",
     "display_name": {
       "zh_CN": "狮蝎",
-      "en_US": "狮蝎"
+      "en_US": "Manticore"
     },
-    "faction": "rhodes_island",
+    "faction": [
+      "rhodes_island",
+      "sargon"
+    ],
     "avatar_key": "char_215_mantic",
     "is_npc": false,
     "description": {
@@ -1164,7 +1189,7 @@
     "id": "char_218_cuttle",
     "display_name": {
       "zh_CN": "安哲拉",
-      "en_US": "安哲拉"
+      "en_US": "Andreana"
     },
     "faction": "iberia",
     "avatar_key": "char_218_cuttle",
@@ -1178,7 +1203,7 @@
     "id": "char_219_meteo",
     "display_name": {
       "zh_CN": "陨星",
-      "en_US": "陨星"
+      "en_US": "Meteorite"
     },
     "faction": "rhodes_island",
     "avatar_key": "char_219_meteo",
@@ -1192,9 +1217,12 @@
     "id": "char_220_grani",
     "display_name": {
       "zh_CN": "格拉尼",
-      "en_US": "格拉尼"
+      "en_US": "Grani"
     },
-    "faction": "rhodes_island",
+    "faction": [
+      "rhodes_island",
+      "victoria"
+    ],
     "avatar_key": "char_220_grani",
     "is_npc": false,
     "description": {
@@ -1206,7 +1234,7 @@
     "id": "char_222_bpipe",
     "display_name": {
       "zh_CN": "风笛",
-      "en_US": "风笛"
+      "en_US": "Bagpipe"
     },
     "faction": "victoria",
     "avatar_key": "char_222_bpipe",
@@ -1220,7 +1248,7 @@
     "id": "char_225_haak",
     "display_name": {
       "zh_CN": "阿",
-      "en_US": "阿"
+      "en_US": "Aak"
     },
     "faction": "rhodes_island",
     "avatar_key": "char_225_haak",
@@ -1236,7 +1264,7 @@
     "id": "char_226_hmau",
     "display_name": {
       "zh_CN": "吽",
-      "en_US": "吽"
+      "en_US": "Hung"
     },
     "faction": "rhodes_island",
     "avatar_key": "char_226_hmau",
@@ -1250,9 +1278,12 @@
     "id": "char_230_savage",
     "display_name": {
       "zh_CN": "暴行",
-      "en_US": "暴行"
+      "en_US": "Savage"
     },
-    "faction": "rhodes_island",
+    "faction": [
+      "rhodes_island",
+      "rim"
+    ],
     "avatar_key": "char_230_savage",
     "is_npc": false,
     "description": {
@@ -1264,7 +1295,7 @@
     "id": "char_235_jesica",
     "display_name": {
       "zh_CN": "杰西卡",
-      "en_US": "杰西卡"
+      "en_US": "Jessica"
     },
     "faction": "victoria",
     "avatar_key": "char_235_jesica",
@@ -1278,7 +1309,7 @@
     "id": "char_236_rope",
     "display_name": {
       "zh_CN": "暗索",
-      "en_US": "暗索"
+      "en_US": "Rope"
     },
     "faction": "rhodes_island",
     "avatar_key": "char_236_rope",
@@ -1292,9 +1323,12 @@
     "id": "char_237_gravel",
     "display_name": {
       "zh_CN": "砾",
-      "en_US": "砾"
+      "en_US": "Gravel"
     },
-    "faction": "rhodes_island",
+    "faction": [
+      "rhodes_island",
+      "kazimierz"
+    ],
     "avatar_key": "char_237_gravel",
     "is_npc": true,
     "description": {
@@ -1308,7 +1342,7 @@
     "id": "char_240_wyvern",
     "display_name": {
       "zh_CN": "香草",
-      "en_US": "香草"
+      "en_US": "Vanilla"
     },
     "faction": "bolivar",
     "avatar_key": "char_240_wyvern",
@@ -1322,7 +1356,7 @@
     "id": "char_241_panda",
     "display_name": {
       "zh_CN": "食铁兽",
-      "en_US": "食铁兽"
+      "en_US": "FEater"
     },
     "faction": "rhodes_island",
     "avatar_key": "char_241_panda",
@@ -1336,7 +1370,7 @@
     "id": "char_242_otter",
     "display_name": {
       "zh_CN": "梅尔",
-      "en_US": "梅尔"
+      "en_US": "Mayer"
     },
     "faction": [
       "columbia"
@@ -1352,7 +1386,7 @@
     "id": "char_243_waaifu",
     "display_name": {
       "zh_CN": "槐琥",
-      "en_US": "槐琥"
+      "en_US": "Waai Fu"
     },
     "faction": "rhodes_island",
     "avatar_key": "char_243_waaifu",
@@ -1366,9 +1400,12 @@
     "id": "char_245_cello",
     "display_name": {
       "zh_CN": "塑心",
-      "en_US": "塑心"
+      "en_US": "Virtuosa"
     },
-    "faction": "rhodes_island",
+    "faction": [
+      "rhodes_island",
+      "laterano"
+    ],
     "avatar_key": "char_245_cello",
     "is_npc": false,
     "description": {
@@ -1380,7 +1417,7 @@
     "id": "char_248_mgllan",
     "display_name": {
       "zh_CN": "麦哲伦",
-      "en_US": "麦哲伦"
+      "en_US": "Magallan"
     },
     "faction": "columbia",
     "avatar_key": "char_248_mgllan",
@@ -1394,7 +1431,7 @@
     "id": "char_249_mlyss",
     "display_name": {
       "zh_CN": "缪尔赛思",
-      "en_US": "缪尔赛思"
+      "en_US": "Muelsyse"
     },
     "faction": [
       "rhodes_island",
@@ -1411,9 +1448,12 @@
     "id": "char_250_phatom",
     "display_name": {
       "zh_CN": "傀影",
-      "en_US": "傀影"
+      "en_US": "Phantom"
     },
-    "faction": "rhodes_island",
+    "faction": [
+      "rhodes_island",
+      "victoria"
+    ],
     "avatar_key": "char_250_phatom",
     "is_npc": false,
     "description": {
@@ -1425,7 +1465,7 @@
     "id": "char_252_bibeak",
     "display_name": {
       "zh_CN": "柏喙",
-      "en_US": "柏喙"
+      "en_US": "Bibeak"
     },
     "faction": "sami",
     "avatar_key": "char_252_bibeak",
@@ -1439,7 +1479,7 @@
     "id": "char_253_greyy",
     "display_name": {
       "zh_CN": "格雷伊",
-      "en_US": "格雷伊"
+      "en_US": "Greyy"
     },
     "faction": "bolivar",
     "avatar_key": "char_253_greyy",
@@ -1453,7 +1493,7 @@
     "id": "char_254_vodfox",
     "display_name": {
       "zh_CN": "巫恋",
-      "en_US": "巫恋"
+      "en_US": "Shamare"
     },
     "faction": "siracusa",
     "avatar_key": "char_254_vodfox",
@@ -1467,7 +1507,7 @@
     "id": "char_258_podego",
     "display_name": {
       "zh_CN": "波登可",
-      "en_US": "波登可"
+      "en_US": "Podenco"
     },
     "faction": "rhodes_island",
     "avatar_key": "char_258_podego",
@@ -1481,7 +1521,7 @@
     "id": "char_260_durnar",
     "display_name": {
       "zh_CN": "坚雷",
-      "en_US": "坚雷"
+      "en_US": "Dur-nar"
     },
     "faction": "rhodes_island",
     "avatar_key": "char_260_durnar",
@@ -1495,7 +1535,7 @@
     "id": "char_261_sddrag",
     "display_name": {
       "zh_CN": "苇草",
-      "en_US": "苇草"
+      "en_US": "Reed"
     },
     "faction": "rhodes_island",
     "avatar_key": "char_261_sddrag",
@@ -1509,7 +1549,7 @@
     "id": "char_263_skadi",
     "display_name": {
       "zh_CN": "斯卡蒂",
-      "en_US": "斯卡蒂"
+      "en_US": "Skadi"
     },
     "faction": "abyss",
     "avatar_key": "char_263_skadi",
@@ -1523,9 +1563,12 @@
     "id": "char_264_f12yin",
     "display_name": {
       "zh_CN": "山",
-      "en_US": "山"
+      "en_US": "Mountain"
     },
-    "faction": "rhodes_island",
+    "faction": [
+      "rhodes_island",
+      "columbia"
+    ],
     "avatar_key": "char_264_f12yin",
     "is_npc": true,
     "description": {
@@ -1539,9 +1582,12 @@
     "id": "char_265_sophia",
     "display_name": {
       "zh_CN": "鞭刃",
-      "en_US": "鞭刃"
+      "en_US": "Whislash"
     },
-    "faction": "rhodes_island",
+    "faction": [
+      "rhodes_island",
+      "kazimierz"
+    ],
     "avatar_key": "char_265_sophia",
     "is_npc": false,
     "description": {
@@ -1553,9 +1599,12 @@
     "id": "char_271_spikes",
     "display_name": {
       "zh_CN": "芳汀",
-      "en_US": "芳汀"
+      "en_US": "Arene"
     },
-    "faction": "rhodes_island",
+    "faction": [
+      "rhodes_island",
+      "laterano"
+    ],
     "avatar_key": "char_271_spikes",
     "is_npc": false,
     "description": {
@@ -1567,7 +1616,7 @@
     "id": "char_272_strong",
     "display_name": {
       "zh_CN": "孑",
-      "en_US": "孑"
+      "en_US": "Jaye"
     },
     "faction": "rhodes_island",
     "avatar_key": "char_272_strong",
@@ -1583,9 +1632,12 @@
     "id": "char_274_astesi",
     "display_name": {
       "zh_CN": "星极",
-      "en_US": "星极"
+      "en_US": "Astesia"
     },
-    "faction": "rhodes_island",
+    "faction": [
+      "rhodes_island",
+      "columbia"
+    ],
     "avatar_key": "char_274_astesi",
     "is_npc": false,
     "description": {
@@ -1597,7 +1649,7 @@
     "id": "char_275_breeze",
     "display_name": {
       "zh_CN": "微风",
-      "en_US": "微风"
+      "en_US": "Breeze"
     },
     "faction": "rhodes_island",
     "avatar_key": "char_275_breeze",
@@ -1611,7 +1663,7 @@
     "id": "char_277_sqrrel",
     "display_name": {
       "zh_CN": "阿消",
-      "en_US": "阿消"
+      "en_US": "Shaw"
     },
     "faction": "rhodes_island",
     "avatar_key": "char_277_sqrrel",
@@ -1625,7 +1677,7 @@
     "id": "char_278_orchid",
     "display_name": {
       "zh_CN": "梓兰",
-      "en_US": "梓兰"
+      "en_US": "Orchid"
     },
     "faction": "rhodes_island",
     "avatar_key": "char_278_orchid",
@@ -1639,7 +1691,7 @@
     "id": "char_279_excu",
     "display_name": {
       "zh_CN": "送葬人",
-      "en_US": "送葬人"
+      "en_US": "Executor"
     },
     "faction": "laterano",
     "avatar_key": "char_279_excu",
@@ -1653,7 +1705,7 @@
     "id": "char_281_popka",
     "display_name": {
       "zh_CN": "泡普卡",
-      "en_US": "泡普卡"
+      "en_US": "Popukar"
     },
     "faction": "rim",
     "avatar_key": "char_281_popka",
@@ -1667,7 +1719,7 @@
     "id": "char_282_catap",
     "display_name": {
       "zh_CN": "空爆",
-      "en_US": "空爆"
+      "en_US": "Catapult"
     },
     "faction": "kazimierz",
     "avatar_key": "char_282_catap",
@@ -1681,7 +1733,7 @@
     "id": "char_283_midn",
     "display_name": {
       "zh_CN": "月见夜",
-      "en_US": "月见夜"
+      "en_US": "Midnight"
     },
     "faction": "sargon",
     "avatar_key": "char_283_midn",
@@ -1695,7 +1747,7 @@
     "id": "char_284_spot",
     "display_name": {
       "zh_CN": "斑点",
-      "en_US": "斑点"
+      "en_US": "Spot"
     },
     "faction": "sargon",
     "avatar_key": "char_284_spot",
@@ -1737,7 +1789,7 @@
     "id": "char_289_gyuki",
     "display_name": {
       "zh_CN": "缠丸",
-      "en_US": "缠丸"
+      "en_US": "Matoimaru"
     },
     "faction": "rhodes_island",
     "avatar_key": "char_289_gyuki",
@@ -1751,9 +1803,12 @@
     "id": "char_290_vigna",
     "display_name": {
       "zh_CN": "红豆",
-      "en_US": "红豆"
+      "en_US": "Vigna"
     },
-    "faction": "rhodes_island",
+    "faction": [
+      "rhodes_island",
+      "columbia"
+    ],
     "avatar_key": "char_290_vigna",
     "is_npc": false,
     "description": {
@@ -1765,7 +1820,7 @@
     "id": "char_293_thorns",
     "display_name": {
       "zh_CN": "棘刺",
-      "en_US": "棘刺"
+      "en_US": "Thorns"
     },
     "faction": "rhodes_island",
     "avatar_key": "char_293_thorns",
@@ -1779,9 +1834,12 @@
     "id": "char_294_ayer",
     "display_name": {
       "zh_CN": "断崖",
-      "en_US": "断崖"
+      "en_US": "Ayerscarpe"
     },
-    "faction": "rhodes_island",
+    "faction": [
+      "rhodes_island",
+      "rim"
+    ],
     "avatar_key": "char_294_ayer",
     "is_npc": false,
     "description": {
@@ -1793,7 +1851,7 @@
     "id": "char_297_hamoni",
     "display_name": {
       "zh_CN": "和弦",
-      "en_US": "和弦"
+      "en_US": "Harmonie"
     },
     "faction": "victoria",
     "avatar_key": "char_297_hamoni",
@@ -1807,7 +1865,7 @@
     "id": "char_298_susuro",
     "display_name": {
       "zh_CN": "苏苏洛",
-      "en_US": "苏苏洛"
+      "en_US": "Sussurro"
     },
     "faction": "rhodes_island",
     "avatar_key": "char_298_susuro",
@@ -1821,9 +1879,12 @@
     "id": "char_300_phenxi",
     "display_name": {
       "zh_CN": "菲亚梅塔",
-      "en_US": "菲亚梅塔"
+      "en_US": "Fiammetta"
     },
-    "faction": "rhodes_island",
+    "faction": [
+      "rhodes_island",
+      "laterano"
+    ],
     "avatar_key": "char_300_phenxi",
     "is_npc": false,
     "description": {
@@ -1835,9 +1896,12 @@
     "id": "char_301_cutter",
     "display_name": {
       "zh_CN": "刻刀",
-      "en_US": "刻刀"
+      "en_US": "Cutter"
     },
-    "faction": "rhodes_island",
+    "faction": [
+      "rhodes_island",
+      "columbia"
+    ],
     "avatar_key": "char_301_cutter",
     "is_npc": false,
     "description": {
@@ -1849,9 +1913,12 @@
     "id": "char_302_glaze",
     "display_name": {
       "zh_CN": "安比尔",
-      "en_US": "安比尔"
+      "en_US": "Ambriel"
     },
-    "faction": "rhodes_island",
+    "faction": [
+      "rhodes_island",
+      "laterano"
+    ],
     "avatar_key": "char_302_glaze",
     "is_npc": false,
     "description": {
@@ -1863,7 +1930,7 @@
     "id": "char_304_zebra",
     "display_name": {
       "zh_CN": "暴雨",
-      "en_US": "暴雨"
+      "en_US": "Heavyrain"
     },
     "faction": "rhodes_island",
     "avatar_key": "char_304_zebra",
@@ -1891,7 +1958,7 @@
     "id": "char_311_mudrok",
     "display_name": {
       "zh_CN": "泥岩",
-      "en_US": "泥岩"
+      "en_US": "Mudrock"
     },
     "faction": "rhodes_island",
     "avatar_key": "char_311_mudrok",
@@ -1905,7 +1972,7 @@
     "id": "char_322_lmlee",
     "display_name": {
       "zh_CN": "老鲤",
-      "en_US": "老鲤"
+      "en_US": "Lee"
     },
     "faction": "rhodes_island",
     "avatar_key": "char_322_lmlee",
@@ -1919,7 +1986,7 @@
     "id": "char_325_bison",
     "display_name": {
       "zh_CN": "拜松",
-      "en_US": "拜松"
+      "en_US": "Bison"
     },
     "faction": "rhodes_island",
     "avatar_key": "char_325_bison",
@@ -1933,7 +2000,7 @@
     "id": "char_326_glacus",
     "display_name": {
       "zh_CN": "格劳克斯",
-      "en_US": "格劳克斯"
+      "en_US": "Glaucus"
     },
     "faction": "abyss",
     "avatar_key": "char_326_glacus",
@@ -1947,7 +2014,7 @@
     "id": "char_328_cammou",
     "display_name": {
       "zh_CN": "卡达",
-      "en_US": "卡达"
+      "en_US": "Click"
     },
     "faction": "rhodes_island",
     "avatar_key": "char_328_cammou",
@@ -1961,9 +2028,12 @@
     "id": "char_332_archet",
     "display_name": {
       "zh_CN": "空弦",
-      "en_US": "空弦"
+      "en_US": "Archetto"
     },
-    "faction": "rhodes_island",
+    "faction": [
+      "rhodes_island",
+      "laterano"
+    ],
     "avatar_key": "char_332_archet",
     "is_npc": false,
     "description": {
@@ -1975,9 +2045,12 @@
     "id": "char_333_sidero",
     "display_name": {
       "zh_CN": "铸铁",
-      "en_US": "铸铁"
+      "en_US": "Sideroca"
     },
-    "faction": "rhodes_island",
+    "faction": [
+      "rhodes_island",
+      "minos"
+    ],
     "avatar_key": "char_333_sidero",
     "is_npc": false,
     "description": {
@@ -1989,9 +2062,12 @@
     "id": "char_336_folivo",
     "display_name": {
       "zh_CN": "稀音",
-      "en_US": "稀音"
+      "en_US": "Scene"
     },
-    "faction": "rhodes_island",
+    "faction": [
+      "rhodes_island",
+      "sargon"
+    ],
     "avatar_key": "char_336_folivo",
     "is_npc": false,
     "description": {
@@ -2003,7 +2079,7 @@
     "id": "char_337_utage",
     "display_name": {
       "zh_CN": "宴",
-      "en_US": "宴"
+      "en_US": "Utage"
     },
     "faction": "sargon",
     "avatar_key": "char_337_utage",
@@ -2019,7 +2095,7 @@
     "id": "char_338_iris",
     "display_name": {
       "zh_CN": "爱丽丝",
-      "en_US": "爱丽丝"
+      "en_US": "Iris"
     },
     "faction": "victoria",
     "avatar_key": "char_338_iris",
@@ -2033,7 +2109,7 @@
     "id": "char_340_shwaz",
     "display_name": {
       "zh_CN": "黑",
-      "en_US": "黑"
+      "en_US": "Schwarz"
     },
     "faction": "rim",
     "avatar_key": "char_340_shwaz",
@@ -2049,7 +2125,7 @@
     "id": "char_341_sntlla",
     "display_name": {
       "zh_CN": "寒檀",
-      "en_US": "寒檀"
+      "en_US": "Santalla"
     },
     "faction": "sami",
     "avatar_key": "char_341_sntlla",
@@ -2063,7 +2139,7 @@
     "id": "char_343_tknogi",
     "display_name": {
       "zh_CN": "月禾",
-      "en_US": "月禾"
+      "en_US": "Tsukinogi"
     },
     "faction": "sargon",
     "avatar_key": "char_343_tknogi",
@@ -2077,7 +2153,7 @@
     "id": "char_344_beewax",
     "display_name": {
       "zh_CN": "蜜蜡",
-      "en_US": "蜜蜡"
+      "en_US": "Beeswax"
     },
     "faction": "sargon",
     "avatar_key": "char_344_beewax",
@@ -2091,9 +2167,9 @@
     "id": "char_345_folnic",
     "display_name": {
       "zh_CN": "亚叶",
-      "en_US": "亚叶"
+      "en_US": "Folinic"
     },
-    "faction": "ursus",
+    "faction": "rhodes_island",
     "avatar_key": "char_345_folnic",
     "is_npc": false,
     "description": {
@@ -2105,7 +2181,7 @@
     "id": "char_346_aosta",
     "display_name": {
       "zh_CN": "奥斯塔",
-      "en_US": "奥斯塔"
+      "en_US": "Aosta"
     },
     "faction": "siracusa",
     "avatar_key": "char_346_aosta",
@@ -2119,7 +2195,7 @@
     "id": "char_347_jaksel",
     "display_name": {
       "zh_CN": "杰克",
-      "en_US": "杰克"
+      "en_US": "Jackie"
     },
     "faction": "columbia",
     "avatar_key": "char_347_jaksel",
@@ -2133,7 +2209,7 @@
     "id": "char_349_chiave",
     "display_name": {
       "zh_CN": "贾维",
-      "en_US": "贾维"
+      "en_US": "Chiave"
     },
     "faction": "siracusa",
     "avatar_key": "char_349_chiave",
@@ -2147,9 +2223,9 @@
     "id": "char_350_surtr",
     "display_name": {
       "zh_CN": "史尔特尔",
-      "en_US": "史尔特尔"
+      "en_US": "Surtr"
     },
-    "faction": "ursus",
+    "faction": "rhodes_island",
     "avatar_key": "char_350_surtr",
     "is_npc": false,
     "description": {
@@ -2161,9 +2237,9 @@
     "id": "char_355_ethan",
     "display_name": {
       "zh_CN": "伊桑",
-      "en_US": "伊桑"
+      "en_US": "Ethan"
     },
-    "faction": "sargon",
+    "faction": "rhodes_island",
     "avatar_key": "char_355_ethan",
     "is_npc": false,
     "description": {
@@ -2175,7 +2251,7 @@
     "id": "char_356_broca",
     "display_name": {
       "zh_CN": "布洛卡",
-      "en_US": "布洛卡"
+      "en_US": "Broca"
     },
     "faction": "siracusa",
     "avatar_key": "char_356_broca",
@@ -2189,7 +2265,7 @@
     "id": "char_362_saga",
     "display_name": {
       "zh_CN": "嵯峨",
-      "en_US": "嵯峨"
+      "en_US": "Saga"
     },
     "faction": "sargon",
     "avatar_key": "char_362_saga",
@@ -2203,7 +2279,7 @@
     "id": "char_363_toddi",
     "display_name": {
       "zh_CN": "熔泉",
-      "en_US": "熔泉"
+      "en_US": "Toddifons"
     },
     "faction": "victoria",
     "avatar_key": "char_363_toddi",
@@ -2217,7 +2293,7 @@
     "id": "char_365_aprl",
     "display_name": {
       "zh_CN": "四月",
-      "en_US": "四月"
+      "en_US": "April"
     },
     "faction": "rim",
     "avatar_key": "char_365_aprl",
@@ -2231,7 +2307,7 @@
     "id": "char_366_acdrop",
     "display_name": {
       "zh_CN": "酸糖",
-      "en_US": "酸糖"
+      "en_US": "Aciddrop"
     },
     "faction": "columbia",
     "avatar_key": "char_366_acdrop",
@@ -2247,7 +2323,7 @@
       "zh_CN": "灰喉",
       "en_US": "GreyThroat"
     },
-    "faction": "victoria",
+    "faction": "rhodes_island",
     "avatar_key": "char_367_swllow",
     "is_npc": false,
     "description": {
@@ -2259,7 +2335,7 @@
     "id": "char_369_bena",
     "display_name": {
       "zh_CN": "贝娜",
-      "en_US": "贝娜"
+      "en_US": "Bena"
     },
     "faction": "victoria",
     "avatar_key": "char_369_bena",
@@ -2273,7 +2349,7 @@
     "id": "char_373_lionhd",
     "display_name": {
       "zh_CN": "莱恩哈特",
-      "en_US": "莱恩哈特"
+      "en_US": "Leonhardt"
     },
     "faction": "rim",
     "avatar_key": "char_373_lionhd",
@@ -2287,7 +2363,7 @@
     "id": "char_376_therex",
     "display_name": {
       "zh_CN": "Thermal-EX",
-      "en_US": "Thermal-EX"
+      "en_US": "THRM-EX"
     },
     "faction": "rhodes_island",
     "avatar_key": "char_376_therex",
@@ -2301,7 +2377,7 @@
     "id": "char_377_gdglow",
     "display_name": {
       "zh_CN": "澄闪",
-      "en_US": "澄闪"
+      "en_US": "Goldenglow"
     },
     "faction": "victoria",
     "avatar_key": "char_377_gdglow",
@@ -2315,10 +2391,11 @@
     "id": "char_378_asbest",
     "display_name": {
       "zh_CN": "石棉",
-      "en_US": "石棉"
+      "en_US": "Asbestos"
     },
     "faction": [
-      "rhodes_island"
+      "rhodes_island",
+      "rim"
     ],
     "avatar_key": "char_378_asbest",
     "is_npc": false,
@@ -2331,7 +2408,7 @@
     "id": "char_379_sesa",
     "display_name": {
       "zh_CN": "慑砂",
-      "en_US": "慑砂"
+      "en_US": "Sesa"
     },
     "faction": "sargon",
     "avatar_key": "char_379_sesa",
@@ -2345,7 +2422,7 @@
     "id": "char_381_bubble",
     "display_name": {
       "zh_CN": "泡泡",
-      "en_US": "泡泡"
+      "en_US": "Bubble"
     },
     "faction": "sargon",
     "avatar_key": "char_381_bubble",
@@ -2359,7 +2436,7 @@
     "id": "char_383_snsant",
     "display_name": {
       "zh_CN": "雪雉",
-      "en_US": "雪雉"
+      "en_US": "Snowsant"
     },
     "faction": "lungmen",
     "avatar_key": "char_383_snsant",
@@ -2373,7 +2450,7 @@
     "id": "char_385_finlpp",
     "display_name": {
       "zh_CN": "清流",
-      "en_US": "清流"
+      "en_US": "Purestream"
     },
     "faction": "yan",
     "avatar_key": "char_385_finlpp",
@@ -2387,7 +2464,7 @@
     "id": "char_388_mint",
     "display_name": {
       "zh_CN": "薄绿",
-      "en_US": "薄绿"
+      "en_US": "Mint"
     },
     "faction": "victoria",
     "avatar_key": "char_388_mint",
@@ -2418,9 +2495,12 @@
     "id": "char_394_hadiya",
     "display_name": {
       "zh_CN": "哈蒂娅",
-      "en_US": "哈蒂娅"
+      "en_US": "Hadiya"
     },
-    "faction": "columbia",
+    "faction": [
+      "columbia",
+      "sargon"
+    ],
     "avatar_key": "char_394_hadiya",
     "is_npc": false,
     "description": {
@@ -2432,7 +2512,7 @@
     "id": "char_400_weedy",
     "display_name": {
       "zh_CN": "温蒂",
-      "en_US": "温蒂"
+      "en_US": "Weedy"
     },
     "faction": [
       "rhodes_island"
@@ -2448,7 +2528,7 @@
     "id": "char_4000_jnight",
     "display_name": {
       "zh_CN": "正义骑士号",
-      "en_US": "正义骑士号"
+      "en_US": "\"Justice Knight\""
     },
     "faction": "rhodes_island",
     "avatar_key": "char_4000_jnight",
@@ -2459,7 +2539,7 @@
     }
   },
   {
-    "id": "char_4002_touki",
+    "id": "npc_touki",
     "display_name": {
       "zh_CN": "Touch",
       "en_US": "Touch"
@@ -2473,7 +2553,7 @@
     }
   },
   {
-    "id": "char_4003_pith",
+    "id": "npc_pith",
     "display_name": {
       "zh_CN": "Pith",
       "en_US": "Pith"
@@ -2490,7 +2570,7 @@
     "id": "char_4004_pudd",
     "display_name": {
       "zh_CN": "布丁",
-      "en_US": "布丁"
+      "en_US": "Pudding"
     },
     "faction": "columbia",
     "avatar_key": "char_4004_pudd",
@@ -2504,7 +2584,7 @@
     "id": "char_4006_melnte",
     "display_name": {
       "zh_CN": "玫拉",
-      "en_US": "玫拉"
+      "en_US": "Melanite"
     },
     "faction": "columbia",
     "avatar_key": "char_4006_melnte",
@@ -2518,7 +2598,7 @@
     "id": "char_4009_irene",
     "display_name": {
       "zh_CN": "艾丽妮",
-      "en_US": "艾丽妮"
+      "en_US": "Irene"
     },
     "faction": "iberia",
     "avatar_key": "char_4009_irene",
@@ -2532,9 +2612,12 @@
     "id": "char_401_elysm",
     "display_name": {
       "zh_CN": "极境",
-      "en_US": "极境"
+      "en_US": "Elysium"
     },
-    "faction": "iberia",
+    "faction": [
+      "iberia",
+      "rhodes_island"
+    ],
     "avatar_key": "char_401_elysm",
     "is_npc": false,
     "description": {
@@ -2546,9 +2629,9 @@
     "id": "char_4010_etlchi",
     "display_name": {
       "zh_CN": "隐德来希",
-      "en_US": "隐德来希"
+      "en_US": "Entelechia"
     },
-    "faction": "kazimierz_mc",
+    "faction": "rhodes_island",
     "avatar_key": "char_4010_etlchi",
     "is_npc": false,
     "description": {
@@ -2560,7 +2643,7 @@
     "id": "char_4011_lessng",
     "display_name": {
       "zh_CN": "止颂",
-      "en_US": "止颂"
+      "en_US": "Lessing"
     },
     "faction": "leithanien",
     "avatar_key": "char_4011_lessng",
@@ -2574,7 +2657,7 @@
     "id": "char_4013_kjera",
     "display_name": {
       "zh_CN": "耶拉",
-      "en_US": "耶拉"
+      "en_US": "Kjera"
     },
     "faction": "sami",
     "avatar_key": "char_4013_kjera",
@@ -2588,7 +2671,7 @@
     "id": "char_4014_lunacu",
     "display_name": {
       "zh_CN": "子月",
-      "en_US": "子月"
+      "en_US": "Lunacub"
     },
     "faction": "siracusa",
     "avatar_key": "char_4014_lunacu",
@@ -2602,7 +2685,7 @@
     "id": "char_4015_spuria",
     "display_name": {
       "zh_CN": "空构",
-      "en_US": "空构"
+      "en_US": "Spuria"
     },
     "faction": "laterano",
     "avatar_key": "char_4015_spuria",
@@ -2616,7 +2699,7 @@
     "id": "char_4016_kazema",
     "display_name": {
       "zh_CN": "风丸",
-      "en_US": "风丸"
+      "en_US": "Kazemaru"
     },
     "faction": "sargon",
     "avatar_key": "char_4016_kazema",
@@ -2630,7 +2713,7 @@
     "id": "char_4017_puzzle",
     "display_name": {
       "zh_CN": "谜图",
-      "en_US": "谜图"
+      "en_US": "Puzzle"
     },
     "faction": "victoria",
     "avatar_key": "char_4017_puzzle",
@@ -2658,7 +2741,7 @@
     "id": "char_402_tuye",
     "display_name": {
       "zh_CN": "图耶",
-      "en_US": "图耶"
+      "en_US": "Tuye"
     },
     "faction": "sargon",
     "avatar_key": "char_402_tuye",
@@ -2672,7 +2755,7 @@
     "id": "char_4023_rfalcn",
     "display_name": {
       "zh_CN": "红隼",
-      "en_US": "红隼"
+      "en_US": "Kestrel"
     },
     "faction": "sargon",
     "avatar_key": "char_4023_rfalcn",
@@ -2686,7 +2769,7 @@
     "id": "char_4026_vulpis",
     "display_name": {
       "zh_CN": "忍冬",
-      "en_US": "忍冬"
+      "en_US": "Vulpisfoglia"
     },
     "faction": "siracusa",
     "avatar_key": "char_4026_vulpis",
@@ -2700,7 +2783,7 @@
     "id": "char_4027_heyak",
     "display_name": {
       "zh_CN": "霍尔海雅",
-      "en_US": "霍尔海雅"
+      "en_US": "Ho'olheyak"
     },
     "faction": "columbia",
     "avatar_key": "char_4027_heyak",
@@ -2714,7 +2797,7 @@
     "id": "char_4031_liesel",
     "display_name": {
       "zh_CN": "复奏",
-      "en_US": "复奏"
+      "en_US": "Ripresa"
     },
     "faction": "leithanien",
     "avatar_key": "char_4031_liesel",
@@ -2728,7 +2811,7 @@
     "id": "char_4032_provs",
     "display_name": {
       "zh_CN": "但书",
-      "en_US": "但书"
+      "en_US": "Proviso"
     },
     "faction": "kazimierz",
     "avatar_key": "char_4032_provs",
@@ -2742,7 +2825,7 @@
     "id": "char_4036_forcer",
     "display_name": {
       "zh_CN": "见行者",
-      "en_US": "见行者"
+      "en_US": "Enforcer"
     },
     "faction": "laterano",
     "avatar_key": "char_4036_forcer",
@@ -2756,7 +2839,7 @@
     "id": "char_4037_demetr",
     "display_name": {
       "zh_CN": "贝洛内",
-      "en_US": "贝洛内"
+      "en_US": "Bellone"
     },
     "faction": "siracusa",
     "avatar_key": "char_4037_demetr",
@@ -2770,7 +2853,7 @@
     "id": "char_4039_horn",
     "display_name": {
       "zh_CN": "号角",
-      "en_US": "号角"
+      "en_US": "Horn"
     },
     "faction": "victoria",
     "avatar_key": "char_4039_horn",
@@ -2784,7 +2867,7 @@
     "id": "char_4040_rockr",
     "display_name": {
       "zh_CN": "洛洛",
-      "en_US": "洛洛"
+      "en_US": "Rockrock"
     },
     "faction": "victoria",
     "avatar_key": "char_4040_rockr",
@@ -2798,9 +2881,9 @@
     "id": "char_4041_chnut",
     "display_name": {
       "zh_CN": "褐果",
-      "en_US": "褐果"
+      "en_US": "Chestnut"
     },
-    "faction": "sargon",
+    "faction": "rhodes_island",
     "avatar_key": "char_4041_chnut",
     "is_npc": false,
     "description": {
@@ -2812,7 +2895,7 @@
     "id": "char_4042_lumen",
     "display_name": {
       "zh_CN": "流明",
-      "en_US": "流明"
+      "en_US": "Lumen"
     },
     "faction": "iberia",
     "avatar_key": "char_4042_lumen",
@@ -2826,7 +2909,7 @@
     "id": "char_4043_erato",
     "display_name": {
       "zh_CN": "埃拉托",
-      "en_US": "埃拉托"
+      "en_US": "Erato"
     },
     "faction": "minos",
     "avatar_key": "char_4043_erato",
@@ -2840,7 +2923,7 @@
     "id": "char_4045_heidi",
     "display_name": {
       "zh_CN": "海蒂",
-      "en_US": "海蒂"
+      "en_US": "Heidi"
     },
     "faction": "victoria",
     "avatar_key": "char_4045_heidi",
@@ -2854,7 +2937,7 @@
     "id": "char_4046_ebnhlz",
     "display_name": {
       "zh_CN": "黑键",
-      "en_US": "黑键"
+      "en_US": "Ebenholz"
     },
     "faction": "leithanien",
     "avatar_key": "char_4046_ebnhlz",
@@ -2868,7 +2951,7 @@
     "id": "char_4047_pianst",
     "display_name": {
       "zh_CN": "车尔尼",
-      "en_US": "车尔尼"
+      "en_US": "Czerny"
     },
     "faction": "leithanien",
     "avatar_key": "char_4047_pianst",
@@ -2882,7 +2965,7 @@
     "id": "char_4048_doroth",
     "display_name": {
       "zh_CN": "多萝西",
-      "en_US": "多萝西"
+      "en_US": "Dorothy"
     },
     "faction": [
       "rhodes_island",
@@ -2899,7 +2982,7 @@
     "id": "char_405_absin",
     "display_name": {
       "zh_CN": "苦艾",
-      "en_US": "苦艾"
+      "en_US": "Absinthe"
     },
     "faction": "ursus",
     "avatar_key": "char_405_absin",
@@ -2913,7 +2996,7 @@
     "id": "char_4051_akkord",
     "display_name": {
       "zh_CN": "协律",
-      "en_US": "协律"
+      "en_US": "Akkord"
     },
     "faction": "leithanien",
     "avatar_key": "char_4051_akkord",
@@ -2927,7 +3010,7 @@
     "id": "char_4052_surfer",
     "display_name": {
       "zh_CN": "寻澜",
-      "en_US": "寻澜"
+      "en_US": "Surfer"
     },
     "faction": "columbia",
     "avatar_key": "char_4052_surfer",
@@ -2941,9 +3024,12 @@
     "id": "char_4054_malist",
     "display_name": {
       "zh_CN": "至简",
-      "en_US": "至简"
+      "en_US": "Minimalist"
     },
-    "faction": "leithanien",
+    "faction": [
+      "leithanien",
+      "sargon"
+    ],
     "avatar_key": "char_4054_malist",
     "is_npc": false,
     "description": {
@@ -2955,9 +3041,9 @@
     "id": "char_4055_bgsnow",
     "display_name": {
       "zh_CN": "鸿雪",
-      "en_US": "鸿雪"
+      "en_US": "Позёмка"
     },
-    "faction": "ursus",
+    "faction": "rhodes_island",
     "avatar_key": "char_4055_bgsnow",
     "is_npc": false,
     "description": {
@@ -2966,7 +3052,7 @@
     }
   },
   {
-    "id": "char_4056_durgen",
+    "id": "npc_durgen",
     "display_name": {
       "zh_CN": "德格恩",
       "en_US": "Durgen"
@@ -2984,7 +3070,7 @@
     "id": "char_4056_titi",
     "display_name": {
       "zh_CN": "缇缇",
-      "en_US": "缇缇"
+      "en_US": "Titi"
     },
     "faction": "sargon",
     "avatar_key": "char_4056_titi",
@@ -2998,7 +3084,7 @@
     "id": "char_4058_pepe",
     "display_name": {
       "zh_CN": "佩佩",
-      "en_US": "佩佩"
+      "en_US": "Pepe"
     },
     "faction": "sargon",
     "avatar_key": "char_4058_pepe",
@@ -3009,7 +3095,7 @@
     }
   },
   {
-    "id": "char_4059_strmey",
+    "id": "npc_strmey",
     "display_name": {
       "zh_CN": "Stormeye",
       "en_US": "Stormeye"
@@ -3026,7 +3112,7 @@
     "id": "char_4062_totter",
     "display_name": {
       "zh_CN": "铅踝",
-      "en_US": "铅踝"
+      "en_US": "Totter"
     },
     "faction": "sargon",
     "avatar_key": "char_4062_totter",
@@ -3040,7 +3126,7 @@
     "id": "char_4063_quartz",
     "display_name": {
       "zh_CN": "石英",
-      "en_US": "石英"
+      "en_US": "Quartz"
     },
     "faction": "columbia",
     "avatar_key": "char_4063_quartz",
@@ -3054,7 +3140,7 @@
     "id": "char_4064_mlynar",
     "display_name": {
       "zh_CN": "玛恩纳",
-      "en_US": "玛恩纳"
+      "en_US": "Młynar"
     },
     "faction": "kazimierz",
     "avatar_key": "char_4064_mlynar",
@@ -3068,7 +3154,7 @@
     "id": "char_4065_judge",
     "display_name": {
       "zh_CN": "斥罪",
-      "en_US": "斥罪"
+      "en_US": "Penance"
     },
     "faction": "siracusa",
     "avatar_key": "char_4065_judge",
@@ -3082,7 +3168,7 @@
     "id": "char_4066_highmo",
     "display_name": {
       "zh_CN": "海沫",
-      "en_US": "海沫"
+      "en_US": "Highmore"
     },
     "faction": "iberia",
     "avatar_key": "char_4066_highmo",
@@ -3110,9 +3196,9 @@
     "id": "char_4071_peper",
     "display_name": {
       "zh_CN": "明椒",
-      "en_US": "明椒"
+      "en_US": "Paprika"
     },
-    "faction": "columbia",
+    "faction": "rhodes_island",
     "avatar_key": "char_4071_peper",
     "is_npc": false,
     "description": {
@@ -3124,7 +3210,7 @@
     "id": "char_4072_ironmn",
     "display_name": {
       "zh_CN": "白铁",
-      "en_US": "白铁"
+      "en_US": "Stainless"
     },
     "faction": "victoria",
     "avatar_key": "char_4072_ironmn",
@@ -3138,9 +3224,9 @@
     "id": "char_4077_palico",
     "display_name": {
       "zh_CN": "泰拉大陆调查团",
-      "en_US": "泰拉大陆调查团"
+      "en_US": "Terra Research Commission"
     },
-    "faction": "unknown",
+    "faction": "rhodes_island",
     "avatar_key": "char_4077_palico",
     "is_npc": false,
     "description": {
@@ -3152,7 +3238,7 @@
     "id": "char_4078_bdhkgt",
     "display_name": {
       "zh_CN": "截云",
-      "en_US": "截云"
+      "en_US": "Jieyun"
     },
     "faction": "yan",
     "avatar_key": "char_4078_bdhkgt",
@@ -3166,7 +3252,7 @@
     "id": "char_4079_haini",
     "display_name": {
       "zh_CN": "海霓",
-      "en_US": "海霓"
+      "en_US": "Lucilla"
     },
     "faction": "abyss",
     "avatar_key": "char_4079_haini",
@@ -3196,7 +3282,7 @@
     "id": "char_4081_warmy",
     "display_name": {
       "zh_CN": "温米",
-      "en_US": "温米"
+      "en_US": "Warmy"
     },
     "faction": "rim",
     "avatar_key": "char_4081_warmy",
@@ -3210,7 +3296,7 @@
     "id": "char_4082_qiubai",
     "display_name": {
       "zh_CN": "仇白",
-      "en_US": "仇白"
+      "en_US": "Qiubai"
     },
     "faction": "yan",
     "avatar_key": "char_4082_qiubai",
@@ -3224,7 +3310,7 @@
     "id": "char_4083_chimes",
     "display_name": {
       "zh_CN": "铎铃",
-      "en_US": "铎铃"
+      "en_US": "Wind Chimes"
     },
     "faction": "yan",
     "avatar_key": "char_4083_chimes",
@@ -3238,9 +3324,12 @@
     "id": "char_4087_ines",
     "display_name": {
       "zh_CN": "伊内丝",
-      "en_US": "伊内丝"
+      "en_US": "Ines"
     },
-    "faction": "kazimierz_mc",
+    "faction": [
+      "kazimierz_mc",
+      "babel"
+    ],
     "avatar_key": "char_4087_ines",
     "is_npc": false,
     "description": {
@@ -3252,9 +3341,12 @@
     "id": "char_4088_hodrer",
     "display_name": {
       "zh_CN": "赫德雷",
-      "en_US": "赫德雷"
+      "en_US": "Hoederer"
     },
-    "faction": "kazimierz_mc",
+    "faction": [
+      "kazimierz_mc",
+      "babel"
+    ],
     "avatar_key": "char_4088_hodrer",
     "is_npc": false,
     "description": {
@@ -3268,7 +3360,7 @@
       "zh_CN": "U-Official",
       "en_US": "U-Official"
     },
-    "faction": "unknown",
+    "faction": "rhodes_island",
     "avatar_key": "char_4091_ulika",
     "is_npc": false,
     "description": {
@@ -3280,7 +3372,7 @@
     "id": "char_4098_vvana",
     "display_name": {
       "zh_CN": "薇薇安娜",
-      "en_US": "薇薇安娜"
+      "en_US": "Viviana"
     },
     "faction": "leithanien",
     "avatar_key": "char_4098_vvana",
@@ -3294,7 +3386,7 @@
     "id": "char_4100_caper",
     "display_name": {
       "zh_CN": "跃跃",
-      "en_US": "跃跃"
+      "en_US": "Caper"
     },
     "faction": "bolivar",
     "avatar_key": "char_4100_caper",
@@ -3308,7 +3400,7 @@
     "id": "char_4102_threye",
     "display_name": {
       "zh_CN": "凛视",
-      "en_US": "凛视"
+      "en_US": "Valarqvin"
     },
     "faction": "rhodes_island",
     "avatar_key": "char_4102_threye",
@@ -3322,9 +3414,12 @@
     "id": "char_4104_coldst",
     "display_name": {
       "zh_CN": "冰酿",
-      "en_US": "冰酿"
+      "en_US": "Coldshot"
     },
-    "faction": "rhodes_island",
+    "faction": [
+      "rhodes_island",
+      "columbia"
+    ],
     "avatar_key": "char_4104_coldst",
     "is_npc": false,
     "description": {
@@ -3336,7 +3431,7 @@
     "id": "char_4105_almond",
     "display_name": {
       "zh_CN": "杏仁",
-      "en_US": "杏仁"
+      "en_US": "Almond"
     },
     "faction": "rhodes_island",
     "avatar_key": "char_4105_almond",
@@ -3350,7 +3445,7 @@
     "id": "char_4106_bryota",
     "display_name": {
       "zh_CN": "苍苔",
-      "en_US": "苍苔"
+      "en_US": "Bryophyta"
     },
     "faction": "rhodes_island",
     "avatar_key": "char_4106_bryota",
@@ -3364,9 +3459,12 @@
     "id": "char_4107_vrdant",
     "display_name": {
       "zh_CN": "维荻",
-      "en_US": "维荻"
+      "en_US": "Verdant"
     },
-    "faction": "rhodes_island",
+    "faction": [
+      "rhodes_island",
+      "victoria"
+    ],
     "avatar_key": "char_4107_vrdant",
     "is_npc": false,
     "description": {
@@ -3378,7 +3476,7 @@
     "id": "char_4109_baslin",
     "display_name": {
       "zh_CN": "深律",
-      "en_US": "深律"
+      "en_US": "Bassline"
     },
     "faction": "leithanien",
     "avatar_key": "char_4109_baslin",
@@ -3392,9 +3490,12 @@
     "id": "char_411_tomimi",
     "display_name": {
       "zh_CN": "特米米",
-      "en_US": "特米米"
+      "en_US": "Tomimi"
     },
-    "faction": "rhodes_island",
+    "faction": [
+      "rhodes_island",
+      "sargon"
+    ],
     "avatar_key": "char_411_tomimi",
     "is_npc": false,
     "description": {
@@ -3406,9 +3507,12 @@
     "id": "char_4110_delphn",
     "display_name": {
       "zh_CN": "戴菲恩",
-      "en_US": "戴菲恩"
+      "en_US": "Delphine"
     },
-    "faction": "rhodes_island",
+    "faction": [
+      "rhodes_island",
+      "victoria"
+    ],
     "avatar_key": "char_4110_delphn",
     "is_npc": false,
     "description": {
@@ -3420,9 +3524,12 @@
     "id": "char_4114_harold",
     "display_name": {
       "zh_CN": "哈洛德",
-      "en_US": "哈洛德"
+      "en_US": "Harold"
     },
-    "faction": "rhodes_island",
+    "faction": [
+      "rhodes_island",
+      "victoria"
+    ],
     "avatar_key": "char_4114_harold",
     "is_npc": false,
     "description": {
@@ -3434,7 +3541,7 @@
     "id": "char_4116_blkkgt",
     "display_name": {
       "zh_CN": "锏",
-      "en_US": "锏"
+      "en_US": "Degenbrecher"
     },
     "faction": "kazimierz_mc",
     "avatar_key": "char_4116_blkkgt",
@@ -3450,7 +3557,7 @@
     "id": "char_4117_ray",
     "display_name": {
       "zh_CN": "莱伊",
-      "en_US": "莱伊"
+      "en_US": "Ray"
     },
     "faction": "rhodes_island",
     "avatar_key": "char_4117_ray",
@@ -3464,7 +3571,7 @@
     "id": "char_4119_wanqin",
     "display_name": {
       "zh_CN": "万顷",
-      "en_US": "万顷"
+      "en_US": "Wanqing"
     },
     "faction": "yan",
     "avatar_key": "char_4119_wanqin",
@@ -3478,7 +3585,7 @@
     "id": "char_4121_zuole",
     "display_name": {
       "zh_CN": "左乐",
-      "en_US": "左乐"
+      "en_US": "Zuo Le"
     },
     "faction": "yan",
     "avatar_key": "char_4121_zuole",
@@ -3492,7 +3599,7 @@
     "id": "char_4122_grabds",
     "display_name": {
       "zh_CN": "小满",
-      "en_US": "小满"
+      "en_US": "Grain Buds"
     },
     "faction": "yan",
     "avatar_key": "char_4122_grabds",
@@ -3506,7 +3613,7 @@
     "id": "char_4123_ela",
     "display_name": {
       "zh_CN": "艾拉",
-      "en_US": "艾拉"
+      "en_US": "Ela"
     },
     "faction": "columbia",
     "avatar_key": "char_4123_ela",
@@ -3520,7 +3627,7 @@
     "id": "char_4124_iana",
     "display_name": {
       "zh_CN": "双月",
-      "en_US": "双月"
+      "en_US": "Iana"
     },
     "faction": "columbia",
     "avatar_key": "char_4124_iana",
@@ -3534,7 +3641,7 @@
     "id": "char_4125_rdoc",
     "display_name": {
       "zh_CN": "医生",
-      "en_US": "医生"
+      "en_US": "Doc"
     },
     "faction": "columbia",
     "avatar_key": "char_4125_rdoc",
@@ -3548,7 +3655,7 @@
     "id": "char_4126_fuze",
     "display_name": {
       "zh_CN": "导火索",
-      "en_US": "导火索"
+      "en_US": "Fuze"
     },
     "faction": "columbia",
     "avatar_key": "char_4126_fuze",
@@ -3562,9 +3669,12 @@
     "id": "char_4130_luton",
     "display_name": {
       "zh_CN": "露托",
-      "en_US": "露托"
+      "en_US": "Lutonada"
     },
-    "faction": "rhodes_island",
+    "faction": [
+      "rhodes_island",
+      "bolivar"
+    ],
     "avatar_key": "char_4130_luton",
     "is_npc": false,
     "description": {
@@ -3576,9 +3686,12 @@
     "id": "char_4131_odda",
     "display_name": {
       "zh_CN": "奥达",
-      "en_US": "奥达"
+      "en_US": "Odda"
     },
-    "faction": "babel",
+    "faction": [
+      "babel",
+      "rhodes_island"
+    ],
     "avatar_key": "char_4131_odda",
     "is_npc": false,
     "description": {
@@ -3604,7 +3717,7 @@
     "id": "char_4133_logos",
     "display_name": {
       "zh_CN": "逻各斯",
-      "en_US": "逻各斯"
+      "en_US": "Logos"
     },
     "faction": "rhodes_island",
     "avatar_key": "char_4133_logos",
@@ -3618,9 +3731,12 @@
     "id": "char_4134_cetsyr",
     "display_name": {
       "zh_CN": "魔王",
-      "en_US": "魔王"
+      "en_US": "Civilight Eterna"
     },
-    "faction": "babel",
+    "faction": [
+      "babel",
+      "rhodes_island"
+    ],
     "avatar_key": "char_4134_cetsyr",
     "is_npc": false,
     "description": {
@@ -3646,7 +3762,7 @@
     "id": "char_4137_udflow",
     "display_name": {
       "zh_CN": "深巡",
-      "en_US": "深巡"
+      "en_US": "Underflow"
     },
     "faction": "abyss",
     "avatar_key": "char_4137_udflow",
@@ -3660,9 +3776,12 @@
     "id": "char_4138_narant",
     "display_name": {
       "zh_CN": "娜仁图亚",
-      "en_US": "娜仁图亚"
+      "en_US": "Narantuya"
     },
-    "faction": "rhodes_island",
+    "faction": [
+      "rhodes_island",
+      "sargon"
+    ],
     "avatar_key": "char_4138_narant",
     "is_npc": false,
     "description": {
@@ -3674,7 +3793,7 @@
     "id": "char_4139_papyrs",
     "display_name": {
       "zh_CN": "莎草",
-      "en_US": "莎草"
+      "en_US": "Papyrus"
     },
     "faction": "sargon",
     "avatar_key": "char_4139_papyrs",
@@ -3688,7 +3807,7 @@
     "id": "char_4140_lasher",
     "display_name": {
       "zh_CN": "衡沙",
-      "en_US": "衡沙"
+      "en_US": "Sand Reckoner"
     },
     "faction": "sargon",
     "avatar_key": "char_4140_lasher",
@@ -3702,7 +3821,7 @@
     "id": "char_4141_marcil",
     "display_name": {
       "zh_CN": "玛露西尔",
-      "en_US": "玛露西尔"
+      "en_US": "Marcille"
     },
     "faction": "rhodes_island",
     "avatar_key": "char_4141_marcil",
@@ -3716,7 +3835,7 @@
     "id": "char_4142_laios",
     "display_name": {
       "zh_CN": "莱欧斯",
-      "en_US": "莱欧斯"
+      "en_US": "Laios"
     },
     "faction": "rhodes_island",
     "avatar_key": "char_4142_laios",
@@ -3730,7 +3849,7 @@
     "id": "char_4143_sensi",
     "display_name": {
       "zh_CN": "森西",
-      "en_US": "森西"
+      "en_US": "Senshi"
     },
     "faction": "rhodes_island",
     "avatar_key": "char_4143_sensi",
@@ -3744,7 +3863,7 @@
     "id": "char_4144_chilc",
     "display_name": {
       "zh_CN": "齐尔查克",
-      "en_US": "齐尔查克"
+      "en_US": "Chilchuck"
     },
     "faction": "rhodes_island",
     "avatar_key": "char_4144_chilc",
@@ -3758,7 +3877,7 @@
     "id": "char_4145_ulpia",
     "display_name": {
       "zh_CN": "乌尔比安",
-      "en_US": "乌尔比安"
+      "en_US": "Ulpianus"
     },
     "faction": "abyss",
     "avatar_key": "char_4145_ulpia",
@@ -3772,7 +3891,7 @@
     "id": "char_4146_nymph",
     "display_name": {
       "zh_CN": "妮芙",
-      "en_US": "妮芙"
+      "en_US": "Nymph"
     },
     "faction": "rhodes_island",
     "avatar_key": "char_4146_nymph",
@@ -3786,7 +3905,7 @@
     "id": "char_4147_mitm",
     "display_name": {
       "zh_CN": "渡桥",
-      "en_US": "渡桥"
+      "en_US": "Mitm"
     },
     "faction": "rhodes_island",
     "avatar_key": "char_4147_mitm",
@@ -3800,9 +3919,12 @@
     "id": "char_4148_philae",
     "display_name": {
       "zh_CN": "菲莱",
-      "en_US": "菲莱"
+      "en_US": "Philae"
     },
-    "faction": "rhodes_island",
+    "faction": [
+      "rhodes_island",
+      "sargon"
+    ],
     "avatar_key": "char_4148_philae",
     "is_npc": false,
     "description": {
@@ -3814,7 +3936,7 @@
     "id": "char_4151_tinman",
     "display_name": {
       "zh_CN": "锡人",
-      "en_US": "锡人"
+      "en_US": "Tin Man"
     },
     "faction": "columbia",
     "avatar_key": "char_4151_tinman",
@@ -3828,7 +3950,7 @@
     "id": "char_4155_talr",
     "display_name": {
       "zh_CN": "裁度",
-      "en_US": "裁度"
+      "en_US": "Figurino"
     },
     "faction": "siracusa",
     "avatar_key": "char_4155_talr",
@@ -3842,7 +3964,7 @@
     "id": "char_416_zumama",
     "display_name": {
       "zh_CN": "森蚺",
-      "en_US": "森蚺"
+      "en_US": "Eunectes"
     },
     "faction": "sargon",
     "avatar_key": "char_416_zumama",
@@ -3856,9 +3978,12 @@
     "id": "char_4162_cathy",
     "display_name": {
       "zh_CN": "凯瑟琳",
-      "en_US": "凯瑟琳"
+      "en_US": "Catherine"
     },
-    "faction": "rhodes_island",
+    "faction": [
+      "rhodes_island",
+      "victoria"
+    ],
     "avatar_key": "char_4162_cathy",
     "is_npc": false,
     "description": {
@@ -3870,7 +3995,7 @@
     "id": "char_4163_rosesa",
     "display_name": {
       "zh_CN": "瑰盐",
-      "en_US": "瑰盐"
+      "en_US": "Rose Salt"
     },
     "faction": "rhodes_island",
     "avatar_key": "char_4163_rosesa",
@@ -3884,7 +4009,7 @@
     "id": "char_4164_tecno",
     "display_name": {
       "zh_CN": "特克诺",
-      "en_US": "特克诺"
+      "en_US": "Tecno"
     },
     "faction": "bolivar",
     "avatar_key": "char_4164_tecno",
@@ -3898,9 +4023,12 @@
     "id": "char_4165_ctrail",
     "display_name": {
       "zh_CN": "云迹",
-      "en_US": "云迹"
+      "en_US": "Contrail"
     },
-    "faction": "rhodes_island",
+    "faction": [
+      "rhodes_island",
+      "columbia"
+    ],
     "avatar_key": "char_4165_ctrail",
     "is_npc": false,
     "description": {
@@ -3912,7 +4040,7 @@
     "id": "char_4166_varkis",
     "display_name": {
       "zh_CN": "摆渡人",
-      "en_US": "摆渡人"
+      "en_US": "Varkáris"
     },
     "faction": "minos",
     "avatar_key": "char_4166_varkis",
@@ -3926,9 +4054,12 @@
     "id": "char_4171_wulfen",
     "display_name": {
       "zh_CN": "钼铅",
-      "en_US": "钼铅"
+      "en_US": "Wulfenite"
     },
-    "faction": "rhodes_island",
+    "faction": [
+      "rhodes_island",
+      "sargon"
+    ],
     "avatar_key": "char_4171_wulfen",
     "is_npc": false,
     "description": {
@@ -3940,7 +4071,7 @@
     "id": "char_4172_xingzh",
     "display_name": {
       "zh_CN": "行箸",
-      "en_US": "行箸"
+      "en_US": "Xingzhu"
     },
     "faction": "yan",
     "avatar_key": "char_4172_xingzh",
@@ -3954,7 +4085,7 @@
     "id": "char_4173_nowell",
     "display_name": {
       "zh_CN": "诺威尔",
-      "en_US": "诺威尔"
+      "en_US": "Nowell"
     },
     "faction": "victoria",
     "avatar_key": "char_4173_nowell",
@@ -3968,7 +4099,7 @@
     "id": "char_4177_brigid",
     "display_name": {
       "zh_CN": "水灯心",
-      "en_US": "水灯心"
+      "en_US": "Brigid"
     },
     "faction": "victoria",
     "avatar_key": "char_4177_brigid",
@@ -3982,9 +4113,12 @@
     "id": "char_4178_alanna",
     "display_name": {
       "zh_CN": "阿兰娜",
-      "en_US": "阿兰娜"
+      "en_US": "Alanna"
     },
-    "faction": "rhodes_island",
+    "faction": [
+      "rhodes_island",
+      "rim"
+    ],
     "avatar_key": "char_4178_alanna",
     "is_npc": false,
     "description": {
@@ -4010,7 +4144,7 @@
     "id": "char_4182_oblvns",
     "display_name": {
       "zh_CN": "丰川祥子",
-      "en_US": "丰川祥子"
+      "en_US": "Togawa Sakiko"
     },
     "faction": "rhodes_island",
     "avatar_key": "char_4182_oblvns",
@@ -4024,7 +4158,7 @@
     "id": "char_4183_mortis",
     "display_name": {
       "zh_CN": "若叶睦",
-      "en_US": "若叶睦"
+      "en_US": "Wakaba Mutsumi"
     },
     "faction": "rhodes_island",
     "avatar_key": "char_4183_mortis",
@@ -4038,7 +4172,7 @@
     "id": "char_4184_dolris",
     "display_name": {
       "zh_CN": "三角初华",
-      "en_US": "三角初华"
+      "en_US": "Misumi Uika"
     },
     "faction": "rhodes_island",
     "avatar_key": "char_4184_dolris",
@@ -4052,7 +4186,7 @@
     "id": "char_4185_amoris",
     "display_name": {
       "zh_CN": "祐天寺若麦",
-      "en_US": "祐天寺若麦"
+      "en_US": "Yūtenji Nyamu"
     },
     "faction": "rhodes_island",
     "avatar_key": "char_4185_amoris",
@@ -4066,7 +4200,7 @@
     "id": "char_4186_tmoris",
     "display_name": {
       "zh_CN": "八幡海铃",
-      "en_US": "八幡海铃"
+      "en_US": "Yahata Umiri"
     },
     "faction": "rhodes_island",
     "avatar_key": "char_4186_tmoris",
@@ -4080,7 +4214,7 @@
     "id": "char_4187_graceb",
     "display_name": {
       "zh_CN": "聆音",
-      "en_US": "聆音"
+      "en_US": "Gracebearer"
     },
     "faction": "bolivar",
     "avatar_key": "char_4187_graceb",
@@ -4108,7 +4242,7 @@
     "id": "char_4191_tippi",
     "display_name": {
       "zh_CN": "蒂比",
-      "en_US": "蒂比"
+      "en_US": "Tippi"
     },
     "faction": "columbia",
     "avatar_key": "char_4191_tippi",
@@ -4122,7 +4256,7 @@
     "id": "char_4193_lemuen",
     "display_name": {
       "zh_CN": "蕾缪安",
-      "en_US": "蕾缪安"
+      "en_US": "Lemuen"
     },
     "faction": "laterano",
     "avatar_key": "char_4193_lemuen",
@@ -4136,7 +4270,7 @@
     "id": "char_4194_rmixer",
     "display_name": {
       "zh_CN": "信仰搅拌机",
-      "en_US": "信仰搅拌机"
+      "en_US": "Sankta Miksaparato"
     },
     "faction": "laterano",
     "avatar_key": "char_4194_rmixer",
@@ -4150,7 +4284,7 @@
     "id": "char_4195_radian",
     "display_name": {
       "zh_CN": "电弧",
-      "en_US": "电弧"
+      "en_US": "Raidian"
     },
     "faction": "rhodes_island",
     "avatar_key": "char_4195_radian",
@@ -4164,7 +4298,7 @@
     "id": "char_4196_reckpr",
     "display_name": {
       "zh_CN": "录武官",
-      "en_US": "录武官"
+      "en_US": "Record Keeper"
     },
     "faction": "yan",
     "avatar_key": "char_4196_reckpr",
@@ -4178,9 +4312,12 @@
     "id": "char_4198_christ",
     "display_name": {
       "zh_CN": "Miss.Christine",
-      "en_US": "Miss.Christine"
+      "en_US": "ミス・クリスティーン"
     },
-    "faction": "sargon",
+    "faction": [
+      "sargon",
+      "victoria"
+    ],
     "avatar_key": "char_4198_christ",
     "is_npc": false,
     "description": {
@@ -4192,7 +4329,7 @@
     "id": "char_4199_makiri",
     "display_name": {
       "zh_CN": "松桐",
-      "en_US": "松桐"
+      "en_US": "Matsukiri"
     },
     "faction": "sargon",
     "avatar_key": "char_4199_makiri",
@@ -4206,7 +4343,7 @@
     "id": "char_420_flamtl",
     "display_name": {
       "zh_CN": "焰尾",
-      "en_US": "焰尾"
+      "en_US": "Flametail"
     },
     "faction": "kazimierz",
     "avatar_key": "char_420_flamtl",
@@ -4220,7 +4357,7 @@
     "id": "char_4202_haruka",
     "display_name": {
       "zh_CN": "遥",
-      "en_US": "遥"
+      "en_US": "Haruka"
     },
     "faction": "sargon",
     "avatar_key": "char_4202_haruka",
@@ -4234,7 +4371,7 @@
     "id": "char_4203_kichi",
     "display_name": {
       "zh_CN": "吉星",
-      "en_US": "吉星"
+      "en_US": "Kichisei"
     },
     "faction": "sargon",
     "avatar_key": "char_4203_kichi",
@@ -4248,7 +4385,7 @@
     "id": "char_4204_mantra",
     "display_name": {
       "zh_CN": "真言",
-      "en_US": "真言"
+      "en_US": "Mantra"
     },
     "faction": "sargon",
     "avatar_key": "char_4204_mantra",
@@ -4262,7 +4399,7 @@
     "id": "char_4207_branch",
     "display_name": {
       "zh_CN": "折桠",
-      "en_US": "折桠"
+      "en_US": "Веточки"
     },
     "faction": "ursus",
     "avatar_key": "char_4207_branch",
@@ -4276,7 +4413,7 @@
     "id": "char_4208_wintim",
     "display_name": {
       "zh_CN": "冬时",
-      "en_US": "冬时"
+      "en_US": "Снегyрочка"
     },
     "faction": "ursus",
     "avatar_key": "char_4208_wintim",
@@ -4290,7 +4427,7 @@
     "id": "char_421_crow",
     "display_name": {
       "zh_CN": "羽毛笔",
-      "en_US": "羽毛笔"
+      "en_US": "La Pluma"
     },
     "faction": "bolivar",
     "avatar_key": "char_421_crow",
@@ -4304,7 +4441,7 @@
     "id": "char_4211_snhunt",
     "display_name": {
       "zh_CN": "雪猎",
-      "en_US": "雪猎"
+      "en_US": "Snow Hunter"
     },
     "faction": "sami",
     "avatar_key": "char_4211_snhunt",
@@ -4318,7 +4455,7 @@
     "id": "char_4212_nasti",
     "display_name": {
       "zh_CN": "娜斯提",
-      "en_US": "娜斯提"
+      "en_US": "Nasti"
     },
     "faction": [
       "rhodes_island"
@@ -4334,10 +4471,11 @@
     "id": "char_4213_skybx",
     "display_name": {
       "zh_CN": "天空盒",
-      "en_US": "天空盒"
+      "en_US": "Skybox"
     },
     "faction": [
-      "rhodes_island"
+      "rhodes_island",
+      "columbia"
     ],
     "avatar_key": "char_4213_skybx",
     "is_npc": false,
@@ -4350,7 +4488,7 @@
     "id": "char_4214_cairn",
     "display_name": {
       "zh_CN": "响石",
-      "en_US": "响石"
+      "en_US": "Cairn"
     },
     "faction": "columbia",
     "avatar_key": "char_4214_cairn",
@@ -4364,7 +4502,7 @@
     "id": "char_422_aurora",
     "display_name": {
       "zh_CN": "极光",
-      "en_US": "极光"
+      "en_US": "Aurora"
     },
     "faction": "sami",
     "avatar_key": "char_422_aurora",
@@ -4378,7 +4516,7 @@
     "id": "char_4221_ju",
     "display_name": {
       "zh_CN": "矩",
-      "en_US": "矩"
+      "en_US": "Ju"
     },
     "faction": "yan",
     "avatar_key": "char_4221_ju",
@@ -4394,7 +4532,7 @@
     "id": "char_4222_taraxa",
     "display_name": {
       "zh_CN": "风絮",
-      "en_US": "风絮"
+      "en_US": "Taraxacum"
     },
     "faction": "sargon",
     "avatar_key": "char_4222_taraxa",
@@ -4405,7 +4543,7 @@
     }
   },
   {
-    "id": "char_4224_pingos",
+    "id": "npc_pingos",
     "display_name": {
       "zh_CN": "平格尔",
       "en_US": "Pingos"
@@ -4423,7 +4561,7 @@
     "id": "char_4224_turdus",
     "display_name": {
       "zh_CN": "乌啾",
-      "en_US": "乌啾"
+      "en_US": "Укусик"
     },
     "faction": "ursus",
     "avatar_key": "char_4224_turdus",
@@ -4437,7 +4575,7 @@
     "id": "char_4225_tanya",
     "display_name": {
       "zh_CN": "裂响",
-      "en_US": "裂响"
+      "en_US": "Crackborne"
     },
     "faction": "ursus",
     "avatar_key": "char_4225_tanya",
@@ -4451,7 +4589,7 @@
     "id": "char_4226_veen",
     "display_name": {
       "zh_CN": "维伊",
-      "en_US": "维伊"
+      "en_US": "Вий"
     },
     "faction": "ursus",
     "avatar_key": "char_4226_veen",
@@ -4479,9 +4617,12 @@
     "id": "char_4228_closur",
     "display_name": {
       "zh_CN": "可露希尔",
-      "en_US": "可露希尔"
+      "en_US": "Closure"
     },
-    "faction": "kazimierz_mc",
+    "faction": [
+      "kazimierz_mc",
+      "sarkaz"
+    ],
     "avatar_key": "char_4228_closur",
     "is_npc": false,
     "description": {
@@ -4493,7 +4634,7 @@
     "id": "char_423_blemsh",
     "display_name": {
       "zh_CN": "瑕光",
-      "en_US": "瑕光"
+      "en_US": "Blemishine"
     },
     "faction": "kazimierz",
     "avatar_key": "char_423_blemsh",
@@ -4507,9 +4648,12 @@
     "id": "char_426_billro",
     "display_name": {
       "zh_CN": "卡涅利安",
-      "en_US": "卡涅利安"
+      "en_US": "Carnelian"
     },
-    "faction": "sargon",
+    "faction": [
+      "sargon",
+      "leithanien"
+    ],
     "avatar_key": "char_426_billro",
     "is_npc": false,
     "description": {
@@ -4521,7 +4665,7 @@
     "id": "char_427_vigil",
     "display_name": {
       "zh_CN": "伺夜",
-      "en_US": "伺夜"
+      "en_US": "Vigil"
     },
     "faction": "siracusa",
     "avatar_key": "char_427_vigil",
@@ -4535,7 +4679,7 @@
     "id": "char_430_fartth",
     "display_name": {
       "zh_CN": "远牙",
-      "en_US": "远牙"
+      "en_US": "Fartooth"
     },
     "faction": "kazimierz",
     "avatar_key": "char_430_fartth",
@@ -4549,7 +4693,7 @@
     "id": "char_431_ashlok",
     "display_name": {
       "zh_CN": "灰毫",
-      "en_US": "灰毫"
+      "en_US": "Ashlock"
     },
     "faction": "kazimierz",
     "avatar_key": "char_431_ashlok",
@@ -4563,7 +4707,7 @@
     "id": "char_433_windft",
     "display_name": {
       "zh_CN": "掠风",
-      "en_US": "掠风"
+      "en_US": "Windflit"
     },
     "faction": "columbia",
     "avatar_key": "char_433_windft",
@@ -4577,7 +4721,7 @@
     "id": "char_436_whispr",
     "display_name": {
       "zh_CN": "絮雨",
-      "en_US": "絮雨"
+      "en_US": "Whisperain"
     },
     "faction": "iberia",
     "avatar_key": "char_436_whispr",
@@ -4591,7 +4735,7 @@
     "id": "char_437_mizuki",
     "display_name": {
       "zh_CN": "水月",
-      "en_US": "水月"
+      "en_US": "Mizuki"
     },
     "faction": "sargon",
     "avatar_key": "char_437_mizuki",
@@ -4605,7 +4749,7 @@
     "id": "char_440_pinecn",
     "display_name": {
       "zh_CN": "松果",
-      "en_US": "松果"
+      "en_US": "Pinecone"
     },
     "faction": "columbia",
     "avatar_key": "char_440_pinecn",
@@ -4619,7 +4763,7 @@
     "id": "char_445_wscoot",
     "display_name": {
       "zh_CN": "骋风",
-      "en_US": "骋风"
+      "en_US": "Windscoot"
     },
     "faction": "yan",
     "avatar_key": "char_445_wscoot",
@@ -4633,7 +4777,7 @@
     "id": "char_446_aroma",
     "display_name": {
       "zh_CN": "阿罗玛",
-      "en_US": "阿罗玛"
+      "en_US": "Aroma"
     },
     "faction": "siracusa",
     "avatar_key": "char_446_aroma",
@@ -4647,7 +4791,7 @@
     "id": "char_449_glider",
     "display_name": {
       "zh_CN": "蜜莓",
-      "en_US": "蜜莓"
+      "en_US": "Honeyberry"
     },
     "faction": "rim",
     "avatar_key": "char_449_glider",
@@ -4661,7 +4805,7 @@
     "id": "char_450_necras",
     "display_name": {
       "zh_CN": "死芒",
-      "en_US": "死芒"
+      "en_US": "Necrass"
     },
     "faction": "victoria",
     "avatar_key": "char_450_necras",
@@ -4675,7 +4819,7 @@
     "id": "char_451_robin",
     "display_name": {
       "zh_CN": "罗宾",
-      "en_US": "罗宾"
+      "en_US": "Robin"
     },
     "faction": "columbia",
     "avatar_key": "char_451_robin",
@@ -4689,7 +4833,7 @@
     "id": "char_452_bstalk",
     "display_name": {
       "zh_CN": "豆苗",
-      "en_US": "豆苗"
+      "en_US": "Beanstalk"
     },
     "faction": "columbia",
     "avatar_key": "char_452_bstalk",
@@ -4703,7 +4847,7 @@
     "id": "char_455_nothin",
     "display_name": {
       "zh_CN": "乌有",
-      "en_US": "乌有"
+      "en_US": "Mr.Nothing"
     },
     "faction": "yan",
     "avatar_key": "char_455_nothin",
@@ -4717,7 +4861,7 @@
     "id": "char_456_ash",
     "display_name": {
       "zh_CN": "灰烬",
-      "en_US": "灰烬"
+      "en_US": "Ash"
     },
     "faction": "rhodes_island",
     "avatar_key": "char_456_ash",
@@ -4731,7 +4875,7 @@
     "id": "char_457_blitz",
     "display_name": {
       "zh_CN": "闪击",
-      "en_US": "闪击"
+      "en_US": "Blitz"
     },
     "faction": "rhodes_island",
     "avatar_key": "char_457_blitz",
@@ -4745,7 +4889,7 @@
     "id": "char_458_rfrost",
     "display_name": {
       "zh_CN": "霜华",
-      "en_US": "霜华"
+      "en_US": "Frost"
     },
     "faction": "rhodes_island",
     "avatar_key": "char_458_rfrost",
@@ -4759,7 +4903,7 @@
     "id": "char_459_tachak",
     "display_name": {
       "zh_CN": "战车",
-      "en_US": "战车"
+      "en_US": "Tachanka"
     },
     "faction": "rhodes_island",
     "avatar_key": "char_459_tachak",
@@ -4773,7 +4917,7 @@
     "id": "char_464_cement",
     "display_name": {
       "zh_CN": "洋灰",
-      "en_US": "洋灰"
+      "en_US": "Cement"
     },
     "faction": "rim",
     "avatar_key": "char_464_cement",
@@ -4787,7 +4931,7 @@
     "id": "char_466_qanik",
     "display_name": {
       "zh_CN": "雪绒",
-      "en_US": "雪绒"
+      "en_US": "Qanipalaat"
     },
     "faction": "sami",
     "avatar_key": "char_466_qanik",
@@ -4801,7 +4945,7 @@
     "id": "char_469_indigo",
     "display_name": {
       "zh_CN": "深靛",
-      "en_US": "深靛"
+      "en_US": "Indigo"
     },
     "faction": "iberia",
     "avatar_key": "char_469_indigo",
@@ -4815,9 +4959,12 @@
     "id": "char_472_pasngr",
     "display_name": {
       "zh_CN": "异客",
-      "en_US": "异客"
+      "en_US": "Passenger"
     },
-    "faction": "columbia",
+    "faction": [
+      "columbia",
+      "sargon"
+    ],
     "avatar_key": "char_472_pasngr",
     "is_npc": false,
     "description": {
@@ -4829,7 +4976,7 @@
     "id": "char_474_glady",
     "display_name": {
       "zh_CN": "歌蕾蒂娅",
-      "en_US": "歌蕾蒂娅"
+      "en_US": "Gladiia"
     },
     "faction": "abyss",
     "avatar_key": "char_474_glady",
@@ -4843,7 +4990,7 @@
     "id": "char_475_akafyu",
     "display_name": {
       "zh_CN": "赤冬",
-      "en_US": "赤冬"
+      "en_US": "Akafuyu"
     },
     "faction": "sargon",
     "avatar_key": "char_475_akafyu",
@@ -4857,7 +5004,7 @@
     "id": "char_476_blkngt",
     "display_name": {
       "zh_CN": "夜半",
-      "en_US": "夜半"
+      "en_US": "Blacknight"
     },
     "faction": "rim",
     "avatar_key": "char_476_blkngt",
@@ -4871,7 +5018,7 @@
     "id": "char_478_kirara",
     "display_name": {
       "zh_CN": "绮良",
-      "en_US": "绮良"
+      "en_US": "Kirara"
     },
     "faction": "sargon",
     "avatar_key": "char_478_kirara",
@@ -4885,7 +5032,7 @@
     "id": "char_479_sleach",
     "display_name": {
       "zh_CN": "琴柳",
-      "en_US": "琴柳"
+      "en_US": "Saileach"
     },
     "faction": "victoria",
     "avatar_key": "char_479_sleach",
@@ -4899,7 +5046,7 @@
     "id": "char_484_robrta",
     "display_name": {
       "zh_CN": "罗比菈塔",
-      "en_US": "罗比菈塔"
+      "en_US": "Roberta"
     },
     "faction": "columbia",
     "avatar_key": "char_484_robrta",
@@ -4913,7 +5060,7 @@
     "id": "char_485_pallas",
     "display_name": {
       "zh_CN": "帕拉斯",
-      "en_US": "帕拉斯"
+      "en_US": "Pallas"
     },
     "faction": "minos",
     "avatar_key": "char_485_pallas",
@@ -4927,7 +5074,7 @@
     "id": "char_487_bobb",
     "display_name": {
       "zh_CN": "波卜",
-      "en_US": "波卜"
+      "en_US": "Bobbing"
     },
     "faction": "columbia",
     "avatar_key": "char_487_bobb",
@@ -4941,7 +5088,7 @@
     "id": "char_488_buildr",
     "display_name": {
       "zh_CN": "青枳",
-      "en_US": "青枳"
+      "en_US": "Poncirus"
     },
     "faction": "columbia",
     "avatar_key": "char_488_buildr",
@@ -4955,7 +5102,7 @@
     "id": "char_489_serum",
     "display_name": {
       "zh_CN": "蚀清",
-      "en_US": "蚀清"
+      "en_US": "Corroserum"
     },
     "faction": "columbia",
     "avatar_key": "char_489_serum",
@@ -4969,9 +5116,9 @@
     "id": "char_491_humus",
     "display_name": {
       "zh_CN": "休谟斯",
-      "en_US": "休谟斯"
+      "en_US": "Humus"
     },
-    "faction": "columbia",
+    "faction": "rhodes_island",
     "avatar_key": "char_491_humus",
     "is_npc": false,
     "description": {
@@ -4983,9 +5130,9 @@
     "id": "char_492_quercu",
     "display_name": {
       "zh_CN": "夏栎",
-      "en_US": "夏栎"
+      "en_US": "Quercus"
     },
-    "faction": "victoria",
+    "faction": "rhodes_island",
     "avatar_key": "char_492_quercu",
     "is_npc": false,
     "description": {
@@ -4997,7 +5144,7 @@
     "id": "char_493_firwhl",
     "display_name": {
       "zh_CN": "火哨",
-      "en_US": "火哨"
+      "en_US": "Firewhistle"
     },
     "faction": "rim",
     "avatar_key": "char_493_firwhl",
@@ -5011,7 +5158,7 @@
     "id": "char_494_vendla",
     "display_name": {
       "zh_CN": "刺玫",
-      "en_US": "刺玫"
+      "en_US": "Vendela"
     },
     "faction": "victoria",
     "avatar_key": "char_494_vendla",
@@ -5025,7 +5172,7 @@
     "id": "char_496_wildmn",
     "display_name": {
       "zh_CN": "野鬃",
-      "en_US": "野鬃"
+      "en_US": "Wild Mane"
     },
     "faction": "kazimierz",
     "avatar_key": "char_496_wildmn",
@@ -5039,9 +5186,9 @@
     "id": "char_497_ctable",
     "display_name": {
       "zh_CN": "晓歌",
-      "en_US": "晓歌"
+      "en_US": "Cantabile"
     },
-    "faction": "bolivar",
+    "faction": "rhodes_island",
     "avatar_key": "char_497_ctable",
     "is_npc": false,
     "description": {
@@ -5053,7 +5200,7 @@
     "id": "char_498_inside",
     "display_name": {
       "zh_CN": "隐现",
-      "en_US": "隐现"
+      "en_US": "Insider"
     },
     "faction": "laterano",
     "avatar_key": "char_498_inside",
@@ -5067,7 +5214,7 @@
     "id": "char_499_kaitou",
     "display_name": {
       "zh_CN": "折光",
-      "en_US": "折光"
+      "en_US": "Diamante"
     },
     "faction": "leithanien",
     "avatar_key": "char_499_kaitou",
@@ -5081,7 +5228,7 @@
     "id": "char_500_noirc",
     "display_name": {
       "zh_CN": "黑角",
-      "en_US": "黑角"
+      "en_US": "Noir Corne"
     },
     "faction": "sargon",
     "avatar_key": "char_500_noirc",
@@ -5095,7 +5242,7 @@
     "id": "char_501_durin",
     "display_name": {
       "zh_CN": "杜林",
-      "en_US": "杜林"
+      "en_US": "Durin"
     },
     "faction": "leithanien",
     "avatar_key": "char_501_durin",
@@ -5109,7 +5256,7 @@
     "id": "char_502_nblade",
     "display_name": {
       "zh_CN": "夜刀",
-      "en_US": "夜刀"
+      "en_US": "Yato"
     },
     "faction": "sargon",
     "avatar_key": "char_502_nblade",
@@ -5123,7 +5270,7 @@
     "id": "char_503_rang",
     "display_name": {
       "zh_CN": "巡林者",
-      "en_US": "巡林者"
+      "en_US": "Rangers"
     },
     "faction": "sargon",
     "avatar_key": "char_503_rang",
@@ -5204,7 +5351,7 @@
     }
   },
   {
-    "id": "char_60c17eb9",
+    "id": "npc_sharp",
     "display_name": {
       "zh_CN": "Sharp",
       "en_US": "Sharp"
@@ -5218,10 +5365,10 @@
     }
   },
   {
-    "id": "char_7914a511",
+    "id": "npc_muluo",
     "display_name": {
       "zh_CN": "暮落",
-      "en_US": "暮落"
+      "en_US": "Shalem"
     },
     "faction": "rhodes_island",
     "avatar_key": "char_7914a511",
@@ -5235,7 +5382,7 @@
     "id": "char_306_leizi",
     "display_name": {
       "zh_CN": "惊蛰",
-      "en_US": "惊蛰"
+      "en_US": "Leizi"
     },
     "faction": "yan",
     "avatar_key": "char_306_leizi",
@@ -5249,7 +5396,7 @@
     "id": "char_358_lisa",
     "display_name": {
       "zh_CN": "铃兰",
-      "en_US": "铃兰"
+      "en_US": "Suzuran"
     },
     "faction": "rhodes_island",
     "avatar_key": "char_358_lisa",
@@ -5263,7 +5410,7 @@
     "id": "char_473_mberry",
     "display_name": {
       "zh_CN": "桑葚",
-      "en_US": "桑葚"
+      "en_US": "Mulberry"
     },
     "faction": "yan",
     "avatar_key": "char_473_mberry",
@@ -5277,7 +5424,7 @@
     "id": "char_486_takila",
     "display_name": {
       "zh_CN": "龙舌兰",
-      "en_US": "龙舌兰"
+      "en_US": "Tequila"
     },
     "faction": "rhodes_island",
     "avatar_key": "char_486_takila",
@@ -5291,7 +5438,7 @@
     "id": "char_4223_botany",
     "display_name": {
       "zh_CN": "伯塔尼",
-      "en_US": "伯塔尼"
+      "en_US": "Ботани"
     },
     "faction": "rhodes_island",
     "avatar_key": "char_4223_botany",
@@ -5302,10 +5449,10 @@
     }
   },
   {
-    "id": "char_fae2b7e6",
+    "id": "npc_dionysus",
     "display_name": {
       "zh_CN": "酒神",
-      "en_US": "酒神"
+      "en_US": "Tragodia"
     },
     "faction": "sami",
     "avatar_key": "char_fae2b7e6",
@@ -5360,20 +5507,6 @@
     "class": "guard"
   },
   {
-    "id": "npc_ahmani",
-    "display_name": {
-      "zh_CN": "阿赫茉妮",
-      "en_US": "Ahmani"
-    },
-    "faction": "deeppool",
-    "avatar_key": "npc_ahmani",
-    "is_npc": true,
-    "description": {
-      "zh_CN": "深池首席谋臣，向往看见「终点」的哲学型人物，是深池神秘领袖（拉特）的左膀右臂，在晚宴上代表深池发言，与蔓德拉路线对立。",
-      "en_US": ""
-    }
-  },
-  {
     "id": "npc_aleda",
     "display_name": {
       "zh_CN": "阿勒黛",
@@ -5393,7 +5526,7 @@
       "zh_CN": "阿丽娜",
       "en_US": "Alina"
     },
-    "faction": "unknown",
+    "faction": "reunion",
     "avatar_key": "npc_alina",
     "is_npc": true,
     "description": {
@@ -5493,7 +5626,7 @@
       "zh_CN": "血魔大君",
       "en_US": "Blood Demon"
     },
-    "faction": "kazimierz_mc",
+    "faction": "kazimierz",
     "avatar_key": "npc_blooddemon",
     "is_npc": true,
     "description": {
@@ -5592,7 +5725,9 @@
       "zh_CN": "深池六名干部",
       "en_US": "Six Deeppool Cadres"
     },
-    "faction": "deeppool",
+    "faction": [
+      "siracusa"
+    ],
     "avatar_key": "npc_deeppool_cadres",
     "is_npc": true,
     "description": {
@@ -5606,7 +5741,9 @@
       "zh_CN": "深池神秘领袖",
       "en_US": "Deeppool Mysterious Leader"
     },
-    "faction": "deeppool",
+    "faction": [
+      "siracusa"
+    ],
     "avatar_key": "npc_deeppool_leader",
     "is_npc": true,
     "description": {
@@ -5933,7 +6070,9 @@
       "zh_CN": "拉芙希妮",
       "en_US": "Lafcine"
     },
-    "faction": "deeppool",
+    "faction": [
+      "siracusa"
+    ],
     "avatar_key": "npc_lafcine",
     "is_npc": true,
     "description": {
@@ -5961,7 +6100,9 @@
       "zh_CN": "拉特科夫",
       "en_US": "Lattof"
     },
-    "faction": "unknown",
+    "faction": [
+      "ursus"
+    ],
     "avatar_key": "npc_lattof",
     "is_npc": true,
     "description": {
@@ -5990,7 +6131,7 @@
       "zh_CN": "曼弗雷德",
       "en_US": "Manfred"
     },
-    "faction": "kazimierz_mc",
+    "faction": "kazimierz",
     "avatar_key": "npc_manfred",
     "is_npc": true,
     "description": {
@@ -6020,7 +6161,9 @@
       "zh_CN": "蔓德拉",
       "en_US": "Mendra"
     },
-    "faction": "deeppool",
+    "faction": [
+      "siracusa"
+    ],
     "avatar_key": "npc_mendra",
     "is_npc": true,
     "description": {
@@ -6172,13 +6315,13 @@
     }
   },
   {
-    "id": "npc_pris",
+    "id": "npc_priestess",
     "display_name": {
       "zh_CN": "普瑞赛斯",
       "en_US": "Pris"
     },
     "faction": "babel",
-    "avatar_key": "npc_pris",
+    "avatar_key": "npc_priestess",
     "is_npc": true,
     "description": {
       "zh_CN": "",
@@ -6191,7 +6334,7 @@
       "zh_CN": "普瑞赛提",
       "en_US": "PRTS"
     },
-    "faction": "columbia",
+    "faction": "babel",
     "avatar_key": "npc_prts",
     "is_npc": true,
     "description": {
@@ -6201,13 +6344,13 @@
     "rarity": 5
   },
   {
-    "id": "npc_raidian",
+    "id": "char_4195_raidian",
     "display_name": {
       "zh_CN": "雷典",
       "en_US": "Raidian"
     },
     "faction": "ursus",
-    "avatar_key": "npc_raidian",
+    "avatar_key": "char_4195_raidian",
     "is_npc": true,
     "description": {
       "zh_CN": "",
@@ -6417,13 +6560,13 @@
     }
   },
   {
-    "id": "npc_theresa_prime",
+    "id": "npc_theresis",
     "display_name": {
       "zh_CN": "特雷西斯",
       "en_US": "Theresa Prime"
     },
     "faction": "kazimierz_mc",
-    "avatar_key": "npc_theresa_prime",
+    "avatar_key": "npc_theresis",
     "is_npc": true,
     "description": {
       "zh_CN": "萨卡兹摄政王，军事委员会最高领袖。特雷西斯的傀儡\"特蕾西娅\"（可能是复制品或特雷西斯控制的替身）服从她的命令。她宣称\"我会再杀死你一次，凯尔希\"，揭露凯尔希两百年前参与毁灭卡兹戴尔的历史。",
@@ -6465,7 +6608,7 @@
       "zh_CN": "食腐者之王",
       "en_US": "Warl"
     },
-    "faction": "kazimierz_mc",
+    "faction": "kazimierz",
     "avatar_key": "npc_warl",
     "is_npc": true,
     "description": {
@@ -6518,7 +6661,7 @@
     }
   },
   {
-    "id": "npc_碎骨",
+    "id": "npc_suigu",
     "display_name": {
       "zh_CN": "碎骨",
       "en_US": "碎骨"
@@ -6532,13 +6675,139 @@
     }
   },
   {
-    "id": "npc_米莎",
+    "id": "npc_misha",
     "display_name": {
       "zh_CN": "米莎",
       "en_US": "米莎"
     },
     "faction": "reunion",
-    "avatar_key": "npc_米莎",
+    "avatar_key": "npc_misha",
+    "is_npc": true,
+    "description": {
+      "zh_CN": "",
+      "en_US": ""
+    }
+  },
+  {
+    "id": "char_193_frostl",
+    "display_name": {
+      "zh_CN": "霜叶",
+      "en_US": "Frostleaf"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_193_frostl",
+    "is_npc": false,
+    "description": {
+      "zh_CN": "",
+      "en_US": ""
+    }
+  },
+  {
+    "id": "char_106_franka",
+    "display_name": {
+      "zh_CN": "芙兰卡",
+      "en_US": "Franka"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_106_franka",
+    "is_npc": false,
+    "description": {
+      "zh_CN": "",
+      "en_US": ""
+    }
+  },
+  {
+    "id": "char_187_ccheal",
+    "display_name": {
+      "zh_CN": "嘉维尔",
+      "en_US": "Gavial"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_187_ccheal",
+    "is_npc": false,
+    "description": {
+      "zh_CN": "",
+      "en_US": ""
+    }
+  },
+  {
+    "id": "char_185_frncat",
+    "display_name": {
+      "zh_CN": "慕斯",
+      "en_US": "Mousse"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_185_frncat",
+    "is_npc": false,
+    "description": {
+      "zh_CN": "",
+      "en_US": ""
+    }
+  },
+  {
+    "id": "char_108_silent",
+    "display_name": {
+      "zh_CN": "赫默",
+      "en_US": "Silence"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_108_silent",
+    "is_npc": false,
+    "description": {
+      "zh_CN": "",
+      "en_US": ""
+    }
+  },
+  {
+    "id": "char_1035_wisdel",
+    "display_name": {
+      "zh_CN": "维什戴尔",
+      "en_US": "Vermeil"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_1035_wisdel",
+    "is_npc": false,
+    "description": {
+      "zh_CN": "",
+      "en_US": ""
+    }
+  },
+  {
+    "id": "char_188_helage",
+    "display_name": {
+      "zh_CN": "赫拉格",
+      "en_US": "Hellagur"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_188_helage",
+    "is_npc": false,
+    "description": {
+      "zh_CN": "",
+      "en_US": ""
+    }
+  },
+  {
+    "id": "char_194_leto",
+    "display_name": {
+      "zh_CN": "烈夏",
+      "en_US": "LetO"
+    },
+    "faction": "rhodes_island",
+    "avatar_key": "char_194_leto",
+    "is_npc": false,
+    "description": {
+      "zh_CN": "",
+      "en_US": ""
+    }
+  },
+  {
+    "id": "npc_ahmani",
+    "display_name": {
+      "zh_CN": "阿赫茉妮",
+      "en_US": "Ahmani"
+    },
+    "faction": "deepwell",
+    "avatar_key": "npc_ahmani",
     "is_npc": true,
     "description": {
       "zh_CN": "",
