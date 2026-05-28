@@ -7,6 +7,7 @@ import GraphCanvas from './components/GraphCanvas';
 import OperatorSelector from './components/OperatorSelector';
 import RelationPanel from './components/RelationPanel';
 import AvatarRelationPopup from './components/AvatarRelationPopup';
+import DataEditor from './components/DataEditor';
 import type { LangKey, TerraEvent, OperatorRelation } from './hooks/useTerraData';
 
 type SingleRelationDetail = {
@@ -27,6 +28,7 @@ function App() {
   const [lang, setLang] = useState<LangKey>('zh_CN');
   const [currentEvent, setCurrentEvent] = useState<TerraEvent | null>(null);
   const [hasInteracted, setHasInteracted] = useState(false);
+  const [editorOpen, setEditorOpen] = useState(false);
 
   const currentEventIndex = useMemo(() => {
     if (!currentEvent) return -1;
@@ -247,7 +249,7 @@ function App() {
         />
       )}
 
-      {/* 第3层：语言切换 */}
+      {/* 第3层：语言切换 + 编辑器切换 */}
       <div className="absolute top-4 right-6 z-30 flex items-center space-x-3 font-mono">
         <AnimatePresence>
           {currentEvent && (
@@ -265,6 +267,12 @@ function App() {
         <span className="text-[9px]" style={{ color: 'rgba(255,255,255,0.08)' }}>|</span>
         <button onClick={() => setLang('en_US')} className="text-[10px] tracking-[0.1em] transition-colors"
           style={{ color: lang === 'en_US' ? '#00c2ff' : 'rgba(255,255,255,0.25)' }}>[ EN ]</button>
+        <span className="text-[9px]" style={{ color: 'rgba(255,255,255,0.08)' }}>|</span>
+        <button onClick={() => setEditorOpen(prev => !prev)}
+          className="text-[10px] tracking-[0.1em] transition-colors"
+          style={{ color: editorOpen ? '#00c2ff' : 'rgba(255,255,255,0.25)' }}>
+          [ {editorOpen ? 'EDITOR ON' : 'EDITOR OFF'} ]
+        </button>
       </div>
 
       {/* 第4层：主内容 */}
@@ -374,7 +382,20 @@ function App() {
         )}
       </AnimatePresence>
 
-      {/* 第6层：底部时间轴 */}
+      {/* 第6层：数据编辑器 */}
+      <AnimatePresence>
+        {editorOpen && (
+          <DataEditor
+            operators={operators}
+            relations={relations}
+            events={events}
+            lang={lang}
+            onClose={() => setEditorOpen(false)}
+          />
+        )}
+      </AnimatePresence>
+
+      {/* 第7层：底部时间轴 */}
       <div className="absolute bottom-0 left-0 right-0 z-20">
         <Timeline
           events={events}
