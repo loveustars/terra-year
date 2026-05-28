@@ -1,5 +1,6 @@
 import React, { useState, useMemo } from 'react';
 import { motion, AnimatePresence, useDragControls } from 'framer-motion';
+import { useIsMobile } from '../hooks/useIsMobile';
 import type { Operator as TOperator, LangKey, TerraEvent } from '../hooks/useTerraData';
 
 type Operator = TOperator;
@@ -80,33 +81,340 @@ function getFactionLabel(faction: string, lang: LangKey): string {
   return FACTION_LABELS[faction]?.[lang] ?? faction;
 }
 
-const OperatorSelector: React.FC<OperatorSelectorProps> = ({
-  allEventOperators,
-  selectedIds,
-  onToggle,
-  onSelectAll,
-  onDeselectAll,
-  onSelectIds,
-  onDeselectIds,
-  lang,
-  currentEvent,
-}) => {
+/* ---- 共享内容组件 ---- */
+const OperatorListContent: React.FC<{
+  allEventOperators: Operator[];
+  selectedIds: Set<string>;
+  onToggle: (id: string) => void;
+  onSelectAll: () => void;
+  onDeselectAll: () => void;
+  onSelectIds: (ids: string[]) => void;
+  onDeselectIds: (ids: string[]) => void;
+  search: string;
+  setSearch: (v: string) => void;
+  collapsedFactions: Set<string>;
+  toggleFaction: (f: string) => void;
+  grouped: { faction: string; ops: Operator[] }[];
+  lang: LangKey;
+  onToggleCollapse: () => void;
+  opsExpanded: boolean;
+  onClose?: () => void;
+}> = ({
+  allEventOperators, selectedIds, onToggle, onSelectAll, onDeselectAll,
+  onSelectIds, onDeselectIds, search, setSearch,
+  collapsedFactions, toggleFaction, grouped, lang,
+  onToggleCollapse, opsExpanded, onClose,
+}) => (
+  <>
+    <div className="flex items-center justify-between px-4 py-2 bg-[#e0e0e0] select-none">
+      <button
+        type="button"
+        className="text-[11px] font-black tracking-widest text-[#222] uppercase cursor-move"
+        onClick={onToggleCollapse}
+      >
+        OPERATORS
+      </button>
+      <button type="button" className="text-[9px] font-bold text-[#888]" onClick={onToggleCollapse}>
+        {opsExpanded ? '[ - ]' : '[ + ]'}
+      </button>
+    </div>
+    <AnimatePresence>
+      {opsExpanded && (
+        <motion.div
+          initial={{ height: 0, opacity: 0 }}
+          animate={{ height: 'auto', opacity: 1 }}
+          exit={{ height: 0, opacity: 0 }}
+          className="flex flex-col flex-1 overflow-hidden"
+        >
+          <div className="px-3 pt-2 pb-2 border-b border-[#ccc] bg-[#f0f0f0] shrink-0">
+            <div className="flex items-center justify-between mb-2">
+              <span className="text-[10px] font-bold text-[#555] tracking-widest">
+                SELECTED: {selectedIds.size}/{allEventOperators.length}
+              </span>
+              <div className="flex gap-1">
+                <button onClick={onSelectAll} className="text-[9px] font-black px-1.5 py-0.5 border border-[#999] text-[#444] bg-white hover:bg-[#ddd] transition-colors">ALL</button>
+                <button onClick={onDeselectAll} className="text-[9px] font-black px-1.5 py-0.5 border border-[#999] text-[#444] bg-white hover:bg-[#ddd] transition-colors">NONE</button>
+              </div>
+            </div>
+            <input
+              value={search}
+              onChange={e => setSearch(e.target.value)}
+              placeholder="SEARCH NAME / FACTION..."
+              className="w-full bg-white text-[10px] font-mono px-2 py-1.5 border border-[#bbb] outline-none text-[#333]"
+            />
+          </div>
+          <div className="flex-1 overflow-y-auto bg-white p-2" style={{ scrollbarWidth: 'thin' }}>
+            {grouped.map(({ faction, ops }) => {
+              const selectedInGroup = ops.filter(op => selectedIds.has(op.id)).length;
+              const collapsed = collapsedFactions.has(faction);
+              const factionColor = getFactionColor(faction);
+              return (
+                <div key={faction} className="mb-2 border border-[#e2e2e2] bg-[#fafafa]">
+                  <div className="flex items-center gap-2 px-2 py-1.5 bg-[#eeeeee]">
+                    <button type="button" onClick={() => toggleFaction(faction)} className="text-[9px] font-black text-[#555] w-5">
+                      {collapsed ? '[+]' : '[-]'}
+                    </button>
+                    <span className="h-2 w-2 flex-shrink-0" style={{ backgroundColor: factionColor }} />
+                    <span className="min-w-0 flex-1 truncate text-[10px] font-black uppercase tracking-wider text-[#222]">
+                      {getFactionLabel(faction, lang)}
+                    </span>
+                    <span className="text-[9px] font-mono text-[#777]">{selectedInGroup}/{ops.length}</span>
+                    <button type="button" onClick={() => onSelectIds(ops.map(op => op.id))} className="text-[8px] font-black px-1 py-0.5 border border-[#aaa] bg-white text-[#444]">ALL</button>
+                    <button type="button" onClick={() => onDeselectIds(ops.map(op => op.id))} className="text-[8px] font-black px-1 py-0.5 border border-[#aaa] bg-white text-[#444]">NONE</button>
+                  </div>
+                  {!collapsed && (
+                    <div className="py-1">
+                      {ops.map(op => {
+                        const name = op.display_name[lang] ?? op.display_name.zh_CN ?? op.id;
+                        const isSelected = selectedIds.has(op.id);
+                        return (
+                          <button
+                            key={op.id}
+                            onClick={() => { onToggle(op.id); onClose?.(); }}
+                            className="w-full flex items-center gap-2 px-2 py-1 text-left transition-colors"
+                            style={{ backgroundColor: isSelected ? 'rgba(0,194,255,0.15)' : 'transparent' }}
+                          >
+                            <span className="w-1.5 h-1.5 flex-shrink-0" style={{ backgroundColor: isSelected ? '#00c2ff' : '#ccc' }} />
+                            <span className="text-[11px] font-bold truncate text-[#111]">{name}</span>
+                          </button>
+                        );
+                      })}
+                    </div>
+                  )}
+                </div>
+              );
+            })}
+          </div>
+        </motion.div>
+      )}
+    </AnimatePresence>
+  </>
+);
+
+/* ---- 桌面端面板 ---- */
+const DesktopPanel: React.FC<OperatorSelectorProps & {
+  search: string; setSearch: (v: string) => void;
+  opsExpanded: boolean; setOpsExpanded: (v: boolean) => void;
+  infoExpanded: boolean; setInfoExpanded: (v: boolean) => void;
+  collapsedFactions: Set<string>; toggleFaction: (f: string) => void;
+  grouped: { faction: string; ops: Operator[] }[];
+  dragControls: ReturnType<typeof useDragControls>;
+}> = ({ currentEvent, lang, dragControls, ...props }) => (
+  <motion.div
+    drag
+    dragControls={dragControls}
+    dragListener={false}
+    dragMomentum={false}
+    className="absolute top-48 left-6 z-30 w-80 flex flex-col gap-4"
+  >
+    <div
+      className="flex flex-col flex-shrink-0 transition-all duration-300"
+      style={{
+        backgroundColor: '#fcfcfc',
+        border: '1px solid rgba(0,0,0,0.1)',
+        clipPath: 'polygon(0 0, calc(100% - 12px) 0, 100% 12px, 100% 100%, 12px 100%, 0 calc(100% - 12px))',
+        boxShadow: '-4px 4px 15px rgba(0,0,0,0.1)',
+        maxHeight: props.opsExpanded ? 'min(560px, 58vh)' : '45px',
+      }}
+    >
+      <OperatorListContent
+        allEventOperators={props.allEventOperators}
+        selectedIds={props.selectedIds}
+        onToggle={props.onToggle}
+        onSelectAll={props.onSelectAll}
+        onDeselectAll={props.onDeselectAll}
+        onSelectIds={props.onSelectIds}
+        onDeselectIds={props.onDeselectIds}
+        search={props.search}
+        setSearch={props.setSearch}
+        collapsedFactions={props.collapsedFactions}
+        toggleFaction={props.toggleFaction}
+        grouped={props.grouped}
+        lang={lang}
+        onToggleCollapse={() => props.setOpsExpanded(!props.opsExpanded)}
+        opsExpanded={props.opsExpanded}
+      />
+    </div>
+    {currentEvent && (
+      <div
+        className="flex flex-col flex-shrink-0 transition-all duration-300"
+        style={{
+          backgroundColor: '#fcfcfc',
+          border: '1px solid rgba(0,0,0,0.1)',
+          clipPath: 'polygon(0 0, calc(100% - 12px) 0, 100% 12px, 100% 100%, 12px 100%, 0 calc(100% - 12px))',
+          boxShadow: '-4px 4px 15px rgba(0,0,0,0.1)',
+          maxHeight: props.infoExpanded ? 'min(260px, 30vh)' : '45px',
+        }}
+      >
+        <div className="flex items-center justify-between px-4 py-2 bg-[#e0e0e0] select-none">
+          <span className="text-[11px] font-black tracking-widest text-[#222] uppercase">CHAPTER INFO</span>
+          <button type="button" className="text-[9px] font-bold text-[#888]" onClick={() => props.setInfoExpanded(!props.infoExpanded)}>
+            {props.infoExpanded ? '[ - ]' : '[ + ]'}
+          </button>
+        </div>
+        <AnimatePresence>
+          {props.infoExpanded && (
+            <motion.div
+              initial={{ height: 0, opacity: 0 }}
+              animate={{ height: 'auto', opacity: 1 }}
+              exit={{ height: 0, opacity: 0 }}
+              className="flex flex-col overflow-hidden"
+            >
+              <div className="p-4 bg-white overflow-y-auto" style={{ scrollbarWidth: 'thin' }}>
+                <div className="text-[10px] uppercase font-bold text-[#00c2ff] mb-1">{currentEvent.id}</div>
+                <h3 className="text-xl font-black text-[#1a1a1a] mb-2 leading-tight">{currentEvent.title[lang] ?? currentEvent.title.zh_CN}</h3>
+                <div className="text-xs text-[#555] font-medium leading-relaxed bg-[#f9f9f9] p-2 border-l-[3px] border-[#999]">
+                  {currentEvent.brief?.[lang] ?? currentEvent.brief?.zh_CN ?? 'No description available.'}
+                </div>
+              </div>
+            </motion.div>
+          )}
+        </AnimatePresence>
+      </div>
+    )}
+  </motion.div>
+);
+
+/* ---- 移动端抽屉 ---- */
+const MobileDrawer: React.FC<OperatorSelectorProps & {
+  drawerOpen: boolean; setDrawerOpen: (v: boolean) => void;
+  search: string; setSearch: (v: string) => void;
+  opsExpanded: boolean; setOpsExpanded: (v: boolean) => void;
+  infoExpanded: boolean; setInfoExpanded: (v: boolean) => void;
+  collapsedFactions: Set<string>; toggleFaction: (f: string) => void;
+  grouped: { faction: string; ops: Operator[] }[];
+  lang: LangKey;
+}> = (props) => (
+  <>
+    <AnimatePresence>
+      {!props.drawerOpen && (
+        <motion.button
+          type="button"
+          initial={{ opacity: 0, x: -20 }}
+          animate={{ opacity: 1, x: 0 }}
+          exit={{ opacity: 0, x: -20 }}
+          className="absolute top-6 left-6 z-30 flex items-center gap-2 px-4 py-2.5 text-[10px] font-black tracking-widest bg-[#00c2ff] text-white"
+          style={{ clipPath: 'polygon(0 0, calc(100% - 10px) 0, 100% 10px, 100% 100%, 0 100%)' }}
+          onClick={() => props.setDrawerOpen(true)}
+        >
+          OPERATORS ▾
+        </motion.button>
+      )}
+    </AnimatePresence>
+    <AnimatePresence>
+      {props.drawerOpen && (
+        <>
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            className="fixed inset-0 z-40 bg-black/50"
+            onClick={() => props.setDrawerOpen(false)}
+          />
+          <motion.div
+            initial={{ x: -340 }}
+            animate={{ x: 0 }}
+            exit={{ x: -340 }}
+            transition={{ type: 'spring', damping: 25, stiffness: 200 }}
+            className="fixed left-0 top-0 bottom-0 z-50 w-[85vw] max-w-[340px] flex flex-col gap-4 p-4 overflow-y-auto"
+            style={{ backgroundColor: 'rgba(10,10,10,0.97)', backdropFilter: 'blur(16px)' }}
+          >
+            <div className="flex items-center justify-between mb-3">
+              <span className="text-[11px] font-black tracking-widest text-[#00c2ff] uppercase">OPERATORS</span>
+              <button onClick={() => props.setDrawerOpen(false)} className="text-[11px] font-bold text-white/40">[ × ]</button>
+            </div>
+            <div className="flex flex-col flex-1 gap-4">
+              <div
+                className="flex flex-col flex-shrink-0 transition-all duration-300"
+                style={{
+                  backgroundColor: '#fcfcfc',
+                  border: '1px solid rgba(0,0,0,0.1)',
+                  clipPath: 'polygon(0 0, calc(100% - 12px) 0, 100% 12px, 100% 100%, 12px 100%, 0 calc(100% - 12px))',
+                  maxHeight: props.opsExpanded ? '50vh' : '45px',
+                }}
+              >
+                <OperatorListContent
+                  allEventOperators={props.allEventOperators}
+                  selectedIds={props.selectedIds}
+                  onToggle={props.onToggle}
+                  onSelectAll={props.onSelectAll}
+                  onDeselectAll={props.onDeselectAll}
+                  onSelectIds={props.onSelectIds}
+                  onDeselectIds={props.onDeselectIds}
+                  search={props.search}
+                  setSearch={props.setSearch}
+                  collapsedFactions={props.collapsedFactions}
+                  toggleFaction={props.toggleFaction}
+                  grouped={props.grouped}
+                  lang={props.lang}
+                  onToggleCollapse={() => props.setOpsExpanded(!props.opsExpanded)}
+                  opsExpanded={props.opsExpanded}
+                  onClose={() => props.setDrawerOpen(false)}
+                />
+              </div>
+              {props.currentEvent && (
+                <div
+                  className="flex flex-col flex-shrink-0 transition-all duration-300"
+                  style={{
+                    backgroundColor: '#fcfcfc',
+                    border: '1px solid rgba(0,0,0,0.1)',
+                    clipPath: 'polygon(0 0, calc(100% - 12px) 0, 100% 12px, 100% 100%, 12px 100%, 0 calc(100% - 12px))',
+                    maxHeight: props.infoExpanded ? '30vh' : '45px',
+                  }}
+                >
+                  <div className="flex items-center justify-between px-4 py-2 bg-[#e0e0e0] select-none">
+                    <span className="text-[11px] font-black tracking-widest text-[#222] uppercase">CHAPTER INFO</span>
+                    <button type="button" className="text-[9px] font-bold text-[#888]" onClick={() => props.setInfoExpanded(!props.infoExpanded)}>
+                      {props.infoExpanded ? '[ - ]' : '[ + ]'}
+                    </button>
+                  </div>
+                  <AnimatePresence>
+                    {props.infoExpanded && (
+                      <motion.div
+                        initial={{ height: 0, opacity: 0 }}
+                        animate={{ height: 'auto', opacity: 1 }}
+                        exit={{ height: 0, opacity: 0 }}
+                        className="flex flex-col overflow-hidden"
+                      >
+                        <div className="p-4 bg-white overflow-y-auto" style={{ scrollbarWidth: 'thin' }}>
+                          <div className="text-[10px] uppercase font-bold text-[#00c2ff] mb-1">{props.currentEvent.id}</div>
+                          <h3 className="text-xl font-black text-[#1a1a1a] mb-2 leading-tight">{props.currentEvent.title[props.lang] ?? props.currentEvent.title.zh_CN}</h3>
+                          <div className="text-xs text-[#555] font-medium leading-relaxed bg-[#f9f9f9] p-2 border-l-[3px] border-[#999]">
+                            {props.currentEvent.brief?.[props.lang] ?? props.currentEvent.brief?.zh_CN ?? 'No description available.'}
+                          </div>
+                        </div>
+                      </motion.div>
+                    )}
+                  </AnimatePresence>
+                </div>
+              )}
+            </div>
+          </motion.div>
+        </>
+      )}
+    </AnimatePresence>
+  </>
+);
+
+const OperatorSelector: React.FC<OperatorSelectorProps> = (props) => {
   const dragControls = useDragControls();
   const [search, setSearch] = useState('');
-  const [opsExpanded, setOpsExpanded] = useState(true);
+  const [opsExpanded, setOpsExpanded] = useState(false);
   const [infoExpanded, setInfoExpanded] = useState(true);
   const [collapsedFactions, setCollapsedFactions] = useState<Set<string>>(new Set());
+  const [drawerOpen, setDrawerOpen] = useState(false);
+  const isMobile = useIsMobile();
 
   const filtered = useMemo(() => {
-    if (!search.trim()) return allEventOperators;
+    if (!search.trim()) return props.allEventOperators;
     const q = search.toLowerCase();
-    return allEventOperators.filter(op => {
-      const localName = op.display_name[lang] ?? op.display_name.zh_CN ?? '';
+    return props.allEventOperators.filter(op => {
+      const localName = op.display_name[props.lang] ?? op.display_name.zh_CN ?? '';
       const zhName = op.display_name.zh_CN ?? '';
       const enName = op.display_name.en_US ?? '';
       return `${localName} ${zhName} ${enName} ${Array.isArray(op.faction) ? op.faction.join(',') : op.faction}`.toLowerCase().includes(q);
     });
-  }, [allEventOperators, search, lang]);
+  }, [props.allEventOperators, search, props.lang]);
 
   const grouped = useMemo(() => {
     const groups = new Map<string, Operator[]>();
@@ -121,11 +429,11 @@ const OperatorSelector: React.FC<OperatorSelectorProps> = ({
       .map(([faction, ops]) => ({
         faction,
         ops: [...ops].sort((a, b) =>
-          (a.display_name[lang] ?? a.display_name.zh_CN).localeCompare(b.display_name[lang] ?? b.display_name.zh_CN),
+          (a.display_name[props.lang] ?? a.display_name.zh_CN).localeCompare(b.display_name[props.lang] ?? b.display_name.zh_CN),
         ),
       }))
-      .sort((a, b) => b.ops.length - a.ops.length || getFactionLabel(a.faction, lang).localeCompare(getFactionLabel(b.faction, lang)));
-  }, [filtered, lang]);
+      .sort((a, b) => b.ops.length - a.ops.length || getFactionLabel(a.faction, props.lang).localeCompare(getFactionLabel(b.faction, props.lang)));
+  }, [filtered, props.lang]);
 
   const toggleFaction = (faction: string) => {
     setCollapsedFactions(prev => {
@@ -136,184 +444,41 @@ const OperatorSelector: React.FC<OperatorSelectorProps> = ({
     });
   };
 
+  if (isMobile) {
+    return (
+      <MobileDrawer
+        {...props}
+        drawerOpen={drawerOpen}
+        setDrawerOpen={setDrawerOpen}
+        search={search}
+        setSearch={setSearch}
+        opsExpanded={opsExpanded}
+        setOpsExpanded={setOpsExpanded}
+        infoExpanded={infoExpanded}
+        setInfoExpanded={setInfoExpanded}
+        collapsedFactions={collapsedFactions}
+        toggleFaction={toggleFaction}
+        grouped={grouped}
+        lang={props.lang}
+      />
+    );
+  }
+
   return (
-    <motion.div
-      drag
+    <DesktopPanel
+      {...props}
       dragControls={dragControls}
-      dragListener={false}
-      dragMomentum={false}
-      className="absolute top-20 left-6 z-30 w-80 flex flex-col gap-4"
-    >
-      <div
-        className="flex flex-col flex-shrink-0 transition-all duration-300"
-        style={{
-          backgroundColor: '#fcfcfc',
-          border: '1px solid rgba(0,0,0,0.1)',
-          clipPath: 'polygon(0 0, calc(100% - 12px) 0, 100% 12px, 100% 100%, 12px 100%, 0 calc(100% - 12px))',
-          boxShadow: '-4px 4px 15px rgba(0,0,0,0.1)',
-          maxHeight: opsExpanded ? 'min(560px, 58vh)' : '45px',
-        }}
-      >
-        <div className="flex items-center justify-between px-4 py-2 bg-[#e0e0e0] select-none">
-          <button
-            type="button"
-            className="text-[11px] font-black tracking-widest text-[#222] uppercase cursor-move"
-            onPointerDown={(e) => dragControls.start(e)}
-          >
-            OPERATORS
-          </button>
-          <button
-            type="button"
-            className="text-[9px] font-bold text-[#888]"
-            onClick={() => setOpsExpanded(!opsExpanded)}
-          >
-            {opsExpanded ? '[ - ]' : '[ + ]'}
-          </button>
-        </div>
-
-        <AnimatePresence>
-          {opsExpanded && (
-            <motion.div
-              initial={{ height: 0, opacity: 0 }}
-              animate={{ height: 'auto', opacity: 1 }}
-              exit={{ height: 0, opacity: 0 }}
-              className="flex flex-col flex-1 overflow-hidden"
-            >
-              <div className="px-3 pt-2 pb-2 border-b border-[#ccc] bg-[#f0f0f0] shrink-0">
-                <div className="flex items-center justify-between mb-2">
-                  <span className="text-[10px] font-bold text-[#555] tracking-widest">
-                    SELECTED: {selectedIds.size}/{allEventOperators.length}
-                  </span>
-                  <div className="flex gap-1">
-                    <button onClick={onSelectAll} className="text-[9px] font-black px-1.5 py-0.5 border border-[#999] text-[#444] bg-white hover:bg-[#ddd] transition-colors">ALL</button>
-                    <button onClick={onDeselectAll} className="text-[9px] font-black px-1.5 py-0.5 border border-[#999] text-[#444] bg-white hover:bg-[#ddd] transition-colors">NONE</button>
-                  </div>
-                </div>
-                <input
-                  value={search}
-                  onChange={e => setSearch(e.target.value)}
-                  placeholder="SEARCH NAME / FACTION..."
-                  className="w-full bg-white text-[10px] font-mono px-2 py-1.5 border border-[#bbb] outline-none text-[#333]"
-                />
-              </div>
-
-              <div className="flex-1 overflow-y-auto bg-white p-2" style={{ scrollbarWidth: 'thin' }}>
-                {grouped.map(({ faction, ops }) => {
-                  const selectedInGroup = ops.filter(op => selectedIds.has(op.id)).length;
-                  const collapsed = collapsedFactions.has(faction);
-                  const factionColor = getFactionColor(faction);
-                  return (
-                    <div key={faction} className="mb-2 border border-[#e2e2e2] bg-[#fafafa]">
-                      <div className="flex items-center gap-2 px-2 py-1.5 bg-[#eeeeee]">
-                        <button
-                          type="button"
-                          onClick={() => toggleFaction(faction)}
-                          className="text-[9px] font-black text-[#555] w-5"
-                        >
-                          {collapsed ? '[+]' : '[-]'}
-                        </button>
-                        <span className="h-2 w-2 flex-shrink-0" style={{ backgroundColor: factionColor }} />
-                        <span className="min-w-0 flex-1 truncate text-[10px] font-black uppercase tracking-wider text-[#222]">
-                          {getFactionLabel(faction, lang)}
-                        </span>
-                        <span className="text-[9px] font-mono text-[#777]">{selectedInGroup}/{ops.length}</span>
-                        <button
-                          type="button"
-                          onClick={() => onSelectIds(ops.map(op => op.id))}
-                          className="text-[8px] font-black px-1 py-0.5 border border-[#aaa] bg-white text-[#444]"
-                        >
-                          ALL
-                        </button>
-                        <button
-                          type="button"
-                          onClick={() => onDeselectIds(ops.map(op => op.id))}
-                          className="text-[8px] font-black px-1 py-0.5 border border-[#aaa] bg-white text-[#444]"
-                        >
-                          NONE
-                        </button>
-                      </div>
-
-                      {!collapsed && (
-                        <div className="py-1">
-                          {ops.map(op => {
-                            const name = op.display_name[lang] ?? op.display_name.zh_CN ?? op.id;
-                            const isSelected = selectedIds.has(op.id);
-                            return (
-                              <button
-                                key={op.id}
-                                onClick={() => onToggle(op.id)}
-                                className="w-full flex items-center gap-2 px-2 py-1 text-left transition-colors"
-                                style={{ backgroundColor: isSelected ? 'rgba(0,194,255,0.15)' : 'transparent' }}
-                              >
-                                <span className="w-1.5 h-1.5 flex-shrink-0" style={{ backgroundColor: isSelected ? '#00c2ff' : '#ccc' }} />
-                                <span className="text-[11px] font-bold truncate text-[#111]">{name}</span>
-                              </button>
-                            );
-                          })}
-                        </div>
-                      )}
-                    </div>
-                  );
-                })}
-              </div>
-            </motion.div>
-          )}
-        </AnimatePresence>
-      </div>
-
-      {currentEvent && (
-        <div
-          className="flex flex-col flex-shrink-0 transition-all duration-300"
-          style={{
-            backgroundColor: '#fcfcfc',
-            border: '1px solid rgba(0,0,0,0.1)',
-            clipPath: 'polygon(0 0, calc(100% - 12px) 0, 100% 12px, 100% 100%, 12px 100%, 0 calc(100% - 12px))',
-            boxShadow: '-4px 4px 15px rgba(0,0,0,0.1)',
-            maxHeight: infoExpanded ? 'min(260px, 30vh)' : '45px',
-          }}
-        >
-          <div className="flex items-center justify-between px-4 py-2 bg-[#e0e0e0] select-none">
-            <button
-              type="button"
-              className="text-[11px] font-black tracking-widest text-[#222] uppercase cursor-move"
-              onPointerDown={(e) => dragControls.start(e)}
-            >
-              CHAPTER INFO
-            </button>
-            <button
-              type="button"
-              className="text-[9px] font-bold text-[#888]"
-              onClick={() => setInfoExpanded(!infoExpanded)}
-            >
-              {infoExpanded ? '[ - ]' : '[ + ]'}
-            </button>
-          </div>
-
-          <AnimatePresence>
-            {infoExpanded && (
-              <motion.div
-                initial={{ height: 0, opacity: 0 }}
-                animate={{ height: 'auto', opacity: 1 }}
-                exit={{ height: 0, opacity: 0 }}
-                className="flex flex-col overflow-hidden"
-              >
-                <div className="p-4 bg-white overflow-y-auto" style={{ scrollbarWidth: 'thin' }}>
-                  <div className="text-[10px] uppercase font-bold text-[#00c2ff] mb-1">
-                    {currentEvent.id}
-                  </div>
-                  <h3 className="text-xl font-black text-[#1a1a1a] mb-2 leading-tight">
-                    {currentEvent.title[lang] ?? currentEvent.title.zh_CN}
-                  </h3>
-                  <div className="text-xs text-[#555] font-medium leading-relaxed bg-[#f9f9f9] p-2 border-l-[3px] border-[#999]">
-                    {currentEvent.brief?.[lang] ?? currentEvent.brief?.zh_CN ?? 'No description available.'}
-                  </div>
-                </div>
-              </motion.div>
-            )}
-          </AnimatePresence>
-        </div>
-      )}
-    </motion.div>
+      search={search}
+      setSearch={setSearch}
+      opsExpanded={opsExpanded}
+      setOpsExpanded={setOpsExpanded}
+      infoExpanded={infoExpanded}
+      setInfoExpanded={setInfoExpanded}
+      collapsedFactions={collapsedFactions}
+      toggleFaction={toggleFaction}
+      grouped={grouped}
+      lang={props.lang}
+    />
   );
 };
 

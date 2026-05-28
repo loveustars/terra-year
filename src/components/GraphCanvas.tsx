@@ -1,5 +1,6 @@
 import React, { useMemo, useState, useCallback, useRef, useEffect, useReducer } from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
+import { useIsMobile } from '../hooks/useIsMobile';
 import type { Operator, OperatorRelation, TerraEvent, LangKey } from '../hooks/useTerraData';
 import { RELATION_TYPE_STYLES } from '../utils/assets';
 import OperatorAvatar, { ErrorBoundary } from './OperatorAvatar';
@@ -261,6 +262,12 @@ export default function GraphCanvas({
   const lastPan = useRef({ x: 0, y: 0 });
   const dragNodeRef = useRef<{ id: string; startX: number; startY: number; origRx: number; origRy: number } | null>(null);
   const nodePosMapRef = useRef<Record<string, { rx: number; ry: number }>>({});
+  const isMobile = useIsMobile();
+
+  // Touch state refs
+  const lastTouchesRef = useRef<{ x: number; y: number; dist: number } | null>(null);
+  const touchStartRef = useRef<{ x: number; y: number; time: number } | null>(null);
+  const touchMovedRef = useRef(false);
 
   const nodes = useMemo(() => circularLayout(operators, relations), [operators, relations]);
 
@@ -302,11 +309,13 @@ export default function GraphCanvas({
       return;
     }
     const t = transformRef.current;
-    t.s = scale;
-    t.tx = viewport.width / 2 - GRAPH_CX * scale;
-    t.ty = viewport.height / 2 - GRAPH_CY * scale;
+    const initScale = isMobile ? 0.38 : 0.55;
+    const targetScale = scale ?? initScale;
+    t.s = targetScale;
+    t.tx = viewport.width / 2 - GRAPH_CX * targetScale;
+    t.ty = viewport.height / 2 - GRAPH_CY * targetScale;
     apply();
-  }, [apply]);
+  }, [apply, isMobile]);
 
   useEffect(() => { centerView(); }, [centerView]);
 
@@ -348,6 +357,120 @@ export default function GraphCanvas({
     isDraggingCanvas.current = false;
   }, []);
 
+  // Touch handlers for mobile
+  const onTouchStart = useCallback((e: React.TouchEvent) => {
+    const touches = e.touches;
+    if (touches.length === 1) {
+      touchStartRef.current = { x: touches[0].clientX, y: touches[0].clientY, time: Date.now() };
+      touchMovedRef.current = false;
+      lastPan.current = { x: touches[0].clientX, y: touches[0].clientY };
+    } else if (touches.length === 2) {
+      touchMovedRef.current = true; // Two-finger gesture, not a tap
+      const dx = touches[1].clientX - touches[0].clientX;
+      const dy = touches[1].clientY - touches[0].clientY;
+      lastTouchesRef.current = {
+        x: (touches[0].clientX + touches[1].clientX) / 2,
+        y: (touches[0].clientY + touches[1].clientY) / 2,
+        dist: Math.hypot(dx, dy),
+      };
+    }
+  }, []);
+
+  const onTouchMove = useCallback((e: React.TouchEvent) => {
+    e.preventDefault();
+    const touches = e.touches;
+
+    if (touches.length === 1 && touchStartRef.current) {
+      const dx = touches[0].clientX - lastPan.current.x;
+      const dy = touches[0].clientY - lastPan.current.y;
+
+      // If moved more than 8px, mark as moved (not a tap)
+      if (Math.abs(dx) > 8 || Math.abs(dy) > 8) {
+        touchMovedRef.current = true;
+      }
+
+      const t = transformRef.current;
+      t.tx += dx;
+      t.ty += dy;
+      lastPan.current = { x: touches[0].clientX, y: touches[0].clientY };
+      apply();
+    } else if (touches.length === 2 && lastTouchesRef.current) {
+      touchMovedRef.current = true;
+      const cx = (touches[0].clientX + touches[1].clientX) / 2;
+      const cy = (touches[0].clientY + touches[1].clientY) / 2;
+      const dist = Math.hypot(touches[1].clientX - touches[0].clientX, touches[1].clientY - touches[0].clientY);
+
+      // Pinch zoom
+      const factor = dist / lastTouchesRef.current.dist;
+      const t = transformRef.current;
+      const rect = viewportRef.current?.getBoundingClientRect();
+      if (rect) {
+        const mx = cx - rect.left;
+        const my = cy - rect.top;
+        const worldX = (mx - t.tx) / t.s;
+        const worldY = (my - t.ty) / t.s;
+        const newS = Math.max(0.18, Math.min(2.8, t.s * factor));
+        t.tx = mx - worldX * newS;
+        t.ty = my - worldY * newS;
+        t.s = newS;
+      }
+
+      // Pan with two fingers
+      const dx = cx - lastTouchesRef.current.x;
+      const dy = cy - lastTouchesRef.current.y;
+      const tt = transformRef.current;
+      tt.tx += dx;
+      tt.ty += dy;
+
+      lastTouchesRef.current = { x: cx, y: cy, dist };
+      apply();
+    }
+  }, [apply]);
+
+  const onTouchEnd = useCallback((e: React.TouchEvent) => {
+    // Handle tap on node if it wasn't a pan/pinch gesture
+    if (touchStartRef.current && !touchMovedRef.current && e.changedTouches.length === 1) {
+      const touch = e.changedTouches[0];
+      const elapsed = Date.now() - touchStartRef.current.time;
+      const dx = Math.abs(touch.clientX - touchStartRef.current.x);
+      const dy = Math.abs(touch.clientY - touchStartRef.current.y);
+
+      // It was a tap if: short duration, minimal movement
+      if (elapsed < 300 && dx < 12 && dy < 12) {
+        const t = transformRef.current;
+        const rect = viewportRef.current?.getBoundingClientRect();
+        if (rect) {
+          const worldX = (touch.clientX - rect.left - t.tx) / t.s;
+          const worldY = (touch.clientY - rect.top - t.ty) / t.s;
+
+          // Find closest node within tap radius (adjusted for zoom)
+          const tapRadius = 50 / t.s;
+          let closestNode: typeof nodes[0] | null = null;
+          let closestDist = Infinity;
+
+          for (const node of nodes) {
+            const pos = nodePos(node.id);
+            const dist = Math.hypot(worldX - pos.rx, worldY - pos.ry);
+            if (dist < tapRadius && dist < closestDist) {
+              closestDist = dist;
+              closestNode = node;
+            }
+          }
+
+          if (closestNode) {
+            const next = selId === closestNode.id ? null : closestNode.id;
+            setSelId(next);
+            onSelectOperator?.(next);
+          }
+        }
+      }
+    }
+
+    touchStartRef.current = null;
+    lastTouchesRef.current = null;
+    touchMovedRef.current = false;
+  }, [nodes, nodePos, selId, onSelectOperator]);
+
   const onWheel = useCallback((e: React.WheelEvent) => {
     e.preventDefault();
     const t = transformRef.current;
@@ -374,14 +497,22 @@ export default function GraphCanvas({
     centerView(Math.max(0.18, t.s * 0.9));
   }, [centerView]);
   const resetView = useCallback(() => {
-    centerView(0.55);
-  }, [centerView]);
+    const initScale = isMobile ? 0.38 : 0.55;
+    centerView(initScale);
+  }, [centerView, isMobile]);
 
   const handleSelect = useCallback((id: string, e?: React.MouseEvent, avatarRect?: DOMRect) => {
-    const next = selId === id ? null : id;
+    const next = id === selId ? null : id;
     setSelId(next);
     onSelectOperator?.(next, e ? { pageX: e.pageX, pageY: e.pageY } : undefined, avatarRect);
   }, [selId, onSelectOperator]);
+
+  const handleNodeTap = useCallback((e: React.MouseEvent | React.TouchEvent, nodeId: string) => {
+    if (isMobile && 'touches' in e) return; // Mobile touch handled separately
+    e.stopPropagation();
+    const rect = e.currentTarget.getBoundingClientRect();
+    handleSelect(nodeId, e as unknown as React.MouseEvent, rect);
+  }, [isMobile, handleSelect]);
 
   const zoom = transformRef.current.s;
 
@@ -389,12 +520,15 @@ export default function GraphCanvas({
     <div
       ref={viewportRef}
       className="relative w-full h-full overflow-hidden touch-none"
-      style={{ cursor: isDraggingCanvas.current ? 'grabbing' : 'grab' }}
+      style={{ cursor: isDraggingCanvas.current ? 'grabbing' : 'grab', touchAction: 'none' }}
       onMouseDown={onMouseDown}
       onMouseMove={onMouseMove}
       onMouseUp={onMouseUp}
       onMouseLeave={onMouseUp}
       onWheel={onWheel}
+      onTouchStart={onTouchStart}
+      onTouchMove={onTouchMove}
+      onTouchEnd={onTouchEnd}
     >
       {/* Transform 容器：CSS transform 实现缩放/平移 */}
       <div
@@ -414,8 +548,8 @@ export default function GraphCanvas({
             return (
               <motion.div
                 key={node.id}
-                onClick={(e) => { e.stopPropagation(); const rect = e.currentTarget.getBoundingClientRect(); handleSelect(node.id, e, rect); }}
-                onMouseDown={(e) => { if (e.button === 0) { e.stopPropagation(); startNodeDrag(node.id, e.clientX, e.clientY); } }}
+                onClick={(e) => { if (!isMobile) handleNodeTap(e, node.id); }}
+                onMouseDown={(e) => { if (e.button === 0 && !isMobile) { e.stopPropagation(); startNodeDrag(node.id, e.clientX, e.clientY); } }}
                 className="absolute flex flex-col items-center cursor-pointer transition-opacity duration-200"
                 initial={{ scale: 0.35, opacity: 0 }}
                 animate={{ scale: 1, opacity: hl ? 1 : 0.3 }}

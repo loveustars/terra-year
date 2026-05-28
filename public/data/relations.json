@@ -14518,7 +14518,7 @@
   },
   {
     "id": "rel_lafcine_deeppool",
-    "source": "npc_lafcine",
+    "source": "char_261_sddrag",
     "target": "char_450_necras",
     "relation_type": "ally",
     "relation_label": {

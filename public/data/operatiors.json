@@ -5732,7 +5732,7 @@
     "avatar_key": "npc_deeppool_cadres",
     "is_npc": true,
     "description": {
-      "zh_CN": "深池的六名干部：「会计」「囚犯」「纵火家」「毒药学者」「强盗」「雄辩家」。他们追捕被Outcast救走的深池领袖（拉芙希妮），最终被Outcast以六发子弹同时射击全部击杀。",
+      "zh_CN": "深池的六名干部：「会计」「囚犯」「纵火家」「毒药学者」「强盗」「雄辩家」。他们追捕被Outcast救走的深池领袖，最终被Outcast以六发子弹同时射击全部击杀。",
       "en_US": ""
     }
   },
@@ -6047,22 +6047,6 @@
     "description": {
       "zh_CN": "乌萨斯公爵，塔露拉的养父，以教育之名施加源石技艺的思维操控。凯尔希在07-01_end中向魏彦吾透露他是塔露拉的继承人。",
       "en_US": "Duke of Ursus, Talulah's adoptive father who imposed mental control through arts in the name of education. Kal'tsit reveals to Wei that he is Talulah's heir in 07-01_end."
-    }
-  },
-  {
-    "id": "npc_lafcine",
-    "display_name": {
-      "zh_CN": "拉芙希妮",
-      "en_US": "Lafcine"
-    },
-    "faction": [
-      "siracusa"
-    ],
-    "avatar_key": "npc_lafcine",
-    "is_npc": true,
-    "description": {
-      "zh_CN": "深池神秘领袖的妹妹，瓦伊凡。在小丘郡事变中被炮弹击中受重伤，被Outcast救走后站在了与哥哥对立的位置，成为维多利亚方的一员。",
-      "en_US": ""
     }
   },
   {
