@@ -222,8 +222,7 @@
     },
     "faction": [
       "rhodes_island",
-      "babel",
-      "sarkaz"
+      "reunion"
     ],
     "avatar_key": "char_113_cqbw",
     "is_npc": false,
@@ -623,7 +622,7 @@
       "en_US": "Crownslayer"
     },
     "faction": [
-      "ursus",
+      "reunion",
       "rhodes_island"
     ],
     "avatar_key": "char_1502_crosly",
@@ -1297,7 +1296,10 @@
       "zh_CN": "杰西卡",
       "en_US": "Jessica"
     },
-    "faction": "victoria",
+    "faction": [
+      "rhodes_island",
+      "columbia"
+    ],
     "avatar_key": "char_235_jesica",
     "is_npc": false,
     "description": {
@@ -1848,13 +1850,13 @@
     }
   },
   {
-    "id": "char_297_hamoni",
+    "id": "char_297_harmonie",
     "display_name": {
       "zh_CN": "和弦",
       "en_US": "Harmonie"
     },
     "faction": "victoria",
-    "avatar_key": "char_297_hamoni",
+    "avatar_key": "char_297_harmonie",
     "is_npc": false,
     "description": {
       "zh_CN": "",
@@ -3272,7 +3274,7 @@
     "avatar_key": "char_4080_lin",
     "is_npc": true,
     "description": {
-      "zh_CN": "龙门近卫局成员，魏彦吾之女，黑蓑首领",
+      "zh_CN": "龙门近卫局成员，鼠王林舸瑞之女，黑蓑首领",
       "en_US": "Longzhou Guardian, Wei Yanwu's daughter, Black Cloak leader"
     },
     "rarity": 5,
@@ -4620,8 +4622,7 @@
       "en_US": "Closure"
     },
     "faction": [
-      "kazimierz_mc",
-      "sarkaz"
+      "rhode_island"
     ],
     "avatar_key": "char_4228_closur",
     "is_npc": false,
@@ -5468,7 +5469,7 @@
       "zh_CN": "魏彦吾",
       "en_US": "Wei Yenwu"
     },
-    "faction": "yan",
+    "faction": "lungmen",
     "avatar_key": "npc_2005_wywu",
     "is_npc": true,
     "description": {
@@ -5731,23 +5732,7 @@
     "avatar_key": "npc_deeppool_cadres",
     "is_npc": true,
     "description": {
-      "zh_CN": "深池的六名干部：「会计」「囚犯」「纵火家」「毒药学者」「强盗」「雄辩家」。他们追捕被Outcast救走的深池领袖（拉芙希妮），最终被Outcast以六发子弹同时射击全部击杀。",
-      "en_US": ""
-    }
-  },
-  {
-    "id": "npc_deeppool_leader",
-    "display_name": {
-      "zh_CN": "深池神秘领袖",
-      "en_US": "Deeppool Mysterious Leader"
-    },
-    "faction": [
-      "siracusa"
-    ],
-    "avatar_key": "npc_deeppool_leader",
-    "is_npc": true,
-    "description": {
-      "zh_CN": "深池的最高指挥，深池的神秘领袖，萨卡兹？妹妹是拉芙希妮。在小丘郡事变中始终保持神秘，由阿赫茉妮代为发声，目标是引发维多利亚内战。",
+      "zh_CN": "深池的六名干部：「会计」「囚犯」「纵火家」「毒药学者」「强盗」「雄辩家」。他们追捕被Outcast救走的深池领袖，最终被Outcast以六发子弹同时射击全部击杀。",
       "en_US": ""
     }
   },
@@ -6065,22 +6050,6 @@
     }
   },
   {
-    "id": "npc_lafcine",
-    "display_name": {
-      "zh_CN": "拉芙希妮",
-      "en_US": "Lafcine"
-    },
-    "faction": [
-      "siracusa"
-    ],
-    "avatar_key": "npc_lafcine",
-    "is_npc": true,
-    "description": {
-      "zh_CN": "深池神秘领袖的妹妹，瓦伊凡。在小丘郡事变中被炮弹击中受重伤，被Outcast救走后站在了与哥哥对立的位置，成为维多利亚方的一员。",
-      "en_US": ""
-    }
-  },
-  {
     "id": "npc_last_steam",
     "display_name": {
       "zh_CN": "最后的蒸汽骑士",
@@ -6249,7 +6218,7 @@
       "zh_CN": "九",
       "en_US": "Nine"
     },
-    "faction": "lungmen",
+    "faction": ["reunion"],
     "avatar_key": "npc_nine",
     "is_npc": true,
     "description": {
@@ -6708,7 +6677,11 @@
       "zh_CN": "芙兰卡",
       "en_US": "Franka"
     },
-    "faction": "rhodes_island",
+    "faction": [
+      "rhodes_island",
+      "columbia"
+    ],
+
     "avatar_key": "char_106_franka",
     "is_npc": false,
     "description": {
@@ -6801,13 +6774,13 @@
     }
   },
   {
-    "id": "npc_ahmani",
+    "id": "char_297_harmonie",
     "display_name": {
       "zh_CN": "阿赫茉妮",
       "en_US": "Ahmani"
     },
     "faction": "deepwell",
-    "avatar_key": "npc_ahmani",
+    "avatar_key": "char_297_harmonie",
     "is_npc": true,
     "description": {
       "zh_CN": "",

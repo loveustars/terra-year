@@ -200,7 +200,7 @@
     "source": "story"
   },
   {
-    "id": "npc_ahmani",
+    "id": "char_297_harmonie",
     "display_name": {
       "zh_CN": "阿赫茉妮",
       "en_US": "Aetherev"
@@ -240,7 +240,7 @@
     "source": "story"
   },
   {
-    "id": "npc_deeppool_leader",
+    "id": "char_450_necras",
     "display_name": {
       "zh_CN": "深池领袖(爱布拉娜?)",
       "en_US": "Deep Scar Leader (Eblana?)"
@@ -2161,7 +2161,7 @@
     "source": "stafffile"
   },
   {
-    "id": "char_297_hamoni",
+    "id": "char_297_harmonie",
     "display_name": {
       "zh_CN": "和弦",
       "en_US": "和弦"
